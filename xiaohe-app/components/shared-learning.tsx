@@ -1,0 +1,56 @@
+"use client";
+import { useState } from "react";
+import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, ChevronDown, ChevronRight, FileCheck2, Lightbulb, LockKeyhole, MessageCircle, Send, ShieldCheck, Sprout, Star } from "lucide-react";
+import type { AppProps, View } from "@/lib/ui-types";
+import { effectiveAttempt, effectiveEvidence } from "@/lib/effective-evidence";
+import { EvidenceComparison } from "./evidence-review-workspace";
+import type { HelpLevel } from "@/lib/types";
+import "./shared-learning.css";
+const labels: Record<HelpLevel, string> = { independent: "独立作答", hint: "使用提示", explanation: "看过讲解", unknown: "帮助情况待确认" };
+const sharedDate = (value?: string) => value ? new Intl.DateTimeFormat("zh-CN", { month: "long", day: "numeric", timeZone: "Asia/Shanghai" }).format(new Date(value)) : "尚无记录";
+
+export default function SharedLearning(props: AppProps & { view: View }) {
+  const role = props.state.access?.role ?? props.state.actor.role;
+  if (props.view === "shared-help" && role === "teacher") return <TeacherRequests {...props} />;
+  if (props.view === "report" && props.selectedId) return <SharedReport {...props} />;
+  return <SharedOverview {...props} />;
+}
+function SharedOverview({ state, navigate }: AppProps) {
+  const role = state.access?.role ?? state.actor.role;
+  const attempts = state.attempts.filter(a => a.status === "submitted").map(a => effectiveAttempt(state, a.id)!).filter(Boolean).sort((a, b) => (b.submittedAt ?? b.startedAt).localeCompare(a.submittedAt ?? a.startedAt));
+  const personal = attempts.filter(a => !a.id.startsWith("demo-"));
+  const evidence = effectiveEvidence(state).filter(e => e.valid && !e.id.startsWith("demo-"));
+  return <div className="shared-page"><div className="shared-heading"><p className="eyebrow">GROWTH, SUPPORTED BY EVIDENCE</p><h1>一起看见，具体的进步</h1><p className="muted">{state.profile.name}的学习记录 · {role === "teacher" ? "教师" : "家长"}报告视图</p></div><div className="notice shared-notice"><LockKeyhole size={18} /><span>这里仅展示当前授权范围内的学习报告与作答证据。私人对话、照片和未完成作答不在报告展示；教师复核仅可另行查看申请人明确选择的图片。</span></div><div className="shared-stats">{[{ title: "完成练习", value: personal.length, icon: <FileCheck2 size={23} /> }, { title: "独立答对", value: evidence.filter(e => e.correct && e.help === "independent").length, icon: <CheckCircle2 size={23} /> }, { title: "学习证据", value: evidence.length, icon: <BookOpen size={23} /> }].map(item => <section className="card shared-stat" key={item.title}><span>{item.icon}</span><strong>{item.value}</strong><p>{item.title}</p></section>)}</div><section className="card shared-knowledge"><div className="shared-section-heading"><h2>知识点与判断依据</h2><span className="badge">演示历史不计星级</span></div>{state.knowledge.map(knowledge => <div className="shared-knowledge-row" key={knowledge.id}><div><h3>{knowledge.name}</h3><p>{knowledge.reason}</p><small>判断规则：{knowledge.ruleVersion}</small></div>{knowledge.stars === null ? <span className="badge subtle">{knowledge.learningState === "upcoming" ? "未学习" : "待评估"}</span> : <span className="shared-stars" aria-label={`${knowledge.stars} 星`}>{Array.from({ length: 5 }, (_, index) => <Star key={index} size={17} fill={index < knowledge.stars! ? "currentColor" : "none"} />)}</span>}</div>)}</section><div className="shared-section-heading"><h2>已完成的学习报告</h2><span className="muted">原始作答与帮助使用分别保留</span></div><div className="shared-report-list">{attempts.map(attempt => { const paper = state.papers.find(p => p.id === attempt.paperId); return <button className="card shared-report-link" key={attempt.id} onClick={() => navigate("report", attempt.id)}><span className="shared-report-icon"><FileCheck2 size={23} /></span><div><h3>{paper?.title ?? "已完成的练习"}</h3><p>{sharedDate(attempt.submittedAt)} · {attempt.answers.length} 条保留作答 · {attempt.retainedCount > attempt.invalidatedCount ? `${attempt.correctCount} 题答对` : "暂无有效统计"}</p></div><span className="badge">{attempt.id.startsWith("demo-") ? "演示记录" : "已完成"}</span><ChevronRight size={18} /></button>; })}</div>{!attempts.length && <div className="card empty-state"><Sprout size={34} /><h3>先给学习一点时间</h3><p>学生提交练习后，授权范围内的报告会出现在这里。</p></div>}<section className="shared-support"><Lightbulb size={23} /><div><h3>把关注放在过程上</h3><p>可以请孩子讲一讲怎样想、怎样检验。用过提示和独立完成分别看待，让下一道新题帮助确认掌握情况。</p></div>{role === "teacher" && <button className="btn btn-secondary" onClick={() => navigate("shared-help")}>查看已共享求助<ArrowRight size={16} /></button>}</section></div>;
+}
+function SharedReport({ state, selectedId, navigate, evidenceRevision }: AppProps) {
+  const [expanded, setExpanded] = useState<string | null>(null);
+  const original = state.attempts.find(a => a.status === "submitted" && (a.id === selectedId || a.paperId === selectedId));
+  const attempt = original && effectiveAttempt(state, original.id, evidenceRevision);
+  const paper = state.papers.find(p => p.id === attempt?.paperId);
+  const role = state.access?.role ?? state.actor.role;
+  if (!attempt) return <div className="card empty-state"><LockKeyhole size={32} /><h2>这份报告暂不可查看</h2><p>报告可能未完成，或不在当前授权范围内。</p><button className="btn btn-secondary" onClick={() => navigate("home")}>返回学习汇总</button></div>;
+  const related = effectiveEvidence(state, evidenceRevision).filter(e => e.attemptId === attempt.id);
+  const noStatistics = attempt.retainedCount <= attempt.invalidatedCount;
+  const emptyStatistics = attempt.deletedCount > 0 && attempt.retainedCount === 0 ? "作答已全部删除，当前无可统计作答" : "当前无有效作答，暂无有效统计";
+  return <div className="shared-page"><button className="btn btn-ghost shared-back" onClick={() => navigate("home")}><ArrowLeft size={16} />返回学习汇总</button><div className="shared-heading"><p className="eyebrow">LEARNING REPORT</p><h1>{paper?.title ?? "学习报告"}</h1><p className="muted">{sharedDate(attempt.submittedAt)} · 原卷 {paper?.questionIds.length ?? attempt.retainedCount} 题 · 依当前保留记录展示</p></div>
+    {evidenceRevision !== undefined && <div className="notice">正在查看{evidenceRevision === 0 ? "旧评定的原始证据" : `评定当时 r${evidenceRevision} 的有效证据`}。<button className="btn btn-secondary" onClick={() => navigate("report", attempt.id)}>查看当前结果</button></div>}
+    {attempt.id.startsWith("demo-") && <div className="notice shared-notice"><ShieldCheck size={17} /><span>这是流程演示历史，不代表该学生的真实学情，也不计入个人学习统计。</span></div>}
+    {noStatistics ? <section className="card empty-state"><FileCheck2 size={28} /><h2>{emptyStatistics}</h2><p>不记为零分。已删除 {attempt.deletedCount} 条，已排除 {attempt.invalidatedCount} 条；原卷教学题目继续保留。</p></section> : <><div className="notice">{attempt.originalCorrectCount === null ? "部分作答已删除，首次总分不再展示；" : `首次保存：${attempt.originalCorrectCount} 题答对；`}当前展示：{attempt.correctCount} 题有效答对，{attempt.invalidatedCount} 条已排除。已删除 {attempt.deletedCount} 条，剩余 {attempt.retainedCount} 条；已删除记录不计入分母，也无法从旧修订取回。</div>
+    <div className="shared-stats">{[{ title: "有效答对", value: attempt.correctCount }, { title: "独立答对", value: attempt.independentCorrect }, { title: "有效记录使用帮助", value: attempt.answers.filter(a => a.valid && (a.help === "hint" || a.help === "explanation")).length }].map(item => <section className="card shared-stat" key={item.title}><strong>{item.value}</strong><p>{item.title}</p></section>)}</div></>}
+    <div className="shared-report-list">{attempt.answers.map((answer, index) => { const item = related.find(e => e.questionId === answer.questionId); const question = paper?.questions.find(q => q.id === answer.questionId); const open = expanded === answer.questionId; return <section className="card shared-answer" key={answer.questionId}><button className="shared-answer-toggle" aria-expanded={open} onClick={() => setExpanded(open ? null : answer.questionId)}><span className="shared-question-number">{(paper?.questionIds.indexOf(answer.questionId) ?? index) + 1}</span><div><h3>{item?.questionText || question?.text || `第 ${index + 1} 题`}</h3><p>{!answer.valid ? "已排除，不计成绩" : answer.correct ? "回答正确" : "待订正"} · {labels[answer.help]}</p></div><ChevronDown size={18} className={open ? "shared-rotate" : ""} /></button>{open && <div className="shared-answer-detail">{item && <EvidenceComparison evidence={item} state={state} asOfRevision={evidenceRevision} title={evidenceRevision === undefined ? undefined : "原始记录与当时有效结果"} />}<div><h4>学生原始思考过程</h4><p>{answer.original.working || "本题未填写过程。"}</p></div>{item?.reason && <div className="notice">{item.reason}</div>}<small>报告本身不修改记录，更正通过独立的申请与复核流程留痕。</small>{item && role === "teacher" && <button className="btn btn-secondary" onClick={() => navigate("evidence-review", item.id)}>查看这条证据的复核申请<ArrowRight size={16} /></button>}</div>}</section>; })}</div>
+  </div>;
+}
+
+function TeacherRequests({ state, mutate, busy }: AppProps) {
+  const [replies, setReplies] = useState<Record<string, string>>({});
+  const [saving, setSaving] = useState<string | null>(null);
+  const [filter, setFilter] = useState("pending");
+  const requests = state.helpRequests.filter(r => filter === "all" || r.status !== "replied");
+  const act = async (id: string, action: "help.receive" | "help.reply") => {
+    if (saving) return;
+    setSaving(id);
+    try { const result = await mutate(action, { id, ...(action === "help.reply" ? { reply: replies[id]?.trim() } : {}) }); if (result && action === "help.reply") setFilter("all"); }
+    finally { setSaving(null); }
+  };
+  return <div className="shared-page"><div className="shared-heading"><p className="eyebrow">A LITTLE HELP, AT THE RIGHT TIME</p><h1>学生明确共享的求助</h1><p className="muted">先了解学生卡在哪一步，再给出适合当前课程的建议。</p></div><div className="notice shared-notice"><ShieldCheck size={18} /><span>仅展示学生主动共享给教师的求助内容；私人对话和照片不会自动附带。回复保存在此工作区，学生可回来查看。</span></div><div className="shared-section-heading"><h2>求助列表</h2><div className="shared-filter">{[{ id: "pending", title: "待处理" }, { id: "all", title: "全部" }].map(item => <button key={item.id} className={filter === item.id ? "is-active" : ""} aria-pressed={filter === item.id} onClick={() => setFilter(item.id)}>{item.title}</button>)}</div></div>{requests.map(request => <section className="card shared-request" key={request.id}><div className="shared-section-heading"><div><h2>{request.topic}</h2><p className="muted">{sharedDate(request.createdAt)} · 已明确共享</p></div><span className="badge">{request.status === "waiting" ? "等待接收" : request.status === "received" ? "已接收" : "已回复"}</span></div><p className="shared-request-summary">{request.summary}</p>{request.reply && <div className="shared-reply"><h3><MessageCircle size={16} />已保存的回复</h3><p>{request.reply}</p></div>}{request.status === "waiting" ? <button className="btn btn-secondary" disabled={busy || Boolean(saving)} onClick={() => act(request.id, "help.receive")}><CheckCircle2 size={16} />接收这份求助</button> : request.status === "received" && <form onSubmit={e => { e.preventDefault(); void act(request.id, "help.reply"); }}><label className="field">给学生的建议<textarea className="textarea" required rows={4} maxLength={3000} value={replies[request.id] ?? ""} placeholder="从学生的具体步骤出发，给出下一步思考方向。" onChange={e => setReplies(previous => ({ ...previous, [request.id]: e.target.value }))} /></label><button className="btn btn-primary" disabled={busy || Boolean(saving) || !replies[request.id]?.trim()} type="submit"><Send size={16} />保存回复</button></form>}</section>)}{!requests.length && <div className="card empty-state"><MessageCircle size={33} /><h3>暂时没有待处理的共享求助</h3><p>学生明确共享后，求助会出现在这里。</p></div>}</div>;
+}

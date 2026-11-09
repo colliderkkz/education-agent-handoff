@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1793000179236,
+      "tag": "0000_great_wallop",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1793002568694,
+      "tag": "0001_melodic_alex_power",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793077235554,
+      "tag": "0002_history_upload_fence",
+      "breakpoints": true
+    }
+  ]
+}

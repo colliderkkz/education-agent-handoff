@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "小禾学伴",
+    "slug": "xiaohe-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/xiaohe-companion.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.xiaohe.studycompanion"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F1F6ED",
+        "foregroundImage": "./assets/xiaohe-companion.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.xiaohe.studycompanion"
+    },
+    "web": {
+      "favicon": "./assets/xiaohe-companion.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "允许小禾学伴拍摄题目，用于本机核对与学习。",
+          "photosPermission": "允许小禾学伴选择题目图片，用于本机核对与学习。",
+          "microphonePermission": false
+        }
+      ],
+      "expo-sharing"
+    ],
+    "scheme": "xiaohe",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "extra": {
+      "releaseStatus": "local-trial",
+      "apiConfigured": false,
+      "storageMode": "device"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `uploaded_files` ADD `history_epoch` integer DEFAULT 0 NOT NULL;

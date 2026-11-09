@@ -1,0 +1,23 @@
+{
+  "package": "expo-print",
+  "version": "58.0.7",
+  "description": "Android file-render lifecycle fix; GC is a suspected cause, not a confirmed diagnosis.",
+  "sources": [
+    "https://developer.android.com/training/printing/html-docs",
+    "https://developer.android.com/reference/android/print/PrintDocumentAdapter"
+  ],
+  "files": [
+    {
+      "target": "android/src/main/java/expo/modules/print/PrintModule.kt",
+      "patchFile": "PrintModule.kt",
+      "upstreamSha256": "86756fea943cdd58785385c64e2f3fb6b77311959ad5e62a5f6c3314b428ba7c",
+      "patchedSha256": "34e7024b9d64265b108adc4d799e6b31f15679b4c2a536f6b677c54dd3d04ef2"
+    },
+    {
+      "target": "android/src/main/java/expo/modules/print/PrintPDFRenderTask.kt",
+      "patchFile": "PrintPDFRenderTask.kt",
+      "upstreamSha256": "8a7ef81a8501173a22435d0454cd4c12418246a0f97c361a34658d79a457a763",
+      "patchedSha256": "5b50f5696bc2a11b0868020535c5a17f5dfa254ec792f409b23b2854a6f7fd96"
+    }
+  ]
+}

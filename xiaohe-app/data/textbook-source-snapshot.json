@@ -1,0 +1,42 @@
+[
+  {
+    "subject": "chinese",
+    "url": "https://www.pep.com.cn/products/zhytu/gjshnj/csxp/tbzc/202306/t20230628_1984166.shtml",
+    "pageSha256": "1c6d96f9c1035e68ad692d36d51abb13c04cb0d78ac9152cdd978053c4546c2e",
+    "fetchedAt": "2026-11-02T08:25:03.818723+00:00",
+    "visibleUnitHeadings": [
+      "第一单元",
+      "第二单元",
+      "第三单元",
+      "第四单元",
+      "第五单元",
+      "第六单元",
+      "第七单元",
+      "第八单元"
+    ],
+    "note": "仅来源校验；目录与课后题须对照实际纸质教材复核"
+  },
+  {
+    "subject": "math",
+    "url": "https://www.pep.com.cn/xw/zt/hd/12/xjcjs/xx/202409/t20240920_1995566.html",
+    "pageSha256": "6100affd2b05a58a23896d9015a7d5f4e1f6bc3a99cafd593cfbca35c22d6ed2",
+    "fetchedAt": "2026-11-02T08:25:07.493307+00:00",
+    "visibleUnitHeadings": [],
+    "note": "仅来源校验；目录与课后题须对照实际纸质教材复核"
+  },
+  {
+    "subject": "english",
+    "url": "https://www.pep.com.cn/zslth/yyptzy/xypep/4s/",
+    "pageSha256": "faf84d87c4ff490b83709b77dbc6958528600935220e76c2f307d25bd65e4831",
+    "fetchedAt": "2026-11-02T08:25:11.173012+00:00",
+    "visibleUnitHeadings": [
+      "Unit 1 Helping at home",
+      "Unit 2 My friends",
+      "Unit 3 Places we live in",
+      "Unit 4 Helping in the community",
+      "Unit 5 The weather and us",
+      "Unit 6 Changing for the seasons"
+    ],
+    "note": "仅来源校验；目录与课后题须对照实际纸质教材复核"
+  }
+]

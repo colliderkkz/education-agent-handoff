@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "source": "xiaohe-app/lib",
+  "adaptation": "Only an explicit JSON-data clone import is added for Hermes; all business logic is copied verbatim.",
+  "files": {
+    "types.ts": "8901785936f54a7c575c963212e3d32b30f673c7f5e97c051fa60b1fafbf64f6",
+    "access-types.ts": "37f7e5b4fb9b449f4a25bae6ec61ae224fed98883c992f1707d6793297b9b0d2",
+    "seed.ts": "8b81a4327f360ab87494c55cdab09e82cb4868a1e8dcb856bfe431a5e2d89d49",
+    "grading.ts": "8122a1c1f7a376f617c190e8fd3771bf134a067fee58a79425e1641314065379",
+    "effective-evidence.ts": "5f8d813c4905cd7c79cd5605c286dd055f25a95e1b00d72f69ec5970306ce93a",
+    "history-deletion.ts": "6c4b350b122dc8918ba342e01c37ea77be88282834d9dd4d01b69923d68a7796",
+    "server/domain.ts": "f61b43159eaca60dfc479cd9a7f976ee6975a4886fcee047536c0b03612350f3",
+    "server/mastery.ts": "f76a4ff182a3fdfea9100ee2c068188bb072c52f82c5cd6433ef485fb6e2e4f5",
+    "server/content.ts": "3e46b645cade7eeed849382aa5cf3459fa7761ece11a3ae55e45350e838bda0b",
+    "server/companion.ts": "dbd32ab818d444cc47b90d7c6a7e569b3da4ebd9ed93afda736dd360c4ea81ac",
+    "server/evidence.ts": "0fa6628464a431a60d0164210459c1bb7f52c59a79a75c846d52cafd1934bd18",
+    "server/history.ts": "2f26b210b395419f6850069a39e5f38a475c37863d446cc9ea9e5c1401bdbe46",
+    "server/recognition.ts": "f0487657d301ebddf608121d247159bf27dca3260ccb058ee8f656f83c5aae0d",
+    "server/access-policy.ts": "e0a83cf7afa2027d7f91cfad347045ea18e486662d86b6b360c8d7f0ababffbd",
+    "server/domain-error.ts": "92fedbc35d7ca5b8c81cb5bbb385975cdde933e75771b8c74837fae135484c66"
+  }
+}

@@ -1,0 +1,19 @@
+# Rebuildable local environments and secrets
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+*.pyc
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+.wrangler/
+.sites-runtime/
+.expo/
+.next/

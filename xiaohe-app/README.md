@@ -1,0 +1,93 @@
+# 小禾学伴
+
+面向小学生的学习与教研应用。首版使用四年级数学演示课程，可完成题库组卷、在线作答、帮助记录、学习报告、错题订正、知识证据和教研审核。
+
+> 最终交付目标已明确为 Android 与 iOS 手机 App。本目录是已有 Web/后端原型；双端原生工程见 `../xiaohe-mobile/`，总计划见 `../APP-实施计划.md`。
+
+## 启动
+
+需要 Node.js 22.13 或更新版本。已安装依赖时直接运行：
+
+```sh
+npm run dev -- --port 5173 --hostname 127.0.0.1
+```
+
+打开终端输出的网址，点击登录进入本地模拟账户。模拟登录仅在本地开发启用，生产由 Sites 验证身份。
+
+首次拉取源码后：
+
+```sh
+npm run install:ci
+npm run build
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_great_wallop.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0001_melodic_alex_power.sql
+node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0002_history_upload_fence.sql
+npm run dev -- --port 5173 --hostname 127.0.0.1
+```
+
+迁移只在尚未应用的本地数据库执行一次；新增迁移按文件顺序应用。生产迁移由 Sites 部署执行，生产与本地数据完全独立。
+
+## 已实现
+
+- 学生首页、知识地图、试卷配置与预览、同难度换题另存、在线练习、草稿保存和本机恢复。
+- 知识地图提供四年级上册语文、数学、英语的科目—单元—知识点导航与逐点解释；“我的练习”提供 57 道与知识点对应的原创自练题，答案草稿按工作区与用户保存在当前浏览器，不计入正式学习报告。数学按 2026 秋修订版七单元整理，原有 2 个数学点另接入演示练习。教材目录来源见[教材目录与习题入库](docs/curriculum-and-paper-sources.md)。
+- 正确/独立/提示/讲解分项报告；错题订正保留原答；题族和答案曝光用于过滤新题证据。
+- 图片原稿真实存入 R2，人工核对题库原题并回传纸面答案；纸面帮助状态为未知。
+- 分别打开学生卷、解析卷，可通过浏览器打印或另存 PDF；看解析先记录曝光。
+- 绑定明确原卷/题库版本的私人会话、显式提示/讲解、可恢复草稿、本人呈现偏好与删除影响预览；手写求助摘要先预览再单独保存到授权工作区收件箱，未发送外部通知。本机 App 摘要明确尚未发送。
+- 教研题库筛选、标注、新版本、独立审核、发布、停用、证据日志和内容清单导出。
+- 工作区成员邀请、邮箱绑定一次性凭证、撤销授权；学生、家长、教师、编辑、审核人按角色访问。
+- 已提交证据逐条/多选删除：先预览报告、星级、复查、本人关联会话/摘要及显式所选照片的影响，再绑定修订确认。已删除正文移除，保留无正文删除凭据及最小已见/帮助资格事实；照片立即撤销访问，存储回收失败可重试。
+- 服务端过滤未授权答案/草稿/照片/私聊，D1 revision CAS同时校验成员权限；上传文件按学习档案归属鉴权。
+- 本机照片识别核对的共享领域：原图、设备原始行、人工改字与逐题核对分开保存，固定候选题版本后分批入档；未匹配条目保留草稿，同图识别副本纳入历史删除。设备调用与验收由手机工程负责，Web 不提供 OCR 入口。
+
+## 当前边界
+
+这是私有试点版本，不是完整学校生产系统。工作区所有者可以邀请其他角色，每个档案最多一位学生。邀请不改变外层 Sites 访问范围；目前站点仍为所有者私有，其他账号要先获得站点访问权限。App 将采用独立身份与服务端，不依赖此网页登录。自己创建的草稿不能通过更换角色自审。
+
+当前 Web 自动 OCR、自由生成式对话和语音未接入。共享领域已支持可信本机设备识别结果的保存与逐题核对，只有本机调用可以进入；这不表示 Web 或设备 OCR 已验收。拍照题目仍需本人核对并明确选择固定题库版本，学伴使用审核题库检索，不宣称已经接入生成模型。真实教材、授权题库、教研星级标准仍需提供和验证。
+
+本地学伴行为及当时的浏览器验证范围见[学伴验收记录](docs/companion-web-validation.md)。证据更正支持申请、主动选原稿、独立教师复核、影响预览及统一有效结果；更正不覆盖原始提交和旧评定，另行确认历史删除时才移除所选作答及关联依据。受限图片接口按当前授权和当前登记双重检查。最新 **237/237** 项领域/Web 测试、类型检查、lint 和构建结果见[本机识别领域验证](docs/recognition-validation.md)，既有服务端删除边界见[历史删除验证记录](docs/history-web-validation.md)；本轮没有启动 Web 服务、浏览器实测或云部署。会话删除仍不删除原作答或另存摘要；历史删除是独立入口，范围在确认前逐项说明，不是清空整个学习空间。原生教师授权送达仍未完成，Android/iOS 设备状态以手机工程验收文档为准，iOS 仍未原生安装验证。
+
+已接入五级掌握规则：讲解后完成、提示后完成、基础独立、不同情境稳定应用、间隔后独立迁移。教研端可编辑参数、试算、送审、独立复核、发布与切回旧版；每次正式重评追加历史及逐题依据。默认参数明确为未验证的内置试用配置，演示历史和纸面自述不计真实掌握。旧 `pilot-v2-max3` 结果保留，旧证据缺少的教学标签不回填。
+
+间隔复查来自真实提交，按有效到期日开放，排除全部历史已见题族。当前 30 道数学样题每知识点仅 3 基础、5 应用、2 迁移；旧档案可能耗尽新题资格，需继续扩充真实新题族。Web 教师证据复核已接通；原文件配对导入/逐页校对/语义重复人工处理与教学有效性验证尚未完成。本地 Web 与原生 App 数据及规则不自动同步；本轮未发布云端。
+
+当前按工作区文档存储，有容量配额；正式多人和多学校部署前需完善学校班级模型、实体分表、课程知识点配置、规则验证及数据归档。
+
+完整后续范围见 [实施计划](docs/implementation-plan.md)，验证记录见 [验证说明](docs/verification.md)。
+
+## 检查
+
+```sh
+npx tsc --noEmit
+node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs
+npm run build
+```
+
+开发服务器运行时可执行接口集成检查：
+
+```sh
+node scripts/verify-api.mjs http://127.0.0.1:5173
+node --experimental-strip-types scripts/verify-access-api.mjs http://127.0.0.1:5173
+```
+
+集成检查仅允许本机地址，会通过真实本地模拟登录取得 cookie，并在本地演示空间留下明确标记的验证记录，不重置或清空已有数据。不要将其用于生产。
+
+## 目录
+
+- `app/`：页面与 API 路由。
+- `components/`：学生、教研、拍照、聊天和打印界面。
+- `lib/server/domain.ts`：业务状态转换与证据规则。
+- `lib/server/store.ts`：D1 读写与并发保护。
+- `lib/seed.ts`：原创演示题和明确标注的历史样例。
+- `db/` 与 `drizzle/`：数据库定义和不可变迁移。
+- `.openai/hosting.json`：私有 Sites 标识、D1/R2 绑定。
+
+插图提取自用户提供的 V2 产品资料，保留原图。源码不包含密钥、登录 cookie 或学生原稿。
+
+## 本地内容包与版本归档
+
+教研数据版本页可导出已发布候选与显式选中的停用清单；任一候选缺少独立审核/任务/情境/来源范围等字段时整包拒绝。审核页可查询实际保存的归档，数据版本页只读展示批次及回退，不把导出当作应用。Web 没有内容包导入或回退操作入口。手机“我的 → 题库内容包”显式导入 JSON，批次独立保存在手机，不自动回传教研端。题目的先修条件目前仅为文字说明，尚无可执行的前置知识图谱。
+
+可选样题源见 `lib/trial-content.ts`，范围见 `content-trial-notes.md`。运行 `node --experimental-strip-types scripts/export-trial-content.mjs` 将生成相邻手机工程 `content-packs/xiaohe-basic-trial-v1.json`（不修改档案）。这 9 题包含 8 个新结构候选和 1 个旧族子任务，未经人工教研验证。所有内容包都强制未签名/未验证声明；摘要校验不是发行人身份认证。实际浏览器验收与限制见 `docs/content-web-validation.md`。

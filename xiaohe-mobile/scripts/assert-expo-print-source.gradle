@@ -1,0 +1,21 @@
+// Used via --init-script; never patch generated android/ files. A successful
+// assemble is not sufficient if Expo silently links the package's prebuilt AAR.
+gradle.taskGraph.whenReady { graph ->
+  // The init script is inherited by included plugin/buildSrc builds as well.
+  // Enforce the APK graph only in the top-level Android application build.
+  if (gradle.parent != null) return
+  def root = gradle.rootProject
+  def printProject = root.findProject(':expo-print')
+  if (printProject == null) {
+    throw new GradleException('expo-print source guard: no :expo-print source project; refusing a prebuilt AAR build.')
+  }
+  def expectedDirectory = new File(root.projectDir.parentFile, 'node_modules/expo-print/android').canonicalFile
+  if (printProject.projectDir.canonicalFile != expectedDirectory) {
+    throw new GradleException("expo-print source guard: unexpected source directory ${printProject.projectDir}; expected ${expectedDirectory}.")
+  }
+  def compileTask = printProject.tasks.findByName('compileReleaseKotlin')
+  if (compileTask == null || !graph.hasTask(compileTask)) {
+    throw new GradleException('expo-print source guard: :expo-print:compileReleaseKotlin is not part of this build; refusing to publish an APK without the native patch.')
+  }
+  root.logger.lifecycle('expo-print source guard: verified patched source project and :expo-print:compileReleaseKotlin in the APK task graph.')
+}

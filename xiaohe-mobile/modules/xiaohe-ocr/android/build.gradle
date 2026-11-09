@@ -1,0 +1,25 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'expo.modules.xiaoheocr'
+version = '0.1.0'
+
+android {
+  namespace "expo.modules.xiaoheocr"
+  defaultConfig {
+    versionCode 1
+    versionName "0.1.0"
+    consumerProguardFiles 'consumer-rules.pro'
+  }
+  lintOptions {
+    abortOnError false
+  }
+}
+
+dependencies {
+  // Bundled Chinese model: no Google Play model download is needed at first use.
+  implementation 'com.google.mlkit:text-recognition-chinese:16.0.1'
+  implementation 'androidx.exifinterface:exifinterface:1.4.1'
+}
