@@ -1,0 +1,2636 @@
+[
+  {
+    "id": "bank-english-1-listen-001",
+    "familyId": "english-1-listen__fam-01",
+    "version": 1,
+    "text": "Listen and choose. You hear: 'Please wash the dishes.' What should you do?",
+    "answer": "Wash the dishes.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到祈使句指令时，把指令里的动词原形说出来做答。",
+      "句中的动作是 wash the dishes，句首的 Please 表示请求。",
+      "答：Wash the dishes."
+    ],
+    "hint": "先听清动词是 wash 还是 clean，再听后面的名词。",
+    "alternative": "也可以回答 I will wash the dishes. 表示你马上要去做这件事。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__kitchen-commands"
+  },
+  {
+    "id": "bank-english-1-listen-002",
+    "familyId": "english-1-listen__fam-02",
+    "version": 1,
+    "text": "You hear Mum say: 'Can you clean the table?' Choose the best reply.",
+    "answer": "Yes, I can.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "别人用 Can you...? 提问时，回答用 Yes, I can. 或 No, I can't.",
+      "答话里要出现 can，后面用动词原形。",
+      "答：Yes, I can."
+    ],
+    "hint": "问的是「你能不能」，所以答句里要有 can。",
+    "alternative": "也可以说 Sure, I can. 表示乐意帮忙。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__kitchen-commands"
+  },
+  {
+    "id": "bank-english-1-listen-003",
+    "familyId": "english-1-listen__fam-03",
+    "version": 1,
+    "text": "Listen to the short talk. 'Dad is cooking. Mum is washing the dishes.' Who is washing the dishes?",
+    "answer": "Mum.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听句子先找出人物和动作的搭配，主语后面的动作才是这个人做的事。",
+      "washing the dishes 前面的人是 Mum。",
+      "答：Mum."
+    ],
+    "hint": "先圈出人物名词，再看每个人后面的动词。",
+    "alternative": "也可以答 Mum is washing the dishes. 用完整句子把人和事连起来。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__kitchen-commands"
+  },
+  {
+    "id": "bank-english-1-listen-004",
+    "familyId": "english-1-listen__fam-04",
+    "version": 1,
+    "text": "Listen and choose the right word. You hear: 'Put the cups on the table.' Where do the cups go?",
+    "answer": "On the table.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到表示位置的介词短语，就用这个短语回答「在哪里」。",
+      "句中的地点是 on the table。",
+      "答：On the table."
+    ],
+    "hint": "注意 on、in 这类表示位置的词。",
+    "alternative": "也可以说 They go on the table. 用 go 表示东西的去向。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__kitchen-commands"
+  },
+  {
+    "id": "bank-english-1-listen-005",
+    "familyId": "english-1-listen__fam-05",
+    "version": 1,
+    "text": "At home you hear: 'Take out the trash, please.' What is Mum asking you to do?",
+    "answer": "Take out the trash.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到带 please 的请求时，用动词原形说出对方请你做的动作。",
+      "请做的事是 take out the trash。",
+      "答：Take out the trash."
+    ],
+    "hint": "抓住 take out 和 trash 这两个词。",
+    "alternative": "也可以说 I will take out the trash. 回答自己愿意去做。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__clean-up-requests"
+  },
+  {
+    "id": "bank-english-1-listen-006",
+    "familyId": "english-1-listen__fam-06",
+    "version": 1,
+    "text": "Listen: 'Don't play in the living room. Help me clean it, please.' What is Mum asking you to do?",
+    "answer": "Clean the living room.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先分清否定句（不要做）和请求句（请做），把该做的动作说出来。",
+      "Don't play in the living room 是制止，Help me clean it 才是要做的事。",
+      "答：Clean the living room."
+    ],
+    "hint": "注意 Don't 开头的句子是在否定一种做法。",
+    "alternative": "也可以答 I will clean the living room. 用 will 句说明自己会怎么做。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__clean-up-requests"
+  },
+  {
+    "id": "bank-english-1-listen-007",
+    "familyId": "english-1-listen__fam-07",
+    "version": 1,
+    "text": "Listen and judge. You hear: 'Please water the flowers.' Is watering the flowers a chore at home?",
+    "answer": "Yes, it is.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断题要先抓住动作是不是常见的家务，再回答 Yes, it is. 或 No, it isn't.",
+      "给植物浇水是家里常做的活儿。",
+      "答：Yes, it is."
+    ],
+    "hint": "想一想这件事是不是经常在家里做的活儿。",
+    "alternative": "也可以答 Yes, watering the flowers is a chore. 用完整句说明理由。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__clean-up-requests"
+  },
+  {
+    "id": "bank-english-1-listen-008",
+    "familyId": "english-1-listen__fam-08",
+    "version": 1,
+    "text": "You hear your brother say: 'Let me help you make the bed.' Who will make the bed?",
+    "answer": "Your brother.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 Let me... 表示说话人主动提出做某事，答案就说是说话的那个人。",
+      "说话的人是你的哥哥。",
+      "答：Your brother."
+    ],
+    "hint": "注意 Let me 开头的句子。",
+    "alternative": "也可以答 He will make the bed. 用 will 句说明结果。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__bedroom-tasks"
+  },
+  {
+    "id": "bank-english-1-listen-009",
+    "familyId": "english-1-listen__fam-09",
+    "version": 1,
+    "text": "Listen and choose. 'Don't make your bed in the evening. Make it in the morning.' When should you make the bed?",
+    "answer": "In the morning.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句中出现 Don't 和祈使句时，要听出不要在什么时候做、要在什么时候做。",
+      "in the evening 是不要做的时间，in the morning 是要做的时间。",
+      "答：In the morning."
+    ],
+    "hint": "把两个时间词放在一起比一比。",
+    "alternative": "也可以答 I make my bed in the morning. 用第一人称说自己什么时候做。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__bedroom-tasks"
+  },
+  {
+    "id": "bank-english-1-listen-010",
+    "familyId": "english-1-listen__fam-10",
+    "version": 1,
+    "text": "You hear: 'Tom, please put your books on the shelf.' Where are the books?",
+    "answer": "On the shelf.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到表示位置的介词短语 on the shelf，就是书要放的地方。",
+      "书要放到架子上去。",
+      "答：On the shelf."
+    ],
+    "hint": "找出 on 或 in 引导的地点。",
+    "alternative": "也可以说 The books go on the shelf. 用 go 表示去向。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__bedroom-tasks"
+  },
+  {
+    "id": "bank-english-1-listen-011",
+    "familyId": "english-1-listen__fam-11",
+    "version": 1,
+    "text": "Listen to the morning plan. 'First make your bed. Then wash your face.' What is the first thing to do?",
+    "answer": "Make your bed.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 First、Then 这类顺序词，就按它们给出的先后次序回答。",
+      "排在最前面的是 make your bed。",
+      "答：Make your bed."
+    ],
+    "hint": "先找表示顺序的词。",
+    "alternative": "也可以答 First, I make my bed. 用顺序词开头把话说全。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__morning-routine"
+  },
+  {
+    "id": "bank-english-1-listen-012",
+    "familyId": "english-1-listen__fam-12",
+    "version": 1,
+    "text": "You hear Mum say: 'I always do the dishes after dinner.' When does Mum do the dishes?",
+    "answer": "After dinner.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听表示时间的短语 after dinner，就用这个时间短语回答。",
+      "after dinner 是做家务的时间。",
+      "答：After dinner."
+    ],
+    "hint": "注意 after、before、every 这些时间词。",
+    "alternative": "也可以答 Mum does the dishes after dinner. 用完整句回答。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__morning-routine"
+  },
+  {
+    "id": "bank-english-1-listen-013",
+    "familyId": "english-1-listen__fam-13",
+    "version": 1,
+    "text": "Listen to Ben: 'I wash the dishes and then I clean the table. I am tired now.' What is Ben doing?",
+    "answer": "He is washing the dishes and cleaning the table.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 and 连接的两个动作，就把两个动作都说出来，用现在进行时。",
+      "两个动作是 wash the dishes 和 clean the table。",
+      "答：He is washing the dishes and cleaning the table."
+    ],
+    "hint": "注意 and 连接的两个动作动词。",
+    "alternative": "也可以说 He washes the dishes and cleans the table. 用一般现在时描述。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__evening-cleanup"
+  },
+  {
+    "id": "bank-english-1-listen-014",
+    "familyId": "english-1-listen__fam-14",
+    "version": 1,
+    "text": "You hear Mum say: 'It is nine o'clock. Turn off the TV and go to bed.' What two things should you do?",
+    "answer": "Turn off the TV and go to bed.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到两个并列的祈使句指令，要把两件事都说出来。",
+      "两件事是 turn off the TV 和 go to bed。",
+      "答：Turn off the TV and go to bed."
+    ],
+    "hint": "找出句子里两个动词短语。",
+    "alternative": "也可以答 I will turn off the TV and go to bed. 用 will 句作答。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__evening-cleanup"
+  },
+  {
+    "id": "bank-english-1-listen-015",
+    "familyId": "english-1-listen__fam-15",
+    "version": 1,
+    "text": "Listen: 'On Saturday we clean the living room together.' What do they do together?",
+    "answer": "They clean the living room.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 together 就知道是大家一起做，答案用 they 开头。",
+      "一起做的事是 clean the living room。",
+      "答：They clean the living room."
+    ],
+    "hint": "注意 together 这个词。",
+    "alternative": "也可以说 We clean the living room together. 用第一人称回答。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__weekend-help"
+  },
+  {
+    "id": "bank-english-1-listen-016",
+    "familyId": "english-1-listen__fam-16",
+    "version": 1,
+    "text": "At the weekend you hear: 'I wash the clothes. My sister cooks lunch.' What does the speaker do?",
+    "answer": "She washes the clothes.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先分清谁说哪件事：说话人自己的事用 I，句子里的 my sister 是另一个人。",
+      "说话人做的事是 wash the clothes。",
+      "答：She washes the clothes."
+    ],
+    "hint": "把人物和动作配对，别配错。",
+    "alternative": "也可以答 I wash the clothes. 只说自己要做的事。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__weekend-help"
+  },
+  {
+    "id": "bank-english-1-listen-017",
+    "familyId": "english-1-listen__fam-17",
+    "version": 1,
+    "text": "Your aunt is coming. You hear: 'We need to clean the room and water the flowers before she comes.' What do you need to do before she comes?",
+    "answer": "Clean the room and water the flowers.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 need to 后面接的内容，就是必须做的事，两个动作用 and 连接。",
+      "要做的是 clean the room 和 water the flowers。",
+      "答：Clean the room and water the flowers."
+    ],
+    "hint": "找 need to 后面的两个动作。",
+    "alternative": "也可以答 We must clean the room and water the flowers. 用 must 强调必须。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__guest-visit"
+  },
+  {
+    "id": "bank-english-1-listen-018",
+    "familyId": "english-1-listen__fam-18",
+    "version": 1,
+    "text": "You hear a guest say: 'What a nice home! Your son makes his bed every day. He is so helpful.' Why is the guest happy?",
+    "answer": "Because the son makes his bed every day.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先听懂评价词后面的原因，再用自己的话把原因说完整。",
+      "客人高兴的原因是那个孩子每天整理床铺。",
+      "答：Because the son makes his bed every day."
+    ],
+    "hint": "注意 helpful 前面说的是哪件事。",
+    "alternative": "也可以答 The son helps at home every day. 用另一句话说出同样的意思。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__guest-visit"
+  },
+  {
+    "id": "bank-english-1-listen-019",
+    "familyId": "english-1-listen__fam-19",
+    "version": 1,
+    "text": "Listen: 'Let's make the bed. You take the blanket and I take the pillow.' What should you do?",
+    "answer": "You should take the blanket.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 Let's... 和具体分工，就说出对方分到的那件事，用 should 或祈使句。",
+      "you 分到的是 take the blanket。",
+      "答：You should take the blanket."
+    ],
+    "hint": "分清楚谁拿 blanket，谁拿 pillow。",
+    "alternative": "也可以说 I will take the blanket. 用 I will 句表明自己做什么。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__sibling-teamwork"
+  },
+  {
+    "id": "bank-english-1-listen-020",
+    "familyId": "english-1-listen__fam-20",
+    "version": 1,
+    "text": "Listen: 'The trash is full. We should take it out.' Why should they take out the trash?",
+    "answer": "Because the trash is full.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 because 就去找原因，回答时把 because 后面的话说出来。",
+      "原因是 the trash is full。",
+      "答：Because the trash is full."
+    ],
+    "hint": "注意 because 这个词。",
+    "alternative": "也可以答 The trash is full, so we take it out. 用 so 连接因果。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__sibling-teamwork"
+  },
+  {
+    "id": "bank-english-1-listen-021",
+    "familyId": "english-1-listen__fam-21",
+    "version": 1,
+    "text": "Look at the chart and listen. A means sweep the floor, B means clean the blackboard, C means take out the trash. You hear: 'Six children swept the floor today.' Which job did the most children do?",
+    "answer": "Sweep the floor.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把字母和家务对上号，再看哪根柱子最高，最高的那根做得最多。",
+      "最高的那根柱子对应 A，也就是 sweep the floor。",
+      "答：Sweep the floor."
+    ],
+    "hint": "先读清楚 A、B、C 各代表哪件家务。",
+    "alternative": "也可以答 The most children swept the floor. 用完整句说出结论。",
+    "prerequisites": [
+      "english-1-listen",
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__school-play-cleanup",
+    "image": "/illustrations/english/english-1-listen/school-play-tasks.svg"
+  },
+  {
+    "id": "bank-english-1-listen-022",
+    "familyId": "english-1-listen__fam-22",
+    "version": 1,
+    "text": "You hear Dad say: 'The cat is hungry. Give it some food and clean its bowl.' What two things should you do?",
+    "answer": "Give the cat some food and clean its bowl.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "带 and 的句子里有两个动作，两个都要说出来，顺序按听到的先后。",
+      "两件事是 give it some food 和 clean its bowl。",
+      "答：Give the cat some food and clean its bowl."
+    ],
+    "hint": "数一数句中有几个动作动词。",
+    "alternative": "也可以答 I will feed the cat and clean the bowl. 用 feed 代替 give it some food。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__pet-care"
+  },
+  {
+    "id": "bank-english-1-listen-023",
+    "familyId": "english-1-listen__fam-23",
+    "version": 1,
+    "text": "Listen: 'Grandma is coming for dinner. Let's clean the table and cook the fish.' What are they going to cook?",
+    "answer": "They are going to cook the fish.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问什么答什么：问做什么菜，就只回答那一样菜的名。",
+      "他们要做的菜是 the fish。",
+      "答：They are going to cook the fish."
+    ],
+    "hint": "问题里出现了 cook，答案里也要有 cook。",
+    "alternative": "也可以说 They're going to cook the fish. 缩写形式也可以。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__grandparents-visit"
+  },
+  {
+    "id": "bank-english-1-listen-024",
+    "familyId": "english-1-listen__fam-24",
+    "version": 1,
+    "text": "Listen: 'It rained yesterday. The grass is wet. We can't play football. We can clean the room inside.' What can they do today?",
+    "answer": "They can clean the room.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 can't 和 can 的对比，就说出能做的事。",
+      "不能玩足球，但能在屋里打扫房间。",
+      "答：They can clean the room."
+    ],
+    "hint": "注意 can 和 can't 的区别。",
+    "alternative": "也可以答 They can stay inside and clean the room. 用 stay inside 补充。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__picnic-after-rain"
+  },
+  {
+    "id": "bank-english-1-listen-025",
+    "familyId": "english-1-listen__fam-25",
+    "version": 1,
+    "text": "You hear the teacher say: 'It's your duty today. Clean the blackboard and put the books on the shelf.' What is your duty today?",
+    "answer": "Clean the blackboard and put the books on the shelf.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "duty 在这里指今天轮到谁做的事，答案要把两件活儿都说出来。",
+      "今天的活儿是擦黑板和把书放到架子上。",
+      "答：Clean the blackboard and put the books on the shelf."
+    ],
+    "hint": "找出 duty 后面提到的两个动作。",
+    "alternative": "也可以答 My duty is to clean the blackboard. 只说第一件事。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__classroom-duty"
+  },
+  {
+    "id": "bank-english-1-listen-026",
+    "familyId": "english-1-listen__fam-26",
+    "version": 1,
+    "text": "Look at the time line. A dot marks the time when the party starts. You hear Mum say: 'Please come at the time on the line.' What time does the party start?",
+    "answer": "Four o'clock.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看数轴上圆点落在哪个刻度，就用钟点说出这个时刻。",
+      "圆点落在刻度 4 上。",
+      "答：Four o'clock."
+    ],
+    "hint": "先找到圆点，再看它下面标的是几。",
+    "alternative": "也可以说 It starts at four. 用 at 引出时间。",
+    "prerequisites": [
+      "english-1-listen",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__birthday-party-prep",
+    "image": "/illustrations/english/english-1-listen/party-start-time.svg"
+  },
+  {
+    "id": "bank-english-1-listen-027",
+    "familyId": "english-1-listen__fam-27",
+    "version": 1,
+    "text": "Listen: 'The flowers are dry. Let's water them. Then we can sit and rest.' Which job comes first, watering the flowers or resting?",
+    "answer": "Watering the flowers.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出两个动作，看哪个在句子里先出现，先出现的先做。",
+      "watering the flowers 在句子里出现在 resting 前面。",
+      "答：Watering the flowers."
+    ],
+    "hint": "注意句子里的先后顺序。",
+    "alternative": "也可以答 They water the flowers first. 用 first 强调顺序。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__garden-watering"
+  },
+  {
+    "id": "bank-english-1-listen-028",
+    "familyId": "english-1-listen__fam-28",
+    "version": 1,
+    "text": "Listen: 'We go on holiday tomorrow. Please help me clean the room and pack my bag.' What must you do before the holiday?",
+    "answer": "Clean the room and pack the bag.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 please help 后面的两个动作按原来的顺序说出来。",
+      "要做的是 clean the room 和 pack the bag。",
+      "答：Clean the room and pack the bag."
+    ],
+    "hint": "找出两个并排的动作短语。",
+    "alternative": "也可以答 They clean the room and pack the bag. 用第三人称复数。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__holiday-packing"
+  },
+  {
+    "id": "bank-english-1-listen-029",
+    "familyId": "english-1-listen__fam-29",
+    "version": 1,
+    "text": "Listen: 'I can't find my shoes. Can you help me?' What does the speaker want the listener to do?",
+    "answer": "Help him find his shoes.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先听懂说话人遇到的问题，再说出他想让人帮的忙。",
+      "他想让对方帮他找鞋。",
+      "答：Help him find his shoes."
+    ],
+    "hint": "先找出 can't find 后面丢的东西。",
+    "alternative": "也可以答 He wants me to help him find his shoes. 用 want sb to do 结构。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__lost-and-found"
+  },
+  {
+    "id": "bank-english-1-listen-030",
+    "familyId": "english-1-listen__fam-30",
+    "version": 1,
+    "text": "Listen: 'It is raining hard. We can't play outside. Let's read books and make a paper plane.' What do they do inside?",
+    "answer": "They read books and make a paper plane.",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 can't play outside 就转到室内的活动，把两个室内活动说出来。",
+      "室内活动是 read books 和 make a paper plane。",
+      "答：They read books and make a paper plane."
+    ],
+    "hint": "找出室内的两个活动。",
+    "alternative": "也可以答 We read books and make a paper plane. 用第一人称。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-listen__rainy-day-indoor"
+  },
+  {
+    "id": "bank-english-1-talk-001",
+    "familyId": "english-1-talk__fam-01",
+    "version": 1,
+    "text": "Use 'I can ...' to say that you can make your bed.",
+    "answer": "I can make my bed.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍自己能做的事用 I can 加动词原形，动词要和后面的家务搭配。",
+      "make the bed 是一个固定搭配。",
+      "答：I can make my bed."
+    ],
+    "hint": "先想好做的是哪件家务，再套上 I can。",
+    "alternative": "也可以说 I can make my bed by myself. 表示自己一个人也能做到。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__can-do-abilities"
+  },
+  {
+    "id": "bank-english-1-talk-002",
+    "familyId": "english-1-talk__fam-02",
+    "version": 1,
+    "text": "Answer the question: 'What can you do at home?' Say one thing you can do.",
+    "answer": "I can clean the table.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 What can you do... 要用 I can 加动词原形，说出一件自己能做的家务。",
+      "clean the table 是一件常见的家务。",
+      "答：I can clean the table."
+    ],
+    "hint": "想一想你在家最常帮忙做哪件事。",
+    "alternative": "也可以说 I can wash the dishes. 换一件家务来回答也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__can-do-abilities"
+  },
+  {
+    "id": "bank-english-1-talk-003",
+    "familyId": "english-1-talk__fam-03",
+    "version": 1,
+    "text": "Your friend says: 'I can wash the dishes, but I can't cook.' What can't he do?",
+    "answer": "He can't cook.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问 can't 的内容，就用 He can't 加动词原形把不能做的事说出来。",
+      "他不能做的是 cook。",
+      "答：He can't cook."
+    ],
+    "hint": "注意 but 前后的转折。",
+    "alternative": "也可以答 He is not good at cooking. 用另一句话说明。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__can-do-abilities"
+  },
+  {
+    "id": "bank-english-1-talk-004",
+    "familyId": "english-1-talk__fam-04",
+    "version": 1,
+    "text": "You can do two things at home: sweep the floor and play the piano. Use 'I can' to say one of them.",
+    "answer": "I can play the piano.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从给定的两件事里挑一件，用 I can 加动词原形说出来。",
+      "这里选择 play the piano。",
+      "答：I can play the piano."
+    ],
+    "hint": "先看两件事里哪件你真的会。",
+    "alternative": "也可以说 I can sweep the floor. 选另一件也是可以的。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__can-do-abilities"
+  },
+  {
+    "id": "bank-english-1-talk-005",
+    "familyId": "english-1-talk__fam-05",
+    "version": 1,
+    "text": "You want your dad to help you. Ask him to help you wash the dishes.",
+    "answer": "Dad, can you help me wash the dishes?",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "请求别人帮忙用 Can you...? ，后面接动词原形，说明要帮的忙。",
+      "help 后面用动词原形 wash。",
+      "答：Dad, can you help me wash the dishes?"
+    ],
+    "hint": "注意 help 后面接动词原形。",
+    "alternative": "也可以说 Dad, could you help me wash the dishes? 用 could 更客气。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__asking-offer"
+  },
+  {
+    "id": "bank-english-1-talk-006",
+    "familyId": "english-1-talk__fam-06",
+    "version": 1,
+    "text": "Mum looks busy. Offer to help her with the washing.",
+    "answer": "Mum, can I help you wash the clothes?",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主动提出帮忙用 Can I help you...? ，后面说明要做的事。",
+      "主动和请求的差别在于主语是 I 还是 you。",
+      "答：Mum, can I help you wash the clothes?"
+    ],
+    "hint": "想一想怎么让别人知道你愿意帮忙。",
+    "alternative": "也可以说 Mum, let me help you wash the clothes. 用 let me 更自然。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__asking-offer"
+  },
+  {
+    "id": "bank-english-1-talk-007",
+    "familyId": "english-1-talk__fam-07",
+    "version": 1,
+    "text": "Your sister asks: 'Can you help me?' You are free. Reply in a polite way.",
+    "answer": "Sure, I can help you now.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "别人问 Can you...? 而你愿意帮忙，就用 Sure, I can... 答应下来。",
+      "答应之后还可以补上自己现在有空。",
+      "答：Sure, I can help you now."
+    ],
+    "hint": "先表示同意，再说明自己能做什么。",
+    "alternative": "也可以说 Of course. What can I do? 用问句请对方安排。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__asking-offer"
+  },
+  {
+    "id": "bank-english-1-talk-008",
+    "familyId": "english-1-talk__fam-08",
+    "version": 1,
+    "text": "Look at the chart of your family's chores in one week. A means make the bed, B means clean the table, C means water the flowers. Which chore does the family do most often?",
+    "answer": "Clean the table.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读条形图先看哪根条最高，最高的那根就是做得最多的那件事。",
+      "最高的那根柱子对应 B，也就是 clean the table。",
+      "答：Clean the table."
+    ],
+    "hint": "先找出最高的那根柱子，再看它代表哪件事。",
+    "alternative": "也可以说 They clean the table most often. 用完整句把图和结论连起来。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__family-duties",
+    "image": "/illustrations/english/english-1-talk/chore-freq-chart.svg"
+  },
+  {
+    "id": "bank-english-1-talk-009",
+    "familyId": "english-1-talk__fam-09",
+    "version": 1,
+    "text": "Your mum says: 'I cook and wash the dishes. Your dad cleans the floor and takes out the trash.' Which chore does your dad NOT do?",
+    "answer": "He doesn't cook.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「不做什么」，就要在 Mum 和 Dad 的活儿里找出 Dad 没做的那一件。",
+      "Dad 负责 clean the floor 和 take out the trash，并没有 cook。",
+      "答：He doesn't cook."
+    ],
+    "hint": "先把两个人各自负责的事列一列再比较。",
+    "alternative": "也可以答 He doesn't wash the dishes. 用 doesn't 加动词原形。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__family-duties"
+  },
+  {
+    "id": "bank-english-1-talk-010",
+    "familyId": "english-1-talk__fam-10",
+    "version": 1,
+    "text": "Talk about your family. Say who does the washing-up at home.",
+    "answer": "My mum does the washing-up at home.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍家里谁做某件事，用 My mum 加动词，说清是做什么。",
+      "句尾用 at home 点明这是家里的活儿。",
+      "答：My mum does the washing-up at home."
+    ],
+    "hint": "先想好家里负责洗碗的是谁。",
+    "alternative": "也可以说 My dad does the washing-up at home. 换成家里的其他人也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__family-duties"
+  },
+  {
+    "id": "bank-english-1-talk-011",
+    "familyId": "english-1-talk__fam-11",
+    "version": 1,
+    "text": "It's Saturday morning. Say what you and your family will do at home today.",
+    "answer": "We will clean the living room together.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说打算做的事用 will 加动词原形，句子主语要和家人或自己对应。",
+      "用 we 表示全家一起做。",
+      "答：We will clean the living room together."
+    ],
+    "hint": "先想清楚是几个人一起做。",
+    "alternative": "也可以说 I will help my mum clean the living room. 换成一个人的计划也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__weekend-plans"
+  },
+  {
+    "id": "bank-english-1-talk-012",
+    "familyId": "english-1-talk__fam-12",
+    "version": 1,
+    "text": "Your father asks: 'Can you help me clean the car?' You are busy with your homework. Refuse politely.",
+    "answer": "Sorry, I can't. I'm doing my homework.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "婉拒要先说 Sorry，再用 can't 说明做不到，最后给一个理由。",
+      "理由是 I'm doing my homework。",
+      "答：Sorry, I can't. I'm doing my homework."
+    ],
+    "hint": "礼貌拒绝要三步：道歉、说明、给理由。",
+    "alternative": "也可以说 Sorry, I'm busy now. Can I help you later? 提出之后再帮忙。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__weekend-plans"
+  },
+  {
+    "id": "bank-english-1-talk-013",
+    "familyId": "english-1-talk__fam-13",
+    "version": 1,
+    "text": "There are two jobs: wash the dishes or take out the trash. You like cooking and don't like the trash. Choose with 'I want to ...'.",
+    "answer": "I want to wash the dishes.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "表达想做哪件事用 I want to 加动词原形，把选中的那件事说出来。",
+      "这里选 wash the dishes。",
+      "答：I want to wash the dishes."
+    ],
+    "hint": "先决定做哪一件，再套上句型。",
+    "alternative": "也可以说 I want to take out the trash. 只要选择前后一致就算对。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__choosing-tasks"
+  },
+  {
+    "id": "bank-english-1-talk-014",
+    "familyId": "english-1-talk__fam-14",
+    "version": 1,
+    "text": "Mum says: 'We need to clean the table and sweep the floor. You choose one.' Say which one you will do and give a reason.",
+    "answer": "I'll clean the table because it's easy.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先说选哪件事（I'll 加动词原形），再用 because 说明一个简单理由。",
+      "理由要短，一个词就够。",
+      "答：I'll clean the table because it's easy."
+    ],
+    "hint": "想一想为什么这件事对你来说更容易。",
+    "alternative": "也可以说 I'll sweep the floor because I like to use the broom. 理由换成自己的说法。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__choosing-tasks"
+  },
+  {
+    "id": "bank-english-1-talk-015",
+    "familyId": "english-1-talk__fam-15",
+    "version": 1,
+    "text": "A guest comes to your home. Offer the guest a drink and say what you have.",
+    "answer": "Would you like some juice? We have some in the fridge.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "招待客人先问 Would you like...? ，再补充一句说明。",
+      "问句后面一定要有回答，不能只说一句问话。",
+      "答：Would you like some juice? We have some in the fridge."
+    ],
+    "hint": "想一想家里有什么饮料可以给客人。",
+    "alternative": "也可以说 Can I get you a cup of tea? 用 get 表示去拿来。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__helping-guests"
+  },
+  {
+    "id": "bank-english-1-talk-016",
+    "familyId": "english-1-talk__fam-16",
+    "version": 1,
+    "text": "Your cousin is a guest in your home. Ask him to put the books away. Use 'Could you...?'",
+    "answer": "Could you put the books away, please?",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "有礼貌地请人帮忙用 Could you...? 加 please，后面用动词原形。",
+      "put ... away 表示把东西收起来。",
+      "答：Could you put the books away, please?"
+    ],
+    "hint": "注意 put away 这个短语。",
+    "alternative": "也可以说 Would you mind putting the books away? 用另一种更客气的说法。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__helping-guests"
+  },
+  {
+    "id": "bank-english-1-talk-017",
+    "familyId": "english-1-talk__fam-17",
+    "version": 1,
+    "text": "Look at Tom's chore chart for last week. A means sweep the floor, B means wash the dishes, C means take out the trash. Which chore did Tom do most often?",
+    "answer": "Sweep the floor.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把图表里的字母和家务对上号，再找最高的那根柱子。",
+      "最高的那根柱子对应 A，也就是 sweep the floor。",
+      "答：Sweep the floor."
+    ],
+    "hint": "先读清楚每个字母代表哪件家务。",
+    "alternative": "也可以答 Tom swept the floor most often. 用完整句说出结论。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__school-project",
+    "image": "/illustrations/english/english-1-talk/tom-chores-week.svg"
+  },
+  {
+    "id": "bank-english-1-talk-018",
+    "familyId": "english-1-talk__fam-18",
+    "version": 1,
+    "text": "Your teacher asks: 'What can you do at home?' Give two things you can do.",
+    "answer": "I can clean the table and wash the dishes.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 I can 开头，说两件能做的家务时中间用 and 连接。",
+      "两个动作都用动词原形。",
+      "答：I can clean the table and wash the dishes."
+    ],
+    "hint": "两件事都要用动词原形，不要多加 s。",
+    "alternative": "也可以说 I can sweep the floor and water the flowers. 换成别的组合也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__school-project"
+  },
+  {
+    "id": "bank-english-1-talk-019",
+    "familyId": "english-1-talk__fam-19",
+    "version": 1,
+    "text": "You share a room with your brother. Say how you divide the chores.",
+    "answer": "I clean the floor and my brother takes out the trash.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分工要用「谁做什么」的句式：先说自己负责的，再说对方负责的。",
+      "两个人都要各有一件活儿。",
+      "答：I clean the floor and my brother takes out the trash."
+    ],
+    "hint": "先想清楚两件活儿分别归谁。",
+    "alternative": "也可以说 My brother sweeps the floor and I make the bed. 交换分工也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__shared-room"
+  },
+  {
+    "id": "bank-english-1-talk-020",
+    "familyId": "english-1-talk__fam-20",
+    "version": 1,
+    "text": "Your mum asks: 'Who sweeps the floor at home?' Answer with a full sentence about your family.",
+    "answer": "My father sweeps the floor at home.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 who 开头的问题，用 My father 加动词原形，说清谁做哪件事。",
+      "句尾用 at home 点明这是家里的活儿。",
+      "答：My father sweeps the floor at home."
+    ],
+    "hint": "先找到做这件事的人，再写动词。",
+    "alternative": "也可以答 It's my father who sweeps the floor. 用强调句也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__shared-room"
+  },
+  {
+    "id": "bank-english-1-talk-021",
+    "familyId": "english-1-talk__fam-21",
+    "version": 1,
+    "text": "Look at the time line. The dot shows the time when the family starts its morning chores. What time do they start?",
+    "answer": "Seven o'clock.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看数轴上圆点对应的刻度数字，用钟点说出这个时刻。",
+      "圆点落在刻度 7 上。",
+      "答：Seven o'clock."
+    ],
+    "hint": "先找到圆点，再看它下面的数字是几。",
+    "alternative": "也可以说 They start at seven. 用 at 引出时间。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__morning-duty-chart",
+    "image": "/illustrations/english/english-1-talk/morning-start-line.svg"
+  },
+  {
+    "id": "bank-english-1-talk-022",
+    "familyId": "english-1-talk__fam-22",
+    "version": 1,
+    "text": "Your family is moving. Talk about the plan: what will you do first in the new home?",
+    "answer": "I will make my bed in my new room.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "谈计划用 will 加动词原形，把在新家里先做的那件事说出来。",
+      "用 in my new room 说明是在新家里。",
+      "答：I will make my bed in my new room."
+    ],
+    "hint": "先想新家里你要负责哪件家务。",
+    "alternative": "也可以说 I will help my mum clean the new kitchen. 说别的事也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__moving-house"
+  },
+  {
+    "id": "bank-english-1-talk-023",
+    "familyId": "english-1-talk__fam-23",
+    "version": 1,
+    "text": "Look at the picture of the family garden. The coloured squares are the flower beds. Your family digs the white squares. How many squares do you dig?",
+    "answer": "Eight.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数一数图里没有涂色的方格有多少个，把个数用英文数字词写出来。",
+      "花圃占掉一部分格子，剩下的白格就是你们要翻的。",
+      "答：Eight."
+    ],
+    "hint": "先数出全部格子，再减去有颜色的格子。",
+    "alternative": "也可以答 We dig eight squares. 用完整句说出数量。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__garden-plot",
+    "image": "/illustrations/english/english-1-talk/garden-plot.svg"
+  },
+  {
+    "id": "bank-english-1-talk-024",
+    "familyId": "english-1-talk__fam-24",
+    "version": 1,
+    "text": "You visit your grandparents. Talk about the jobs you do there.",
+    "answer": "I sweep the floor and my grandpa cooks lunch.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说在别人家帮忙做的事，也要用「谁做什么」的句式说清楚。",
+      "注意 sweep 这个词的拼写。",
+      "答：I sweep the floor and my grandpa cooks lunch."
+    ],
+    "hint": "先想清楚在爷爷奶奶家你能做哪件家务。",
+    "alternative": "也可以说 I wash the dishes and my grandma makes the soup. 换一件家务也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__grandparents-house"
+  },
+  {
+    "id": "bank-english-1-talk-025",
+    "familyId": "english-1-talk__fam-25",
+    "version": 1,
+    "text": "Your family is going camping. Talk about what you will do there.",
+    "answer": "I will put up the tent and my dad will cook the food.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "谈野营计划用 will 加动词原形，说清两件要做的事。",
+      "搭帐篷用 put up the tent。",
+      "答：I will put up the tent and my dad will cook the food."
+    ],
+    "hint": "想一想露营时通常要做哪些事。",
+    "alternative": "也可以说 I will wash the dishes after the meal. 只说自己的一件事也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__camping-trip"
+  },
+  {
+    "id": "bank-english-1-talk-026",
+    "familyId": "english-1-talk__fam-26",
+    "version": 1,
+    "text": "Look at the chart of the dog's jobs in one week. A means feeding the dog, B means walking the dog, C means cleaning its bowl. Which job does your family do most often?",
+    "answer": "Feeding the dog.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清字母和活的对应，再看哪根柱子最高。",
+      "最高的那根柱子对应 A，也就是 feeding the dog。",
+      "答：Feeding the dog."
+    ],
+    "hint": "先读清楚每个字母表示哪件活儿。",
+    "alternative": "也可以答 We feed the dog most often. 用 we 开头说全家。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__pet-rotation",
+    "image": "/illustrations/english/english-1-talk/pet-jobs-week.svg"
+  },
+  {
+    "id": "bank-english-1-talk-027",
+    "familyId": "english-1-talk__fam-27",
+    "version": 1,
+    "text": "It rained all weekend. Talk about the housework you did at home.",
+    "answer": "I cleaned my room and washed the clothes.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说已经做完的事用一般过去时，动作动词要加 ed 或用不规则动词。",
+      "clean 的过去式是 cleaned。",
+      "答：I cleaned my room and washed the clothes."
+    ],
+    "hint": "想一想动词的过去式怎么拼。",
+    "alternative": "也可以说 I made my bed and took out the trash. 换成别的两件事也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__rainy-weekend"
+  },
+  {
+    "id": "bank-english-1-talk-028",
+    "familyId": "english-1-talk__fam-28",
+    "version": 1,
+    "text": "You help in the school library on Fridays. Talk about your job there.",
+    "answer": "I help the librarian put the books on the shelf.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍自己正在做的工作用一般现在时，主语是 I，动词用原形。",
+      "help 后面可以接动词原形。",
+      "答：I help the librarian put the books on the shelf."
+    ],
+    "hint": "注意每周做的工作要用一般现在时。",
+    "alternative": "也可以说 I help the librarian with the books. 换个说法也可以。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__library-helper"
+  },
+  {
+    "id": "bank-english-1-talk-029",
+    "familyId": "english-1-talk__fam-29",
+    "version": 1,
+    "text": "Look at the chart of the housework in one week. A means you, B means your sister, C means your dad. Who does the most housework?",
+    "answer": "Your dad.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清字母指谁，再看哪根柱子最高，最高的人做得最多。",
+      "最高的那根柱子对应 C，也就是 your dad。",
+      "答：Your dad."
+    ],
+    "hint": "先读清楚 A、B、C 各指谁。",
+    "alternative": "也可以答 My dad does the most housework. 用完整句说出结论。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__sibling-swap",
+    "image": "/illustrations/english/english-1-talk/housework-compare.svg"
+  },
+  {
+    "id": "bank-english-1-talk-030",
+    "familyId": "english-1-talk__fam-30",
+    "version": 1,
+    "text": "Before the holiday, your family makes a plan. Talk about the jobs at home.",
+    "answer": "Before the holiday, I will clean my room and my dad will wash the car.",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "谈节前安排要先说时间，再说每个人负责的事，用 will 句式。",
+      "注意 before the holiday 放在句首，后面用逗号隔开。",
+      "答：Before the holiday, I will clean my room and my dad will wash the car."
+    ],
+    "hint": "想一想节前家里通常要收拾哪几件事。",
+    "alternative": "也可以说 My dad will wash the car and I will clean my room. 顺序可以换。",
+    "prerequisites": [
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-talk__holiday-planning"
+  },
+  {
+    "id": "bank-english-1-read-001",
+    "familyId": "english-1-read__fam-01",
+    "version": 1,
+    "text": "Read the passage: 'Every morning Lily makes her bed. Then she has breakfast with her family.' What does Lily do first?",
+    "answer": "She makes her bed.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读短文先找出人物和时间顺序词，再回答问题问的那件事。",
+      "Every morning 和 Then 说明先做的是 make her bed。",
+      "答：She makes her bed."
+    ],
+    "hint": "注意 Every morning 和 Then 这样的顺序线索。",
+    "alternative": "也可以答 First, Lily makes her bed. 用顺序词把答案说全。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__daily-routine-passage"
+  },
+  {
+    "id": "bank-english-1-read-002",
+    "familyId": "english-1-read__fam-02",
+    "version": 1,
+    "text": "Read: 'Tom helps his mother at home. He sweeps the floor and washes the dishes after school.' How many chores does Tom do after school?",
+    "answer": "Two.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数一数 after school 后面有几个动作动词，把个数用英文数字词写出来。",
+      "sweep 和 wash 是两个不同的活儿。",
+      "答：Two."
+    ],
+    "hint": "把两个动作动词分别数一数。",
+    "alternative": "也可以答 He does two chores. 用 He 开头把句子说完整。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__daily-routine-passage"
+  },
+  {
+    "id": "bank-english-1-read-003",
+    "familyId": "english-1-read__fam-03",
+    "version": 1,
+    "text": "Read the text: 'My father is a cook. He cooks dinner for us every evening.' What is his job?",
+    "answer": "He is a cook.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "文中的名词短语和一句话都能回答问题，要抓最直接的说法。",
+      "My father is a cook 直接写出了他的工作。",
+      "答：He is a cook."
+    ],
+    "hint": "注意 cook 在句里既是动词也是职业名词。",
+    "alternative": "也可以答 His job is cooking. 用另一种说法。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__daily-routine-passage"
+  },
+  {
+    "id": "bank-english-1-read-004",
+    "familyId": "english-1-read__fam-04",
+    "version": 1,
+    "text": "Read and judge: 'Sarah never helps at home. She only plays games.' Does Sarah help at home?",
+    "answer": "No, she doesn't.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断题要回到原文找证据，never、only 是提示词，回答用 No, she doesn't.",
+      "原文说 Sarah never helps at home，所以答案是不帮助。",
+      "答：No, she doesn't."
+    ],
+    "hint": "注意 never 这个词。",
+    "alternative": "也可以答 No, Sarah doesn't help at home. 把原文的词带进答案。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__daily-routine-passage"
+  },
+  {
+    "id": "bank-english-1-read-005",
+    "familyId": "english-1-read__fam-05",
+    "version": 1,
+    "text": "Read: 'I am Wu Bin. I clean the table. My friend Zhang Wei cooks lunch.' Who cooks lunch?",
+    "answer": "Zhang Wei.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短文里常出现多个人，要按名字找到对应的动作。",
+      "cooks lunch 前面的人是 Zhang Wei。",
+      "答：Zhang Wei."
+    ],
+    "hint": "先找 who 问的是谁。",
+    "alternative": "也可以答 Zhang Wei cooks lunch. 用完整句回答。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__who-does-what"
+  },
+  {
+    "id": "bank-english-1-read-006",
+    "familyId": "english-1-read__fam-06",
+    "version": 1,
+    "text": "Read this list: Saturday - sweep the floor; Sunday - wash the car; Monday - take out the trash. What do you do on Monday?",
+    "answer": "Take out the trash.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读这样的清单先找到对应的那一行，再读那一行的内容。",
+      "Monday 那一行写的是 take out the trash。",
+      "答：Take out the trash."
+    ],
+    "hint": "先横着找到 Monday 那一行。",
+    "alternative": "也可以答 On Monday I take out the trash. 用 On Monday 开头。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__who-does-what"
+  },
+  {
+    "id": "bank-english-1-read-007",
+    "familyId": "english-1-read__fam-07",
+    "version": 1,
+    "text": "Read: 'Ann and her brother share the work. Ann washes the clothes and her brother makes the bed.' Who makes the bed?",
+    "answer": "Her brother.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "注意 and 前后两个人各做一件事，别把人和事配错。",
+      "makes the bed 前面的人是 her brother。",
+      "答：Her brother."
+    ],
+    "hint": "逐个配对：Ann 对应 wash，brother 对应 make。",
+    "alternative": "也可以答 Ann's brother makes the bed. 用所有格形式。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__who-does-what"
+  },
+  {
+    "id": "bank-english-1-read-008",
+    "familyId": "english-1-read__fam-08",
+    "version": 1,
+    "text": "Write the sentence correctly: 'my mother cleans the table every day.'",
+    "answer": "My mother cleans the table every day.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写句子要三步：句首第一个字母大写、动词保持原形、句末加句号。",
+      "小写的 my 要改成 My，句末还要补上句号。",
+      "答：My mother cleans the table every day."
+    ],
+    "hint": "先看看哪里该大写、哪里该加标点。",
+    "alternative": "也可以写成 My mother cleans the table every day, and she is happy. 保持书写正确就可以。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__sentence-building"
+  },
+  {
+    "id": "bank-english-1-read-009",
+    "familyId": "english-1-read__fam-09",
+    "version": 1,
+    "text": "Add the missing word: 'I can ____ the dishes.'",
+    "answer": "wash",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "can 后面要接动词原形，根据句意填上搭配正确的动词。",
+      "wash 和 dishes 是常见搭配。",
+      "答：wash"
+    ],
+    "hint": "想一想哪个动词和 dishes 搭配。",
+    "alternative": "也可以填 clean。 只要搭配正确就可以。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__sentence-building"
+  },
+  {
+    "id": "bank-english-1-read-010",
+    "familyId": "english-1-read__fam-10",
+    "version": 1,
+    "text": "Correct the mistake: 'She wash the clothes on Sunday.'",
+    "answer": "She washes the clothes on Sunday.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第三人称单数的主语后面，动词要加 s，这是常见的错误。",
+      "She 是第三人称单数，所以 wash 要改成 washes。",
+      "答：She washes the clothes on Sunday."
+    ],
+    "hint": "先看主语是谁，再决定动词要不要变形。",
+    "alternative": "也可以改成 She washes her clothes on Sunday. 意思不变就可以。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__sentence-building"
+  },
+  {
+    "id": "bank-english-1-read-011",
+    "familyId": "english-1-read__fam-11",
+    "version": 1,
+    "text": "Look at Mum's note. It shows how often she does each chore. A means cook, B means clean the table, C means wash the dishes. Which chore does Mum do most often?",
+    "answer": "Clean the table.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清每个字母代表哪件家务，再找最高的那根柱子。",
+      "最高的那根柱子对应 B，也就是 clean the table。",
+      "答：Clean the table."
+    ],
+    "hint": "先读字母说明，再比较柱子的高低。",
+    "alternative": "也可以答 Mum cleans the table most often. 用完整句回答。",
+    "prerequisites": [
+      "english-1-read",
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__chart-in-passage",
+    "image": "/illustrations/english/english-1-read/mum-chore-chart.svg"
+  },
+  {
+    "id": "bank-english-1-read-012",
+    "familyId": "english-1-read__fam-12",
+    "version": 1,
+    "text": "Read the picture in the note: 'The coloured squares are the rooms we clean on Saturday.' How many rooms do we clean on Saturday?",
+    "answer": "Six.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数一数图里涂色的方格有多少个，把个数用英文数字词写出来。",
+      "图上涂色的小格子一共六个。",
+      "答：Six."
+    ],
+    "hint": "只数有颜色的方格，空白的不算。",
+    "alternative": "也可以答 We clean six rooms on Saturday. 用完整句说出结论。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__chart-in-passage",
+    "image": "/illustrations/english/english-1-read/flat-rooms-grid.svg"
+  },
+  {
+    "id": "bank-english-1-read-013",
+    "familyId": "english-1-read__fam-13",
+    "version": 1,
+    "text": "Read the notice on the door: 'Saturday Chores - Make your bed. Sweep the floor. Take out the trash.' Which chore is in the middle?",
+    "answer": "Sweep the floor.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目给了三项时，问中间那项就数到第二个。",
+      "第二项是 sweep the floor。",
+      "答：Sweep the floor."
+    ],
+    "hint": "从第一项开始数，数到第二项。",
+    "alternative": "也可以答 The second chore is sweeping the floor. 用序数说法。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__notice-and-list"
+  },
+  {
+    "id": "bank-english-1-read-014",
+    "familyId": "english-1-read__fam-14",
+    "version": 1,
+    "text": "Read the house rules: 'Keep the room clean. Don't make noise at night. Help your family every day.' Which rule is about the time of day?",
+    "answer": "Don't make noise at night.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要找和「时间」有关的那一条，就找带 at night 这样时间词的句子。",
+      "三条规则里只有一条写了具体时间。",
+      "答：Don't make noise at night."
+    ],
+    "hint": "读的时候把带时间的句子圈出来。",
+    "alternative": "也可以答 We must not make noise at night. 用 must not 改写。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__notice-and-list"
+  },
+  {
+    "id": "bank-english-1-read-015",
+    "familyId": "english-1-read__fam-15",
+    "version": 1,
+    "text": "Read the diary: 'Saturday. I helped my mother wash the dishes. My father swept the floor. I was tired but happy.' How did the writer feel at the end?",
+    "answer": "Tired but happy.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找表示感受的词，句末的 tired but happy 就是答案。",
+      "but 前后的两个词都要保留。",
+      "答：Tired but happy."
+    ],
+    "hint": "注意 but 后面的词也重要。",
+    "alternative": "也可以答 The writer felt tired, but happy. 用完整句回答。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__diary-entry"
+  },
+  {
+    "id": "bank-english-1-read-016",
+    "familyId": "english-1-read__fam-16",
+    "version": 1,
+    "text": "Read the diary: 'Sunday morning. I made my bed and watered the flowers. My mum was glad.' Why was Mum glad?",
+    "answer": "Because the writer helped at home.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 why 要找到原因，可以用 because 把前面发生的事情连起来。",
+      "妈妈高兴是因为孩子在家帮忙做了家务。",
+      "答：Because the writer helped at home."
+    ],
+    "hint": "看 Mum 前面发生了什么。",
+    "alternative": "也可以答 Because the writer made the bed and watered the flowers. 用更具体的理由。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__diary-entry"
+  },
+  {
+    "id": "bank-english-1-read-017",
+    "familyId": "english-1-read__fam-17",
+    "version": 1,
+    "text": "Read the steps: '1. Wash the vegetables. 2. Cut them. 3. Cook them in the pot.' What do you do before cutting?",
+    "answer": "Wash the vegetables.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "步骤题要按序号看，问某一步之前做什么就看前一步。",
+      "第一步是 wash the vegetables。",
+      "答：Wash the vegetables."
+    ],
+    "hint": "找到 cut 那一步，再往前看。",
+    "alternative": "也可以答 First we wash the vegetables. 用 First 开头。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__recipe-steps"
+  },
+  {
+    "id": "bank-english-1-read-018",
+    "familyId": "english-1-read__fam-18",
+    "version": 1,
+    "text": "Read the card: 'To make fruit salad: get some fruit, wash it, then put it in the bowl.' How many steps are there?",
+    "answer": "Three.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数一数卡片上写了几个动作动词，把数量用英文数字词写出来。",
+      "get、wash、put 是三个步骤。",
+      "答：Three."
+    ],
+    "hint": "把三个动词分别数一数。",
+    "alternative": "也可以答 There are three steps. 用 there be 句型。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__recipe-steps"
+  },
+  {
+    "id": "bank-english-1-read-019",
+    "familyId": "english-1-read__fam-19",
+    "version": 1,
+    "text": "Read the letter: 'Dear Lily, please help me clean the classroom before the art show on Friday. Thank you! Miss Chen.' When is the art show?",
+    "answer": "On Friday.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问时间就去找信里的时间词，注意介词 on 表示在某一天。",
+      "信中写的是 on Friday。",
+      "答：On Friday."
+    ],
+    "hint": "找出 Friday 前面的介词。",
+    "alternative": "也可以答 The art show is on Friday. 用完整句回答。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__letter-from-school"
+  },
+  {
+    "id": "bank-english-1-read-020",
+    "familyId": "english-1-read__fam-20",
+    "version": 1,
+    "text": "Read the letter: 'Dear Sam, you are a good helper. You always help your mum clean the table. Keep it up! Mum.' What does Mum think of Sam?",
+    "answer": "She thinks Sam is a good helper.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "信里常有一句评价，找出评价词 good helper 就能回答。",
+      "Mum 认为 Sam 是个爱帮忙的孩子。",
+      "答：She thinks Sam is a good helper."
+    ],
+    "hint": "注意 Keep it up 是鼓励的话。",
+    "alternative": "也可以答 Sam is a good helper. 用更短的句子。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__letter-from-school"
+  },
+  {
+    "id": "bank-english-1-read-021",
+    "familyId": "english-1-read__fam-21",
+    "version": 1,
+    "text": "Read the end of a story: 'The room was very dirty. Lily and her brother worked for an hour. Now the room is clean and tidy.' How long did they work?",
+    "answer": "An hour.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从文中找出表示时间长度的说法，答案就用这个时间说法。",
+      "文中写的是 for an hour。",
+      "答：An hour."
+    ],
+    "hint": "注意 for an hour 这种说法。",
+    "alternative": "也可以答 They worked for one hour. 用完整句回答。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__story-ending"
+  },
+  {
+    "id": "bank-english-1-read-022",
+    "familyId": "english-1-read__fam-22",
+    "version": 1,
+    "text": "Look at the time line. The dot shows the time when the family starts to clean the living room on Saturday. What time do they start?",
+    "answer": "Six o'clock.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看数轴上圆点对应的刻度数字，用钟点说出这个时刻。",
+      "圆点落在刻度 6 上。",
+      "答：Six o'clock."
+    ],
+    "hint": "先找到圆点，再看它下面的数字是几。",
+    "alternative": "也可以说 They start at six. 用 at 引出时间。",
+    "prerequisites": [
+      "english-1-read",
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__schedule-line",
+    "image": "/illustrations/english/english-1-read/evening-start-line.svg"
+  },
+  {
+    "id": "bank-english-1-read-023",
+    "familyId": "english-1-read__fam-23",
+    "version": 1,
+    "text": "Write one house rule for your family. Use 'We should ...'.",
+    "answer": "We should clean the table after dinner.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写规则用 We should 加动词原形，句子开头大写，句末加句号。",
+      "规则内容要短，一句就够。",
+      "答：We should clean the table after dinner."
+    ],
+    "hint": "想一想家里最需要大家遵守的一件小事。",
+    "alternative": "也可以写成 We should wash the dishes after dinner. 换一件家务就可以。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__house-rule-writing"
+  },
+  {
+    "id": "bank-english-1-read-024",
+    "familyId": "english-1-read__fam-24",
+    "version": 1,
+    "text": "Read the email: 'Dear Amy, I am busy on Friday. Could you look after my little brother at home? Thanks! Uncle Wang' Write a short reply to accept.",
+    "answer": "Dear Uncle Wang, I can look after your brother on Friday. Thanks! Amy",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回信要先称呼，再说同意帮忙的事，最后可以写上自己的名字。",
+      "同意的部分可以用 I can ... 来表达。",
+      "答：Dear Uncle Wang, I can look after your brother on Friday. Thanks! Amy"
+    ],
+    "hint": "先想清楚回信里要有哪几部分。",
+    "alternative": "也可以写成 Hi Uncle Wang, sure, I will look after him on Friday. Amy 意思对就可以。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__email-reply"
+  },
+  {
+    "id": "bank-english-1-read-025",
+    "familyId": "english-1-read__fam-25",
+    "version": 1,
+    "text": "Look at the family chore chart. A means cook, B means clean the table, C means wash the dishes. Write one sentence to tell your family which chore you do most often.",
+    "answer": "We clean the table most often.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看图找出最高的那根柱子，再用主语加动词原形写一句话说明。",
+      "最高的那根柱子对应 B，也就是 clean the table。",
+      "答：We clean the table most often."
+    ],
+    "hint": "注意动词要用一般现在时，句子开头要大写。",
+    "alternative": "也可以写成 The most usual chore at our home is cleaning the table. 换一种句式。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__slogan-writing",
+    "image": "/illustrations/english/english-1-read/chore-slogan-chart.svg"
+  },
+  {
+    "id": "bank-english-1-read-026",
+    "familyId": "english-1-read__fam-26",
+    "version": 1,
+    "text": "Look at the picture of the kitchen window. It is made of small squares. Write how many squares there are in one row.",
+    "answer": "Eight.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数出图里横着一排有多少个小方格，把个数用英文数字词写出来。",
+      "一排一共有八个方格。",
+      "答：Eight."
+    ],
+    "hint": "只数一行，不要把所有行都数进去。",
+    "alternative": "也可以答 There are eight squares in a row. 用完整句说出来。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__picture-story",
+    "image": "/illustrations/english/english-1-read/window-rows-grid.svg"
+  },
+  {
+    "id": "bank-english-1-read-027",
+    "familyId": "english-1-read__fam-27",
+    "version": 1,
+    "text": "Look at the class survey chart. A means the children who can wash the dishes, B means the children who can cook, C means the children who can clean the table. How many children can wash the dishes?",
+    "answer": "Five.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清字母代表的是哪一类人，再读出那根柱子上标的数字。",
+      "A 对应能洗碗的孩子，那根柱子上写着 5。",
+      "答：Five."
+    ],
+    "hint": "先读字母说明，再找 A 那根柱子上的数字。",
+    "alternative": "也可以答 Five children can wash the dishes. 用完整句说出来。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__questionnaire",
+    "image": "/illustrations/english/english-1-read/class-survey-chart.svg"
+  },
+  {
+    "id": "bank-english-1-read-028",
+    "familyId": "english-1-read__fam-28",
+    "version": 1,
+    "text": "Read the checklist on the fridge door: 'Make your bed - done. Sweep the floor - not done. Water the flowers - done.' Which job is not finished?",
+    "answer": "Sweep the floor.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看每一项后面的标记，not done 的那一项就是还没完成的活儿。",
+      "Sweep the floor 后面写的是 not done。",
+      "答：Sweep the floor."
+    ],
+    "hint": "逐项看后面的说明，找出还没做的那项。",
+    "alternative": "也可以答 Sweeping the floor is not done. 用动名词的说法。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__checklist"
+  },
+  {
+    "id": "bank-english-1-read-029",
+    "familyId": "english-1-read__fam-29",
+    "version": 1,
+    "text": "Read: 'At Wu Bin's home, his father cooks and his mother cleans. At Lily's home, Lily cooks and her father cleans.' Write one sentence to compare the two families.",
+    "answer": "At Wu Bin's home his father cooks, but at Lily's home Lily cooks.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写比较句要用「一处……另一处……」的结构，把相同或不同的地方说清楚。",
+      "两家都是有人做饭、有人打扫，只是做饭的人不同。",
+      "答：At Wu Bin's home his father cooks, but at Lily's home Lily cooks."
+    ],
+    "hint": "先找出两家相同的地方，再找出不同的地方。",
+    "alternative": "也可以写成 Wu Bin's father cooks, but Lily cooks at her home. 换一种说法。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__comparison-text"
+  },
+  {
+    "id": "bank-english-1-read-030",
+    "familyId": "english-1-read__fam-30",
+    "version": 1,
+    "text": "Read the card: 'To clean a window: 1. Get a cloth. 2. Wet it. 3. Wipe the glass. 4. Dry it.' Write the first step in a full sentence.",
+    "answer": "First, get a cloth.",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写步骤时用顺序词开头，再把动作写成完整的句子，首字母大写。",
+      "第一步是 get a cloth。",
+      "答：First, get a cloth."
+    ],
+    "hint": "注意步骤开头要用 First 这样的顺序词。",
+    "alternative": "也可以写成 The first step is to get a cloth. 用另一种句式。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-1-read__recipe-card"
+  }
+]

@@ -1,0 +1,1764 @@
+[
+  {
+    "id": "bank-chinese-5-sequence-001",
+    "familyId": "chinese-5-sequence__fam-001",
+    "version": 1,
+    "text": "读下面这段话：「放学铃声一响，值日生小禾先拿起黑板擦，把最后一行板书擦干净；接着他把讲台上的粉笔盒摆正；最后他关掉日光灯，锁好教室门。」这段话是按什么顺序写的？找出表示这个顺序的三个词。",
+    "answer": "按事情发展的先后顺序写的；表示顺序的三个词是「先」「接着」「最后」。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一段话里常常用「先、接着、然后、最后」这样的词把事情的先后标出来，读的时候把这些词圈出来，顺序就清楚了。",
+      "这段话写了三件事：擦黑板、摆粉笔盒、关灯锁门，三件事前面都各有一个表示先后的词。",
+      "答：按事情发展的先后顺序写；三个顺序词是「先」「接着」「最后」。"
+    ],
+    "hint": "先在短文里找出表示「先做、后做」的词，再看每个词后面跟着的是哪件事。",
+    "alternative": "也可以先不看顺序词，把三件事自己排一遍，排好以后再给它们配上「先、接着、最后」。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__order-words"
+  },
+  {
+    "id": "bank-chinese-5-sequence-002",
+    "familyId": "chinese-5-sequence__fam-002",
+    "version": 1,
+    "text": "读下面这段话：「妈妈让我把阳台上的花盆搬进屋，怕夜里下雨打湿。我先看了看天，云很厚；接着我把小花盆抱起来，一只一只往里挪；最后我把最大的那盆也搬了进来。」这段话是按什么顺序写的？如果把「最后我把最大的那盆也搬了进来」挪到最前面，读起来会怎么样？",
+    "answer": "按事情发展的先后顺序写（先看天，再搬小花盆，最后搬大花盆）；把最后一句挪到最前面，过程就颠倒了，读者会以为先把最大的花盆搬进屋，看不出是由小到大的做法。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看每个动作能不能接得上：看天以后才知道要不要搬，接着搬小的，最后搬大的，一步步说得通。",
+      "如果把搬大花盆放到最前面，就接不上「怕夜里下雨打湿」这个由头，读者会不明白这件事是怎么开头的。",
+      "答：按事情发展的先后顺序写；把最后一句挪到最前面会让过程颠倒，看不出由小到大的做法。"
+    ],
+    "hint": "想一想：如果先搬了最大的花盆，后面的话还能不能顺着往下说？",
+    "alternative": "也可以从「谁先谁后」去想，用「先……接着……最后……」把三步重新说一遍，看是否和原文一样通顺。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__order-words"
+  },
+  {
+    "id": "bank-chinese-5-sequence-003",
+    "familyId": "chinese-5-sequence__fam-003",
+    "version": 1,
+    "text": "下面三句话顺序被弄乱了：①．太阳升到树梢上，露水也悄悄退了。②．天刚亮，院子里静得只听见鸟叫。③．太阳偏西，鸡舍那边传来喔喔的叫声。请把这三句话排成合理的顺序，并说出你依据的是哪个词。",
+    "answer": "顺序是 ②、①、③；依据是表示时间的词：「天刚亮」在清早，「太阳升到树梢上」在上午，「太阳偏西」在下午。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "排列句子先找时间词，太阳的位置就是最好的线索：升到树梢上比刚亮的时候晚，偏西又更晚。",
+      "把太阳位置从低到高排一遍，再把「天刚亮」放在最前面，就得到 ②、①、③ 的顺序。",
+      "答：顺序是 ②、①、③；依据是「天刚亮」「太阳升到树梢上」「太阳偏西」这三个表示时间的词。"
+    ],
+    "hint": "先圈出三句话里表示时间的词，再看看太阳在一天中的位置是往前还是往后。",
+    "alternative": "也可以用常识来排：先听见鸟叫，再看见露水退去，最后才传来傍晚的鸡叫。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__order-words"
+  },
+  {
+    "id": "bank-chinese-5-sequence-004",
+    "familyId": "chinese-5-sequence__fam-004",
+    "version": 1,
+    "text": "读下面这段话：「妈妈把面团放在盆里，盖上湿布。第二天早上，面团胖得鼓起来，比原来高出一大截。妈妈在面团上撒了一层薄薄的面粉。」如果请你把「做面包」这件事写清楚，你会用哪几个顺序词把步骤连起来？请写出三到四个你打算用的顺序词，再按它们写一句通顺的话。",
+    "answer": "示例：顺序词可用「先、接着、然后、最后」；句子示例：先揉好面团，接着盖上湿布等它发起来，然后在面团上撒一层面粉，最后放进烤箱烤。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写清楚一件事，先把步骤一件一件列出来，再在每一步前面加上表示先后的词，句子就连得起来了。",
+      "面团先放进盆里盖上湿布，第二天面团发起来以后才能撒粉，最后才是进烤箱，所以撒粉一定在盖布之后。",
+      "答：示例：顺序词可用「先、接着、然后、最后」；句子示例：先揉好面团，接着盖上湿布等它发起来，然后在面团上撒一层面粉，最后放进烤箱烤。"
+    ],
+    "hint": "先把做面包的步骤列成几条，再给每一步前面添上「先、接着、最后」这样的词。",
+    "alternative": "也可以用表示时间先后的词来连，比如「等面团发起来以后」「第二天早上」，意思一样清楚。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__order-words"
+  },
+  {
+    "id": "bank-chinese-5-sequence-005",
+    "familyId": "chinese-5-sequence__fam-005",
+    "version": 1,
+    "text": "下面四句话顺序被弄乱了，请排一排：①小种子钻进土里，钻呀钻，钻出了两片小芽。②过了几天，小芽长出了嫩绿的叶子。③我把种子放进花盆，浇上水，盖上土。④春天来了，太阳暖洋洋地照着花盆。请写出正确的序号顺序，并说说你是根据什么排的。",
+    "answer": "顺序是③①②④；依据是「先把种子放进花盆」是开头，「过了几天」说明时间过去了，「春天来了」是更后面的事。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找那句话写的是「开始」，把它排在最前面；再找表示时间过去的词，看看它在第几句。",
+      "「我把种子放进花盆」是事情的开始，「过了几天」和「春天来了」都表示后来，所以顺序是③①②④。",
+      "答：顺序是③①②④；依据是「先把种子放进花盆」是开头，「过了几天」「春天来了」表示后来。"
+    ],
+    "hint": "先找哪一句写的是「开始做的事」，再把带「过了几天」这类词的句子往后排。",
+    "alternative": "也可以按种子长大的顺序想：种下—发芽—长叶，一步步长大，前面的不能排在后面。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__sort-sentences"
+  },
+  {
+    "id": "bank-chinese-5-sequence-006",
+    "familyId": "chinese-5-sequence__fam-006",
+    "version": 1,
+    "text": "读下面这段话：「小鸟站在窗台上，歪着头往屋里看。我轻轻地把窗推开一条缝，它一下子飞了进来，落在书架上。后来我用小米粒喂它，它慢慢敢靠近我的手了。」这三件事按发生的先后顺序是怎样的？请用一句话把顺序说清楚。",
+    "answer": "顺序是：先站在窗台往屋里看，接着被我放进屋里落在书架上，后来因为我喂它小米粒而敢靠近我的手。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看每件事是谁引起的：把窗推开缝，小鸟才飞进来；喂它小米粒之后，它才敢靠近手。",
+      "因果关系也就是先后关系，因在前，果在后，三件事的顺序自然就排出来了。",
+      "答：顺序是先站在窗台往屋里看，接着被我放进屋里落在书架上，后来因为我喂它小米粒而敢靠近我的手。"
+    ],
+    "hint": "想一想：是哪一件事让小鸟走进屋子的？又是哪一件事让它敢靠近人的手？",
+    "alternative": "也可以直接用「先、接着、后来」把三件事串起来，说给同学听一听，看是否通顺。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__sort-sentences"
+  },
+  {
+    "id": "bank-chinese-5-sequence-007",
+    "familyId": "chinese-5-sequence__fam-007",
+    "version": 1,
+    "text": "读下面这段话：「放学路上，我看见一只小猫掉进了下水道口。我和同学一起找来一根竹竿，把绳子系在竹竿一头慢慢放下去。小猫扒住绳子，我们一点点往上拉，终于把它拉了上来。」这段话写了哪三件事？请按事情发展的顺序说一说，并指出哪一句是结果。",
+    "answer": "三件事：看见小猫掉进下水道口、找竹竿和绳子把小猫拉上来、把小猫救上来；结果句是「终于把它拉了上来」。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读事情经过时可以分成「遇到问题—想出办法—事情解决」三块，每块算一件事。",
+      "这段话里「看见小猫掉进下水道口」是遇到问题，「找来竹竿、把绳子放下去」是想办法，「终于把它拉了上来」是结果。",
+      "答：三件事是看见小猫掉进下水道口、找竹竿和绳子把小猫拉上来、把小猫救上来；结果句是「终于把它拉了上来」。"
+    ],
+    "hint": "先找哪一句是「遇到麻烦」，再找哪一句是「问题解决了」，中间的就是办法。",
+    "alternative": "也可以用「起因、经过、结果」三个词来分这三件事，把每一句归到其中一格里。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__sort-sentences"
+  },
+  {
+    "id": "bank-chinese-5-sequence-008",
+    "familyId": "chinese-5-sequence__fam-008",
+    "version": 1,
+    "text": "读下面这段话：「小雨在阳台上看见小鸟掉在地上，先把它捡起来放进纸盒，再找出一块软布铺好，最后才打电话请爸爸来帮忙。」下面两件事，哪一件发生在前？请说出理由。①小鸟被放进纸盒；②爸爸接到电话赶来。",
+    "answer": "①在前。因为文中先写把小鸟放进纸盒，再写铺软布，最后才打电话，所以打电话一定在放进纸盒之后。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两件事的先后，就看它们在段落的哪个位置，或者看「先、再、最后」这些词。",
+      "这段话的三步是：放进纸盒、铺软布、打电话请爸爸来，电话排在最后。",
+      "答：①在前；因为文中先写把小鸟放进纸盒，最后才打电话请爸爸来帮忙。"
+    ],
+    "hint": "把两件事在段落里各画一个记号，看哪个记号在前。",
+    "alternative": "也可以从生活常识想：先给小鸟安顿好，再请大人来帮忙，顺序不会反过来。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__before-and-after"
+  },
+  {
+    "id": "bank-chinese-5-sequence-009",
+    "familyId": "chinese-5-sequence__fam-009",
+    "version": 1,
+    "text": "读下面这段话：「爷爷先在院子里挖坑埋下树苗，接着填土踩实，最后浇了一桶水。」文中哪一步离种树苗的时间最晚？哪一步离种树苗的时间最近？",
+    "answer": "最晚的是浇那一桶水，最近的是挖坑埋下树苗；因为文中依次写了挖坑、填土、浇水，一步比一步晚。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "段落里的先后是从头往尾数的，越靠后的句子发生得越晚。",
+      "这段话写挖坑、填土、浇水三步，最后一句是浇水，所以浇水最晚，第一句挖坑最近。",
+      "答：最晚的是浇那一桶水，最近的是挖坑埋下树苗；因为文中依次写了挖坑、填土、浇水，一步比一步晚。"
+    ],
+    "hint": "从第一句读到第三句，看哪一句排在最后，哪一句排在最前面。",
+    "alternative": "也可以用做事的常理来判断：树苗种下去才能填土，填好土才浇得上水。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__before-and-after"
+  },
+  {
+    "id": "bank-chinese-5-sequence-010",
+    "familyId": "chinese-5-sequence__fam-010",
+    "version": 1,
+    "text": "读下面这段话：「雨越下越大，我打开雨伞挡住了书包，可是鞋还是湿透了。原来我没有把裤脚卷起来。」文中两件事哪一件在前？湿透的鞋为什么会出现？",
+    "answer": "没有卷裤脚在前，鞋湿透在后；因为先下起大雨，我当时只顾着用伞挡住书包，忘了把裤脚卷起来，雨水顺着裤腿流下来，鞋就湿透了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "「原来」后面的话常常是前面结果的原因，先找到它，再看它在事情经过的哪个位置。",
+      "没有卷裤脚是下大雨的时候没做的事，鞋湿透是雨下过一阵以后才有的结果，所以前因后果。",
+      "答：没有卷裤脚在前，鞋湿透在后；因为只顾着用伞挡书包，忘了卷裤脚，雨水顺着裤腿流下来把鞋弄湿了。"
+    ],
+    "hint": "先找出「原来」这个词，它后面常常藏着原因。",
+    "alternative": "也可以从防护的顺序去想：先撑伞只能护住上面，卷裤脚才能护住下面，漏了哪一步鞋就湿了。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__before-and-after"
+  },
+  {
+    "id": "bank-chinese-5-sequence-011",
+    "familyId": "chinese-5-sequence__fam-011",
+    "version": 1,
+    "text": "读下面这段话：「星期六上午，我和小雨去河边钓鱼。刚坐下没多久，鱼竿就有动静，我赶紧提竿，却什么也没钓到。后来换了位置，把鱼饵搓得更大一些，再等了一会儿，终于钓上来一条大鱼。」请你用「先、接着、后来、最后」把这段话复述一遍，说清楚事情是怎么一步步发展的。",
+    "answer": "示例：先和小雨去河边钓鱼；接着第一次提竿什么也没钓到；后来换了位置、把鱼饵搓大一些；最后终于钓上来一条大鱼。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述经过要抓住每一次变化：第一次没钓到是变化，换位置、搓大鱼饵是新的尝试，最后钓到鱼是结果。",
+      "按「去钓鱼—空竿—改办法—钓到鱼」四步，用四个顺序词连起来，听起来才一步一步。",
+      "答：示例：先和小雨去河边钓鱼；接着第一次提竿什么也没钓到；后来换了位置、把鱼饵搓大一些；最后终于钓上来一条大鱼。"
+    ],
+    "hint": "先在原文中找出表示变化的词，比如「刚坐下没多久」「后来」「终于」，照着它们复述。",
+    "alternative": "也可以只说关键的一步：先空竿，后来改了办法，最后终于钓到了鱼，其余的省略。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__retell-in-order"
+  },
+  {
+    "id": "bank-chinese-5-sequence-012",
+    "familyId": "chinese-5-sequence__fam-012",
+    "version": 1,
+    "text": "读下面这段话：「秋游那天，老师先带我们到山脚下的空地做热身运动。接着我们排着队沿着石阶往上爬，爬到半山腰时大家在凉亭里喝水。最后，我们站在山顶往下看，整座城铺在脚下。」如果把这段话讲给没去过的同学听，你会先讲哪一部分？为什么这样安排？",
+    "answer": "先讲热身运动，因为它是整件事的开头，爬山、休息、登顶都发生在它之后，先讲清楚开头，后面的经过才接得上。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "给别人讲事情，要先交代事情是怎么开始的，再讲中间，最后讲结果，顺序清楚别人才跟得上。",
+      "热身是登山的第一件事，没有热身就直接爬，读者会觉得中间少了一环，所以先讲热身最自然。",
+      "答：先讲热身运动，因为它是整件事的开头，爬山、休息和登顶都发生在它之后。"
+    ],
+    "hint": "先找出这段话里表示开头的那一句，那一句就是应该先讲的。",
+    "alternative": "也可以先讲山顶看到的最壮观的景色，把顺序倒着说成悬念，但一定要把真正的时间顺序说清楚。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__retell-in-order"
+  },
+  {
+    "id": "bank-chinese-5-sequence-013",
+    "familyId": "chinese-5-sequence__fam-013",
+    "version": 1,
+    "text": "读下面这段话：「早晨，我看见家门口的信箱上贴着一张通知。我按照通知上的要求，把旧课本捆好放在门口。」这段话中间少了哪一步？照样子把中间的一步补出来，并说说你是根据什么补的。",
+    "answer": "中间少了「看清通知上要求怎么做（什么时候交、怎样捆）」这一步；因为后文说「按照通知上的要求」捆课本，说明前面必须先把通知读明白。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "补写中间的一步，先看后一句是怎么提到前面那件事的，前后要有照应。",
+      "后文说「按照通知上的要求」，可见前面得先看清楚通知上写了什么要求，这一步不能缺。",
+      "答：中间少了看清通知上要求（什么时候交、怎样捆）这一步；依据是后文「按照通知上的要求」，说明前面必须先读明白通知。"
+    ],
+    "hint": "看看后一句里哪个词用到了前面那个东西，那个东西就是缺的一步。",
+    "alternative": "也可以在「看见通知」和「捆好课本」之间补上「我把通知取下来读了一遍」，用同样的道理把前后接上。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__missing-middle"
+  },
+  {
+    "id": "bank-chinese-5-sequence-014",
+    "familyId": "chinese-5-sequence__fam-014",
+    "version": 1,
+    "text": "读下面这段话：「那天下午，我在教室后面发现一盆不知谁带来的绿萝，叶子耷拉着。我把它端到走廊的窗台上，浇了半壶水。几天后，它的叶子又挺了起来。」这段话中间少了哪一步？照样子补写一句，把过程连起来。",
+    "answer": "中间少了「打听这盆绿萝是谁的，或者先向老师说明再把它挪到走廊上养」这一步；依据是端出来浇上水、几天后叶子挺起来，说明中间有人照料过它。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找一找中间缺了什么：发现是别人带来的花，光照顾还不够，还得交代一句主人或者老师。",
+      "如果只写端出来浇水，读者会问这盆花是谁的；补上这一句，事情的经过才完整。",
+      "答：中间少了打听绿萝是谁的或向老师说明再把它挪到走廊上养这一步；依据是端出来浇水、几天后叶子挺起来，说明中间有人照料过它。"
+    ],
+    "hint": "想一想：这盆花是「不知谁带来的」，那么在照顾它之前，还应该做哪件事？",
+    "alternative": "也可以补上「我问了全班同学，可是谁也没有认领」，这样下面的照顾就有了来由。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__missing-middle"
+  },
+  {
+    "id": "bank-chinese-5-sequence-015",
+    "familyId": "chinese-5-sequence__fam-015",
+    "version": 1,
+    "text": "读下面这段话：「冬天的早上，湖面结着冰。我和小刚试着在冰上走，走到湖心时冰面忽然咔嚓响了一声。我们立刻往回跑，一路上扶着岸边慢慢挪。上岸以后，我才发现自己的手心全是汗。」这件事的结果是什么？哪一句写出了结果？",
+    "answer": "结果是两个人安全回到了岸上；写出结果的句子是「上岸以后，我才发现自己的手心全是汗」，从这句可以知道他们平安上岸了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读事情经过，要找到事情最后落到哪里，也就是结果那句。",
+      "「咔嚓」一声之后他们立刻往回跑，说明害怕冰裂；最后一句写上岸后手心全是汗，是写结果。",
+      "答：结果是两个人安全回到了岸上；写出结果的句子是「上岸以后，我才发现自己的手心全是汗」。"
+    ],
+    "hint": "从后面往前找，看看哪一句交代了事情最后怎么样了。",
+    "alternative": "也可以先自己给这段话补一个结尾，比如「小刚把外套披在我肩上」，再和原文比一比哪句更像结果。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__how-it-ended"
+  },
+  {
+    "id": "bank-chinese-5-sequence-016",
+    "familyId": "chinese-5-sequence__fam-016",
+    "version": 1,
+    "text": "读下面这段话：「小芸收到一张美术比赛的报名表，她填好以后交给了老师。过了半个月，老师把获奖名单贴了出来。她从第一行看到最后一行，忽然在第二行看见了自己的名字。」故事的结尾停在了哪一个画面上？这样写比直接写「小芸获奖了」好在哪里？",
+    "answer": "结尾停在「她从第一行看到最后一行，忽然在第二行看见了自己的名字」这个画面上；这样写把找名字时紧张又惊喜的心情写了出来，比直接交代结果更让人感受到她的高兴。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "结尾不一定是最后一句写事情的结果，也可以停在一个画面上，让读者自己去体会。",
+      "「从第一行看到最后一行」写出她找名字时的认真，「忽然」写出发现时的惊喜，比一句干巴巴的结果生动。",
+      "答：结尾停在她看见自己名字出现在第二行的画面上；这样写把找名字时紧张又惊喜的心情写了出来，比直接交代结果更动人。"
+    ],
+    "hint": "试着把「小芸获奖了」换成原文的最后一句，看画面是不是立刻出来了。",
+    "alternative": "也可以从「名单贴出来」写起，最后写她举起手指着第二行，让读者也跟着找。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__how-it-ended"
+  },
+  {
+    "id": "bank-chinese-5-sequence-017",
+    "familyId": "chinese-5-sequence__fam-017",
+    "version": 1,
+    "text": "读下面这段话：「每天早上，我都先打开收音机听新闻，接着洗漱刷牙，再把书包里的课本一本一本摆好，最后才出门。」这四件事能不能随便换换顺序？为什么？",
+    "answer": "不能随便换。洗漱要在出门前完成，整理书包也要在出门前做完，听新闻放在最前或最后都行，但都必须在出门之前完成；顺序换乱了就不合情理。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写日常的一天的顺序，要看这些事有没有必须遵守的先后，比如做完了才能出门。",
+      "洗漱、整理书包都必须在出门前完成，先出门了就做不成；只有听新闻放在哪里都说得通。",
+      "答：不能随便换；洗漱和整理书包都要在出门前完成，只有听新闻的位置可以调换，顺序乱了就不合情理。"
+    ],
+    "hint": "想一想：哪一件事如果放在「出门」后面，就再也做不成了？",
+    "alternative": "也可以自己排一次自己的早晨顺序，再和这段话比一比，看看哪些地方是一样的。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__daily-process"
+  },
+  {
+    "id": "bank-chinese-5-sequence-018",
+    "familyId": "chinese-5-sequence__fam-018",
+    "version": 1,
+    "text": "读下面这段话：「妈妈每次炒完青菜，都会把用过的锅先洗干净，再把灶台擦一遍，最后把抹布搭在水龙头上晾着。」这三步为什么一定要按这个顺序？如果把最后一步提到最前面，会怎么样？",
+    "answer": "先洗锅才能擦灶台，灶台干净了最后才是晾抹布；如果先晾抹布，抹布还在滴水就把灶台弄湿了，台面擦不干净还会溅湿。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想每一步在做什么，再看后一步是不是必须等前一步做完才能做。",
+      "灶台擦完才会干净，这时才轮到晾抹布；抹布先晾就还在滴水，擦台面反而越擦越脏。",
+      "答：先洗锅才能擦灶台，灶台干净了最后才晾抹布；把最后一步提前，抹布还滴水就把灶台弄湿，擦不干净还会溅湿。"
+    ],
+    "hint": "试着把三步重新排一次，看看哪一种排法在实际做的时候行得通。",
+    "alternative": "也可以用「做完什么才能做什么」来说理由，把三步连成一句通顺的话。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__daily-process"
+  },
+  {
+    "id": "bank-chinese-5-sequence-019",
+    "familyId": "chinese-5-sequence__fam-019",
+    "version": 1,
+    "text": "读下面这段话：「大雄被一道数学题难住了，怎么想都想不出来。他把题目抄在草稿纸上，又把书翻到那一课重新看了一遍。看完以后他忽然发现，图里的两个三角形是一样长的。他很快写出了答案，还把过程写清楚了。」大雄想出办法之前，经历了哪几步？哪一步最关键？",
+    "answer": "他经历了三步：把题目抄在草稿纸上、翻到那一课重新看、发现两个三角形一样长；最关键的是重新看那一课，因为正是在这一页上他发现了图形的秘密。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把「想不出办法」到「忽然发现」之间的动作一句一句数出来，就是他经历的几步。",
+      "抄题只是把问题摆在面前，真正让思路转弯的是重新看书，发现两个三角形一样长。",
+      "答：经历了抄题、翻书重看、发现两个三角形一样长这三步；最关键的是重新看那一课，因为发现图形的秘密是在这一页上。"
+    ],
+    "hint": "把「他想不出办法」前面画个记号，「忽然发现」后面画个记号，中间有几句话就是几步。",
+    "alternative": "也可以只说出转折的那一步，再说说这一步为什么能让他想通。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__story-order"
+  },
+  {
+    "id": "bank-chinese-5-sequence-020",
+    "familyId": "chinese-5-sequence__fam-020",
+    "version": 1,
+    "text": "读下面这段话：「星期天早上，我去菜市场买了排骨和豆角。回家以后我先把排骨焯了水，接着和豆角一起炖上。炖了一个多小时，锅盖被顶得咯咯响，一股香味飘满了整间屋子。最后我把菜盛进碗里，端上桌。」这四件事按顺序排一排，再说说哪一步让故事一下子热起来了。",
+    "answer": "顺序是买排骨豆角—焯水—炖煮—盛菜上桌；让故事热起来的是「炖了一个多小时，锅盖被顶得咯咯响，香味飘满屋子」这一步，它把等待写出了声音和香味。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把四件事排好：买菜、焯水、炖煮、盛菜，每一步都要用到上一步的成果。",
+      "焯过的排骨才能炖，炖好了才能盛菜；其中写得最有味道的是炖煮那一句，锅盖响、香味飘，都是能听能闻的细节。",
+      "答：顺序是买排骨豆角—焯水—炖煮—盛菜上桌；最出味的是炖煮那一句，锅盖咯咯响、香味飘满屋子把等待写活了。"
+    ],
+    "hint": "先按「买菜—下锅—做好—上桌」排一遍，再挑出最有声音或气味的那一句。",
+    "alternative": "也可以重点写最后盛菜上桌那一刻，写一写端上桌时家人的反应。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__story-order"
+  },
+  {
+    "id": "bank-chinese-5-sequence-021",
+    "familyId": "chinese-5-sequence__fam-021",
+    "version": 1,
+    "text": "厨房里的做法卡写着：「做西红柿鸡蛋汤：先烧开水，再把西红柿切成小块放进锅里，然后打入鸡蛋，最后加一点盐调味。」按照这张做法卡，做一碗西红柿鸡蛋汤要按哪几步的顺序进行？如果漏掉「先烧开水」这一步会怎么样？",
+    "answer": "要按先烧开水、再下西红柿、然后打鸡蛋、最后加盐的顺序做；漏掉烧开水直接下西红柿，西红柿在冷水里煮不熟，味道也出不来。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做法卡上的句子已经用顺序词标好了先后，读的时候只要照着「先、再、然后、最后」一条条往下走。",
+      "冷水里煮西红柿要等很久才能软，热水就快得多，所以「先烧开水」是这道汤的起点，漏了它后面的步骤都接不上。",
+      "答：要按先烧开水、再下西红柿、然后打鸡蛋、最后加盐的顺序做；漏掉烧开水，西红柿在冷水里煮不熟，味道也出不来。"
+    ],
+    "hint": "先把做法卡上的四步抄下来，再看看哪一步是其他步骤的前提。",
+    "alternative": "也可以把它当成一件真实的事来讲：讲给家人听，看看对方能不能听出哪一步在先。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__recipe-steps"
+  },
+  {
+    "id": "bank-chinese-5-sequence-022",
+    "familyId": "chinese-5-sequence__fam-022",
+    "version": 1,
+    "text": "实验记录写着：「第一次种绿豆，我只把绿豆放进空碗里，三天后豆子没有变化。第二次我在碗底铺了湿棉花，把绿豆放在上面，每天喷一点水。第五天，豆子裂开一条缝，钻出了小芽。」这两次实验的过程有什么不同？第二次能发芽的原因是什么？",
+    "answer": "第一次只是把绿豆放进空碗，没有给水，所以三天后没变化；第二次在碗底铺湿棉花并每天喷水，给了豆子发芽所需要的水分，所以豆子裂开缝长出了小芽。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把两次实验的过程一步一步对照着比，看看做法上多了什么、少了什么。",
+      "第二次多了铺湿棉花和每天喷水这两步，正因为有了水，豆子才裂开缝发芽。",
+      "答：第一次没给水所以没有变化；第二次铺了湿棉花并每天喷水，给足了发芽需要的水分，所以豆子发芽了。"
+    ],
+    "hint": "把两段过程并排写下来，圈出第二次比第一次多做的动作。",
+    "alternative": "也可以从「豆子发芽需要什么」去想，再说第二次满足了哪一样。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__experiment-log"
+  },
+  {
+    "id": "bank-chinese-5-sequence-023",
+    "familyId": "chinese-5-sequence__fam-023",
+    "version": 1,
+    "text": "观察日记写着：「三月十二日，我在花盆里撒下凤仙花的种子。三月二十日，土壤表面裂开细缝。四月二日，芽上长出了两片小叶。四月二十日，我给它搭起一根竹架。」把日记里的四件事按先后排好，并说说哪两件事之间隔的时间最长。",
+    "answer": "顺序是撒下种子—土面裂开细缝—长出两片小叶—搭起竹架；间隔最长的是长出两片小叶（四月二日）到搭竹架（四月二十日）之间，说明小芽长高用了不少日子。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "观察日记每条都写了日期，把日期按先后排好，事情就排好了。",
+      "从三月十二日到四月二十日，中间一个多月，后两次之间隔得最久，正因为小苗长高需要时间才要搭架子。",
+      "答：顺序是撒种子—土面裂缝—长出小叶—搭竹架；间隔最长的是长出两片小叶到搭竹架之间，说明小苗长高用了不少日子。"
+    ],
+    "hint": "先把四个日期抄成一排，再把对应的事一件件对上去。",
+    "alternative": "也可以只看事情本身：先有种子，才有裂缝，才有叶子，长高了才需要竹架。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__plant-growth"
+  },
+  {
+    "id": "bank-chinese-5-sequence-024",
+    "familyId": "chinese-5-sequence__fam-024",
+    "version": 1,
+    "text": "小宇发现家里的台灯不亮了。他先拔掉电源插头，又把灯泡取下来对着窗户照，发现灯丝断了。后来他下楼买来一只新灯泡，拧上去以后，台灯又亮了。这三件事按顺序是什么？如果他一开始就拧灯泡，会有什么危险？",
+    "answer": "顺序是拔掉插头—取下灯泡查看—买新灯泡换上；一开始就拧很危险，因为没有断电，手碰到带电的灯座可能会触电。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "查东西之前要先保证安全，所以第一件事一定是断电，然后再动手检查。",
+      "先拔插头才有资格拧灯泡，这一步不但有道理，还关系着安全，不能省。",
+      "答：顺序是拔掉插头、取下灯泡查看、买新灯泡换上；一开始就拧很危险，没有断电可能触电。"
+    ],
+    "hint": "先找出这段话里表示「保证安全」的那一步，它一定排在最前面。",
+    "alternative": "也可以从「先检查再购买」来想顺序，说明为什么不能一上来就换新的。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__repair-at-home"
+  },
+  {
+    "id": "bank-chinese-5-sequence-025",
+    "familyId": "chinese-5-sequence__fam-025",
+    "version": 1,
+    "text": "读下面这段话：「课间我发现水彩笔不见了，先翻了自己的书包和笔袋，又问了同桌，都说没看见。放学前，我在教室后面的失物招领箱里找到了它，笔杆上贴着我写的名字。」请按顺序说出「我」做了哪几件事。为什么要在水彩笔上写名字？",
+    "answer": "顺序是翻书包和笔袋—问同桌—在失物招领箱里找到水彩笔；写名字是为了东西丢了能物归原主，别人捡到一看就知道是谁的。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想「我」的办法顺序：从最可能的地方找起，再问人，最后想到专门收失物的地方。",
+      "写名字是有用的细节，读者一看就知道这支笔是怎么回到主人手里的。",
+      "答：顺序是翻书包笔袋、问同桌、在失物招领箱找到；写名字是为了失物能物归原主，别人捡到也知道是谁的。"
+    ],
+    "hint": "把「我」做的三件事按段落出现的次序排好，再想想写名字有什么用处。",
+    "alternative": "也可以从「东西不见了先找哪里」的生活经验出发，说说还有哪些地方可以去找。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__lost-and-found"
+  },
+  {
+    "id": "bank-chinese-5-sequence-026",
+    "familyId": "chinese-5-sequence__fam-026",
+    "version": 1,
+    "text": "读下面这段话：「放学后，我们小组留下打扫教室。小美先搬走了讲台边的两张椅子，接着拿起扫把把地上的纸屑扫成一堆，最后大家把纸屑装进袋子送到垃圾房。」这段话是按什么顺序写的？如果把「把纸屑装进袋子送到垃圾房」放到最前面，读起来会怎么样？",
+    "answer": "按事情发展的先后顺序写（搬椅子—扫地—倒垃圾）；先腾出地方才好打扫，扫完才有垃圾可倒，把倒垃圾放最前面过程就颠倒了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做一件事要一步一步来，每一步都为下一步做准备：先搬开椅子，才能挥动扫把。",
+      "扫地之前地上还没有扫起来的纸屑，把倒垃圾放最前面就说不通了。",
+      "答：按事情发展的先后顺序写（搬椅子—扫地—倒垃圾）；把倒垃圾放最前面，过程就颠倒了，因为这时还没有扫起来的纸屑。"
+    ],
+    "hint": "想一想：扫把要挥得开，必须先做什么？",
+    "alternative": "也可以把自己打扫教室的步骤写下来，和这段话比一比，看看顺序是不是一样。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__class-cleaning"
+  },
+  {
+    "id": "bank-chinese-5-sequence-027",
+    "familyId": "chinese-5-sequence__fam-027",
+    "version": 1,
+    "text": "明明给外婆写了一封信：「外婆，我上周去了乡下的外婆家。那天下雨，我帮您把院子里的衣服收进屋，还把您种的青菜浇了一遍水。回来以后，我把洗出来的照片附在信里。」按信里说的，三件事一件件是怎么过来的？请按先后说一说。",
+    "answer": "三件事依次是：去乡下的外婆家；那天下雨帮外婆收衣服、浇青菜；回来以后把照片洗出来附在信里。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "信里用「上周」「那天」「回来以后」来表示时间，把这些词排一排，先后就出来了。",
+      "「那天」说的是在外婆家的那天，「回来以后」一定在「那天」之后，所以三步的顺序是出门、帮忙、回来附照片。",
+      "答：三件事依次是去乡下外婆家、那天下雨帮外婆收衣服并浇青菜、回来以后把洗出来的照片附在信里。"
+    ],
+    "hint": "把信里表示时间的词圈出来，再把每件事对到它后面。",
+    "alternative": "也可以用自己的话把信里的经历讲一遍，讲完问外婆听明白了没有。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__letter-timeline"
+  },
+  {
+    "id": "bank-chinese-5-sequence-028",
+    "familyId": "chinese-5-sequence__fam-028",
+    "version": 1,
+    "text": "读下面这段话：「运动会上，我参加了四百米跑。发令枪一响，我先站在起跑线上等裁判举旗；裁判一挥手，我冲了出去。跑到一半，我的腿有点发酸，可我看见同学们在跑道边喊我的名字，就咬牙坚持了下来。最后我冲过终点，一屁股坐在地上，只觉得胸口一起一伏。」这场比赛的过程可以分成哪几步？哪一步写得最细？",
+    "answer": "过程可分成等裁判发令、起跑、跑到一半腿发酸、咬牙坚持、冲过终点坐在地上喘息五步；写得最细的是「腿发酸」和「冲过终点」这两段，既有动作也有自己的感受。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比赛过程可以按「等—开始— midway 遇到困难—坚持—结束」来分几步。",
+      "中间遇到困难又坚持下来，这一步最有味道；最后写坐在地上胸口起伏，是用身体的样子把累写出来了。",
+      "答：过程分等发令、起跑、中途腿酸、咬牙坚持、冲过终点喘息五步；写得最细的是腿发酸坚持下来和冲过终点这两段。"
+    ],
+    "hint": "先找出「发令枪一响」和「最后」这两个位置，中间就是过程，看看还能分成几步。",
+    "alternative": "也可以只说最关键的两步：最难的和最后的，然后说说为什么这两步最值得写。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__sports-day"
+  },
+  {
+    "id": "bank-chinese-5-sequence-029",
+    "familyId": "chinese-5-sequence__fam-029",
+    "version": 1,
+    "text": "观察记录写着：「九月十七日，几只燕子低低地飞过屋檐。第二天，它们就不见了。十月中旬，我又看见它们回来，停在电线上排成一排。」记录里的事按时间是怎么排的？中间那段「不见了」说明了什么？",
+    "answer": "顺序是九月十七日燕子飞过屋檐、第二天飞走不见、十月中旬飞回来排在电线上；中间「不见了」说明它们飞到别处过冬去了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "记录里的事按日期先后排：九月十七日、第二天、十月中旬，一眼就能看出来。",
+      "燕子在秋天离开、春天回来是候鸟的习性，「不见了」不是消失，而是飞到南方去过冬。",
+      "答：顺序是九月十七日飞过屋檐、第二天飞走、十月中旬飞回来排在电线上；「不见了」说明它们飞到别处过冬去了。"
+    ],
+    "hint": "先按日期排好，再想一想燕子为什么会在冬天不见。",
+    "alternative": "也可以从「候鸟」这个词去想，把这句话改写成一句带科学味道的话。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__bird-migration"
+  },
+  {
+    "id": "bank-chinese-5-sequence-030",
+    "familyId": "chinese-5-sequence__fam-030",
+    "version": 1,
+    "text": "整理照片时，我按时间给它们编了号。最早的一张是空荡荡的书桌，接着是桌上摊开的课本，再往后是窗台上多出来的一束野花，最后一张是我举着奖状的笑脸。这些照片该按什么顺序排？请说说你的理由。",
+    "answer": "该按书桌空着、桌上摊开课本、窗台上出现野花、举着奖状的时间先后排；理由是桌上的东西一点点多起来，最后事情有了结果，前后的变化能看出经过。",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "给照片排序，先看画面里的东西是变多了还是变少了，再看哪一张是事情的结果。",
+      "书桌空着说明一切还没开始，课本摊开说明在学习，出现野花说明日子在往前走，最后举着奖状是结果。",
+      "答：按书桌空着、课本摊开、出现野花、举着奖状的顺序排；因为桌上的东西一点点多起来，最后事情有了结果。"
+    ],
+    "hint": "看看四张照片里，桌上和窗台上的东西是怎么一点点多起来的。",
+    "alternative": "也可以先写出每张照片拍的时候「我」在做什么，再按事情的进展排序。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-sequence__photo-album"
+  },
+  {
+    "id": "bank-chinese-5-details-001",
+    "familyId": "chinese-5-details__fam-001",
+    "version": 1,
+    "text": "读下面这段话：「我踮起脚尖，把手伸向树枝上的果子。树枝被压得弯了弯，果子终于落进我的手里。」哪几个词写出了「我」的动作？这些动作让你看出什么？",
+    "answer": "写动作的词是「踮起脚尖」「把手伸向」「压得弯了弯」「落进我的手里」；这些动作让人看出摘果子要小心、要耐着性子慢慢来。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找动作词要盯住表现身体怎么动的词语，尤其是手脚怎么动、东西怎么动。",
+      "这段话里身体的动作有两个，树枝和果子的动作有三个，一句一句拆开就能写清摘果子的过程。",
+      "答：动作词是「踮起脚尖」「把手伸向」「压得弯了弯」「落进我的手里」；可以看出摘果子要小心、要慢慢来。"
+    ],
+    "hint": "把每个带「得」「着」和表示手、脚动作的词圈出来，看看能圈出几个。",
+    "alternative": "也可以把这些动作连起来演一演，一边演一边说给同学听，感受哪一步最难。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__find-the-action"
+  },
+  {
+    "id": "bank-chinese-5-details-002",
+    "familyId": "chinese-5-details__fam-002",
+    "version": 1,
+    "text": "读下面这段话：「他紧紧攥着试卷的一角，脚步越走越慢，最后还是走到了讲台前。」这些动作写出了他怎样的心情？为什么？",
+    "answer": "写出了紧张、担心又有些不情愿的心情；「攥紧」显出用力，「越走越慢」显出犹豫迟疑，「还是走了过去」又显出他最后鼓起了勇气。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "动作常常带着心情，写心情时不要直接说出来，先看动作本身说明了什么。",
+      "三个动作是一步步变的：越用力越紧张，越慢越犹豫，最后走过去又有点勇气，所以心情是复杂的。",
+      "答：写出了紧张、担心又有些不情愿的心情；「攥紧」显出用力，「越走越慢」显出迟疑，「还是走了过去」显出最后的勇气。"
+    ],
+    "hint": "把三个动作连起来想一想：人一边紧张一边往前挪，是什么样子？",
+    "alternative": "也可以在句末加上人物的一句心里话，比如「我的腿怎么这么沉呀」，把心情说得更明白些。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__find-the-action"
+  },
+  {
+    "id": "bank-chinese-5-details-003",
+    "familyId": "chinese-5-details__fam-003",
+    "version": 1,
+    "text": "读下面这段话：「教室后面忽然响起一声闷响，接着是好几个同学喊了一声「啊」。我抬头一看，粉笔盒掉在了地上，碎成了两半。」哪一句是最关键的？为什么？",
+    "answer": "最关键的是「粉笔盒掉在了地上，碎成了两半」；前面两句只是引起了注意，这一句才写出发生了什么、结果怎么样。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写一件事时，把最要紧的那句写得清楚，其余的句子为它做准备。",
+      "「闷响」和同学的「啊」只是引起注意的铺垫，读者真正要知道的是什么东西摔了、摔成了什么样。",
+      "答：最关键的是「粉笔盒掉在了地上，碎成了两半」；前两句只是引起注意，这一句才写出事情本身和结果。"
+    ],
+    "hint": "把三句分别标上「引起注意」和「说明事情」，看看哪一句被归到后面。",
+    "alternative": "也可以把顺序换一换：先写粉笔盒碎了，再写响声和同学的喊声，这样开头更抓人。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__find-the-action"
+  },
+  {
+    "id": "bank-chinese-5-details-004",
+    "familyId": "chinese-5-details__fam-004",
+    "version": 1,
+    "text": "「他关上灯，锁好门，走出教室。」和「他关上灯，锁好门，走出教室时回头看了一眼黑板。」这两句写的是同一件事，后一句好在哪里？",
+    "answer": "后一句多了「回头看了一眼黑板」这个动作，写出他对教室的留恋，让人物更真实；一个小动作，就把心里的感情写出来了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两句时先看多出来的部分，再问这一步动作说明了人物什么样的心思。",
+      "「回头看一眼黑板」不是必须交代的事情，它让读者看到舍不得，所以句子有味道了。",
+      "答：后一句多了「回头看了一眼黑板」的动作，写出他对教室的留恋，人物更真实。"
+    ],
+    "hint": "把后一句多出来的三个字圈出来，想想他为什么要回头看。",
+    "alternative": "也可以在句尾加一句人物的话，比如「明天见」，用另一种方式把不舍写出来。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__find-the-action"
+  },
+  {
+    "id": "bank-chinese-5-details-005",
+    "familyId": "chinese-5-details__fam-005",
+    "version": 1,
+    "text": "读下面这段话：「妹妹把书包背走了。」请在「背走了」后面加上一句，把她当时的样子写具体，让读者看见她是怎么走的。",
+    "answer": "示例：妹妹把书包背走了，背带在她肩上一晃一晃，她还回头朝我挥了挥手。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写具体就是补上「动作」和「样子」，让人物在纸面上动起来。",
+      "背带一晃一晃是书包的样子，回头挥手是动作，补上以后读者才看得见妹妹走时的样子。",
+      "答：示例：妹妹把书包背走了，背带在她肩上一晃一晃，她还回头朝我挥了挥手。"
+    ],
+    "hint": "想一想妹妹走的时候身上哪样东西在动，她有没有回头。",
+    "alternative": "也可以写她走路的脚步和声音，比如「她一边跑一边跳，脚步声在楼道里咚咚响」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__add-a-sentence"
+  },
+  {
+    "id": "bank-chinese-5-details-006",
+    "familyId": "chinese-5-details__fam-006",
+    "version": 1,
+    "text": "读下面这段话：「小猫缩在纸箱里，一动不动。」请在这句话后面加上一句，让小猫的状态更清楚，让读者知道它是害怕还是好奇。",
+    "answer": "示例：小猫缩在纸箱里，一动不动，两只眼睛在纸箱缝里亮晶晶地转。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "「一动不动」只是身体的姿势，补上眼睛、耳朵这些地方的动静，才看得出它心里在想什么。",
+      "眼睛在缝里转，说明它在偷偷看，是好奇；要是耳朵往后贴着、身子缩得更紧，那就是害怕。",
+      "答：示例：小猫缩在纸箱里，一动不动，两只眼睛在纸箱缝里亮晶晶地转。"
+    ],
+    "hint": "小猫身上除了身子，还有眼睛、耳朵、尾巴会动，挑一个写上去。",
+    "alternative": "也可以写它身上盖着的东西，比如「纸箱上压着一件旧衣服，它从衣服下面探出半个脑袋」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__add-a-sentence"
+  },
+  {
+    "id": "bank-chinese-5-details-007",
+    "familyId": "chinese-5-details__fam-007",
+    "version": 1,
+    "text": "读下面这段话：「我们把风筝放上了天。」请在这句话后面加上一句，让读者好像也看见了那个场面。",
+    "answer": "示例：我们把风筝放上了天，风筝越飞越高，手里的线一圈一圈放出去，风把线绷得直直的。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "加句子时可以从眼睛看到的、耳朵听到的、手上感觉到的三个方向去想。",
+      "「越飞越高」「线一圈一圈放出去」「线绷得直」都是眼睛能看见的，读者就跟着看见了天上的风筝。",
+      "答：示例：我们把风筝放上了天，风筝越飞越高，手里的线一圈一圈放出去，风把线绷得直直的。"
+    ],
+    "hint": "想一想：风筝飞起来以后，手里的线会怎么样？",
+    "alternative": "也可以加一句旁边人的反应，比如「弟弟在旁边喊：再放一点！」让场面更热闹。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__add-a-sentence"
+  },
+  {
+    "id": "bank-chinese-5-details-008",
+    "familyId": "chinese-5-details__fam-008",
+    "version": 1,
+    "text": "读下面这段话：「下课了，小雨发现同桌的铅笔盒破了，她把自己的橡皮递过去，说借你用一用。」请把这段话改写成小组成员的对话，要写出人物说了什么，还要注意提示语后面的标点。",
+    "answer": "示例：「你的笔盒怎么破了？」「没关系，我这儿有橡皮，借你用用。」改写时要给提示语加上合适的标点，人物的语气也要写出来。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把叙述改成对话，先想清楚谁先开口、说了什么，再把提示语放到合适的位置。",
+      "原句里已经有「说借你用一用」，把它变成引号里的话，再补上另一方的一句问话，对话就完整了。",
+      "答：示例：「你的笔盒怎么破了？」「没关系，我这儿有橡皮，借你用用。」要注意提示语后的标点和人物说话的语气。"
+    ],
+    "hint": "先给两个同学各分一句台词，再把提示语安放到说话人的前面或后面。",
+    "alternative": "也可以给这句对话加上神态提示，比如小雨笑着说、同桌小声说，让画面更清楚。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__write-the-dialogue"
+  },
+  {
+    "id": "bank-chinese-5-details-009",
+    "familyId": "chinese-5-details__fam-009",
+    "version": 1,
+    "text": "读下面这段话：「小芸想去电影院，可票已经卖完了。她在售票口站了一会儿，转身往回走。这时同伴追上来，递给她两张票。」请把最后发生的过程改写成一段对话，写出两人说的话。",
+    "answer": "示例：「票卖完了，我们回去吧。」「等等！我这儿有两张多余的票，一起去看吧！」",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改写成对话要抓住人物的动作和说的话，先给每句话配上说话的人。",
+      "小芸转身往回走是失望，同伴追上来递票是惊喜，两个人各说一句就够写出转折。",
+      "答：示例：「票卖完了，我们回去吧。」「等等！我这儿有两张多余的票，一起去看吧！」"
+    ],
+    "hint": "一个人先说一句失望的话，另一个人追上来再说一句惊喜的话。",
+    "alternative": "也可以让同伴先开口：「别走，我多买了两张。」再让小芸回答。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__write-the-dialogue"
+  },
+  {
+    "id": "bank-chinese-5-details-010",
+    "familyId": "chinese-5-details__fam-010",
+    "version": 1,
+    "text": "读下面这段话：「奶奶剥开一个橘子，把一瓣一瓣分给家里人。」请写出奶奶分橘子时说的话和家里人的反应，把这段话补完整。",
+    "answer": "示例：奶奶说：「一人一瓣，别抢啊。」弟弟接过就说：「真甜！」",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "补写对话和反应，先想奶奶分橘子时会说什么，再想接到橘子的人会做什么、说什么。",
+      "奶奶的话要符合她的身份，家人接橘子时的反应可以是一个动作，也可以是一句夸赞。",
+      "答：示例：奶奶说：「一人一瓣，别抢啊。」弟弟接过就说：「真甜！」"
+    ],
+    "hint": "想一想：奶奶年纪大了，分橘子时会先叮嘱一句什么？",
+    "alternative": "也可以写一个小小的意外，比如最小的妹妹把橘子皮捏成了一个小碗。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__write-the-dialogue"
+  },
+  {
+    "id": "bank-chinese-5-details-011",
+    "familyId": "chinese-5-details__fam-011",
+    "version": 1,
+    "text": "读下面这段话：「我推开门，一股热气扑面而来。桌上摆着一碗热气腾腾的面条。」请把「推开门」这个动作再写具体一点，像放慢镜头一样写出推开门的那一瞬间。",
+    "answer": "示例：我推开门，一股热气扑面而来，门把手上的凉还没散，我的眼镜一下子蒙上了一层白雾。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把一个动作放慢来写，就要把推门那一瞬间身体的各个部分都写到：手、脚、脸、身上的东西。",
+      "手上有凉、眼镜起雾，都是推开门时才会发生的事，写进去读者就像站在门口。",
+      "答：示例：我推开门，一股热气扑面而来，门把手上的凉还没散，我的眼镜一下子蒙上了一层白雾。"
+    ],
+    "hint": "想一想：手刚摸到门把手是什么感觉，你的眼镜会怎么样？",
+    "alternative": "也可以写门轴的声音和妈妈从厨房探出的头，让那一瞬间更热闹。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__zoom-in-the-moment"
+  },
+  {
+    "id": "bank-chinese-5-details-012",
+    "familyId": "chinese-5-details__fam-012",
+    "version": 1,
+    "text": "读下面这段话：「我在楼梯上脚下一滑，整个人坐到了台阶上。」请把这个摔倒的瞬间写具体：手、脚、脸和心里分别是什么样子。",
+    "answer": "示例：我在楼梯上脚下一滑，整个人坐到了台阶上，右手死死撑住地面，膝盖火辣辣地疼，脸颊贴在冰凉的台阶上，半天说不出话。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写摔倒的一瞬间，要从身体的不同部位去写，每个部位写一种感觉或一个动作。",
+      "手撑地是保护动作，膝盖疼是身体的感觉，脸贴台阶是姿势，半天说不出话是心里的慌。",
+      "答：示例：我在楼梯上脚下一滑，整个人坐到了台阶上，右手死死撑住地面，膝盖火辣辣地疼，脸颊贴在冰凉的台阶上，半天说不出话。"
+    ],
+    "hint": "按手、脚、脸、心里四样一个一个写，每样只写一句。",
+    "alternative": "也可以把摔倒前那一瞬间的念头写出来，比如「我还在想最后一层要不要再歇一会儿」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__zoom-in-the-moment"
+  },
+  {
+    "id": "bank-chinese-5-details-013",
+    "familyId": "chinese-5-details__fam-013",
+    "version": 1,
+    "text": "读下面这段话：「一整天，我们都在操场上搬砖。上午我们把砖从卡车上卸下来，一块一块摞到墙边；中午我们蹲在树荫下吃饭；下午我们把砖垒到墙上，手上磨出了泡。」哪一部分应该写详细？哪一部分可以简写？为什么？",
+    "answer": "下午把砖垒到墙上的部分应该写详细，因为这是这一天里最主要、最能表现辛苦的部分；上午卸砖和中午吃饭可以简写。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写一件事不能每一步都写得很细，要挑出最能表现事情的那一部分，其余一笔带过。",
+      "一天里有卸砖、吃饭、垒砖三段，垒砖最能看出劳动的辛苦和成果，所以它该详，其余略。",
+      "答：下午把砖垒到墙上的部分应写详细，因为它最能表现辛苦和成果；上午卸砖、中午吃饭可以简写。"
+    ],
+    "hint": "先问自己：这段话最想让人记住哪一段？那一段就详写。",
+    "alternative": "也可以写「手上磨出了泡」这一个细节代替整段铺开，用一个点带出全部过程。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__detail-and-summary"
+  },
+  {
+    "id": "bank-chinese-5-details-014",
+    "familyId": "chinese-5-details__fam-014",
+    "version": 1,
+    "text": "读下面这段话：「妈妈做了一桌菜。」请把最拿手的那一道菜写详细，其余的菜一笔带过，让读者觉得香。",
+    "answer": "示例：妈妈做了一桌菜，最拿手的是红烧肉。她先把五花肉切成方块，用锅煎到两面金黄，再放进锅里加糖和酱油，盖上盖子小火慢炖。揭开盖子时，香味一下子涌出来，肉亮得发红。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "详写一道菜，要写出做它的几个步骤，还要写出颜色、气味、声音这些能引起感觉的细节。",
+      "「两面金黄」「香味一下子涌出来」「亮得发红」都是从闻到看到的角度写，读者才会觉得香。",
+      "答：示例：妈妈做了一桌菜，最拿手的是红烧肉。她把五花肉切成方块煎到两面金黄，再加糖和酱油小火慢炖，揭盖时香味涌出来，肉亮得发红。"
+    ],
+    "hint": "想一想做这道菜时最先飘出来的味道是什么，锅里的颜色有什么变化。",
+    "alternative": "也可以不写做菜过程，改写家人端上桌时的反应，比如「爸爸还没坐下就夹走了第一块」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__detail-and-summary"
+  },
+  {
+    "id": "bank-chinese-5-details-015",
+    "familyId": "chinese-5-details__fam-015",
+    "version": 1,
+    "text": "读下面这段话：「他站在领奖台边上，两只手不知道往哪儿放。」只写「两只手不知道往哪儿放」够不够？还可以从哪些方面写出他的紧张？",
+    "answer": "还不够具体；可以写他的呼吸变快、说话声音发颤、眼睛不敢看台下、腿有点发软，也可以写他不停地在裤缝上蹭手心。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "只写一个动作往往不够，要从身体的不同部位再添上一两处反应，紧张才立体。",
+      "手无处放只是心里慌的表现，呼吸、眼神、腿、衣服都能替他说话，多写几处读者才跟着紧张。",
+      "答：还不够具体；可以写呼吸变快、声音发颤、眼神躲闪、腿发软，或者写他不停在裤缝上蹭手心。"
+    ],
+    "hint": "从眼睛、呼吸、腿、手上的小动作里挑两样写一写。",
+    "alternative": "也可以用别人的眼光来写，比如「台下的人都在看他，他更不敢抬头了」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__emotion-and-words"
+  },
+  {
+    "id": "bank-chinese-5-details-016",
+    "familyId": "chinese-5-details__fam-016",
+    "version": 1,
+    "text": "读下面这段话：「妈妈说：路上小心。我嗯了一声，转过身走了。」这句话里藏着妈妈和“我”各什么样的心情？如果把“我”走后的动作写出来，会怎么样？",
+    "answer": "藏着妈妈不放心的牵挂和「我」嘴上不说、心里明白的懂事；写「我」走出几步又回头看一眼，能把这份不舍写得更有味道。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短短两句话里藏的心情，要从说话的内容和回应的方式里去找。",
+      "「路上小心」是关心，「嗯了一声」是不多说，转过身走是装作没事，正是嘴上和心里不一样。",
+      "答：藏着妈妈的牵挂和「我」的懂事；补写走出几步又回头看一眼的动作，能把不舍写得更有味道。"
+    ],
+    "hint": "注意「我嗯了一声」这个回应，答应的语气说明了什么。",
+    "alternative": "也可以写门在身后轻轻合上的声音，用声音把这份情绪带出来。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__emotion-and-words"
+  },
+  {
+    "id": "bank-chinese-5-details-017",
+    "familyId": "chinese-5-details__fam-017",
+    "version": 1,
+    "text": "读下面这段话：「他吃了很多苹果。」请把这句话改写成具体的样子，让读者看得出他吃了多少、吃了以后是什么样。",
+    "answer": "示例：他把桌上的苹果挨个咬过，桌上最后剩下三个亮晶晶的苹果核，果核上还留着牙印。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "「很多」是笼统的说法，要换成看得见的样子，比如剩下几个核、肚子什么感觉。",
+      "「挨个咬过」「剩下三个苹果核」「果核上留着牙印」都是具体的样子，读者一下就明白了。",
+      "答：示例：他把桌上的苹果挨个咬过，桌上最后剩下三个亮晶晶的苹果核，果核上还留着牙印。"
+    ],
+    "hint": "想一想：吃完以后桌上会留下什么，肚子是什么感觉。",
+    "alternative": "也可以从动作顺序写：「他拿起一个咬两口就放下，再拿一个，最后连果核都嚼了嚼。」",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__rewrite-a-plain-sentence"
+  },
+  {
+    "id": "bank-chinese-5-details-018",
+    "familyId": "chinese-5-details__fam-018",
+    "version": 1,
+    "text": "读下面这段话：「房间很乱。」请把这句话改写成具体的样子，让人看得出乱到什么程度，也看得出是谁弄乱的。",
+    "answer": "示例：房间里玩具散了一地，椅子倒在地上，床上的被子皱成一团，地上还踩着几个黑黑的鞋印。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写「乱」要从地上、桌上、床上分别挑一样东西出来写，只写一样太空。",
+      "玩具、椅子、被子、鞋印各写一句，读者脑子里就有房间的样子了，乱的程度也出来了。",
+      "答：示例：房间里玩具散了一地，椅子倒在地上，床上的被子皱成一团，地上还踩着几个黑黑的鞋印。"
+    ],
+    "hint": "在房间里走一圈，地上、桌上、床上各找一样东西写上去。",
+    "alternative": "也可以从声音写，比如「我一推门，玩具骨碌碌滚了一地」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__rewrite-a-plain-sentence"
+  },
+  {
+    "id": "bank-chinese-5-details-019",
+    "familyId": "chinese-5-details__fam-019",
+    "version": 1,
+    "text": "甲段：「我把门关上了。」乙段：「我把门关上，又把灯台上的蜡烛吹灭，屋里一下子黑了下来。」乙段比甲段多了什么？为什么更好？",
+    "answer": "乙段多了「吹灭蜡烛」这个动作和屋里变黑的结果，把关门以后还做了什么写出来，读者能想象出画面；甲段太笼统，像在记一件事，不像在讲故事。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两段时先找出多出来的部分，再问这部分让读者看见了什么。",
+      "「吹灭蜡烛」和「屋里一下子黑了下来」让读者眼前有动作、有画面，而甲段只有一句交代。",
+      "答：乙段多了吹灭蜡烛的动作和屋里变黑的结果，读者能想象出画面；甲段太笼统，像记事而不像讲故事。"
+    ],
+    "hint": "把两段放在一起读，看看哪一段让你真的看见了那个房间。",
+    "alternative": "也可以给甲段补上同样的一句，比如「我把门关上了，屋里只剩下窗外的路灯」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__compare-detail-level"
+  },
+  {
+    "id": "bank-chinese-5-details-020",
+    "familyId": "chinese-5-details__fam-020",
+    "version": 1,
+    "text": "甲段：「他把球传了过来。」乙段：「他把球从右边往我这边一推，球骨碌碌滚到我脚边。」乙段好在哪里？如果再多加一句，会是什么效果？",
+    "answer": "乙段写清了球传来的方向和滚动的样子，读者能看见；再多加一句「我伸脚一挡，球停住了」，就把接球的动作也接上，故事更连贯。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写具体就是给动作加上方向、样子和结果，读者才能跟着看见。",
+      "「从右边一推」「骨碌碌滚到脚边」让人看见球怎么过来；再补一句接球，故事就完整了。",
+      "答：乙段写清了方向和滚动的样子，读者能看见；再加一句「我伸脚一挡，球停住了」，就把接球的动作也接上，故事更连贯。"
+    ],
+    "hint": "想一想：球滚到脚边以后，接下来会发生什么？",
+    "alternative": "也可以在前面加一句自己的准备，比如「我早就把脚伸了出去，等着接它」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__compare-detail-level"
+  },
+  {
+    "id": "bank-chinese-5-details-021",
+    "familyId": "chinese-5-details__fam-021",
+    "version": 1,
+    "text": "读下面这段话：「每天放学回家，我先把乐乐的食物倒进碗里。它总是先在脚边转两圈，才低头吃；吃几口，又抬头看看我，好像怕我抢走似的。」这段话把喂猫这件事写清楚了哪些细节？哪一句最让你觉得乐乐可爱？",
+    "answer": "写清了倒食物、乐乐先在脚边转两圈再低头吃、吃几口抬头看人这几个细节；「吃几口，又抬头看看我，好像怕我抢走似的」最让人觉得它可爱。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写小动物的动作要从它的身上找：脚怎么动、头怎么抬、眼睛往哪儿看。",
+      "转两圈是脚的动作，抬头看人是头的动作，加上「好像怕我抢走似的」这样的猜想，可爱就出来了。",
+      "答：写清了倒食物、先转两圈再低头吃、吃几口抬头看人这几个细节；「吃几口又抬头看看我，好像怕我抢走似的」最让人觉可爱。"
+    ],
+    "hint": "圈出写乐乐身上各个部位动作的词，再看哪一句里带着人的猜想。",
+    "alternative": "也可以补一句乐乐吃完以后的样子，比如「它舔了舔嘴巴，跳到窗台上晒太阳」。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__pet-feeding"
+  },
+  {
+    "id": "bank-chinese-5-details-022",
+    "familyId": "chinese-5-details__fam-022",
+    "version": 1,
+    "text": "读下面这段话：「弟弟的手指被纸划了一道口子，血珠一下子冒了出来。妈妈没有慌，先用清水把伤口冲干净，又贴上一块创可贴，最后把创可贴的边角压了压，贴得平平整整。」妈妈做的三件事里，哪一件最能让人感到她细心？如果把最后一句去掉，读者的感觉会差在哪里？",
+    "answer": "「先用清水把伤口冲干净」最能让人感到细心，因为先清洁再贴创可贴是讲顺序的；去掉最后一句，读者只知道贴了创可贴，感觉不到贴好以后的仔细和踏实。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写一个人的细心，要靠动作的顺序和手上的细致来体现，而不是直接说他细心。",
+      "先冲干净再贴、再把边角压平，三步一步做下来，最后那句「平平整整」把妈妈的用心落到了实处。",
+      "答：先用清水冲干净最能让人感到细心，因为先清洁再贴是讲顺序的；去掉最后一句，读者就感觉不到贴好以后的仔细和踏实。"
+    ],
+    "hint": "比较这三步的动作，看哪一步最能看出妈妈连小地方都在意。",
+    "alternative": "也可以从弟弟的反应来写，比如「弟弟一直把手举得高高的，不敢动」，用衬托写出妈妈做得妥帖。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__first-aid"
+  },
+  {
+    "id": "bank-chinese-5-details-023",
+    "familyId": "chinese-5-details__fam-023",
+    "version": 1,
+    "text": "读下面这段话：「公交车还没来。妹妹踮着脚往路口张望，风把她的红围巾吹得直飘。我把围巾给她裹紧，手心里攥着一颗还没剥开的糖。」这段话用哪些细节写出等车人的心情？如果去掉「风把她的红围巾吹得直飘」，画面会淡多少？",
+    "answer": "用踮脚张望、围巾被风吹起、攥着没剥的糖这些细节写出等待时的着急、寒冷和想安慰妹妹的心情；去掉围巾那句，天冷的感觉和等待的时长就弱了很多，画面会单薄。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "心情要靠具体的小东西托出来：踮脚是着急，围巾是冷，攥着的糖是想安慰人。",
+      "围巾被吹起来这既写出了风大天冷，也写出了等待的漫长，去掉以后只剩「冷」的概念，没有了画面。",
+      "答：用踮脚张望、围巾被吹起、攥着没剥的糖写出着急、寒冷和想安慰妹妹的心情；去掉围巾那句，天冷的感觉和等待的时长就弱了很多。"
+    ],
+    "hint": "想一想：站着不动的时候，人身上哪样东西会暴露他的心情和天气。",
+    "alternative": "也可以从声音写，比如「站牌前只有风声，远处一直没有汽车的声音」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__waiting-at-the-bus-stop"
+  },
+  {
+    "id": "bank-chinese-5-details-024",
+    "familyId": "chinese-5-details__fam-024",
+    "version": 1,
+    "text": "读下面这段话：「在超市里我忽然发现妈妈不见了。我站在货架前不敢乱走，手里攥着买苹果的钱。广播里响起了找人的声音，我一下就记住了那个号码。」这段话写出了「我」的哪些心情？哪些细节让读者也跟着紧张？",
+    "answer": "写出了害怕、孤单又努力镇定的多种心情；攥紧买苹果的钱、站在货架前不敢乱走、听到广播立刻记住号码，这些细节让读者也跟着紧张。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写紧张不一定要写「我很害怕」，把人物僵住、攥紧、听广播的样子写出来，紧张就自然出来了。",
+      "「不敢乱走」是怕走丢，「攥着钱」是还没忘记该做的事，「一下记住号码」是心里着急，这三处都在写同一个担心。",
+      "答：写出害怕、孤单又努力镇定的多种心情；攥紧钱、不敢乱走、立刻记住广播号码这三处细节让读者也跟着紧张。"
+    ],
+    "hint": "找一找「我」身上和手里各抓住了什么，它们说明「我」心里在急什么。",
+    "alternative": "也可以写一句广播里的原话，比如「请到服务台等候的家长尽快前往广播处」，用声音把紧张推高。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__lost-in-the-supermarket"
+  },
+  {
+    "id": "bank-chinese-5-details-025",
+    "familyId": "chinese-5-details__fam-025",
+    "version": 1,
+    "text": "读下面这段话：「生日会上，灯一关，房间里只剩下烛光。大家屏住呼吸，我从墙后走出来，捧着那块自己做的蛋糕。妹妹愣了几秒，忽然叫起来：“哇！”」这段话里哪一句把气氛写活了？如果把「大家屏住呼吸」去掉，气氛会有什么不同？",
+    "answer": "「大家屏住呼吸」把气氛写活了，安静中透着期待；去掉以后，读者感觉不到等待惊喜时的那种安静，「我」出场就不那么有劲了。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写热闹的场面，常常要写它安静下来的那一刻，安静越久后面的爆发越有力量。",
+      "「屏住呼吸」写出大家都在等，读者也跟着屏住呼吸；这一句没了，剩下的就只是交代动作。",
+      "答：「大家屏住呼吸」把气氛写活了，安静中透着期待；去掉以后读者感觉不到等待惊喜的安静，「我」出场就不那么有劲。"
+    ],
+    "hint": "想一想：灯一关、蜡烛点起来的那一刻，屋子里的人会怎么样。",
+    "alternative": "也可以把妹妹的「哇」再写细一点，比如「她一下子从椅子上跳起来」，让惊喜更响亮。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__birthday-surprise"
+  },
+  {
+    "id": "bank-chinese-5-details-026",
+    "familyId": "chinese-5-details__fam-026",
+    "version": 1,
+    "text": "读下面这段话：「雨越下越大，我看见一个老人的伞被风掀翻了一角，雨水打湿了他半边肩膀。我跑过去帮他把伞骨扶正，他连声道谢，我摆摆手就跑了。」从这段话看，「我」是个怎样的人？从哪些地方看出来的？",
+    "answer": "「我」是个热心又朴实的人；主动跑去扶伞、扶好以后只摆摆手就跑，说明他做好事不图回报。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断一个人怎么样，要用他做了什么来说，不能只贴一个「善良」的标签。",
+      "「跑过去帮他把伞骨扶正」是主动帮忙，「摆摆手就跑了」是不图回报，两处合起来就是热心朴实。",
+      "答：「我」是个热心又朴实的人；从主动跑去扶伞、扶好只摆摆手就跑可以看出来，他做好事不图回报。"
+    ],
+    "hint": "找出「我」做的两件事和没有做的一件事，说说这三处合起来说明什么。",
+    "alternative": "也可以从老人那一声声道谢来写，让别人的反应帮「我」说明人品。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__rainy-day-rescue"
+  },
+  {
+    "id": "bank-chinese-5-details-027",
+    "familyId": "chinese-5-details__fam-027",
+    "version": 1,
+    "text": "读下面这段话：「棋盘上只剩下最后一枚棋子。我捏着它迟迟不敢落下，额头上的汗顺着脸颊滑到下巴。对面的哥哥手指轻轻敲着桌面，一声一声，像敲在我心上。」这段话写出了下棋时怎样的紧张？「像敲在我心上」这个比方好在哪里？",
+    "answer": "写出了犹豫、紧张到出汗的心情；「像敲在我心上」把敲桌子的声音和心跳加快联系起来，让读者也听得见那声音，紧张感更强烈。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比方就是把两个不同的事物联系起来，让读者用一个熟悉的东西去感受另一个。",
+      "敲桌子的声音本来在外面的，比方说「敲在我心上」，就变成了自己心跳的声音，读者跟着一起数那几下。",
+      "答：写出了犹豫、紧张到出汗的心情；「像敲在我心上」把敲桌声和心跳加快联系起来，读者也听得见，紧张感更强。"
+    ],
+    "hint": "想一想：明明听见的是敲桌子，为什么作者偏说敲在心里。",
+    "alternative": "也可以换一个比方，比如「那一声一声，像在数我剩下的时间」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__chess-game"
+  },
+  {
+    "id": "bank-chinese-5-details-028",
+    "familyId": "chinese-5-details__fam-028",
+    "version": 1,
+    "text": "读下面这段话：「同桌第一次学骑自行车，车把左摇右晃，眼看就要摔倒。我伸手扶住车座，跟着他跑了几步，他终于把车骑稳了。他喘着气说：“你扶我一下，我就能骑了。”说完，脸有点红。」哪一句把「我」帮助人的动作写具体了？为什么说脸有点红反而让画面更真实？",
+    "answer": "「伸手扶住车座，跟着他跑了几步」把动作写具体了，读者能看见怎么帮；「脸有点红」写出他被帮助时的不好意思，说明他其实想自己学会，人物更真实。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "帮助别人的动作要具体：手扶在哪里、人怎么跟着走，读者才看得见帮的过程。",
+      "脸红是不好意思的表现，说明他心里是希望自己学会的，这一点写出来，人物就不只是个被扶着的落后者。",
+      "答：「伸手扶住车座，跟着他跑了几步」把动作写具体了；「脸有点红」写出他被帮助时的不好意思，说明他想自己学会，人物更真实。"
+    ],
+    "hint": "把「我」的动作一句一句拆开，看看哪一句里有手的位置和人走动的样子。",
+    "alternative": "也可以补一句「我的手上全是汗」，从自己这边写出帮助别人时的心情。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__helping-a-novice"
+  },
+  {
+    "id": "bank-chinese-5-details-029",
+    "familyId": "chinese-5-details__fam-029",
+    "version": 1,
+    "text": "读下面这段话：「科学课上，老师把一只装了水的烧杯放在灯下，往里滴入红墨水。过了几分钟，水慢慢变红了。」这段话按顺序写了哪几步？如果把“水慢慢变红了”改成“水变红了”，效果有什么不同？",
+    "answer": "依次写了老师把烧杯放在灯下、滴入红墨水、等了几分钟、水慢慢变红；改成「水变红了」就看不出变化是慢慢发生的，少了观察的过程感。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写实验经过要按步骤来：准备—动手—等待—出现结果，每一步都不能漏。",
+      "「过了几分钟」和「慢慢」写出变化是慢慢发生的，读者跟着等；换成「水变红了」，就成了直接告诉结果。",
+      "答：依次写了放烧杯、滴墨水、等几分钟、水慢慢变红；改成「水变红了」就看不出变化是慢慢发生的，少了观察的过程感。"
+    ],
+    "hint": "先数一数这段话里写了几步，再看看哪一步被「慢慢」两个字放慢了。",
+    "alternative": "也可以补一句写颜色变化的样子，比如「水从底下开始，一点一点往上染红」。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__science-class"
+  },
+  {
+    "id": "bank-chinese-5-details-030",
+    "familyId": "chinese-5-details__fam-030",
+    "version": 1,
+    "text": "读下面这段话：「爷爷的口袋里总有几样东西：一把用旧的剪刀、半包皱了的纸巾、一颗小小的螺丝钉。奶奶笑他：你这是把家当装在口袋里。爷爷挠挠头，说：说不定哪天就用上了。」这几样东西和爷爷说的话，写出了爷爷是个怎样的人？",
+    "answer": "写出了爷爷朴素、爱操心、节俭又热心的性格；口袋里是些不值钱却舍不得扔的小东西，嘴上说「说不定哪天就用上了」，其实总想着能帮上别人。",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写人物性格要从他身上的小东西和说的话去想，东西和话加在一起才是完整的性格。",
+      "三样东西都很旧很小，说明他节俭；留着它们说「说不定哪天就用上了」，说明他爱操心、总想帮上忙。",
+      "答：写出了爷爷朴素、爱操心、节俭又热心的性格；口袋里是些不值钱却舍不得扔的小东西，说「说不定哪天就用上了」说明他总想着帮上别人。"
+    ],
+    "hint": "一件一件看这三样东西：旧、小、皱，分别说明爷爷什么样的习惯。",
+    "alternative": "也可以补写一次爷爷真的用上了螺丝刀的事，让他的性格更可信。",
+    "prerequisites": [
+      "chinese-5-details",
+      "chinese-4-character"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-5-details__grandpa-s-pockets"
+  }
+]

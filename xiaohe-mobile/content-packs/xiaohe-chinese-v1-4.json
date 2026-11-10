@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "kind": "xiaohe-content",
+  "trust": "unsigned",
+  "teachingValidation": "unvalidated-trial",
+  "packageId": "xiaohe-chinese-v1-4",
+  "publisherId": "xiaohe-bank",
+  "createdAt": "2026-11-01T00:00:00.000Z",
+  "courseScope": {
+    "grade": "四年级",
+    "course": "语文"
+  },
+  "items": [
+    {
+      "id": "bank-chinese-8-classical-025",
+      "familyId": "chinese-8-classical__fam-025",
+      "version": 1,
+      "text": "曹操带兵行军，士兵们又累又渴，队伍走不动了。曹操忽然指向前方说：前面有一大片梅林，梅子又酸又甜，到了那里就能解渴。士兵们一听，嘴里立刻生出口水，来了精神，加快脚步赶路。如果你是随军的小记者，用几个文言词在采访手记上记下曹操的选择和结果。请写出你的手记。",
+      "answer": "手记：曹操指梅林以解渴，士兵闻之精神一振而疾行，终得水源。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "采访手记要用简洁的词记下人物的动作和结果。",
+        "材料里的动词如指、闻、加快、赶到，都可以直接用作文言词。",
+        "答：手记用文言词记曹操指梅止渴、士兵闻之精神一振而急行，最后果然找到水源。"
+      ],
+      "hint": "在材料里圈出动作动词，试着用文言的说法替换它们。",
+      "alternative": "也可以用一句文言式的话概括曹操的智计，再补一句结果。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__interview-note"
+    },
+    {
+      "id": "bank-chinese-8-classical-026",
+      "familyId": "chinese-8-classical__fam-026",
+      "version": 1,
+      "text": "陈康公家里有个射箭高手叫陈尧咨。卖油的老翁看了他射箭，只是点点头，说：没什么，不过是手熟罢了。陈尧咨很不服气。老翁取出一个葫芦放在地上，用一枚铜钱盖住葫芦口，舀起油从铜钱的方孔里倒进去，油像线一样穿过钱孔，而钱一点没湿。老翁说：我也只是手熟罢了。陈尧咨笑着把头低了下去。阅读记录单上有一栏叫这则故事让我懂得的道理，请填写故事内容，并写出你填的道理。",
+      "answer": "内容：陈尧咨射箭很准，卖油翁却说自己只是手熟，并当场表演倒油穿钱而不湿钱。道理：技艺是长期练出来的，不能骄傲自满，要谦虚学习。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "阅读记录单的内容栏要简短概括，道理栏要一句话点明。",
+        "卖油翁的手熟是关键，人外有人、天外有天的意思由此而来。",
+        "答：内容写陈尧咨与卖油翁比箭、老翁以倒油穿钱说明手熟；道理是技艺靠苦练，人要谦虚。"
+      ],
+      "hint": "先把故事压成谁和谁比什么，再想故事最后让读者明白了什么。",
+      "alternative": "也可以在内容栏用四字短语概括，比如卖油翁献艺。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__reading-log"
+    },
+    {
+      "id": "bank-chinese-8-classical-027",
+      "familyId": "chinese-8-classical__fam-027",
+      "version": 1,
+      "text": "传说有一只螳螂举起前臂横在车轮前面，想挡住疾驰的车。车轮一压，螳螂就粉身碎骨。庄子把这个故事讲给惠子听，说：用膀臂去挡车轮，是不自量力的做法。古人说这件事叫螳臂当车。请你根据这个故事出一道谜语，让同学猜一猜这个成语，并写出谜面与谜底。",
+      "answer": "谜面示例：一只小虫横在车轮前，明知挡不住还要挡，打一成语。谜底：螳臂当车。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "出谜面要用故事里的画面，把特征藏进去，不直接点出成语。",
+        "谜面里要有小与车轮这两个关键对照。",
+        "答：谜面写小虫横臂拦车、力量悬殊，谜底为螳臂当车。"
+      ],
+      "hint": "先写下故事里最滑稽也最关键的画面，再把答案的关键字藏起来。",
+      "alternative": "也可以把谜面写成一句话的小故事，让同学猜它说的是哪个成语。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__riddle-guess"
+    },
+    {
+      "id": "bank-chinese-8-classical-028",
+      "familyId": "chinese-8-classical__fam-028",
+      "version": 1,
+      "text": "乐广请朋友到家里喝酒。朋友喝了几杯，看见杯里有条小蛇在动，可是当时灯光昏暗，看不真切。他心里害怕，回家就病了。乐广听说后，在墙上挂起一幅白天画着蛇的弓，让朋友再来看。朋友一看见弓上的蛇，一下就明白了自己的病是疑心造成的，病也就好了。班级手抄报要报道这个故事，请你用两句话写一则小消息，并点出其中的道理。",
+      "answer": "小消息：乐广的朋友因杯中看成小蛇而生病；乐广挂弓示之，朋友明白病因是疑心，病即痊愈。道理：疑神疑鬼会害了自己，遇事要弄清真相。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "两句话消息一句写起因一句写结果，道理放在末尾点出。",
+        "疑心是全篇的钥匙，消息里要写清病由疑心而起。",
+        "答：消息写疑心生病的经过与挂弓解疑的结果，点出遇事要弄清真相、不要自己吓自己。"
+      ],
+      "hint": "先分清：这个故事里哪个人遇到了麻烦？麻烦是怎么解决的？",
+      "alternative": "也可以用疑心生暗鬼作小标题，再写两句经过。",
+      "prerequisites": [
+        "chinese-8-classical",
+        "chinese-6-feelings"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__news-poster"
+    },
+    {
+      "id": "bank-chinese-8-classical-029",
+      "familyId": "chinese-8-classical__fam-029",
+      "version": 1,
+      "text": "西施有心痛病，捧着心口皱眉的样子很美。有个邻居觉得好看，也照着样子捧心皱眉，结果反而更难看了，人们一见就躲着她。古人把这则故事说成东施效颦。你要给故事中那个爱模仿别人的邻居写一封信。请写出信中主要内容要点，劝她不要再这样做了。",
+      "answer": "要点：各人条件不同，别人的样子放在自己身上并不好看；模仿要适合自己的特点；应该找到自己合适的做法。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "写信要说清对方的错误、原因和正确做法，三层意思。",
+        "关键在各人条件不同，而不是说她爱慕虚荣。",
+        "答：信中说明每个人条件不同，照抄别人的样子反而更难看，劝她发挥自己的长处，不必模仿西施。"
+      ],
+      "hint": "先想清楚这个故事里，问题出在模仿本身还是模仿的方式。",
+      "alternative": "也可以先讲一句你欣赏西施自然之美的话，再委婉地提出建议。",
+      "prerequisites": [
+        "chinese-8-classical",
+        "chinese-6-feelings"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__letter-to-ancient"
+    },
+    {
+      "id": "bank-chinese-8-classical-030",
+      "familyId": "chinese-8-classical__fam-030",
+      "version": 1,
+      "text": "弈秋是全国最会下棋的人。他同时教两个人下棋。一个专心致志，只听弈秋的讲解；另一个虽然也坐在棋盘前，心里却总想着天上飞过的天鹅，想拿弓去射。他学得比前一个人差得多。弈秋说：同样听讲，心思不同，得到的收获就不同。班级活动要设计一个体现这个道理的小游戏。请写出游戏的规则，并说明它如何体现专心致志。",
+      "answer": "规则示例：两名同学同时做同一件事，其中一人听讲时不断想别的事，最后比较两人的成果差距，游戏名叫一心二用。体现：用同样的时间和条件比一比谁更专注，结果差别明显。",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "挑战",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "设计游戏要先定一个可比的指标，比如完成量、正确数或成果质量。",
+        "游戏必须能让人明显看出专注与分心的差别，否则道理体现不出来。",
+        "答：规则让两人同时完成同一任务，其中一人故意分心，最后比较成果差别，突出专心的重要。"
+      ],
+      "hint": "先想一个能直接比较的成果，比如同样的时间抄同样多的字。",
+      "alternative": "也可以把游戏设计成只许做一件事的挑战赛，看谁坚持到最后。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "transfer",
+      "contextId": "chinese-8-classical__game-rule"
+    },
+    {
+      "id": "bank-chinese-8-classical-c01",
+      "familyId": "chinese-8-classical__fam-31",
+      "version": 1,
+      "text": "故事：「古时候，一个孩子站在大水缸边，失足掉进了缸里。缸很大很深，孩子在水里直扑腾。同伴们有的吓跑了，有的跑去喊大人。司马光却没有慌，他搬起一块大石头，使劲砸向水缸。缸一破，水流了出来，孩子得救了。」这个故事给我们的启示是（　　）。A．遇到危险要赶紧躲开，别靠近　B．碰到突发的情况要沉着冷静，想办法解决问题　C．一个人的力气小，遇事要请很多人来帮忙　D．水缸很危险，以后离水缸远远的",
+      "answer": "B",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "基础",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "读故事要想：别人是怎么做的，主人公又是怎么做的，他的做法好在哪里。",
+        "同伴们慌了神去叫人，司马光却先搬石头砸缸，用最省事的办法把问题解决了。",
+        "A、D是害怕和躲避，C只强调人多，都不是这个故事要讲的道理，只有B抓住了沉着想办法。答：B。"
+      ],
+      "hint": "比较两种做法：一种是慌了神去叫人，一种是沉住气想法子，故事要讲的往往就在这个差别里。",
+      "alternative": "也可以从办法入手：别人想的是喊人，司马光想的是砸缸救人，启示就从「换个办法」上得出来。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "basic",
+      "contextId": "chinese-8-classical__broken-jar"
+    },
+    {
+      "id": "bank-chinese-8-classical-c02",
+      "familyId": "chinese-8-classical__fam-32",
+      "version": 1,
+      "text": "故事：「古时候有个医生叫扁鹊。他去见一位病人，说：『您的病在皮肤上，用热水敷一敷就能好。』病人说：『我身上没有什么不舒服。』过了十来天，扁鹊又来，说：『病已经发展到肠胃里了。』病人非常不高兴。再过十几天，扁鹊说病已深入骨髓，没法医治。没过多久，病人就病死了。」注：敷，指把热的东西盖在伤口上；骨髓，指骨头里面含有营养的液体。联系故事，下面理解正确的一项是（　　）。A．病人不肯治病，是因为扁鹊的医术不高　B．病在皮肤上的时候，病人应该马上去找别的医生　C．病在皮肤上时用热水敷就能治好，后来没治好，是因为错过了早期　D．扁鹊后来说的话越来越可怕，说明他故意吓病人",
+      "answer": "C",
+      "unit": "",
+      "knowledgeId": "chinese-8-classical",
+      "difficulty": "巩固",
+      "source": "小禾教研原创静态题库 · 样例编写",
+      "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+      "steps": [
+        "借助注释读懂难词的意思，再把难词放回故事里，故事的主旨就清楚了。",
+        "扁鹊三次来看病，一次比一次严重，病人一次比一次不高兴，耽误了早期医治，所以病拖到无法医治。",
+        "A、D是对扁鹊和病人的误解，B把治好的机会推给别的医生，都与故事不符，只有C说得对。答：C。"
+      ],
+      "hint": "先把注释里的难词讲成白话，再看故事里病是怎么一步步变重的，就明白关键在哪儿。",
+      "alternative": "也可以按扁鹊三次来看病来读：每多说一次，病人就晚一步，时间就是这么耽误过去的。",
+      "prerequisites": [
+        "chinese-8-classical"
+      ],
+      "status": "published",
+      "authorId": "bank-author-chinese",
+      "reviewerId": "bank-check-chinese",
+      "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+      "createdAt": "2026-11-01T00:00:00.000Z",
+      "taskType": "application",
+      "contextId": "chinese-8-classical__early-cure"
+    }
+  ],
+  "withdrawals": [],
+  "digest": "7cb60590ea659f20a6f3c4d18db0ed188d13d8a5952fe4b16d687f38b21c302d"
+}

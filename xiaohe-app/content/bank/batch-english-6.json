@@ -1,0 +1,1782 @@
+[
+  {
+    "id": "bank-english-6-seasons-001",
+    "familyId": "english-6-seasons__fam-001",
+    "version": 1,
+    "text": "It is warm outside. The trees have small green leaves and flowers begin to open. Which season is it? Give the season name.",
+    "answer": "Spring.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先在材料里找自然变化的线索：天气转暖、树上长出绿叶、花朵开始开放。",
+      "这三条线索都指向同一季：春天。",
+      "答：Spring."
+    ],
+    "hint": "想一想四季中，哪一季会先长出绿叶、再开出花。",
+    "alternative": "也可以答 It is spring. 用完整句子说出季节。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__season-names"
+  },
+  {
+    "id": "bank-english-6-seasons-002",
+    "familyId": "english-6-seasons__fam-002",
+    "version": 1,
+    "text": "In the park the leaves turn yellow and red. Then they fall down to the ground. Which season is it?",
+    "answer": "Fall.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料写树叶变黄变红后落下来，这是秋天最明显的自然变化。",
+      "判断季节要抓这种「变化」，而不是只看天气。",
+      "答：Fall."
+    ],
+    "hint": "落叶是哪个季节最有代表性的景象？",
+    "alternative": "也可以答 It is fall. 或者用 autumn 代替 fall，意思一样。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__season-names"
+  },
+  {
+    "id": "bank-english-6-seasons-003",
+    "familyId": "english-6-seasons__fam-003",
+    "version": 1,
+    "text": "The lake is frozen and snow covers the ground. Children make snowmen outside. Which season is it?",
+    "answer": "Winter.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "结冰的湖、盖住地面的雪、在户外堆雪人，都是冬天的典型景象。",
+      "题目问的是季节名，答一个词即可。",
+      "答：Winter."
+    ],
+    "hint": "看到 lake frozen 和 snow，就要想到最冷的那个季节。",
+    "alternative": "也可以答 It is winter. 用完整句子回答更自然。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__season-names"
+  },
+  {
+    "id": "bank-english-6-seasons-004",
+    "familyId": "english-6-seasons__fam-004",
+    "version": 1,
+    "text": "The sun is hot and the days are long. Tom wears a T-shirt and plays in the sea. Which season is it?",
+    "answer": "Summer.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "太阳晒、白天长，加上穿 T 恤、下海玩，都是夏天的条件。",
+      "判断季节可以同时用气温和活动两方面的证据。",
+      "答：Summer."
+    ],
+    "hint": "哪一种季节白天最长、人们会在海里玩？",
+    "alternative": "也可以答 It is summer. 说明现在是夏天。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__season-names"
+  },
+  {
+    "id": "bank-english-6-seasons-005",
+    "familyId": "english-6-seasons__fam-005",
+    "version": 1,
+    "text": "In March the weather is warm and flowers come out. In December it is cold and windy. Which month is warmer?",
+    "answer": "March.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两个月份要抓住各自的天气：三月温暖，十二月寒冷又有风。",
+      "三月的天气更暖和，所以答案是三月。",
+      "答：March."
+    ],
+    "hint": "先找出哪个月的天气更暖和，别被月份先后顺序干扰。",
+    "alternative": "也可以答 March is warmer. 用完整句子说哪个更暖。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__weather-change"
+  },
+  {
+    "id": "bank-english-6-seasons-006",
+    "familyId": "english-6-seasons__fam-006",
+    "version": 1,
+    "text": "It was cold and windy last winter. Today it is warm and sunny. How has the weather changed?",
+    "answer": "It is warmer now.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问「有什么变化」，要把前后两个状态放在一起比较。",
+      "以前是冷又有风，现在是暖和又有太阳，变化指向天气变暖。",
+      "答：It is warmer now."
+    ],
+    "hint": "比较「以前」和「现在」的天气，用一个表示变化的词。",
+    "alternative": "也可以答 The weather is warmer today. 说明今天的天气更暖。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__weather-change"
+  },
+  {
+    "id": "bank-english-6-seasons-007",
+    "familyId": "english-6-seasons__fam-007",
+    "version": 1,
+    "text": "Summer is hot, but fall is cooler. Lily says: 'I don't like hot days.' Which season does she like better?",
+    "answer": "Fall.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料先给出夏热秋凉，再给出 Lily 不喜欢热天。",
+      "把她的喜好和季节的特点对上，她更喜欢凉爽的秋天。",
+      "答：Fall."
+    ],
+    "hint": "先找出 Lily 不喜欢哪种天气，再挑那个天气对应的季节。",
+    "alternative": "也可以答 She likes fall better. 用 she likes... 的句式说明她喜欢秋天。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__weather-change"
+  },
+  {
+    "id": "bank-english-6-seasons-008",
+    "familyId": "english-6-seasons__fam-008",
+    "version": 1,
+    "text": "In spring the tree has small green leaves. In fall the same tree has many yellow leaves. What changes on the tree?",
+    "answer": "The color of the leaves.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对比同一棵树在春天和秋天的样子，找出不同时的部分。",
+      "叶子的多少不是关键，关键是叶子的颜色由绿变黄。",
+      "答：The color of the leaves."
+    ],
+    "hint": "同一棵树在两个季节的样子不同，变的是哪一部分？",
+    "alternative": "也可以答 The leaves change color. 用主动语态说颜色会改变。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__plants-and-animals"
+  },
+  {
+    "id": "bank-english-6-seasons-009",
+    "familyId": "english-6-seasons__fam-009",
+    "version": 1,
+    "text": "When it gets warm, birds come back and build nests in the tree. Bees fly around the flowers. What do these animals do in spring?",
+    "answer": "They come out to look for food.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "鸟筑巢、蜜蜂绕着花飞，都是动物为找食物而活动的样子。",
+      "材料暗示气温回升，所以问的是春天这些动物的行为。",
+      "答：They come out to look for food."
+    ],
+    "hint": "想一想鸟和蜜蜂为什么要离开冬天的窝。",
+    "alternative": "也可以答 They come out and find food. 表达方式不同，意思相同。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__plants-and-animals"
+  },
+  {
+    "id": "bank-english-6-seasons-010",
+    "familyId": "english-6-seasons__fam-010",
+    "version": 1,
+    "text": "In winter the old plum tree has no leaves. In spring it has green leaves and pink flowers. Describe the tree in spring in one short sentence.",
+    "answer": "It has green leaves and pink flowers.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "描述季节里的植物，要用「主语 + 有 + 特征」把看到的两样东西连起来。",
+      "春天的特征是绿叶和粉色的花，句子要同时提到它们。",
+      "答：It has green leaves and pink flowers."
+    ],
+    "hint": "用 It has... 的句型，把两个特点都写进一句话。",
+    "alternative": "也可以答 The plum tree has green leaves and pink flowers. 把树的名字写进主语。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__plants-and-animals"
+  },
+  {
+    "id": "bank-english-6-seasons-011",
+    "familyId": "english-6-seasons__fam-011",
+    "version": 1,
+    "text": "Our school has a sports meeting in October and a tree-planting day in March. In which season is the sports meeting?",
+    "answer": "Fall.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出问题问的是哪一个活动，这里问的是运动会在哪个月。",
+      "运动会在十月，十月是秋天。",
+      "答：Fall."
+    ],
+    "hint": "先把问题里的两个活动分开，只看被问的那一个。",
+    "alternative": "也可以答 The sports meeting is in fall. 用完整句回答。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__school-calendar"
+  },
+  {
+    "id": "bank-english-6-seasons-012",
+    "familyId": "english-6-seasons__fam-012",
+    "version": 1,
+    "text": "The school year begins in September. Children wear new clothes and meet their teachers again. Which season is September in?",
+    "answer": "Fall.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "九月是秋季，材料里的开学、换新衣服也符合秋天开始的校园生活。",
+      "问题问的是九月所属的季节，直接对应秋季。",
+      "答：Fall."
+    ],
+    "hint": "想一想一年中的开学季是在哪个季节。",
+    "alternative": "也可以答 September is in fall. 把月份和季节一起说出来。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__school-calendar"
+  },
+  {
+    "id": "bank-english-6-seasons-013",
+    "familyId": "english-6-seasons__fam-013",
+    "version": 1,
+    "text": "Anna's birthday is in January. Her mother says they will have hot pot and stay at home. Which season is January in?",
+    "answer": "Winter.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一月属于冬季，吃火锅、待在家里也是冬天的生活。",
+      "问题问的是一月所属的季节，与生日做什么互相印证。",
+      "答：Winter."
+    ],
+    "hint": "从月份和「吃火锅」这两条线索判断季节。",
+    "alternative": "也可以答 Anna's birthday is in winter. 把生日和季节连起来说。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__birthday-seasons"
+  },
+  {
+    "id": "bank-english-6-seasons-014",
+    "familyId": "english-6-seasons__fam-014",
+    "version": 1,
+    "text": "Ben's birthday is in July. His friends will swim in the pool. His birthday is in which season?",
+    "answer": "Summer.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "七月是夏季，材料里朋友们要去游泳池，也说明当时是夏天。",
+      "问题问生日在哪个季节，答案是夏季。",
+      "答：Summer."
+    ],
+    "hint": "想一想暑假是在哪几个月。",
+    "alternative": "也可以答 It is summer in July. 用 It is... 的句式说明。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__birthday-seasons"
+  },
+  {
+    "id": "bank-english-6-seasons-015",
+    "familyId": "english-6-seasons__fam-015",
+    "version": 1,
+    "text": "In summer the market is full of watermelons and peaches. Which two fruits are in season in summer?",
+    "answer": "Watermelons and peaches.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目要两个答案，材料里直接给出了夏天市场的两种水果。",
+      "把两种水果都写出来，用 and 连接。",
+      "答：Watermelons and peaches."
+    ],
+    "hint": "数一数材料里在夏天市场出现的水果有几种。",
+    "alternative": "也可以答 Watermelon and peach. 单数形式也可以接受。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__seasonal-foods"
+  },
+  {
+    "id": "bank-english-6-seasons-016",
+    "familyId": "english-6-seasons__fam-016",
+    "version": 1,
+    "text": "A menu says: hot soup, ice cream, oranges, cold juice. Which two are usually eaten in summer?",
+    "answer": "Ice cream and cold juice.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先判断每样食物是冷的还是热的，再决定季节。",
+      "冰淇淋和冷饮是夏天常吃的，热汤属于冬天。",
+      "答：Ice cream and cold juice."
+    ],
+    "hint": "把菜单分成「冷的」和「热的」两组。",
+    "alternative": "也可以答 Ice cream and juice. 省略 cold 也可以。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__seasonal-foods"
+  },
+  {
+    "id": "bank-english-6-seasons-017",
+    "familyId": "english-6-seasons__fam-017",
+    "version": 1,
+    "text": "Our school holiday is in July and August. What can children do on the beach in summer? Give one activity.",
+    "answer": "They can swim in the sea.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "开放题只要求一个活动，但要用完整句子说清楚。",
+      "夏天在海滩上常见的活动是游泳，也可以是捡贝壳、堆沙堡。",
+      "答：They can swim in the sea."
+    ],
+    "hint": "想一想夏天在海边可以做哪些和水有关的活动。",
+    "alternative": "也可以答 They can play on the sand. 或者用 I can... 说明自己会做的事。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__seasonal-plans"
+  },
+  {
+    "id": "bank-english-6-seasons-018",
+    "familyId": "english-6-seasons__fam-018",
+    "version": 1,
+    "text": "Our holiday is in February. It often snows there. Plan one outdoor activity for this holiday.",
+    "answer": "Make a snowman.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住两个条件：假期在二月，那里有雪。",
+      "下雪时可行的户外活动有堆雪人、打雪仗、滑雪，选一个即可。",
+      "答：Make a snowman."
+    ],
+    "hint": "冬天下雪时孩子们能在户外做什么？",
+    "alternative": "也可以答 We can have a snowball fight. 同样是雪天户外活动。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__seasonal-plans"
+  },
+  {
+    "id": "bank-english-6-seasons-019",
+    "familyId": "english-6-seasons__fam-019",
+    "version": 1,
+    "text": "Monday, 20 April: The trees are green and it is warm. I wear a thin coat and ride my bike. What season is April in?",
+    "answer": "Spring.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "日记里有三个线索：四月、树变绿、天气变暖。",
+      "它们共同指向春天，问题是问四月所属的季节。",
+      "答：Spring."
+    ],
+    "hint": "把日记里的日期和树、天气一起看。",
+    "alternative": "也可以答 It is spring in April. 把月份与季节连成一句。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__diary-entries"
+  },
+  {
+    "id": "bank-english-6-seasons-020",
+    "familyId": "english-6-seasons__fam-020",
+    "version": 1,
+    "text": "Sunday, in the hot days of July: I put on my hat and go swimming with my cousin. Describe the season in one short sentence.",
+    "answer": "It is hot in summer.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "描述季节要说出最突出的特点，题目里最明显的是热。",
+      "用 It is... in summer 的句型把天气和季节连起来。",
+      "答：It is hot in summer."
+    ],
+    "hint": "先找出材料里最有代表性的天气特点，再把它和季节连起来。",
+    "alternative": "也可以答 Summer is hot here. 主语换成季节也说得通。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__diary-entries"
+  },
+  {
+    "id": "bank-english-6-seasons-021",
+    "familyId": "english-6-seasons__fam-021",
+    "version": 1,
+    "text": "Look at one tree through the year: bare branches in winter, small green leaves in spring, thick leaves in summer, yellow leaves in fall. Write one sentence about this tree in summer.",
+    "answer": "The tree has thick leaves in summer.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "四个季节的特点都写在材料里，先把夏天那一项找出来。",
+      "夏天这棵树的特点是叶子又多又厚，用一句话说出来。",
+      "答：The tree has thick leaves in summer."
+    ],
+    "hint": "从四个季节的描述里挑出夏天的那一句，再改写成完整句子。",
+    "alternative": "也可以答 In summer the tree has many thick green leaves. 用 In summer 开头。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__tree-calendar"
+  },
+  {
+    "id": "bank-english-6-seasons-022",
+    "familyId": "english-6-seasons__fam-022",
+    "version": 1,
+    "text": "At the farm market in summer the farmer sells new potatoes, strawberries and green beans. Name two things that are fresh in summer.",
+    "answer": "New potatoes and strawberries.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料列出三样夏天的收成，任选其中两样即可。",
+      "回答要用「两样食物 + and」，保持完整名词形式。",
+      "答：New potatoes and strawberries."
+    ],
+    "hint": "从市场摊位上的三样东西里挑两样。",
+    "alternative": "也可以答 Strawberries and green beans. 换另外两样同样正确。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__farm-market"
+  },
+  {
+    "id": "bank-english-6-seasons-023",
+    "familyId": "english-6-seasons__fam-023",
+    "version": 1,
+    "text": "The class picnic is in April. The weather card says warm with light rain. Should the class have the picnic in the park or stay in the classroom? Give a reason.",
+    "answer": "They should stay in the classroom, because it is raining.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做决定要先说理由，材料给出四月有雨。",
+      "下雨时不适合在公园野餐，所以要在教室里，并且把原因说清楚。",
+      "答：They should stay in the classroom, because it is raining."
+    ],
+    "hint": "先问自己：下雨天在公园野餐方便吗？",
+    "alternative": "也可以答 They should stay inside, because the weather is bad. 换一种说法表达同样理由。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__picnic-weather"
+  },
+  {
+    "id": "bank-english-6-seasons-024",
+    "familyId": "english-6-seasons__fam-024",
+    "version": 1,
+    "text": "In spring many families water the flowers on the balcony and move them near the window. What do people do with plants in spring?",
+    "answer": "They water the flowers and move them near the window.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料给出春天人们照料植物的两个动作：浇水、搬到窗边。",
+      "回答要用一个完整句子把两个动作连起来。",
+      "答：They water the flowers and move them near the window."
+    ],
+    "hint": "从材料里找出人们春天对花做的两件事。",
+    "alternative": "也可以答 They take care of the plants. 用更概括的说法回答。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__new-year-plants"
+  },
+  {
+    "id": "bank-english-6-seasons-025",
+    "familyId": "english-6-seasons__fam-025",
+    "version": 1,
+    "text": "One winter morning the school is closed and the ground is white. Children make snowmen and have a snowball fight. Write one sentence about that winter morning.",
+    "answer": "It is snowy, so the children make snowmen.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写句子要把天气和人们的活动连起来，中间可以用 so 或 and。",
+      "冬天的早晨雪很大，孩子们堆雪人、打雪仗。",
+      "答：It is snowy, so the children make snowmen."
+    ],
+    "hint": "用 It is snowy... 开头，再说出孩子们做的事。",
+    "alternative": "也可以答 The children make snowmen on a snowy winter morning. 把场景放进句子末尾。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__snowy-morning"
+  },
+  {
+    "id": "bank-english-6-seasons-026",
+    "familyId": "english-6-seasons__fam-026",
+    "version": 1,
+    "text": "During the summer holiday Tom swims, reads in the library and visits his grandparents. Which one is an outdoor activity in summer? Say one.",
+    "answer": "Swimming.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三个活动中，要找出在户外进行的那一个。",
+      "读书在室内、看望祖父母在室内，游泳才在户外。",
+      "答：Swimming."
+    ],
+    "hint": "想一想哪样活动需要走出家门。",
+    "alternative": "也可以答 He swims. 用 He + 动词的短句回答。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__summer-vacation"
+  },
+  {
+    "id": "bank-english-6-seasons-027",
+    "familyId": "english-6-seasons__fam-027",
+    "version": 1,
+    "text": "In fall the park workers collect the fallen leaves and put them in big bags. What do the workers do with the leaves?",
+    "answer": "They put them in big bags.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问题问的是「对落叶做什么」，答案在材料的动作里。",
+      "把 collected the leaves 和 put them in big bags 分开看，后半句才是对叶子做的事。",
+      "答：They put them in big bags."
+    ],
+    "hint": "读材料时圈出和 the leaves 直接搭配的动词。",
+    "alternative": "也可以答 They collect the leaves in bags. 把两个动作合成一句。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__autumn-leaves"
+  },
+  {
+    "id": "bank-english-6-seasons-028",
+    "familyId": "english-6-seasons__fam-028",
+    "version": 1,
+    "text": "Spring rain helps the seeds in the ground grow. The farmer is happy because the fields get water. Why is the farmer happy about the spring rain?",
+    "answer": "Because the rain helps the plants grow.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 why 要用 Because 引出原因。",
+      "材料说雨水让种子发芽、给田地补上水，这就是他高兴的原因。",
+      "答：Because the rain helps the plants grow."
+    ],
+    "hint": "找出「雨水给田地带来了什么」这一条。",
+    "alternative": "也可以答 Because the fields get water from the rain. 用另一条原因作答。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__spring-rain"
+  },
+  {
+    "id": "bank-english-6-seasons-029",
+    "familyId": "english-6-seasons__fam-029",
+    "version": 1,
+    "text": "In summer the sea is warm and many families go to the beach. What do families wear and do at the beach in summer?",
+    "answer": "They wear swimsuits and swim in the sea.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问题有两问：穿什么、做什么，回答时要覆盖两点。",
+      "夏天在海滩上人们穿泳衣、在海里游泳。",
+      "答：They wear swimsuits and swim in the sea."
+    ],
+    "hint": "先答穿什么，再答做什么，两部分用 and 连接。",
+    "alternative": "也可以答 They wear shorts and play on the sand. 同样符合夏天的海滩场景。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__beach-day"
+  },
+  {
+    "id": "bank-english-6-seasons-030",
+    "familyId": "english-6-seasons__fam-030",
+    "version": 1,
+    "text": "Some birds fly to the south in fall and come back in spring. What do these birds do in spring?",
+    "answer": "They come back and build nests.",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料说这些鸟秋天飞到南方，春天再回来。",
+      "春天它们回来后要筑巢安家，所以答「回来并筑巢」。",
+      "答：They come back and build nests."
+    ],
+    "hint": "想一想鸟儿春天飞回来以后要做什么准备。",
+    "alternative": "也可以答 They come back to the trees. 只说回来的地点也算回答。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-seasons__winter-birds"
+  },
+  {
+    "id": "bank-english-6-actions-001",
+    "familyId": "english-6-actions__fam-001",
+    "version": 1,
+    "text": "It is hot today. You wear shorts and a T-shirt. Which season is it?",
+    "answer": "Summer.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断季节先看穿衣，再看气温，材料两处都指向夏天。",
+      "短裤和 T 恤是夏天的衣服，答案是夏季。",
+      "答：Summer."
+    ],
+    "hint": "想一想夏天人们会穿什么样的衣服。",
+    "alternative": "也可以答 It is summer. 用完整句回答。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-clothes"
+  },
+  {
+    "id": "bank-english-6-actions-002",
+    "familyId": "english-6-actions__fam-002",
+    "version": 1,
+    "text": "You wear a thick coat, gloves and a hat when you go out. Which season is it?",
+    "answer": "Winter.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "厚外套、手套和帽子都是保暖的衣服，用来御寒。",
+      "所以这是最冷的季节，答案是冬天。",
+      "答：Winter."
+    ],
+    "hint": "穿这么多保暖的衣服，说明外面很冷。",
+    "alternative": "也可以答 It is winter. 或者说 It's cold in winter. 也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-clothes"
+  },
+  {
+    "id": "bank-english-6-actions-003",
+    "familyId": "english-6-actions__fam-003",
+    "version": 1,
+    "text": "You wear a light jacket and jeans. The trees are green and flowers are open. Which season is it?",
+    "answer": "Spring.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "薄外套加牛仔裤是春天常穿的搭配，材料里的绿树和开花也在说春天。",
+      "衣服和自然景象两条线索一致，答案是春季。",
+      "答：Spring."
+    ],
+    "hint": "不冷不热的时候该穿什么？再看看树和花的样子。",
+    "alternative": "也可以答 It is spring. 也可以说 It's warm in spring.",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-clothes"
+  },
+  {
+    "id": "bank-english-6-actions-004",
+    "familyId": "english-6-actions__fam-004",
+    "version": 1,
+    "text": "You wear a sweater and long trousers. The wind is cool and the leaves are falling. Which season is it?",
+    "answer": "Fall.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "毛衣和长裤比夏天多一层，比冬天薄，是过渡季节的衣服。",
+      "再加上凉风和落叶，答案是秋天。",
+      "答：Fall."
+    ],
+    "hint": "落叶和凉风是哪个季节的信号？",
+    "alternative": "也可以答 It is fall. 也可以用 autumn 表示秋天。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-clothes"
+  },
+  {
+    "id": "bank-english-6-actions-005",
+    "familyId": "english-6-actions__fam-005",
+    "version": 1,
+    "text": "In winter children make snowmen and skate on the ice. What do children do in winter?",
+    "answer": "They make snowmen and skate on the ice.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料给了两个冬天的活动，回答时可以用 and 把两件事连起来。",
+      "堆雪人和在冰上滑冰都是冬天的活动。",
+      "答：They make snowmen and skate on the ice."
+    ],
+    "hint": "把材料里的两个动作都用上，句子更完整。",
+    "alternative": "也可以答 They make snowmen. 只答一个活动也能得分。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-activities"
+  },
+  {
+    "id": "bank-english-6-actions-006",
+    "familyId": "english-6-actions__fam-006",
+    "version": 1,
+    "text": "In summer children swim in the pool and eat ice cream. Name one summer activity.",
+    "answer": "Swim in the pool.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目只要一个活动，所以从材料里挑一个即可。",
+      "游泳或吃冰淇淋都算夏天的活动。",
+      "答：Swim in the pool."
+    ],
+    "hint": "从游泳和吃冰淇淋中任选一个。",
+    "alternative": "也可以答 Eat ice cream. 或者写成 I can swim in the pool. 也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-activities"
+  },
+  {
+    "id": "bank-english-6-actions-007",
+    "familyId": "english-6-actions__fam-007",
+    "version": 1,
+    "text": "In spring children fly kites and plant trees in the park. Name one spring activity.",
+    "answer": "Fly kites.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料给出春天的两个活动：放风筝、种树。",
+      "任选一个写出来，注意用动词开头。",
+      "答：Fly kites."
+    ],
+    "hint": "春天在户外可以做什么？想想风和树。",
+    "alternative": "也可以答 Plant trees in the park. 另一种春季活动也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__season-activities"
+  },
+  {
+    "id": "bank-english-6-actions-008",
+    "familyId": "english-6-actions__fam-008",
+    "version": 1,
+    "text": "It is raining hard. You cannot go outside. What can you do at home?",
+    "answer": "I can read a book.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问「能做什么」，用 can 加动词原形回答最合适。",
+      "下雨待在家，读书、画画、做作业都可以，答一个即可。",
+      "答：I can read a book."
+    ],
+    "hint": "下雨天不能出门，在家里可以做什么？用 can 开头。",
+    "alternative": "也可以答 I can draw pictures at home. 换成别的室内活动也可以。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__weather-choices"
+  },
+  {
+    "id": "bank-english-6-actions-009",
+    "familyId": "english-6-actions__fam-009",
+    "version": 1,
+    "text": "It is snowing. Which is better: make a snowman or swim in the pool? Why?",
+    "answer": "Make a snowman, because it is snowing.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "选活动要看当时的天气，再把理由说出来。",
+      "下雪天不能在露天游泳，堆雪人才合适，所以用 because 说明原因。",
+      "答：Make a snowman, because it is snowing."
+    ],
+    "hint": "先比较两个活动哪个和下雪的天气相配。",
+    "alternative": "也可以答 We should make a snowman, because snow is fun. 用另一种理由。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__weather-choices"
+  },
+  {
+    "id": "bank-english-6-actions-010",
+    "familyId": "english-6-actions__fam-010",
+    "version": 1,
+    "text": "It is very hot in the afternoon. Which is better: run in the sun or swim in the pool? Why?",
+    "answer": "Swim in the pool, because it is hot.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "同样是二选一，要选和天气相配的那一个。",
+      "下午很热，在太阳下跑步会中暑，去游泳更合适。",
+      "答：Swim in the pool, because it is hot."
+    ],
+    "hint": "太阳下面跑步和泡在水里，哪一个更凉快？",
+    "alternative": "也可以答 I think swimming is better, because it is too hot outside. 表达方式不同。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__weather-choices"
+  },
+  {
+    "id": "bank-english-6-actions-011",
+    "familyId": "english-6-actions__fam-011",
+    "version": 1,
+    "text": "The school has a sports meeting next week. It will be cold on that morning. Say one thing you will wear.",
+    "answer": "I will wear a warm coat.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 will 表示将来，说清自己会穿什么。",
+      "运动会在寒冷的早上，应该穿暖和的衣服。",
+      "答：I will wear a warm coat."
+    ],
+    "hint": "运动会是下周的事，用 I will... 来说。",
+    "alternative": "也可以答 I will wear a sweater and gloves. 说两件也可以。",
+    "prerequisites": [
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__school-day-outfit"
+  },
+  {
+    "id": "bank-english-6-actions-012",
+    "familyId": "english-6-actions__fam-012",
+    "version": 1,
+    "text": "Today is hot. Your school bag has a T-shirt, a sweater and a raincoat. Which one will you wear today?",
+    "answer": "The T-shirt.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三件衣服里挑一件，要和今天的天气相配。",
+      "今天很热，棉 T 恤最合适，毛衣和雨衣都太厚。",
+      "答：The T-shirt."
+    ],
+    "hint": "天气热的时候，哪一件衣服穿起来最舒服？",
+    "alternative": "也可以答 I will wear the T-shirt. 用完整句回答。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__school-day-outfit"
+  },
+  {
+    "id": "bank-english-6-actions-013",
+    "familyId": "english-6-actions__fam-013",
+    "version": 1,
+    "text": "It is cold and windy this weekend. Your family stays at home. Say one thing you will do at home.",
+    "answer": "I will read a book at home.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把条件读清楚：天气冷、有风，所以待在家。",
+      "再说一件在家能做的事，用 will 表示计划。",
+      "答：I will read a book at home."
+    ],
+    "hint": "大风天出门不方便，在家可以做什么？",
+    "alternative": "也可以答 I will play with my Lego at home. 别的室内活动也可以。",
+    "prerequisites": [
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__weekend-plan"
+  },
+  {
+    "id": "bank-english-6-actions-014",
+    "familyId": "english-6-actions__fam-014",
+    "version": 1,
+    "text": "Next Saturday is warm and sunny. Your family goes to the park. Say one thing you will do in the park.",
+    "answer": "I will fly a kite in the park.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "条件和活动都要用上：暖和晴朗、去公园。",
+      "在公园里可以做放风筝、跑步、荡秋千，选一件说清楚。",
+      "答：I will fly a kite in the park."
+    ],
+    "hint": "晴朗又有风，放风筝正合适。",
+    "alternative": "也可以答 I will ride my bike in the park. 同样是公园活动。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__weekend-plan"
+  },
+  {
+    "id": "bank-english-6-actions-015",
+    "familyId": "english-6-actions__fam-015",
+    "version": 1,
+    "text": "In summer Amy can swim and ride a bike, but she cannot skate on ice. Which sport does Amy do in summer?",
+    "answer": "Swimming.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "材料列出她夏天会做的运动和不会做的运动。",
+      "skate on ice 是冬天的运动，被排除；夏天她做游泳和骑车。",
+      "答：Swimming."
+    ],
+    "hint": "先划掉「在冰上」的那一项，剩下的运动里选一个。",
+    "alternative": "也可以答 Riding a bike. 夏天骑车也是她的运动。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__sports-season"
+  },
+  {
+    "id": "bank-english-6-actions-016",
+    "familyId": "english-6-actions__fam-016",
+    "version": 1,
+    "text": "In winter the children skate on the ice. In summer they ride bikes. What do the children do instead of skating in summer?",
+    "answer": "They ride bikes.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "instead of 表示「代替……去做什么」，要填另一个活动。",
+      "材料直接给出夏天的替代活动是骑自行车。",
+      "答：They ride bikes."
+    ],
+    "hint": "材料里说夏天他们做什么？把它填进句子里。",
+    "alternative": "也可以答 They ride their bikes in summer. 把地点补上也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__sports-season"
+  },
+  {
+    "id": "bank-english-6-actions-017",
+    "familyId": "english-6-actions__fam-017",
+    "version": 1,
+    "text": "Your family has a picnic in the park in October. The leaves are red and yellow. It is cool. What will you wear to the picnic?",
+    "answer": "A warm sweater.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看天气再选衣服，材料说十月天气凉爽。",
+      "凉爽的天气要穿比夏天厚一点、比冬天薄的衣服。",
+      "答：A warm sweater."
+    ],
+    "hint": "十月有点凉，穿短袖还是毛衣？",
+    "alternative": "也可以答 I will wear a warm sweater and jeans. 说整套搭配也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__family-picnic"
+  },
+  {
+    "id": "bank-english-6-actions-018",
+    "familyId": "english-6-actions__fam-018",
+    "version": 1,
+    "text": "Your family has a picnic on the beach in July. What will you take for the picnic?",
+    "answer": "Water and ice cream.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "七月的沙滩场景是夏天，要带消暑解渴的东西。",
+      "水和冰淇淋都适合夏天野餐，答两样即可。",
+      "答：Water and ice cream."
+    ],
+    "hint": "七月在沙滩上会很热，带点什么能解渴又凉快？",
+    "alternative": "也可以答 A hat and some cold juice. 别的夏天用品也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__family-picnic"
+  },
+  {
+    "id": "bank-english-6-actions-019",
+    "familyId": "english-6-actions__fam-019",
+    "version": 1,
+    "text": "The school nature club meets in spring. The members watch the trees grow green. What does the nature club do in spring?",
+    "answer": "They watch the trees grow green.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是社团的活动，答案就在材料里。",
+      "春天社员观察树木变绿，用一个完整句子说出来。",
+      "答：They watch the trees grow green."
+    ],
+    "hint": "把材料里 members 后面接的动作说出来。",
+    "alternative": "也可以答 They watch the trees in spring. 简化说法也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__club-activities"
+  },
+  {
+    "id": "bank-english-6-actions-020",
+    "familyId": "english-6-actions__fam-020",
+    "version": 1,
+    "text": "The winter club meets on snowy days. The members build a snowman in the playground. What does the winter club do in winter?",
+    "answer": "It builds a snowman in the playground.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确认是哪个社团、哪个季节，再说出它的活动。",
+      "冬雪社在操场上堆雪人，答案照这个意思写。",
+      "答：It builds a snowman in the playground."
+    ],
+    "hint": "材料里 members 后面那个动作就是社团的活动。",
+    "alternative": "也可以答 They build a snowman in the playground. 用 they 也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__club-activities"
+  },
+  {
+    "id": "bank-english-6-actions-021",
+    "familyId": "english-6-actions__fam-021",
+    "version": 1,
+    "text": "Your class will go on a ski trip in the cold season. Say two things you will wear on the trip.",
+    "answer": "A thick coat and gloves.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目要两样，用 and 连接，两样都要是保暖的衣物。",
+      "厚外套和手套是滑雪时最常穿的。",
+      "答：A thick coat and gloves."
+    ],
+    "hint": "又冷又要去滑雪，身上要穿哪两样保暖的东西？",
+    "alternative": "也可以答 A warm hat and a scarf. 换成别的两样保暖衣物也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__ski-trip"
+  },
+  {
+    "id": "bank-english-6-actions-022",
+    "familyId": "english-6-actions__fam-022",
+    "version": 1,
+    "text": "At summer camp you swim in the lake in the morning and watch the stars at night. Say one thing you do at summer camp.",
+    "answer": "I swim in the lake.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目只要一件活动，从夏令营的两件事里选一件。",
+      "白天在湖里游泳、晚上看星星，答哪个都可以。",
+      "答：I swim in the lake."
+    ],
+    "hint": "夏令营里你做了哪一件和夏天有关的事？",
+    "alternative": "也可以答 I watch the stars at night. 另一件事同样正确。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__summer-camp"
+  },
+  {
+    "id": "bank-english-6-actions-023",
+    "familyId": "english-6-actions__fam-023",
+    "version": 1,
+    "text": "The rain keeps you inside on a spring afternoon. Your cousin comes to play. Suggest two indoor games.",
+    "answer": "We can play cards and draw pictures.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目要两个室内游戏，用 and 连接两个 can 短语。",
+      "下雨天在室内，可以打牌、画画、下棋。",
+      "答：We can play cards and draw pictures."
+    ],
+    "hint": "下雨天不能出门，在屋里能和小伙伴玩什么？",
+    "alternative": "也可以答 We can play chess and build models. 别的室内游戏也可以。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__rainy-day-inside"
+  },
+  {
+    "id": "bank-english-6-actions-024",
+    "familyId": "english-6-actions__fam-024",
+    "version": 1,
+    "text": "Ann's birthday party is outdoors in April. The grass is green and it is warm. Say one thing Ann can do at her party.",
+    "answer": "Ann can fly a kite at her party.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确认时间地点：四月、草绿、天气暖和，户外可以玩。",
+      "户外可以做放风筝、踢球、吃蛋糕，任选一个。",
+      "答：Ann can fly a kite at her party."
+    ],
+    "hint": "春天的户外活动有哪些？想起风，想起草地。",
+    "alternative": "也可以答 Ann can play games in the park. 另一种户外活动。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__birthday-party"
+  },
+  {
+    "id": "bank-english-6-actions-025",
+    "familyId": "english-6-actions__fam-025",
+    "version": 1,
+    "text": "You go to the market with your grandpa on a hot summer morning. You need something cold to drink. What will you ask for?",
+    "answer": "I'll ask for some cold juice.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问句要说明「我要什么」，用 I'll ask for... 的句式。",
+      "夏天很热，需要凉的东西喝，市场上可以要一杯冷果汁。",
+      "答：I'll ask for some cold juice."
+    ],
+    "hint": "在市场上买饮料，你会说 I want... 还是 I will ask for...？",
+    "alternative": "也可以答 I'll ask for a cold drink. 换成别的冷饮名称也可以。",
+    "prerequisites": [
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__market-visit"
+  },
+  {
+    "id": "bank-english-6-actions-026",
+    "familyId": "english-6-actions__fam-026",
+    "version": 1,
+    "text": "You want to give your grandpa a birthday gift. He lives in a cold place and likes the winter. Which gift do you choose: a fan or a warm scarf?",
+    "answer": "A warm scarf.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看送礼人和收礼人的习惯，再在两项里比较。",
+      "爷爷住在冷的地方、喜欢冬天，暖围巾比扇子更合适。",
+      "答：A warm scarf."
+    ],
+    "hint": "扇子和围巾，哪一样和「住在很冷的地方」相配？",
+    "alternative": "也可以答 I choose the warm scarf. 用 I choose... 回答。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__holiday-gift"
+  },
+  {
+    "id": "bank-english-6-actions-027",
+    "familyId": "english-6-actions__fam-027",
+    "version": 1,
+    "text": "It is cold on a winter morning. You get up and put on your clothes. Say two things you put on.",
+    "answer": "A coat and a hat.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目要两样，用 and 连接。",
+      "冬天的早晨要穿外套、戴帽子这样的保暖衣物。",
+      "答：A coat and a hat."
+    ],
+    "hint": "冬天的早晨出门，最先想到哪两件保暖的东西？",
+    "alternative": "也可以答 A coat and gloves. 换成别的两件也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__morning-routine"
+  },
+  {
+    "id": "bank-english-6-actions-028",
+    "familyId": "english-6-actions__fam-028",
+    "version": 1,
+    "text": "In summer it is very hot. Your dog needs water and a cool place. What do you do for your dog in summer?",
+    "answer": "I give my dog water and a cool place to stay.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问题问「为狗做了什么」，两件事都要写上：给水、找凉快地方。",
+      "用 I give... 和 I put... 两个动作连成一句。",
+      "答：I give my dog water and a cool place to stay."
+    ],
+    "hint": "夏天狗会怕热，它需要什么？想想水、阴凉处。",
+    "alternative": "也可以答 I give my dog water and take him to the shade. 意思相同即可。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__pet-care"
+  },
+  {
+    "id": "bank-english-6-actions-029",
+    "familyId": "english-6-actions__fam-029",
+    "version": 1,
+    "text": "Your grandpa grows flowers in his small garden. You help him in spring and summer. What do you do in the garden?",
+    "answer": "I water the flowers and pull out the weeds.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "园艺活动常见的是浇水、松土、拔草。",
+      "用两个动作组成一句完整的话，说明你在花园里做的事。",
+      "答：I water the flowers and pull out the weeds."
+    ],
+    "hint": "照顾花园要做什么？想想水和那些抢养分的草。",
+    "alternative": "也可以答 I water the flowers and dig the soil. 别的园艺活也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__garden-work"
+  },
+  {
+    "id": "bank-english-6-actions-030",
+    "familyId": "english-6-actions__fam-030",
+    "version": 1,
+    "text": "The school sports day is in fall. The weather is cool and dry. Say two games you will play on that day.",
+    "answer": "I will run and play basketball.",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确认季节和天气：秋天、凉爽干燥，适合户外运动。",
+      "运动会项目很多，答两个并用 and 连接。",
+      "答：I will run and play basketball."
+    ],
+    "hint": "运动会上有哪些项目？选两个你会的说一说。",
+    "alternative": "也可以答 I will run the race and jump the rope. 换成别的项目也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-6-actions__sports-day"
+  }
+]

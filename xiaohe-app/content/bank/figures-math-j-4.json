@@ -1,0 +1,44 @@
+{
+  "math/math-j-4-statistics/library-borrow-chart": {
+    "kind": "bars",
+    "values": [24, 36, 18, 12],
+    "labels": ["A", "B", "C", "D"],
+    "width": 420,
+    "height": 240
+  },
+  "math/math-j-4-statistics/sport-favorite-chart": {
+    "kind": "bars",
+    "values": [18, 27, 24, 12],
+    "labels": ["A", "B", "C", "D"],
+    "width": 420,
+    "height": 240
+  },
+  "math/math-j-4-statistics/motion-duration-chart": {
+    "kind": "bars",
+    "values": [40, 120, 160, 80],
+    "labels": ["A", "B", "C", "D"],
+    "width": 420,
+    "height": 240
+  },
+  "math/math-j-4-survey/sample-composition": {
+    "kind": "bars",
+    "values": [180, 15, 5],
+    "labels": ["A", "B", "C"],
+    "width": 420,
+    "height": 240
+  },
+  "math/math-j-4-survey/grade-enrollment": {
+    "kind": "bars",
+    "values": [480, 520, 500],
+    "labels": ["A", "B", "C"],
+    "width": 420,
+    "height": 240
+  },
+  "math/math-j-4-probability/draw-frequency": {
+    "kind": "bars",
+    "values": [62, 38],
+    "labels": ["A", "B"],
+    "width": 420,
+    "height": 240
+  }
+}

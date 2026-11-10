@@ -1,0 +1,654 @@
+{
+  "math/math-5-lines/parallel-grid-1": {
+    "kind": "grid",
+    "cell": 40,
+    "width": 320,
+    "height": 240
+  },
+  "math/math-5-lines/parallel-grid-2": {
+    "kind": "grid",
+    "cell": 32,
+    "width": 320,
+    "height": 224
+  },
+  "math/math-5-lines/parallel-grid-3": {
+    "kind": "grid",
+    "cell": 34,
+    "width": 340,
+    "height": 238
+  },
+  "math/math-5-lines/perpendicular-1": {
+    "kind": "rectangle",
+    "width2": "13",
+    "height2": "9",
+    "width": 370,
+    "height": 210
+  },
+  "math/math-5-lines/perpendicular-2": {
+    "kind": "rectangle",
+    "width2": "15",
+    "height2": "9",
+    "width": 380,
+    "height": 210
+  },
+  "math/math-5-lines/perpendicular-3": {
+    "kind": "rectangle",
+    "width2": "14",
+    "height2": "7",
+    "width": 400,
+    "height": 180
+  },
+  "math/math-5-lines/perpendicular-4": {
+    "kind": "rectangle",
+    "width2": "16",
+    "height2": "10",
+    "width": 420,
+    "height": 220
+  },
+  "math/math-5-lines/angle-55": {
+    "kind": "angle",
+    "degrees": 55,
+    "arm": 165,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-lines/right-angle-1": {
+    "kind": "angle",
+    "degrees": 90,
+    "arm": 150,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-5-lines/right-angle-2": {
+    "kind": "angle",
+    "degrees": 90,
+    "arm": 120,
+    "width": 320,
+    "height": 190
+  },
+  "math/math-5-lines/square-11": {
+    "kind": "square",
+    "side": "11",
+    "width": 300,
+    "height": 220
+  },
+  "math/math-5-lines/parallel-1": {
+    "kind": "parallelogram",
+    "base": "18",
+    "height2": "7",
+    "skew": 0.22,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-lines/grid-lines": {
+    "kind": "grid",
+    "cell": 30,
+    "width": 300,
+    "height": 210
+  },
+  "math/math-5-lines/grid-angle-1": {
+    "kind": "grid",
+    "cell": 28,
+    "width": 280,
+    "height": 196
+  },
+  "math/math-5-lines/blackboard-1": {
+    "kind": "rectangle",
+    "width2": "60",
+    "height2": "40",
+    "width": 400,
+    "height": 240
+  },
+  "math/math-5-lines/side-board-1": {
+    "kind": "rectangle",
+    "width2": "60",
+    "height2": "25",
+    "width": 420,
+    "height": 180
+  },
+  "math/math-5-lines/rail-ties-1": {
+    "kind": "parallelogram",
+    "base": "60",
+    "height2": "5",
+    "skew": 0.3,
+    "width": 420,
+    "height": 170
+  },
+  "math/math-5-lines/window-frame-1": {
+    "kind": "rectangle",
+    "width2": "90",
+    "height2": "60",
+    "width": 420,
+    "height": 250
+  },
+  "math/math-5-lines/flowerpot-1": {
+    "kind": "square",
+    "side": "20",
+    "width": 280,
+    "height": 200
+  },
+  "math/math-5-lines/ruler-line-1": {
+    "kind": "rectangle",
+    "width2": "30",
+    "height2": "12",
+    "width": 400,
+    "height": 170
+  },
+  "math/math-5-lines/swim-lane-1": {
+    "kind": "parallelogram",
+    "base": "50",
+    "height2": "3",
+    "skew": 0.26,
+    "width": 380,
+    "height": 160
+  },
+  "math/math-5-lines/fold-paper-1": {
+    "kind": "rectangle",
+    "width2": "28",
+    "height2": "22",
+    "width": 400,
+    "height": 245
+  },
+  "math/math-5-lines/stairs-1": {
+    "kind": "parallelogram",
+    "base": "12",
+    "height2": "18",
+    "skew": 0.34,
+    "width": 320,
+    "height": 230
+  },
+  "math/math-5-lines/well-ladder-1": {
+    "kind": "rectangle",
+    "width2": "12",
+    "height2": "8",
+    "width": 340,
+    "height": 200
+  },
+  "math/math-5-lines/street-lamp-1": {
+    "kind": "rectangle",
+    "width2": "8",
+    "height2": "12",
+    "width": 320,
+    "height": 220
+  },
+  "math/math-5-lines/cut-paper-1": {
+    "kind": "rectangle",
+    "width2": "24",
+    "height2": "18",
+    "width": 400,
+    "height": 250
+  },
+  "math/math-5-lines/glass-pane-1": {
+    "kind": "rectangle",
+    "width2": "5",
+    "height2": "3",
+    "width": 300,
+    "height": 180
+  },
+  "math/math-5-lines/clothesline-1": {
+    "kind": "parallelogram",
+    "base": "300",
+    "height2": "50",
+    "skew": 0.28,
+    "width": 440,
+    "height": 220
+  },
+  "math/math-5-quads/para-1": {
+    "kind": "parallelogram",
+    "base": "10",
+    "height2": "6",
+    "skew": 0.2,
+    "width": 340,
+    "height": 190
+  },
+  "math/math-5-quads/para-2": {
+    "kind": "parallelogram",
+    "base": "12",
+    "height2": "8",
+    "skew": 0.26,
+    "width": 360,
+    "height": 210
+  },
+  "math/math-5-quads/para-3": {
+    "kind": "parallelogram",
+    "base": "9",
+    "height2": "7",
+    "skew": 0.32,
+    "width": 380,
+    "height": 200
+  },
+  "math/math-5-quads/para-4": {
+    "kind": "parallelogram",
+    "base": "8",
+    "height2": "5",
+    "skew": 0.24,
+    "width": 320,
+    "height": 180
+  },
+  "math/math-5-quads/para-5": {
+    "kind": "parallelogram",
+    "base": "9",
+    "height2": "6",
+    "skew": 0.36,
+    "width": 400,
+    "height": 220
+  },
+  "math/math-5-quads/para-6": {
+    "kind": "parallelogram",
+    "base": "90",
+    "height2": "60",
+    "skew": 0.22,
+    "width": 420,
+    "height": 250
+  },
+  "math/math-5-quads/para-7": {
+    "kind": "parallelogram",
+    "base": "60",
+    "height2": "45",
+    "skew": 0.3,
+    "width": 400,
+    "height": 240
+  },
+  "math/math-5-quads/para-8": {
+    "kind": "parallelogram",
+    "base": "30",
+    "height2": "20",
+    "skew": 0.28,
+    "width": 380,
+    "height": 220
+  },
+  "math/math-5-quads/para-9": {
+    "kind": "parallelogram",
+    "base": "12",
+    "height2": "7",
+    "skew": 0.18,
+    "width": 340,
+    "height": 190
+  },
+  "math/math-5-quads/para-10": {
+    "kind": "parallelogram",
+    "base": "20",
+    "height2": "15",
+    "skew": 0.34,
+    "width": 400,
+    "height": 230
+  },
+  "math/math-5-quads/para-11": {
+    "kind": "parallelogram",
+    "base": "21",
+    "height2": "16",
+    "skew": 0.26,
+    "width": 420,
+    "height": 250
+  },
+  "math/math-5-quads/para-12": {
+    "kind": "parallelogram",
+    "base": "3",
+    "height2": "3",
+    "skew": 0.4,
+    "width": 300,
+    "height": 200
+  },
+  "math/math-5-quads/para-13": {
+    "kind": "parallelogram",
+    "base": "60",
+    "height2": "50",
+    "skew": 0.3,
+    "width": 420,
+    "height": 260
+  },
+  "math/math-5-quads/para-15": {
+    "kind": "parallelogram",
+    "base": "40",
+    "height2": "30",
+    "skew": 0.22,
+    "width": 400,
+    "height": 240
+  },
+  "math/math-5-quads/para-16": {
+    "kind": "parallelogram",
+    "base": "30",
+    "height2": "3",
+    "skew": 0.32,
+    "width": 380,
+    "height": 170
+  },
+  "math/math-5-quads/para-17": {
+    "kind": "parallelogram",
+    "base": "8",
+    "height2": "6",
+    "skew": 0.38,
+    "width": 320,
+    "height": 210
+  },
+  "math/math-5-quads/trap-1": {
+    "kind": "trapezoid",
+    "top": "9",
+    "bottom": "15",
+    "height2": "6",
+    "topRatio": 0.55,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-quads/trap-2": {
+    "kind": "trapezoid",
+    "top": "8",
+    "bottom": "14",
+    "height2": "6",
+    "topRatio": 0.5,
+    "width": 380,
+    "height": 210
+  },
+  "math/math-5-quads/trap-3": {
+    "kind": "trapezoid",
+    "top": "6",
+    "bottom": "10",
+    "height2": "8",
+    "topRatio": 0.6,
+    "width": 340,
+    "height": 230
+  },
+  "math/math-5-quads/trap-4": {
+    "kind": "trapezoid",
+    "top": "4",
+    "bottom": "6",
+    "height2": "5",
+    "topRatio": 0.65,
+    "width": 320,
+    "height": 200
+  },
+  "math/math-5-quads/trap-5": {
+    "kind": "trapezoid",
+    "top": "5",
+    "bottom": "7",
+    "height2": "4",
+    "topRatio": 0.7,
+    "width": 360,
+    "height": 190
+  },
+  "math/math-5-quads/trap-6": {
+    "kind": "trapezoid",
+    "top": "40",
+    "bottom": "60",
+    "height2": "25",
+    "topRatio": 0.6,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-5-quads/trap-7": {
+    "kind": "trapezoid",
+    "top": "38",
+    "bottom": "58",
+    "height2": "24",
+    "topRatio": 0.55,
+    "width": 400,
+    "height": 230
+  },
+  "math/math-5-quads/trap-8": {
+    "kind": "trapezoid",
+    "top": "3",
+    "bottom": "5",
+    "height2": "2",
+    "topRatio": 0.6,
+    "width": 300,
+    "height": 170
+  },
+  "math/math-5-quads/trap-9": {
+    "kind": "trapezoid",
+    "top": "6",
+    "bottom": "9",
+    "height2": "4",
+    "topRatio": 0.5,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-5-quads/trap-10": {
+    "kind": "trapezoid",
+    "top": "2",
+    "bottom": "3",
+    "height2": "2",
+    "topRatio": 0.65,
+    "width": 300,
+    "height": 180
+  },
+  "math/math-5-quads/rect-1": {
+    "kind": "rectangle",
+    "width2": "12",
+    "height2": "8",
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-quads/rect-2": {
+    "kind": "rectangle",
+    "width2": "40",
+    "height2": "30",
+    "width": 400,
+    "height": 240
+  },
+  "math/math-5-quads/square-1": {
+    "kind": "square",
+    "side": "6",
+    "width": 280,
+    "height": 200
+  },
+  "math/math-5-mobius/strip-30x4": {
+    "kind": "rectangle",
+    "width2": "30",
+    "height2": "4",
+    "width": 380,
+    "height": 120
+  },
+  "math/math-5-mobius/strip-24x3": {
+    "kind": "rectangle",
+    "width2": "24",
+    "height2": "3",
+    "width": 340,
+    "height": 110
+  },
+  "math/math-5-mobius/strip-20x5": {
+    "kind": "rectangle",
+    "width2": "20",
+    "height2": "5",
+    "width": 320,
+    "height": 130
+  },
+  "math/math-5-mobius/strip-18x2": {
+    "kind": "rectangle",
+    "width2": "18",
+    "height2": "2",
+    "width": 360,
+    "height": 100
+  },
+  "math/math-5-mobius/strip-15x9": {
+    "kind": "rectangle",
+    "width2": "15",
+    "height2": "9",
+    "width": 300,
+    "height": 160
+  },
+  "math/math-5-mobius/strip-60x8": {
+    "kind": "rectangle",
+    "width2": "60",
+    "height2": "8",
+    "width": 420,
+    "height": 140
+  },
+  "math/math-5-mobius/strip-40x10": {
+    "kind": "rectangle",
+    "width2": "40",
+    "height2": "10",
+    "width": 400,
+    "height": 170
+  },
+  "math/math-5-mobius/strip-36x6": {
+    "kind": "rectangle",
+    "width2": "36",
+    "height2": "6",
+    "width": 360,
+    "height": 150
+  },
+  "math/math-5-mobius/strip-50x5": {
+    "kind": "rectangle",
+    "width2": "50",
+    "height2": "5",
+    "width": 420,
+    "height": 130
+  },
+  "math/math-5-review/sq-4": {
+    "kind": "square",
+    "side": "4",
+    "width": 260,
+    "height": 190
+  },
+  "math/math-5-review/sq-5": {
+    "kind": "square",
+    "side": "5",
+    "width": 280,
+    "height": 200
+  },
+  "math/math-5-review/sq-6": {
+    "kind": "square",
+    "side": "6",
+    "width": 300,
+    "height": 210
+  },
+  "math/math-5-review/sq-7": {
+    "kind": "square",
+    "side": "7",
+    "width": 320,
+    "height": 220
+  },
+  "math/math-5-review/sq-50": {
+    "kind": "square",
+    "side": "50",
+    "width": 340,
+    "height": 230
+  },
+  "math/math-5-review/sq-60": {
+    "kind": "square",
+    "side": "60",
+    "width": 360,
+    "height": 240
+  },
+  "math/math-5-review/rect-3x1": {
+    "kind": "rectangle",
+    "width2": "3",
+    "height2": "1",
+    "width": 400,
+    "height": 180
+  },
+  "math/math-5-review/rect-4x3": {
+    "kind": "rectangle",
+    "width2": "4",
+    "height2": "3",
+    "width": 340,
+    "height": 210
+  },
+  "math/math-5-review/rect-5x3": {
+    "kind": "rectangle",
+    "width2": "5",
+    "height2": "3",
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-review/rect-5x4": {
+    "kind": "rectangle",
+    "width2": "5",
+    "height2": "4",
+    "width": 380,
+    "height": 220
+  },
+  "math/math-5-review/rect-7x4": {
+    "kind": "rectangle",
+    "width2": "7",
+    "height2": "4",
+    "width": 400,
+    "height": 200
+  },
+  "math/math-5-review/rect-8x5": {
+    "kind": "rectangle",
+    "width2": "8",
+    "height2": "5",
+    "width": 420,
+    "height": 210
+  },
+  "math/math-5-review/rect-9x3": {
+    "kind": "rectangle",
+    "width2": "9",
+    "height2": "3",
+    "width": 440,
+    "height": 190
+  },
+  "math/math-5-review/rect-9x7": {
+    "kind": "rectangle",
+    "width2": "9",
+    "height2": "7",
+    "width": 380,
+    "height": 230
+  },
+  "math/math-5-review/rect-20x10": {
+    "kind": "rectangle",
+    "width2": "20",
+    "height2": "10",
+    "width": 360,
+    "height": 200
+  },
+  "math/math-5-review/rect-20x15": {
+    "kind": "rectangle",
+    "width2": "20",
+    "height2": "15",
+    "width": 400,
+    "height": 240
+  },
+  "math/math-5-review/rect-25x10": {
+    "kind": "rectangle",
+    "width2": "25",
+    "height2": "10",
+    "width": 420,
+    "height": 210
+  },
+  "math/math-5-review/rect-25x15": {
+    "kind": "rectangle",
+    "width2": "25",
+    "height2": "15",
+    "width": 440,
+    "height": 230
+  },
+  "math/math-5-review/rect-30x20": {
+    "kind": "rectangle",
+    "width2": "30",
+    "height2": "20",
+    "width": 380,
+    "height": 240
+  },
+  "math/math-5-review/rect-60x40": {
+    "kind": "rectangle",
+    "width2": "60",
+    "height2": "40",
+    "width": 400,
+    "height": 250
+  },
+  "math/math-5-review/rect-120x5": {
+    "kind": "rectangle",
+    "width2": "120",
+    "height2": "5",
+    "width": 440,
+    "height": 160
+  },
+  "math/math-5-review/rect-200x150": {
+    "kind": "rectangle",
+    "width2": "200",
+    "height2": "150",
+    "width": 420,
+    "height": 260
+  },
+  "math/math-5-review/trap-6-6-8-10": {
+    "kind": "trapezoid",
+    "top": "8",
+    "bottom": "10",
+    "height2": "6",
+    "topRatio": 0.6,
+    "width": 360,
+    "height": 210
+  }
+}
