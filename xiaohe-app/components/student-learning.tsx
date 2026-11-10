@@ -1,21 +1,39 @@
 "use client";
 import { learningDraftStillAvailable } from "@/lib/learning-cache-cleanup";
 
-import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
-import { ArrowLeft, ArrowRight, BookOpen, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp, Clock3, FileCheck2, FileText, History, Lightbulb, ListChecks, LockKeyhole, Pencil, Plus, RefreshCw, Save, ShieldCheck, Sparkles, Sprout, Star, Target, X } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { ArrowLeft, ArrowRight, BookOpen, Check, CheckCircle2, ChevronDown, ChevronRight, CircleHelp, ClipboardList, Clock3, FileCheck2, FileText, History, Lightbulb, ListChecks, LockKeyhole, Pencil, Plus, RefreshCw, Save, ShieldCheck, Sparkles, Sprout, Star, Target, X } from "lucide-react";
 import { workspaceUrl } from "@/lib/client";
 import { reviewAvailableAt } from "@/lib/server/mastery";
 import type { AppProps, View } from "@/lib/ui-types";
 import { effectiveEvidence, effectiveAttempt, effectiveMistakes, effectiveReviewSource } from "@/lib/effective-evidence";
 import { EvidenceComparison, evidenceAuthorityNames } from "./evidence-review-workspace";
 import { practiceSection } from "@/lib/student-navigation";
-import type { Answer, EffectiveEvidence, HelpLevel, KnowledgeId, Paper, Profile } from "@/lib/types";
+import type { Answer, EffectiveEvidence, EffectiveMistake, ExamRef, HelpLevel, KnowledgeId, Paper, Profile } from "@/lib/types";
+import { stageOfKnowledge } from "@/lib/types";
 import { curriculumCatalog } from "@/lib/curriculum-catalog";
 import { exerciseByPoint } from "@/lib/curriculum-practice";
 import { curriculumExplanations } from "@/lib/curriculum-explanations";
+import { splitQuestionText } from "@/lib/choice";
+import { shanghaiCatalog } from "@/lib/curriculum-catalog-shanghai";
+import { examIndexDisclaimer, examTopics, paperTemplates, sourceTierLabels } from "@/lib/exam-references";
+import { mistakeCauseLabel, mistakeCauses, practiceScopeForCause, type MistakeCause } from "@/lib/mistake-causes";
+import { shanghaiExplanations } from "@/lib/curriculum-explanations-shanghai";
+import type { StageId } from "@/lib/types";
+import QuestionFigure from "./question-figure";
 import "./student-learning.css";
 
-const knowledgeNames: Record<KnowledgeId, string> = { division: "估商与检验", geometry: "周长与面积", multiplication: "乘法与运算" };
+const knowledgeNames: Partial<Record<KnowledgeId, string>> = { division: "估商与检验", geometry: "周长与面积", multiplication: "乘法与运算" };
+/** 知识点 id 的学科归属；legacy 演示题库归入数学。 */
+const subjectLabelOf = (id: string) => id.startsWith("chinese-") ? "语文" : id.startsWith("english-") ? "英语" : "数学";
+/** 试卷的课程范围：按题目所属学段与学科说明，不写死「数学演示题库」。 */
+const scopeLabelOf = (questions: Paper["questions"]) => {
+  const first = questions[0];
+  if (!first) return "已审核题库";
+  const subject = subjectLabelOf(first.knowledgeId);
+  const stage = stageOfKnowledge(first.knowledgeId as KnowledgeId);
+  return stage === "junior" ? `上海中考 · ${subject}` : stage === "senior" ? `上海高考 · ${subject}` : `小学四年级 · ${subject}`;
+};
 const curriculumDraftEvent = "xiaohe:curriculum-draft";
 const subscribeCurriculumDraft = (onChange: () => void) => {
   window.addEventListener(curriculumDraftEvent, onChange);
@@ -42,12 +60,26 @@ function EvidenceRow({ evidence, onOpen }: { evidence: EffectiveEvidence; onOpen
 function KnowledgePage(props: AppProps) {
   const { state, navigate, selectedId } = props;
   const [expanded, setExpanded] = useState<string | null>(selectedId ?? null);
-  const [subjectId, setSubjectId] = useState(() => curriculumCatalog.find(subject => subject.units.some(unit => unit.points.some(point => (!!selectedId && (point.id === selectedId || point.practiceId === selectedId)))))?.id ?? props.curriculumSubjectId ?? curriculumCatalog.find(subject => subject.name === state.profile.course)?.id ?? "math");
-  const subject = curriculumCatalog.find(item => item.id === subjectId)!;
+  // 学段：小学用四年级目录，初中与高中用上海考纲目录。
+  const stages = useMemo(() => [
+    { id: "primary" as const, name: "小学", subjects: curriculumCatalog },
+    { id: "junior" as const, name: "初中", subjects: shanghaiCatalog.filter(item => item.stage === "junior") },
+    { id: "senior" as const, name: "高中", subjects: shanghaiCatalog.filter(item => item.stage === "senior") },
+  ], []);
+  // 学段是全局状态（地址里带着），知识地图、组卷、单题练习、错题本共用一份。
+  const [localStage, setLocalStage] = useState<StageId>(() => (selectedId && selectedId.includes("-j-")) ? "junior" : (selectedId && selectedId.includes("-s-")) ? "senior" : "primary");
+  const stageId = props.stageId ?? localStage;
+  const stageSubjects = stages.find(stage => stage.id === stageId)!.subjects;
+  const [subjectId, setSubjectId] = useState(() => {
+    const all = [...curriculumCatalog, ...shanghaiCatalog];
+    return all.find(subject => subject.units.some(unit => unit.points.some(point => (!!selectedId && (point.id === selectedId || point.practiceId === selectedId)))))?.id
+      ?? props.curriculumSubjectId ?? curriculumCatalog.find(subject => subject.name === state.profile.course)?.id ?? "math";
+  });
+  const subject = stageSubjects.find(item => item.id === subjectId) ?? stageSubjects[0];
   const [unitId, setUnitId] = useState(() => subject.units.find(unit => unit.points.some(point => (!!selectedId && (point.id === selectedId || point.practiceId === selectedId))))?.id ?? subject.units[0].id);
   const [pointId, setPointId] = useState<string | null>(() => subject.units.flatMap(unit => unit.points).find(point => (!!selectedId && (point.id === selectedId || point.practiceId === selectedId)))?.id ?? null);
   const switchSubject = (id: string) => {
-    const next = curriculumCatalog.find(item => item.id === id);
+    const next = stageSubjects.find(item => item.id === id);
     if (!next || next.id === subjectId) return;
     setSubjectId(next.id);
     props.onCurriculumSubjectChange?.(next.id);
@@ -55,16 +87,49 @@ function KnowledgePage(props: AppProps) {
     setPointId(null);
     setExpanded(null);
   };
+  const switchStage = (id: StageId) => {
+    if (id === stageId) return;
+    if (props.onStageChange) props.onStageChange(id); else setLocalStage(id);
+    const next = stages.find(stage => stage.id === id)!;
+    setSubjectId(next.subjects[0].id);
+    setUnitId(next.subjects[0].units[0].id);
+    setPointId(null);
+    setExpanded(null);
+  };
   const unit = subject.units.find(item => item.id === unitId) ?? subject.units[0];
   const point = unit.points.find(item => item.id === pointId);
   const livePoint = point?.practiceId && state.knowledge.find(item => item.id === point.practiceId);
   const activeRule = state.mastery?.rules.find(rule => rule.id === state.mastery?.activeRuleId);
-  return <div className="learn-page"><Heading eyebrow="KNOWLEDGE MAP" title="知识地图" text="选择科目和单元，学习知识点解释，再做对应练习。" />
-    <section className="card learn-route"><div className="learn-section-icon"><BookOpen size={25} /></div><div className="learn-route-copy"><label className="eyebrow" htmlFor="learn-route-subject">我的课程路线 · 切换学科</label><select id="learn-route-subject" className="learn-route-subject" value={subjectId} onChange={event => switchSubject(event.target.value)} aria-label="切换学科">{curriculumCatalog.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select><p className="muted">{state.profile.grade} · {state.profile.semester} · {subject.edition}</p></div><span className="badge">{subject.units.length} 个单元</span></section>
-    <div className="learn-section-heading"><h2>科目 · 单元 · 知识点</h2><span className="muted">四年级上册 · 按教材单元浏览</span></div>
+  // 已加入学习范围的知识点才能组卷；未加入的先解锁这一单元。
+  const unlockedIds = new Set<string>(state.knowledge.filter(item => item.learningState === "current").map(item => item.id));
+  const unitLocked = unit.points.filter(item => !unlockedIds.has(item.id));
+  const unlockUnit = async (points: typeof unit.points) => {
+    for (const point of points) await props.mutate("knowledge.begin", { knowledgeId: point.id as KnowledgeId, name: point.name, description: point.description });
+  };
+  /**
+   * 「做这一组」：在知识地图上直接出卷 —— 解锁这一单元 + 立刻生成一份练习。
+   * 以前要「先解锁 → 再去组卷面板重选一遍学段与知识点」，两步现在合成一步。
+   */
+  const [practicing, setPracticing] = useState(false);
+  const practiceUnit = async (points: typeof unit.points) => {
+    if (practicing) return;
+    setPracticing(true);
+    try {
+      for (const item of points) {
+        if (!unlockedIds.has(item.id)) await props.mutate("knowledge.begin", { knowledgeId: item.id as KnowledgeId, name: item.name, description: item.description });
+      }
+      const result = await props.mutate("paper.create", { count: 6, knowledgeIds: points.map(item => item.id as KnowledgeId), difficulty: "不限", kind: "practice" });
+      const paperId = result?.result?.id;
+      if (paperId) props.navigate("practice", paperId);
+    } finally { setPracticing(false); }
+  };
+  const explanation = point ? (curriculumExplanations[point.id] ?? shanghaiExplanations[point.id]) : undefined;
+  return <div className="learn-page"><Heading eyebrow="KNOWLEDGE MAP" title="知识地图" text="选择学段、科目和单元，学习知识点解释，再做对应练习。" />
+    <section className="card learn-route"><div className="learn-section-icon"><BookOpen size={25} /></div><div className="learn-route-copy"><label className="eyebrow" htmlFor="learn-route-stage">学段 · 切换学段</label><select id="learn-route-stage" className="learn-route-subject" value={stageId} onChange={event => switchStage(event.target.value as StageId)} aria-label="切换学段">{stages.map(stage => <option key={stage.id} value={stage.id}>{stage.name}</option>)}</select><label className="eyebrow" htmlFor="learn-route-subject">我的课程路线 · 切换学科</label><select id="learn-route-subject" className="learn-route-subject" value={subject.id} onChange={event => switchSubject(event.target.value)} aria-label="切换学科">{stageSubjects.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select><p className="muted">{state.profile.grade} · {state.profile.semester} · {subject.edition}</p>{stageId !== "primary" && <button className="learn-text-link" onClick={() => props.navigate("exam")}><ClipboardList size={15} />真题考情与出处索引</button>}</div><span className="badge">{subject.units.length} 个单元</span></section>
+    <div className="learn-section-heading"><h2>科目 · 单元 · 知识点</h2><span className="muted">{subject.edition} · 按教材单元浏览</span></div>
     <div className="learn-catalog-source"><span>{subject.edition} · 按单元学习知识点</span><a href={subject.sourceUrl} target="_blank" rel="noopener noreferrer">查看版本依据 <ArrowRight size={14} /></a></div>
     <div className="learn-catalog-browser"><nav className="card learn-unit-nav" aria-label={`${subject.name}单元`}><span className="eyebrow">01 选择单元</span>{subject.units.map((item, index) => <button key={item.id} type="button" className={item.id === unit.id ? "is-active" : ""} aria-current={item.id === unit.id ? "step" : undefined} onClick={() => { setUnitId(item.id); setPointId(null); setExpanded(null); }}><span>{String(index + 1).padStart(2, "0")}</span>{item.name}<ChevronRight size={16} /></button>)}</nav>
-      <section className="card learn-point-panel"><div className="learn-point-panel-heading"><div><span className="eyebrow">02 选择知识点</span><h3>{subject.name} / {unit.name}</h3></div><span className="badge">{unit.points.length} 个知识点</span></div><div className="learn-point-list">{unit.points.map(item => <button key={item.id} type="button" className={item.id === pointId ? "is-active" : ""} aria-pressed={item.id === pointId} onClick={() => { setPointId(item.id); setExpanded(null); }}><span><strong>{item.name}</strong><small>查看知识点解释</small></span><ChevronRight size={17} /></button>)}</div>{point ? <div className="learn-point-detail"><span className="eyebrow">03 知识点解释</span><h3>{point.name}</h3><p>{curriculumExplanations[point.id]}</p><button className="btn btn-secondary" onClick={() => navigate("papers", point.id)}>去我的练习做对应题目 <ArrowRight size={16} /></button></div> : <p className="learn-point-placeholder">选择一个知识点，查看解释。</p>}</section></div>
+      <section className="card learn-point-panel"><div className="learn-point-panel-heading"><div><span className="eyebrow">02 选择知识点</span><h3>{subject.name} / {unit.name}</h3></div><span className="badge">{unit.points.length} 个知识点</span></div>{unitLocked.length > 0 ? <button className="btn btn-primary learn-unit-unlock" onClick={() => void unlockUnit(unitLocked)}>开始学习本单元（{unitLocked.length} 个知识点）</button> : <p className="learn-unit-unlocked">本单元已全部加入学习范围，可以在「我的练习」组卷。</p>}<button className="btn btn-secondary learn-unit-practice" disabled={practicing || !unit.points.length} onClick={() => void practiceUnit(unit.points)}>{practicing ? "正在出卷…" : "做这一组（6 题）"}<ArrowRight size={16}/></button><div className="learn-point-list">{unit.points.map(item => <button key={item.id} type="button" className={item.id === pointId ? "is-active" : ""} aria-pressed={item.id === pointId} onClick={() => { setPointId(item.id); setExpanded(null); }}><span><strong>{item.name}</strong><small>{unlockedIds.has(item.id) ? "已在学习范围内 · 查看知识点解释" : "未加入学习范围"}</small></span><ChevronRight size={17} /></button>)}</div>{point ? <div className="learn-point-detail"><span className="eyebrow">03 知识点解释</span><h3>{point.name}</h3><p>{explanation ?? "这个知识点的讲解正在编写中。"}</p><button className="btn btn-secondary" onClick={() => navigate("papers", point.id)}>去我的练习做对应题目 <ArrowRight size={16} /></button></div> : <p className="learn-point-placeholder">选择一个知识点，查看解释。</p>}</section></div>
     {livePoint && <div className="learn-section-heading"><h2>这个知识点的学习证据</h2><span className="muted">星级描述近期表现，点击查看依据</span></div>}
     {livePoint && <div className="learn-knowledge-grid">{state.knowledge.filter(item => item.id === livePoint.id).map((item, index) => {
       const evidence = effectiveEvidence(state).filter(e => e.knowledgeId === item.id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
@@ -84,10 +149,19 @@ function PapersPage(props: AppProps) {
   const paper = props.state.papers.find(p => p.id === props.selectedId);
   return paper ? <PaperPreview {...props} paper={paper} key={paper.id} /> : <PaperList {...props} key={props.selectedId ?? "all-papers"} />;
 }
-function CurriculumPractice({ selectedId, preferredSubjectId, onSubjectChange, workspaceId, actorId, navigate }: { navigate: AppProps["navigate"]; selectedId?: string; preferredSubjectId?: string; onSubjectChange?: (id: string) => void; workspaceId?: string; actorId: string }) {
-  const initial = curriculumCatalog.flatMap(subject => subject.units.flatMap(unit => unit.points.map(point => ({ subject, unit, point })))).find(item => item.point.id === selectedId);
+function CurriculumPractice({ selectedId, preferredSubjectId, onSubjectChange, workspaceId, actorId, navigate, stageId, onStageChange }: { navigate: AppProps["navigate"]; selectedId?: string; preferredSubjectId?: string; onSubjectChange?: (id: string) => void; workspaceId?: string; actorId: string; stageId?: StageId; onStageChange?: (id: StageId) => void }) {
+  const stages = useMemo(() => [
+    { id: "primary" as const, name: "小学", subjects: curriculumCatalog },
+    { id: "junior" as const, name: "初中", subjects: shanghaiCatalog.filter(item => item.stage === "junior") },
+    { id: "senior" as const, name: "高中", subjects: shanghaiCatalog.filter(item => item.stage === "senior") },
+  ], []);
+  const allPoints = [...curriculumCatalog, ...shanghaiCatalog].flatMap(subject => subject.units.flatMap(unit => unit.points.map(point => ({ subject, unit, point }))));
+  const initial = allPoints.find(item => item.point.id === selectedId);
+  const [localStage, setLocalStage] = useState<StageId>(() => (initial ? stageOfKnowledge(initial.point.id as KnowledgeId) : "primary"));
+  const stage = stageId ?? localStage;
+  const stageSubjects = stages.find(item => item.id === stage)!.subjects;
   const [subjectId, setSubjectId] = useState(initial?.subject.id ?? preferredSubjectId ?? "math");
-  const subject = curriculumCatalog.find(item => item.id === subjectId)!;
+  const subject = stageSubjects.find(item => item.id === subjectId) ?? stageSubjects[0];
   const [unitId, setUnitId] = useState(initial?.unit.id ?? subject.units[0].id);
   const unit = subject.units.find(item => item.id === unitId) ?? subject.units[0];
   const [pointId, setPointId] = useState(initial?.point.id ?? unit.points[0].id);
@@ -105,8 +179,9 @@ function CurriculumPractice({ selectedId, preferredSubjectId, onSubjectChange, w
   const [storageFailed, setStorageFailed] = useState(false);
   return <section className="card learn-curriculum-practice" aria-label="按教材知识点练习">
     <div className="learn-section-heading"><div><span className="eyebrow">教材知识点练习</span><h2>选一个知识点，做一道对应练习</h2></div><span className="badge">原创自练题</span></div>
-    <div className="learn-curriculum-picker"><label className="field">科目<select className="select" value={subject.id} onChange={event => { const next = curriculumCatalog.find(item => item.id === event.target.value)!; setSubjectId(next.id); onSubjectChange?.(next.id); setUnitId(next.units[0].id); setPointId(next.units[0].points[0].id); }}>{curriculumCatalog.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">单元<select className="select" value={unit.id} onChange={event => { const next = subject.units.find(item => item.id === event.target.value)!; setUnitId(next.id); setPointId(next.points[0].id); }}>{subject.units.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">知识点<select className="select" value={point.id} onChange={event => setPointId(event.target.value)}>{unit.points.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label></div>
+    <div className="learn-curriculum-picker"><label className="field">学段<select className="select" value={stage} onChange={event => { const next = event.target.value as StageId; if (onStageChange) onStageChange(next); else setLocalStage(next); const subjects = stages.find(item => item.id === next)!.subjects; const chosen = subjects.find(item => item.id === subjectId) ?? subjects[0]; setSubjectId(chosen.id); setUnitId(chosen.units[0].id); setPointId(chosen.units[0].points[0].id); }}>{stages.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">科目<select className="select" value={subject.id} onChange={event => { const next = stageSubjects.find(item => item.id === event.target.value)!; setSubjectId(next.id); onSubjectChange?.(next.id); setUnitId(next.units[0].id); setPointId(next.units[0].points[0].id); }}>{stageSubjects.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">单元<select className="select" value={unit.id} onChange={event => { const next = subject.units.find(item => item.id === event.target.value)!; setUnitId(next.id); setPointId(next.points[0].id); }}>{subject.units.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">知识点<select className="select" value={point.id} onChange={event => setPointId(event.target.value)}>{unit.points.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label></div>
     {exercise && <div className="learn-curriculum-question"><span className="eyebrow">{point.name}</span><h3>{exercise.question}</h3><label className="field">我的答案<textarea className="textarea" rows={3} maxLength={1000} value={answer} onChange={event => saveAnswer(event.target.value)} placeholder="先独立想一想，再写下答案" /></label><button className="btn btn-secondary" type="button" onClick={() => setRevealedPoint(revealed ? null : point.id)}>{revealed ? "收起参考解答" : "查看参考解答"}<ChevronDown size={16} /></button>{revealed && <div className="learn-curriculum-reference"><strong>参考解答</strong><p>{exercise.reference}</p></div>}<div className="practice-next"><button className="text-link" onClick={() => navigate("knowledge", point.id)}><BookOpen size={16}/>回看知识点讲解</button>{next ? <button className="btn btn-secondary" onClick={() => { setUnitId(next.unitId); setPointId(next.point.id); setRevealedPoint(null); }}>下一知识点<ArrowRight size={16}/></button> : <span className="muted">已到本科目最后一个知识点</span>}</div><p className="learn-small-note" role="status">{storageFailed ? "浏览器无法保存，当前答案仅保留到离开页面前。" : "答案草稿保存在当前浏览器。"}自练题不计入正式学习报告。</p></div>}
+    {!exercise && <div className="learn-curriculum-question"><span className="eyebrow">{point.name}</span><p className="muted">这一点的题目在「组卷训练」里：按上海考纲编写的原创题，做完会进入学习报告并记录星级依据。</p><div className="practice-next"><button className="text-link" onClick={() => navigate("knowledge", point.id)}><BookOpen size={16}/>回看知识点讲解</button><button className="btn btn-secondary" onClick={() => navigate("papers", point.id)}>去组卷训练<ArrowRight size={16}/></button></div></div>}
   </section>;
 }
 function PaperList(props: AppProps) {
@@ -117,19 +192,65 @@ function PaperList(props: AppProps) {
   const [count, setCount] = useState(scoped ? 3 : 6);
   const [difficulty, setDifficulty] = useState("基础");
   const [selected, setSelected] = useState<KnowledgeId[]>(scoped ? [scoped] : state.knowledge.filter(k => k.learningState === "current").map(k => k.id));
+  // 学段：一张试卷只装同一学段的知识点（小学 / 上海初中 / 上海高中），所以先选学段再选知识点。
+  // 学段是全局状态 —— 与知识地图、单题练习共用，切换后别处也跟着走。
+  const [localStage, setLocalStage] = useState<StageId>(() => (scoped ? stageOfKnowledge(scoped) : "primary"));
+  const stage = props.stageId ?? localStage;
+  const stageKnowledge = state.knowledge.filter(k => stageOfKnowledge(k.id) === stage);
+  const stageSelected = selected.filter(id => stageOfKnowledge(id) === stage);
+  const switchStage = (next: StageId) => {
+    if (next === stage) return;
+    if (props.onStageChange) props.onStageChange(next); else setLocalStage(next);
+    setSelected(state.knowledge.filter(k => stageOfKnowledge(k.id) === next && k.learningState === "current").map(k => k.id));
+  };
+  // 在知识地图解锁新单元后，把新解锁的知识点补进组卷范围（保留用户已有的选择）。
+  // 这里用「渲染期调整 state」而不是 effect —— effect 里同步 setState 会造成级联渲染。
+  const unlockedKey = state.knowledge.filter(k => k.learningState === "current").map(k => k.id).join(",");
+  const [syncedKey, setSyncedKey] = useState(unlockedKey);
+  if (unlockedKey !== syncedKey) {
+    setSyncedKey(unlockedKey);
+    const current = unlockedKey ? unlockedKey.split(",") as KnowledgeId[] : [];
+    setSelected(previous => {
+      const merged = [...previous];
+      for (const knowledgeId of current) if (stageOfKnowledge(knowledgeId) === stage && !merged.includes(knowledgeId)) merged.push(knowledgeId);
+      return merged.length === previous.length ? previous : merged;
+    });
+  }
   const [filter, setFilter] = useState("all");
   const [creating, setCreating] = useState(false);
+  /**
+   * 组卷预设（参考主流学习机的做法：先给一个默认路径，别让人面对一张空表单）。
+   * - 「按我的薄弱点」：星级不足 3 星、且待订正错题多的知识点优先 —— 默认
+   * - 「按教材章节」：回到手动勾选
+   */
+  const [preset, setPreset] = useState<"weak" | "chapter">("weak");
+  // 卷面结构模板：按官方公布的卷面结构出卷（选/填/解的比例）。
+  const [templateId, setTemplateId] = useState("");
+  const weakPoints = useMemo(() => {
+    const pending = new Map<string, number>();
+    for (const mistake of effectiveMistakes(state)) {
+      if (mistake.correctedAt) continue;
+      const knowledgeId = mistake.question?.knowledgeId;
+      if (knowledgeId) pending.set(knowledgeId, (pending.get(knowledgeId) ?? 0) + 1);
+    }
+    return state.knowledge
+      .filter(item => item.learningState === "current" && stageOfKnowledge(item.id) === stage)
+      .filter(item => (item.stars ?? 0) < 3)
+      .sort((a, b) => (a.stars ?? 0) - (b.stars ?? 0) || (pending.get(b.id) ?? 0) - (pending.get(a.id) ?? 0))
+      .map(item => item.id);
+  }, [state, stage]);
+  const effectiveSelection = preset === "weak" ? (weakPoints.length ? weakPoints : stageSelected) : stageSelected;
   const create = async () => {
-    if (!selected.length || creating) return;
+    if (!effectiveSelection.length || creating) return;
     setCreating(true);
-    try { const result = await mutate("paper.create", { count, knowledgeIds: selected, difficulty, kind: "practice" }); if (result?.result?.id) navigate("papers", result.result.id); } finally { setCreating(false); }
+    try { const result = await mutate("paper.create", { count, knowledgeIds: effectiveSelection, difficulty, kind: "practice", ...(templateId ? { template: templateId } : {}) }); if (result?.result?.id) navigate("papers", result.result.id); } finally { setCreating(false); }
   };
   const papers = [...state.papers].sort((a, b) => b.createdAt.localeCompare(a.createdAt)).filter(p => filter === "all" || (filter === "completed" ? p.status === "completed" : p.status !== "completed"));
   return <div className="learn-page"><Heading eyebrow="PRACTICE" title="我的练习" text="单题巩固、试卷训练与练习记录，各有一个清楚的入口。" />
     <nav className="task-tabs" aria-label="练习方式">{[{id:"points",label:"知识点练习"},{id:"sets",label:"组卷训练"},{id:"history",label:"练习记录"}].map(tab => <button key={tab.id} aria-current={mode === tab.id ? "page" : undefined} className={mode === tab.id ? "active" : ""} onClick={() => navigate("papers",tab.id === "points" ? undefined : tab.id)}>{tab.label}</button>)}<button onClick={() => navigate("camera")}>拍照与回传</button></nav>
-    {mode === "points" && <CurriculumPractice navigate={navigate} selectedId={selectedId} preferredSubjectId={props.curriculumSubjectId ?? curriculumCatalog.find(subject => subject.name === state.profile.course)?.id} onSubjectChange={props.onCurriculumSubjectChange} workspaceId={state.access?.workspaceId} actorId={state.actor.id} />}
-    {mode === "sets" && <><section className="card practice-intro"><div><h2>数学组卷训练</h2><p className="muted">从已审核的演示题库组卷，支持保存、打印、提交报告和错题订正。</p></div><button className="btn btn-primary" onClick={() => setConfigOpen(!configOpen)} aria-expanded={configOpen}><Plus size={18}/>{configOpen ? "收起配置" : "新建试卷"}</button></section>
-    {configOpen && <section className="card learn-config"><div className="learn-section-heading"><h2>这次想练什么？</h2><button className="btn btn-ghost learn-icon-button" onClick={() => setConfigOpen(false)} aria-label="关闭出题配置"><X size={20} /></button></div><div className="learn-config-grid"><div className="field"><span className="learn-field-label">练习知识点</span><div className="learn-choice-stack">{state.knowledge.map(k => <label className={`learn-check-choice ${selected.includes(k.id) ? "is-selected" : ""}`} key={k.id}><input type="checkbox" checked={selected.includes(k.id)} disabled={k.learningState === "upcoming"} onChange={() => setSelected(previous => previous.includes(k.id) ? previous.filter(id => id !== k.id) : [...previous, k.id])} /><span>{k.name}</span>{k.learningState === "upcoming" && <small>尚未学习</small>}</label>)}</div></div><div className="learn-config-settings"><fieldset><legend>题量</legend><div className="learn-segmented">{[3, 6, 9].map(n => <button key={n} className={count === n ? "is-selected" : ""} type="button" aria-pressed={count === n} onClick={() => setCount(n)}>{n} 题</button>)}</div></fieldset><label className="field">难度<select className="select" value={difficulty} onChange={e => setDifficulty(e.target.value)}><option value="综合">综合难度</option><option>基础</option><option>巩固</option><option>挑战</option></select></label><div className="field"><span>练习目标</span><p className="muted">针对知识点巩固。间隔新题复查请从下方已有计划开始。</p></div></div></div><div className="notice"><ShieldCheck size={17} /><span>只使用已审核题目，避开未学知识和近期作答。若当前范围题量不足，会说明缺口。</span></div><div className="learn-config-footer"><span className="muted">已选 {selected.length} 个知识点 · {count} 题 · 约 {count * 2} 分钟</span><button className="btn btn-primary" disabled={!selected.length || busy || creating} onClick={create}>{creating ? "正在准备题目…" : "确认范围并出题"}<ArrowRight size={17} /></button></div></section>}
+    {mode === "points" && <CurriculumPractice navigate={navigate} selectedId={selectedId} preferredSubjectId={props.curriculumSubjectId ?? curriculumCatalog.find(subject => subject.name === state.profile.course)?.id} onSubjectChange={props.onCurriculumSubjectChange} workspaceId={state.access?.workspaceId} actorId={state.actor.id} stageId={props.stageId} onStageChange={props.onStageChange} />}
+    {mode === "sets" && <><section className="card practice-intro"><div><h2>{stageSelected.length ? `${subjectLabelOf(stageSelected[0])}组卷训练` : "组卷训练"}</h2><p className="muted">从已审核的原创题库组卷，支持保存、打印、提交报告和错题订正。</p></div><button className="btn btn-primary" onClick={() => setConfigOpen(!configOpen)} aria-expanded={configOpen}><Plus size={18}/>{configOpen ? "收起配置" : "新建试卷"}</button></section>
+    {configOpen && <section className="card learn-config"><div className="learn-section-heading"><h2>这次想练什么？</h2><button className="btn btn-ghost learn-icon-button" onClick={() => setConfigOpen(false)} aria-label="关闭出题配置"><X size={20} /></button></div><div className="learn-presets"><span className="learn-field-label">这次想练什么</span><div className="learn-preset-row"><button type="button" className={preset === "weak" ? "is-selected" : ""} aria-pressed={preset === "weak"} onClick={() => setPreset("weak")}><strong>按我的薄弱点</strong><small>{weakPoints.length ? `已选 ${weakPoints.length} 个薄弱知识点` : "暂无薄弱点，去教材章节里选"}</small></button><button type="button" className={preset === "chapter" ? "is-selected" : ""} aria-pressed={preset === "chapter"} onClick={() => setPreset("chapter")}><strong>按教材章节</strong><small>手动勾选要练的知识点</small></button></div></div><div className="learn-config-grid"><div className="field"><span className="learn-field-label">学段</span><div className="learn-segmented">{[{ id: "primary", name: "小学" }, { id: "junior", name: "初中" }, { id: "senior", name: "高中" }].map(item => <button key={item.id} className={stage === item.id ? "is-selected" : ""} type="button" aria-pressed={stage === item.id} onClick={() => switchStage(item.id as StageId)}>{item.name}</button>)}</div></div>{preset === "chapter" && <div className="field"><span className="learn-field-label">练习知识点</span><div className="learn-choice-stack">{stageKnowledge.map(k => <label className={`learn-check-choice ${selected.includes(k.id) ? "is-selected" : ""}`} key={k.id}><input type="checkbox" checked={selected.includes(k.id)} disabled={k.learningState === "upcoming"} onChange={() => setSelected(previous => previous.includes(k.id) ? previous.filter(id => id !== k.id) : [...previous, k.id])} /><span>{k.name}</span>{k.learningState === "upcoming" && <small>尚未学习</small>}</label>)}</div></div>}<div className="learn-config-settings"><div className="field"><span className="learn-field-label">按真题卷面结构</span><select className="select" value={templateId} onChange={e => setTemplateId(e.target.value)}><option value="">不指定（选择题约四分之一）</option>{paperTemplates.filter(item => item.stage === stage || stage === "primary").map(item => <option key={item.id} value={item.id}>{item.label}（{item.totalScore} 分 · {item.minutes} 分钟）</option>)}</select><small className="learn-template-hint">{templateId ? (paperTemplates.find(item => item.id === templateId)?.officialFacts.join("；") ?? "") : "卷面结构以市教委文件为准，题型分布部分为第三方口径。"}</small></div><fieldset><legend>题量</legend><div className="learn-segmented">{[3, 6, 9, 12, 15, 20].map(n => <button key={n} className={count === n ? "is-selected" : ""} type="button" aria-pressed={count === n} onClick={() => setCount(n)}>{n} 题</button>)}</div></fieldset><label className="field">难度<select className="select" value={difficulty} onChange={e => setDifficulty(e.target.value)}><option value="综合">综合难度</option><option>基础</option><option>巩固</option><option>挑战</option></select></label><div className="field"><span>练习目标</span><p className="muted">针对知识点巩固。间隔新题复查请从下方已有计划开始。</p></div></div></div><div className="notice"><ShieldCheck size={17} /><span>只使用已审核题目，避开未学知识和近期作答。若当前范围题量不足，会说明缺口。</span></div><div className="learn-config-footer"><span className="muted">{preset === "weak" ? "按薄弱点" : "按章节"} · 已选 {effectiveSelection.length} 个知识点 · {count} 题 · 约 {count * 2} 分钟</span><button className="btn btn-primary" disabled={!effectiveSelection.length || busy || creating} onClick={create}>{creating ? "正在准备题目…" : "确认范围并出题"}<ArrowRight size={17} /></button></div></section>}
     <ReviewPlanList state={state} mutate={mutate} navigate={navigate} busy={busy} knowledgeId={scoped} /></>}
     {mode === "history" && <><div className="learn-section-heading"><div><h2>我的试卷 <span className="learn-count">{state.papers.length}</span></h2><p className="muted">练习和每一次修改，都替你保存好了。</p></div><div className="learn-filter-tabs">{[{ id: "all", title: "全部" }, { id: "pending", title: "待完成" }, { id: "completed", title: "已完成" }].map(f => <button type="button" key={f.id} className={filter === f.id ? "is-active" : ""} aria-pressed={filter === f.id} onClick={() => setFilter(f.id)}>{f.title}</button>)}</div></div>
     <div className="learn-papers-grid">{papers.map(p => <button className="card learn-paper-card" key={p.id} onClick={() => navigate("papers", p.id)}><div className="learn-card-top"><span className="learn-file-icon"><FileText size={25} /></span><span className={`badge ${p.status === "completed" ? "learn-badge-completed" : ""}`}>{p.status === "completed" ? "已完成" : p.status === "in_progress" ? "继续练习" : "待开始"}</span></div><h3>{p.title}</h3><p className="muted">{p.questionIds.length} 道题 · 约 {p.estimatedMinutes} 分钟</p><div className="learn-paper-tags"><span>{p.kind === "review" ? "新题复查" : p.kind === "whole" ? "整卷练习" : "知识点巩固"}</span>{p.parentId && <span>替换版本 v{p.version}</span>}</div><div className="learn-card-bottom"><span className="muted">{formatDate(p.createdAt)} 创建</span><span className="learn-open-label">查看试卷<ArrowRight size={16} /></span></div></button>)}</div>
@@ -209,7 +330,7 @@ function PaperPreview({ paper, state, mutate, navigate, busy }: AppProps & { pap
   const attempt = [...state.attempts].reverse().find(a => a.paperId === paper.id);
   const replace = async () => { if (!replaceId) return; setReplacing(true); try { const result = await mutate("paper.replace", { paperId: paper.id, questionId: replaceId }); if (result?.result?.id) navigate("papers", result.result.id); } finally { setReplacing(false); } };
   return <div className="learn-page"><button className="btn btn-ghost learn-back" onClick={() => navigate("papers", "history")}><ArrowLeft size={17} />我的试卷</button><Heading eyebrow="YOUR PRACTICE" title={paper.title} text={`${paper.questionIds.length} 道题 · 预计 ${paper.estimatedMinutes} 分钟 · 版本 ${paper.version}`} action={<span className="badge"><CheckCircle2 size={14} />已保存</span>} />
-    <div className="learn-preview-layout"><div className="learn-question-list">{paper.questions.map((q, index) => <section key={q.id} className={`card learn-preview-question ${replaceId === q.id ? "is-selected" : ""}`}><div className="learn-question-header"><span className="learn-number">{String(index + 1).padStart(2, "0")}</span><div className="learn-meta"><span>{knowledgeNames[q.knowledgeId]}</span><span>{q.difficulty}</span></div>{paper.kind !== "review" && <button className="btn btn-ghost" onClick={() => setReplaceId(replaceId === q.id ? null : q.id)} aria-pressed={replaceId === q.id}><RefreshCw size={15} />换一题</button>}</div><h3>{q.text}</h3><p className="learn-source">来源：{q.source} · 题目 v{q.version}</p>{replaceId === q.id && <div className="learn-replace-confirm"><p>替换这道题会另存一份新试卷，其余题目和原卷记录保留。</p><div className="row"><button className="btn btn-primary" disabled={busy || replacing} onClick={replace}>{replacing ? "正在寻找同类题…" : "确认替换并另存"}</button><button className="btn btn-ghost" onClick={() => setReplaceId(null)}>取消</button></div></div>}</section>)}</div><aside className="learn-preview-aside"><section className="card learn-summary-card"><span className="learn-section-icon"><ListChecks size={24} /></span><h2>练习之前，心里有数</h2><p className="muted">{paper.reason}</p>{paper.kind === "review" && <p className="muted">这份复查卷与原计划绑定，题目固定；返回后可继续同一份作答。</p>}<div className="learn-summary-item"><span>课程范围</span><strong>数学演示题库</strong></div><div className="learn-summary-item"><span>题目来源</span><strong>已审核题库</strong></div>{paper.parentId && <button className="learn-text-link" onClick={() => navigate("papers", paper.parentId)}>查看替换前的试卷<History size={15} /></button>}<button className="btn btn-primary learn-full-width" onClick={() => navigate(attempt?.status === "submitted" ? "report" : "practice", paper.id)}>{attempt?.status === "submitted" ? "查看练习报告" : attempt ? "继续我的练习" : "开始在线练习"}<ArrowRight size={17} /></button><div className="learn-print-links"><a className="btn btn-secondary" href={workspaceUrl(`/print/${encodeURIComponent(paper.id)}`)} target="_blank" rel="noopener noreferrer"><FileText size={14} />打印学生卷</a><a className="btn btn-secondary" href={workspaceUrl(`/print/${encodeURIComponent(paper.id)}?answers=1`)} target="_blank" rel="noopener noreferrer"><BookOpen size={14} />打印解析卷</a></div><p className="learn-small-note"><LockKeyhole size={13} />预览只展示题目，留给自己独立思考的机会。</p></section></aside></div>
+    <div className="learn-preview-layout"><div className="learn-question-list">{paper.questions.map((q, index) => <section key={q.id} className={`card learn-preview-question ${replaceId === q.id ? "is-selected" : ""}`}><div className="learn-question-header"><span className="learn-number">{String(index + 1).padStart(2, "0")}</span><div className="learn-meta"><span>{knowledgeNames[q.knowledgeId]}</span><span>{q.difficulty}</span></div>{paper.kind !== "review" && <button className="btn btn-ghost" onClick={() => setReplaceId(replaceId === q.id ? null : q.id)} aria-pressed={replaceId === q.id}><RefreshCw size={15} />换一题</button>}</div><h3>{q.text}</h3><QuestionFigure image={q.image} version={q.version} /><p className="learn-source">来源：{q.source} · 题目 v{q.version}</p>{replaceId === q.id && <div className="learn-replace-confirm"><p>替换这道题会另存一份新试卷，其余题目和原卷记录保留。</p><div className="row"><button className="btn btn-primary" disabled={busy || replacing} onClick={replace}>{replacing ? "正在寻找同类题…" : "确认替换并另存"}</button><button className="btn btn-ghost" onClick={() => setReplaceId(null)}>取消</button></div></div>}</section>)}</div><aside className="learn-preview-aside"><section className="card learn-summary-card"><span className="learn-section-icon"><ListChecks size={24} /></span><h2>练习之前，心里有数</h2><p className="muted">{paper.reason}</p>{paper.kind === "review" && <p className="muted">这份复查卷与原计划绑定，题目固定；返回后可继续同一份作答。</p>}<div className="learn-summary-item"><span>课程范围</span><strong>{scopeLabelOf(paper.questions)}</strong></div><div className="learn-summary-item"><span>题目来源</span><strong>已审核题库</strong></div>{paper.parentId && <button className="learn-text-link" onClick={() => navigate("papers", paper.parentId)}>查看替换前的试卷<History size={15} /></button>}<button className="btn btn-primary learn-full-width" onClick={() => navigate(attempt?.status === "submitted" ? "report" : "practice", paper.id)}>{attempt?.status === "submitted" ? "查看练习报告" : attempt ? "继续我的练习" : "开始在线练习"}<ArrowRight size={17} /></button><div className="learn-print-links"><a className="btn btn-secondary" href={workspaceUrl(`/print/${encodeURIComponent(paper.id)}`)} target="_blank" rel="noopener noreferrer"><FileText size={14} />打印学生卷</a><a className="btn btn-secondary" href={workspaceUrl(`/print/${encodeURIComponent(paper.id)}?answers=1`)} target="_blank" rel="noopener noreferrer"><BookOpen size={14} />打印解析卷</a></div><p className="learn-small-note"><LockKeyhole size={13} />预览只展示题目，留给自己独立思考的机会。</p></section></aside></div>
   </div>;
 }
 
@@ -306,6 +427,8 @@ function PracticeForm({ paper, state, mutate, navigate, busy }: AppProps & { pap
     setAnswers(incoming);
   }, [serverAnswersKey]);
   const question = paper.questions[activeIndex];
+  // 选择题的选项写在题干里，这里拆出来渲染成单选，答案是选项字母。
+  const { stem: questionStem, choices: questionChoices } = useMemo(() => splitQuestionText(question?.text ?? ""), [question?.text]);
   const answer = answers[activeIndex];
   const recordedHelp = savedAttempt?.answers.find(a => a.questionId === question.id)?.help ?? "independent";
   const localLevel = localHelp[question.id];
@@ -349,7 +472,7 @@ function PracticeForm({ paper, state, mutate, navigate, busy }: AppProps & { pap
   return <div className="learn-page"><button className="btn btn-ghost learn-back" disabled={submitting} onClick={async () => { const saved = await saveRef.current(); if (saved || cachePersistedRef.current) navigate("papers", paper.id); }}><ArrowLeft size={17} />保存并返回试卷</button><Heading eyebrow="TIME TO FOCUS" title="慢慢想，你可以的" text={paper.title} action={<span className="learn-save-status" role="status"><Save size={14} />{saveStatus}</span>} />
     {recovery && <section className="learn-recovery-panel" role="status"><div><h3>发现一份尚未同步的本机草稿</h3><p>本机草稿已填写 {recovery.filter(a => a.value.trim()).length} 题，当前云端已填写 {answeredCount} 题。选择后再继续，避免旧草稿自动覆盖其他设备的作答。</p></div><div className="row"><button className="btn btn-secondary" onClick={() => resolveRecovery(false)}>保留云端草稿</button><button className="btn btn-primary" onClick={() => resolveRecovery(true)}>恢复本机草稿</button></div></section>}
     <div className="learn-practice-layout"><aside className="card learn-practice-nav"><div className="learn-section-heading"><h3>我的进度</h3><span className="muted">{answeredCount}/{paper.questions.length}</span></div><div className="learn-progress-track"><span style={{ width: `${answeredCount / paper.questions.length * 100}%` }} /></div><div className="learn-question-dots">{paper.questions.map((q, index) => <button key={q.id} type="button" className={`${activeIndex === index ? "is-active" : ""} ${answers[index]?.value.trim() ? "is-answered" : ""}`} aria-label={`第 ${index + 1} 题${answers[index]?.value.trim() ? "，已填写" : "，未填写"}`} aria-current={activeIndex === index ? "step" : undefined} onClick={() => setActiveIndex(index)}>{index + 1}</button>)}</div><div className="learn-practice-legend"><span><i />已填写</span><span><i />待思考</span></div><p className="muted">不用着急，可以来回检查。答案和思考过程都会保存。</p><button className="btn btn-secondary learn-full-width" disabled={busy || submitting} onClick={() => { void saveRef.current(); }}><Save size={15} />保存草稿</button></aside>
-      <section className="card learn-answer-card"><div className="learn-question-header"><span className="learn-number">{String(activeIndex + 1).padStart(2, "0")}</span><span className="badge">{knowledgeNames[question.knowledgeId]}</span><span className="learn-answer-help-status">{helpNames[help]}</span></div><h2>{question.text}</h2><label className="field learn-answer-field">我的答案<div className="learn-answer-input-wrap"><input className="input" placeholder="在这里写下你的答案" maxLength={300} disabled={submitting || Boolean(recovery)} value={answer.value} onChange={e => update("value", e.target.value)} autoComplete="off" aria-label={`第 ${activeIndex + 1} 题答案`} />{question.unit && <span>{question.unit}</span>}</div></label><label className="field">我的思考过程 <span className="learn-optional">建议写一写</span><textarea className="textarea" rows={4} maxLength={3000} disabled={submitting || Boolean(recovery)} value={answer.working} placeholder="你是怎样想的？写下列式、检验或自己的发现。" onChange={e => update("working", e.target.value)} aria-label={`第 ${activeIndex + 1} 题思考过程`} /></label>
+      <section className="card learn-answer-card"><div className="learn-question-header"><span className="learn-number">{String(activeIndex + 1).padStart(2, "0")}</span><span className="badge">{knowledgeNames[question.knowledgeId]}</span><span className="learn-answer-help-status">{helpNames[help]}</span></div><h2>{questionStem}</h2><QuestionFigure image={question.image} version={question.version} /><ExamRefNote reference={question.examRef} />{questionChoices.length > 0 ? <div className="learn-choice-list" role="radiogroup" aria-label={`第 ${activeIndex + 1} 题选项`}>{questionChoices.map(choice => <label key={choice.key} className={`learn-choice ${answer.value === choice.key ? "is-selected" : ""}`}><input type="radio" name={`choice-${question.id}`} value={choice.key} checked={answer.value === choice.key} disabled={submitting || Boolean(recovery)} onChange={() => update("value", choice.key)} autoComplete="off" /><span className="learn-choice-key">{choice.key}</span><span className="learn-choice-text">{choice.text}</span></label>)}</div> : <label className="field learn-answer-field">我的答案<div className="learn-answer-input-wrap"><input className="input" placeholder="在这里写下你的答案" maxLength={300} disabled={submitting || Boolean(recovery)} value={answer.value} onChange={e => update("value", e.target.value)} autoComplete="off" aria-label={`第 ${activeIndex + 1} 题答案`} />{question.unit && <span>{question.unit}</span>}</div></label>}<label className="field">我的思考过程 <span className="learn-optional">建议写一写</span><textarea className="textarea" rows={4} maxLength={3000} disabled={submitting || Boolean(recovery)} value={answer.working} placeholder="你是怎样想的？写下列式、检验或自己的发现。" onChange={e => update("working", e.target.value)} aria-label={`第 ${activeIndex + 1} 题思考过程`} /></label>
         <button className="btn btn-secondary" disabled={busy || helpBusy || submitting || Boolean(recovery)} onClick={async () => { if (await saveRef.current()) navigate("chat", undefined, { source: "paper", paperId: paper.id, questionId: question.id, questionVersion: question.version }); }}><Sparkles size={16} />带着原卷这道题问小禾</button>
         <div className="learn-help-actions"><span className="muted"><Lightbulb size={16} />卡住了？可以借一点力量</span><div className="row"><button className="btn btn-ghost" disabled={busy || helpBusy || submitting || Boolean(recovery) || help === "hint" || help === "explanation"} onClick={() => requestHelp("hint")}><Lightbulb size={16} />给我提示</button><button className="btn btn-ghost" disabled={busy || helpBusy || submitting || Boolean(recovery) || help === "explanation"} onClick={() => requestHelp("explanation")}><BookOpen size={16} />看看讲解</button></div></div>
         {(help === "hint" || help === "explanation") && <div className="learn-help-panel"><div className="learn-evidence-caption"><Lightbulb size={17} />{help === "explanation" ? "一起理一理思路" : "给你一个小提示"}</div><p>{question.hint}</p>{help === "explanation" && <><ol>{question.steps.map((step, index) => <li key={index}>{step}</li>)}</ol><p><strong>参考答案：{question.answer}{question.unit && !question.answer.includes(question.unit) ? ` ${question.unit}` : ""}</strong></p>{question.alternative && <p className="muted">另一种想法：{question.alternative}</p>}</>}<small>这次帮助已记录，报告会与独立作答分别呈现。</small></div>}
@@ -388,7 +511,7 @@ function ReportPage(props: AppProps) {
       if (state.historyDeletion?.evidence.some(item => item.attemptId === attempt.id && item.questionId === q.id)) return <section className="card learn-report-question" key={q.id}><div style={{ padding: 24 }}><strong>第 {index + 1} 题 · 学习记录已删除</strong><p className="muted">作答正文和过程已移除，不计入报告分母。原卷教学题目继续保留。</p></div></section>;
       const open = expanded === q.id;
       const evidence = allEvidence.find(e => e.attemptId === attempt.id && e.questionId === q.id);
-      return <section className="card learn-report-question" key={q.id}><button className="learn-report-question-toggle" aria-expanded={open} onClick={() => setExpanded(open ? null : q.id)}><span className={`learn-result-symbol ${answer?.valid && answer.correct ? "is-correct" : "is-pending"}`}>{answer?.valid && answer.correct ? <Check size={19} /> : <Pencil size={17} />}</span><div><span className="learn-meta">第 {index + 1} 题 · {knowledgeNames[answer?.knowledgeId ?? q.knowledgeId]}</span><h3>{q.text}</h3><p className="muted">{historical ? "当时" : "当前"}答案：{answer?.value || "未填写"} · {answer?.valid === false ? "已排除，不计成绩" : answer?.correct ? "答对" : "待订正"}</p></div><span className="badge">{answer ? helpNames[answer.help] : "未作答"}</span><ChevronDown className={open ? "learn-rotate" : ""} size={18} /></button>{open && <div className="learn-report-detail">{evidence && <EvidenceComparison evidence={evidence} state={state} asOfRevision={evidenceRevision} title={historical ? "原始记录与当时有效结果" : undefined} />}<div><h4>原始思考过程</h4><p>{answer?.original.working || "这次没有填写过程，下次可以把想法也记下来。"}</p></div><div><h4>原卷参考答案与讲解</h4><strong>{q.answer}{q.unit && !q.answer.includes(q.unit) ? ` ${q.unit}` : ""}</strong><ol>{q.steps.map((step, i) => <li key={i}>{step}</li>)}</ol></div>{evidence?.reason && <div className="notice"><ShieldCheck size={16} /><span>{evidence.reason}</span></div>}<p className="learn-source">来源：{q.source} · 题目版本 {q.version} · 试卷版本 {paper.version}</p><div className="row"><button className="btn btn-secondary" onClick={() => navigate("chat", undefined, { source: "paper", paperId: paper.id, questionId: q.id, questionVersion: q.version })}><Sparkles size={16} />带着这道原卷题继续</button>{evidence && !historical && <button className="btn btn-secondary" onClick={() => navigate("evidence-review", evidence.id)}><ShieldCheck size={16} />记录不准确？申请复核</button>}{evidence && !historical && <button className="btn btn-ghost" onClick={() => navigate("history-delete", evidence.id)}>删除这条学习记录</button>}</div></div>}</section>;
+      return <section className="card learn-report-question" key={q.id}><button className="learn-report-question-toggle" aria-expanded={open} onClick={() => setExpanded(open ? null : q.id)}><span className={`learn-result-symbol ${answer?.valid && answer.correct ? "is-correct" : "is-pending"}`}>{answer?.valid && answer.correct ? <Check size={19} /> : <Pencil size={17} />}</span><div><span className="learn-meta">第 {index + 1} 题 · {knowledgeNames[answer?.knowledgeId ?? q.knowledgeId]}</span><h3>{q.text}</h3><QuestionFigure image={q.image} version={q.version} /><ExamRefNote reference={q.examRef} /><p className="muted">{historical ? "当时" : "当前"}答案：{answer?.value || "未填写"} · {answer?.valid === false ? "已排除，不计成绩" : answer?.correct ? "答对" : "待订正"}</p></div><span className="badge">{answer ? helpNames[answer.help] : "未作答"}</span><ChevronDown className={open ? "learn-rotate" : ""} size={18} /></button>{open && <div className="learn-report-detail">{evidence && <EvidenceComparison evidence={evidence} state={state} asOfRevision={evidenceRevision} title={historical ? "原始记录与当时有效结果" : undefined} />}<div><h4>原始思考过程</h4><p>{answer?.original.working || "这次没有填写过程，下次可以把想法也记下来。"}</p></div><div><h4>原卷参考答案与讲解</h4><strong>{q.answer}{q.unit && !q.answer.includes(q.unit) ? ` ${q.unit}` : ""}</strong><ol>{q.steps.map((step, i) => <li key={i}>{step}</li>)}</ol></div>{evidence?.reason && <div className="notice"><ShieldCheck size={16} /><span>{evidence.reason}</span></div>}<p className="learn-source">来源：{q.source} · 题目版本 {q.version} · 试卷版本 {paper.version}</p><div className="row"><button className="btn btn-secondary" onClick={() => navigate("chat", undefined, { source: "paper", paperId: paper.id, questionId: q.id, questionVersion: q.version })}><Sparkles size={16} />带着这道原卷题继续</button>{evidence && !historical && <button className="btn btn-secondary" onClick={() => navigate("evidence-review", evidence.id)}><ShieldCheck size={16} />记录不准确？申请复核</button>}{evidence && !historical && <button className="btn btn-ghost" onClick={() => navigate("history-delete", evidence.id)}>删除这条学习记录</button>}</div></div>}</section>;
     })}</div>
     <section className="card learn-next-step"><div className="learn-section-icon"><Sprout size={26} /></div><div><h3>过几天，再用新题试一试</h3><p className="muted">记录更正、订正原题和新题复查分别保存。当前星级与当前有效证据关联，旧评定保留当时依据。</p></div><div className="row"><button className="btn btn-secondary" onClick={() => navigate("knowledge")}>查看知识点依据</button><button className="btn btn-primary" onClick={() => navigate("mistakes")}>整理错题<ArrowRight size={16} /></button></div></section>
   </div>;
@@ -402,11 +525,33 @@ function MistakesPage({ state, mutate, navigate, busy, selectedId }: AppProps) {
   const currentMistakes = effectiveMistakes(state, { includeInactive: true });
   const pending = currentMistakes.filter(m => m.active && !m.correctedAt).length;
   const mistakes = currentMistakes.filter(m => filter === "all" || (m.active && (filter === "corrected" ? Boolean(m.correctedAt) : !m.correctedAt)));
+  // 错题按学段分组：小学、初中、高中的错题不该混在一张列表里。
+  const stageOfMistake = (m: typeof mistakes[number]) => stageOfKnowledge(m.question?.knowledgeId ?? "") as StageId;
+  const stageGroups = ([...new Set(mistakes.map(stageOfMistake))] as StageId[]).map(stage => ({ stage, items: mistakes.filter(m => stageOfMistake(m) === stage) }));
+  // 按错因分组：标过错因的错题聚成一组，每组能直接出「同错因」练习。
+  const causeGroups = mistakeCauses.map(cause => ({ cause, items: mistakes.filter(m => m.cause === cause.id) })).filter(group => group.items.length > 0);
+  const stageNameOf = (stage: StageId) => stage === "junior" ? "上海初中" : stage === "senior" ? "上海高中" : "小学四年级";
   const correct = async (id: string) => { if (!corrections[id]?.trim()) return; setSaving(id); try { const result = await mutate("mistake.correct", { id, answer: corrections[id] }); if (result) setFilter("all"); } finally { setSaving(null); } };
+  /** 标记错因：错在哪由学生自己说，系统不替他猜。 */
+  const tagCause = async (mistake: EffectiveMistake, cause: string) => {
+    if (busy || saving === mistake.id) return;
+    setSaving(mistake.id);
+    try { await mutate("mistake.tag", { id: mistake.id, cause }); } finally { setSaving(null); }
+  };
+  /** 按一组错因再练几道：错因 → 知识点 → 直接出卷。 */
+  const practiceByCause = async (cause: string) => {
+    if (busy) return;
+    const scope = practiceScopeForCause(mistakes, state.knowledge, cause as MistakeCause);
+    if (!scope.knowledgeIds.length) return;
+    const result = await mutate("paper.create", { count: scope.count, knowledgeIds: scope.knowledgeIds, difficulty: "不限", kind: "practice" });
+    const paperId = result?.result?.id;
+    if (paperId) navigate("papers", paperId);
+  };
   return <div className="learn-page"><Heading eyebrow="GROW THROUGH PRACTICE" title="错题本" text="保留第一次的答案，也记录后来想明白的过程。每道错题都是下一步的线索。" action={<button className="btn btn-secondary" onClick={() => navigate("papers")}><Plus size={16} />练一份新题</button>} />
     <div className="learn-mistake-summary"><div><span className="learn-section-icon"><Pencil size={24} /></span><strong>{pending}<small>道待订正</small></strong></div><div><span className="learn-section-icon"><CheckCircle2 size={24} /></span><strong>{currentMistakes.filter(m => m.active && m.correctedAt).length}<small>道已订正</small></strong></div><p className="muted">看过答案与独立掌握分别记录，<br />原始作答会一直保留。</p></div>
     <div className="learn-section-heading"><h2>我的错题集</h2><div className="learn-filter-tabs">{[{ id: "pending", title: "待订正" }, { id: "corrected", title: "已订正" }, { id: "all", title: "全部" }].map(f => <button key={f.id} aria-pressed={filter === f.id} onClick={() => setFilter(f.id)} className={filter === f.id ? "is-active" : ""}>{f.title}</button>)}</div></div>
-    <div className="learn-mistake-list">{mistakes.map(m => { const open = expanded === m.id; return <section className="card learn-mistake-card" key={m.id}><button className="learn-mistake-toggle" onClick={() => setExpanded(open ? null : m.id)} aria-expanded={open}><span className={`learn-result-symbol ${m.correctedAt ? "is-correct" : "is-pending"}`}>{m.correctedAt ? <Check size={19} /> : <Pencil size={17} />}</span><div><span className="learn-meta">{knowledgeNames[m.knowledgeId]} · {m.question.difficulty}{m.id.startsWith("demo-") ? " · 演示记录" : ""}</span><h3>{m.question.text}</h3><p className="muted">原来的答案：<span className="learn-original-answer">{m.originalAnswer || "未作答"}</span>{m.correctedAt && <span className="learn-corrected-inline">订正：{m.correctedAnswer}</span>}</p></div><span className="badge">{!m.active ? "已更正，不在当前错题" : m.correctedAt ? "已订正" : "待订正"}</span><ChevronDown size={18} className={open ? "learn-rotate" : ""} /></button>{open && <div className="learn-mistake-detail"><EvidenceComparison evidence={m.effectiveEvidence} state={state} /><button className="btn btn-secondary" onClick={() => navigate("evidence-review", m.evidenceId)}>原记录不准确？申请复核</button><div className="learn-help-panel"><h4>一起把思路理顺</h4><p>{m.question.hint}</p><ol>{m.question.steps.map((step, i) => <li key={i}>{step}</li>)}</ol><strong>参考答案：{m.question.answer}{m.question.unit && !m.question.answer.includes(m.question.unit) ? ` ${m.question.unit}` : ""}</strong></div>{m.active && !m.correctedAt ? <div className="learn-correction-form"><label className="field" htmlFor={`correction-${m.id}`}>现在，写下订正后的答案<input className="input" id={`correction-${m.id}`} value={corrections[m.id] ?? ""} placeholder="我现在的答案是…" onChange={e => setCorrections(previous => ({ ...previous, [m.id]: e.target.value }))} /></label><button className="btn btn-primary" disabled={busy || saving === m.id || !corrections[m.id]?.trim()} onClick={() => correct(m.id)}><Check size={17} />{saving === m.id ? "正在保存…" : "保存订正"}</button></div> : m.correctedAt ? <p className="learn-corrected-note"><CheckCircle2 size={17} />{formatDate(m.correctedAt)} 已订正。第一次作答仍保留在学习记录中。</p> : <p className="muted">记录复核后已不属于当前错题，原始内容保留供追溯。</p>}<div className="learn-card-bottom"><p className="learn-small-note">订正记录不会直接算作独立完成证据。</p>{(() => { const evidence = state.evidence.find(item => item.id === m.evidenceId); const sourcePaper = state.papers.find(item => item.id === evidence?.paperId && item.questions.some(q => q.id === m.question.id && q.version === m.question.version)); return sourcePaper ? <button className="btn btn-secondary" onClick={() => navigate("chat", undefined, { source: "paper", paperId: sourcePaper.id, questionId: m.question.id, questionVersion: m.question.version })}><Sparkles size={16} />带着原题继续</button> : null; })()}<button className="btn btn-secondary" onClick={() => navigate("papers", m.question.knowledgeId)}>用同类新题练一练<ArrowRight size={16} /></button></div></div>}</section>; })}</div>
+    {causeGroups.length > 0 && <section className="card learn-cause-groups"><div className="learn-cause-groups-head"><h3>按错因看</h3><p className="muted">标过错因的错题会按原因聚在一起 —— 同一类错反复出现，才值得单独练一组。</p></div><div className="learn-cause-cards">{causeGroups.map(group => <article className="learn-cause-card" key={group.cause.id}><div><span className="learn-cause-name">{group.cause.label}</span><p className="muted">{group.cause.hint} · {group.items.length} 道</p></div><button className="btn btn-secondary" disabled={busy} onClick={() => void practiceByCause(group.cause.id)}>按这组错因练 {Math.min(6, Math.max(3, group.items.length))} 道<ArrowRight size={15} /></button></article>)}</div></section>}
+    <div className="learn-mistake-list">{stageGroups.map(group => <div className="learn-mistake-group" key={group.stage}><h3 className="learn-mistake-group-title">{stageNameOf(group.stage)}<span>{group.items.length} 道</span></h3>{group.items.map(m => { const open = expanded === m.id; return <section className="card learn-mistake-card" key={m.id}><button className="learn-mistake-toggle" onClick={() => setExpanded(open ? null : m.id)} aria-expanded={open}><span className={`learn-result-symbol ${m.correctedAt ? "is-correct" : "is-pending"}`}>{m.correctedAt ? <Check size={19} /> : <Pencil size={17} />}</span><div><span className="learn-meta">{knowledgeNames[m.knowledgeId]} · {m.question.difficulty}{m.id.startsWith("demo-") ? " · 演示记录" : ""}</span><h3>{m.question.text}</h3><QuestionFigure image={m.question.image} version={m.question.version} /><p className="muted">原来的答案：<span className="learn-original-answer">{m.originalAnswer || "未作答"}</span>{m.correctedAt && <span className="learn-corrected-inline">订正：{m.correctedAnswer}</span>}</p></div><span className="badge">{!m.active ? "已更正，不在当前错题" : m.correctedAt ? "已订正" : "待订正"}</span><ChevronDown size={18} className={open ? "learn-rotate" : ""} /></button><div className="learn-cause-row learn-cause-row-inline"><span className="learn-cause-label">错因</span>{mistakeCauses.map(cause => <button key={cause.id} type="button" title={cause.hint} className={`learn-cause-chip ${m.cause === cause.id ? "is-selected" : ""}`} aria-pressed={m.cause === cause.id} disabled={busy || saving === m.id} onClick={() => void tagCause(m, cause.id)}>{cause.label}</button>)}{m.cause && <span className="learn-cause-saved">已记录：{mistakeCauseLabel(m.cause)}</span>}</div>{open && <div className="learn-mistake-detail"><EvidenceComparison evidence={m.effectiveEvidence} state={state} /><button className="btn btn-secondary" onClick={() => navigate("evidence-review", m.evidenceId)}>原记录不准确？申请复核</button><div className="learn-help-panel"><h4>一起把思路理顺</h4><p>{m.question.hint}</p><ol>{m.question.steps.map((step, i) => <li key={i}>{step}</li>)}</ol><strong>参考答案：{m.question.answer}{m.question.unit && !m.question.answer.includes(m.question.unit) ? ` ${m.question.unit}` : ""}</strong></div>{m.active && !m.correctedAt ? <div className="learn-correction-form"><label className="field" htmlFor={`correction-${m.id}`}>现在，写下订正后的答案<input className="input" id={`correction-${m.id}`} value={corrections[m.id] ?? ""} placeholder="我现在的答案是…" onChange={e => setCorrections(previous => ({ ...previous, [m.id]: e.target.value }))} /></label><button className="btn btn-primary" disabled={busy || saving === m.id || !corrections[m.id]?.trim()} onClick={() => correct(m.id)}><Check size={17} />{saving === m.id ? "正在保存…" : "保存订正"}</button></div> : m.correctedAt ? <p className="learn-corrected-note"><CheckCircle2 size={17} />{formatDate(m.correctedAt)} 已订正。第一次作答仍保留在学习记录中。</p> : <p className="muted">记录复核后已不属于当前错题，原始内容保留供追溯。</p>}<div className="learn-card-bottom"><p className="learn-small-note">订正记录不会直接算作独立完成证据。</p>{(() => { const evidence = state.evidence.find(item => item.id === m.evidenceId); const sourcePaper = state.papers.find(item => item.id === evidence?.paperId && item.questions.some(q => q.id === m.question.id && q.version === m.question.version)); return sourcePaper ? <button className="btn btn-secondary" onClick={() => navigate("chat", undefined, { source: "paper", paperId: sourcePaper.id, questionId: m.question.id, questionVersion: m.question.version })}><Sparkles size={16} />带着原题继续</button> : null; })()}<button className="btn btn-secondary" onClick={() => navigate("papers", m.question.knowledgeId)}>用同类新题练一练<ArrowRight size={16} /></button></div></div>}</section>; })}</div>)}</div>
     {!mistakes.length && <Empty title={filter === "pending" ? "暂时没有待订正的题" : "这里还没有记录"} text={filter === "pending" ? "继续保持自己的节奏，试试新的练习。" : "完成练习后，需要订正的题目与订正过程会保存在这里。"} action={<button className="btn btn-primary" onClick={() => navigate("papers")}>开始新练习<ArrowRight size={16} /></button>} />}
   </div>;
 }
@@ -423,7 +568,7 @@ function ProfilePage({ state, mutate, navigate, busy }: AppProps) {
   const save = async () => { setSaving(true); try { const result = await mutate("profile.update", { profile }); if (result) setEditing(false); } finally { setSaving(false); } };
   return <div className="learn-page"><Heading eyebrow="MY LEARNING SPACE" title="我的" text="查看学习小结，管理档案、共享与学习记录。" />
     <section className="card learn-profile-hero"><div className="learn-profile-avatar"><Sprout size={43} /></div><div><span className="eyebrow">我的学习档案</span><h2>{state.profile.name}</h2><p className="muted">{state.profile.grade} · {state.profile.semester} · {state.profile.textbook}</p><p>{state.profile.course}</p></div><button className="btn btn-secondary" onClick={() => { setProfile(state.profile); setEditing(!editing); }}><Pencil size={16} />{editing ? "收起档案编辑" : "编辑学习档案"}</button></section>
-    {editing && <section className="card learn-profile-form"><h2>让学习内容更适合你</h2><form onSubmit={e => { e.preventDefault(); void save(); }}><div className="learn-form-grid">{[{ key: "name", label: "怎么称呼你", placeholder: "你的名字" }, { key: "grade", label: "年级", placeholder: "例如：四年级" }, { key: "semester", label: "学期", placeholder: "例如：上学期" }, { key: "textbook", label: "教材版本", placeholder: "例如：人教版" }, { key: "course", label: "当前课程", placeholder: "正在学习的课程范围" }, { key: "school", label: "学校（选填）", placeholder: "可以留空" }].map(item => <label className="field" key={item.key}>{item.label}<input className="input" required={item.key !== "school"} maxLength={item.key === "course" ? 100 : 40} value={profile[item.key as keyof Profile]} placeholder={item.placeholder} onChange={e => setProfile(previous => ({ ...previous, [item.key]: e.target.value }))} /></label>)}</div><div className="learn-config-footer"><p className="muted">当前示例题库覆盖四年级数学。修改档案不会自动扩充题库范围。</p><button className="btn btn-primary" disabled={busy || saving || !profile.name.trim() || !profile.grade.trim() || !profile.course.trim()} type="submit"><Save size={16} />{saving ? "正在保存…" : "保存学习档案"}</button></div></form></section>}
+    {editing && <section className="card learn-profile-form"><h2>让学习内容更适合你</h2><form onSubmit={e => { e.preventDefault(); void save(); }}><div className="learn-form-grid">{[{ key: "name", label: "怎么称呼你", placeholder: "你的名字" }, { key: "grade", label: "年级", placeholder: "例如：四年级" }, { key: "semester", label: "学期", placeholder: "例如：上学期" }, { key: "textbook", label: "教材版本", placeholder: "例如：人教版" }, { key: "course", label: "当前课程", placeholder: "正在学习的课程范围" }, { key: "school", label: "学校（选填）", placeholder: "可以留空" }].map(item => <label className="field" key={item.key}>{item.label}<input className="input" required={item.key !== "school"} maxLength={item.key === "course" ? 100 : 40} value={profile[item.key as keyof Profile]} placeholder={item.placeholder} onChange={e => setProfile(previous => ({ ...previous, [item.key]: e.target.value }))} /></label>)}</div><div className="learn-config-footer"><p className="muted">题库覆盖小学四年级与上海初高中。修改档案不会自动扩充题库范围，学段可在知识地图里切换。</p><button className="btn btn-primary" disabled={busy || saving || !profile.name.trim() || !profile.grade.trim() || !profile.course.trim()} type="submit"><Save size={16} />{saving ? "正在保存…" : "保存学习档案"}</button></div></form></section>}
     <section className="card access-profile-entry"><div><h3>家长、老师与共享范围</h3><p>查看当前身份、切换工作区，或管理已授予的访问权限。</p></div><button className="btn btn-secondary" onClick={() => navigate("access")}><ShieldCheck size={17} />成员与共享<ArrowRight size={16} /></button></section>
     <div className="learn-profile-links">{[{ title: "我的练习卷", description: `${state.papers.length} 份试卷与学习报告`, icon: <FileText size={23} />, view: "papers" as View }, { title: "错题与订正", description: `${effectiveMistakes(state).filter(m => !m.correctedAt && !m.id.startsWith("demo-")).length} 道个人错题待订正`, icon: <Pencil size={23} />, view: "mistakes" as View }, { title: "记录复核", description: "申请更正不准确的作答记录", icon: <ShieldCheck size={23} />, view: "evidence-review" as View }].map(item => <button className="card learn-profile-link" key={item.view} onClick={() => navigate(item.view, item.view === "papers" ? "history" : undefined)}><span>{item.icon}</span><div><h3>{item.title}</h3><p className="muted">{item.description}</p></div><ChevronRight size={18} /></button>)}</div>
     <div className="learn-profile-tabs"><button className={activeTab === "overview" ? "is-active" : ""} onClick={() => setActiveTab("overview")} aria-pressed={activeTab === "overview"}>最近 7 天</button><button className={activeTab === "memory" ? "is-active" : ""} onClick={() => setActiveTab("memory")} aria-pressed={activeTab === "memory"}>学习记忆</button><button className={activeTab === "privacy" ? "is-active" : ""} onClick={() => setActiveTab("privacy")} aria-pressed={activeTab === "privacy"}>隐私与分享</button></div>
@@ -433,6 +578,43 @@ function ProfilePage({ state, mutate, navigate, busy }: AppProps) {
   </div>;
 }
 
+/**
+ * 真题考情与出处索引。
+ *
+ * 这里**不放真题原文** —— 上海市教育考试院只发布试卷的「专家点评」，从不发布试卷原件；
+ * 商业题库站上的「真题」多为回忆版，版权归属不明。
+ * 能给的是：官方公布的考点出处（年份 → 题号 → 考点）与卷面结构。
+ */
+function ExamReferencePage(props: AppProps) {
+  const { navigate } = props;
+  const byYear = new Map<number, typeof examTopics[number]["hits"]>();
+  for (const topic of examTopics) {
+    for (const hit of topic.hits) {
+      const list = byYear.get(hit.year) ?? [];
+      list.push(hit);
+      byYear.set(hit.year, list);
+    }
+  }
+  const years = [...byYear.keys()].sort((a, b) => b - a);
+  return <div className="learn-page exam-page">
+    <Heading eyebrow="EXAM CONTEXT" title="真题考情与出处索引" text="这里不收录真题原文，只给官方公布的出处与卷面结构 —— 想做原卷，请通过学校或正规渠道获取。" action={<button className="btn btn-secondary" onClick={() => navigate("knowledge")}><BookOpen size={16}/>回到知识地图</button>} />
+    <div className="notice"><ShieldCheck size={17}/><span>{examIndexDisclaimer}</span></div>
+    <section className="card exam-section"><div className="section-heading"><h2>卷面结构</h2><span className="muted">官方公布的时长与分值，以及题型分布的来源等级</span></div>
+      <div className="exam-templates">{paperTemplates.map(template => <article className="exam-template" key={template.id}><h3>{template.label}</h3><p className="exam-template-score">{template.totalScore} 分 · {template.minutes} 分钟</p><dl><div><dt>官方公布</dt><dd>{template.officialFacts.join("；")}</dd></div><div><dt>第三方口径</dt><dd>{template.thirdPartyFacts.join("；")}</dd></div></dl><a className="exam-source" href={template.source.url} target="_blank" rel="noopener noreferrer">{template.source.title}<ChevronRight size={14}/></a><span className="exam-tier">{sourceTierLabels[template.source.tier]}</span></article>)}</div>
+    </section>
+    <section className="card exam-section"><div className="section-heading"><h2>考点出处索引</h2><span className="muted">来自上海市教育考试院各年「专家点评」—— 有题号的写到题号，没有的只到情境</span></div>
+      <div className="exam-years">{years.map(year => <div className="exam-year" key={year}><h3>{year} 年</h3><ul>{[...new Map(byYear.get(year)!.map(hit => [hit.topic, hit])).values()].map(hit => <li key={hit.topic}><strong>{hit.topic}</strong>{hit.questionNo ? <span className="exam-qno">第 {hit.questionNo} 题</span> : <span className="exam-qno exam-qno-soft">官方未点名题号</span>}<a href={hit.source.url} target="_blank" rel="noopener noreferrer">官方点评<ChevronRight size={13}/></a></li>)}</ul></div>)}</div>
+    </section>
+    <section className="card exam-section"><div className="section-heading"><h2>我们的题对应哪些考点</h2><span className="muted">题库里的原创题按知识点挂到下面的考点上 —— 是「覆盖同一考点」，不是原题改编</span></div>
+      <div className="exam-topics">{examTopics.map(topic => <article className="exam-topic" key={topic.key}><h3>{topic.label}</h3><p className="muted">出处：{topic.hits.map(hit => `${hit.year} 年${hit.questionNo ? ` 第 ${hit.questionNo} 题` : ""}`).join("、")}</p><div className="exam-topic-links">{topic.knowledgeIds.map(knowledgeId => <button key={knowledgeId} className="btn btn-ghost learn-icon-button" onClick={() => navigate("knowledge", knowledgeId)}>{knowledgeId}<ChevronRight size={13}/></button>)}</div></article>)}</div>
+    </section>
+  </div>;
+}
+/** 题目下方的「考点对应」—— 指向官方公布的出处，不含真题原文。 */
+function ExamRefNote({ reference }: { reference?: ExamRef }) {
+  if (!reference) return null;
+  return <p className="learn-exam-ref"><ShieldCheck size={14} /><span>考点对应：{reference.label}</span><a href={reference.sourceUrl} target="_blank" rel="noopener noreferrer">来源：{reference.sourceTitle}<ChevronRight size={13} /></a><span className="exam-tier">{sourceTierLabels[reference.sourceTier]}</span></p>;
+}
 export function StudentLearning(props: AppProps & { view: View }) {
   switch (props.view) {
     case "knowledge": return <KnowledgePage {...props} key={`knowledge-${props.selectedId ?? "all"}`} />;
@@ -441,6 +623,7 @@ export function StudentLearning(props: AppProps & { view: View }) {
     case "report": return <ReportPage {...props} key={`report-${props.selectedId}`} />;
     case "mistakes": return <MistakesPage {...props} key={`mistakes-${props.selectedId ?? "all"}`} />;
     case "profile": return <ProfilePage {...props} />;
+    case "exam": return <ExamReferencePage {...props} />;
     default: return null;
   }
 }
