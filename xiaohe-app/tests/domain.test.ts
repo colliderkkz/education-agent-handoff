@@ -28,6 +28,26 @@ test("seed is original, reviewed, multi-knowledge, and demo history cannot infla
   assert.ok(state.evidence.every(e => e.eligible === false));
 });
 
+test("knowledge.begin unlocks a catalog knowledge point once, and only unlocked points may enter a paper", () => {
+  const start = seed();
+  // 未解锁的目录知识点不能进组卷范围。
+  throwsStatus(() => act(start, "paper.create", { count: 3, knowledgeIds: ["math-1-place"], difficulty: "不限", kind: "practice" }), 400);
+  const unlocked = act(start, "knowledge.begin", { knowledgeId: "math-1-place", name: "亿以内数的读写", description: "理解万级、个级数位与计数单位" });
+  const point = unlocked.state.knowledge.find(k => k.id === "math-1-place");
+  assert.equal(point?.learningState, "current");
+  assert.equal(point?.stars, null);
+  assert.equal(point?.evidenceIds.length, 0);
+  assert.ok(point?.reason.includes("已加入学习范围"), point?.reason);
+  // 重复解锁是幂等的，不会产生第二条记录。
+  const again = act(unlocked.state, "knowledge.begin", { knowledgeId: "math-1-place", name: "亿以内数的读写", description: "" });
+  assert.equal(again.state.knowledge.filter(k => k.id === "math-1-place").length, 1);
+  // 教材范围之外的知识点不能被解锁。
+  throwsStatus(() => act(start, "knowledge.begin", { knowledgeId: "not-a-catalog-point", name: "x", description: "" }), 400);
+  // 解锁后不再被「未学知识点」拦住（测试环境没有静态内容库，因此改为题库不足）。
+  assert.throws(() => act(unlocked.state, "paper.create", { count: 3, knowledgeIds: ["math-1-place"], difficulty: "不限", kind: "practice" }),
+    (error: unknown) => error instanceof DomainError && error.message.includes("题库不足"));
+});
+
 test("answer normalization accepts expected units and rejects mismatched units or garbage", () => {
   const q = { answer: "40", unit: "厘米" };
   for (const answer of ["40", "４０", "40.0", "答：40 厘米。", "40cm"]) assert.equal(gradeAnswer(answer, q), true, answer);
@@ -97,13 +117,20 @@ test("correction changes neither original evidence nor stars", () => {
   assert.ok(after.state.mistakes.find(m => m.id === mistake.id)?.correctedAt);
 });
 
-test("new paper excludes recent items, shortage is explicit, and future curricula cannot be selected", () => {
+test("new paper excludes recent items, shortage is explicit, and papers cannot mix stages or subjects", () => {
   const first = create(seed(), 6);
   throwsStatus(() => create(first.state, 5), 409);
   const future = seed(); future.knowledge[0].learningState = "upcoming";
   throwsStatus(() => create(future), 400);
-  const changed = act(seed(), "profile.update", { profile: { grade: "五年级" } });
-  throwsStatus(() => create(changed.state), 400);
+  // 小学与初中的知识点不能混在一张卷子里 —— 考查深度不同。
+  const mixed = seed();
+  act(mixed, "knowledge.begin", { knowledgeId: "math-1-place", name: "亿以内数的读写", description: "理解万级、个级数位与计数单位" });
+  act(mixed, "knowledge.begin", { knowledgeId: "math-j-2-function", name: "函数", description: "理解函数概念与表示" });
+  throwsStatus(() => act(mixed, "paper.create", { count: 3, knowledgeIds: ["math-1-place", "math-j-2-function"], difficulty: "不限", kind: "practice" }), 400);
+  // 初中知识点要先在课程地图里解锁。
+  const locked = seed();
+  act(locked, "knowledge.begin", { knowledgeId: "math-1-place", name: "亿以内数的读写", description: "理解万级、个级数位与计数单位" });
+  throwsStatus(() => act(locked, "paper.create", { count: 3, knowledgeIds: ["math-j-2-function"], difficulty: "不限", kind: "practice" }), 400);
 });
 
 test("review requires a real source plan followed by at least three days", () => {

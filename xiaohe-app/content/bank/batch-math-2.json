@@ -1,0 +1,1801 @@
+[
+  {
+    "id": "bank-math-2-angle-001",
+    "familyId": "math-2-angle__fam-001",
+    "version": 1,
+    "text": "图中一个角由 1 个顶点和 2 条边组成，3 个这样的角一共有多少条边？",
+    "answer": "6",
+    "unit": "条",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 2 = 6",
+      "1 个角有 2 条边，3 个角就有 3 个 2。",
+      "答：6 条。"
+    ],
+    "hint": "先弄清一个角由什么组成，再乘上角的个数。",
+    "alternative": "一个角 2 条边，3 个角可以看成 2 + 2 + 2，算出来同样是 6 条。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__angle-elements",
+    "image": "/illustrations/math/math-2-angle/angle-75.svg"
+  },
+  {
+    "id": "bank-math-2-angle-002",
+    "familyId": "math-2-angle__fam-002",
+    "version": 1,
+    "text": "从一个顶点出发的 2 条射线组成 1 个角，4 个角一共用了多少条射线？",
+    "answer": "8",
+    "unit": "条",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 2 = 8",
+      "每个角用 2 条射线，4 个角需要 4 个 2。",
+      "答：8 条。"
+    ],
+    "hint": "每个角要占几条射线？数一数 4 个角需要几条。",
+    "alternative": "2 条射线合成 1 个角，4 个角就要 2 + 2 + 2 + 2 = 8 条射线。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__angle-elements"
+  },
+  {
+    "id": "bank-math-2-angle-003",
+    "familyId": "math-2-angle__fam-003",
+    "version": 1,
+    "text": "记一个角要写 3 个大写字母，8 个角一共要写多少个大写字母？",
+    "answer": "24",
+    "unit": "个",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 3 = 24",
+      "每个角写 3 个字母，8 个角就是 8 个 3。",
+      "答：24 个。"
+    ],
+    "hint": "先数清一个角的记号里要写几个字母。",
+    "alternative": "按角一个一个数：3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 24 个字母。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__angle-elements"
+  },
+  {
+    "id": "bank-math-2-angle-004",
+    "familyId": "math-2-angle__fam-004",
+    "version": 1,
+    "text": "图中每个角都有 1 个顶点，6 个角一共有多少个顶点？",
+    "answer": "6",
+    "unit": "个",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 1 = 6",
+      "每个角只有 1 个顶点。",
+      "答：6 个。"
+    ],
+    "hint": "顶点就是两条边相交的那个点。",
+    "alternative": "一个角记 1 个顶点，6 个角可以一个一个数出来，同样是 6 个顶点。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__angle-elements",
+    "image": "/illustrations/math/math-2-angle/angle-65.svg"
+  },
+  {
+    "id": "bank-math-2-angle-005",
+    "familyId": "math-2-angle__fam-005",
+    "version": 1,
+    "text": "图中这个角的两条边画得很长，和它张口一样大的另一个角的两条边却画得很短，两个角都是 45°，这 2 个角合起来是多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 × 2 = 90",
+      "角的大小只由两条边张开的程度决定，边画得长短不影响角的度数。",
+      "答：90 度。"
+    ],
+    "hint": "想一想：把两条边同时加长，角张口的大小变了吗？",
+    "alternative": "两个 45° 的角正好合成一个直角，直角是 90°，所以合起来是 90 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__size-vs-length",
+    "image": "/illustrations/math/math-2-angle/angle-45.svg"
+  },
+  {
+    "id": "bank-math-2-angle-006",
+    "familyId": "math-2-angle__fam-006",
+    "version": 1,
+    "text": "小华把一个 30° 角的两条边各画长了 4 倍，他觉得这个角也变成原来的 4 倍大了。这个角实际是原来的几倍？",
+    "answer": "1",
+    "unit": "倍",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 ÷ 4 = 1",
+      "边画长了 4 倍，可两条边张开的程度没有变，角的度数还是 30°。",
+      "答：1 倍。"
+    ],
+    "hint": "角的度数由什么决定？边变长时张口的大小变了吗？",
+    "alternative": "原来的角是 30°，延长后两条边张开的程度没变，仍然是 30°，所以还是原来的 1 倍。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__size-vs-length"
+  },
+  {
+    "id": "bank-math-2-angle-007",
+    "familyId": "math-2-angle__fam-007",
+    "version": 1,
+    "text": "图中有 3 个角，它们张开的程度完全一样，其中最小的那个角是 20°，这 3 个角合起来是多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20 × 3 = 60",
+      "3 个角张开的程度相同，度数也一样，都是 20°。",
+      "答：60 度。"
+    ],
+    "hint": "张开的程度一样的角，度数也一样吗？",
+    "alternative": "一个一个加：20 + 20 + 20 = 60 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__size-vs-length",
+    "image": "/illustrations/math/math-2-angle/angle-20.svg"
+  },
+  {
+    "id": "bank-math-2-angle-008",
+    "familyId": "math-2-angle__fam-008",
+    "version": 1,
+    "text": "图中画的是 60° 的角，一个平角 180° 里能装下几个这样大小的角？",
+    "answer": "3",
+    "unit": "个",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 ÷ 60 = 3",
+      "平角是 180°，用 60° 的角去平分它。",
+      "答：3 个。"
+    ],
+    "hint": "平角是多少度？用 60° 去平分它，看看要分成几份。",
+    "alternative": "60° + 60° + 60° = 180°，所以平角里正好有 3 个这样的角。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__classify-angle",
+    "image": "/illustrations/math/math-2-angle/angle-60.svg"
+  },
+  {
+    "id": "bank-math-2-angle-009",
+    "familyId": "math-2-angle__fam-009",
+    "version": 1,
+    "text": "图中画的是 150° 的角，它比一个直角 90° 大多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150 − 90 = 60",
+      "150° 比 90° 大，就是求两个度数相差多少。",
+      "答：60 度。"
+    ],
+    "hint": "比直角大的角是钝角，先算出相差的度数。",
+    "alternative": "从 90° 起再往后数 60° 正好是 150°，所以相差 60 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__classify-angle",
+    "image": "/illustrations/math/math-2-angle/angle-150.svg"
+  },
+  {
+    "id": "bank-math-2-angle-010",
+    "familyId": "math-2-angle__fam-010",
+    "version": 1,
+    "text": "图中画的是 90° 的直角，把它平分成 2 个角，每个角是多少度？",
+    "answer": "45",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 ÷ 2 = 45",
+      "把直角平均分成 2 份。",
+      "答：45 度。"
+    ],
+    "hint": "平分就是把一份分成大小相同的 2 份。",
+    "alternative": "45° + 45° = 90°，所以每个角是 45 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__classify-angle",
+    "image": "/illustrations/math/math-2-angle/angle-90.svg"
+  },
+  {
+    "id": "bank-math-2-angle-011",
+    "familyId": "math-2-angle__fam-011",
+    "version": 1,
+    "text": "钟面上时针指向 3、分针指向 12，两针之间较小的角是多少度？钟面被分成 12 个大格，每个大格是 30 度。",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 3 = 90",
+      "从 12 到 3 一共是 3 个大格。",
+      "答：90 度。"
+    ],
+    "hint": "先求出中间隔了几个大格，再乘每个大格的度数。",
+    "alternative": "从 12 到 3 正好是钟面上四分之一个圆，一个圆 360°，四分之一是 90 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__clock-hands"
+  },
+  {
+    "id": "bank-math-2-angle-012",
+    "familyId": "math-2-angle__fam-012",
+    "version": 1,
+    "text": "钟面上时针指向 8、分针指向 12，两针之间较大的角是多少度？钟面一圈是 360 度，这时较小的那个角是 120°。",
+    "answer": "240",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "360 − 120 = 240",
+      "一整圈减去较小的那个角，就是较大的那个角。",
+      "答：240 度。"
+    ],
+    "hint": "一圈是 360°，较大的角和较小的角合起来是多少？",
+    "alternative": "360° − 120° = 240°，也可以从 12 顺时针数 8 个大格，每格 30°，同样是 240 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__clock-hands"
+  },
+  {
+    "id": "bank-math-2-angle-013",
+    "familyId": "math-2-angle__fam-013",
+    "version": 1,
+    "text": "一扇门完全打开时门板与门框成 90°，门开到 45° 时门板转过的角度是多少度？",
+    "answer": "45",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 45 = 45",
+      "完全打开是 90°，现在开到 45°，求转过的部分。",
+      "答：45 度。"
+    ],
+    "hint": "求转过的角度，就是用完全打开的角度减去现在的角度。",
+    "alternative": "从关到开一共是 90°，现在开到一半，转过的和剩下的正好一样多，也是 45 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__door-opening"
+  },
+  {
+    "id": "bank-math-2-angle-014",
+    "familyId": "math-2-angle__fam-014",
+    "version": 1,
+    "text": "一扇门先打开 30°，再打开 45°，门一共转过了多少度？",
+    "answer": "75",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 + 45 = 75",
+      "两段转过的角度合起来就是一共转过的角度。",
+      "答：75 度。"
+    ],
+    "hint": "分两次转过的角度要合起来。",
+    "alternative": "把 30° 看成 45° 减去 15°，再用 45° 加 15° 加 45°，同样得 75 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__door-opening"
+  },
+  {
+    "id": "bank-math-2-angle-015",
+    "familyId": "math-2-angle__fam-015",
+    "version": 1,
+    "text": "把一张长方形纸沿对角线折起，折痕把长方形的一个 90° 直角分成两个角，其中一个角是 40°，另一个角是多少度？",
+    "answer": "50",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 40 = 50",
+      "对角线把长方形的直角分成两个角，这两个角合起来是 90°。",
+      "答：50 度。"
+    ],
+    "hint": "折痕两边的两个角合起来还是原来的直角。",
+    "alternative": "一个角是 40°，另一个是从 90° 里去掉 40° 剩下的那个角，也是 50 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__paper-fold",
+    "image": "/illustrations/math/math-2-angle/angle-50.svg"
+  },
+  {
+    "id": "bank-math-2-angle-016",
+    "familyId": "math-2-angle__fam-016",
+    "version": 1,
+    "text": "一张正方形纸沿一条折痕对折，正方形的角是 90°，折痕分出 30° 的角，另一侧的角是多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 30 = 60",
+      "正方形每个角都是 90°，折痕把它分成了 30° 和另一个角。",
+      "答：60 度。"
+    ],
+    "hint": "折痕两侧的角合起来是一个直角。",
+    "alternative": "另一个角是 90° 减去 30° 得 60°，两个角合起来正好是 90°。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__paper-fold"
+  },
+  {
+    "id": "bank-math-2-angle-017",
+    "familyId": "math-2-angle__fam-017",
+    "version": 1,
+    "text": "长方形的 4 个角合起来是 360°，其中 3 个是直角，剩下的那个角是多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "360 ÷ 4 = 90",
+      "长方形 4 个角的大小相同。",
+      "答：90 度。"
+    ],
+    "hint": "长方形的 4 个角合起来是一个周角。",
+    "alternative": "长方形相邻的两条边互相垂直，所以剩下的那个角也是直角 90 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__figure-angles"
+  },
+  {
+    "id": "bank-math-2-angle-018",
+    "familyId": "math-2-angle__fam-018",
+    "version": 1,
+    "text": "图中把一个三角形用一条线分成 2 个小三角形，每个小三角形有 3 个角，一共有多少个角？",
+    "answer": "6",
+    "unit": "个",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 2 = 6",
+      "2 个小三角形，每个 3 个角。",
+      "答：6 个。"
+    ],
+    "hint": "先数一个三角形有几个角。",
+    "alternative": "一个三角形 3 个角，两个就是 3 + 3 = 6 个角。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__figure-angles",
+    "image": "/illustrations/math/math-2-angle/split-triangle.svg"
+  },
+  {
+    "id": "bank-math-2-angle-019",
+    "familyId": "math-2-angle__fam-019",
+    "version": 1,
+    "text": "跳远时身体蹬直，脚和腿之间的角是 90°，手臂向后展开时这个角变成了 135°，手臂展开的角度比蹬直时大了多少度？",
+    "answer": "45",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "135 − 90 = 45",
+      "求大了多少度，用后来的角度减去原来的角度。",
+      "答：45 度。"
+    ],
+    "hint": "展开后的角度减去蹬直时的角度。",
+    "alternative": "从 90° 到 135° 中间经过 45°，所以说大了 45 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__sports-movement"
+  },
+  {
+    "id": "bank-math-2-angle-020",
+    "familyId": "math-2-angle__fam-020",
+    "version": 1,
+    "text": "踢球时脚与地面成 60° 的角，踢球腿再抬高 20°，这时脚与地面的角是多少度？",
+    "answer": "80",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60 + 20 = 80",
+      "腿抬高，脚与地面的角就变大。",
+      "答：80 度。"
+    ],
+    "hint": "腿抬高以后，角是变大还是变小？",
+    "alternative": "从地面起先转 60°，再转 20°，一共转了 80°，所以是 80 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__sports-movement",
+    "image": "/illustrations/math/math-2-angle/angle-80.svg"
+  },
+  {
+    "id": "bank-math-2-angle-021",
+    "familyId": "math-2-angle__fam-021",
+    "version": 1,
+    "text": "吊车先把吊臂从水平转到竖直，再从竖直转到与竖直成 35° 的位置，水平方向与竖直方向成直角 90°，吊臂一共转过了多少度？",
+    "answer": "125",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 + 35 = 125",
+      "第一段转过 90°，第二段转过 35°。",
+      "答：125 度。"
+    ],
+    "hint": "把吊臂转过的角度分成两段来算。",
+    "alternative": "90° + 35° = 125°，也可以先把 35° 补成 90° 再加：90 + (90 − 35) = 125 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__crane-arm",
+    "image": "/illustrations/math/math-2-angle/angle-35.svg"
+  },
+  {
+    "id": "bank-math-2-angle-022",
+    "familyId": "math-2-angle__fam-022",
+    "version": 1,
+    "text": "滑梯的斜面与地面成 30°，要把它改到 45°，斜面要升高多少度？",
+    "answer": "15",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 − 30 = 15",
+      "从 30° 升到 45°，求相差的度数。",
+      "答：15 度。"
+    ],
+    "hint": "升高就是变大，求变大后的角度减去原来的角度。",
+    "alternative": "把 30° 到 45° 之间的度数一段一段数出来，一共 15 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__slide-ramp"
+  },
+  {
+    "id": "bank-math-2-angle-023",
+    "familyId": "math-2-angle__fam-023",
+    "version": 1,
+    "text": "五角星的每个尖角是 36°，一个五角星上 5 个尖角的度数合起来是多少度？",
+    "answer": "180",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 × 5 = 180",
+      "五角星有 5 个尖角。",
+      "答：180 度。"
+    ],
+    "hint": "数一数五角星上有几个尖角。",
+    "alternative": "36 + 36 + 36 + 36 + 36 = 180 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__star-point"
+  },
+  {
+    "id": "bank-math-2-angle-024",
+    "familyId": "math-2-angle__fam-024",
+    "version": 1,
+    "text": "梯子靠在墙上，与地面成 55° 的角，墙面与地面垂直成 90°，梯子与墙面的角是多少度？",
+    "answer": "35",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 55 = 35",
+      "梯子、墙和地面围成一个直角。",
+      "答：35 度。"
+    ],
+    "hint": "梯子与墙面的角，和梯子与地面的角合起来是多少度？",
+    "alternative": "把 90° 分成 55° 和另一个角，另一个角就是 35 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__ladder-wall",
+    "image": "/illustrations/math/math-2-angle/angle-55.svg"
+  },
+  {
+    "id": "bank-math-2-angle-025",
+    "familyId": "math-2-angle__fam-025",
+    "version": 1,
+    "text": "风筝线与地面的角是 25°，继续放飞又升高 35°，现在风筝线与地面的角是多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 + 35 = 60",
+      "升高 35° 就是又转过 35°。",
+      "答：60 度。"
+    ],
+    "hint": "升高以后风筝线更陡了，角度应该变大。",
+    "alternative": "从 25° 接着往上数 35°，一共 60 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__kite-string"
+  },
+  {
+    "id": "bank-math-2-angle-026",
+    "familyId": "math-2-angle__fam-026",
+    "version": 1,
+    "text": "机械臂第一节与底座成 90°，第二节相对第一节又转过 40°，两节机械臂之间现在成多少度？",
+    "answer": "50",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 40 = 50",
+      "第一节和第二节之间的角比 90° 少转过的 40°。",
+      "答：50 度。"
+    ],
+    "hint": "画个简单的图，看看两节机械臂之间的角是怎么变的。",
+    "alternative": "先画出 90° 的角，再把第二节往里转 40°，剩下的角就是 50 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__robot-arm",
+    "image": "/illustrations/math/math-2-angle/angle-40.svg"
+  },
+  {
+    "id": "bank-math-2-angle-027",
+    "familyId": "math-2-angle__fam-027",
+    "version": 1,
+    "text": "一把雨伞有 8 根伞骨，每根与伞柄成 30° 的角，这些伞骨与伞柄围出的角加起来一共是多少度？",
+    "answer": "240",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 8 = 240",
+      "8 根伞骨，每根都张开 30°。",
+      "答：240 度。"
+    ],
+    "hint": "先算 1 根伞骨张开多少度，再乘根数。",
+    "alternative": "30 + 30 + 30 + 30 + 30 + 30 + 30 + 30 = 240 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__umbrella"
+  },
+  {
+    "id": "bank-math-2-angle-028",
+    "familyId": "math-2-angle__fam-028",
+    "version": 1,
+    "text": "太阳斜照时，一根直杆的影子与杆子夹成 120°，影子与地面又成一个平角 180°，杆子与地面的夹角是多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 − 120 = 60",
+      "影子与地面成平角，杆子把这个平角分成了两部分。",
+      "答：60 度。"
+    ],
+    "hint": "平角被分成 120° 和另一个角，另一个角是多少？",
+    "alternative": "从 120° 接着数到 180°，中间还有 60 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__sun-shadow"
+  },
+  {
+    "id": "bank-math-2-angle-029",
+    "familyId": "math-2-angle__fam-029",
+    "version": 1,
+    "text": "汽车转弯时，前轮转过 40°，后轮转过 30°，两个轮子转过的角度相差多少度？",
+    "answer": "10",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "40 − 30 = 10",
+      "求相差的度数，用大的减去小的。",
+      "答：10 度。"
+    ],
+    "hint": "相差多少度，就是大数减小数。",
+    "alternative": "把 30° 补到 40°，中间的 10° 就是相差的度数。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__road-turn"
+  },
+  {
+    "id": "bank-math-2-angle-030",
+    "familyId": "math-2-angle__fam-030",
+    "version": 1,
+    "text": "吊桥放下时与岸边的平台成 90°，放到一半时成 45°，吊桥这过程中转过了多少度？",
+    "answer": "45",
+    "unit": "度",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 45 = 45",
+      "从 90° 转到 45°。",
+      "答：45 度。"
+    ],
+    "hint": "转过的角度是原来的角度减去现在的角度。",
+    "alternative": "放到一半正好转过一半的直角，90° 的一半是 45 度。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-angle__drawbridge"
+  },
+  {
+    "id": "bank-math-2-measure-001",
+    "familyId": "math-2-measure__fam-001",
+    "version": 1,
+    "text": "用量角器量出图中角的度数是 120°，它比一个平角 180° 少多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 − 120 = 60",
+      "量角器的中心对准顶点、零刻度线对准一条边，读出 120°。",
+      "答：60 度。"
+    ],
+    "hint": "先把量角器摆好，再比较这个角和平角相差多少。",
+    "alternative": "120° 的角加上 60° 的角正好是平角 180°，所以相差 60 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__read-protractor",
+    "image": "/illustrations/math/math-2-measure/angle-120.svg"
+  },
+  {
+    "id": "bank-math-2-measure-002",
+    "familyId": "math-2-measure__fam-002",
+    "version": 1,
+    "text": "用量角器量得图中这个角是 135°，把它再加上一个直角 90°，一共是多少度？",
+    "answer": "225",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "135 + 90 = 225",
+      "先量出 135°，再加上 90°。",
+      "答：225 度。"
+    ],
+    "hint": "求一共是多少度，把两部分合起来。",
+    "alternative": "从 135° 再往后转 90°，数到的刻度是 225 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__read-protractor",
+    "image": "/illustrations/math/math-2-measure/angle-135.svg"
+  },
+  {
+    "id": "bank-math-2-measure-003",
+    "familyId": "math-2-measure__fam-003",
+    "version": 1,
+    "text": "图中量出来的角是 100°，把这个角平分成 2 个角，每个角是多少度？",
+    "answer": "50",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100 ÷ 2 = 50",
+      "平分就是把 100° 平均分成 2 份。",
+      "答：50 度。"
+    ],
+    "hint": "平均分成 2 份，每份是多少？",
+    "alternative": "50° + 50° = 100°，所以每个角是 50 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__read-protractor",
+    "image": "/illustrations/math/math-2-measure/angle-100.svg"
+  },
+  {
+    "id": "bank-math-2-measure-004",
+    "familyId": "math-2-measure__fam-004",
+    "version": 1,
+    "text": "用量角器量出图中角是 30°，一个平角 180° 里可以画出几个这样大小的角？",
+    "answer": "6",
+    "unit": "个",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 ÷ 30 = 6",
+      "用 30° 的角去平分平角。",
+      "答：6 个。"
+    ],
+    "hint": "平角是 180°，用 30° 的角能平分几次？",
+    "alternative": "30 + 30 + 30 + 30 + 30 + 30 = 180，正好是 6 个。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__read-protractor",
+    "image": "/illustrations/math/math-2-measure/angle-30.svg"
+  },
+  {
+    "id": "bank-math-2-measure-005",
+    "familyId": "math-2-measure__fam-005",
+    "version": 1,
+    "text": "量角器上从 0° 到 90°，每一大格是 10°，每一大格里有 10 个小格，那么一小格表示多少度？",
+    "answer": "1",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 ÷ 10 = 1",
+      "一大格 10° 平均分成 10 个小格。",
+      "答：1 度。"
+    ],
+    "hint": "一大格有 10°，里面又分成 10 个小格，分一分就知道一小格是多少度。",
+    "alternative": "从 0° 开始一小格一小格数到 10°，一共数 10 小格，所以一小格是 1 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__protractor-scale"
+  },
+  {
+    "id": "bank-math-2-measure-006",
+    "familyId": "math-2-measure__fam-006",
+    "version": 1,
+    "text": "量角器上从 0° 数到 50°，一共经过 5 个大格，每个大格是 10°，这 5 个大格一共表示多少度？",
+    "answer": "50",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 × 5 = 50",
+      "每个大格 10°，5 个大格就是 5 个 10°。",
+      "答：50 度。"
+    ],
+    "hint": "先看经过了几个大格，再乘每个大格的度数。",
+    "alternative": "从 0° 开始一个大格一个大格地数：10、20、30、40、50，正好是 50 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__protractor-scale",
+    "image": "/illustrations/math/math-2-measure/scale-0-90.svg"
+  },
+  {
+    "id": "bank-math-2-measure-007",
+    "familyId": "math-2-measure__fam-007",
+    "version": 1,
+    "text": "小明把量角器的 0 刻度线对准角的一条边，读到 20°；把量角器绕顶点转过 30° 后读到 50°，两次读数相差多少度？",
+    "answer": "30",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "50 − 20 = 30",
+      "两次读数相差多少度，用后一次减前一次。",
+      "答：30 度。"
+    ],
+    "hint": "转过 30° 后读数变大，读数相差的就是转过的度数。",
+    "alternative": "从 20° 数到 50°，中间有 3 个大格，正好是 30 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__protractor-scale",
+    "image": "/illustrations/math/math-2-measure/scale-read.svg"
+  },
+  {
+    "id": "bank-math-2-measure-008",
+    "familyId": "math-2-measure__fam-008",
+    "version": 1,
+    "text": "画一个 170° 的角时，量角器从 0° 转到 170° 要经过 17 个大格，每个大格是 10°，这个角一共跨越了多少度？",
+    "answer": "170",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 × 17 = 170",
+      "画角时同样要看清大格和小格的刻度。",
+      "答：170 度。"
+    ],
+    "hint": "数一数一共经过了几个大格。",
+    "alternative": "从 0° 起每 10° 数一个大格，数到第 17 个大格就是 170 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__draw-angle",
+    "image": "/illustrations/math/math-2-measure/angle-170.svg"
+  },
+  {
+    "id": "bank-math-2-measure-009",
+    "familyId": "math-2-measure__fam-009",
+    "version": 1,
+    "text": "画角时把量角器的中心对准角的顶点，把 0 刻度线对准已经画好的一条边，再转过量角器。现在画出的角是 35°，要画成直角 90°，还需要再转多少度？",
+    "answer": "55",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 − 35 = 55",
+      "还要转的角度就是直角与现在角度的差。",
+      "答：55 度。"
+    ],
+    "hint": "画角转过量角器和量角是相反的操作，想一想还差多少度。",
+    "alternative": "把 35° 补到 90°，需要再转过 55 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__draw-angle"
+  },
+  {
+    "id": "bank-math-2-measure-010",
+    "familyId": "math-2-measure__fam-010",
+    "version": 1,
+    "text": "小华量角时把量角器放反了，0 刻度线没有对准角的边，他读出 165°，重新量得这个角是 15°，他第一次多量了多少度？",
+    "answer": "150",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "165 − 15 = 150",
+      "正确的量法是中心对顶点、零刻度线对一边。",
+      "答：150 度。"
+    ],
+    "hint": "量角器放反时，读到的常常是和正确度数互补的那个角。",
+    "alternative": "放反时读到的 165° 与正确的 15° 合起来正好是 180°，所以多量了 150 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__draw-angle",
+    "image": "/illustrations/math/math-2-measure/angle-165.svg"
+  },
+  {
+    "id": "bank-math-2-measure-011",
+    "familyId": "math-2-measure__fam-011",
+    "version": 1,
+    "text": "手工课上做纸飞机，翅膀要张开成 70°，现在只张开 40°，还要再张开多少度？",
+    "answer": "30",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "70 − 40 = 30",
+      "张开到 70° 还要继续转 30°。",
+      "答：30 度。"
+    ],
+    "hint": "先想目标角度，再减去现在的角度。",
+    "alternative": "把现在的 40° 和要再张开的角度合起来是 70°，所以还要张开 30 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__craft-project",
+    "image": "/illustrations/math/math-2-measure/angle-70.svg"
+  },
+  {
+    "id": "bank-math-2-measure-012",
+    "familyId": "math-2-measure__fam-012",
+    "version": 1,
+    "text": "做一个风车，4 片叶子的边与中心的连线和中心的角都是 45°，这 4 个角合起来是多少度？",
+    "answer": "180",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 × 4 = 180",
+      "4 片叶子，每片在中心占 45°。",
+      "答：180 度。"
+    ],
+    "hint": "先算一片叶子占多少度，再乘片数。",
+    "alternative": "45 + 45 + 45 + 45 = 180 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__craft-project"
+  },
+  {
+    "id": "bank-math-2-measure-013",
+    "familyId": "math-2-measure__fam-013",
+    "version": 1,
+    "text": "投掷沙包时手臂与身体成的角是 160°，把手臂向前摆 40°，这时手臂与身体成的角是多少度？",
+    "answer": "120",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "160 − 40 = 120",
+      "手臂向前摆动，角度变小了。",
+      "答：120 度。"
+    ],
+    "hint": "摆动以后角是变大还是变小？用哪个数减哪个数？",
+    "alternative": "160° 去掉 40° 后剩下的刻度就是 120 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__sport-practice",
+    "image": "/illustrations/math/math-2-measure/angle-160.svg"
+  },
+  {
+    "id": "bank-math-2-measure-014",
+    "familyId": "math-2-measure__fam-014",
+    "version": 1,
+    "text": "跳高过杆时手臂与身体成的角是 150°，起跳蹬地时是 90°，手臂一共转过了多少度？",
+    "answer": "60",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150 − 90 = 60",
+      "转过的角度是过杆角度减去起跳角度。",
+      "答：60 度。"
+    ],
+    "hint": "求一共转过多少度，用后来的角度减去原来的角度。",
+    "alternative": "从 90° 数到 150°，中间经过了 60 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__sport-practice"
+  },
+  {
+    "id": "bank-math-2-measure-015",
+    "familyId": "math-2-measure__fam-015",
+    "version": 1,
+    "text": "钟面一圈被分成 60 个小格，每小格是 6°，分针从 12 走到 6，一共转过了多少度？",
+    "answer": "360",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 60 = 360",
+      "分针走过了整个钟面。",
+      "答：360 度。"
+    ],
+    "hint": "分针从 12 走到 6 走过多少小格？",
+    "alternative": "分针转过一整圈，一圈就是 360 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__clock-setting"
+  },
+  {
+    "id": "bank-math-2-measure-016",
+    "familyId": "math-2-measure__fam-016",
+    "version": 1,
+    "text": "钟面被分成 12 个大格，每个大格是 30°，时针从 12 走到 3，一共转过了多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 3 = 90",
+      "从 12 到 3 是 3 个大格。",
+      "答：90 度。"
+    ],
+    "hint": "时针走得慢，先数大格。",
+    "alternative": "时针走过一整圈的四分之一，四分之一是 90 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__clock-setting"
+  },
+  {
+    "id": "bank-math-2-measure-017",
+    "familyId": "math-2-measure__fam-017",
+    "version": 1,
+    "text": "一个正方形标志的 4 个角每个都是 90°，这 4 个角合起来是多少度？",
+    "answer": "360",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 × 4 = 360",
+      "4 个角都是 90°。",
+      "答：360 度。"
+    ],
+    "hint": "正方形的角都是直角，直角是多少度？",
+    "alternative": "90 + 90 + 90 + 90 = 360 度，正好是一个周角。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__logo-design"
+  },
+  {
+    "id": "bank-math-2-measure-018",
+    "familyId": "math-2-measure__fam-018",
+    "version": 1,
+    "text": "把一个平角 180° 分成两个角，其中一个是 65°，另一个角是多少度？",
+    "answer": "115",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 − 65 = 115",
+      "两个角合起来是平角 180°。",
+      "答：115 度。"
+    ],
+    "hint": "先求另一个角，再用两个角合起来是 180° 检验。",
+    "alternative": "从 65° 数到 180°，一共 115 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__logo-design",
+    "image": "/illustrations/math/math-2-measure/angle-115.svg"
+  },
+  {
+    "id": "bank-math-2-measure-019",
+    "familyId": "math-2-measure__fam-019",
+    "version": 1,
+    "text": "小明举相机拍照，镜头与手臂成 90°，他把相机向上抬 20°，镜头与手臂现在成多少度？",
+    "answer": "110",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 + 20 = 110",
+      "向上抬 20° 就是再转过 20°。",
+      "答：110 度。"
+    ],
+    "hint": "相机抬高以后，镜头与手臂之间的角应该变大。",
+    "alternative": "从 90° 再往上抬 20°，读到的刻度是 110 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__camera-angle",
+    "image": "/illustrations/math/math-2-measure/angle-110.svg"
+  },
+  {
+    "id": "bank-math-2-measure-020",
+    "familyId": "math-2-measure__fam-020",
+    "version": 1,
+    "text": "拍集体照时，摄影师从正对大家转了 35°，转之前镜头与正前方成 60°，转之后镜头与正前方成多少度？",
+    "answer": "95",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60 + 35 = 95",
+      "转了 35° 就把原来的角度加上 35°。",
+      "答：95 度。"
+    ],
+    "hint": "转过去以后角度是变大还是变小？",
+    "alternative": "从 60° 再转过 35°，数到的刻度是 95 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__camera-angle"
+  },
+  {
+    "id": "bank-math-2-measure-021",
+    "familyId": "math-2-measure__fam-021",
+    "version": 1,
+    "text": "搭帐篷时帐篷布与地面成 60°，把绳子拉紧后变成 85°，角度增加了多少度？",
+    "answer": "25",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "85 − 60 = 25",
+      "拉紧以后角度变大了。",
+      "答：25 度。"
+    ],
+    "hint": "增加的度数就是现在和原来的角度之差。",
+    "alternative": "从 60° 到 85° 中间是 25 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__tent-pitch",
+    "image": "/illustrations/math/math-2-measure/angle-85.svg"
+  },
+  {
+    "id": "bank-math-2-measure-022",
+    "familyId": "math-2-measure__fam-022",
+    "version": 1,
+    "text": "一张长方形纸条沿对角线对折后出现 2 个三角形，每个三角形有 3 个角，一共有多少个角？",
+    "answer": "6",
+    "unit": "个",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 2 = 6",
+      "2 个三角形，每个 3 个角。",
+      "答：6 个。"
+    ],
+    "hint": "三角形有几个角？先数一个再想 2 个。",
+    "alternative": "3 + 3 = 6 个角。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__bookmark-fold"
+  },
+  {
+    "id": "bank-math-2-measure-023",
+    "familyId": "math-2-measure__fam-023",
+    "version": 1,
+    "text": "一个圆形标志被均分成 8 份，每份是 25°，其中 3 份合起来是多少度？",
+    "answer": "75",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 3 = 75",
+      "3 份合起来就是 3 个 25°。",
+      "答：75 度。"
+    ],
+    "hint": "先算 1 份是多少度，再乘份数。",
+    "alternative": "25 + 25 + 25 = 75 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__road-sign",
+    "image": "/illustrations/math/math-2-measure/angle-25.svg"
+  },
+  {
+    "id": "bank-math-2-measure-024",
+    "familyId": "math-2-measure__fam-024",
+    "version": 1,
+    "text": "太阳能电池板与地面成 60°，调整支架后变成 125°，支架把角度抬高了多少度？",
+    "answer": "65",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "125 − 60 = 65",
+      "抬高就是角度变大，求变大的部分。",
+      "答：65 度。"
+    ],
+    "hint": "抬高前后的度数都知道了，相差多少？",
+    "alternative": "从 60° 数到 125°，一共 65 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__solar-panel",
+    "image": "/illustrations/math/math-2-measure/angle-125.svg"
+  },
+  {
+    "id": "bank-math-2-measure-025",
+    "familyId": "math-2-measure__fam-025",
+    "version": 1,
+    "text": "洒水器每分钟转 45°，转 3 分钟一共转了多少度？",
+    "answer": "135",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 × 3 = 135",
+      "每分钟转 45°，3 分钟就是 3 个 45°。",
+      "答：135 度。"
+    ],
+    "hint": "先算 1 分钟转多少度，再乘分钟数。",
+    "alternative": "45 + 45 + 45 = 135 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__garden-sprinkler"
+  },
+  {
+    "id": "bank-math-2-measure-026",
+    "familyId": "math-2-measure__fam-026",
+    "version": 1,
+    "text": "电风扇每分钟转 300°，转 4 分钟一共转了多少度？",
+    "answer": "1200",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "300 × 4 = 1200",
+      "转 4 分钟就是 4 个每分钟的度数。",
+      "答：1200 度。"
+    ],
+    "hint": "先求 1 分钟转过的度数，再乘 4。",
+    "alternative": "300 + 300 + 300 + 300 = 1200 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__ceiling-fan"
+  },
+  {
+    "id": "bank-math-2-measure-027",
+    "familyId": "math-2-measure__fam-027",
+    "version": 1,
+    "text": "地图上从正北方向往东偏 60°，再往东偏 30°，现在从正北方向偏了多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60 + 30 = 90",
+      "两次往东偏的度数要加起来。",
+      "答：90 度。"
+    ],
+    "hint": "连续往同一个方向偏，度数是相加还是相减？",
+    "alternative": "先偏 60° 再偏 30°，一共偏开 90 度，正好是正东方向。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__map-direction"
+  },
+  {
+    "id": "bank-math-2-measure-028",
+    "familyId": "math-2-measure__fam-028",
+    "version": 1,
+    "text": "小明画角时把量角器转过了头，量出 145°，重新量得这个角是 55°，他多转了多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "145 − 55 = 90",
+      "多转的度数是两次读数的差。",
+      "答：90 度。"
+    ],
+    "hint": "画角时多转过去，量出来的角会比正确的角大多少？",
+    "alternative": "145° 比 55° 多出的部分正好是 90 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__measure-slip",
+    "image": "/illustrations/math/math-2-measure/angle-145.svg"
+  },
+  {
+    "id": "bank-math-2-measure-029",
+    "familyId": "math-2-measure__fam-029",
+    "version": 1,
+    "text": "汽车雨刮器在挡风玻璃上从最左边摆到最右边共扫过 150°，把它分成左右 2 个相等的部分，每部分扫过多少度？",
+    "answer": "75",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150 ÷ 2 = 75",
+      "左右两部分一样大。",
+      "答：75 度。"
+    ],
+    "hint": "平均分成 2 份，每份是多少度？",
+    "alternative": "75° + 75° = 150°，所以每部分是 75 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__wiper-range"
+  },
+  {
+    "id": "bank-math-2-measure-030",
+    "familyId": "math-2-measure__fam-030",
+    "version": 1,
+    "text": "一套三角尺里，45° 的角和 30° 的角拼在一起，组成的角是多少度？",
+    "answer": "75",
+    "unit": "度",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 + 30 = 75",
+      "把两个角拼起来，度数相加。",
+      "答：75 度。"
+    ],
+    "hint": "拼角就是把两个角的度数合起来。",
+    "alternative": "从 45° 接着数 30°，一共数到 75 度。",
+    "prerequisites": [
+      "math-2-measure",
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-2-measure__set-square"
+  }
+]

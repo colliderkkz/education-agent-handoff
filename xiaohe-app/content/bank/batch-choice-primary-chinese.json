@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "bank-chinese-1-imagery-c01",
+    "familyId": "chinese-1-imagery__fam-31",
+    "version": 1,
+    "text": "读下面这句话：「细雨落在瓦片上，滴答，滴答，像谁在屋顶上轻轻敲着小鼓。」要边读边想象画面，最恰当的做法是（　　）。A．先把「滴答」在字典里的几个意思都查出来，再一个一个比较　B．把「细雨」「瓦片」「轻轻敲着小鼓」在脑中合成一幅有声有景的画面　C．先数一数句子里出现了几个表示声音的词，再说出它们各有什么作用　D．先弄清作者写这句话是为了说明一个什么道理",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "边读边想象画面，重在把文字变成脑子里的图像和声音，不是查词义，也不是数词、找道理。",
+      "这句话里的「细雨」和「瓦片」给出画面，「滴答」和「轻轻敲着小鼓」给出声音，四处合起来才是一幅完整的画面。",
+      "逐个对照四个选项，只有B是把词句还原成画面。答：B。"
+    ],
+    "hint": "想象画面时问一问自己：读完这句话，闭上眼睛能不能看见、听见东西？",
+    "alternative": "也可以从声音入手：先在耳边响起「滴答，滴答」，再顺着这声音想象出屋顶、瓦片和细雨，画面就立起来了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__sound-image-build"
+  },
+  {
+    "id": "bank-chinese-1-imagery-c02",
+    "familyId": "chinese-1-imagery__fam-32",
+    "version": 1,
+    "text": "读下面这段话：「月光从窗棂的缝隙里斜斜地照进来，在桌面上落下几道细细的亮线。亮线慢慢挪动，最后停在摊开的书页上。」如果给这段话配一幅画，下面哪种处理最符合「边读边想象画面」的要求（　　）。A．把窗棂、桌子和书页都画出来，因为它们都是句子里写到的景物　B．只画那本摊开的书，因为书页是这段话里最重要的东西　C．在画的右上角补上一轮又大又圆的月亮，好让人一眼看出这是夜晚　D．画出几道斜斜照进屋里的亮线，再画出路亮线慢慢挪到书页上的样子",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "想象画面要在句子里找依据，不能添上原文没有的东西，也不能只挑一样景物当作全部。",
+      "这段话的重点是「亮线」和它「挪动」的过程，所以画的时候要把光的斜、细和移动都画出来。",
+      "A只是把景物罗列一遍，B只抓住一样，C补了原文没有的月亮，D才把画面按原话说出来了。答：D。"
+    ],
+    "hint": "想象画面时，句子里被反复写到、还写了变化的词，才是画面里最该画出来的部分。",
+    "alternative": "还可以把画当成一段连续的动作：先画窗棂漏进来的光，再画光在桌面上慢慢移动，最后画它停在书页上，一幅画就有了先后。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__painting-match"
+  },
+  {
+    "id": "bank-chinese-1-order-c01",
+    "familyId": "chinese-1-order__fam-31",
+    "version": 1,
+    "text": "小明站在校园门口看操场上做操的同学，下面看到的画面按由远到近排列，正确的是（　　）。A．教学楼顶上的红旗—操场中间跑道上的同学—脚边水泥缝里冒出的小草　B．脚边水泥缝里的小草—跑道上的同学—教学楼顶上的红旗　C．跑道上的同学—教学楼顶上的红旗—脚边的小草　D．教学楼顶上的红旗—脚边的小草—跑道上的同学",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由远到近，就是先写离眼睛最远的，再写近处的。",
+      "站在校门口，教学楼顶上的红旗最远，跑道上的同学在中间，脚边水泥缝里的小草最近。",
+      "四个选项里只有A是「远处—中间—近处」一路排下来的。答：A。"
+    ],
+    "hint": "先在脑子里标一标：哪个最远？哪个最近？再按远近排队。",
+    "alternative": "也可以用走动的路线来想：从校门口抬头看旗子，再往里看跑道，最后低头看脚边，这条路线就是由远到近的顺序。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__distant-to-near-gate"
+  },
+  {
+    "id": "bank-chinese-1-order-c02",
+    "familyId": "chinese-1-order__fam-32",
+    "version": 1,
+    "text": "同一条小巷，小刚从巷口往里走，小美从巷子另一头往里走，两人写下的段落不一样。下面哪种说法是对的（　　）。A．只要是同一条巷子，观察的先后顺序就一定相同　B．站的位置不同，景物的远近关系就不同，先写远处还是先写近处要跟着位置变　C．观察顺序只由文章写了几段决定，和站在哪里没有关系　D．不管站在哪里，都应该先写脚下的东西，再写远处的东西",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "观察顺序常常由观察者站的位置决定，位置一变，远近关系就跟着变。",
+      "小刚从巷口往里走，先看到的是巷口这一头；小美从另一头进来，先看到的是另一头，两人的先后自然不一样。",
+      "A、C把顺序和位置脱开，D是一刀切，都不对，只有B说得对。答：B。"
+    ],
+    "hint": "想象两个人面对面站在同一条巷子里，谁先看见哪一头？",
+    "alternative": "也可以用取景来想：站在哪儿取景，画面里最近的东西和最远的东西就换了个位置，先后顺序也跟着换。",
+    "prerequisites": [
+      "chinese-1-order",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__same-alley-two-views"
+  },
+  {
+    "id": "bank-chinese-1-write-c01",
+    "familyId": "chinese-1-write__fam-31",
+    "version": 1,
+    "text": "要写一处自然景观，下面哪一种开头最能让人一眼看出你写的是什么（　　）。A．我要写一处很好看的景色，它真的非常漂亮　B．今天天气很好，我和爸爸妈妈一起出门玩　C．校门口那棵老槐树，是这条街上年纪最大的一棵树　D．我很喜欢大自然，大自然给我们的生活带来了很多好处",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "好的开头要让人马上看见你写的景物，还要给上一点它的特点。",
+      "C里有具体的景物（校门口那棵老槐树）和它的特点（这条街上年纪最大）。",
+      "A只是空喊好看，B是流水账式地交代时间人物，D是讲道理，都不如C开门见山。答：C。"
+    ],
+    "hint": "写完后把开头念给同学听，看他能不能立刻说出你写的是什么地方。",
+    "alternative": "也可以从声音或颜色切入：先写风吹过树梢的声音或树叶的颜色，再点出这棵树在哪里，同样能让人一眼看清。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__open-with-scene"
+  },
+  {
+    "id": "bank-chinese-1-write-c02",
+    "familyId": "chinese-1-write__fam-32",
+    "version": 1,
+    "text": "小伙伴要把「写一处自然景观」写具体，下面哪种做法最合适（　　）。A．把看到的东西一样一样列出来，从最大的写到最小的　B．在结尾写一句「我永远忘不了这里的风景」　C．把课文里写景的好句子抄下来放在段首　D．选一处印象最深的，先写它的样子，再写声音或颜色，最后写自己的感受",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写自然景观要先想清楚写哪一处，再按观察的顺序把它的样子写具体。",
+      "D的写法有先有后：样子在前，声音颜色接着，感受收尾，读者跟着你的视线走。",
+      "A只是罗列没有重点，B是空喊感情，C是抄别人的句子，都不是自己的好文章。答：D。"
+    ],
+    "hint": "动笔前先问自己三句：我写的是哪里？它长什么样？我有什么感觉？",
+    "alternative": "也可以先列一张小清单：看到的、听到的、想到的各写一条，再从清单里挑最重要的两三条放进段落里。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__write-one-scene"
+  },
+  {
+    "id": "bank-chinese-2-question-c01",
+    "familyId": "chinese-2-question__fam-31",
+    "version": 1,
+    "text": "读下面这段话：「枫树的叶子红得像一团火，落在地上，铺成了一条金色的小路。」下面四个问题中，属于从「写法」角度提出的问题是（　　）。A．枫树的叶子为什么是红色的　B．作者把落叶比作「金色的小路」，这样写有什么好处　C．这条金色的小路一共有多长　D．这条小路通向什么地方",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从内容角度提问，问的是「写了什么、为什么写」；从写法角度提问，问的是「怎么写得」。",
+      "B问的是这个比喻写得好不好，问的是作者怎样把画面写出来，属于写法角度。",
+      "A问的是原因，C、D问的是课文里没有交代的信息，都不是从写法角度提的。答：B。"
+    ],
+    "hint": "先分清两类问题：问「是什么、为什么」的属于内容，问「怎么写、写得怎么样」的属于写法。",
+    "alternative": "也可以看看问题里有没有出现「好处」「为什么这样写」「用了什么方法」这样的字眼，出现得多半是从写法角度提的。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__angle-of-writing"
+  },
+  {
+    "id": "bank-chinese-2-question-c02",
+    "familyId": "chinese-2-question__fam-32",
+    "version": 1,
+    "text": "读下面这段话：「爷爷把老屋的门槛换成了新的，又把院子里墙根的青苔一点点刷干净，砖缝露出白生生的颜色。」下面四个问题中，属于围绕「内容」提出的是（　　）。A．作者用了「一点点」这个说法，是想说明爷爷刷得很仔细　B．砖缝发白的颜色在句子里一共出现了几处　C．爷爷为什么先换门槛，后刷青苔　D．这段话一共用了几个四字词语",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "围绕内容提问题，问的是这段话讲了什么、为什么这样做。",
+      "C问的是爷爷做这两件事的原因，正是这段话讲的内容。",
+      "A问的是作者怎么写的，B、D是数句子里的词语，都不是从内容角度提问。答：C。"
+    ],
+    "hint": "把每个问题在心里回答一遍：回答得出来、又和内容有关的，才是围绕内容提的问题。",
+    "alternative": "也可以反过来练：给同一段话，先从内容提一个「为什么」，再从写法提一个「怎么写得好」，两类问题各一个，就不容易只盯着一种角度。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__angle-of-content"
+  },
+  {
+    "id": "bank-chinese-2-evidence-c01",
+    "familyId": "chinese-2-evidence__fam-31",
+    "version": 1,
+    "text": "读短文：「雨停了，屋檐还在滴水，一滴，又一滴，落在窗台上的空盆里。」下面哪一项是根据短文内容得出的判断，并且文中能找到依据（　　）。A．窗台上的盆子里已经积满了雨水　B．这场雨从昨天夜里一直下到现在　C．盆子放在窗台上是为了接屋檐滴下来的水　D．雨虽然停了，屋檐还会接着滴一阵子",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断要有依据，只能用短文里写到的内容，不能凭常识乱猜。",
+      "短文先写「雨停了」，又写「屋檐还在滴水」，说明雨停以后滴水还没有停，所以D站得住。",
+      "A和「空盆」相矛盾，B、C在短文里找不到依据，都属于凭想当然。答：D。"
+    ],
+    "hint": "把每个判断回到原文里找一找，能指出是哪一句话的才算有依据。",
+    "alternative": "也可以用排除法做：凡是原文没有提到的说法一律划掉，剩下的那个就是有依据的。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__eaves-drip"
+  },
+  {
+    "id": "bank-chinese-2-evidence-c02",
+    "familyId": "chinese-2-evidence__fam-32",
+    "version": 1,
+    "text": "读短文：「早读前，小雨发现教室后墙的报栏歪了。她叫来两个同学一起把报栏扶正，又用图钉把翘起的海报压平。」下面四个说法中，能从短文中直接找到依据的是（　　）。A．小雨和两个同学一起扶正了报栏，又用图钉压平了海报　B．报栏是因为昨天刮大风才歪的　C．小雨扶正报栏以后就回座位读书了　D．图钉是小雨从家里带来的",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短文里写了什么，才能作为依据；短文没写的，不能自己往上补。",
+      "「叫来两个同学一起把报栏扶正」「用图钉把翘起的海报压平」都能在原句里找到，A站得住。",
+      "B、C、D说的都是短文没有交代的事，属于读着读着自己补出来的。答：A。"
+    ],
+    "hint": "把每个说法放回原文里逐字核对，核对不上的就是没有依据。",
+    "alternative": "也可以给短文分层：先分出「写到的」和「没写到的」，再看选项落在哪一层，答案就清楚了。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__notice-board-fix"
+  },
+  {
+    "id": "bank-chinese-2-science-c01",
+    "familyId": "chinese-2-science__fam-31",
+    "version": 1,
+    "text": "读科普短文：「鸟的翅膀上覆盖着一层细小的绒毛。飞行的时候，绒毛能减小翅膀受到的空气阻力，让鸟更容易飞起来。」下面哪一项能概括这段话讲的是什么（　　）。A．鸟的翅膀是鸟类身上最结实的部分　B．鸟的翅膀上长着绒毛，摸起来很暖和　C．鸟翅膀上的绒毛能减小空气的阻力，帮助鸟飞起来　D．鸟的翅膀因为长着绒毛，所以比别的动物的翅膀更大",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括一段科普话，要说出它讲的对象和它说明的道理，不能添上原文没有的。",
+      "这段话的对象是鸟翅膀上的绒毛，说明的是绒毛能减小空气的阻力，帮助鸟飞起来。",
+      "A、B、D说的都是原文没有讲到的内容，A和D还把关系说反了。答：C。"
+    ],
+    "hint": "概括时先问自己：这段话在介绍什么，又说明了它有什么用？",
+    "alternative": "也可以用一句话来套：谁（鸟翅膀上的绒毛）怎么样（能减小空气的阻力），结果怎样（鸟飞得更起来）。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__wing-feathers"
+  },
+  {
+    "id": "bank-chinese-2-science-c02",
+    "familyId": "chinese-2-science__fam-32",
+    "version": 1,
+    "text": "读科普短文：「海水在夜里比白天凉。白天陆地升温快，热的空气往上升，海面上凉快的风就吹向陆地；到了夜晚陆地变凉，风向就反过来。」这段短文说明的是（　　）。A．海边白天和夜晚常常吹相反方向的风　B．海水的温度每天都不一样　C．白天的风总是从陆地吹向海面　D．夜里的风比白天的风更凉快",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普短文常常先讲一个现象，再讲造成这个现象的原因，最后要你说出它说明的事。",
+      "短文先说海风会随昼夜换向，再解释陆地白天升温、夜里降温，所以风向相反。",
+      "B、D是短文没有说的，C把白天的风向说反了，只有A是短文说明的结论。答：A。"
+    ],
+    "hint": "先在短文里找出哪句是结论、哪句是原因，答案往往就藏在结论句里。",
+    "alternative": "也可以把短文分成现象和原因两块：现象是风向白天夜里相反，原因在陆地和海水的升降温，读懂这两块就抓住了要点。",
+    "prerequisites": [
+      "chinese-2-science",
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__sea-land-wind"
+  },
+  {
+    "id": "bank-chinese-3-observe-c01",
+    "familyId": "chinese-3-observe__fam-31",
+    "version": 1,
+    "text": "小满连续三天观察同一盆含羞草，第一天叶子张开着，第二天叶子合拢了一些，第三天又张开了，还比第一天更有精神。这三天里含羞草的变化是（　　）。A．一直张开着，没有变化　B．张开—合拢—张开　C．合拢—张开—合拢　D．合拢以后就一直合拢着，再没有张开",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-3-observe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "连续观察要按时间把每一天的样子都记下来，变化才看得出来。",
+      "第一天张开，第二天合拢，第三天又张开，正是张开—合拢—张开。",
+      "A和D漏掉了后来的变化，C把顺序记反了，只有B符合记录。答：B。"
+    ],
+    "hint": "观察记录要一天一天对号入座，顺序一颠倒，变化就看错了。",
+    "alternative": "也可以画三张小图，每天画一张，把三张图排成一排，变化自然就显出来了。",
+    "prerequisites": [
+      "chinese-3-observe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-3-observe__mimosa-three-days"
+  },
+  {
+    "id": "bank-chinese-3-observe-c02",
+    "familyId": "chinese-3-observe__fam-32",
+    "version": 1,
+    "text": "小然记录窗台上的多肉：星期一叶片发皱，星期三叶片舒展开，星期五叶边泛出红色。下面哪种改法最能体现「连续观察」的要求（　　）。A．在每一条后面加上自己当时的想法和心情　B．把三天的记录合成一句，写成「这盆多肉很好看」　C．只保留星期五那一条，因为写得最清楚　D．保持三天的记录，按时间写清每一天和前一天有什么不同",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-3-observe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "连续观察重在把同一个对象在几个时点的样子都记下来，并看出其中的变化。",
+      "D保留了三天的时间顺序，又写清每天和前一天的差别，读者能看出它怎么变的。",
+      "A加的是感想，B合并以后丢掉了变化，C只剩一天，都不算连续观察。答：D。"
+    ],
+    "hint": "检查一条观察记录合不合格，就看能不能看出「和上一次比有什么不一样」。",
+    "alternative": "也可以在每条记录后面固定加一句「比上一次……」，比如「比星期三叶片舒展了些」，这样变化就被写实了。",
+    "prerequisites": [
+      "chinese-3-observe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-3-observe__succulent-record"
+  },
+  {
+    "id": "bank-chinese-3-diary-c01",
+    "familyId": "chinese-3-diary__fam-31",
+    "version": 1,
+    "text": "观察日记一般要写清楚下面哪几样东西（　　）。A．日期、天气和每天看到的变化　B．日期、天气和当天的心情　C．看到的画面、想到的事情和自己喜欢的东西　D．一句感想、一个成语和一则小故事",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-3-diary",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "观察日记是写给自己看的观察记录，重点是对象在观察期里的变化。",
+      "有了日期、天气和每天看到的变化，别人读了也能跟着你的记录看出变化。",
+      "B写的心情、C和D写的内容都不是观察日记记录变化时最要紧的部分。答：A。"
+    ],
+    "hint": "判断一份观察日记合不合格，就看别人拿着它能不能还原出「什么时候、看到了什么变化」。",
+    "alternative": "也可以用带日期的小格子来记：一行一天，左边写日期和天气，右边写看到的变化，格式一固定就不容易漏。",
+    "prerequisites": [
+      "chinese-3-diary"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-3-diary__diary-elements"
+  },
+  {
+    "id": "bank-chinese-3-diary-c02",
+    "familyId": "chinese-3-diary__fam-32",
+    "version": 1,
+    "text": "小然写《绿豆发芽观察日记》，下面哪种写法最符合观察日记的要求（　　）。A．每天只写一句「今天豆芽又长高了」，写得越短越好　B．把三天看到的变化合在一段里，写出总的印象就行　C．按日期一天一天写，写清这一天和前一天有什么不同　D．把看到的和猜的写在一起，让文章更生动",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-3-diary",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "观察日记要按时间顺序写观察过程和发现，还要把看到的事实和自己的猜想分开。",
+      "C按日期逐天写，还写出和前一天的差别，正好符合观察日记的要求。",
+      "A太笼统看不出变化，B把过程合成一段丢了时间，D把猜想混进事实，读的人分不清哪句是真的。答：C。"
+    ],
+    "hint": "写完一段观察日记，回头检查两件事：日子排清楚了吗？看到的是不是和猜的分开了？",
+    "alternative": "也可以一天写两行：一行写看见的，一行写想到的，格式分开，事实和猜想自然就分清了。",
+    "prerequisites": [
+      "chinese-3-diary",
+      "chinese-3-observe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-3-diary__diary-by-date"
+  },
+  {
+    "id": "bank-chinese-4-plot-c01",
+    "familyId": "chinese-4-plot__fam-31",
+    "version": 1,
+    "text": "在一个神话故事里，「起因」指的是（　　）。A．故事里的人物解决问题时用过的办法　B．故事最后人物得到的结果　C．故事最开始发生的那件事，它让后面的一切都有了开始的缘由　D．故事里最惊险、最紧张的那一段情节",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-4-plot",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一个故事通常分起因、经过、结果三部分，三部分各自承担的任务不同。",
+      "起因是事情开始的原因，一般在故事开头交代；经过写事情怎么发展；结果写事情最后怎么样。",
+      "A写的是经过里的办法，B写的是结果，D写的是经过里最精彩的一段，都不是起因。答：C。"
+    ],
+    "hint": "读完故事先问自己：事情是从哪一件小事开始的？那一件就是起因。",
+    "alternative": "也可以用「因为……所以……」去串：如果故事里有一句「因为……所以……」，那么「因为」后面多半就是起因。",
+    "prerequisites": [
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-4-plot__story-beginning"
+  },
+  {
+    "id": "bank-chinese-4-plot-c02",
+    "familyId": "chinese-4-plot__fam-32",
+    "version": 1,
+    "text": "读神话片段：「连着三年大旱，村里的溪水断了流，禾苗一株株枯死。有个猎人上山打猎，看见坡上一株被野羊咬断了根的桃树竟然开了花。他顺着桃树的位置往山腹里找，在石缝深处找到了一线细流。全村人靠着这眼泉水熬过了第四个年头。」这个神话的起因是（　　）。A．连着三年大旱，溪水断流，村里人缺水　B．猎人顺着桃树的位置在山腹里找到一线细流　C．坡上那株被咬断根的桃树竟然开了花　D．全村人靠着这眼泉水熬过了第四个年头",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-4-plot",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "起因是故事开始的原因，处在整个故事的前面。",
+      "片段一开头就说连着三年大旱、溪水断流，正是后面所有事情的缘由。",
+      "B、C是故事经过里的两件事，D是结果，都不能当起因。答：A。"
+    ],
+    "hint": "判断哪一段是起因，就看它是不是「后面所有事情都因为它才开始」。",
+    "alternative": "也可以给四个选项标上序号：把真正排在最前面的那一件事圈出来，那就是起因。",
+    "prerequisites": [
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-4-plot__drought-myth"
+  },
+  {
+    "id": "bank-chinese-4-character-c01",
+    "familyId": "chinese-4-character__fam-31",
+    "version": 1,
+    "text": "读神话片段：「望舒把月光一寸一寸铺到村口，铺完最后一寸时，她一句话也没说，只把月车缓缓推上云路，走了。」从这段话可以看出望舒是个怎样的人（　　）。A．爱说大话，总要别人知道自己的功劳　B．做事沉静认真，只顾把事情做好，从不声张　C．动作缓慢，铺这条路铺得太慢　D．害怕和人打交道，不敢和村里人说话",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-4-character",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "人物形象要从他的动作、神态和语言里读出来。",
+      "「一寸一寸」「一句话也没说」「缓缓地」写出望舒不声不响、一步一步把事做到底。",
+      "A与「一句话也没说」相反，C把「缓缓」误当成缺点，D在文里找不到依据，只有B合乎描写。答：B。"
+    ],
+    "hint": "找出句子里写人物动作和神态的词，它们的分量往往就是人物的品格。",
+    "alternative": "也可以把人物说的话删掉再读一遍：如果没有一句话，人物的样子还站得住，那这个形象就是从动作里读出来的。",
+    "prerequisites": [
+      "chinese-4-character"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-4-character__quiet-moonlight"
+  },
+  {
+    "id": "bank-chinese-4-character-c02",
+    "familyId": "chinese-4-character__fam-32",
+    "version": 1,
+    "text": "读神话片段：「鹿鸣跳进河里把灯捞了回来，浑身湿透，手指上全是血。他对母亲说：娘，灯我没敢丢。」最能体现鹿鸣这个人物特点的一项是（　　）。A．鹿鸣很爱说话，一件事要反复说上好几遍　B．鹿鸣动作笨拙，跳进河里还差点没抓住灯　C．鹿鸣只顾自己，连母亲都顾不上了　D．鹿鸣把这盏灯看得极重，宁可自己受伤也不肯丢掉",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-4-character",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "人物形象要从关键处的言行里概括，不能只看表面。",
+      "灯被水卷走后鹿鸣跳进河里，手指都磨破了，回来第一句话是「灯我没敢丢」，可见灯在他心里的分量。",
+      "A、B、C在片段里都找不到依据，D才抓住了这处描写的用意。答：D。"
+    ],
+    "hint": "抓住人物最紧张、最关键的那一刻说的话，那句话往往最能说明他是什么样的人。",
+    "alternative": "也可以从前后对照去想：前面是「手指上全是血」，后面是「灯我没敢丢」，一身的伤换来一句交代，重点自然落在灯上。",
+    "prerequisites": [
+      "chinese-4-character",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-4-character__lantern-not-lost"
+  },
+  {
+    "id": "bank-chinese-4-retell-c01",
+    "familyId": "chinese-4-retell__fam-31",
+    "version": 1,
+    "text": "复述一个神话故事时，下面哪种做法是对的（　　）。A．把故事里所有好听的词句都背下来，讲得越长越好　B．先讲结果，再讲起因，最后讲经过，这样听起来更精彩　C．按起因、经过、结果的顺序讲，把主要情节讲清楚　D．只讲自己最喜欢的那一段，其余的部分都可以省掉",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-4-retell",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述不是背诵，也不是讲评，重点是让别人听明白故事。",
+      "按起因、经过、结果的顺序讲，主要情节不丢，听的人才跟得上。",
+      "A变成了背诵，B把顺序全打乱，D漏掉了主要内容，都不符合复述的要求。答：C。"
+    ],
+    "hint": "讲之前先在纸上写出三行：起因、经过、结果，照着三行讲就不会乱。",
+    "alternative": "也可以用三个问题给自己提纲：事情为什么发生、后来怎么样、最后怎样，三问都答得上，复述就完整了。",
+    "prerequisites": [
+      "chinese-4-retell",
+      "chinese-4-plot"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-4-retell__retell-order"
+  },
+  {
+    "id": "bank-chinese-4-retell-c02",
+    "familyId": "chinese-4-retell__fam-32",
+    "version": 1,
+    "text": "小星要复述这样一则神话：「守关人最怕汛期。这一年汛期提前，守关人连夜写下一封急信。玄隼接信飞出山口，半路上一阵狂风折断了它的左翼。它忍着疼痛把信藏进树洞，三日后风暴停了，一只路过的白鹤替玄隼把信送到了北洛。」下面哪一种复述最合适（　　）。A．守关人写信—玄隼送信途中折翼藏信—白鹤把信送到北洛　B．玄隼折翼—守关人写信—白鹤送信，这样讲最吸引人　C．守关人写信—白鹤送信—玄隼折翼藏信，这样讲听起来完整　D．玄隼送信—守关人写信—玄隼折翼—白鹤送信，把经过放在最前面",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-4-retell",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述要按故事发生的先后讲，因果不能颠倒。",
+      "信是先写的，玄隼接到信才出发，折翼藏信在前，白鹤送信在后，次序不能动。",
+      "B、C、D都把某一段挪到了不该在的位置上，只有A的顺序和原文一致。答：A。"
+    ],
+    "hint": "复述前先找出故事里最关键的那件事和它的转折点，前后顺序照着走就不会错。",
+    "alternative": "也可以用因果链来记：写急信所以玄隼出发，折翼所以藏信，风停所以白鹤送信，一环扣一环，讲的时候顺着环说就行。",
+    "prerequisites": [
+      "chinese-4-retell"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-4-retell__swift-letter"
+  },
+  {
+    "id": "bank-chinese-5-sequence-c01",
+    "familyId": "chinese-5-sequence__fam-31",
+    "version": 1,
+    "text": "读下面这段话：「周六上午，小雨和妈妈去菜市场。回来的路上忽然下起了小雨，妈妈没带伞，小雨把书包顶在头上，肩膀还是湿了。到家时，妈妈的半边衣服也湿了一大片。」按事情发生的先后顺序排列，正确的是（　　）。A．先写小雨的肩膀湿了，再写妈妈的衣服湿了　B．先写去菜市场，再写路上下雨，最后写两个人都淋湿了　C．先写两个人都淋湿了，再写路上下雨，最后写回到家　D．先写回到家，再写路上下雨，最后写小雨的肩膀湿了",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述一件事要顺着事情发展的先后说，不能把结果摆到前头。",
+      "这件事的先后是：去菜市场—路上下雨—两个人都被淋湿。",
+      "A只排了后两件事，C、D把顺序颠倒，只有B从头到尾顺下来。答：B。"
+    ],
+    "hint": "找出事情开始的那一步和最后的那一步，中间发生的自然依次排好。",
+    "alternative": "也可以给每句话标上先后：最先发生的打一号，接着发生的打二号，最后发生的打三号，排完再核对一遍。",
+    "prerequisites": [
+      "chinese-5-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-sequence__rainy-market-walk"
+  },
+  {
+    "id": "bank-chinese-5-sequence-c02",
+    "familyId": "chinese-5-sequence__fam-32",
+    "version": 1,
+    "text": "要把「小宇第一次上台朗读」这件事写清楚，下面哪种安排最合适（　　）。A．先写他怎样准备，再写上台时的心情，最后写读完之后大家的反应　B．先写大家的热烈掌声，再写他上台前的紧张，最后写他读得怎么样　C．先写他读完之后的高兴，再写他上台前的紧张，最后写他是怎么准备的　D．先写他准备了很久，再写大家的反应，最后写他上台时紧张得手心出汗",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-5-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写事情要顺着事情发展的顺序安排，同时把最要紧的场面写细。",
+      "准备—上台—台下反应，正好是事情发生的先后，最紧张的上台那一段还可以写得细一些。",
+      "B、C、D都把后面的事挪到了前面，读起来颠三倒四，只有A顺序清楚。答：A。"
+    ],
+    "hint": "写一件事先列一条时间线：准备、上台、结束，三步各写一句，文章骨架就有了。",
+    "alternative": "也可以从紧张到放松来安排：越重要的时刻写得越细，准备的过程一笔带过，文章自然有轻重。",
+    "prerequisites": [
+      "chinese-5-sequence",
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-sequence__first-reading"
+  },
+  {
+    "id": "bank-chinese-5-details-c01",
+    "familyId": "chinese-5-details__fam-31",
+    "version": 1,
+    "text": "读下面这段话：「他紧紧攥着试卷的一角，脚步越走越慢，最后还是走到了讲台前。」下面哪一项最能说明这段话把重点情节写好了（　　）。A．这段话的字数比别处多　B．这段话里用了好几个表示位置的词　C．「攥」和「越走越慢」写出了他当时的紧张和心里的犹豫　D．这段话里出现了「讲台」这个词",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写重点情节看的是有没有把当时的样子写具体，而不是字数多少。",
+      "「攥着试卷」和「越走越慢」都是具体的动作，写出了他心里的紧张和犹豫。",
+      "A、B、D都是数量和词语上的检查，说不出这段话好在哪里，只有C点出了描写的分量。答：C。"
+    ],
+    "hint": "判断写得好不好，先问自己：读者读这句时，能看见那个人的样子吗？",
+    "alternative": "也可以做个试验：把句子里的动作词换成「很紧张」「很着急」，意思没变多，就说明原来的动作写得更细。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-5-details__tight-paper-corner"
+  },
+  {
+    "id": "bank-chinese-5-details-c02",
+    "familyId": "chinese-5-details__fam-32",
+    "version": 1,
+    "text": "读下面这段话：「小雨把卷子举起来，想给同桌看，又慢慢放了下来。」要把这个瞬间写具体，下面哪种补充最合适（　　）。A．小雨的卷子上有一个很大的分数　B．这份卷子是她这次考试考得最好的一张　C．小雨把卷子折好放回了书包　D．卷子举到一半停住了，手指捏得发白，过了好一会儿才轻轻放到桌上",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-5-details",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把瞬间写具体，要补的是当时的动作、神态和心里的犹豫，不是去补充别的信息。",
+      "D写出了「举到一半停住」「手指捏得发白」「过了好一会儿」，正是原文里省略掉的部分。",
+      "A、B是补充卷子的情况，C是笼统地交代结果，都不是把这一瞬间写细。答：D。"
+    ],
+    "hint": "写具体就是在原文的空隙里补上「手怎么动、脸上什么样、心里怎么想」。",
+    "alternative": "也可以给这个瞬间加上时间：写清她举起来之后停了多久，那份犹豫就自然显出来了。",
+    "prerequisites": [
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-5-details__raised-exam-paper"
+  },
+  {
+    "id": "bank-chinese-6-feelings-c01",
+    "familyId": "chinese-6-feelings__fam-31",
+    "version": 1,
+    "text": "读下面这段话：「周老师把批改好的默写本发下来。轮到小雨时，她翻开本子，看见上面写着「全对」两个字。她把本子合上，愣了一会儿，才慢慢咧开嘴笑了。」小雨拿到本子后的心情变化是（　　）。A．从高兴到难过，因为本子上没有她的名字　B．从意外、怀疑，到看清「全对」两个字后的高兴　C．从紧张到平静，因为本子发下来了　D．一直很开心，因为本子上写着「全对」",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-6-feelings",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "心情的变化要从动作和神态的变化里读出来。",
+      "「愣了一会儿」说明她一下子没反应过来，还有点不敢相信；「慢慢咧开嘴笑了」说明她确认以后高兴起来。",
+      "A、C、D都和原文的先后不符，只有B符合。答：B。"
+    ],
+    "hint": "先找出人物身上前后不一样的地方：手怎么动、脸上怎么变，心情就藏在那里。",
+    "alternative": "也可以把动作当成心情的温度计：动作慢下来、停下来，多半是心里不平静；动作轻快起来，多半是心里舒坦了。",
+    "prerequisites": [
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-6-feelings__dictation-book"
+  },
+  {
+    "id": "bank-chinese-6-feelings-c02",
+    "familyId": "chinese-6-feelings__fam-32",
+    "version": 1,
+    "text": "读下面这段话：「拔河比赛，对面站着一队比自己班高一头的高年级同学。小美站在队伍最后，两只手死死攥住绳子。绳子一点点向中线挪去，就差一点的时候，她一屁股坐在地上，绳子从手里滑了出去。同学们跑过来扶她，小美却说：「再来一次。」」小美在比赛过程中的心情经历了怎样的变化（　　）。A．一开始很得意，最后很难过　B．一直很轻松，从没有紧张过　C．从落后时的着急，变成了失败后的难过　D．从紧张想赢，到失手后的懊恼和不甘心",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-6-feelings",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "心情变化的线索常常藏在「攥」「滑」「坐」这样具体的动作里。",
+      "「死死攥住」写出小美想赢的紧张，绳子滑出去后她坐在地上，是懊恼；同学们来扶她，她却喊「再来一次」，是不甘心。",
+      "A在文中找不到依据，B忽略了「死死攥住」，C只说到难过、漏掉了「再来一次」里的劲头，只有D最完整。答：D。"
+    ],
+    "hint": "人物嘴上说的话和手上的动作常常不一致，把两处放在一起看，心情就清楚了。",
+    "alternative": "也可以按比赛前、比赛中、比赛后分三段看，每段挑一个动作当证据，三段连起来就是心情的变化。",
+    "prerequisites": [
+      "chinese-6-feelings"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-6-feelings__tug-of-war"
+  },
+  {
+    "id": "bank-chinese-6-narrative-c01",
+    "familyId": "chinese-6-narrative__fam-31",
+    "version": 1,
+    "text": "要把一次游戏写进作文，下面哪一项是必须先交代清楚的（　　）。A．游戏的时间、地点、参加者和规则　B．游戏最后是谁赢了、谁输了　C．游戏结束后大家有什么感受　D．游戏里发生的每一个动作",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-6-narrative",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写游戏要先让读者知道这是一场什么游戏、怎么玩。",
+      "时间、地点、参加者和规则交代清楚，读者才能读懂后面的内容。",
+      "B、C可以放在后面写，D把每个动作都写出来会写成流水账，都不是必须先交代的。答：A。"
+    ],
+    "hint": "想象一个没参加过的同学来读这段作文，他读前面几句就知道该怎么玩了吗？",
+    "alternative": "也可以先想一份游戏说明书：把规则写成几条，再把比赛结果和感受接在后面，文章就有头有尾了。",
+    "prerequisites": [
+      "chinese-6-narrative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-6-narrative__game-first"
+  },
+  {
+    "id": "bank-chinese-6-narrative-c02",
+    "familyId": "chinese-6-narrative__fam-32",
+    "version": 1,
+    "text": "写一次游戏，下面哪种处理最能把这篇文章写清楚（　　）。A．把游戏从头到尾的每一句话都写出来，一句不漏　B．只写游戏开始前的准备和结束后的心情，中间的过程略过　C．先交代规则和参加者，再写游戏中最紧张的一两个场面，最后写自己的感受　D．把规则写在最后，让读者读完全文才知道在玩什么",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-6-narrative",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写一次游戏，顺序是「是什么游戏—过程中最要紧的时刻—我的感受」。",
+      "C正好按这个顺序写，而且把最紧张的一两个场面单独写出来，文章有重点。",
+      "A写成流水账，B漏掉了游戏的过程，D把规则放在最后，读都读不顺。答：C。"
+    ],
+    "hint": "想想哪一段是这次游戏里你最想留下的画面，那一段就值得写细。",
+    "alternative": "也可以用一详多略的办法：把最惊险的一两分钟写细，其余的一两句话带过，全篇反而更有味道。",
+    "prerequisites": [
+      "chinese-6-narrative",
+      "chinese-5-details"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-6-narrative__game-write-plan"
+  },
+  {
+    "id": "bank-chinese-7-event-c01",
+    "familyId": "chinese-7-event__fam-31",
+    "version": 1,
+    "text": "读下面的材料，用一句话概括最恰当的一项是（　　）。社区的旧书箱破了好几个洞，里面的书被雨淋得卷了边。放学后，几个低年级同学把书一本本摊在石凳上晾干，又用透明胶把破掉的书页粘好，还给书箱刷了一层新漆。过了几天，旧书箱又摆回巷口，来借书的人比从前多了。A．旧书箱破了，里面的书被雨淋坏了　B．几个低年级同学修好旧书箱，让来借书的人比以前多了　C．社区的旧书箱从前很旧，现在刷了新漆　D．低年级同学把书一本本摊在石凳上晾干",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-7-event",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括一段材料要抓住主要人物和他做的主要事件，还要带上结果。",
+      "材料里的主要人物是几个低年级同学，主要事件是修好旧书箱，结果是来借书的人变多了。",
+      "A只写了起因，C只写了表面变化，D只写了其中一步，都不算概括。答：B。"
+    ],
+    "hint": "概括时先问三句：谁做的？做了什么事？最后怎么样？三句都答上才完整。",
+    "alternative": "也可以先给材料分两层：哪些是主要情节、哪些是细节描写，概括时留下主要情节那一层就好。",
+    "prerequisites": [
+      "chinese-7-event"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-7-event__old-book-box"
+  },
+  {
+    "id": "bank-chinese-7-event-c02",
+    "familyId": "chinese-7-event__fam-32",
+    "version": 1,
+    "text": "读下面的材料，判断哪一项是这段材料的主要事件（　　）。学校后面的小菜园荒了两年。今年春天，几位同学种下了番茄和辣椒，还立了一块小木牌，写着「今天种下的东西，请每天来看看」。暑假里，木牌旁边多了一本观察记录，写着每株苗长到多高。秋天，菜园收下了第一篮番茄，分给了各班。A．同学们把小菜园重新种起来，坚持照料和记录，最后收获了番茄　B．学校后面有一块小菜园　C．小木牌上写着「今天种下的东西，请每天来看看」　D．暑假里同学们写了一份观察记录",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-7-event",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主要事件是材料围绕展开的那件事，其余的往往是它的细节。",
+      "材料从荒了两年写到收获番茄，中间是同学们种菜、照料、记录，主线很清楚。",
+      "B、C、D都是材料里的具体细节，不是材料的主要事件。答：A。"
+    ],
+    "hint": "判断主要事件可以看两头：材料的开头和结尾说的通常就是主要事件。",
+    "alternative": "也可以问自己：把哪一句删掉，故事就不完整了？那一句所在的部分就是主要事件。",
+    "prerequisites": [
+      "chinese-7-event"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-7-event__school-garden"
+  },
+  {
+    "id": "bank-chinese-7-context-c01",
+    "familyId": "chinese-7-context__fam-31",
+    "version": 1,
+    "text": "背景：那年山里的学校没有几本书，一本书读完了要排队借给下一个同学。桌角那本卷了边的《我们爱科学》，被一个孩子用牛皮纸包了书皮，还在第一页上写了一行小字：「这本书陪我度过了三个冬天。」联系背景，这行小字最能说明（　　）。A．这个孩子练字很认真，一笔一画写得都很工整　B．这个孩子想把书卖掉，换一本新的　C．书难得轮到自己读，这行字里含着对这本书的珍爱　D．这个孩子嫌这本书太旧，不好意思让别人看",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-7-context",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "同一句话在不同背景下分量不同，联系背景才能读准作者的心情。",
+      "背景里书很少、借书要排队，孩子借到书还包了书皮，写下「陪我度过了三个冬天」，珍爱之情就写出来了。",
+      "A、B、D在背景里都找不到依据，B、D还与背景相反，只有C说得准。答：C。"
+    ],
+    "hint": "读这类句子先问一句：当时是个什么年头？在这样的日子里，这句话才有分量。",
+    "alternative": "也可以从动作入手：包书皮、在第一页写字，这些小动作比直接说「我很喜欢这本书」更能显出珍爱。",
+    "prerequisites": [
+      "chinese-7-context"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-7-context__old-science-book"
+  },
+  {
+    "id": "bank-chinese-7-context-c02",
+    "familyId": "chinese-7-context__fam-32",
+    "version": 1,
+    "text": "背景：那年冬天，村里把各家凑来的粮食集中起来，送到受灾的邻村去。有位老农把自己家的口粮省下来，一连二十天，每天送去一小袋米。别人问他家里够不够吃，他说：「粮食要送远地方，我在这儿少吃一顿，扛一扛就过去了。」联系背景，老农这句话最能看出他怎样的想法（　　）。A．他把个人的难处放在大家需要的后边，自己吃点苦是值得的　B．他家粮食多得吃不完，省一两天根本不算什么　C．他嫌自家的粮食不好吃，想换换口味　D．他怕别人知道他家的粮食不够吃",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "chinese-7-context",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "理解人物的话要放回当时的处境里，不能只听字面。",
+      "背景里全村都在送粮，老农却一直省着自己的口粮去送，这句话里的「扛一扛」就是把自己的难处往后放。",
+      "B、C、D在背景里都找不到依据，B、D还与背景相反，只有A说得准。答：A。"
+    ],
+    "hint": "同一句话换个处境就换一个意思，先把当时的情形想清楚，再看这句话的分量。",
+    "alternative": "也可以从反复的动作入手：连续二十天每天送一小袋米，这个坚持本身就把他的心意说了出来。",
+    "prerequisites": [
+      "chinese-7-context"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-7-context__grain-for-neighbors"
+  },
+  {
+    "id": "bank-chinese-8-brief-c01",
+    "familyId": "chinese-8-brief__fam-31",
+    "version": 1,
+    "text": "简要复述一件事，下面哪种做法最合适（　　）。A．把事情从头到尾一字不差地背下来　B．抓住主要人物和主要情节，按顺序把起因、经过、结果说清楚　C．只说结果，过程可以全部省掉　D．把自己听到的趣闻和心里想到的联想都加进去",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-8-brief",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "简要复述要简，但不能把事情的来龙去脉丢掉。",
+      "抓住主要人物和主要情节，按起因、经过、结果的顺序讲，读者才听得明白。",
+      "A成了背诵，C丢了过程，D加入了原文没有的东西，都不是简要复述。答：B。"
+    ],
+    "hint": "简要复述不是越短越好，而是讲清楚最重要，检查时看三样有没有：谁、怎么、结果。",
+    "alternative": "也可以先写一个三行提纲，把每行压缩成一句话，再照着提纲讲，就不必背原文了。",
+    "prerequisites": [
+      "chinese-8-brief"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-8-brief__brief-method"
+  },
+  {
+    "id": "bank-chinese-8-brief-c02",
+    "familyId": "chinese-8-brief__fam-32",
+    "version": 1,
+    "text": "简要复述下面这件事，哪一种复述最合适（　　）。放学时突然下起大雨，同桌小林没带伞。小航犹豫了一下，撑开自己的伞，和小林一起走回了家。一路上，小航的右肩全湿了。A．小航和小林一起走回了家　B．放学下雨，小航把伞撑在头顶，自己一路淋在雨里　C．放学时下雨，小航的右肩湿透了，因为风把伞吹跑了　D．放学下雨，同桌小林没带伞，小航撑伞送他回家，自己的右肩淋湿了",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "chinese-8-brief",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "简要复述要留下起因、经过和结果里的关键部分，而且要和原文一致。",
+      "D保住了「小林没带伞」这个起因、「小航撑伞送他」这个经过和「右肩淋湿」这个结果。",
+      "A丢掉了起因和经过，B说反了谁撑伞，C把原因换成了原文没有的说法。答：D。"
+    ],
+    "hint": "复述完检查两件事：说的事和原文一样吗？主要情节有没有掉？",
+    "alternative": "也可以用「谁、做什么、结果」当模板：先说清楚谁遇到什么麻烦，再说谁做了什么，最后说结果，和原文一一对照着讲。",
+    "prerequisites": [
+      "chinese-8-brief"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-8-brief__one-umbrella"
+  },
+  {
+    "id": "bank-chinese-8-classical-c01",
+    "familyId": "chinese-8-classical__fam-31",
+    "version": 1,
+    "text": "故事：「古时候，一个孩子站在大水缸边，失足掉进了缸里。缸很大很深，孩子在水里直扑腾。同伴们有的吓跑了，有的跑去喊大人。司马光却没有慌，他搬起一块大石头，使劲砸向水缸。缸一破，水流了出来，孩子得救了。」这个故事给我们的启示是（　　）。A．遇到危险要赶紧躲开，别靠近　B．碰到突发的情况要沉着冷静，想办法解决问题　C．一个人的力气小，遇事要请很多人来帮忙　D．水缸很危险，以后离水缸远远的",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "chinese-8-classical",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读故事要想：别人是怎么做的，主人公又是怎么做的，他的做法好在哪里。",
+      "同伴们慌了神去叫人，司马光却先搬石头砸缸，用最省事的办法把问题解决了。",
+      "A、D是害怕和躲避，C只强调人多，都不是这个故事要讲的道理，只有B抓住了沉着想办法。答：B。"
+    ],
+    "hint": "比较两种做法：一种是慌了神去叫人，一种是沉住气想法子，故事要讲的往往就在这个差别里。",
+    "alternative": "也可以从办法入手：别人想的是喊人，司马光想的是砸缸救人，启示就从「换个办法」上得出来。",
+    "prerequisites": [
+      "chinese-8-classical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-8-classical__broken-jar"
+  },
+  {
+    "id": "bank-chinese-8-classical-c02",
+    "familyId": "chinese-8-classical__fam-32",
+    "version": 1,
+    "text": "故事：「古时候有个医生叫扁鹊。他去见一位病人，说：『您的病在皮肤上，用热水敷一敷就能好。』病人说：『我身上没有什么不舒服。』过了十来天，扁鹊又来，说：『病已经发展到肠胃里了。』病人非常不高兴。再过十几天，扁鹊说病已深入骨髓，没法医治。没过多久，病人就病死了。」注：敷，指把热的东西盖在伤口上；骨髓，指骨头里面含有营养的液体。联系故事，下面理解正确的一项是（　　）。A．病人不肯治病，是因为扁鹊的医术不高　B．病在皮肤上的时候，病人应该马上去找别的医生　C．病在皮肤上时用热水敷就能治好，后来没治好，是因为错过了早期　D．扁鹊后来说的话越来越可怕，说明他故意吓病人",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "chinese-8-classical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "借助注释读懂难词的意思，再把难词放回故事里，故事的主旨就清楚了。",
+      "扁鹊三次来看病，一次比一次严重，病人一次比一次不高兴，耽误了早期医治，所以病拖到无法医治。",
+      "A、D是对扁鹊和病人的误解，B把治好的机会推给别的医生，都与故事不符，只有C说得对。答：C。"
+    ],
+    "hint": "先把注释里的难词讲成白话，再看故事里病是怎么一步步变重的，就明白关键在哪儿。",
+    "alternative": "也可以按扁鹊三次来看病来读：每多说一次，病人就晚一步，时间就是这么耽误过去的。",
+    "prerequisites": [
+      "chinese-8-classical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-8-classical__early-cure"
+  }
+]

@@ -3,7 +3,7 @@ import { colors, styles } from '../../theme';
 import { Button, Card } from '../ui';
 import type { HelpLevel, KnowledgeId } from '../../local/types';
 
-export const knowledgeNames: Record<KnowledgeId, string> = { division: '估商与检验', geometry: '周长与面积', multiplication: '乘法与运算' };
+export const knowledgeNames: Partial<Record<KnowledgeId, string>> = { division: '估商与检验', geometry: '周长与面积', multiplication: '乘法与运算' };
 export const helpNames: Record<HelpLevel, string> = { independent: '独立作答', hint: '使用提示', explanation: '看过讲解', unknown: '帮助情况待确认' };
 export function dateLabel(value?: string) { if (!value) return '尚未提交'; const d = new Date(value); return `${d.getMonth() + 1}月${d.getDate()}日`; }
 export function errorMessage(error: unknown) { return error instanceof Error ? error.message : '操作未完成，请重试。'; }

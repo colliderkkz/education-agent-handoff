@@ -1,9 +1,9 @@
-import type { ApiResult, ChatIntent, ChatMessage, CompanionContext, CompanionDeletePreview, CompanionRequest, CompanionState, CompanionThread, HelpRequest, LearningPreference, Question, Role, UsedLearningPreference, WorkspaceState } from '../types.ts';
+import { mergedQuestions, type ApiResult, type ChatIntent, type ChatMessage, type CompanionContext, type CompanionDeletePreview, type CompanionRequest, type CompanionState, type CompanionThread, type ContentBank, type HelpRequest, type LearningPreference, type Question, type Role, type UsedLearningPreference, type WorkspaceState } from '../types.ts';
 import { DomainError } from './domain-error.ts';
 import { canonicalStringify, questionContentDigest, sha256 } from './content.ts';
 
 type Input = Record<string, unknown>;
-type Context = { now: string; newId: () => string; userId: string; role: Role; displayName?: string; channel?: 'local' };
+type Context = { now: string; newId: () => string; userId: string; role: Role; displayName?: string; channel?: 'local'; bank?: ContentBank };
 type Expose = (state: WorkspaceState, familyId: string, level: 'hint' | 'explanation') => void;
 const intents: ChatIntent[] = ['note','hint','explanation','alternative'];
 const fail = (message: string, status = 400): never => { throw new DomainError(message,status); };
@@ -39,7 +39,7 @@ function owned(companion: CompanionState, value: unknown, userId: string): Compa
   const thread = companion.threads.find(thread => thread.id === id(value) && thread.ownerId === userId);
   check(thread,'对话不存在或不属于当前使用者',404); return thread;
 }
-function resolveContext(state: WorkspaceState, value: unknown): {context: CompanionContext; snapshot?: Question} {
+function resolveContext(state: WorkspaceState, value: unknown, bank?: ContentBank): {context: CompanionContext; snapshot?: Question} {
   const context = object(value);
   if (context.source === 'general') { keys(context,['source']); return {context:{source:'general'}}; }
   check(context.source === 'bank' || context.source === 'paper','请选择明确的题库或原卷来源');
@@ -47,13 +47,13 @@ function resolveContext(state: WorkspaceState, value: unknown): {context: Compan
   const questionId = id(context.questionId);
   check(Number.isSafeInteger(context.questionVersion) && Number(context.questionVersion)>0,'题目版本无效');
   const paper = context.source === 'paper' ? state.papers.find(p => p.id === id(context.paperId)) : undefined;
-  const q = context.source === 'paper' ? paper?.questions.find(q => q.id === questionId) : state.questions.find(q => q.id === questionId && q.status === 'published' && q.reviewerId && q.reviewerId !== q.authorId);
+  const q = context.source === 'paper' ? paper?.questions.find(q => q.id === questionId) : mergedQuestions(state, bank).find(q => q.id === questionId && q.status === 'published' && q.reviewerId && q.reviewerId !== q.authorId);
   check(q,'没有找到该来源中的可引用题目，请返回原卷或题库核对',404);
   check(q.version === context.questionVersion,'题目版本已变化，请重新打开明确的题目版本',409);
   return {context:{source:context.source,questionId:q.id,questionVersion:q.version,questionDigest:questionContentDigest(q),questionText:q.text,familyId:q.familyId,knowledgeId:q.knowledgeId,...(paper?{paperId:paper.id}:{})},snapshot:structuredClone(q)};
 }
 function open(state: WorkspaceState, value: unknown, ctx: Context): {thread: CompanionThread; created: boolean} {
-  const companion = ensureCompanion(state,ctx), resolved = resolveContext(state,value);
+  const companion = ensureCompanion(state,ctx), resolved = resolveContext(state,value,ctx.bank);
   const key = canonicalStringify(resolved.context);
   const prior = companion.threads.find(t => t.ownerId === ctx.userId && canonicalStringify(t.context) === key);
   if (prior) return {thread:prior,created:false};
@@ -242,7 +242,7 @@ export function validateCompanionState(state: WorkspaceState): void {
       keys(context,context.source==='paper'?['source','paperId','questionId','questionVersion','questionDigest','questionText','familyId','knowledgeId']:['source','questionId','questionVersion','questionDigest','questionText','familyId','knowledgeId']);
       if (context.source==='paper') check(identifier(context.paperId),'原卷引用无效');
       const q=object(t.snapshot);
-      keys(q,['id','familyId','version','text','answer','unit','knowledgeId','difficulty','source','sourceScope','steps','hint','alternative','prerequisites','status','authorId','reviewerId','reviewNote','createdAt','taskType','contextId']);
+      keys(q,['id','familyId','version','text','answer','unit','knowledgeId','difficulty','source','sourceScope','steps','hint','alternative','prerequisites','status','authorId','reviewerId','reviewNote','createdAt','taskType','contextId','image']);
       check(identifier(q.id)&&identifier(q.familyId)&&Number.isSafeInteger(q.version)&&Number(q.version)>0&&bounded(q.text,2000)&&bounded(q.answer,300)&&bounded(q.unit,30,true)&&['division','geometry','multiplication'].includes(String(q.knowledgeId)),'题目快照身份无效');
       check(['基础','巩固','挑战'].includes(String(q.difficulty))&&['draft','review','approved','published','disabled'].includes(String(q.status))&&bounded(q.source,300)&&bounded(q.sourceScope,300,true)&&bounded(q.hint,1000,true)&&bounded(q.alternative,2000,true)&&bounded(q.authorId,150)&&date(q.createdAt),'题目快照内容无效');
       for (const name of ['steps','prerequisites']) check(Array.isArray(q[name])&&(q[name] as unknown[]).length<=20&&(q[name] as unknown[]).every(s=>bounded(s,1500,true)),'题目快照步骤无效');

@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "bank-english-3-place-001",
+    "familyId": "english-3-place__fam-01",
+    "version": 1,
+    "text": "Mum says: 'I sleep here every night. There is a bed, a lamp and a small table in this room.' Which room is Mum's?",
+    "answer": "The bedroom.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "房间里最有特点的是那张床和床头灯，判断时先找家具。",
+      "bed 是卧室里最典型的物品，说明这是睡觉的房间。",
+      "答：The bedroom."
+    ],
+    "hint": "先找出句子里提到的家具，再想这种家具一般放在家里哪个房间。",
+    "alternative": "也可以答 It's the bedroom. 用 it's 引出房间名，语气更轻松。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__home-rooms"
+  },
+  {
+    "id": "bank-english-3-place-002",
+    "familyId": "english-3-place__fam-02",
+    "version": 1,
+    "text": "Dad is cooking. You can smell the food and hear the pan in the kitchen. Where is Dad?",
+    "answer": "He is in the kitchen.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "闻到饭菜的味道、听见锅响，是正在做饭的场面。",
+      "家里专门用来做事的房间叫 kitchen。",
+      "答：He is in the kitchen."
+    ],
+    "hint": "想一想家里哪个房间是用来做饭的，那个房间就是答案。",
+    "alternative": "也可以答 He's in the kitchen. 缩写形式在口语回答里更常用。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__home-rooms"
+  },
+  {
+    "id": "bank-english-3-place-003",
+    "familyId": "english-3-place__fam-03",
+    "version": 1,
+    "text": "You hear the shower. Your father takes a shower every evening. Which room has a shower in it?",
+    "answer": "The bathroom.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "shower（淋浴）是判断房间的关键线索。",
+      "家里有 shower 的房间是 bathroom。",
+      "答：The bathroom."
+    ],
+    "hint": "找出句子里表示洗漱的单词，再想这种设施装在哪个房间。",
+    "alternative": "也可以答 It's the bathroom. 回答房间名时用 it's 更简短。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__home-rooms"
+  },
+  {
+    "id": "bank-english-3-place-004",
+    "familyId": "english-3-place__fam-04",
+    "version": 1,
+    "text": "There is a big desk and a chair in this room. Grandpa sits here and reads the newspaper every evening. Which room is it?",
+    "answer": "The study.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "书桌、椅子加上看报纸，说明这是安静看书的地方。",
+      "home 里专门看书学习的小房间叫 study。",
+      "答：The study."
+    ],
+    "hint": "看书、写东西的房间，桌子上常常还摆着书和台灯。",
+    "alternative": "也可以答 It's the study. 或 The reading room. 用更常见的说法表达。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__home-rooms"
+  },
+  {
+    "id": "bank-english-3-place-005",
+    "familyId": "english-3-place__fam-05",
+    "version": 1,
+    "text": "You need a story book for your homework. You borrow it from this place and give it back in two weeks. Where is it?",
+    "answer": "The library.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "能借书、并要求按时还书，这个地方就是图书馆。",
+      "school 里可以借书的房间叫 library。",
+      "答：The library."
+    ],
+    "hint": "想想学校里哪个地方可以借书、还书，还要登记。",
+    "alternative": "也可以答 It's the school library. 加上 school 能说得更清楚。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__school-places"
+  },
+  {
+    "id": "bank-english-3-place-006",
+    "familyId": "english-3-place__fam-06",
+    "version": 1,
+    "text": "Look at the room with many brushes and coloured paper. The children are drawing pictures here. What room is it?",
+    "answer": "The art room.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "画笔、彩纸和画画的活动指向同一个房间。",
+      "上美术课的房间叫 art room。",
+      "答：The art room."
+    ],
+    "hint": "先找出表示画画材料的词，再把它和 school 里的房间名连起来。",
+    "alternative": "也可以答 It's the art room. 回答房间名时先说 it is。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__school-places"
+  },
+  {
+    "id": "bank-english-3-place-007",
+    "familyId": "english-3-place__fam-07",
+    "version": 1,
+    "text": "You hear someone singing and playing the piano. The music class is held in this room. What room is it?",
+    "answer": "The music room.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "唱歌和弹钢琴是判断房间的关键线索。",
+      "上音乐课的房间叫 music room。",
+      "答：The music room."
+    ],
+    "hint": "钢琴和歌声一起出现时，再想想 school 里和音乐有关的房间名怎么拼。",
+    "alternative": "也可以答 It's the music room. 把 music 和 room 连起来记忆。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__school-places"
+  },
+  {
+    "id": "bank-english-3-place-008",
+    "familyId": "english-3-place__fam-08",
+    "version": 1,
+    "text": "There are many shelves and baskets here. You can buy bread, milk and fruit in this place. Where are you?",
+    "answer": "You are at the supermarket.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "货架很多、东西分成一排排，这是大商店的样子。",
+      "这样的大商店叫 supermarket。",
+      "答：You are at the supermarket."
+    ],
+    "hint": "先想买东西的地方，再分辨它是小商店还是大超市。",
+    "alternative": "也可以答 I'm in the supermarket. 用 in 表示人在里面。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__town-places"
+  },
+  {
+    "id": "bank-english-3-place-009",
+    "familyId": "english-3-place__fam-09",
+    "version": 1,
+    "text": "A doctor and a nurse work here. If you have a fever, you go here to see the doctor. What place is it?",
+    "answer": "The hospital.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "医生护士在这里工作，生病要来找他们，说明是医院。",
+      "hospital 是医院。",
+      "答：The hospital."
+    ],
+    "hint": "生病发烧要去找医生，想一想那个地方的英文名。",
+    "alternative": "也可以答 It's the hospital. 用 it's 表示就在那里。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__town-places"
+  },
+  {
+    "id": "bank-english-3-place-010",
+    "familyId": "english-3-place__fam-10",
+    "version": 1,
+    "text": "You are standing on the pavement and waiting. A big sign says 'Bus'. Where are you waiting?",
+    "answer": "You are at the bus stop.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "在路边等车，旁边还有写着车的牌子。",
+      "等公交车的地方叫 bus stop。",
+      "答：You are at the bus stop."
+    ],
+    "hint": "在路边等车车的地点，英文是 bus 后面再加一个词。",
+    "alternative": "也可以答 I'm at the bus stop. 用 at 表示在某个地点。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__town-places"
+  },
+  {
+    "id": "bank-english-3-place-011",
+    "familyId": "english-3-place__fam-11",
+    "version": 1,
+    "text": "It is Sunday morning. Lily and her father are climbing a big tree and flying a kite. Where are they?",
+    "answer": "They are in the park.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "爬树、放风筝是户外活动，需要大树和开阔的草地。",
+      "这样活动的场所是 park。",
+      "答：They are in the park."
+    ],
+    "hint": "先想这个活动需要什么样的地方：树、草地、空地。",
+    "alternative": "也可以答 They're in the park. 缩写形式在口语中更常用。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__activity-place-match"
+  },
+  {
+    "id": "bank-english-3-place-012",
+    "familyId": "english-3-place__fam-12",
+    "version": 1,
+    "text": "Ben is thirsty and hungry. He needs a bottle of water and a cake. Where can he buy them?",
+    "answer": "At the shop.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "买吃的喝的要找卖食品和日用品的商店。",
+      "小商店叫 shop，大型超市叫 supermarket。",
+      "答：At the shop."
+    ],
+    "hint": "想买水和蛋糕，先想一想 shop 和 supermarket 哪个更常用。",
+    "alternative": "也可以答 At the supermarket. 或者 He can go to the shop. 说出地点后再补一句理由。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__activity-place-match"
+  },
+  {
+    "id": "bank-english-3-place-013",
+    "familyId": "english-3-place__fam-13",
+    "version": 1,
+    "text": "Look at the street map. The park is next to the cinema. Tom wants to watch a film. Where should he go?",
+    "answer": "He should go to the cinema.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先读地图上 park 和 cinema 的位置关系，再看 Tom 想做什么。",
+      "看电影要去 cinema。",
+      "答：He should go to the cinema."
+    ],
+    "hint": "先从地图上找线索，再把线索和人物的目的连起来。",
+    "alternative": "也可以答 He should go to the cinema near the park. 用地图上的位置补充说明。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__street-map-route"
+  },
+  {
+    "id": "bank-english-3-place-014",
+    "familyId": "english-3-place__fam-14",
+    "version": 1,
+    "text": "Look at the town map. A is the school, B is the hospital and C is the shop. The hospital is between the school and the shop. Which letter is the hospital?",
+    "answer": "B.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "地图上 between 表示在两者之间，先确认 school 和 shop 的位置。",
+      "夹在 school 和 shop 中间的那个标记就是医院。",
+      "答：B."
+    ],
+    "hint": "先找出 school 和 shop，再看哪个标记正好夹在它们中间。",
+    "alternative": "也可以答 Letter B. 把字母和医院连起来说一遍更清楚。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__street-map-route"
+  },
+  {
+    "id": "bank-english-3-place-015",
+    "familyId": "english-3-place__fam-15",
+    "version": 1,
+    "text": "Mum cannot find her cup. You look under the bed, but it is not there. Then you look on the table and you can see it. Where is the cup?",
+    "answer": "It is on the table.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目给出两个查找位置，要一个一个对照。",
+      "bed 下面没有，桌上看见了，所以用 on the table。",
+      "答：It is on the table."
+    ],
+    "hint": "读一读题目给的几个位置，看哪个位置的方位词和答案一致。",
+    "alternative": "也可以答 The cup is on the table. 把 cup 放在主语位置更完整。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__find-it-at-home"
+  },
+  {
+    "id": "bank-english-3-place-016",
+    "familyId": "english-3-place__fam-16",
+    "version": 1,
+    "text": "Tom asks: 'Where is my football?' You look under the bed and you can see it there. Where is the football?",
+    "answer": "It is under the bed.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "under 表示在……下面，是找东西时常用的方位词。",
+      "球在床底下，所以是 under the bed。",
+      "答：It is under the bed."
+    ],
+    "hint": "东西在床的下面，方位词用 under 还是 on 想一想。",
+    "alternative": "也可以答 The football is under the bed. 把球放在主语位置。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__find-it-at-home"
+  },
+  {
+    "id": "bank-english-3-place-017",
+    "familyId": "english-3-place__fam-17",
+    "version": 1,
+    "text": "Sunday plan: you and Grandma are going to see the animals and give them food. Where are you going?",
+    "answer": "We are going to the zoo.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看很多动物、还能给动物喂食，是动物园里的活动。",
+      "zoo 是动物园。",
+      "答：We are going to the zoo."
+    ],
+    "hint": "想看到很多动物，还要能喂它们，去哪里最合适？",
+    "alternative": "也可以答 We're going to the zoo. 用 going to 表示将要去的计划。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__weekend-plan"
+  },
+  {
+    "id": "bank-english-3-place-018",
+    "familyId": "english-3-place__fam-18",
+    "version": 1,
+    "text": "Your friend says: 'Let's see a new film tonight.' Where will you go?",
+    "answer": "We will go to the cinema.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看电影是很明确的线索，放映电影的地方就是电影院。",
+      "cinema 是电影院。",
+      "答：We will go to the cinema."
+    ],
+    "hint": "看到 film 就想到放电影的地方，把 film 和地点连起来。",
+    "alternative": "也可以答 We're going to the cinema. 用 be going to 表示计划。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__weekend-plan"
+  },
+  {
+    "id": "bank-english-3-place-019",
+    "familyId": "english-3-place__fam-19",
+    "version": 1,
+    "text": "There is a big playground near your home. Many children run and play there after school. What place is it?",
+    "answer": "The playground.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "playground 是给孩子们玩耍的地方，有滑梯和秋千。",
+      "play 和 ground 合起来就是 playground。",
+      "答：The playground."
+    ],
+    "hint": "想想学校或小区里专门给孩子们玩的地方叫什么。",
+    "alternative": "也可以答 It's the playground. 把 play 和 ground 连起来记忆。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__neighbourhood-places"
+  },
+  {
+    "id": "bank-english-3-place-020",
+    "familyId": "english-3-place__fam-20",
+    "version": 1,
+    "text": "Near your home there is a small shop. It sells bread, milk and newspapers. People go there every morning. What is it?",
+    "answer": "It is a shop.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "面包牛奶和报纸说明这是一个卖日常用品的小店。",
+      "shop 是商店，bread、newspapers 这样的词常和它一起出现。",
+      "答：It is a shop."
+    ],
+    "hint": "大小不是关键，先看它卖什么，再想这类店的名字。",
+    "alternative": "也可以答 It's the shop near my home. 用 nearby 的位置把答案说完整。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__neighbourhood-places"
+  },
+  {
+    "id": "bank-english-3-place-021",
+    "familyId": "english-3-place__fam-21",
+    "version": 1,
+    "text": "You have a letter for your grandma in another city. Where do you take it?",
+    "answer": "To the post office.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "寄信要到能收件、寄件的地方。",
+      "post office 是邮局。",
+      "答：To the post office."
+    ],
+    "hint": "想想寄信件、寄包裹要去哪个地方。",
+    "alternative": "也可以答 I take it to the post office. 用动词把动作和地点连起来。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__post-office-letter"
+  },
+  {
+    "id": "bank-english-3-place-022",
+    "familyId": "english-3-place__fam-22",
+    "version": 1,
+    "text": "Your family is going to Hangzhou by train. Where do you wait for the train?",
+    "answer": "At the train station.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "坐火车要先到能上车的车站。",
+      "train station 是火车站。",
+      "答：At the train station."
+    ],
+    "hint": "等火车和等公交车的地点不同，想想那个站台的英文名。",
+    "alternative": "也可以答 We wait at the train station. 用完整句子说明人在哪里等。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__train-station-trip"
+  },
+  {
+    "id": "bank-english-3-place-023",
+    "familyId": "english-3-place__fam-23",
+    "version": 1,
+    "text": "You want to see old coins and famous paintings. There are many things to look at, but you cannot touch them. Where do you go?",
+    "answer": "To the museum.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "欣赏只能看不能摸的展品，是参观博物馆的特点。",
+      "museum 是博物馆。",
+      "答：To the museum."
+    ],
+    "hint": "参观、欣赏不能触摸的展品，去哪一类场馆？",
+    "alternative": "也可以答 I go to the museum. 用 I go to ... 说出目的地。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__museum-visit"
+  },
+  {
+    "id": "bank-english-3-place-024",
+    "familyId": "english-3-place__fam-24",
+    "version": 1,
+    "text": "It is twelve o'clock. You and Mum are hungry. You don't want to eat at home today. Where do you go?",
+    "answer": "We go to a restaurant.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "不在家吃饭、到外面坐着吃，说明要去餐厅。",
+      "restaurant 是餐厅。",
+      "答：We go to a restaurant."
+    ],
+    "hint": "外面买饭、坐着吃饭的地方叫什么？",
+    "alternative": "也可以答 Let's go to the restaurant. 用 let's 发出邀请。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__restaurant-lunch"
+  },
+  {
+    "id": "bank-english-3-place-025",
+    "familyId": "english-3-place__fam-25",
+    "version": 1,
+    "text": "Grandma's home is in the countryside. There are cows and hens behind the house. What place is it?",
+    "answer": "It is a farm.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "田野、牛和鸡说明这是一个养牲畜的地方。",
+      "farm 是农场。",
+      "答：It is a farm."
+    ],
+    "hint": "在乡村里养牛养鸡的地方叫什么？",
+    "alternative": "也可以答 It's a farm. 用 it's 引出名词。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__farm-visit"
+  },
+  {
+    "id": "bank-english-3-place-026",
+    "familyId": "english-3-place__fam-26",
+    "version": 1,
+    "text": "Behind your home there is a small garden with many kinds of flowers. You water them on Sunday. What place is it?",
+    "answer": "The garden.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "种花、浇花的园子是 garden。",
+      "garden 是花园。",
+      "答：The garden."
+    ],
+    "hint": "种花的地方和公园不一样，它就在房子后面。",
+    "alternative": "也可以答 It's the garden behind my home. 用方位把地点说得更具体。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__garden-walk"
+  },
+  {
+    "id": "bank-english-3-place-027",
+    "familyId": "english-3-place__fam-27",
+    "version": 1,
+    "text": "Your father wants to keep his money safe. He takes you to a place where people save money. Where do you go?",
+    "answer": "We go to the bank.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "存钱、把钱保管好，是银行做的事。",
+      "bank 是银行。",
+      "答：We go to the bank."
+    ],
+    "hint": "想到「存钱」这个动作，再说这个地方的英文名。",
+    "alternative": "也可以答 We go to the bank to save money. 用不定式补充目的。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__bank-saving"
+  },
+  {
+    "id": "bank-english-3-place-028",
+    "familyId": "english-3-place__fam-28",
+    "version": 1,
+    "text": "Look at the school map. A is the music room, B is the library and C is the computer room. Your teacher says: 'Today we read story books together.' Which letter do you go to?",
+    "answer": "B.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读故事书的活动指向借书读书的房间。",
+      "地图上 B 是 library。",
+      "答：B."
+    ],
+    "hint": "先把每个字母表示的房间对上，再和今天要做的事配对。",
+    "alternative": "也可以答 Letter B, the library. 把字母和房间名一起说出来。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__school-map-rooms"
+  },
+  {
+    "id": "bank-english-3-place-029",
+    "familyId": "english-3-place__fam-29",
+    "version": 1,
+    "text": "Your family moves to a new home. It is a tall building next to a small park and a shop. Where is your new home?",
+    "answer": "It is next to the park.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目说家是一栋高楼，旁边有 park 和 shop。",
+      "next to 表示紧挨着，用它把位置关系说清楚。",
+      "答：It is next to the park."
+    ],
+    "hint": "题目给了两个参照地点，选一个用 next to 说清楚。",
+    "alternative": "也可以答 It's near the park. 或 Our new home is next to the shop. 用别的参照物表达。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__new-home-neighbours"
+  },
+  {
+    "id": "bank-english-3-place-030",
+    "familyId": "english-3-place__fam-30",
+    "version": 1,
+    "text": "You want to ask the teacher about your homework. She is not in the classroom; she is in the room with many books and the students' marks. Where is she?",
+    "answer": "She is in the teachers' office.",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "学生的分数本和许多书说明这是老师办公用的房间。",
+      "老师办公、批改作业的房间叫 teachers' office。",
+      "答：She is in the teachers' office."
+    ],
+    "hint": "专门给老师办公、批改作业的房间叫什么？",
+    "alternative": "也可以答 She's in the teachers' office. 缩写形式更简短。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-place__teachers-office-help"
+  },
+  {
+    "id": "bank-english-3-question-001",
+    "familyId": "english-3-question__fam-01",
+    "version": 1,
+    "text": "Your friend asks: 'Where is your school?' Say where your school is. Use 'It's ...'.",
+    "answer": "It's near my home.",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "被问的是地点，答句里要出现表示位置的词，如 near、next to、in。",
+      "回答要说清学校在家的什么位置。",
+      "答：It's near my home."
+    ],
+    "hint": "先想学校和家之间是什么位置关系，再把它说成一句话。",
+    "alternative": "也可以答 It's next to the park. 换一个参照物回答同一个问题。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-is-question"
+  },
+  {
+    "id": "bank-english-3-question-002",
+    "familyId": "english-3-question__fam-02",
+    "version": 1,
+    "text": "Your little brother cannot find his football. Ask him where the football is.",
+    "answer": "Where is your football?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问位置用 Where is ...? 的句型，名词前常加 your、my。",
+      "要用问句，不能写成陈述句。",
+      "答：Where is your football?"
+    ],
+    "hint": "问「东西在哪里」要用哪个疑问词开头，后面跟 be 动词。",
+    "alternative": "也可以问 Where's your football? 用 Where's 的缩写形式。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-is-question"
+  },
+  {
+    "id": "bank-english-3-question-003",
+    "familyId": "english-3-question__fam-03",
+    "version": 1,
+    "text": "You want to know where your mother is. She is not in the kitchen. Ask her a question about her place.",
+    "answer": "Where is Mum?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问某个人在哪里用 Where is ...? ，人名放在 be 动词后面。",
+      "语序要是「疑问词 + be + 人」。",
+      "答：Where is Mum?"
+    ],
+    "hint": "问「妈妈在哪里」时，疑问词后面要跟哪个 be 动词？",
+    "alternative": "也可以问 Where's your mother? 用 your 加上关系更清楚。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-is-question"
+  },
+  {
+    "id": "bank-english-3-question-004",
+    "familyId": "english-3-question__fam-04",
+    "version": 1,
+    "text": "Make a question for the answer: 'My new school is in the city centre.'",
+    "answer": "Where is your new school?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答案里说学校在市中心，问题就要问学校在哪里。",
+      "把陈述句改成疑问句，句首要加疑问词。",
+      "答：Where is your new school?"
+    ],
+    "hint": "答案里有 in the city centre，先想想这句在回答什么问题。",
+    "alternative": "也可以问 Where's your new school? 缩写形式更简短。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-is-question"
+  },
+  {
+    "id": "bank-english-3-question-005",
+    "familyId": "english-3-question__fam-05",
+    "version": 1,
+    "text": "Your friend asks: 'Where do you go after school?' Answer with a place.",
+    "answer": "I go to the library.",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问常去的地点用 Where do you ...? ，答句里的动词用原形 go。",
+      "回答要说出放学以后去的那个地方。",
+      "答：I go to the library."
+    ],
+    "hint": "注意问句里的 do 和答句里的 go 是怎么配合的。",
+    "alternative": "也可以答 I usually go to the park. 用 usually 说明是经常做的事。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-do-you-go"
+  },
+  {
+    "id": "bank-english-3-question-006",
+    "familyId": "english-3-question__fam-06",
+    "version": 1,
+    "text": "You are in the classroom and the new books are not on the shelf. Ask the teacher where they are.",
+    "answer": "Where are the new books?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问复数的东西用 Where are ...? ，be 动词要用 are。",
+      "问的对象是 the new books。",
+      "答：Where are the new books?"
+    ],
+    "hint": "书是复数，问句里的 be 动词应该用哪一个？",
+    "alternative": "也可以问 Where are my new books? 用 my 表示是自己的书。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-do-you-go"
+  },
+  {
+    "id": "bank-english-3-question-007",
+    "familyId": "english-3-question__fam-07",
+    "version": 1,
+    "text": "Write a question for this answer: 'I go to the cinema with my father on Sunday.'",
+    "answer": "Where do you go on Sunday?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答案里说周日去电影院，问题就要问周日去哪里。",
+      "把 go 留在原位，句首加疑问词 Where do。",
+      "答：Where do you go on Sunday?"
+    ],
+    "hint": "答案里的时间说法 on Sunday 要放进问题里。",
+    "alternative": "也可以问 Where do you go with your father? 用另一种信息来提问。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__where-do-you-go"
+  },
+  {
+    "id": "bank-english-3-question-008",
+    "familyId": "english-3-question__fam-08",
+    "version": 1,
+    "text": "Ask your friend a yes/no question to find out if she is in the library now.",
+    "answer": "Are you in the library now?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「是不是在……」用 be 动词开头，主语是 you 时用 are。",
+      "地点词放在 in 或 at 的后面。",
+      "答：Are you in the library now?"
+    ],
+    "hint": "能用 Yes 或 No 回答的问题，开头应该用什么动词？",
+    "alternative": "也可以问 Are you at the library now? at 和 in 都能接地点。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__is-it-at"
+  },
+  {
+    "id": "bank-english-3-question-009",
+    "familyId": "english-3-question__fam-09",
+    "version": 1,
+    "text": "Look at the picture: the cat is under the table and the dog is in the box. Ask one yes/no question about the cat.",
+    "answer": "Is the cat under the table?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看图判断猫在哪里，再把这个判断变成问句。",
+      "陈述句变成疑问句时，把 be 动词提到句首。",
+      "答：Is the cat under the table?"
+    ],
+    "hint": "把「猫在桌子下面」这个肯定句改成疑问句试试。",
+    "alternative": "也可以问 Is the cat under the table or in the box? 用选择问句把两种可能都问出来。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__is-it-at"
+  },
+  {
+    "id": "bank-english-3-question-010",
+    "familyId": "english-3-question__fam-10",
+    "version": 1,
+    "text": "You meet Amy near the school gate. You want to know if she is going to the library. Ask her a yes/no question.",
+    "answer": "Are you going to the library?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「是不是打算去」可以用 be going to 来提问。",
+      "going 后面可以直接接地点。",
+      "答：Are you going to the library?"
+    ],
+    "hint": "「是不是打算去」可以用哪个结构来问？后面能接地点。",
+    "alternative": "也可以问 Are you going to the library now? 用 now 说明是此刻的打算。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__is-it-at"
+  },
+  {
+    "id": "bank-english-3-question-011",
+    "familyId": "english-3-question__fam-11",
+    "version": 1,
+    "text": "You are new in the city. A woman on the street looks friendly. Ask her where the hospital is.",
+    "answer": "Excuse me, where is the hospital?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "向陌生人问路，先说 Excuse me 再问 Where is ...? ，这样更礼貌。",
+      "问题里要说出要找的地点 hospital。",
+      "答：Excuse me, where is the hospital?"
+    ],
+    "hint": "和别人搭话问路，先用哪一句礼貌用语？",
+    "alternative": "也可以说 Excuse me, could you tell me where the hospital is? 用 could you tell me 更客气。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-directions"
+  },
+  {
+    "id": "bank-english-3-question-012",
+    "familyId": "english-3-question__fam-12",
+    "version": 1,
+    "text": "A visitor asks you: 'Where is the post office?' You know it is next to the bank. Answer the question.",
+    "answer": "It's next to the bank.",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答位置用 It's 加位置短语，next to 表示紧挨着。",
+      "题目给的参照物是 the bank。",
+      "答：It's next to the bank."
+    ],
+    "hint": "题目说了一个参照地点，答句里要把这个参照物用上。",
+    "alternative": "也可以答 The post office is next to the bank. 用完整的主语句回答。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-directions"
+  },
+  {
+    "id": "bank-english-3-question-013",
+    "familyId": "english-3-question__fam-13",
+    "version": 1,
+    "text": "You are in the supermarket. You need milk but you cannot find it. Ask the shop assistant a question.",
+    "answer": "Where can I find the milk?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "在商店里找不到东西，要向店员打听东西在哪里。",
+      "问店员可以用 Where can I find ...? 。",
+      "答：Where can I find the milk?"
+    ],
+    "hint": "在商店里问「在哪里」可以用 can I find 这个结构。",
+    "alternative": "也可以问 Excuse me, where is the milk? 简单直接。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-in-shop"
+  },
+  {
+    "id": "bank-english-3-question-014",
+    "familyId": "english-3-question__fam-14",
+    "version": 1,
+    "text": "You are at the shop. The shop assistant says: 'The bread is over there and the milk is on the second shelf.' Ask a question about the milk.",
+    "answer": "Where is the milk?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从店员的话里找出和牛奶有关的线索，再据此提问。",
+      "问牛奶在哪里用 Where is ...? 。",
+      "答：Where is the milk?"
+    ],
+    "hint": "店员的话里提到两样商品，先确定你想问哪一样。",
+    "alternative": "也可以问 Could you tell me where the milk is? 用委婉一点的说法。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-in-shop"
+  },
+  {
+    "id": "bank-english-3-question-015",
+    "familyId": "english-3-question__fam-15",
+    "version": 1,
+    "text": "You need a book for your art class. The teacher is in the art room. Ask her where the books are.",
+    "answer": "Excuse me, where are the books?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "向老师问东西的位置，先问好再问 Where are ...? 。",
+      "书的数量不止一本，be 动词要用 are。",
+      "答：Excuse me, where are the books?"
+    ],
+    "hint": "书是复数，问句里的 be 动词要用哪一个？",
+    "alternative": "也可以问 Where can I find the art books? 用 can I find 来提问。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-teacher"
+  },
+  {
+    "id": "bank-english-3-question-016",
+    "familyId": "english-3-question__fam-16",
+    "version": 1,
+    "text": "Your teacher asks you to give the new books to the computer room. You don't know where it is. Ask her one question.",
+    "answer": "Where is the computer room?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "任务要求你去一个陌生的地方，先把地点问清楚。",
+      "问房间的位置用 Where is ...? 。",
+      "答：Where is the computer room?"
+    ],
+    "hint": "你要去的地方是一个房间名，先把这个地点问出来。",
+    "alternative": "也可以问 Sorry, where is the computer room? 先表示歉意再问。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__asking-teacher"
+  },
+  {
+    "id": "bank-english-3-question-017",
+    "familyId": "english-3-question__fam-17",
+    "version": 1,
+    "text": "Your friend says: 'Let's go to the park this afternoon.' You agree and ask where to meet.",
+    "answer": "Where shall we meet?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "同意之后还要确定碰面的地点，用 Where shall we ...? 来问。",
+      "shall we 表示「我们是不是该……」。",
+      "答：Where shall we meet?"
+    ],
+    "hint": "两个人约好一起出门，还要定一个集合的地点，用哪个疑问词？",
+    "alternative": "也可以问 Where shall we meet? 在 the school gate. 在问句后补上答案。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__meeting-place"
+  },
+  {
+    "id": "bank-english-3-question-018",
+    "familyId": "english-3-question__fam-18",
+    "version": 1,
+    "text": "Your classmates want to visit the museum on Saturday. Someone asks: 'How shall we get there?' Ask two questions about the plan: the meeting place and the time.",
+    "answer": "Where shall we meet? What time shall we leave?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把计划问清楚，一个问题问集合地点，一个问题问时间。",
+      "问地点用 Where shall we ...? ，问时间用 What time shall we ...? 。",
+      "答：Where shall we meet? What time shall we leave?"
+    ],
+    "hint": "一次把两件事问清楚，分别问地点和时间。",
+    "alternative": "也可以问 Where and when shall we meet? 用一个问句同时问地点和时间。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__meeting-place"
+  },
+  {
+    "id": "bank-english-3-question-019",
+    "familyId": "english-3-question__fam-19",
+    "version": 1,
+    "text": "You cannot find your pencil case. Ask your father a question about where it might be.",
+    "answer": "Where is my pencil case?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找东西时要问它可能在什么地方，用 Where is ...? 。",
+      "问的是自己的东西，前面加 my。",
+      "答：Where is my pencil case?"
+    ],
+    "hint": "自己的东西在名字前面要加上哪个词？",
+    "alternative": "也可以问 Have you seen my pencil case? 用另一种说法问有没有看见。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__lost-item"
+  },
+  {
+    "id": "bank-english-3-question-020",
+    "familyId": "english-3-question__fam-20",
+    "version": 1,
+    "text": "Your friend lost her key. Ask where she lost it, then ask where her home is.",
+    "answer": "Where did you lose your key? Where is your home?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问已经发生的地点用 did 加动词原形 lose，后面接 where。",
+      "第二问仍然用 Where is ...? 问现在住的地方。",
+      "答：Where did you lose your key? Where is your home?"
+    ],
+    "hint": "第一问说的是过去发生的事，第二问说的是现在的地方，用词不一样。",
+    "alternative": "也可以问 Where is your key? Where do you live? 用更常见的说法问同样的事。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__lost-item"
+  },
+  {
+    "id": "bank-english-3-question-021",
+    "familyId": "english-3-question__fam-21",
+    "version": 1,
+    "text": "A new neighbor moves in next door. Knock on the door and ask two questions: who lives there and where the park is.",
+    "answer": "Who lives here? Where is the park?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先问住在这里的是谁，用 Who lives here? ，再问附近公园的位置。",
+      "两个问题分别问人和地点。",
+      "答：Who lives here? Where is the park?"
+    ],
+    "hint": "一个问「谁」，一个问「在哪里」，分别用 who 和 where。",
+    "alternative": "也可以问 Hello, who lives here? Where can we find the park? 更口语一些。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__new-neighbour"
+  },
+  {
+    "id": "bank-english-3-question-022",
+    "familyId": "english-3-question__fam-22",
+    "version": 1,
+    "text": "Your cat is missing. Ask the neighbors two questions: where your cat was last seen and where the hospital is.",
+    "answer": "Where did you see my cat last? Where is the hospital?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「最后在哪里看到」要用表示过去的动词 saw。",
+      "问医院的地点用 Where is ...? 。",
+      "答：Where did you see my cat last? Where is the hospital?"
+    ],
+    "hint": "第一个问题问过去看到的地点，动词要用过去式。",
+    "alternative": "也可以问 Have you seen my cat? Where is the hospital? 先问有没有看见。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__lost-cat-search"
+  },
+  {
+    "id": "bank-english-3-question-023",
+    "familyId": "english-3-question__fam-23",
+    "version": 1,
+    "text": "A tourist asks you about your city. Ask him where he can buy a map and where the museum is.",
+    "answer": "Where can I buy a map? Where is the museum?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "为别人指路时也可以用 Where can I ...? 的结构。",
+      "两问分别问买地图的地方和博物馆的位置。",
+      "答：Where can I buy a map? Where is the museum?"
+    ],
+    "hint": "「哪里可以买到」要用 can I buy 这样的说法。",
+    "alternative": "也可以问 Where can people buy a map? Where is the museum nearby? 用 nearby 补充。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__city-tourist-info"
+  },
+  {
+    "id": "bank-english-3-question-024",
+    "familyId": "english-3-question__fam-24",
+    "version": 1,
+    "text": "You are the library helper at school. A classmate says: 'I need a story book.' Ask two questions to find out which shelf it is on and when to return it.",
+    "answer": "Which shelf is it on? When do I return it?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找书要问它在哪个书架上，用 Which shelf ...? 。",
+      "还书的时间用 When do I ...? 来问。",
+      "答：Which shelf is it on? When do I return it?"
+    ],
+    "hint": "一个问题问位置（哪一个书架），另一个问时间。",
+    "alternative": "也可以问 Where can I find the story books? When should I bring them back? 用更常见的问法。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__library-helper"
+  },
+  {
+    "id": "bank-english-3-question-025",
+    "familyId": "english-3-question__fam-25",
+    "version": 1,
+    "text": "You are on the bus and the bus is stopping. You want to get off near the hospital. Ask the driver a question.",
+    "answer": "Could you tell me where the hospital is?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下车前要问清目的地在哪里，用 Could you tell me where ...? 比较客气。",
+      "问题里要说出想去的地点 hospital。",
+      "答：Could you tell me where the hospital is?"
+    ],
+    "hint": "在车上问司机要用更有礼貌的说法，先想想 could you ...?",
+    "alternative": "也可以问 Where should I get off for the hospital? 直接问在哪里下车。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__bus-driver"
+  },
+  {
+    "id": "bank-english-3-question-026",
+    "familyId": "english-3-question__fam-26",
+    "version": 1,
+    "text": "You are at the post office counter. Ask two questions: how much a stamp costs and where the letter box is.",
+    "answer": "How much is a stamp? Where is the letter box?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问价钱用 How much is ...? 。",
+      "问投信口的位置用 Where is ...? 。",
+      "答：How much is a stamp? Where is the letter box?"
+    ],
+    "hint": "两个问题，一个关于价格，一个关于位置。",
+    "alternative": "也可以问 What's the price of a stamp? Where can I put my letter? 用不同的说法。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__post-office-counter"
+  },
+  {
+    "id": "bank-english-3-question-027",
+    "familyId": "english-3-question__fam-27",
+    "version": 1,
+    "text": "You are in a museum. A guide says: 'The old coins are on the right and the paintings are upstairs.' Ask one question about the paintings.",
+    "answer": "Where are the paintings?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从讲解员的话里找出想问的东西，paintings 是要问的对象。",
+      "问位置用 Where are ...? 。",
+      "答：Where are the paintings?"
+    ],
+    "hint": "先听清楚讲解里提到的两样东西，再决定问哪一样。",
+    "alternative": "也可以问 Are the paintings upstairs? 用 be 动词开头问同一件事。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__museum-guide"
+  },
+  {
+    "id": "bank-english-3-question-028",
+    "familyId": "english-3-question__fam-28",
+    "version": 1,
+    "text": "You are at the zoo. A worker says: 'The pandas eat at noon and the monkeys eat all day.' Ask one question about the pandas.",
+    "answer": "What time do the pandas eat?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句子里有两个动物和两个时间，先确定要问哪一个动物。",
+      "问时间用 What time do ...? 。",
+      "答：What time do the pandas eat?"
+    ],
+    "hint": "问时间用哪个疑问词开头？注意主语是复数还是单数。",
+    "alternative": "也可以问 When do the pandas eat? 用 when 提问更短。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__zoo-worker"
+  },
+  {
+    "id": "bank-english-3-question-029",
+    "familyId": "english-3-question__fam-29",
+    "version": 1,
+    "text": "You are at the hospital reception desk. Ask two questions: where the doctor is and what time the doctor comes.",
+    "answer": "Where is the doctor? What time does the doctor come?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问医生在哪里用 Where is ...? ，问医生几点来用 What time does ...? 。",
+      "两个问题分别问地点和时间。",
+      "答：Where is the doctor? What time does the doctor come?"
+    ],
+    "hint": "先问人在哪里，再问什么时候到，两个问题分开问。",
+    "alternative": "也可以问 Is the doctor here? What time does the doctor start? 用问句加动词原形。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__hospital-reception"
+  },
+  {
+    "id": "bank-english-3-question-030",
+    "familyId": "english-3-question__fam-30",
+    "version": 1,
+    "text": "Look at the town map. A is the park, B is the library and C is the hospital. Ask your friend two questions: where the hospital is and where you can read books.",
+    "answer": "Where is the hospital? Where can I read books?",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把地图上的字母和地点对上：hospital 是 C，library 是 B。",
+      "第一个问题问地点在哪里，第二个问题问可以看书的地方。",
+      "答：Where is the hospital? Where can I read books?"
+    ],
+    "hint": "第一个问题问 hospital 的位置，第二个问题问能读书的地方。",
+    "alternative": "也可以问 Where's the hospital? Where can I borrow books? 用更短的问法。",
+    "prerequisites": [
+      "english-3-question",
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-3-question__town-map-ask"
+  }
+]

@@ -1,11 +1,13 @@
-// Generated from xiaohe-app/lib/server/domain.ts; SHA-256: f61b43159eaca60dfc479cd9a7f976ee6975a4886fcee047536c0b03612350f3
+// Generated from xiaohe-app/lib/server/domain.ts; SHA-256: f11375a8809237558d3cdcbc7864464973de70067fe825af37300e436e90e912
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
-import type { ApiResult, Attempt, Evidence, HelpLevel, KnowledgeId, Paper, PaperReturn, PaperReturnEntry, Question, Role, WorkspaceState } from "../types";
+import { allKnowledgeIds, mergedQuestions, stageOfKnowledge, subjectIds, subjectNames, subjectOfKnowledge, type ApiResult, type Attempt, type ContentBank, type Evidence, type HelpLevel, type KnowledgeId, type Paper, type PaperReturn, type PaperReturnEntry, type Question, type Role, type StageId, type SubjectId, type WorkspaceState } from "../types.ts";
 
 import { DomainError } from "./domain-error.ts";
 import { assertActionAllowed } from "./access-policy.ts";
-import { ensureMastery, finishMasterySubmission, masteryAction, startReview } from "./mastery.ts";
+import { activeRuleLabel, ensureMastery, finishMasterySubmission, masteryAction, startReview } from "./mastery.ts";
+import { paperTemplates, templateMix } from "../exam-references.ts";
+import { mistakeCauseIds, type MistakeCause } from "../mistake-causes.ts";
 import { ensureContent, exportContentPackage, recordQuestionVersion, rollbackContentBatch } from "./content.ts";
 import { companionAction, createCompanionHelpRequest } from "./companion.ts";
 import { assertHistoryWriteAllowed, historyAction } from "./history.ts";
@@ -17,8 +19,9 @@ import { historyFileIdentity } from "../history-deletion.ts";
 export { DomainError } from "./domain-error.ts";
 export { gradeAnswer } from "../grading.ts";
 type Input = Record<string, unknown>;
-type Context = { userId: string; displayName: string; role?: Role; now?: string; newId?: () => string; channel?: "local" };
-const knowledgeIds = ["division", "geometry", "multiplication"] as const;
+type Context = { userId: string; displayName: string; role?: Role; now?: string; newId?: () => string; channel?: "local"; bank?: ContentBank };
+/** 知识点白名单：57 个教材目录知识点 + 3 个 legacy 演示知识点。 */
+const knowledgeIds: readonly string[] = allKnowledgeIds;
 const helpRank: Record<HelpLevel, number> = { independent: 0, hint: 1, explanation: 2, unknown: 3 };
 const DAY = 86400000;
 const RULE = "pilot-v2-max3";
@@ -67,8 +70,8 @@ export function recomputeKnowledge(state: WorkspaceState, affectedKnowledgeIds?:
   }
 }
 
-function reviewedBank(state: WorkspaceState): Question[] {
-  return state.questions.filter(q => q.status === "published" && q.reviewerId && q.reviewerId !== q.authorId);
+function reviewedBank(state: WorkspaceState, bank?: ContentBank): Question[] {
+  return mergedQuestions(state, bank).filter(q => q.status === "published" && q.reviewerId && q.reviewerId !== q.authorId);
 }
 function exposedFamilies(state: WorkspaceState): Set<string> {
   const families = new Set<string>((state.historyDeletion?.qualificationFacts ?? []).filter(f => f.help === "hint" || f.help === "explanation").map(f => f.familyId));
@@ -103,8 +106,41 @@ function markActiveFamilyHelp(state: WorkspaceState, familyIds: string[], level:
     }
   }
 }
-function validateCourse(state: WorkspaceState): void {
-  if (state.profile.course !== "数学" || state.profile.grade !== "四年级") throw new DomainError("当前题库仅覆盖四年级数学。请切换到已提供的课程范围后再组卷。");
+/**
+ * 已解锁学科。
+ * 优先用显式声明的 subjects；否则按「已解锁知识点的学科」推导 —— 而不是档案主科字符串，
+ * 否则在课程地图里解锁了语文单元后，组语文卷仍会被学科门禁拦下。
+ * 存量档案（只有 legacy 数学知识点）推导结果仍是数学，行为不变。
+ */
+function unlockedSubjects(state: WorkspaceState): SubjectId[] {
+  const declared = state.profile.subjects;
+  if (Array.isArray(declared) && declared.length) return declared.filter(id => subjectIds.includes(id as SubjectId)) as SubjectId[];
+  const unlocked = new Set<SubjectId>();
+  for (const knowledge of state.knowledge) {
+    if (knowledge.learningState !== "current") continue;
+    const subject = subjectOfKnowledge(knowledge.id);
+    if (subject) unlocked.add(subject);
+  }
+  return unlocked.size ? [...unlocked] : ["math"];
+}
+/**
+ * 组卷门禁：按知识点所属学科与学段校验，而不是按档案主科字符串。
+ * 一张试卷只能包含同一学科、同一学段的知识点 —— 单位语义、报告分组与判分表都是学科内的，
+ * 小学与初高中的考查深度也不能混在一张卷子里。
+ */
+function validateCourse(state: WorkspaceState, selected: readonly KnowledgeId[]): void {
+  const unlocked = unlockedSubjects(state);
+  const subjects = new Set<SubjectId>();
+  const stages = new Set<StageId>();
+  for (const id of selected) {
+    const subject = subjectOfKnowledge(id);
+    if (!subject) throw new DomainError("知识点不在当前课程范围内");
+    if (!unlocked.includes(subject)) throw new DomainError(`${subjectNames[subject]}尚未加入当前学习范围，请在课程地图中开始学习后再组卷。`);
+    subjects.add(subject);
+    stages.add(stageOfKnowledge(id));
+  }
+  if (subjects.size > 1) throw new DomainError("一张试卷只能包含同一学科的知识点，请按学科分别组卷。");
+  if (stages.size > 1) throw new DomainError("一张试卷只能包含同一学段的知识点，请按学段分别组卷。");
 }
 function ensureAttempt(state: WorkspaceState, paper: Paper, now: string, newId: () => string): Attempt {
   const existing = state.attempts.find(a => a.paperId === paper.id);
@@ -212,6 +248,11 @@ function questionFields(raw: unknown, existing?: Question): Partial<Question> {
     result.taskType = value.taskType as Question["taskType"];
   }
   if (value.contextId !== undefined) result.contextId = string(value.contextId, "任务情境编号", 100);
+  // 配图路径是可选字段；空串归一为未设置，避免产生「有键但无值」的题目对象。
+  if (value.image !== undefined) {
+    const image = string(value.image, "题目配图", 300, true).trim();
+    result.image = image === "" ? undefined : image;
+  }
   const limits = { text: 2000, answer: 300, unit: 30, source: 300, sourceScope: 300, hint: 1000, alternative: 2000 } as const;
   for (const [key, limit] of Object.entries(limits)) {
     if (value[key] !== undefined || !existing) (result as Input)[key] = string(value[key], key, limit, ["unit", "alternative", "sourceScope"].includes(key));
@@ -248,7 +289,7 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
   const now = context.now || new Date().toISOString();
   const newId = context.newId || (() => crypto.randomUUID());
   state.actor = { id: context.userId, name: context.displayName, role };
-  if (action.startsWith("recognition.")) return recognitionAction(current, action, input, { now, newId, userId: context.userId, displayName: context.displayName, role, channel: context.channel }, (changed, paper, entries) => {
+  if (action.startsWith("recognition.")) return recognitionAction(current, action, input, { now, newId, userId: context.userId, displayName: context.displayName, role, channel: context.channel, bank: context.bank }, (changed, paper, entries) => {
     ensureMastery(changed, { now, newId });
     const attempt = ensureAttempt(changed, paper, now, newId);
     attempt.answers = entries.map(e => ({ questionId: e.candidate!.questionId, value: e.answer, working: e.working, help: "unknown", correct: null }));
@@ -259,19 +300,19 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
   if (action.startsWith("evidence.") || action === "local.evidence.confirm") return evidenceAction(current, action, input, { now, newId, userId: context.userId, displayName: context.displayName, role, channel: context.channel });
   if (action === "help.create") return createCompanionHelpRequest(current, input, { now, newId, userId: context.userId, displayName: context.displayName, role, channel: context.channel });
   if (action.startsWith("chat.") || action.startsWith("memory.preference.")) {
-    return companionAction(current, action, input, { now, newId, userId: context.userId, displayName: context.displayName, role }, (changed, familyId, level) => {
+    return companionAction(current, action, input, { now, newId, userId: context.userId, displayName: context.displayName, role, bank: context.bank }, (changed, familyId, level) => {
       recordExposure(changed, [familyId], level, context.userId, now, newId);
       markActiveFamilyHelp(changed, [familyId], level, now, newId);
     });
   }
   if (action === "content.export") {
-    const pack = exportContentPackage(current, { packageId: id(input.packageId), publisherId: id(input.publisherId), createdAt: now,
+    const pack = exportContentPackage(current, { packageId: id(input.packageId), publisherId: id(input.publisherId), createdAt: now, bank: context.bank,
       ...(input.questionIds !== undefined ? { questionIds: input.questionIds as string[] } : {}), ...(input.withdrawals !== undefined ? { withdrawals: input.withdrawals as string[] } : {}) });
     return { state: current, result: { id: pack.packageId, package: pack, message: "已准备本地未签名试用内容包；未发布到云端。" } };
   }
   if (action === "content.rollback") return rollbackContentBatch(current, id(input.batchId), input.sourceRevision as number, { now, newId, userId: context.userId, reason: string(input.reason, "回退原因", 1000) });
   ensureContent(state);
-  const masteryContext = { now, newId, userId: context.userId, role };
+  const masteryContext = { now, newId, userId: context.userId, role, bank: context.bank };
   ensureMastery(state, masteryContext);
   const result: NonNullable<ApiResult["result"]> = {};
   let label = action;
@@ -283,8 +324,8 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
   }
   switch (action) {
     case "review.start": {
-      validateCourse(state);
       const plan = state.mastery!.reviewPlans.find(p => p.id === input.planId);
+      validateCourse(state, plan ? [plan.knowledgeId] : []);
       const paper = startReview(state, input.planId, input.count, masteryContext);
       if (plan?.paperId && current.mastery?.reviewPlans.some(p => p.id === plan.id && p.paperId === paper.id)) return { state: current, result: { id: paper.id, message: "此计划已开始，继续同一份复查卷。" } };
       result.id = paper.id; result.message = "已按到期计划生成未见迁移新题，原卷与复查来源已绑定。"; break;
@@ -296,8 +337,28 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       }
       label = "更新学习资料"; result.message = "学习资料已保存"; break;
     }
+    case "knowledge.begin": {
+      // 把一个教材目录知识点加入本学习者的学习范围。
+      // 组卷只允许已学（learningState === "current"）的知识点，所以要进入新知识点必须先解锁。
+      const knowledgeId = id(input.knowledgeId);
+      if (!knowledgeIds.includes(knowledgeId)) throw new DomainError("知识点不在当前教材范围内");
+      const ruleLabel = activeRuleLabel(state);
+      const ruleVersion = ruleLabel;
+      const existing = state.knowledge.find(knowledge => knowledge.id === knowledgeId);
+      if (existing) {
+        if (existing.learningState === "current") { result.id = knowledgeId; result.message = "该知识点已在学习范围内。"; break; }
+        existing.learningState = "current";
+        existing.reason = `已加入学习范围，尚无本规则下的独立新题证据。${ruleLabel}`;
+      } else {
+        state.knowledge.push({
+          id: knowledgeId as KnowledgeId, name: string(input.name, "知识点名称", 100), description: string(input.description, "知识点说明", 300, true),
+          learningState: "current", stars: null, evidenceIds: [], reason: `已加入学习范围，尚无本规则下的独立新题证据。${ruleLabel}`,
+          ruleVersion, assessmentState: "insufficient",
+        });
+      }
+      label = "开始学习本单元"; result.id = knowledgeId; result.message = "已加入学习范围，可以在「我的练习」里组卷。"; break;
+    }
     case "paper.create": {
-      validateCourse(state);
       const count = input.count === undefined ? 6 : Number(input.count);
       if (!Number.isInteger(count) || count < 1 || count > 20) throw new DomainError("题量应为 1—20 题");
       const kind = input.kind || "practice";
@@ -309,34 +370,71 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       }
       const ids = input.knowledgeIds === undefined ? state.knowledge.filter(k => k.learningState === "current").map(k => k.id) : input.knowledgeIds;
       if (!Array.isArray(ids) || !ids.length || ids.some(v => !knowledgeIds.includes(v as KnowledgeId))) throw new DomainError("请选择有效知识点");
+      validateCourse(state, ids as KnowledgeId[]);
       if (ids.some(v => state.knowledge.find(k => k.id === v)?.learningState !== "current")) throw new DomainError("暂不组入未学知识点");
       const unavailable = unavailableFamilies(state, now);
       const difficulty = input.difficulty;
-      const bank = reviewedBank(state).filter(q => ids.includes(q.knowledgeId) && !unavailable.has(q.familyId) && (!difficulty || ["不限", "综合", "混合", "全部"].includes(String(difficulty)) || q.difficulty === difficulty));
+      const bank = reviewedBank(state, context.bank).filter(q => ids.includes(q.knowledgeId) && !unavailable.has(q.familyId) && (!difficulty || ["不限", "综合", "混合", "全部"].includes(String(difficulty)) || q.difficulty === difficulty));
       const families = new Set<string>();
       const selected: Question[] = [];
+      // 题目按题型分池：选择题（答案是一个字母）、填空题（有单位）、解答题（无单位）。
+      // 库里的排序把选择题放在每个知识点的末尾，按顺序取题就永远取不到它们 ——
+      // 所以按题型配额取卷，卷面比例接近真实考卷。
+      const isChoiceQuestion = (question: Question) => /^[A-D]$/.test(String(question.answer ?? "").trim());
+      const kindOf = (question: Question): "choice" | "fill" | "solve" =>
+        isChoiceQuestion(question) ? "choice" : String(question.unit ?? "").trim() ? "fill" : "solve";
+      const pools = new Map<"choice" | "fill" | "solve", Map<string, Question[]>>();
+      for (const kind of ["choice", "fill", "solve"] as const) pools.set(kind, new Map());
+      for (const question of bank) {
+        const perKind = pools.get(kindOf(question))!;
+        const list = perKind.get(question.knowledgeId) ?? [];
+        list.push(question);
+        perKind.set(question.knowledgeId, list);
+      }
+      /**
+       * 卷面配额。不指定模板时用「选择题约四分之一」，其余按题库现状分配；
+       * 指定模板时按官方卷面结构（选/填/解的比例）。
+       */
+      const template = input.template ? paperTemplates.find(item => item.id === String(input.template)) : undefined;
+      if (input.template && !template) throw new DomainError("未知的卷面结构模板。");
+      const quotaTemplate = template ? templateMix(template) : null;
+      const quota = quotaTemplate
+        ? { choice: quotaTemplate.choice, fill: quotaTemplate.fill, solve: quotaTemplate.solve }
+        : { choice: 25, fill: 35, solve: 40 };
+      const taken = { choice: 0, fill: 0, solve: 0 };
+      const usedOf = (kind: "choice" | "fill" | "solve", knowledgeId: string) =>
+        pools.get(kind)!.get(knowledgeId)?.find(item => !families.has(item.familyId));
       // Round-robin knowledge coverage, then prefer lower-star knowledge within each pass.
       const orderedIds = [...new Set(ids)].sort((a, b) => (state.knowledge.find(k => k.id === a)?.stars ?? 0) - (state.knowledge.find(k => k.id === b)?.stars ?? 0));
       for (let pass = 0; selected.length < count && pass < count; pass++) {
         let added = false;
         for (const knowledgeId of orderedIds) {
-          const q = bank.find(q => q.knowledgeId === knowledgeId && !families.has(q.familyId));
-          if (q && selected.length < count) { selected.push(q); families.add(q.familyId); added = true; }
+          // 挑「离配额缺口最大」的那个题型，避免卷面比例失衡。
+          const kinds = (["choice", "fill", "solve"] as const)
+            .map(kind => ({ kind, gap: quota[kind] * (selected.length + 1) / 100 - taken[kind] }))
+            .sort((a, b) => b.gap - a.gap);
+          const q = kinds.map(item => usedOf(item.kind, knowledgeId)).find(Boolean);
+          if (q && selected.length < count) {
+            selected.push(q); families.add(q.familyId); taken[kindOf(q)] += 1; added = true;
+          }
         }
         if (!added) break;
       }
       if (selected.length < count) throw new DomainError(`题库不足：排除已看提示或解析的题族、近 14 天试卷题族后，符合课程与难度的题目只有 ${selected.length} 道，当前需要 ${count} 道。请减少题量或扩充审核题库。`, 409);
-      const paper: Paper = { id: newId(), title: kind === "review" ? "三日新题复查" : kind === "whole" ? "课程综合练习" : "我的针对练习", version: 1, createdAt: now, questionIds: selected.map(q => q.id), questions: structuredClone(selected), status: "ready", kind: kind as Paper["kind"], reason: "按已学范围与薄弱知识点组卷，使用已审核题目，避开已看帮助和近 14 天试卷中的题族。", estimatedMinutes: count * 2 };
+      const estimatedMinutes = template
+        ? Math.max(5, Math.round(template.minutes * count / Math.max(1, template.structure.choice + template.structure.fill + template.structure.solve)))
+        : count * 2;
+      const paper: Paper = { id: newId(), title: kind === "review" ? "三日新题复查" : kind === "whole" ? "课程综合练习" : template ? template.label : "我的针对练习", version: 1, createdAt: now, questionIds: selected.map(q => q.id), questions: structuredClone(selected), status: "ready", kind: kind as Paper["kind"], reason: template ? `按${template.label}组卷：${template.officialFacts.join("；")}。` : "按已学范围与薄弱知识点组卷，使用已审核题目，避开已看帮助和近 14 天试卷中的题族。", estimatedMinutes };
       state.papers.unshift(paper); result.id = paper.id; label = "生成练习卷"; result.message = `已生成 ${count} 题，题目版本已保存`; break;
     }
     case "paper.replace": {
-      validateCourse(state);
       const old = findPaper(state, input.paperId);
+      validateCourse(state, old.questions.map(q => q.knowledgeId));
       if (old.kind === "review") throw new DomainError("复查卷已绑定计划和固定新题，不能另换版本；请保留此卷继续作答。", 409);
       const replaced = old.questions.find(q => q.id === id(input.questionId));
       if (!replaced) throw new DomainError("待换题不属于本卷");
       const unavailable = unavailableFamilies(state, now);
-      const candidate = reviewedBank(state).find(q => q.knowledgeId === replaced.knowledgeId && q.difficulty === replaced.difficulty && !unavailable.has(q.familyId) && !old.questions.some(oldQ => oldQ.familyId === q.familyId));
+      const candidate = reviewedBank(state, context.bank).find(q => q.knowledgeId === replaced.knowledgeId && q.difficulty === replaced.difficulty && !unavailable.has(q.familyId) && !old.questions.some(oldQ => oldQ.familyId === q.familyId));
       if (!candidate) throw new DomainError("暂无同知识点、同难度的新题可替换，请扩充题库。", 409);
       const paper: Paper = { ...structuredClone(old), id: newId(), parentId: old.id, version: old.version + 1, createdAt: now, status: "ready", questions: old.questions.map(q => structuredClone(q.id === replaced.id ? candidate : q)), reason: `从第 ${old.version} 版换题生成；旧卷及成绩保留。` };
       paper.questionIds = paper.questions.map(q => q.id);
@@ -450,6 +548,22 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       markActiveFamilyHelp(state, [q.familyId], "explanation", now, newId);
       result.id = q.id; result.help = q.steps.join("\n"); result.alternative = q.alternative; result.message = "已引用审核解法并记录题族曝光"; label = "单题查看完整讲解"; break;
     }
+    case "mistake.tag": {
+      // 错因由学生自己选：系统不知道他为什么错，替他猜会污染判断。
+      const effective = effectiveMistakes(state).find(m => m.id === id(input.id));
+      if (!effective) throw new DomainError("当前有效结果不再属于待订正错题，或错题不存在", 404);
+      const cause = string(input.cause, "错因", 30);
+      if (!mistakeCauseIds.includes(cause)) throw new DomainError("错因标签无效。");
+      let mistake = state.mistakes.find(m => m.id === effective.id);
+      if (!mistake) {
+        const source = state.papers.find(p => p.id === effective.effectiveEvidence.paperId)!.questions.find(q => q.id === effective.effectiveEvidence.questionId)!;
+        mistake = { id: effective.id, question: structuredClone(source), originalAnswer: effective.effectiveEvidence.original.answer, evidenceId: effective.evidenceId };
+        state.mistakes.unshift(mistake);
+      }
+      mistake.cause = cause as MistakeCause;
+      mistake.causeNote = string(input.note, "错因备注", 200, true);
+      result.id = mistake.id; result.message = "错因已记下，可以按这组错因再练几道"; label = "标记错因"; break;
+    }
     case "mistake.correct": {
       const effective = effectiveMistakes(state).find(m => m.id === id(input.id));
       if (!effective) throw new DomainError("当前有效结果不再属于待订正错题，或错题不存在", 404);
@@ -514,7 +628,7 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
     case "single.match": {
       const query = string(input.text, "题目文字", 2000);
       const terms = query.match(/\d+|[\u4e00-\u9fff]{2,}/g) || [query];
-      const matches = reviewedBank(state).map(q => ({ q, score: terms.reduce((sum, term) => sum + (q.text.includes(term) ? term.length : 0), 0) })).filter(item => item.score > 0).sort((a, b) => b.score - a.score).slice(0, 5).map(item => item.q.id);
+      const matches = reviewedBank(state, context.bank).map(q => ({ q, score: terms.reduce((sum, term) => sum + (q.text.includes(term) ? term.length : 0), 0) })).filter(item => item.score > 0).sort((a, b) => b.score - a.score).slice(0, 5).map(item => item.q.id);
       return { state: current, result: { questionIds: matches, message: matches.length ? "这些是文字检索候选，请逐题核对，系统不会自动判定为同题" : "未找到题库候选，请核对文字或补充经过审核的题目" } };
     }
     case "homework.confirm": {

@@ -7,9 +7,9 @@ import { projectRecognition } from "./recognition.ts";
 
 const roles = new Set<string>(["owner", "student", "parent", "teacher", "editor", "reviewer"]);
 const studentActions = new Set([
-  "profile.update", "paper.create", "paper.replace", "paper.resume", "paper.expose", "paper.question.expose", "mastery.reevaluate", "review.start",
+  "profile.update", "knowledge.begin", "paper.create", "paper.replace", "paper.resume", "paper.expose", "paper.question.expose", "mastery.reevaluate", "review.start",
   "paper.return.save", "paper.return.submit",
-  "mistake.correct", "help.create", "chat.send", "single.match", "single.explain", "homework.confirm",
+  "mistake.correct", "mistake.tag", "help.create", "chat.send", "single.match", "single.explain", "homework.confirm",
   "chat.open", "chat.draft.save", "chat.delete.preview", "chat.delete", "memory.preference.set", "memory.preference.delete",
   "evidence.propose", "evidence.preview", "local.evidence.confirm", "history.delete.preview", "history.delete.confirm",
   "recognition.open", "recognition.run.save", "recognition.entry.save", "recognition.match", "recognition.submit",
@@ -63,6 +63,8 @@ function learningQuestion(question: Question, exposure: Exposure): Question {
     steps: exposure === 2 ? [...question.steps] : [],
     alternative: exposure === 2 ? question.alternative : "",
     ...(question.taskType ? { taskType: question.taskType } : {}), ...(question.contextId ? { contextId: question.contextId } : {}),
+    // 配图是题干的一部分，学生与家长教师都需要看到。
+    ...(question.image ? { image: question.image } : {}),
   };
 }
 

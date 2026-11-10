@@ -1,0 +1,2643 @@
+[
+  {
+    "id": "bank-math-4-add-001",
+    "familyId": "math-4-add__fam-001",
+    "version": 1,
+    "text": "图书角里放着故事书 128 本和科技书 96 本，一共有多少本书？",
+    "answer": "224",
+    "unit": "本",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "128 + 96 = 224。",
+      "把故事书的 128 本和科技书的 96 本合起来，就是图书角里书的总数。",
+      "答：224 本。"
+    ],
+    "hint": "先想清楚哪两部分要合起来，再把它们相加。",
+    "alternative": "先把 96 看作 100，算 128 + 100 = 228，再减去多算的 4 本，同样得 224 本。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__combine-parts"
+  },
+  {
+    "id": "bank-math-4-add-002",
+    "familyId": "math-4-add__fam-002",
+    "version": 1,
+    "text": "停车场停着小汽车 78 辆和货车 45 辆，停车场里一共有多少辆车？",
+    "answer": "123",
+    "unit": "辆",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "78 + 45 = 123。",
+      "小汽车的 78 辆加上货车的 45 辆，就是停车场的总车辆数。",
+      "答：123 辆。"
+    ],
+    "hint": "停车场里有哪两种车？把它们合起来。",
+    "alternative": "先把 78 看作 80，算 80 + 45 = 125，再减去多算的 2 辆，得 123 辆。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__combine-parts"
+  },
+  {
+    "id": "bank-math-4-add-003",
+    "familyId": "math-4-add__fam-003",
+    "version": 1,
+    "text": "果园里有苹果树 132 棵、梨树 67 棵，果园里一共有多少棵树？",
+    "answer": "199",
+    "unit": "棵",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "132 + 67 = 199。",
+      "苹果树的 132 棵和梨树的 67 棵合起来，就是果园里树的总数。",
+      "答：199 棵。"
+    ],
+    "hint": "把两种树的棵数合起来，用加法计算。",
+    "alternative": "先算 132 + 68 = 200，再把多算的 1 棵去掉，就是 199 棵。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__combine-parts"
+  },
+  {
+    "id": "bank-math-4-add-004",
+    "familyId": "math-4-add__fam-004",
+    "version": 1,
+    "text": "手工课上用了彩纸 150 张和白纸 85 张，一共用了多少张纸？",
+    "answer": "235",
+    "unit": "张",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150 + 85 = 235。",
+      "彩纸 150 张和白纸 85 张合起来，就是一共用掉的纸张数。",
+      "答：235 张。"
+    ],
+    "hint": "彩纸和白纸各用了多少张？合起来是多少？",
+    "alternative": "先算 150 + 100 = 250，再减去多算的 15 张，得 235 张。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__combine-parts"
+  },
+  {
+    "id": "bank-math-4-add-005",
+    "familyId": "math-4-add__fam-005",
+    "version": 1,
+    "text": "小禾原来收集了 56 枚邮票，暑假里又收集了 38 枚，现在一共有多少枚邮票？",
+    "answer": "94",
+    "unit": "枚",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "56 + 38 = 94。",
+      "原有的 56 枚加上后来收集的 38 枚，就是现在的邮票总数。",
+      "答：94 枚。"
+    ],
+    "hint": "原来的邮票加上后来收集的邮票，才是现在的总数。",
+    "alternative": "先算 56 + 40 = 96，再减去多算的 2 枚，得 94 枚。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__increase-total"
+  },
+  {
+    "id": "bank-math-4-add-006",
+    "familyId": "math-4-add__fam-006",
+    "version": 1,
+    "text": "池塘里原来有 120 只白鹅，今年又孵出了 35 只，现在池塘里有多少只白鹅？",
+    "answer": "155",
+    "unit": "只",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 + 35 = 155。",
+      "孵出的 35 只小鹅要加在原来的 120 只白鹅上。",
+      "答：155 只。"
+    ],
+    "hint": "新孵出来的白鹅要加在原来的数量上。",
+    "alternative": "先算 120 + 30 = 150，再加剩下的 5 只，一样是 155 只。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__increase-total"
+  },
+  {
+    "id": "bank-math-4-add-007",
+    "familyId": "math-4-add__fam-007",
+    "version": 1,
+    "text": "一辆校车原来有 18 个座位，装了空调以后又加上了 12 个座位，现在这辆校车有多少个座位？",
+    "answer": "30",
+    "unit": "个",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 + 12 = 30。",
+      "新加的 12 个座位加到原来的 18 个座位上，就是现在的座位数。",
+      "答：30 个。"
+    ],
+    "hint": "把新加的座位数加到原来的座位数上。",
+    "alternative": "先把 18 看作 20，算 20 + 12 = 32，再减去多算的 2 个，得 30 个。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__increase-total"
+  },
+  {
+    "id": "bank-math-4-add-008",
+    "familyId": "math-4-add__fam-008",
+    "version": 1,
+    "text": "妈妈买了一袋糖共 200 颗，小禾已经吃掉 75 颗，袋子里还剩多少颗糖？",
+    "answer": "125",
+    "unit": "颗",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "200 - 75 = 125。",
+      "从 200 颗里去掉吃掉的 75 颗，剩下的就是袋子里还有的糖。",
+      "答：125 颗。"
+    ],
+    "hint": "从总数里去掉吃掉的部分，剩下的是多少？",
+    "alternative": "先算 200 - 100 = 100，再加回少减去的 25 颗，得 125 颗。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__take-away"
+  },
+  {
+    "id": "bank-math-4-add-009",
+    "familyId": "math-4-add__fam-009",
+    "version": 1,
+    "text": "一桶油重 96 千克，第一周用去了 38 千克，桶里还剩多少千克油？",
+    "answer": "58",
+    "unit": "千克",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "96 - 38 = 58。",
+      "原来的 96 千克减去用掉的 38 千克，就是桶里剩下的油。",
+      "答：58 千克。"
+    ],
+    "hint": "原来有多少千克，用去多少千克，剩下的该怎么算？",
+    "alternative": "先算 96 - 40 = 56，再加回多减去的 2 千克，得 58 千克。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__take-away"
+  },
+  {
+    "id": "bank-math-4-add-010",
+    "familyId": "math-4-add__fam-010",
+    "version": 1,
+    "text": "书架上原来有 143 本书，图书角借走了 68 本，书架上还有多少本书？",
+    "answer": "75",
+    "unit": "本",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "143 - 68 = 75。",
+      "借走的 68 本是从 143 本里拿走的，剩下的还用减法求。",
+      "答：75 本。"
+    ],
+    "hint": "借走的部分是从总数里拿走的，剩下的用减法求。",
+    "alternative": "先算 143 - 70 = 73，再加回多减的 2 本，得 75 本。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__take-away"
+  },
+  {
+    "id": "bank-math-4-add-011",
+    "familyId": "math-4-add__fam-011",
+    "version": 1,
+    "text": "四（2）班打扫卫生，扫帚和拖把一共有 27 把，其中拖把有 9 把，扫帚有多少把？",
+    "answer": "18",
+    "unit": "把",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "27 - 9 = 18。",
+      "总数 27 把分成扫帚和拖把两部分，减去拖把的 9 把就得到扫帚的把数。",
+      "答：18 把。"
+    ],
+    "hint": "把总数分成两部分，已知其中一部分，另一部分怎么求？",
+    "alternative": "扫帚是拖把的 2 倍，先算 9 × 2 = 18，就是扫帚的把数。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__classroom-supplies"
+  },
+  {
+    "id": "bank-math-4-add-012",
+    "familyId": "math-4-add__fam-012",
+    "version": 1,
+    "text": "图书角有连环画 145 册，故事书的数量比连环画多 68 册，故事书有多少册？",
+    "answer": "213",
+    "unit": "册",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "145 + 68 = 213。",
+      "比连环画多出的 68 册要加在连环画的 145 册上，得到故事书的册数。",
+      "答：213 册。"
+    ],
+    "hint": "比谁多，就用加法把多出来的部分加上。",
+    "alternative": "先算 145 + 100 = 245，再减去多算的 32 册，得 213 册。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__classroom-supplies"
+  },
+  {
+    "id": "bank-math-4-add-013",
+    "familyId": "math-4-add__fam-013",
+    "version": 1,
+    "text": "图书室上午借出 128 本书，下午借出 96 本书，一天一共借出多少本？",
+    "answer": "224",
+    "unit": "本",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "128 + 96 = 224。",
+      "上午借出的 128 本和下午借出的 96 本合起来，就是一天借出的总数。",
+      "答：224 本。"
+    ],
+    "hint": "上午和下午借出的书合起来是多少？",
+    "alternative": "交换加数也算：96 + 128 = 224，两种加法都成立。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__library-borrowing"
+  },
+  {
+    "id": "bank-math-4-add-014",
+    "familyId": "math-4-add__fam-014",
+    "version": 1,
+    "text": "书架上原来有 240 本图书，上午借走 96 本，下午借走 58 本，上午和下午一共借走多少本图书？",
+    "answer": "154",
+    "unit": "本",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "96 + 58 = 154。",
+      "把上午借走的 96 本和下午借走的 58 本合起来，就是两段时间一共借走的数量。",
+      "答：154 本。"
+    ],
+    "hint": "把上午和下午借走的数量合起来。",
+    "alternative": "先算 100 + 58 = 158，再减去多算的 4 本，得 154 本。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__library-borrowing"
+  },
+  {
+    "id": "bank-math-4-add-015",
+    "familyId": "math-4-add__fam-015",
+    "version": 1,
+    "text": "春游那天，一班和二班一共有 78 人，三班有 36 人，全年级一共有多少人去春游？",
+    "answer": "114",
+    "unit": "人",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "78 + 36 = 114。",
+      "一班和二班合起来的 78 人，再加上三班的 36 人，就是全年级的人数。",
+      "答：114 人。"
+    ],
+    "hint": "把已知的两个数量合起来，注意一班二班已经合过一次。",
+    "alternative": "先算 78 + 30 = 108，再加剩下的 6 人，得 114 人。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__trip-tickets"
+  },
+  {
+    "id": "bank-math-4-add-016",
+    "familyId": "math-4-add__fam-016",
+    "version": 1,
+    "text": "游园会上午卖出 128 张票，下午卖出 176 张票，一天一共卖出多少张票？",
+    "answer": "304",
+    "unit": "张",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "128 + 176 = 304。",
+      "上午卖的 128 张和下午卖的 176 张合起来，就是一天卖出的票数。",
+      "答：304 张。"
+    ],
+    "hint": "上午和下午各卖了多少张？合起来呢？",
+    "alternative": "先算 128 + 200 = 328，再减去多算的 24 张，得 304 张。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__trip-tickets"
+  },
+  {
+    "id": "bank-math-4-add-017",
+    "familyId": "math-4-add__fam-017",
+    "version": 1,
+    "text": "妈妈做蛋糕时用了 250 克面粉和 80 克糖，面粉和糖一共用了多少克？",
+    "answer": "330",
+    "unit": "克",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "250 + 80 = 330。",
+      "面粉的 250 克加上糖的 80 克，就是一共用的材料克数。",
+      "答：330 克。"
+    ],
+    "hint": "两种材料的克数合起来是多少？",
+    "alternative": "先算 250 + 100 = 350，再减去多算的 20 克，得 330 克。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__kitchen-ingredients"
+  },
+  {
+    "id": "bank-math-4-add-018",
+    "familyId": "math-4-add__fam-018",
+    "version": 1,
+    "text": "食堂中午准备了 320 份米饭和 265 份青菜，一共准备了多少份饭菜？",
+    "answer": "585",
+    "unit": "份",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "320 + 265 = 585。",
+      "米饭的 320 份和青菜的 265 份合起来，就是准备的饭菜份数。",
+      "答：585 份。"
+    ],
+    "hint": "米饭和青菜各多少份？合起来是多少份？",
+    "alternative": "先算 300 + 265 = 565，再加回少算的 20 份，得 585 份。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__kitchen-ingredients"
+  },
+  {
+    "id": "bank-math-4-add-019",
+    "familyId": "math-4-add__fam-019",
+    "version": 1,
+    "text": "蓝队上半场得了 18 分，下半场得了 24 分，蓝队全场一共得了多少分？",
+    "answer": "42",
+    "unit": "分",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 + 24 = 42。",
+      "上半场的 18 分和下半场的 24 分合起来，就是全场得到的总分。",
+      "答：42 分。"
+    ],
+    "hint": "上下两个半场得的分合起来是多少？",
+    "alternative": "先算 20 + 24 = 44，再减去多算的 2 分，得 42 分。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__match-scores"
+  },
+  {
+    "id": "bank-math-4-add-020",
+    "familyId": "math-4-add__fam-020",
+    "version": 1,
+    "text": "跳绳比赛中，第一名跳了 152 个，第二名跳了 138 个，第一名比第二名多跳了多少个？",
+    "answer": "14",
+    "unit": "个",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "152 - 138 = 14。",
+      "用第一名的 152 个减去第二名的 138 个，差就是多跳的个数。",
+      "答：14 个。"
+    ],
+    "hint": "求第一名比第二名多多少，用哪个数量减哪个数量？",
+    "alternative": "先算 152 - 140 = 12，再加回多减的 2 个，得 14 个。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__match-scores"
+  },
+  {
+    "id": "bank-math-4-add-021",
+    "familyId": "math-4-add__fam-021",
+    "version": 1,
+    "text": "小禾的邮册里已经贴了 64 张邮票，寒假里又收集了 27 张，现在邮册里一共有多少张邮票？",
+    "answer": "91",
+    "unit": "张",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "64 + 27 = 91。",
+      "已经贴着的 64 张加上新收集的 27 张，就是邮册里的邮票总数。",
+      "答：91 张。"
+    ],
+    "hint": "已有的邮票加上后来收集的邮票，才是现在的总数。",
+    "alternative": "把 27 看作 30，算 64 + 30 = 94，再减去多算的 3 张，得 91 张。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__stamp-album"
+  },
+  {
+    "id": "bank-math-4-add-022",
+    "familyId": "math-4-add__fam-022",
+    "version": 1,
+    "text": "手工社义卖时卖出了 46 顶帽子和 68 条围巾，一共卖出了多少件物品？",
+    "answer": "114",
+    "unit": "件",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "46 + 68 = 114。",
+      "帽子的 46 件和围巾的 68 件合起来，就是义卖卖出的物品总数。",
+      "答：114 件。"
+    ],
+    "hint": "帽子和围巾各有多少件？合起来是多少件？",
+    "alternative": "先算 46 + 70 = 116，再减去多算的 2 件，得 114 件。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__bake-sale"
+  },
+  {
+    "id": "bank-math-4-add-023",
+    "familyId": "math-4-add__fam-023",
+    "version": 1,
+    "text": "小禾有 128 元零花钱，春节前又存进了 72 元，现在一共有多少元？",
+    "answer": "200",
+    "unit": "元",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "128 + 72 = 200。",
+      "原来的 128 元加上存进去的 72 元，就是现在一共有的钱。",
+      "答：200 元。"
+    ],
+    "hint": "原来的钱加上存进去的钱，就是现在的总数。",
+    "alternative": "先算 100 + 72 = 172，再加回少算的 28 元，得 200 元。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__pocket-money"
+  },
+  {
+    "id": "bank-math-4-add-024",
+    "familyId": "math-4-add__fam-024",
+    "version": 1,
+    "text": "蓄水池里原有 900 升水，暴雨过后水池又注入了 240 升，现在池里有多少升水？",
+    "answer": "1140",
+    "unit": "升",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "900 + 240 = 1140。",
+      "原有的 900 升加上新注入的 240 升，就是池里现在的水量。",
+      "答：1140 升。"
+    ],
+    "hint": "原来的水量加上新注入的水量是多少？",
+    "alternative": "先算 900 + 200 = 1100，再加剩下的 40 升，得 1140 升。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__water-tank"
+  },
+  {
+    "id": "bank-math-4-add-025",
+    "familyId": "math-4-add__fam-025",
+    "version": 1,
+    "text": "门口那棵小树苗原来高 145 厘米，今年又长高了 38 厘米，现在这棵小树苗有多高？",
+    "answer": "183",
+    "unit": "厘米",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "145 + 38 = 183。",
+      "原来的高度 145 厘米加上长高的 38 厘米，就是现在的高度。",
+      "答：183 厘米。"
+    ],
+    "hint": "原来的高度加上长高的部分是多少？",
+    "alternative": "先算 145 + 40 = 185，再减去多算的 2 厘米，得 183 厘米。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__plant-growth"
+  },
+  {
+    "id": "bank-math-4-add-026",
+    "familyId": "math-4-add__fam-026",
+    "version": 1,
+    "text": "公交车到站时下去了 12 人，车上当时有 35 人，接着又上来 8 人，这时车上有多少人？",
+    "answer": "43",
+    "unit": "人",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "35 + 8 = 43。",
+      "先弄清上车时车上有 35 人，再加上后来上车的 8 人。",
+      "答：43 人。"
+    ],
+    "hint": "先弄清后来上车时车上有多少人，再把上车的人数加上。",
+    "alternative": "先算 30 + 8 = 38，再加剩下的 5 人，得 43 人。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__bus-passengers"
+  },
+  {
+    "id": "bank-math-4-add-027",
+    "familyId": "math-4-add__fam-027",
+    "version": 1,
+    "text": "小禾前 3 天一共读了 52 页书，第 4 天又读了 18 页，4 天一共读了多少页？",
+    "answer": "70",
+    "unit": "页",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "52 + 18 = 70。",
+      "前几天读的总页数 52 页加上第 4 天的 18 页，就是 4 天读的总页数。",
+      "答：70 页。"
+    ],
+    "hint": "前几天读的总页数加上第 4 天读的页数。",
+    "alternative": "先算 52 + 20 = 72，再减去多算的 2 页，得 70 页。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__reading-days"
+  },
+  {
+    "id": "bank-math-4-add-028",
+    "familyId": "math-4-add__fam-028",
+    "version": 1,
+    "text": "小禾上午捡了 108 个鸡蛋，下午又捡了 96 个，一共捡了多少个鸡蛋？",
+    "answer": "204",
+    "unit": "个",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "108 + 96 = 204。",
+      "上午捡的 108 个和下午捡的 96 个合起来，就是捡到的鸡蛋总数。",
+      "答：204 个。"
+    ],
+    "hint": "上午和下午捡的鸡蛋合起来是多少？",
+    "alternative": "先算 100 + 96 = 196，再加回少算的 8 个，得 204 个。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__egg-collection"
+  },
+  {
+    "id": "bank-math-4-add-029",
+    "familyId": "math-4-add__fam-029",
+    "version": 1,
+    "text": "仓库里有 240 箱牛奶，商店又拉走了 175 箱，仓库里还剩多少箱牛奶？",
+    "answer": "65",
+    "unit": "箱",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "240 - 175 = 65。",
+      "原有的 240 箱减去拉走的 175 箱，就是仓库里剩下的箱数。",
+      "答：65 箱。"
+    ],
+    "hint": "原有的箱数减去拉走的箱数，剩下的是多少？",
+    "alternative": "先算 240 - 200 = 40，再加回多减的 25 箱，得 65 箱。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__milk-warehouse"
+  },
+  {
+    "id": "bank-math-4-add-030",
+    "familyId": "math-4-add__fam-030",
+    "version": 1,
+    "text": "打印社上午印了 180 张海报，下午印了 125 张，一天一共印了多少张海报？",
+    "answer": "305",
+    "unit": "张",
+    "knowledgeId": "math-4-add",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 + 125 = 305。",
+      "上午印的 180 张和下午印的 125 张合起来，就是一天印出的海报数。",
+      "答：305 张。"
+    ],
+    "hint": "上午和下午印的张数合起来是多少？",
+    "alternative": "先算 180 + 100 = 280，再加剩下的 25 张，得 305 张。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-add__poster-printing"
+  },
+  {
+    "id": "bank-math-4-multiply-001",
+    "familyId": "math-4-multiply__fam-001",
+    "version": 1,
+    "text": "每盒铅笔有 12 支，4 盒这样的铅笔一共有多少支？",
+    "answer": "48",
+    "unit": "支",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 4 = 48。",
+      "1 盒有 12 支，4 盒就是 4 个 12 相加。",
+      "答：48 支。"
+    ],
+    "hint": "一盒有多少支？这样的盒子有几盒？",
+    "alternative": "把 4 盒拆开数，就是 12 + 12 + 12 + 12 = 48 支。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-groups"
+  },
+  {
+    "id": "bank-math-4-multiply-002",
+    "familyId": "math-4-multiply__fam-002",
+    "version": 1,
+    "text": "每个花盆里种 7 朵郁金香，5 个花盆一共种了多少朵花？",
+    "answer": "35",
+    "unit": "朵",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 × 5 = 35。",
+      "一个花盆种 7 朵，5 个花盆就是 5 个 7 相加。",
+      "答：35 朵。"
+    ],
+    "hint": "一个花盆种几朵？一共种在几个花盆里？",
+    "alternative": "按花盆一个一个加：7 + 7 + 7 + 7 + 7 = 35 朵。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-groups"
+  },
+  {
+    "id": "bank-math-4-multiply-003",
+    "familyId": "math-4-multiply__fam-003",
+    "version": 1,
+    "text": "每袋能装 25 个包子，3 袋一共能装多少个包子？",
+    "answer": "75",
+    "unit": "个",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 3 = 75。",
+      "一袋装 25 个，3 袋就是 3 个 25 相加。",
+      "答：75 个。"
+    ],
+    "hint": "一袋装几个？一共装了几袋？",
+    "alternative": "把 25 拆成 20 和 5：20 × 3 = 60，5 × 3 = 15，合起来 75 个。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-groups"
+  },
+  {
+    "id": "bank-math-4-multiply-004",
+    "familyId": "math-4-multiply__fam-004",
+    "version": 1,
+    "text": "四年级有 8 个兴趣小组，每组 6 名同学，一共有多少名同学参加小组活动？",
+    "answer": "48",
+    "unit": "名",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 8 = 48。",
+      "每组的 6 名同学一样多，8 个组就是 8 个 6 相加。",
+      "答：48 名。"
+    ],
+    "hint": "每组的同学数相同，用乘法算得更快。",
+    "alternative": "按小组一个个加：6 + 6 + 6 + 6 + 6 + 6 + 6 + 6 = 48 名。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-groups"
+  },
+  {
+    "id": "bank-math-4-multiply-005",
+    "familyId": "math-4-multiply__fam-005",
+    "version": 1,
+    "text": "45 本书平均放到 9 个书架上，每个书架放多少本？",
+    "answer": "5",
+    "unit": "本",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 ÷ 9 = 5。",
+      "把 45 平均分成 9 份，每份就是 5 本。",
+      "答：5 本。"
+    ],
+    "hint": "总数平均分成 9 份，一份是多少？",
+    "alternative": "想 9 个 5 相加是多少：5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 = 45，所以每个书架放 5 本。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-share"
+  },
+  {
+    "id": "bank-math-4-multiply-006",
+    "familyId": "math-4-multiply__fam-006",
+    "version": 1,
+    "text": "24 颗糖果平均分给 6 个小朋友，每人分到多少颗？",
+    "answer": "4",
+    "unit": "颗",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 ÷ 6 = 4。",
+      "把 24 平均分成 6 份，每份是 4 颗。",
+      "答：4 颗。"
+    ],
+    "hint": "把 24 平均分成 6 份，每份是几？",
+    "alternative": "用乘法检验：4 × 6 = 24，正好是糖果总数，所以每人 4 颗。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-share"
+  },
+  {
+    "id": "bank-math-4-multiply-007",
+    "familyId": "math-4-multiply__fam-007",
+    "version": 1,
+    "text": "有 56 支笔，每 8 支装一盒，可以装满多少盒？",
+    "answer": "7",
+    "unit": "盒",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "56 ÷ 8 = 7。",
+      "56 里面正好有 7 个 8，所以能装满 7 盒。",
+      "答：7 盒。"
+    ],
+    "hint": "56 里面有几个 8？",
+    "alternative": "用乘法检验：8 × 7 = 56，正好是笔的总数，所以能装满 7 盒。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__equal-share"
+  },
+  {
+    "id": "bank-math-4-multiply-008",
+    "familyId": "math-4-multiply__fam-008",
+    "version": 1,
+    "text": "教室里有 4 排座位，每排 9 个，一共有多少个座位？",
+    "answer": "36",
+    "unit": "个",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 9 = 36。",
+      "每排 9 个座位，4 排就是 4 个 9 相加。",
+      "答：36 个。"
+    ],
+    "hint": "一排有 9 个座位，一共排了几排？",
+    "alternative": "按排数一排一排加：9 + 9 + 9 + 9 = 36 个。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__array-count"
+  },
+  {
+    "id": "bank-math-4-multiply-009",
+    "familyId": "math-4-multiply__fam-009",
+    "version": 1,
+    "text": "跳绳队排成 6 行，每行 8 人，一共有多少人参加跳绳？",
+    "answer": "48",
+    "unit": "人",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 8 = 48。",
+      "每行 8 人，排成 6 行就是 6 个 8 相加。",
+      "答：48 人。"
+    ],
+    "hint": "一行有几个人？一共排了几行？",
+    "alternative": "按行数一行一行加：8 + 8 + 8 + 8 + 8 + 8 = 48 人。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__array-count"
+  },
+  {
+    "id": "bank-math-4-multiply-010",
+    "familyId": "math-4-multiply__fam-010",
+    "version": 1,
+    "text": "果园里有 5 行苹果树，每行 12 棵，一共有多少棵苹果树？",
+    "answer": "60",
+    "unit": "棵",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 12 = 60。",
+      "每行 12 棵，5 行就是 5 个 12 相加。",
+      "答：60 棵。"
+    ],
+    "hint": "每行的棵数乘上行数，就能得到总棵数。",
+    "alternative": "先算 12 × 5 = 60，也可以想成 5 个 12 相加：12 + 12 + 12 + 12 + 12 = 60 棵。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__array-count"
+  },
+  {
+    "id": "bank-math-4-multiply-011",
+    "familyId": "math-4-multiply__fam-011",
+    "version": 1,
+    "text": "学校买来 8 箱作业本，每箱 45 本，一共买了多少本作业本？",
+    "answer": "360",
+    "unit": "本",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 45 = 360。",
+      "每箱 45 本，8 箱就是 8 个 45 相加。",
+      "答：360 本。"
+    ],
+    "hint": "每箱有多少本？一共买了多少箱？",
+    "alternative": "按箱数相加：45 + 45 + 45 + 45 + 45 + 45 + 45 + 45 = 360 本。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__school-supplies"
+  },
+  {
+    "id": "bank-math-4-multiply-012",
+    "familyId": "math-4-multiply__fam-012",
+    "version": 1,
+    "text": "四年级有 6 个班，每班要配 12 张课桌，一共需要多少张课桌？",
+    "answer": "72",
+    "unit": "张",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 6 = 72。",
+      "每班需要 12 张，6 个班就是 6 个 12 相加。",
+      "答：72 张。"
+    ],
+    "hint": "每班需要几张课桌？一共几个班？",
+    "alternative": "先算 12 × 6 = 72，也可以想成 6 个 12 相加：12 + 12 + 12 + 12 + 12 + 12 = 72 张。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__school-supplies"
+  },
+  {
+    "id": "bank-math-4-multiply-013",
+    "familyId": "math-4-multiply__fam-013",
+    "version": 1,
+    "text": "每箱牛奶有 24 盒，商店运来了 7 箱，一共运来多少盒牛奶？",
+    "answer": "168",
+    "unit": "盒",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 × 7 = 168。",
+      "每箱 24 盒，7 箱就是 7 个 24 相加。",
+      "答：168 盒。"
+    ],
+    "hint": "一箱多少盒？运来几箱？",
+    "alternative": "按箱数相加：24 + 24 + 24 + 24 + 24 + 24 + 24 = 168 盒。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__boxed-items"
+  },
+  {
+    "id": "bank-math-4-multiply-014",
+    "familyId": "math-4-multiply__fam-014",
+    "version": 1,
+    "text": "每袋大米重 20 千克，仓库里堆了 8 袋，这些大米一共重多少千克？",
+    "answer": "160",
+    "unit": "千克",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20 × 8 = 160。",
+      "每袋 20 千克，8 袋就是 8 个 20 相加。",
+      "答：160 千克。"
+    ],
+    "hint": "一袋有多重？一共有几袋？",
+    "alternative": "先算 20 × 8 = 160，也可以想成 8 个 20 相加：20 + 20 + 20 + 20 + 20 + 20 + 20 + 20 = 160 千克。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__boxed-items"
+  },
+  {
+    "id": "bank-math-4-multiply-015",
+    "familyId": "math-4-multiply__fam-015",
+    "version": 1,
+    "text": "科技馆的门票每张 25 元，小禾和 5 位同学一共买了 6 张门票，一共要付多少元？",
+    "answer": "150",
+    "unit": "元",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 6 = 150。",
+      "每张 25 元，6 张就是 6 个 25 相加。",
+      "答：150 元。"
+    ],
+    "hint": "每张票多少元？一共买了多少张？",
+    "alternative": "按张数累加：25 + 25 + 25 + 25 + 25 + 25 = 150 元。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__ticket-pricing"
+  },
+  {
+    "id": "bank-math-4-multiply-016",
+    "familyId": "math-4-multiply__fam-016",
+    "version": 1,
+    "text": "篮球赛的门票每张 18 元，家长买了 5 张，一共要花多少元？",
+    "answer": "90",
+    "unit": "元",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 × 5 = 90。",
+      "每张 18 元，5 张就是 5 个 18 相加。",
+      "答：90 元。"
+    ],
+    "hint": "一张票多少钱？买了多少张？",
+    "alternative": "先算 18 × 5 = 90，也可以想成 5 个 18 相加：18 + 18 + 18 + 18 + 18 = 90 元。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__ticket-pricing"
+  },
+  {
+    "id": "bank-math-4-multiply-017",
+    "familyId": "math-4-multiply__fam-017",
+    "version": 1,
+    "text": "学校在空地上种树，每行种 12 棵，一共种了 9 行，一共种了多少棵树？",
+    "answer": "108",
+    "unit": "棵",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 9 = 108。",
+      "每行 12 棵，9 行就是 9 个 12 相加。",
+      "答：108 棵。"
+    ],
+    "hint": "每行多少棵？种了几行？",
+    "alternative": "按行数相加：12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 = 108 棵。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__planting-rows"
+  },
+  {
+    "id": "bank-math-4-multiply-018",
+    "familyId": "math-4-multiply__fam-018",
+    "version": 1,
+    "text": "花坛里每排放 7 盆花，一共放了 15 排，花坛里一共有多少盆花？",
+    "answer": "105",
+    "unit": "盆",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 × 15 = 105。",
+      "每排 7 盆，15 排就是 15 个 7 相加。",
+      "答：105 盆。"
+    ],
+    "hint": "每排放几盆？一共放了几排？",
+    "alternative": "拆开算：7 × 10 = 70，7 × 5 = 35，合起来 105 盆。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__planting-rows"
+  },
+  {
+    "id": "bank-math-4-multiply-019",
+    "familyId": "math-4-multiply__fam-019",
+    "version": 1,
+    "text": "小禾每天课外阅读 25 页，坚持了一星期 7 天，一共读了多少页？",
+    "answer": "175",
+    "unit": "页",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 7 = 175。",
+      "每天 25 页，7 天就是 7 个 25 相加。",
+      "答：175 页。"
+    ],
+    "hint": "每天读多少页？一共读了多少天？",
+    "alternative": "分成 5 天和 2 天算：25 × 5 = 125，25 × 2 = 50，合起来 175 页。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__daily-reading"
+  },
+  {
+    "id": "bank-math-4-multiply-020",
+    "familyId": "math-4-multiply__fam-020",
+    "version": 1,
+    "text": "一本故事书有 120 页，小禾每天看 15 页，几天能把这本书看完？",
+    "answer": "8",
+    "unit": "天",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 ÷ 15 = 8。",
+      "看 8 天就是 8 个 15 页，正好是这本书的 120 页。",
+      "答：8 天。"
+    ],
+    "hint": "120 页里有几个 15 页？",
+    "alternative": "试算 15 × 8 = 120，正好是全书页数，所以 8 天能看完。",
+    "prerequisites": [
+      "math-4-multiply",
+      "math-3-written"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__daily-reading"
+  },
+  {
+    "id": "bank-math-4-multiply-021",
+    "familyId": "math-4-multiply__fam-021",
+    "version": 1,
+    "text": "一板鸡蛋装 30 枚，5 板鸡蛋一共有多少枚？",
+    "answer": "150",
+    "unit": "枚",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 5 = 150。",
+      "一板 30 枚，5 板就是 5 个 30 相加。",
+      "答：150 枚。"
+    ],
+    "hint": "一板装几枚？一共有几板？",
+    "alternative": "按板数相加：30 + 30 + 30 + 30 + 30 = 150 枚。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__egg-trays"
+  },
+  {
+    "id": "bank-math-4-multiply-022",
+    "familyId": "math-4-multiply__fam-022",
+    "version": 1,
+    "text": "工人砌墙时每层用 12 块砖，一共砌了 15 层，这面墙一共用了多少块砖？",
+    "answer": "180",
+    "unit": "块",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 15 = 180。",
+      "每层 12 块，15 层就是 15 个 12 相加。",
+      "答：180 块。"
+    ],
+    "hint": "每层用多少块砖？砌了多少层？",
+    "alternative": "拆开算：12 × 10 = 120，12 × 5 = 60，合起来 180 块。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__brick-wall"
+  },
+  {
+    "id": "bank-math-4-multiply-023",
+    "familyId": "math-4-multiply__fam-023",
+    "version": 1,
+    "text": "一箱果汁有 12 瓶，商店运来了 9 箱，一共运来多少瓶果汁？",
+    "answer": "108",
+    "unit": "瓶",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 9 = 108。",
+      "一箱 12 瓶，9 箱就是 9 个 12 相加。",
+      "答：108 瓶。"
+    ],
+    "hint": "一箱有几瓶？运来几箱？",
+    "alternative": "按箱数相加：12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 = 108 瓶。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__juice-bottles"
+  },
+  {
+    "id": "bank-math-4-multiply-024",
+    "familyId": "math-4-multiply__fam-024",
+    "version": 1,
+    "text": "每张手账纸能贴 8 个贴纸，6 张手账纸一共能贴多少个贴纸？",
+    "answer": "48",
+    "unit": "个",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 6 = 48。",
+      "一张纸能贴 8 个，6 张就是 6 个 8 相加。",
+      "答：48 个。"
+    ],
+    "hint": "一张纸能贴几个？一共用了几张纸？",
+    "alternative": "先算 8 × 6 = 48，也可以想成 6 个 8 相加：8 + 8 + 8 + 8 + 8 + 8 = 48 个。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__sticker-sheet"
+  },
+  {
+    "id": "bank-math-4-multiply-025",
+    "familyId": "math-4-multiply__fam-025",
+    "version": 1,
+    "text": "食堂新做了 9 条围裙，每条围裙要钉 2 颗扣子，一共要钉多少颗扣子？",
+    "answer": "18",
+    "unit": "颗",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 9 = 18。",
+      "每条 2 颗，9 条就是 9 个 2 相加。",
+      "答：18 颗。"
+    ],
+    "hint": "一条围裙用几颗扣子？一共做了几条？",
+    "alternative": "按条数相加：2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 = 18 颗。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__apron-buttons"
+  },
+  {
+    "id": "bank-math-4-multiply-026",
+    "familyId": "math-4-multiply__fam-026",
+    "version": 1,
+    "text": "这辆校车每排 4 个座位，一共 8 排，坐满以后最多能坐多少人？",
+    "answer": "32",
+    "unit": "人",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 8 = 32。",
+      "每排 4 个座位，8 排就是 8 个 4 相加。",
+      "答：32 人。"
+    ],
+    "hint": "一排几个座位？一共几排？",
+    "alternative": "按排数相加：4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 32 人。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__bus-seats"
+  },
+  {
+    "id": "bank-math-4-multiply-027",
+    "familyId": "math-4-multiply__fam-027",
+    "version": 1,
+    "text": "做一份煎饼要用 15 克面糊，妈妈要做 4 份，一共要用多少克面糊？",
+    "answer": "60",
+    "unit": "克",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 4 = 60。",
+      "每份 15 克，4 份就是 4 个 15 相加。",
+      "答：60 克。"
+    ],
+    "hint": "一份用多少克？要做多少份？",
+    "alternative": "按份数相加：15 + 15 + 15 + 15 = 60 克。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__pancake-mix"
+  },
+  {
+    "id": "bank-math-4-multiply-028",
+    "familyId": "math-4-multiply__fam-028",
+    "version": 1,
+    "text": "每棵桃树上摘了 25 个桃子，6 棵桃树一共摘了多少个桃子？",
+    "answer": "150",
+    "unit": "个",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 6 = 150。",
+      "每棵摘 25 个，6 棵就是 6 个 25 相加。",
+      "答：150 个。"
+    ],
+    "hint": "一棵摘几个？一共摘了几棵？",
+    "alternative": "先算 25 × 6 = 150，也可以拆成 25 × 3 = 75 再乘 2 得 150 个。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__orchard-fruit"
+  },
+  {
+    "id": "bank-math-4-multiply-029",
+    "familyId": "math-4-multiply__fam-029",
+    "version": 1,
+    "text": "一本练习本有 30 页，小禾买了 4 本，这些练习本一共有多少页？",
+    "answer": "120",
+    "unit": "页",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 4 = 120。",
+      "一本 30 页，4 本就是 4 个 30 相加。",
+      "答：120 页。"
+    ],
+    "hint": "一本多少页？一共买了几本？",
+    "alternative": "按本数相加：30 + 30 + 30 + 30 = 120 页。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__notebook-pages"
+  },
+  {
+    "id": "bank-math-4-multiply-030",
+    "familyId": "math-4-multiply__fam-030",
+    "version": 1,
+    "text": "一套积木有 36 块，幼儿园买了 3 套，一共买了多少块积木？",
+    "answer": "108",
+    "unit": "块",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 × 3 = 108。",
+      "一套 36 块，3 套就是 3 个 36 相加。",
+      "答：108 块。"
+    ],
+    "hint": "一套有多少块？一共买了多少套？",
+    "alternative": "先算 36 × 3 = 108，也可以拆成 36 × 2 = 72 再加 36，得 108 块。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-multiply__building-blocks"
+  },
+  {
+    "id": "bank-math-4-apply-001",
+    "familyId": "math-4-apply__fam-001",
+    "version": 1,
+    "text": "学校组织 4 个小队，每队 6 人参加校园保洁，一共有多少人参加了保洁？",
+    "answer": "24",
+    "unit": "人",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 6 = 24。",
+      "每队人数相同，是把 6 这个数重复相加 4 次，用乘法更简便。",
+      "答：24 人。"
+    ],
+    "hint": "每队人数相同，是把相同的数重复相加，用乘法更快。",
+    "alternative": "按小队一个一个加：6 + 6 + 6 + 6 = 24 人。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__choose-model"
+  },
+  {
+    "id": "bank-math-4-apply-002",
+    "familyId": "math-4-apply__fam-002",
+    "version": 1,
+    "text": "小禾上午读了 15 页课外书，下午读了 12 页，一共读了多少页？",
+    "answer": "27",
+    "unit": "页",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 + 12 = 27。",
+      "上午和下午的页数不一样多，是把两部分合起来，用加法。",
+      "答：27 页。"
+    ],
+    "hint": "两部分的数不相等，这是合起来，用加法。",
+    "alternative": "先算 15 + 10 = 25，再加剩下的 2 页，得 27 页。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__choose-model"
+  },
+  {
+    "id": "bank-math-4-apply-003",
+    "familyId": "math-4-apply__fam-003",
+    "version": 1,
+    "text": "果园里每棵树都摘了 40 个梨，一共摘了 6 棵树，共摘了多少个梨？",
+    "answer": "240",
+    "unit": "个",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "40 × 6 = 240。",
+      "每棵树的梨一样多，是 6 个 40 相加，用乘法。",
+      "答：240 个。"
+    ],
+    "hint": "每棵树的梨一样多，用乘法还是加法合适？",
+    "alternative": "按棵数相加：40 + 40 + 40 + 40 + 40 + 40 = 240 个。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__choose-model"
+  },
+  {
+    "id": "bank-math-4-apply-004",
+    "familyId": "math-4-apply__fam-004",
+    "version": 1,
+    "text": "每根跳绳 12 元，妈妈买了 3 根，一共要付多少元？",
+    "answer": "36",
+    "unit": "元",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 3 = 36。",
+      "每根价格相同，是 3 个 12 相加，用乘法。",
+      "答：36 元。"
+    ],
+    "hint": "每根跳绳的单价相同，是 3 个相同的数相加。",
+    "alternative": "按根数相加：12 + 12 + 12 = 36 元。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__choose-model"
+  },
+  {
+    "id": "bank-math-4-apply-005",
+    "familyId": "math-4-apply__fam-005",
+    "version": 1,
+    "text": "停车场有大车 8 辆、小车 25 辆，大车和小车一共有多少辆？请先写出数量关系再计算。",
+    "answer": "33",
+    "unit": "辆",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 + 25 = 33。",
+      "数量关系是：大车辆数 + 小车辆数 = 总辆数，8 + 25 = 33 辆。",
+      "答：33 辆。"
+    ],
+    "hint": "先说清两部分各是什么，再把数量关系写下来。",
+    "alternative": "数量关系也可以写成 小车辆数 + 大车辆数 = 总辆数，即 25 + 8 = 33 辆。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__explain-relation"
+  },
+  {
+    "id": "bank-math-4-apply-006",
+    "familyId": "math-4-apply__fam-006",
+    "version": 1,
+    "text": "每箱苹果重 15 千克，买了 4 箱，一共重多少千克？请说清每份数和份数。",
+    "answer": "60",
+    "unit": "千克",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 4 = 60。",
+      "每份数是 15 千克，份数是 4 箱，每份数乘份数就是总重量，15 × 4 = 60 千克。",
+      "答：60 千克。"
+    ],
+    "hint": "先找出一箱有多重、有几箱这两个数。",
+    "alternative": "用加法表示也可以：15 + 15 + 15 + 15 = 60 千克。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__explain-relation"
+  },
+  {
+    "id": "bank-math-4-apply-007",
+    "familyId": "math-4-apply__fam-007",
+    "version": 1,
+    "text": "果园里桃树和梨树一共有 96 棵，其中桃树有 40 棵，梨树有多少棵？",
+    "answer": "56",
+    "unit": "棵",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "96 - 40 = 56。",
+      "数量关系是：总棵数 − 桃树棵数 = 梨树棵数，96 - 40 = 56 棵。",
+      "答：56 棵。"
+    ],
+    "hint": "从总数里去掉桃树的那部分，剩下的就是梨树。",
+    "alternative": "先算 96 - 40 = 56，再用 40 + 56 = 96 检验总数对不对。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__explain-relation"
+  },
+  {
+    "id": "bank-math-4-apply-008",
+    "familyId": "math-4-apply__fam-008",
+    "version": 1,
+    "text": "小禾买 5 张门票，每张 28 元，他却算成了一共 125 元。请你算出正确的钱数。",
+    "answer": "140",
+    "unit": "元",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "28 × 5 = 140。",
+      "每张 28 元，5 张应该用乘法算，28 × 5 = 140 元。",
+      "答：140 元。"
+    ],
+    "hint": "先判断他用的方法对不对，再重新算一次。",
+    "alternative": "把 28 拆成 20 和 8：20 × 5 = 100，8 × 5 = 40，合起来 140 元。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__check-answer"
+  },
+  {
+    "id": "bank-math-4-apply-009",
+    "familyId": "math-4-apply__fam-009",
+    "version": 1,
+    "text": "花坛里有 5 排郁金香，每排 12 棵，小禾数出 70 棵。请你算出正确的棵数。",
+    "answer": "60",
+    "unit": "棵",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 5 = 60。",
+      "每排 12 棵，5 排一共是 12 × 5 = 60 棵。",
+      "答：60 棵。"
+    ],
+    "hint": "先找出每排有几棵、一共有几排这两个数。",
+    "alternative": "按排数相加：12 + 12 + 12 + 12 + 12 = 60 棵。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__check-answer"
+  },
+  {
+    "id": "bank-math-4-apply-010",
+    "familyId": "math-4-apply__fam-010",
+    "version": 1,
+    "text": "食堂买来 12 袋大米，每袋 25 千克，小禾算得一共 305 千克。请你算出正确的千克数。",
+    "answer": "300",
+    "unit": "千克",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 12 = 300。",
+      "每袋 25 千克，12 袋一共是 25 × 12 = 300 千克。",
+      "答：300 千克。"
+    ],
+    "hint": "先看清每袋的千克数和袋数，再重新算一遍。",
+    "alternative": "拆成 10 袋和 2 袋：25 × 10 = 250，25 × 2 = 50，合起来 300 千克。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__check-answer"
+  },
+  {
+    "id": "bank-math-4-apply-011",
+    "familyId": "math-4-apply__fam-011",
+    "version": 1,
+    "text": "春游一共租了 8 辆大巴，每辆可以坐 45 人，这些车一共能坐多少人？",
+    "answer": "360",
+    "unit": "人",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 × 8 = 360。",
+      "每辆车的座位数相同，8 辆就是 8 个 45 相加。",
+      "答：360 人。"
+    ],
+    "hint": "每辆车的座位数相同，用乘法算总人数。",
+    "alternative": "按辆数相加：45 + 45 + 45 + 45 + 45 + 45 + 45 + 45 = 360 人。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__park-trip"
+  },
+  {
+    "id": "bank-math-4-apply-012",
+    "familyId": "math-4-apply__fam-012",
+    "version": 1,
+    "text": "公园里的游览车每辆能坐 8 人，一共来了 3 辆，一共有多少个座位？",
+    "answer": "24",
+    "unit": "个",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 3 = 24。",
+      "每辆游览车 8 个座位，3 辆就是 3 个 8 相加。",
+      "答：24 个。"
+    ],
+    "hint": "先找出一辆车的座位数，再找车的辆数。",
+    "alternative": "按辆数相加：8 + 8 + 8 = 24 个。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__park-trip"
+  },
+  {
+    "id": "bank-math-4-apply-013",
+    "familyId": "math-4-apply__fam-013",
+    "version": 1,
+    "text": "读书小组每组 8 人，学校的 6 个小组都在阅览室活动，一共有多少人？",
+    "answer": "48",
+    "unit": "人",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 6 = 48。",
+      "每组 8 人，6 个小组就是 6 个 8 相加。",
+      "答：48 人。"
+    ],
+    "hint": "每组的人数一样多，份数是小组的个数。",
+    "alternative": "按组数相加：8 + 8 + 8 + 8 + 8 + 8 = 48 人。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__book-club"
+  },
+  {
+    "id": "bank-math-4-apply-014",
+    "familyId": "math-4-apply__fam-014",
+    "version": 1,
+    "text": "图书角有故事书 145 本和科技书 68 本，故事书和科技书一共有多少本？",
+    "answer": "213",
+    "unit": "本",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "145 + 68 = 213。",
+      "数量关系是：故事书本数 + 科技书本数 = 总本数，145 + 68 = 213 本。",
+      "答：213 本。"
+    ],
+    "hint": "把两种书的本数合起来，先想清数量关系。",
+    "alternative": "先算 145 + 70 = 215，再减去多算的 2 本，得 213 本。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__book-club"
+  },
+  {
+    "id": "bank-math-4-apply-015",
+    "familyId": "math-4-apply__fam-015",
+    "version": 1,
+    "text": "校园演出的座位每排 8 个，一共排了 12 排，这些座位一共能坐多少人？",
+    "answer": "96",
+    "unit": "人",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 12 = 96。",
+      "每排 8 个座位，12 排就是 12 个 8 相加。",
+      "答：96 人。"
+    ],
+    "hint": "一排几个座位？一共排了几排？",
+    "alternative": "按排数相加：8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 + 8 = 96 人。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__school-play"
+  },
+  {
+    "id": "bank-math-4-apply-016",
+    "familyId": "math-4-apply__fam-016",
+    "version": 1,
+    "text": "演出小组准备了 9 箱矿泉水，每箱 12 瓶，一共准备了多少瓶水？",
+    "answer": "108",
+    "unit": "瓶",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 9 = 108。",
+      "每箱 12 瓶，9 箱就是 9 个 12 相加。",
+      "答：108 瓶。"
+    ],
+    "hint": "一箱多少瓶？准备了几箱？",
+    "alternative": "拆开算：12 × 9 = 108，也可以想成 9 个 12 相加：12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 + 12 = 108 瓶。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__school-play"
+  },
+  {
+    "id": "bank-math-4-apply-017",
+    "familyId": "math-4-apply__fam-017",
+    "version": 1,
+    "text": "学校有 4 个花坛，每个花坛里种 15 株花，一共种了多少株花？",
+    "answer": "60",
+    "unit": "株",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 4 = 60。",
+      "每个花坛 15 株，4 个花坛就是 4 个 15 相加。",
+      "答：60 株。"
+    ],
+    "hint": "一个花坛种几株？一共几个花坛？",
+    "alternative": "按花坛数相加：15 + 15 + 15 + 15 = 60 株。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__garden-allocation"
+  },
+  {
+    "id": "bank-math-4-apply-018",
+    "familyId": "math-4-apply__fam-018",
+    "version": 1,
+    "text": "园丁把 72 棵小树苗平均分到 6 个花坛，每个花坛分到多少棵？",
+    "answer": "12",
+    "unit": "棵",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "72 ÷ 6 = 12。",
+      "72 平均分成 6 份，每份是 12 棵。",
+      "答：12 棵。"
+    ],
+    "hint": "总数平均分成 6 份，一份是多少？",
+    "alternative": "用乘法检验：12 × 6 = 72，正好是树苗总数，所以每个花坛 12 棵。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__garden-allocation"
+  },
+  {
+    "id": "bank-math-4-apply-019",
+    "familyId": "math-4-apply__fam-019",
+    "version": 1,
+    "text": "运动会有 8 个班参加接力赛，每班派出 24 名运动员，一共派出多少名运动员？",
+    "answer": "192",
+    "unit": "名",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 × 8 = 192。",
+      "每班派出 24 名，8 个班就是 8 个 24 相加。",
+      "答：192 名。"
+    ],
+    "hint": "每班派出的人数相同，份数是班的个数。",
+    "alternative": "拆开算：24 × 8 = 192，也可以想成 8 个 24 相加：24 + 24 + 24 + 24 + 24 + 24 + 24 + 24 = 192 名。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__sports-meet"
+  },
+  {
+    "id": "bank-math-4-apply-020",
+    "familyId": "math-4-apply__fam-020",
+    "version": 1,
+    "text": "跳绳比赛每组 4 人，一共有 9 组参赛，一共有多少人参赛？",
+    "answer": "36",
+    "unit": "人",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 9 = 36。",
+      "每组 4 人，9 组就是 9 个 4 相加。",
+      "答：36 人。"
+    ],
+    "hint": "每组几个人？一共几组？",
+    "alternative": "按组数相加：4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 = 36 人。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__sports-meet"
+  },
+  {
+    "id": "bank-math-4-apply-021",
+    "familyId": "math-4-apply__fam-021",
+    "version": 1,
+    "text": "博物馆的门票每张 30 元，学校一共买了 120 张门票，需要付多少元？",
+    "answer": "3600",
+    "unit": "元",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 120 = 3600。",
+      "每张 30 元，120 张就是 120 个 30 相加。",
+      "答：3600 元。"
+    ],
+    "hint": "每张票多少元？一共买了多少张？",
+    "alternative": "把 120 张分成 100 张和 20 张：30 × 100 = 3000，30 × 20 = 600，合起来 3600 元。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__museum-visit"
+  },
+  {
+    "id": "bank-math-4-apply-022",
+    "familyId": "math-4-apply__fam-022",
+    "version": 1,
+    "text": "今天做 8 个菜，每个菜要用 3 个土豆，一共要用多少个土豆？",
+    "answer": "24",
+    "unit": "个",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 8 = 24。",
+      "每个菜用 3 个，8 个菜就是 8 个 3 相加。",
+      "答：24 个。"
+    ],
+    "hint": "一个菜用几个土豆？一共做几个菜？",
+    "alternative": "按菜的个数相加：3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 24 个。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__family-recipe"
+  },
+  {
+    "id": "bank-math-4-apply-023",
+    "familyId": "math-4-apply__fam-023",
+    "version": 1,
+    "text": "每个铅笔盒能装 10 支铅笔，店里备货 6 个铅笔盒的铅笔，一共能装多少支？",
+    "answer": "60",
+    "unit": "支",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 × 6 = 60。",
+      "一个盒子装 10 支，6 个盒子的货就是 6 个 10 相加。",
+      "答：60 支。"
+    ],
+    "hint": "一个盒子装几支？备了几个盒子的货？",
+    "alternative": "按盒子数相加：10 + 10 + 10 + 10 + 10 + 10 = 60 支。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__pencil-case-stock"
+  },
+  {
+    "id": "bank-math-4-apply-024",
+    "familyId": "math-4-apply__fam-024",
+    "version": 1,
+    "text": "动物园每只长颈鹿每天要吃 4 千克草料，园里有 6 只长颈鹿，一共要准备多少千克草料？",
+    "answer": "24",
+    "unit": "千克",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 6 = 24。",
+      "每只长颈鹿吃 4 千克，6 只就是 6 个 4 相加。",
+      "答：24 千克。"
+    ],
+    "hint": "一只长颈鹿吃几千克？园里有几只？",
+    "alternative": "按只数相加：4 + 4 + 4 + 4 + 4 + 4 = 24 千克。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__zoo-feeding"
+  },
+  {
+    "id": "bank-math-4-apply-025",
+    "familyId": "math-4-apply__fam-025",
+    "version": 1,
+    "text": "修一辆自行车要换 3 个零件，修理店一天修了 9 辆，一共换了多少个零件？",
+    "answer": "27",
+    "unit": "个",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 9 = 27。",
+      "每辆车换 3 个零件，9 辆就是 9 个 3 相加。",
+      "答：27 个。"
+    ],
+    "hint": "一辆车换几个零件？修了几辆？",
+    "alternative": "按车辆数相加：3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 = 27 个。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__bike-repair"
+  },
+  {
+    "id": "bank-math-4-apply-026",
+    "familyId": "math-4-apply__fam-026",
+    "version": 1,
+    "text": "手工课上做 7 个花环，每个花环要 8 朵花，一共用了多少朵花？",
+    "answer": "56",
+    "unit": "朵",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 7 = 56。",
+      "每个花环用 8 朵，7 个花环就是 7 个 8 相加。",
+      "答：56 朵。"
+    ],
+    "hint": "一个花环用几朵花？一共做了几个花环？",
+    "alternative": "按花环数相加：8 + 8 + 8 + 8 + 8 + 8 + 8 = 56 朵。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__flower-arrangement"
+  },
+  {
+    "id": "bank-math-4-apply-027",
+    "familyId": "math-4-apply__fam-027",
+    "version": 1,
+    "text": "木偶戏一共演出 9 场，每场卖出 24 张票，一共卖出多少张票？",
+    "answer": "216",
+    "unit": "张",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 × 9 = 216。",
+      "每场卖 24 张，9 场就是 9 个 24 相加。",
+      "答：216 张。"
+    ],
+    "hint": "每场卖多少张票？演出了几场？",
+    "alternative": "按场数相加：24 + 24 + 24 + 24 + 24 + 24 + 24 + 24 + 24 = 216 张。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__puppet-show"
+  },
+  {
+    "id": "bank-math-4-apply-028",
+    "familyId": "math-4-apply__fam-028",
+    "version": 1,
+    "text": "煮一锅排骨汤要用 12 块排骨，妈妈要煮 5 锅，一共要用多少块排骨？",
+    "answer": "60",
+    "unit": "块",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 5 = 60。",
+      "每锅用 12 块，5 锅就是 5 个 12 相加。",
+      "答：60 块。"
+    ],
+    "hint": "一锅用几块？一共煮几锅？",
+    "alternative": "按锅数相加：12 + 12 + 12 + 12 + 12 = 60 块。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__soup-making"
+  },
+  {
+    "id": "bank-math-4-apply-029",
+    "familyId": "math-4-apply__fam-029",
+    "version": 1,
+    "text": "泳池的一条泳道长 25 米，小禾一个来回正好游 50 米，他一共游了 4 个来回，一共游了多少米？",
+    "answer": "200",
+    "unit": "米",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "50 × 4 = 200。",
+      "一个来回是 50 米，4 个来回就是 4 个 50 相加。",
+      "答：200 米。"
+    ],
+    "hint": "一个来回是多少米？游了几个来回？",
+    "alternative": "按来回数相加：50 + 50 + 50 + 50 = 200 米。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__swimming-pool"
+  },
+  {
+    "id": "bank-math-4-apply-030",
+    "familyId": "math-4-apply__fam-030",
+    "version": 1,
+    "text": "一个育苗盘能放 24 棵菜苗，5 个育苗盘一共能放多少棵菜苗？",
+    "answer": "120",
+    "unit": "棵",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 × 5 = 120。",
+      "一个盘放 24 棵，5 个盘就是 5 个 24 相加。",
+      "答：120 棵。"
+    ],
+    "hint": "一个盘能放几棵？一共有几个盘？",
+    "alternative": "按盘数相加：24 + 24 + 24 + 24 + 24 = 120 棵。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-4-apply__seedling-trays"
+  }
+]

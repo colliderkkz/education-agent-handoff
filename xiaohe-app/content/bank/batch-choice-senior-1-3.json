@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "bank-math-s-1-function-c01",
+    "familyId": "math-s-1-function__fam-16",
+    "version": 1,
+    "text": "已知二次函数 f(x) = 2x² − 4x + 1，则 f(x) 的图象的顶点坐标是（　　）。A．(1, −1)　B．(−1, −1)　C．(1, 1)　D．(−1, 1)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-function",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "配方得 f(x) = 2(x − 1)² − 1，所以对称轴为直线 x = 1。",
+      "代入 x = 1 得 f(1) = 2 − 4 + 1 = −1，故顶点坐标为 (1, −1)；若把对称轴的横坐标或顶点的纵坐标符号看错，就会误选另外两项。",
+      "答：A。"
+    ],
+    "hint": "把二次函数配方成 a(x − h)² + k 的形式，顶点就是 (h, k)，注意 h 的正负号别看错。",
+    "alternative": "也可以用顶点公式 h = −b/(2a) = 4/(2 × 2) = 1，再算 k = f(1) = −1，同样得到顶点 (1, −1)。",
+    "prerequisites": [
+      "math-s-1-function"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-function__vertex-coordinate"
+  },
+  {
+    "id": "bank-math-s-1-function-c02",
+    "familyId": "math-s-1-function__fam-17",
+    "version": 1,
+    "text": "下列函数中，在 R 上是偶函数，且在 (0, +∞) 上单调递减的是（　　）。A．f(x) = x²　B．f(x) = 1/x²　C．f(x) = x³ − x　D．f(x) = |x| − 1",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-function",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先判奇偶性：x² 与 |x| − 1 满足 f(−x) = f(x)，是偶函数；x³ − x 满足 f(−x) = −f(x)，是奇函数；1/x² 也是偶函数。",
+      "再判单调性：x² 与 |x| − 1 在 (0, +∞) 上都单调递增，只有 1/x² 在 (0, +∞) 上单调递减。",
+      "答：B。"
+    ],
+    "hint": "本题要过两关：先过奇偶性，再过 (0, +∞) 上的单调性，两关都过的只有一个。",
+    "alternative": "也可以先由单调性排除 x² 与 |x| − 1，再在 x³ − x 与 1/x² 之间用 f(−x) = ±f(x) 区分，结论相同。",
+    "prerequisites": [
+      "math-s-1-function"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-function__even-and-monotone"
+  },
+  {
+    "id": "bank-math-s-1-function-c03",
+    "familyId": "math-s-1-function__fam-18",
+    "version": 1,
+    "text": "已知函数 f(x) = x² − 2x − 3，则不等式 f(x) < 0 的解集是（　　）。A．(−3, 1)　B．(−∞, −1) ∪ (3, +∞)　C．(−1, 3)　D．(−3, 3)",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-function",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "令 f(x) = 0，得 x² − 2x − 3 = 0，即 (x − 3)(x + 1) = 0，所以两个零点为 x = −1 与 x = 3。",
+      "二次项系数为正，抛物线开口向上，故 f(x) < 0 恰好在两根之间成立，即 −1 < x < 3。",
+      "答：C。"
+    ],
+    "hint": "先求出两个零点，再判断开口方向：开口向上时小于零的部分就在两根之间。",
+    "alternative": "由 f(x) = (x − 1)² − 4 可知 f(x) < 0 等价于 (x − 1)² < 4，解得 −1 < x < 3。",
+    "prerequisites": [
+      "math-s-1-function"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-function__inequality-solution"
+  },
+  {
+    "id": "bank-math-s-1-function-c04",
+    "familyId": "math-s-1-function__fam-19",
+    "version": 1,
+    "text": "已知 f(x) = x + 1 (x ≥ 0)，g(x) = √x (x ≥ 0)，则复合函数 f(g(x)) 的值域是（　　）。A．[0, +∞)　B．(1, +∞)　C．(0, +∞)　D．[1, +∞)",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-function",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复合函数 f(g(x)) = √x + 1，且 x ≥ 0。",
+      "由 x ≥ 0 知 √x 可取遍 [0, +∞)，故 f(g(x)) 可取遍 [1, +∞)；当 x = 0 时取到 1，故端点 1 能取到。",
+      "答：D。"
+    ],
+    "hint": "复合函数的值域由内层函数的取值范围决定，别忘了整体平移 1 以及端点能否取到。",
+    "alternative": "令 t = √x ≥ 0，则 f(g(x)) = t + 1，而 t 取遍 [0, +∞)，所以值域为 [1, +∞)。",
+    "prerequisites": [
+      "math-s-1-function"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-function__composite-range"
+  },
+  {
+    "id": "bank-math-s-1-function-c05",
+    "familyId": "math-s-1-function__fam-20",
+    "version": 1,
+    "text": "已知函数 f(x) 是定义在 R 上的偶函数，当 x ≥ 0 时 f(x) = x² − 2x + 1，则不等式 f(x) < 1 的解集是（　　）。A．(−2, 0) ∪ (0, 2)　B．(−2, 0)　C．(0, 2)　D．(−2, 2)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-function",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由偶函数性质得 f(x) = f(|x|)，所以对一切 x ∈ R 都有 f(x) = (|x| − 1)²。",
+      "f(x) < 1 即 (|x| − 1)² < 1，解得 −1 < |x| − 1 < 1，即 0 < |x| < 2。",
+      "答：A。"
+    ],
+    "hint": "偶函数的解析式要先写成含 |x| 的形式再解绝对值不等式；只看 x ≥ 0 的一半会漏掉负半轴。",
+    "alternative": "先在 x ≥ 0 上解出 0 < x < 2，再由对称性补上 (−2, 0)，但要注意 x = 0 处 f(0) = 1 不满足小于 1。",
+    "prerequisites": [
+      "math-s-1-function"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-1-function__even-absolute-value"
+  },
+  {
+    "id": "bank-math-s-1-log-c01",
+    "familyId": "math-s-1-log__fam-16",
+    "version": 1,
+    "text": "已知 log₃(x − 1) = 2，则 x = （　　）。A．9　B．10　C．4　D．27",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-log",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对数式有意义要求真数 x − 1 > 0，即 x > 1。",
+      "由对数定义得 x − 1 = 3² = 9，所以 x = 10；若忘记移项就会写成 x = 9。",
+      "答：B。"
+    ],
+    "hint": "先把真数还原成指数再解关于 x 的方程，注意不要漏掉 +1。",
+    "alternative": "把方程写成 x − 1 = 3²，两边同时加 1 得 x = 10，再代回原式检验 log₃ 9 = 2 成立。",
+    "prerequisites": [
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-log__log-equation"
+  },
+  {
+    "id": "bank-math-s-1-log-c02",
+    "familyId": "math-s-1-log__fam-17",
+    "version": 1,
+    "text": "若 log₂ a = 3，log₂ b = 5，则 log₂ (a/b) 的值是（　　）。A．2　B．−8　C．−2　D．8",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-log",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由对数运算法则 log₂ (a/b) = log₂ a − log₂ b。",
+      "代入得 3 − 5 = −2；这一步最容易漏掉负号，把结果写成 2 是最常见的错误。",
+      "答：C。"
+    ],
+    "hint": "商的log等于两log相减，相减时别把后一项的负号弄丢。",
+    "alternative": "由 log₂ a = 3 知 a = 8，由 log₂ b = 5 知 b = 32，于是 log₂ (a/b) = log₂ (1/4) = −2。",
+    "prerequisites": [
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-log__log-quotient"
+  },
+  {
+    "id": "bank-math-s-1-log-c03",
+    "familyId": "math-s-1-log__fam-18",
+    "version": 1,
+    "text": "设 a = log_{0.5} 3，b = log_{0.5} 2，c = log₂ 3，则 a、b、c 的大小关系是（　　）。A．b < a < c　B．c < a < b　C．b < c < a　D．a < b < c",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-log",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由于 0 < 0.5 < 1，对数函数在该底数下是减函数，且 log_{0.5} 3 = −log₂ 3 < 0，log_{0.5} 2 = −1 < 0，而 c = log₂ 3 > 0。",
+      "在两个负数中比较大小：log₂ 3 > 1，故 −log₂ 3 < −1，即 a < b；再由 a、b < 0 < c 得 a < b < c。",
+      "答：D。"
+    ],
+    "hint": "底数小于 1 时对数函数递减，真数越大函数值越小；带负号的两个数比较大小别弄反。",
+    "alternative": "把三个数都化到以 2 为底：a = −log₂ 3 约为 −1.585，b = −log₂ 2 = −1，c = log₂ 3 约为 1.585，直接读出 a < b < c。",
+    "prerequisites": [
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-log__log-compare"
+  },
+  {
+    "id": "bank-math-s-1-log-c04",
+    "familyId": "math-s-1-log__fam-19",
+    "version": 1,
+    "text": "不等式 log_{0.5}(x − 1) > −1 的解集是（　　）。A．(1, 3)　B．(3, +∞)　C．(1/2, 1)　D．(0, 1/2)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-log",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "真数有意义要求 x − 1 > 0，即 x > 1。",
+      "因底数 0.5 < 1，对数函数递减，不等号方向要改变：x − 1 < (0.5)^{−1} = 2。",
+      "答：A。"
+    ],
+    "hint": "底数小于 1 时不等号要变向，同时别忘真数大于 0 这一条限制。",
+    "alternative": "把 0.5 写成 1/2，则 log_{1/2}(x − 1) > −1 等价于 log_{1/2}(x − 1) > log_{1/2} 2，由递减性得 0 < x − 1 < 2，故 1 < x < 3。",
+    "prerequisites": [
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-log__log-inequality-base"
+  },
+  {
+    "id": "bank-math-s-1-log-c05",
+    "familyId": "math-s-1-log__fam-20",
+    "version": 1,
+    "text": "若 log₂(x + 1) + log₂(x − 1) = 2，则 x = （　　）。A．−√5　B．√5　C．√3　D．2",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-log",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "真数条件给出 x + 1 > 0 且 x − 1 > 0，即 x > 1。",
+      "由对数运算法则 (x + 1)(x − 1) = 2² = 4，即 x² − 1 = 4，解得 x = ±√5。",
+      "由 x > 1 舍去负根，答：B。"
+    ],
+    "hint": "先用定义域筛掉不合法的根，再解方程；只解方程不验定义域，容易把负根也写进答案。",
+    "alternative": "令 t = x²，则由 (x + 1)(x − 1) = x² − 1 = 4 得 t = 5，且 x > 1 与 t = x² 相容，故 x = √5。",
+    "prerequisites": [
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-1-log__log-sum-equation"
+  },
+  {
+    "id": "bank-math-s-1-trig-c01",
+    "familyId": "math-s-1-trig__fam-16",
+    "version": 1,
+    "text": "已知角 α 的终边经过点 P(−1, 2)，则 sin α 的值是（　　）。A．−2/√5　B．1/√5　C．2/√5　D．−1/√5",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-trig",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "点 P(−1, 2) 在第二象限，故 sin α > 0。",
+      "|OP| = √(1 + 4) = √5，于是 sin α = y/|OP| = 2/√5。",
+      "答：C。"
+    ],
+    "hint": "由终边经过的点的坐标求三角函数值，先算原点到该点的距离，再按象限定符号。",
+    "alternative": "先求 cos α = x/|OP| = −1/√5，再由 sin²α = 1 − cos²α 得 sin α = ±2/√5，用 α 在第二象限取正号。",
+    "prerequisites": [
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-trig__terminal-side"
+  },
+  {
+    "id": "bank-math-s-1-trig-c02",
+    "familyId": "math-s-1-trig__fam-17",
+    "version": 1,
+    "text": "已知 sin α = 3/5，cos α = −4/5，则 sin(α + π/4) 的值为（　　）。A．√2/10　B．7√2/10　C．−7√2/10　D．−√2/10",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-trig",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由和角公式 sin(α + π/4) = sin α·cos π/4 + cos α·sin π/4 展开。",
+      "cos π/4 = sin π/4 = √2/2，代入得 (3/5)(√2/2) + (−4/5)(√2/2) = (−1/5)(√2/2) = −√2/10。",
+      "答：D。"
+    ],
+    "hint": "和角公式两项都要算，第二项里的 cos α 是负数，计算时最容易漏掉这个负号。",
+    "alternative": "因为 cos π/4 = sin π/4 = √2/2，先求 sin α + cos α = 3/5 − 4/5 = −1/5，再用 sin(α + π/4) = (sin α + cos α)·(√2/2) = −√2/10，结果相同。",
+    "prerequisites": [
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-trig__addition-angle"
+  },
+  {
+    "id": "bank-math-s-1-trig-c03",
+    "familyId": "math-s-1-trig__fam-18",
+    "version": 1,
+    "text": "已知 α ∈ (0, π/2) 且 tan α = 1/2，则 cos 2α 的值是（　　）。A．3/5　B．4/5　C．3/4　D．1/5",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-trig",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用二倍角公式 cos 2α = (1 − tan²α)/(1 + tan²α)。",
+      "代入 tan α = 1/2 得 (1 − 1/4)/(1 + 1/4) = (3/4)/(5/4) = 3/5。",
+      "答：A。"
+    ],
+    "hint": "分母里的 tan²α 不能漏掉；忘记加上 1 就会得到 3/4。",
+    "alternative": "由 tan α = 1/2 且 α 在第一象限得 sin α = 1/√5，cos α = 2/√5，再用 cos 2α = cos²α − sin²α = (4 − 1)/5 = 3/5。",
+    "prerequisites": [
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-trig__double-angle"
+  },
+  {
+    "id": "bank-math-s-1-trig-c04",
+    "familyId": "math-s-1-trig__fam-19",
+    "version": 1,
+    "text": "方程 √3 sin x − cos x = 0 (x ∈ [0, π)) 的解是（　　）。A．π/3　B．π/6　C．5π/6　D．π/6 或 5π/6",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-trig",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "当 cos x = 0 时原式左边等于 √3 sin x，不为零，故可以两边同除以 cos x。",
+      "得 tan x = √3/3，在 [0, π) 内只有 x = π/6；而 x = 5π/6 在第二象限，tan x 为负，不满足原方程。",
+      "答：B。"
+    ],
+    "hint": "化成同角三角函数前先确认 cos x ≠ 0；区间限制是本题最容易丢分的地方。",
+    "alternative": "把左边配方成 2sin(x − π/6)，由 sin(x − π/6) = 0 得 x − π/6 = kπ，在 [0, π) 内只有 k = 0，即 x = π/6。",
+    "prerequisites": [
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-trig__trig-equation-shift"
+  },
+  {
+    "id": "bank-math-s-1-trig-c05",
+    "familyId": "math-s-1-trig__fam-20",
+    "version": 1,
+    "text": "已知 α ∈ (0, π/2)，β ∈ (0, π/2)，且 sin α = 3/5，cos β = 5/13，则 sin(α + β) 的值为（　　）。A．15/65　B．48/65　C．63/65　D．33/65",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-trig",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 α、β 都在第一象限得 cos α = 4/5，sin β = 12/13。",
+      "由 sin(α + β) = sin α·cos β + cos α·sin β 得 (3/5)(5/13) + (4/5)(12/13) = 15/65 + 48/65 = 63/65。",
+      "答：C。"
+    ],
+    "hint": "和角公式两项都要用，只算其中一项就会落到 15/65 或 48/65 这类半成品答案上。",
+    "alternative": "先由 sin α = 3/5、cos β = 5/13 写出 cos α = 4/5、sin β = 12/13，再代入 sin(α + β) 的展开式并通分求和，所得结果与直接计算一致。",
+    "prerequisites": [
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-1-trig__two-angle-sum"
+  },
+  {
+    "id": "bank-math-s-1-derivative-c01",
+    "familyId": "math-s-1-derivative__fam-16",
+    "version": 1,
+    "text": "已知 f(x) = 2^x，则 f'(x) = （　　）。A．2^x　B．x·2^(x−1)　C．x·2^x　D．2^x·ln 2",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-derivative",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 (a^x)' = a^x ln a，其中 a = 2，得 f'(x) = 2^x ln 2。",
+      "最常见的错误是漏乘 ln 2 只写 2^x；B、C 两项则是把指数函数的导数与幂函数的导数 x·2^(x−1) 混在了一起。",
+      "答：D。"
+    ],
+    "hint": "指数函数的求导公式是 (a^x)' = a^x ln a，不要和幂函数 (x^n)' = n·x^(n−1) 混淆。",
+    "alternative": "把 2^x 写成 e^(x ln 2)，用链式法则求导得 f'(x) = e^(x ln 2)·ln 2 = 2^x ln 2。",
+    "prerequisites": [
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-derivative__exponential-derivative"
+  },
+  {
+    "id": "bank-math-s-1-derivative-c02",
+    "familyId": "math-s-1-derivative__fam-17",
+    "version": 1,
+    "text": "曲线 y = ln x 在点 (1, 0) 处的切线方程是（　　）。A．y = x − 1　B．y = x + 1　C．y = 2x − 2　D．y = −x + 1",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-derivative",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 f'(x) = 1/x 得曲线在 x = 1 处的斜率为 f'(1) = 1。",
+      "由点斜式得切线方程 y − 0 = 1 · (x − 1)，即 y = x − 1；把 1/x 的导数符号看错会得到 y = −x + 1。",
+      "答：A。"
+    ],
+    "hint": "切线的斜率取的是该点处的导数值，点斜式里别把切点坐标代入错位置。",
+    "alternative": "先用切线与曲线的位置关系：对一切 x > 0 有 ln x ≤ x − 1，且等号只在 x = 1 处成立，所以 y = x − 1 就是点 (1, 0) 处的切线。",
+    "prerequisites": [
+      "math-s-1-derivative",
+      "math-s-1-log"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-derivative__log-tangent"
+  },
+  {
+    "id": "bank-math-s-1-derivative-c03",
+    "familyId": "math-s-1-derivative__fam-18",
+    "version": 1,
+    "text": "若曲线 y = f(x) 在点 P(x₀, y₀) 处的切线与 x 轴平行，则下列结论一定成立的是（　　）。A．f(x₀) = 0　B．f'(x₀) = 0　C．f(x) 在 x = x₀ 处取得极值　D．f''(x₀) = 0",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-derivative",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "切线与 x 轴平行说明切线的斜率为 0，而斜率正是该点处的导数 f'(x₀)。",
+      "所以 f'(x₀) = 0 一定成立；f(x₀) = 0 是把切线误当成 x 轴，f''(x₀) = 0 是与二阶导数混淆。",
+      "答：B。"
+    ],
+    "hint": "把导数的几何意义记牢：切线的斜率等于导数值，切线平行于 x 轴时斜率为 0。",
+    "alternative": "从单调性角度理解：f'(x₀) = 0 表明 x₀ 是驻点，可能是极值点也可能不是（如 x³ 在 x = 0 处），所以 C 并不一定成立。",
+    "prerequisites": [
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-derivative__parallel-tangent"
+  },
+  {
+    "id": "bank-math-s-1-derivative-c04",
+    "familyId": "math-s-1-derivative__fam-19",
+    "version": 1,
+    "text": "已知函数 f(x) = x³ − 3x² + 2a x + 1，若 f(x) 在区间 (1, +∞) 上单调递增，则实数 a 的取值范围是（　　）。A．a ≥ 3　B．a > 3/2　C．a ≥ 3/2　D．a ≤ 3/2",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-derivative",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "求导得 f'(x) = 3x² − 6x + 2a = 3(x − 1)² + 2a − 3。",
+      "由 f(x) 在 (1, +∞) 上单调递增得 f'(x) ≥ 0 恒成立，而 3(x − 1)² 在 x > 1 时可以任意接近 0，故必须有 2a − 3 ≥ 0，即 a ≥ 3/2。",
+      "答：C。"
+    ],
+    "hint": "单调递增只要求 f'(x) ≥ 0，端点处可以取到等号，所以 a = 3/2 也是允许的。",
+    "alternative": "令 t = x − 1 > 0，则 f'(x) = 3t² + 2a − 3，它在 t > 0 上的下确界为 2a − 3，要恒非负必须 2a − 3 ≥ 0。",
+    "prerequisites": [
+      "math-s-1-derivative",
+      "math-s-1-extreme"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-derivative__monotone-parameter"
+  },
+  {
+    "id": "bank-math-s-1-derivative-c05",
+    "familyId": "math-s-1-derivative__fam-20",
+    "version": 1,
+    "text": "已知函数 f(x) = x³ − x，曲线 y = f(x) 在点 (0, 0) 处的切线与曲线的位置关系是（　　）。A．切线在曲线下方（对一切 x ∈ R）　B．切线在曲线上方（对一切 x ∈ R）　C．当 x > 0 时切线在曲线上方，当 x < 0 时切线在曲线下方　D．当 x > 0 时切线在曲线下方，当 x < 0 时切线在曲线上方",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-derivative",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 f'(x) = 3x² − 1 得切线斜率 f'(0) = −1，故切线方程为 y = −x。",
+      "比较两者高低：f(x) − (−x) = x³ − x + x = x³，当 x > 0 时 x³ > 0，曲线在切线上方；当 x < 0 时 x³ < 0，曲线在切线下方。",
+      "答：D。"
+    ],
+    "hint": "先求出切线方程，再作差 f(x) − 切线，看差在 x > 0 与 x < 0 时的符号即可判断位置。",
+    "alternative": "把切线 y = −x 与曲线 y = x³ − x 联立，交点满足 x³ = 0 只有 x = 0，说明两曲线只在原点相交，x > 0 时直线在下、x < 0 时直线在上。",
+    "prerequisites": [
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-1-derivative__tangent-position"
+  },
+  {
+    "id": "bank-math-s-1-extreme-c01",
+    "familyId": "math-s-1-extreme__fam-16",
+    "version": 1,
+    "text": "已知函数 f(x) = x² − 4x + 1，则 f(x) 在 R 上的最小值是（　　）。A．−3　B．3　C．−1　D．1",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-extreme",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "配方得 f(x) = (x − 2)² − 3，图象开口向上，顶点为 (2, −3)。",
+      "平方项恒不小于 0，故 f(x) ≥ −3，当且仅当 x = 2 时取等号；若配方时把常数项写成 −1，就会误得 −1。",
+      "答：A。"
+    ],
+    "hint": "配方时注意 (x − 2)² = x² − 4x + 4，常数项要相应地减 3；最小值在顶点处取得。",
+    "alternative": "由 f'(x) = 2x − 4 = 0 得 x = 2，且 f''(2) = 2 > 0，故 x = 2 是极小值点，f(2) = −3 为最小值。",
+    "prerequisites": [
+      "math-s-1-extreme",
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-extreme__quadratic-minimum"
+  },
+  {
+    "id": "bank-math-s-1-extreme-c02",
+    "familyId": "math-s-1-extreme__fam-17",
+    "version": 1,
+    "text": "函数 f(x) = x³ − 3x² + 1 的单调递增区间是（　　）。A．(0, 2)　B．(−∞, 0)　C．(−∞, 0) ∪ (2, +∞)　D．(2, +∞)",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-1-extreme",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "求导得 f'(x) = 3x² − 6x = 3x(x − 2)。",
+      "f'(x) > 0 在 (−∞, 0) 与 (2, +∞) 上成立，故这两个区间都是单调递增区间；而 f'(x) < 0 在 (0, 2) 上成立。",
+      "答：C。"
+    ],
+    "hint": "解 f'(x) > 0 时别漏掉两段区间；单调区间一般写成并集，只写一段就丢了一半。",
+    "alternative": "由 f'(x) = 3x(x − 2) 的两个零点是 0 与 2，且 f' 是首项系数为正的二次函数，可知它在两零点之外为正。",
+    "prerequisites": [
+      "math-s-1-extreme",
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-1-extreme__cubic-monotone"
+  },
+  {
+    "id": "bank-math-s-1-extreme-c03",
+    "familyId": "math-s-1-extreme__fam-18",
+    "version": 1,
+    "text": "已知函数 f(x) = 2x³ − 3x² + 1，则方程 f(x) = 0 的实根个数是（　　）。A．1 个　B．2 个　C．3 个　D．0 个",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-1-extreme",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因式分解得 f(x) = 2x³ − 3x² + 1 = (x − 1)²(2x + 1)。",
+      "所以 x = 1 是二重根，x = −1/2 是单根，不同的实根共 2 个；把重根按两个根来数是常见的错误。",
+      "答：B。"
+    ],
+    "hint": "先尝试因式分解看根的个数，或用导数判断图象与 x 轴的交点；重根只算一个不同的实根。",
+    "alternative": "用导数分析：f'(x) = 6x(x − 1)，f 在 (−∞, 0) 上递减、(0, 1) 上递增、(1, +∞) 上递增，f(0) = 1 > 0，f(1) = 0，故图象只在 x = 1 与 x = −1/2 两处与 x 轴相交。",
+    "prerequisites": [
+      "math-s-1-extreme",
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-extreme__zero-count"
+  },
+  {
+    "id": "bank-math-s-1-extreme-c04",
+    "familyId": "math-s-1-extreme__fam-19",
+    "version": 1,
+    "text": "已知函数 f(x) = e^x + a x (a ∈ R)，若 f(x) ≥ 0 对一切 x ∈ R 恒成立，则实数 a 的取值范围是（　　）。A．a ≥ −e　B．a ≤ −e　C．a < 0　D．−e ≤ a ≤ 0",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-1-extreme",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "求导得 f'(x) = e^x + a；当 a < 0 时令 f'(x) = 0 得 x = ln(−a)，此时 f 取到最小值 f(ln(−a)) = −a + a·ln(−a)。",
+      "记 b = −a > 0，则该最小值为 b(1 − ln b)，要求它不小于 0 得 ln b ≤ 1，即 b ≤ e，故 a ≥ −e；再考虑 a = 0 时 f(x) = e^x > 0 恒成立、a > 0 时 x 趋于 −∞ 处 f(x) < 0，得 −e ≤ a ≤ 0。",
+      "答：D。"
+    ],
+    "hint": "先讨论 a 的符号：a > 0 时函数在 x 趋于 −∞ 时没有下界，只能取 a ≤ 0；a < 0 时在驻点处求出最小值。",
+    "alternative": "对 a < 0 用最小值公式 f_min = −a + a ln(−a) 讨论其非负性得 a ≥ −e，对 a = 0 与 a > 0 单独验证，把三种情形合并即得 −e ≤ a ≤ 0。",
+    "prerequisites": [
+      "math-s-1-extreme",
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-1-extreme__constant-inequality-exp"
+  },
+  {
+    "id": "bank-math-s-1-extreme-c05",
+    "familyId": "math-s-1-extreme__fam-20",
+    "version": 1,
+    "text": "已知函数 f(x) = x³ − 6x² + 9x + 1，则 f(x) 在区间 [0, 2] 上的最大值与最小值之差是（　　）。A．4　B．5　C．3　D．2",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-1-extreme",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "求导得 f'(x) = 3x² − 12x + 9 = 3(x − 1)(x − 3)。",
+      "在 [0, 2] 上 f' 在 (0, 1) 内为正、在 (1, 2) 内为负，故最大值在 x = 1 处取得，f(1) = 5；最小值在端点处，比较 f(0) = 1 与 f(2) = 3 得最小值为 1。",
+      "答：A。"
+    ],
+    "hint": "闭区间上的最值要比较驻点与两个端点，只算驻点容易把端点值漏掉。",
+    "alternative": "先由 f'(x) = 3(x − 1)(x − 3) 确定驻点 x = 1 在区间内，再分别计算 f(0) = 1、f(1) = 5、f(2) = 3 作比较，也能得到最大 5、最小 1。",
+    "prerequisites": [
+      "math-s-1-extreme",
+      "math-s-1-derivative"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-1-extreme__interval-range-difference"
+  },
+  {
+    "id": "bank-math-s-2-sequence-c01",
+    "familyId": "math-s-2-sequence__fam-16",
+    "version": 1,
+    "text": "已知数列 {a_n} 满足 a_1 = 2，a_{n+1} = a_n + 3，则 a_6 = （　　）。A．17　B．15　C．18　D．20",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-2-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由递推式逐项计算：a_2 = 5，a_3 = 8，a_4 = 11，a_5 = 14，a_6 = 17。",
+      "也可以看出该数列首项为 2、公差为 3，故 a_6 = 2 + 5 × 3 = 17；若把递推的步数数成 6 步，就会误得 20。",
+      "答：A。"
+    ],
+    "hint": "递推式每用一次项数加 1，从 a_1 到 a_6 只递推 5 次。",
+    "alternative": "由 a_{n+1} − a_n = 3 知该数列为等差数列，a_6 = a_1 + 5d = 2 + 15 = 17。",
+    "prerequisites": [
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-2-sequence__recurrence-term"
+  },
+  {
+    "id": "bank-math-s-2-sequence-c02",
+    "familyId": "math-s-2-sequence__fam-17",
+    "version": 1,
+    "text": "已知数列 {a_n} 的前 n 项和为 S_n = n² + 4n，则 a_1 + a_3 = （　　）。A．16　B．14　C．10　D．12",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-2-sequence",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 a_n = S_n − S_{n−1} 得 a_n = (n² + 4n) − ((n − 1)² + 4(n − 1)) = 2n + 3。",
+      "于是 a_1 = 5，a_3 = 9，所以 a_1 + a_3 = 14；把 S_1 与 S_3 直接相加是常见的错误。",
+      "答：B。"
+    ],
+    "hint": "由前 n 项和求通项用 S_n − S_{n−1}，代入时要同时展开 (n − 1)²。",
+    "alternative": "先分别算 S_1 = 5、S_2 = 12、S_3 = 21，再由 a_1 = S_1 = 5、a_3 = S_3 − S_2 = 21 − 12 = 9 相加得 14。",
+    "prerequisites": [
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-2-sequence__sum-to-term-pair"
+  },
+  {
+    "id": "bank-math-s-2-sequence-c03",
+    "familyId": "math-s-2-sequence__fam-18",
+    "version": 1,
+    "text": "某厂第 1 个月生产零件 120 个，从第 2 个月起每月比上月多 20 个，则第 1 个月到第 5 个月共生产零件（　　）个。A．1000　B．700　C．800　D．900",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-2-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "该厂每月产量构成首项 120、公差 20 的等差数列，第 5 个月的产量 a_5 = 120 + 4 × 20 = 200。",
+      "前 5 个月的总数 S_5 = 5 × (120 + 200) ÷ 2 = 800；直接用 5 × 200 会得 1000，把首项当末项会得 700。",
+      "答：C。"
+    ],
+    "hint": "求的是前 5 个月的总产量，要用等差数列求和公式，别把最大的一项乘 5 当总数。",
+    "alternative": "直接列举相加：120 + 140 + 160 + 180 + 200 = 800，可以核对求和公式的结果。",
+    "prerequisites": [
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-2-sequence__monthly-output"
+  },
+  {
+    "id": "bank-math-s-2-sequence-c04",
+    "familyId": "math-s-2-sequence__fam-19",
+    "version": 1,
+    "text": "已知等比数列 {a_n} 的首项 a_1 = 2，公比 q = 2，则它的前 6 项和 S_6 = （　　）。A．124　B．64　C．128　D．126",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-2-sequence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 a_1 = 2、q = 2 得各项依次为 2, 4, 8, 16, 32, 64。",
+      "逐项相加得 S_6 = 2 + 4 + 8 + 16 + 32 + 64 = 126；漏掉首项会得 124，把第 7 项 128 当作和则是把项数数错。",
+      "答：D。"
+    ],
+    "hint": "用求和公式 S_6 = a_1(q⁶ − 1)/(q − 1) 或直接逐项相加都行，注意一共是 6 项。",
+    "alternative": "由 S_6 = 2(2⁶ − 1)/(2 − 1) = 2 × 63 = 126，与逐项相加的结果一致。",
+    "prerequisites": [
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-2-sequence__geometric-sum"
+  },
+  {
+    "id": "bank-math-s-2-sequence-c05",
+    "familyId": "math-s-2-sequence__fam-20",
+    "version": 1,
+    "text": "已知等比数列 {a_n} 的首项 a_1 = 4，公比 q > 0，若它的前 n 项和 S_n 对一切正整数 n 都满足 S_n > 2n，则公比 q 的取值范围是（　　）。A．q > 1　B．q ≥ 1　C．q > 0　D．q ≥ 2",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-2-sequence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "当 q = 1 时数列是常数列，S_n = 4n > 2n 恒成立；当 q > 1 时各项都不小于 4，故 S_n ≥ 4n > 2n 也成立。",
+      "当 0 < q < 1 时，S_n = 4(1 − qⁿ)/(1 − q) 被常数 4/(1 − q) 控制，而 2n 随 n 增大无限增大，条件不可能对一切 n 成立。",
+      "答：B。"
+    ],
+    "hint": "抓住 q < 1 时前 n 项和有上界这一关键；端点 q = 1 要单独代入检验，往往正是被漏掉的选项。",
+    "alternative": "由 S_n > 2n 对一切正整数 n 成立，若 q < 1 则 S_n 有上界而 2n 无界，矛盾，故 q ≥ 1；再代入 q = 1 检验得 S_n = 4n，条件成立。",
+    "prerequisites": [
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-2-sequence__sum-inequality-ratio"
+  },
+  {
+    "id": "bank-math-s-2-application-c01",
+    "familyId": "math-s-2-application__fam-16",
+    "version": 1,
+    "text": "已知数列 {a_n} 的通项为 a_n = 2n² − 1，则 a_{n+1} − a_n = （　　）。A．4n + 2　B．4n　C．2n + 2　D．4n + 4",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-2-application",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "代入通项得 a_{n+1} = 2(n + 1)² − 1 = 2n² + 4n + 1。",
+      "故 a_{n+1} − a_n = (2n² + 4n + 1) − (2n² − 1) = 4n + 2；展开时漏掉常数 1 就会写成 4n。",
+      "答：A。"
+    ],
+    "hint": "先把 (n + 1)² 完整展开成 n² + 2n + 1 再相减，常数项最容易丢。",
+    "alternative": "用平方差公式：(n + 1)² − n² = 2n + 1，于是 a_{n+1} − a_n = 2[(n + 1)² − n²] = 2(2n + 1) = 4n + 2。",
+    "prerequisites": [
+      "math-s-2-application"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-2-application__difference-of-terms"
+  },
+  {
+    "id": "bank-math-s-2-application-c02",
+    "familyId": "math-s-2-application__fam-17",
+    "version": 1,
+    "text": "1 + 3 + 5 + ⋯ + 99 = （　　）。A．2450　B．2500　C．2550　D．5000",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-2-application",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "这是首项 1、公差 2 的等差数列，由 99 = 1 + (n − 1) × 2 得项数 n = 50。",
+      "由求和公式 S_50 = 50 × (1 + 99) ÷ 2 = 2500；把项数算成 49 得 2450，算成 51 得 2550。",
+      "答：B。"
+    ],
+    "hint": "先数清项数再套求和公式；连续正奇数之和也可以直接用项数的平方。",
+    "alternative": "1 + 3 + ⋯ + 99 是前 50 个正奇数之和，等于 50² = 2500，与求和公式的结果一致。",
+    "prerequisites": [
+      "math-s-2-application"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-2-application__odd-number-sum"
+  },
+  {
+    "id": "bank-math-s-2-application-c03",
+    "familyId": "math-s-2-application__fam-18",
+    "version": 1,
+    "text": "某礼堂有 12 排座位，第 1 排有 18 个座位，从第 2 排起每排比前一排多 3 个座位，则这个礼堂共有（　　）个座位。A．207　B．828　C．414　D．432",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-2-application",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "各排座位数构成首项 18、公差 3 的等差数列，第 12 排 a_12 = 18 + 11 × 3 = 51。",
+      "总座位数 S_12 = 12 × (18 + 51) ÷ 2 = 414；忘记除以 2 会得 828，把首项当末项会得 432。",
+      "答：C。"
+    ],
+    "hint": "求和公式 S_n = n(a_1 + a_n)/2 中的 n 是排数，末项要自己先算出来。",
+    "alternative": "把各排座位数两两配对相加：18 + 51、21 + 48、⋯，每对之和都是 69，共 6 对，故总数为 6 × 69 = 414。",
+    "prerequisites": [
+      "math-s-2-application",
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-2-application__seat-count"
+  },
+  {
+    "id": "bank-math-s-2-application-c04",
+    "familyId": "math-s-2-application__fam-19",
+    "version": 1,
+    "text": "已知数列 {a_n} 的前 n 项和 S_n = 2ⁿ − 1，则 a_5 = （　　）。A．32　B．15　C．17　D．16",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-2-application",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 a_n = S_n − S_{n−1} 得 a_n = (2ⁿ − 1) − (2^(n−1) − 1) = 2^(n−1)。",
+      "故 a_5 = 2⁴ = 16；把 S_5 = 31 当成 a_5，或者把通项里的下标直接写成 5，都会算错。",
+      "答：D。"
+    ],
+    "hint": "由前 n 项和求某一项，用 S_n − S_{n−1} 更快，不必先求通项。",
+    "alternative": "逐项算出 S_1 = 1、S_2 = 3、S_3 = 7、S_4 = 15、S_5 = 31，则 a_5 = S_5 − S_4 = 31 − 15 = 16。",
+    "prerequisites": [
+      "math-s-2-application"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-2-application__sum-to-term"
+  },
+  {
+    "id": "bank-math-s-2-application-c05",
+    "familyId": "math-s-2-application__fam-20",
+    "version": 1,
+    "text": "已知数列 {a_n} 满足 a_1 = 1，a_{n+1} = a_n + 1/(n(n + 1)) (n ≥ 1)，则 a_n = （　　）。A．2 − 1/n　B．2 − 1/(n + 1)　C．1 + 1/n　D．2 − n",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-2-application",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "累加递推式得 a_n = 1 + 1/(1 × 2) + 1/(2 × 3) + ⋯ + 1/((n − 1)n)。",
+      "用裂项 1/(k(k + 1)) = 1/k − 1/(k + 1) 求和得 a_n = 1 + (1 − 1/n) = 2 − 1/n；若把求和的上限写成 n，就会得到 2 − 1/(n + 1)。",
+      "答：A。"
+    ],
+    "hint": "累加到最后一项是 1/((n − 1)n)，裂项求和后剩下的是 −1/n 而不是 −1/(n + 1)。",
+    "alternative": "令 b_n = 2 − a_n，则 b_{n+1} = b_n − 1/(n(n + 1))，又 b_1 = 1，累加得 b_n = 1 − (1 − 1/n) = 1/n，于是 a_n = 2 − 1/n。",
+    "prerequisites": [
+      "math-s-2-application",
+      "math-s-2-sequence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-2-application__split-fraction-sum"
+  },
+  {
+    "id": "bank-math-s-3-solid-c01",
+    "familyId": "math-s-3-solid__fam-16",
+    "version": 1,
+    "text": "一个半径为 2 厘米的球（计算时取 π = 3.14），它的表面积是（　　）平方厘米。A．33.49　B．50.24　C．16.84　D．100.48",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-3-solid",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "球的表面积公式是 S = 4πr²，代入 r = 2 得 S = 4 × 3.14 × 4 = 50.24。",
+      "最容易混的是体积公式 V = (4/3)πr³ = 33.49；漏乘一个 r 会得 16.84，把直径误当半径则会把结果放大一倍。",
+      "答：B。"
+    ],
+    "hint": "球的表面积是 4πr²、体积是 (4/3)πr³，这两个公式千万不要互换。",
+    "alternative": "先求半径为 2 的大圆面积 πr² = 12.56，再乘 4 得球面面积 50.24。",
+    "prerequisites": [
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-3-solid__sphere-surface"
+  },
+  {
+    "id": "bank-math-s-3-solid-c02",
+    "familyId": "math-s-3-solid__fam-17",
+    "version": 1,
+    "text": "一个圆锥的底面半径为 6 厘米，高为 5 厘米（计算时取 π = 3.14），它的体积是（　　）立方厘米。A．565.2　B．753.6　C．188.4　D．157",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-3-solid",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "圆锥的体积公式是 V = (1/3)πr²h，代入 r = 6、h = 5 得 V = (1/3) × 3.14 × 36 × 5 = 188.4。",
+      "漏掉系数 1/3 会得 565.2，把直径当半径用 r = 12 会得 753.6，半径与高互换会得 157。",
+      "答：C。"
+    ],
+    "hint": "圆锥体积一定要乘 1/3，并看清题目给的是半径还是直径、高还是母线。",
+    "alternative": "先算底面积 πr² = 3.14 × 36 = 113.04，再乘高 5 得 565.2，最后乘 1/3 得 188.4。",
+    "prerequisites": [
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-3-solid__cone-volume"
+  },
+  {
+    "id": "bank-math-s-3-solid-c03",
+    "familyId": "math-s-3-solid__fam-18",
+    "version": 1,
+    "text": "一个半径为 3 厘米的球被一个平面切成两个大小相等的半球（计算时取 π = 3.14），则其中一个半球的表面积是（　　）平方厘米。A．28.26　B．56.52　C．113.04　D．84.78",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-3-solid",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "半球的表面积由半个球面与切出的一个圆形底面组成：S = 2πr² + πr² = 3πr²。",
+      "代入 r = 3 得 S = 3 × 3.14 × 9 = 84.78；只算球面得 56.52，只算底面得 28.26，把整个球的表面积 113.04 当作答案也是错的。",
+      "答：D。"
+    ],
+    "hint": "半球表面积 = 2πr² + πr² = 3πr²，别忘了切出来的那一个圆形底面。",
+    "alternative": "先算整个球的表面积 4πr² = 113.04，两个半球各占球面的一半即 2πr² = 56.52，再加上各自的底面积 πr² = 28.26。",
+    "prerequisites": [
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-3-solid__hemisphere-surface"
+  },
+  {
+    "id": "bank-math-s-3-solid-c04",
+    "familyId": "math-s-3-solid__fam-19",
+    "version": 1,
+    "text": "若一个几何体的三视图都是边长为 2 的正方形，则这个几何体可能是（　　）。A．棱长为 2 的正方体　B．底面半径为 1、高为 2 的圆柱　C．棱长为 2 的正四面体　D．底面边长为 2、高为 4 的正四棱柱",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-3-solid",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "正视图与侧视图都是宽为 2 的矩形，说明几何体在两个方向上的长度都是 2。",
+      "俯视图是边长为 2 的正方形，说明底面是边长 2 的正方形；圆柱的俯视图是圆，正四面体的三视图都不是正方形，两者都被排除。",
+      "正四棱柱若高为 4，其正视图是 2 × 4 的矩形，同样不符合，故只有正方体符合，答：A。"
+    ],
+    "hint": "三视图全等时要同时核对正视图、俯视图、侧视图的形状与尺寸，底面的投影最容易被忽略。",
+    "alternative": "由俯视图是边长 2 的正方形可知底面是正方形，再由正视图、侧视图的宽都是 2 且高也是 2，可知这个几何体就是正方体。",
+    "prerequisites": [
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-3-solid__three-view-shape"
+  },
+  {
+    "id": "bank-math-s-3-solid-c05",
+    "familyId": "math-s-3-solid__fam-20",
+    "version": 1,
+    "text": "在一个棱长为 6 厘米的正方体的一个顶点处放置一个半径为 3 厘米的半球，半球的球面在正方体内部（计算时取 π = 3.14），则正方体内未被半球占据的体积是（　　）立方厘米。A．159.48　B．102.96　C．187.74　D．56.52",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-3-solid",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "正方体的体积 V₁ = 6³ = 216 立方厘米。",
+      "半球的体积 V₂ = (2/3)πr³ = (2/3) × 3.14 × 27 = 56.52 立方厘米；若误用整球体积 113.04 或漏掉 2/3 都会算错。",
+      "未被半球占据的体积为 V₁ − V₂ = 216 − 56.52 = 159.48，答：A。"
+    ],
+    "hint": "正方体挖去半球，体积作差；半球体积只有整球的一半，别把整球体积代入。",
+    "alternative": "也可先求正方体外接于该半球的情形：正方体体积 216 与所挖半球体积 56.52 之差即为所求体积。",
+    "prerequisites": [
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-3-solid__cube-hemisphere"
+  },
+  {
+    "id": "bank-math-s-3-vector-c01",
+    "familyId": "math-s-3-vector__fam-16",
+    "version": 1,
+    "text": "已知向量 a = (1, 2, 3)，b = (2, 0, −1)，则 a · b = （　　）。A．1　B．−1　C．5　D．−5",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-3-vector",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按坐标相乘再相加：a · b = 1 × 2 + 2 × 0 + 3 × (−1)。",
+      "计算得 2 + 0 − 3 = −1；把第三项的负号漏掉会得 5，只按绝对值相加会得 1。",
+      "答：B。"
+    ],
+    "hint": "数量积要对应坐标相乘再相加，负号是最容易丢的地方。",
+    "alternative": "用 |a + b|² = 17、|a − b|² = 21 与 a · b = (|a + b|² − |a − b|²)/4 计算，同样得 (17 − 21)/4 = −1。",
+    "prerequisites": [
+      "math-s-3-vector"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-3-vector__dot-product-sign"
+  },
+  {
+    "id": "bank-math-s-3-vector-c02",
+    "familyId": "math-s-3-vector__fam-17",
+    "version": 1,
+    "text": "已知向量 a = (3, 4, 0)，b = (4, 3, 0)，则 a 与 b 的夹角 θ 的余弦值是（　　）。A．24/25　B．4/5　C．3/5　D．12/25",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-3-vector",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "a · b = 3 × 4 + 4 × 3 + 0 = 24。",
+      "|a| = |b| = 5，故 cos θ = (a · b)/(|a||b|) = 24/25；若把 |a||b| 误算成 50 就会得 12/25。",
+      "答：A。"
+    ],
+    "hint": "夹角余弦公式是 cos θ = a·b/(|a||b|)，模要各自开方后再相乘。",
+    "alternative": "先算 |a + b|² = 98、|a − b|² = 2，再由 cos θ = (|a + b|² − |a − b|²)/(4|a||b|) = (98 − 2)/100 = 24/25。",
+    "prerequisites": [
+      "math-s-3-vector"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-3-vector__angle-cosine-basic"
+  },
+  {
+    "id": "bank-math-s-3-vector-c03",
+    "familyId": "math-s-3-vector__fam-18",
+    "version": 1,
+    "text": "在正方体 ABCD-A₁B₁C₁D₁ 中（棱长为 2 厘米），以 A 为原点，AB、AD、AA₁ 所在直线依次为 x 轴、y 轴、z 轴建立空间直角坐标系，则向量 AB₁ 与向量 AC 的夹角的余弦值是（　　）。A．√2/2　B．1/4　C．1/2　D．√3/3",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-3-vector",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由坐标得 AB₁ = (2, 0, 2)，AC = (2, 2, 0)。",
+      "计算得 AB₁ · AC = 2 × 2 + 0 × 2 + 2 × 0 = 4，|AB₁| = |AC| = 2√2。",
+      "所以 cos θ = 4/(2√2 × 2√2) = 1/2；把两条面对角线的夹角记成 45°（即 √2/2）是常见的错误，答：C。"
+    ],
+    "hint": "正方体中面对角线与体对角线的夹角、两条面对角线之间的夹角要分清，最好先写坐标再计算。",
+    "alternative": "由 |AB₁ + AC|² = |(4, 2, 2)|² = 24 与 |AB₁|² + |AC|² = 16 得 2AB₁ · AC = 8，即 AB₁ · AC = 4，再算余弦同样得 1/2。",
+    "prerequisites": [
+      "math-s-3-vector",
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-3-vector__cube-angle"
+  },
+  {
+    "id": "bank-math-s-3-vector-c04",
+    "familyId": "math-s-3-vector__fam-19",
+    "version": 1,
+    "text": "在正方体 ABCD-A₁B₁C₁D₁ 中（棱长为 2 厘米），以 A 为原点，AB、AD、AA₁ 所在直线依次为 x 轴、y 轴、z 轴建立空间直角坐标系，则直线 AC 与平面 A₁BD₁ 所成角的正弦值是（　　）。A．√3/2　B．√2/2　C．1/4　D．1/2",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-3-vector",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由坐标得 A₁(0, 0, 2)，B(2, 0, 0)，D₁(0, 2, 2)，平面 A₁BD₁ 的方程为 x + z = 2，故其一个法向量为 n = (1, 0, 1)。",
+      "直线 AC 的方向向量 d = (2, 2, 0)，于是 |d · n| = |2 + 0 + 0| = 2，|d| = 2√2，|n| = √2。",
+      "线面角 θ 满足 sin θ = |d · n|/(|d||n|) = 2/(2√2 × √2) = 1/2，答：D。"
+    ],
+    "hint": "线面角等于直线与法向量夹角的余角，余角关系别用反。",
+    "alternative": "作投影：AC 在平面 A₁BD₁ 上的投影方向为 (1, 2, −1)，其长度为 √6，故线面角 θ 满足 cos θ = √6/(2√2) = √3/2，即 θ = 30°，sin θ = 1/2。",
+    "prerequisites": [
+      "math-s-3-vector",
+      "math-s-3-solid"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-3-vector__line-plane-sine"
+  },
+  {
+    "id": "bank-math-s-3-vector-c05",
+    "familyId": "math-s-3-vector__fam-20",
+    "version": 1,
+    "text": "已知向量 a = (1, 2, −1)，b = (2, 0, 2)，若向量 c 满足 c · a = 0 且 c · b = 0，则下列向量中可以是 c 的是（　　）。A．(−1, 1, 1)　B．(1, 1, 1)　C．(1, −1, 1)　D．(−1, 1, −1)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-3-vector",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设 c = (x, y, z)，由 c · a = 0 得 x + 2y − z = 0，由 c · b = 0 得 2x + 2z = 0，即 x = −z。",
+      "代入第一式得 −z + 2y − z = 0，故 y = z，于是 c = z(−1, 1, 1)，即 c 与 (−1, 1, 1) 平行。",
+      "取 z = 1 得 c = (−1, 1, 1)，检验 (−1 × 1 + 1 × 2 + 1 × (−1) = 0，−1 × 2 + 1 × 0 + 1 × 2 = 0) 成立，答：A。"
+    ],
+    "hint": "同时与两个向量垂直的向量必平行于它们的公垂线方向，解出方程组后看哪个选项是这个方向。",
+    "alternative": "也可以直接逐个验证：(−1, 1, 1) 同时满足 (−1) × 1 + 1 × 2 + 1 × (−1) = 0 与 (−1) × 2 + 1 × 0 + 1 × 2 = 0，而其余三个选项代入后至少有一个数量积不为 0。",
+    "prerequisites": [
+      "math-s-3-vector"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-3-vector__orthogonal-vectors"
+  }
+]

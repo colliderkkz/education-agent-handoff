@@ -1,0 +1,12 @@
+{
+  "version": "2026.11.41",
+  "digest": "42bf9b7873086c4e0e9ca13c6e8c087304bb58c634c22de9cc8f7cdbe42cc1d6",
+  "counts": {
+    "chinese": 608,
+    "math": 704,
+    "english": 512,
+    "junior-math": 660,
+    "senior-math": 300,
+    "total": 2784
+  }
+}

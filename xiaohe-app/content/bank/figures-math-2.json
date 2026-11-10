@@ -1,0 +1,215 @@
+{
+  "math/math-2-angle/angle-75": {
+    "kind": "angle",
+    "degrees": 75,
+    "arm": 145,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-65": {
+    "kind": "angle",
+    "degrees": 65,
+    "arm": 155,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-45": {
+    "kind": "angle",
+    "degrees": 45,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-20": {
+    "kind": "angle",
+    "degrees": 20,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-60": {
+    "kind": "angle",
+    "degrees": 60,
+    "arm": 160,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-150": {
+    "kind": "angle",
+    "degrees": 150,
+    "arm": 72,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-90": {
+    "kind": "angle",
+    "degrees": 90,
+    "arm": 145,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-50": {
+    "kind": "angle",
+    "degrees": 50,
+    "arm": 185,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/split-triangle": {
+    "kind": "triangle",
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-80": {
+    "kind": "angle",
+    "degrees": 80,
+    "arm": 145,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-35": {
+    "kind": "angle",
+    "degrees": 35,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-55": {
+    "kind": "angle",
+    "degrees": 55,
+    "arm": 170,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-angle/angle-40": {
+    "kind": "angle",
+    "degrees": 40,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-120": {
+    "kind": "angle",
+    "degrees": 120,
+    "arm": 125,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-135": {
+    "kind": "angle",
+    "degrees": 135,
+    "arm": 88,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-100": {
+    "kind": "angle",
+    "degrees": 100,
+    "arm": 140,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-30": {
+    "kind": "angle",
+    "degrees": 30,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/scale-0-90": {
+    "kind": "numberLine",
+    "min": 0,
+    "max": 90,
+    "step": 10,
+    "width": 420,
+    "height": 120
+  },
+  "math/math-2-measure/scale-read": {
+    "kind": "numberLine",
+    "min": 0,
+    "max": 90,
+    "step": 10,
+    "marks": [
+      [
+        20,
+        ""
+      ],
+      [
+        50,
+        ""
+      ]
+    ],
+    "width": 420,
+    "height": 120
+  },
+  "math/math-2-measure/angle-170": {
+    "kind": "angle",
+    "degrees": 170,
+    "arm": 63,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-165": {
+    "kind": "angle",
+    "degrees": 165,
+    "arm": 64,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-70": {
+    "kind": "angle",
+    "degrees": 70,
+    "arm": 150,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-160": {
+    "kind": "angle",
+    "degrees": 160,
+    "arm": 66,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-115": {
+    "kind": "angle",
+    "degrees": 115,
+    "arm": 145,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-110": {
+    "kind": "angle",
+    "degrees": 110,
+    "arm": 150,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-85": {
+    "kind": "angle",
+    "degrees": 85,
+    "arm": 145,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-25": {
+    "kind": "angle",
+    "degrees": 25,
+    "arm": 190,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-125": {
+    "kind": "angle",
+    "degrees": 125,
+    "arm": 108,
+    "width": 360,
+    "height": 200
+  },
+  "math/math-2-measure/angle-145": {
+    "kind": "angle",
+    "degrees": 145,
+    "arm": 75,
+    "width": 360,
+    "height": 200
+  }
+}

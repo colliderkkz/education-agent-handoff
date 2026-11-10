@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "bank-math-1-place-c01",
+    "familyId": "math-1-place__fam-31",
+    "version": 1,
+    "text": "一个数由 6 个万、4 个千和 8 个十组成，这个数写作（　　）。A．60480　B．64080　C．64800　D．68400",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "这个数的万级是 6 个万，个级是 4 个千和 8 个十，先把每个计数单位换成数位上的数。",
+      "6 × 10000 + 4 × 1000 + 8 × 10 = 64080",
+      "答：B。"
+    ],
+    "hint": "先分清万级和个级，再把「几个计数单位」一个一个放到对应的数位上。",
+    "alternative": "也可以在数位表上写一写：万位写 6，千位写 4，十位写 8，其余数位都写 0，一个数位一个数位地读出来就是 64080。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__compose-by-units"
+  },
+  {
+    "id": "bank-math-1-place-c02",
+    "familyId": "math-1-place__fam-32",
+    "version": 1,
+    "text": "一个数的万位上是 7，个位上是 3，其余各位都是 0，这个数是（　　）。A．70030　B．70300　C．73000　D．70003",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "万位上的 7 表示 7 个万，个位上的 3 表示 3 个一，其余数位上没有数字就是 0。",
+      "7 × 10000 + 3 × 1 = 70003",
+      "答：D。"
+    ],
+    "hint": "先把每个数字放到对应的数位上，再想一想这个数字表示几个计数单位。",
+    "alternative": "也可以先写出万位上是 7 的数 70000，再在个位上加 3，70000 + 3 = 70003。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__digit-means-value"
+  },
+  {
+    "id": "bank-math-1-billion-c01",
+    "familyId": "math-1-billion__fam-31",
+    "version": 1,
+    "text": "一个数读作“二亿零三万五千”，这个数写作（　　）。A．20035000　B．20003500　C．200035000　D．235000000",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读数时先分出亿级、万级、个级：“二亿”是亿级，“零三万五千”说明万级上是 30，个级上是 5000。",
+      "200000000 + 30000 + 5000 = 200035000",
+      "答：C。"
+    ],
+    "hint": "读数时先按级分清楚每一级上的数，写数时再把每一级写回原来的位置。",
+    "alternative": "也可以一级一级地写：亿级写 2 再添 8 个 0，万级写 30，个级写 5000，合起来同样是 200035000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__write-from-reading"
+  },
+  {
+    "id": "bank-math-1-billion-c02",
+    "familyId": "math-1-billion__fam-32",
+    "version": 1,
+    "text": "把 4000000000 改写成用“亿”作单位的数是（　　）。A．4亿　B．4000万　C．400亿　D．40亿",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 亿 = 100000000，先看 4000000000 里有多少个 100000000。",
+      "4000000000 ÷ 100000000 = 40",
+      "答：D。"
+    ],
+    "hint": "改写时单位变大了，数的值不能变，先算出 1 亿是多少再去除。",
+    "alternative": "也可以数 0：4000000000 后面有 8 个 0，8 个 0 就是亿级，亿级上的数是 40，所以是 40 亿。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-compare"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__rewrite-in-yi"
+  },
+  {
+    "id": "bank-math-1-compare-c01",
+    "familyId": "math-1-compare__fam-31",
+    "version": 1,
+    "text": "下面四个数中，最大的是（　　）。A．999000　B．990090　C．900909　D．909900",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "四个数都是六位数，位数相同要从最高位比起：前两个数的最高位和次高位都是 99，后两个数的次高位是 0。",
+      "990090 的第三位是 0，999000 的第三位是 9，所以 999000 最大。",
+      "答：A。"
+    ],
+    "hint": "位数相同的数，从最高位一位一位地比；位数不同的先比位数。",
+    "alternative": "也可以把四个数都写成“几十万几千”：99 万 9 千、99 万零 90、90 万零 909、90 万零 9900，最大的是 99 万 9 千。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-same-digits"
+  },
+  {
+    "id": "bank-math-1-compare-c02",
+    "familyId": "math-1-compare__fam-32",
+    "version": 1,
+    "text": "把 4700000 和 4080000 都改写成用“万”作单位的数后，两个数相差（　　）。A．6200　B．620000　C．62　D．620",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改写成用“万”作单位：4700000 是 470 万，4080000 是 408 万。",
+      "470 − 408 = 62",
+      "答：C。"
+    ],
+    "hint": "两个数改写成同一个单位后再相减，别忘了先改写再算差。",
+    "alternative": "也可以先求原来的差：4700000 − 4080000 = 620000，再看 620000 里有 62 个万，所以相差 62 万。",
+    "prerequisites": [
+      "math-1-compare"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__difference-in-wan"
+  },
+  {
+    "id": "bank-math-1-round-c01",
+    "familyId": "math-1-round__fam-31",
+    "version": 1,
+    "text": "把 34850 四舍五入到百位，近似数是（　　）。A．35000　B．34800　C．34850　D．34900",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "四舍五入到百位要看十位上的数，十位上是 5，不小于 5，要向百位进 1。",
+      "348 + 1 = 349",
+      "答：D。"
+    ],
+    "hint": "四舍五入到哪一位，就看它右边一位上的数：满 5 进 1，不满 5 舍去尾数。",
+    "alternative": "也可以直接舍去尾数：十位上的 5 让百位上的 8 变成 9，34850 变成 34900。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__round-to-hundred"
+  },
+  {
+    "id": "bank-math-1-round-c02",
+    "familyId": "math-1-round__fam-32",
+    "version": 1,
+    "text": "一辆汽车 3 小时行驶了 128400 千米，把路程精确到万千米，大约是（　　）。A．12万千米　B．13万千米　C．12.8万千米　D．128万千米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "精确到万千米要看千位上的数，128400 的千位上是 8，8 比 5 大，要向万位进 1。",
+      "12 + 1 = 13",
+      "答：B。"
+    ],
+    "hint": "先看清要精确到哪一位，再去看它右边那一位上的数字。",
+    "alternative": "也可以先估一估：12 万多千米接近 13 万千米，所以大约是 13 万千米。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__round-long-distance"
+  },
+  {
+    "id": "bank-math-2-angle-c01",
+    "familyId": "math-2-angle__fam-31",
+    "version": 1,
+    "text": "下面各角中，是锐角的是（　　）。A．90°　B．120°　C．180°　D．70°",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "锐角是大于 0° 而小于 90° 的角。",
+      "90° 是直角，120° 是钝角，180° 是平角，都不是锐角，只有 70° 比 90° 小。",
+      "答：D。"
+    ],
+    "hint": "把 90° 当分界线：比 90° 小的是锐角，比 90° 大、比 180° 小的是钝角，等于 180° 是平角。",
+    "alternative": "也可以拿一副三角尺比一比，三角尺上 45°、30° 的角都比 90° 小，它们都是锐角。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-angle__which-is-acute"
+  },
+  {
+    "id": "bank-math-2-angle-c02",
+    "familyId": "math-2-angle__fam-32",
+    "version": 1,
+    "text": "一个直角被分成两个角，其中一个角是 35°，另一个角是多少度（　　）。A．145°　B．35°　C．55°　D．90°",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-2-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "直角是 90°，被分成两个角，这两个角的度数合起来还是 90°。",
+      "90 − 35 = 55",
+      "答：C。"
+    ],
+    "hint": "直角分成两个角，两个角合起来仍然是 90°，用总数减去已知的那个角。",
+    "alternative": "也可以用平角来想：把 35° 补成平角要加 145°，剩下的另一半就是 90 − 35 = 55°。",
+    "prerequisites": [
+      "math-2-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-angle__split-right-angle"
+  },
+  {
+    "id": "bank-math-2-measure-c01",
+    "familyId": "math-2-measure__fam-31",
+    "version": 1,
+    "text": "用量角器量角时，下面做法正确的是（　　）。A．把量角器的 0 刻度线对准角的顶点　B．把量角器的中心对准角的一条边，再读出度数　C．把量角器的中心对准角的顶点，0 刻度线对准角的一条边　D．只要把量角器放在角上，读出最大的那个数就是角的度数",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用量角器量角有两条要点：量角器的中心要对着角的顶点，0 刻度线要对着角的一条边。",
+      "中心对准顶点才能量准角的大小，0 刻度线对齐才能读准度数。",
+      "答：C。"
+    ],
+    "hint": "先想清楚量角器的哪一部分对准角的哪一部分，再判断哪一种做法完整。",
+    "alternative": "也可以回忆画角的步骤：中心对顶点、0 刻度线对一边，转到需要的度数再画线——量角和画角的要点是一样的。",
+    "prerequisites": [
+      "math-2-measure"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-2-measure__how-to-measure"
+  },
+  {
+    "id": "bank-math-2-measure-c02",
+    "familyId": "math-2-measure__fam-32",
+    "version": 1,
+    "text": "画一个 130° 的角时，量角器的 0 刻度线对准已知的一条边后，量角器要转过多少个大格才能画到另一条边（每个大格 10°）（　　）。A．13　B．130　C．26　D．12",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-2-measure",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "量角器上每一大格表示 10°，转过的大格数就是度数除以 10。",
+      "130 ÷ 10 = 13",
+      "答：A。"
+    ],
+    "hint": "一个大格 10 度，先求出 130 度里包含几个 10 度。",
+    "alternative": "也可以沿着量角器的刻度一个一个数：10°、20°、30°……数到第 13 个大格刚好是 130°。",
+    "prerequisites": [
+      "math-2-measure"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-2-measure__count-big-division"
+  },
+  {
+    "id": "bank-math-3-mental-c01",
+    "familyId": "math-3-mental__fam-31",
+    "version": 1,
+    "text": "口算 125 × 8，最简便的方法是（　　）。A．先算 12 × 8，再在末尾添 1 个 0　B．先算 5 × 8，再在末尾添 3 个 0　C．先算 100 × 8，再加 25 × 8　D．先算 125 × 8，再在末尾添 2 个 0",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-3-mental",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 125 拆成 100 和 25，100 × 8 和 25 × 8 都是口算能很快算出来的。",
+      "100 × 8 + 25 × 8 = 800 + 200 = 1000",
+      "答：C。"
+    ],
+    "hint": "想一想 125 能不能拆成「整十数 + 好算的数」，拆开后两部分都能口算。",
+    "alternative": "也可以把 8 拆成 2 × 2 × 2 连着乘：125 × 2 = 250，250 × 2 = 500，500 × 2 = 1000，结果同样是 1000。",
+    "prerequisites": [
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-3-mental__split-factor-for-mental"
+  },
+  {
+    "id": "bank-math-3-mental-c02",
+    "familyId": "math-3-mental__fam-32",
+    "version": 1,
+    "text": "校园里有 4 个花坛，每个花坛种 5 行，每行种 24 棵，一共有多少棵花（　　）。A．120　B．44　C．960　D．480",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-3-mental",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把 4 个花坛和 5 行合起来求总行数，再乘每行的 24 棵。",
+      "4 × 5 = 20，20 × 24 = 480",
+      "答：D。"
+    ],
+    "hint": "把两个「每份多少」的数量先连乘，得到总份数，再乘另一个「每份多少」。",
+    "alternative": "也可以先算一个花坛：5 × 24 = 120 棵，4 个花坛就是 120 × 4 = 480 棵。",
+    "prerequisites": [
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-3-mental__two-steps-of-mental"
+  },
+  {
+    "id": "bank-math-3-written-c01",
+    "familyId": "math-3-written__fam-31",
+    "version": 1,
+    "text": "用竖式计算 250 × 40，积是（　　）。A．1000　B．100000　C．2500　D．10000",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-3-written",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "40 的末尾有一个 0，可以先算 250 × 4，再在积的末尾添 1 个 0。",
+      "250 × 4 = 1000，250 × 40 = 10000",
+      "答：D。"
+    ],
+    "hint": "末尾有 0 的乘法，先算不带 0 的部分，再数一数末尾要添几个 0。",
+    "alternative": "也可以先算 25 × 4 = 100，再在两个因数的末尾各添 1 个 0，积也要添 2 个 0，得 10000。",
+    "prerequisites": [
+      "math-3-written"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-3-written__trailing-zero-product"
+  },
+  {
+    "id": "bank-math-3-written-c02",
+    "familyId": "math-3-written__fam-32",
+    "version": 1,
+    "text": "商店运来 24 箱牛奶，每箱 36 瓶，一共运来多少瓶（　　）。A．720　B．8640　C．864　D．960",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-3-written",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "笔算 36 × 24：先算 36 × 4 = 144，再算 36 × 20 = 720，第二个部分积要和十位对齐。",
+      "36 × 4 = 144，36 × 20 = 720，144 + 720 = 864",
+      "答：C。"
+    ],
+    "hint": "两位数乘两位数，先乘个位再乘十位，别忘了第二个部分积要对齐十位。",
+    "alternative": "也可以拆开算：36 × 24 = 36 × 20 + 36 × 4 = 720 + 144 = 864。",
+    "prerequisites": [
+      "math-3-written"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-3-written__two-digit-times-two-digit"
+  },
+  {
+    "id": "bank-math-3-pattern-c01",
+    "familyId": "math-3-pattern__fam-31",
+    "version": 1,
+    "text": "已知 25 × 6 = 150，一个因数扩大到原来的 4 倍，另一个因数不变，新的积是（　　）。A．2400　B．150　C．37.5　D．600",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-3-pattern",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一个因数乘 4，另一个因数不变，积就也乘 4。",
+      "150 × 4 = 600",
+      "答：D。"
+    ],
+    "hint": "想清楚是哪一个因数变了、变了多少倍，再决定积怎么变。",
+    "alternative": "也可以直接算：25 扩大到 4 倍是 100，100 × 6 = 600，结果一样。",
+    "prerequisites": [
+      "math-3-pattern"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-3-pattern__one-factor-changes"
+  },
+  {
+    "id": "bank-math-3-pattern-c02",
+    "familyId": "math-3-pattern__fam-32",
+    "version": 1,
+    "text": "苹果原来每千克 12 元，现在每千克涨到 15 元，买 5 千克比原来多花多少元（　　）。A．15　B．75　C．3　D．27",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-3-pattern",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "每千克先涨了 15 − 12 = 3 元，买 5 千克就多花 3 × 5 元。",
+      "15 − 12 = 3，3 × 5 = 15",
+      "答：A。"
+    ],
+    "hint": "先求出每千克涨了多少钱，再乘上买的千克数。",
+    "alternative": "也可以分别算两边的总价：现在 15 × 5 = 75 元，原来 12 × 5 = 60 元，75 − 60 = 15 元。",
+    "prerequisites": [
+      "math-3-pattern",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-3-pattern__price-change"
+  },
+  {
+    "id": "bank-math-4-add-c01",
+    "familyId": "math-4-add__fam-31",
+    "version": 1,
+    "text": "一辆公共汽车上原来有 35 人，到站下去 12 人，又上来 8 人，现在车上有多少人（　　）。A．31　B．27　C．19　D．55",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-4-add",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先算下车后还剩多少人，再加上车的人。",
+      "35 − 12 = 23，23 + 8 = 31",
+      "答：A。"
+    ],
+    "hint": "按事情发生的先后顺序算：先减后加，一步一步来。",
+    "alternative": "也可以把上车和下车合起来看：上来 8 人、下去 12 人，车上净少 4 人，35 − 4 = 31 人。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-add__get-on-get-off"
+  },
+  {
+    "id": "bank-math-4-add-c02",
+    "familyId": "math-4-add__fam-32",
+    "version": 1,
+    "text": "四年级两个班做纸盒，一班做了 128 个，二班比一班少做 26 个，两个班一共做了多少个（　　）。A．102　B．256　C．230　D．282",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-4-add",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先求二班做了多少个：128 − 26 = 102 个。",
+      "128 + 102 = 230",
+      "答：C。"
+    ],
+    "hint": "「比一班少做 26 个」要先算出二班做了多少，再把两个班合起来。",
+    "alternative": "也可以把一班的 128 个看成两份：128 + 128 = 256 个，再减去少的 26 个，256 − 26 = 230 个。",
+    "prerequisites": [
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-add__compare-then-combine"
+  },
+  {
+    "id": "bank-math-4-multiply-c01",
+    "familyId": "math-4-multiply__fam-31",
+    "version": 1,
+    "text": "每个礼盒装 8 支彩笔，12 个礼盒一共装多少支彩笔（　　）。A．20　B．96　C．84　D．768",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "每份是 8 支，份数是 12 个礼盒，用每份数乘份数。",
+      "8 × 12 = 96",
+      "答：B。"
+    ],
+    "hint": "看到「每……8 支」和「12 个礼盒」，就想乘法：每份数乘份数。",
+    "alternative": "也可以看成 12 个 8 相加：8 + 8 + …一共加 12 次，和 8 × 12 一样是 96 支。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-multiply__each-and-groups"
+  },
+  {
+    "id": "bank-math-4-multiply-c02",
+    "familyId": "math-4-multiply__fam-32",
+    "version": 1,
+    "text": "一箱牛奶 24 盒，学校买了 15 箱，把这些牛奶盒平均分给 8 个班，每班分到多少盒（　　）。A．360　B．30　C．48　D．45",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-4-multiply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先求一共有多少盒：24 × 15 = 360 盒，再平均分成 8 份。",
+      "24 × 15 = 360，360 ÷ 8 = 45",
+      "答：D。"
+    ],
+    "hint": "题目里藏着两步：先求总数，再按份数平均分。",
+    "alternative": "也可以先按箱平均分：24 盒分给 8 个班，每班 24 ÷ 8 = 3 盒，15 箱就是 3 × 15 = 45 盒。",
+    "prerequisites": [
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-multiply__total-then-share"
+  },
+  {
+    "id": "bank-math-4-apply-c01",
+    "familyId": "math-4-apply__fam-31",
+    "version": 1,
+    "text": "商店运来 6 箱饮料，每箱 36 瓶，先卖出 150 瓶，还剩多少瓶，正确的计算方法是（　　）。A．36 × 6 + 150　B．36 × 6 − 150　C．150 ÷ 6　D．36 + 6 − 150",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先求运来的总数：36 × 6 = 216 瓶，再减去卖出的 150 瓶。",
+      "36 × 6 = 216，216 − 150 = 66",
+      "答：B。"
+    ],
+    "hint": "先想清楚第一步求的是什么，第二步是加还是减，再选算式。",
+    "alternative": "也可以用「总数 − 卖出的 = 剩下的」来检验：216 − 150 = 66，正好等于 36 × 6 − 150。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-4-apply__choose-the-formula"
+  },
+  {
+    "id": "bank-math-4-apply-c02",
+    "familyId": "math-4-apply__fam-32",
+    "version": 1,
+    "text": "一块长方形菜地长 24 米、宽 18 米，每平方米种 4 棵白菜，这块地一共能种多少棵白菜（　　）。A．1728　B．96　C．432　D．172800",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-4-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先算菜地的面积：24 × 18 = 432 平方米，再乘每平方米种的棵数。",
+      "24 × 18 = 432，432 × 4 = 1728",
+      "答：A。"
+    ],
+    "hint": "先求出这块地有多大，再看每平方米能种几棵。",
+    "alternative": "也可以先算每行能种 18 × 4 = 72 棵，24 行一共就是 24 × 72 = 1728 棵。",
+    "prerequisites": [
+      "math-4-apply",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-4-apply__area-then-density"
+  },
+  {
+    "id": "bank-math-5-lines-c01",
+    "familyId": "math-5-lines__fam-31",
+    "version": 1,
+    "text": "下面说法正确的是（　　）。A．两条直线不相交就一定互相平行　B．在同一平面内不相交的两条直线互相平行　C．在同一平面内，相交的两条直线互相平行　D．两条直线相交就一定互相垂直",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-5-lines",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断平行要同时满足两个条件：在同一平面内，并且不相交，缺一不可。",
+      "A 漏掉了「在同一平面内」，C 把相交说成平行，D 把相交说成垂直，都不对。",
+      "答：B。"
+    ],
+    "hint": "想一想课本里平行线的说法是怎样的，两个条件缺一个都不行。",
+    "alternative": "也可以逐条检查 D：两条直线相交时形成的角可能是锐角、钝角，不一定是直角，所以不一定垂直。",
+    "prerequisites": [
+      "math-5-lines"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-5-lines__when-is-parallel"
+  },
+  {
+    "id": "bank-math-5-lines-c02",
+    "familyId": "math-5-lines__fam-32",
+    "version": 1,
+    "text": "工人用直尺和三角尺在地面上画垂线，三角尺的一条直角边与地面上的一条边重合，另一条直角边经过地面上的一个点，这样画出的线与地面上那条边（　　）。A．互相垂直　B．既不平行也不垂直　C．互相平行　D．无法确定",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-5-lines",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三角尺的两条直角边互相垂直，其中一条与地面那条边重合，另一条就与它成直角。",
+      "两条边成 90°，所以互相垂直。",
+      "答：A。"
+    ],
+    "hint": "画垂线靠的是三角尺的两条直角边，它们之间的角是直角。",
+    "alternative": "也可以这样想：与一条直线成直角并且经过指定点的直线只有 1 条，它一定与这条直线互相垂直。",
+    "prerequisites": [
+      "math-5-lines"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-5-lines__draw-perpendicular"
+  },
+  {
+    "id": "bank-math-5-quads-c01",
+    "familyId": "math-5-quads__fam-31",
+    "version": 1,
+    "text": "下面各图形中，一定有两组对边分别平行的是（　　）。A．梯形　B．平行四边形　C．四边形　D．三角形",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-5-quads",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "平行四边形的定义就是两组对边分别平行。",
+      "梯形只有一组对边平行，四边形和三角形都不一定有互相平行的对边。",
+      "答：B。"
+    ],
+    "hint": "先回忆平行四边形和梯形各自的定义，再对照其他图形判断。",
+    "alternative": "也可以想一想长方形、正方形和菱形：它们都是特殊的平行四边形，同样有两组对边分别平行。",
+    "prerequisites": [
+      "math-5-quads"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-5-quads__two-pairs-of-parallel-sides"
+  },
+  {
+    "id": "bank-math-5-quads-c02",
+    "familyId": "math-5-quads__fam-32",
+    "version": 1,
+    "text": "一块平行四边形的菜地，底边长 20 米，与这条底相对的那条边也长 20 米，另外两条边各长 15 米，这个平行四边形的周长是多少米（　　）。A．50　B．40　C．70　D．55",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-5-quads",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "平行四边形两组对边分别相等，周长是一条底加一条腰再乘 2。",
+      "(20 + 15) × 2 = 70",
+      "答：C。"
+    ],
+    "hint": "平行四边形周长 =（一条底 + 一条腰）× 2，别忘了乘 2。",
+    "alternative": "也可以把四条边依次加起来：20 + 15 + 20 + 15 = 70 米。",
+    "prerequisites": [
+      "math-5-quads"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-5-quads__perimeter-of-parallelogram"
+  },
+  {
+    "id": "bank-math-5-mobius-c01",
+    "familyId": "math-5-mobius__fam-31",
+    "version": 1,
+    "text": "把一条纸带扭转半圈后首尾粘合做成莫比乌斯带，这个带子有（　　）。A．2　B．3　C．4　D．1",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-5-mobius",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "莫比乌斯带的特点是只有 1 个面。",
+      "普通纸环才有 2 个面，扭转半圈粘合后，中线会换到另一侧，所以整条带子只剩 1 个面。",
+      "答：D。"
+    ],
+    "hint": "亲手做一次：沿莫比乌斯带中间画一圈线，绕回起点时已经在原来的那一面上了。",
+    "alternative": "也可以在带子上写满字后翻到背面，背面接着写，这说明整条带子只有 1 个可以写字的面。",
+    "prerequisites": [
+      "math-5-mobius"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-5-mobius__how-many-faces"
+  },
+  {
+    "id": "bank-math-5-mobius-c02",
+    "familyId": "math-5-mobius__fam-32",
+    "version": 1,
+    "text": "下面关于莫比乌斯带的说法，正确的是（　　）。A．莫比乌斯带和普通纸环一样，都有 2 个面　B．莫比乌斯带只有 1 个面，沿着它走一圈会回到原来的那一面　C．莫比乌斯带是由两条纸带粘合做成的　D．把莫比乌斯带沿中线剪开，会得到 2 条纸带",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-5-mobius",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "莫比乌斯带只有 1 个面，所以沿着它走一圈会回到原来的那一面。",
+      "A 说的是普通纸环；C 中莫比乌斯带只用 1 条纸带；D 中沿中线剪开会得到 1 条更长的纸带。",
+      "答：B。"
+    ],
+    "hint": "抓住「只有 1 个面」这个特点，逐条判断每句话。",
+    "alternative": "也可以用「蚂蚁爬行」来判断：一只蚂蚁沿莫比乌斯带中线一直向前爬，爬过全长就回到了出发点，说明只有一个面。",
+    "prerequisites": [
+      "math-5-mobius"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-5-mobius__true-or-false-about-band"
+  },
+  {
+    "id": "bank-math-5-review-c01",
+    "familyId": "math-5-review__fam-31",
+    "version": 1,
+    "text": "一个长方形的长是 8 分米、宽是 5 分米，它的面积是多少平方分米（　　）。A．26　B．13　C．40　D．80",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-5-review",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "长方形的面积 = 长 × 宽。",
+      "8 × 5 = 40",
+      "答：C。"
+    ],
+    "hint": "求面积用长乘宽，求周长才用（长 + 宽）× 2。",
+    "alternative": "也可以用数格子想：每行摆 8 个 1 平方分米的小方块，一共 5 行，一共 40 个小方块。",
+    "prerequisites": [
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-5-review__area-of-rectangle"
+  },
+  {
+    "id": "bank-math-5-review-c02",
+    "familyId": "math-5-review__fam-32",
+    "version": 1,
+    "text": "用 40 厘米长的铁丝围成一个长方形，长是 12 厘米，这个长方形的宽是多少厘米（　　）。A．14　B．8　C．20　D．28",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-5-review",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "铁丝的长度就是长方形的周长，长 + 宽 = 40 ÷ 2 = 20 厘米。",
+      "40 ÷ 2 = 20，20 − 12 = 8",
+      "答：B。"
+    ],
+    "hint": "先用周长求出「长 + 宽」，再减去长就得到宽。",
+    "alternative": "也可以从铁丝里先去掉两条长：40 − 12 × 2 = 16，剩下的两条腰平均分，16 ÷ 2 = 8 厘米。",
+    "prerequisites": [
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-5-review__width-from-perimeter"
+  },
+  {
+    "id": "bank-math-6-single-c01",
+    "familyId": "math-6-single__fam-31",
+    "version": 1,
+    "text": "四（1）班统计了每天课外阅读的页数：周一 25 页，周二 30 页，周三 28 页，周四 35 页。读得最多的是哪一天（　　）。A．周一　B．周二　C．周三　D．周四",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-6-single",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把四个数据放在一起比一比：25、30、28、35。",
+      "35 比 30、28、25 都大，所以周四读得最多。",
+      "答：D。"
+    ],
+    "hint": "读条形统计图时，先看清每根直条表示的数量，再把最高的那根找出来。",
+    "alternative": "也可以先分成两组比：一组是 25 和 30，另一组是 28 和 35，两组里较大的那个是 35。",
+    "prerequisites": [
+      "math-6-single"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-6-single__read-the-data"
+  },
+  {
+    "id": "bank-math-6-single-c02",
+    "familyId": "math-6-single__fam-32",
+    "version": 1,
+    "text": "一幅条形统计图上，1 个小方格表示 5 人，最高的那根直条正好画了 8 个小方格，它表示多少人（　　）。A．13　B．45　C．40　D．35",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-6-single",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "每个小方格表示 5 人，8 个小方格就表示 8 个 5 人。",
+      "5 × 8 = 40",
+      "答：C。"
+    ],
+    "hint": "先找准 1 个小方格代表多少人，再乘直条上的小方格数。",
+    "alternative": "也可以反过来想：40 人按每格 5 人分，需要 40 ÷ 5 = 8 格，和直条上的格数正好一样。",
+    "prerequisites": [
+      "math-6-single"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-6-single__one-square-means"
+  },
+  {
+    "id": "bank-math-6-double-c01",
+    "familyId": "math-6-double__fam-31",
+    "version": 1,
+    "text": "复式条形统计图与单式条形统计图的主要区别是（　　）。A．复式条形统计图能同时表示两组或两组以上的数据　B．复式条形统计图只能表示一组数据　C．单式条形统计图不能比较两组数据　D．复式条形统计图不用直条表示数量",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-6-double",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复式条形统计图在一幅图里放了两组或两组以上的直条，所以能比较不同组的数据。",
+      "B、C 说的都是单式条形统计图的特点，D 根本不成立。",
+      "答：A。"
+    ],
+    "hint": "想想一幅图里画的直条代表的是一组数据还是几组数据。",
+    "alternative": "也可以从图的样子想：复式条形统计图的直条成组排列，图例里会注明每一组代表什么。",
+    "prerequisites": [
+      "math-6-double"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-6-double__difference-with-single"
+  },
+  {
+    "id": "bank-math-6-double-c02",
+    "familyId": "math-6-double__fam-32",
+    "version": 1,
+    "text": "下面是某校两个年级参加两项运动的人数：一年级跳绳 28 人、跑步 25 人，二年级跳绳 19 人、跑步 32 人。两个年级参加这两项运动的一共有多少人（　　）。A．47　B．104　C．53　D．72",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-6-double",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先按年级分别求和：一年级 28 + 25 = 53 人，二年级 19 + 32 = 51 人。",
+      "53 + 51 = 104",
+      "答：B。"
+    ],
+    "hint": "复式条形统计图里数据多，先按年级分别求和，再把两个年级合起来。",
+    "alternative": "也可以按运动项目分别求和：跳绳 28 + 19 = 47 人，跑步 25 + 32 = 57 人，47 + 57 = 104 人。",
+    "prerequisites": [
+      "math-6-double"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-6-double__sum-both-groups"
+  },
+  {
+    "id": "bank-math-6-project-c01",
+    "familyId": "math-6-project__fam-31",
+    "version": 1,
+    "text": "寻宝活动共收集到 14 处石刻、9 处脚印和 11 处刻痕，三种线索一共有多少处（　　）。A．34　B．23　C．25　D．43",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-6-project",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三类线索的数量要全部加起来。",
+      "14 + 9 + 11 = 34",
+      "答：A。"
+    ],
+    "hint": "把收集到的每一类线索的数量都加进来，别漏掉其中一类。",
+    "alternative": "也可以先合两类：14 + 9 = 23 处，23 + 11 = 34 处。",
+    "prerequisites": [
+      "math-6-project"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-6-project__count-all-clues"
+  },
+  {
+    "id": "bank-math-6-project-c02",
+    "familyId": "math-6-project__fam-32",
+    "version": 1,
+    "text": "寻宝社团的老师准备了三个方案的费用：方案一 120 元，方案二 95 元，方案三 112 元。如果只能选两个方案，最省的两个方案一共需要多少钱（　　）。A．232　B．207　C．215　D．327",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-6-project",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把三个费用比一比：120 元、95 元、112 元，其中最便宜的是方案二的 95 元。",
+      "最省的两个方案是方案二和方案三，95 + 112 = 207",
+      "答：B。"
+    ],
+    "hint": "先把三个数从小到大排一排，找出最便宜的两个再相加。",
+    "alternative": "也可以用总和减去最贵的那个：120 + 95 + 112 = 327 元，327 − 120 = 207 元。",
+    "prerequisites": [
+      "math-6-project"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-6-project__cheapest-two-plans"
+  },
+  {
+    "id": "bank-math-7-organize-c01",
+    "familyId": "math-7-organize__fam-31",
+    "version": 1,
+    "text": "计算 240 ÷ 6 × 3 时，应该先算（　　）。A．240 ÷ 6　B．6 × 3　C．240 × 3　D．240 ÷ (6 × 3)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "没有括号时，同级运算要从左往右依次算。",
+      "240 ÷ 6 = 40，40 × 3 = 120",
+      "答：A。"
+    ],
+    "hint": "同级运算从左往右，一步一步算，不要跳着算。",
+    "alternative": "也可以把它改写成 240 × 3 ÷ 6 再算：240 × 3 = 720，720 ÷ 6 = 120，结果一样。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__order-of-operations"
+  },
+  {
+    "id": "bank-math-7-organize-c02",
+    "familyId": "math-7-organize__fam-32",
+    "version": 1,
+    "text": "一个长方形的长是 12 厘米、宽是 5 厘米，它的周长和面积分别是（　　）。A．60 平方厘米，34 厘米　B．34 平方厘米，60 厘米　C．17 厘米，60 平方厘米　D．34 厘米，60 平方厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "周长 =（长 + 宽）× 2，面积 = 长 × 宽，两个公式不要用混。",
+      "(12 + 5) × 2 = 34，12 × 5 = 60",
+      "答：D。"
+    ],
+    "hint": "先分清求的是周长还是面积，再选对应的公式，单位也要跟着改。",
+    "alternative": "也可以这样记：周长是「加起来再乘 2」，面积是「长乘宽」；周长用厘米，面积用平方厘米。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__perimeter-and-area"
+  },
+  {
+    "id": "bank-math-7-apply-c01",
+    "familyId": "math-7-apply__fam-31",
+    "version": 1,
+    "text": "一个正方形的周长是 36 厘米，它的面积是多少平方厘米（　　）。A．81　B．1296　C．36　D．144",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "正方形四条边相等，先求边长：36 ÷ 4 = 9 厘米。",
+      "36 ÷ 4 = 9，9 × 9 = 81",
+      "答：A。"
+    ],
+    "hint": "先用周长求出边长，再用边长去求面积。",
+    "alternative": "也可以把 36 厘米平均分成 4 份，每份 9 厘米，再把 9 厘米 × 9 厘米算成 81 平方厘米。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__square-area-from-perimeter"
+  },
+  {
+    "id": "bank-math-7-apply-c02",
+    "familyId": "math-7-apply__fam-32",
+    "version": 1,
+    "text": "四年级组织 6 个小队去科技馆，每队 24 人，门票每张 25 元，一共需要多少元（　　）。A．144　B．600　C．3600　D．150",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先求一共多少人：24 × 6 = 144 人，再算门票钱。",
+      "24 × 6 = 144，144 × 25 = 3600",
+      "答：C。"
+    ],
+    "hint": "先算出总人数，再算总钱数，一步一步来。",
+    "alternative": "也可以先算钱：每队 24 张门票要 24 × 25 = 600 元，6 个队就是 600 × 6 = 3600 元。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__people-then-tickets"
+  },
+  {
+    "id": "bank-math-7-rabbits-c01",
+    "familyId": "math-7-rabbits__fam-31",
+    "version": 1,
+    "text": "笼子里有鸡和兔共 20 只，一共 56 条腿。假设这 20 只全是鸡，可以算出兔有 8 只；改用「假设全是兔」的方法，算出来的鸡有多少只（　　）。A．12　B．8　C．24　D．56",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "假设 20 只全是兔，腿数是 20 × 4 = 80 条，比实际的 56 条多 24 条。",
+      "每把 1 只兔换成鸡就少 2 条腿，80 − 56 = 24，24 ÷ 2 = 12 只鸡。",
+      "答：A。"
+    ],
+    "hint": "假设全是兔时多出来的腿数，要用「一只兔换成一只鸡少 2 条腿」去除。",
+    "alternative": "也可以反过来检验：算出鸡有 12 只，那么兔有 20 − 12 = 8 只，腿数是 12 × 2 + 8 × 4 = 56 条，正好对上。",
+    "prerequisites": [
+      "math-7-rabbits"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__assume-all-rabbits"
+  },
+  {
+    "id": "bank-math-7-rabbits-c02",
+    "familyId": "math-7-rabbits__fam-32",
+    "version": 1,
+    "text": "养殖场里鸡和兔共 25 只，一共 82 条腿，兔比鸡多多少只（　　）。A．16　B．7　C．9　D．32",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "假设 25 只全是鸡，腿数是 25 × 2 = 50 条，比实际的 82 条少 32 条，每只兔比鸡多 2 条腿。",
+      "82 − 50 = 32，32 ÷ 2 = 16 只兔，鸡有 25 − 16 = 9 只，16 − 9 = 7。",
+      "答：B。"
+    ],
+    "hint": "先假设全是鸡求出兔的只数，再求鸡的只数，最后比一比相差多少。",
+    "alternative": "也可以假设全是兔：25 × 4 = 100 条，100 − 82 = 18 条，18 ÷ 2 = 9 只鸡，鸡兔相差 16 − 9 = 7 只。",
+    "prerequisites": [
+      "math-7-rabbits"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__how-many-more"
+  }
+]

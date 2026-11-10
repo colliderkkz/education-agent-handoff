@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const sourceRoot = resolve(root, '../xiaohe-app/lib');
 const targetRoot = resolve(root, 'src/local/shared');
-const files = ['types.ts', 'access-types.ts', 'seed.ts', 'grading.ts', 'effective-evidence.ts', 'history-deletion.ts', 'server/domain.ts', 'server/mastery.ts', 'server/content.ts', 'server/companion.ts', 'server/evidence.ts', 'server/history.ts', 'server/recognition.ts', 'server/access-policy.ts', 'server/domain-error.ts'];
+const files = ['types.ts', 'access-types.ts', 'seed.ts', 'curriculum-catalog.ts', 'curriculum-catalog-shanghai.ts', 'grading.ts', 'choice.ts', 'effective-evidence.ts', 'exam-references.ts', 'mistake-causes.ts', 'history-deletion.ts', 'server/domain.ts', 'server/mastery.ts', 'server/content.ts', 'server/companion.ts', 'server/evidence.ts', 'server/history.ts', 'server/recognition.ts', 'server/access-policy.ts', 'server/domain-error.ts'];
 const checking = process.argv.includes('--check');
 const manifest = { format: 1, source: 'xiaohe-app/lib', adaptation: 'Only an explicit JSON-data clone import is added for Hermes; all business logic is copied verbatim.', files: {} };
 let different = false;

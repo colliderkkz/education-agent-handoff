@@ -1,0 +1,3553 @@
+[
+  {
+    "id": "bank-math-1-place-001",
+    "familyId": "math-1-place__fam-01",
+    "version": 1,
+    "text": "在 8745320 中，最高位上的数字是 8，千位上的数字是 5。这两个数字相差多少？",
+    "answer": "3",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 - 5 = 3",
+      "8745320 的最高位是百万位，百万位上的数字是 8；千位上的数字是 5。把两个数位上的数字相减就能得到相差的数。",
+      "答：相差 3。"
+    ],
+    "hint": "先在数位顺序表上找出百万位和千位，再把这两个数位上的数字写下来比一比。",
+    "alternative": "也可以逐位读一遍 8745320，把最高位的 8 和千位的 5 圈出来，用大数减小数求出它们的差。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__place-order"
+  },
+  {
+    "id": "bank-math-1-place-002",
+    "familyId": "math-1-place__fam-02",
+    "version": 1,
+    "text": "4065230 的十万位上的数字是 6，百位上的数字是 2，把这两个数字相加得多少？",
+    "answer": "8",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 + 2 = 8",
+      "从右往左数位：个位、十位、百位、千位、万位、十万位，4065230 的十万位上是 6，百位上是 2。",
+      "答：这两个数字相加得 8。"
+    ],
+    "hint": "先把数位顺序表默背一遍，再从右往左一位一位地数到十万位和百位。",
+    "alternative": "也可以把 4065230 分成万级 406 和个级 5205 来读，十万位和百位上的数字就一目了然了。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__place-order"
+  },
+  {
+    "id": "bank-math-1-place-003",
+    "familyId": "math-1-place__fam-03",
+    "version": 1,
+    "text": "8004530 中，万级上的数比个级上的数少多少？",
+    "answer": "3730",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4530 - 800 = 3730",
+      "8004530 从右往左每四位分一级：万级是 800，个级是 4530。",
+      "答：万级上的数比个级上的数少 3730。"
+    ],
+    "hint": "四位一级分界，先分出万级和个级，再做减法。",
+    "alternative": "也可以先求两级的和 800 + 4530 = 5330，再减去两倍较小的 800 × 2 = 1600，5330 - 1600 = 3730。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__place-order"
+  },
+  {
+    "id": "bank-math-1-place-004",
+    "familyId": "math-1-place__fam-04",
+    "version": 1,
+    "text": "把 6072534 从高位到低位读出来，最高位上的数字与千位上的数字相差多少？",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6072534 从右往左每四位分一级：607｜2534，最高位（百万位）上的数字是 6，千位上的数字是 2。",
+      "6 - 2 = 4。",
+      "答：这两个数字相差 4。"
+    ],
+    "hint": "最高位就是最高的那一位数位，先把数从左往右标上数位名称。",
+    "alternative": "也可以一位一位地读出来：六百零七万二千五百三十四，最高位上的数字是 6，千位上的数字是 2，相差 4。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__place-order"
+  },
+  {
+    "id": "bank-math-1-place-005",
+    "familyId": "math-1-place__fam-05",
+    "version": 1,
+    "text": "把 40500200 按万级和个级分开，万级上的数是 4050，个级上的数是 200。万级上的数比个级上的数多多少？",
+    "answer": "3850",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4050 - 200 = 3850",
+      "40500200 从右往左四位一级分开：万级上的数是 4050，个级上的数是 200。",
+      "答：万级上的数比个级上的数多 3850。"
+    ],
+    "hint": "从右往左每四位切一刀，先分出万级再分出个级。",
+    "alternative": "也可以先算两级一共 4050 + 200 = 4250，再减去两倍个级 200 × 2 = 400，4250 - 400 = 3850。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__read-by-groups"
+  },
+  {
+    "id": "bank-math-1-place-006",
+    "familyId": "math-1-place__fam-06",
+    "version": 1,
+    "text": "一个数的万级读作“三千零八”，个级读作“零六十”。这个数的万级数值是 3008，个级数值是 60，两个数值相差多少？",
+    "answer": "2948",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3008 - 60 = 2948",
+      "读数时先读万级再读个级；万级读作“三千零八”对应的数是 3008，个级读作“零六十”对应的数是 60。",
+      "答：两个数值相差 2948。"
+    ],
+    "hint": "先把两级的读法分别写成阿拉伯数字，再求它们的差。",
+    "alternative": "也可以先求两级的和 3008 + 60 = 3068，再减去两倍个级 60 × 2 = 120，3068 - 120 = 2948。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__read-by-groups"
+  },
+  {
+    "id": "bank-math-1-place-007",
+    "familyId": "math-1-place__fam-07",
+    "version": 1,
+    "text": "读“八千零五万六千”时，先读万级再读个级。万级上的数是 8005，个级上的数是 6000，这两个数值相差多少？",
+    "answer": "2005",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8005 - 6000 = 2005",
+      "“八千零五万”对应万级上的数 8005，“六千”对应个级上的数 6000。",
+      "答：这两个数值相差 2005。"
+    ],
+    "hint": "读数时中间有一个 0 要读出来，注意每级末尾的数位不能丢掉。",
+    "alternative": "也可以先算两级之和 8005 + 6000 = 14005，再减去两倍个级 6000 × 2 = 12000，14005 - 12000 = 2005。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__read-by-groups"
+  },
+  {
+    "id": "bank-math-1-place-008",
+    "familyId": "math-1-place__fam-08",
+    "version": 1,
+    "text": "一个数加上 4060 后是 4008060，这个数写作多少？",
+    "answer": "4004000",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4008060 - 4060 = 4004000",
+      "已知和与一部分，求另一部分用减法。",
+      "答：这个数是 4004000。"
+    ],
+    "hint": "求这个数是多少，就用和减去已知的那一部分。",
+    "alternative": "也可以把 4008060 写成 400 万 + 8060，把多出来的 4060 从 8060 里减掉：8060 - 4060 = 4000，结果是 400 万 + 4000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__zero-placeholder"
+  },
+  {
+    "id": "bank-math-1-place-009",
+    "familyId": "math-1-place__fam-09",
+    "version": 1,
+    "text": "一个数减去 8000 后是 405060，这个数是多少？",
+    "answer": "413060",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "405060 + 8000 = 413060",
+      "被减数减去一部分等于差，那么被减数等于差加上这一部分，用加法。",
+      "答：这个数是 413060。"
+    ],
+    "hint": "被减数减去一部分等于差，就用差加上被减掉的那一部分。",
+    "alternative": "也可以把 405060 看成 40 万 + 5060，被减掉的 8000 相当于 0 个万加 8000，所以原数是 40 万 + 13060。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__zero-placeholder"
+  },
+  {
+    "id": "bank-math-1-place-010",
+    "familyId": "math-1-place__fam-10",
+    "version": 1,
+    "text": "600500 和 600000 都是六位数，末尾的两个 0 让 600500 比 600000 增加了多少？",
+    "answer": "500",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "600500 - 600000 = 500",
+      "两个数只有百位以后不同，600500 的百位上是 5，600000 的百位上是 0，所以相差 500。",
+      "答：增加了 500。"
+    ],
+    "hint": "比较两个数时从最高位看起，位数相同就一位一位地比。",
+    "alternative": "也可以逐位相减：十万位 6 - 6、万位 0 - 0、千位 0 - 0 得 0 百位 5 - 0 得 5，其余都是 0，所以相差 500。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-place__zero-placeholder"
+  },
+  {
+    "id": "bank-math-1-place-011",
+    "familyId": "math-1-place__fam-11",
+    "version": 1,
+    "text": "某中学有 12 个年级，每个年级 3500 名学生，全校共有多少名学生？",
+    "answer": "42000",
+    "unit": "名",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 3500 = 42000",
+      "每一年级人数相同，求 12 个年级的总人数用乘法。",
+      "答：全校共有 42000 名学生。"
+    ],
+    "hint": "每份的数量相同、份数是 12，就用乘法算总数。",
+    "alternative": "也可以先算 10 个年级 3500 × 10 = 35000，再加 2 个年级 3500 × 2 = 7000，合起来 42000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__city-population"
+  },
+  {
+    "id": "bank-math-1-place-012",
+    "familyId": "math-1-place__fam-12",
+    "version": 1,
+    "text": "甲市 2025 年常住人口 5800000 人，乙市 2025 年常住人口 5200000 人。甲市比乙市多多少人？",
+    "answer": "600000",
+    "unit": "人",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5800000 - 5200000 = 600000",
+      "两个数都是七位数，相同数位上的数字一样多，只需看不同的地方：万位上一个是 8，一个是 2，相差 6 个十万，也就是 600000。",
+      "答：甲市比乙市多 600000 人。"
+    ],
+    "hint": "先看两个数位数是否相同，再从最高位开始一位一位地比。",
+    "alternative": "也可以先写成 580 个万与 520 个万，580 - 520 = 60 个万，再把 60 个万写成 600000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__city-population"
+  },
+  {
+    "id": "bank-math-1-place-013",
+    "familyId": "math-1-place__fam-13",
+    "version": 1,
+    "text": "图书馆有故事书 1206000 册，科普书 304000 册。故事书比科普书多多少册？",
+    "answer": "902000",
+    "unit": "册",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1206000 - 304000 = 902000",
+      "求多多少用减法，被减数是故事书的册数。",
+      "答：故事书比科普书多 902000 册。"
+    ],
+    "hint": "“比……多”求相差多少，用大数减小数。",
+    "alternative": "也可以把 1206000 看作 120 万 + 6000，304000 看作 30 万 + 4000，先算 120 万 - 30 万 = 90 万，再算 6000 - 4000 = 2000，合起来是 902000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__library-books"
+  },
+  {
+    "id": "bank-math-1-place-014",
+    "familyId": "math-1-place__fam-14",
+    "version": 1,
+    "text": "每个书架放 1500 本书，38 个书架一共放多少本书？",
+    "answer": "57000",
+    "unit": "本",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "38 × 1500 = 57000",
+      "每个书架放的书相同，求 38 个书架的总本数用乘法。",
+      "答：一共放 57000 本书。"
+    ],
+    "hint": "先想 38 个 1500 是多少，可以把 38 拆成 30 加 8。",
+    "alternative": "也可以先算 40 个书架 1500 × 40 = 60000，再减去 2 个书架 1500 × 2 = 3000，得 57000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__library-books"
+  },
+  {
+    "id": "bank-math-1-place-015",
+    "familyId": "math-1-place__fam-15",
+    "version": 1,
+    "text": "一条生产线每小时生产 2500 个零件，一天工作 16 小时，一天生产多少个零件？",
+    "answer": "40000",
+    "unit": "个",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "16 × 2500 = 40000",
+      "每小时生产的个数相同，求 16 小时的总个数用乘法。",
+      "答：一天生产 40000 个零件。"
+    ],
+    "hint": "先算 10 小时和 6 小时各生产多少，再把两部分合起来。",
+    "alternative": "也可以先算 2500 × 10 = 25000，再加 2500 × 6 = 15000，合起来是 40000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__factory-output"
+  },
+  {
+    "id": "bank-math-1-place-016",
+    "familyId": "math-1-place__fam-16",
+    "version": 1,
+    "text": "工厂仓库原有 8600000 个零件，运走了 1350000 个，还剩多少个零件？",
+    "answer": "7250000",
+    "unit": "个",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8600000 - 1350000 = 7250000",
+      "原有数量减去运走的数量就是剩下的数量。",
+      "答：还剩 7250000 个零件。"
+    ],
+    "hint": "把 8600000 看成 860 万 + 0，1350000 看成 135 万 + 0，按万级和个级分别算。",
+    "alternative": "也可以先减去 1000000 得 7600000，再减去 350000 得 7250000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__factory-output"
+  },
+  {
+    "id": "bank-math-1-place-017",
+    "familyId": "math-1-place__fam-17",
+    "version": 1,
+    "text": "一号试验田收了 386000 千克玉米，二号试验田收了 240000 千克，两块地一共收了多少千克？",
+    "answer": "626000",
+    "unit": "千克",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "386000 + 240000 = 626000",
+      "求两块地合起来收了多少，用加法。",
+      "答：两块地一共收了 626000 千克。"
+    ],
+    "hint": "先想 386000 加上 24 万得多少，再补上剩下的 0。",
+    "alternative": "也可以把 386000 看作 38 万 + 6000，240000 看作 24 万 + 0，先算 38 万 + 24 万 = 62 万，再加 6000，得 626000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__crop-harvest"
+  },
+  {
+    "id": "bank-math-1-place-018",
+    "familyId": "math-1-place__fam-18",
+    "version": 1,
+    "text": "把 1200000 千克玉米装进每袋装 60000 千克的袋子，正好装满多少袋？",
+    "answer": "20",
+    "unit": "袋",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1200000 ÷ 60000 = 20",
+      "求能装多少袋，用总千克数除以每袋的千克数。",
+      "答：正好装满 20 袋。"
+    ],
+    "hint": "先想 60000 乘几正好是 1200000，再把这个数除出来。",
+    "alternative": "也可以先去掉一个 0：120000 ÷ 6000 = 20，商不变。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__crop-harvest"
+  },
+  {
+    "id": "bank-math-1-place-019",
+    "familyId": "math-1-place__fam-19",
+    "version": 1,
+    "text": "一支考察队每天行 45000 米，连续走了 8 天，一共走了多少米？",
+    "answer": "360000",
+    "unit": "米",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 45000 = 360000",
+      "每天走的路程相同，求 8 天一共走的路程用乘法。",
+      "答：一共走了 360000 米。"
+    ],
+    "hint": "把 8 拆成 4 和 4，分别算 45000 × 4 再合起来。",
+    "alternative": "也可以先算 45000 × 10 = 450000，再减去 45000 × 2 = 90000，得 360000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__travel-distance"
+  },
+  {
+    "id": "bank-math-1-place-020",
+    "familyId": "math-1-place__fam-20",
+    "version": 1,
+    "text": "甲地到乙地有 780000 米，走了 425000 米后离乙地还有多少米？",
+    "answer": "355000",
+    "unit": "米",
+    "knowledgeId": "math-1-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "780000 - 425000 = 355000",
+      "总路程减去已经走的路程就是剩下的路程。",
+      "答：离乙地还有 355000 米。"
+    ],
+    "hint": "把两个数都看成 78 万和 42 万加后面的零，先算 78 万 - 42 万。",
+    "alternative": "也可以先减去 400000 得 380000，再减去 25000 得 355000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-place__travel-distance"
+  },
+  {
+    "id": "bank-math-1-place-021",
+    "familyId": "math-1-place__fam-21",
+    "version": 1,
+    "text": "体育馆有 8 个看台，每个看台 12500 个座位，一共有多少个座位？",
+    "answer": "100000",
+    "unit": "个",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 12500 = 100000",
+      "每个看台的座位数相同，求 8 个看台的总座位数用乘法。",
+      "答：一共有 100000 个座位。"
+    ],
+    "hint": "先想 12500 乘 8 相当于 125 个百乘 8，看看结果是多少个万。",
+    "alternative": "也可以先算 12500 × 4 = 50000，再把两个 50000 合起来，得 100000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__stadium-seats"
+  },
+  {
+    "id": "bank-math-1-place-022",
+    "familyId": "math-1-place__fam-22",
+    "version": 1,
+    "text": "某客服热线号码是 4008600000，把它写成用“万”作单位的数是多少？（1 万 = 10000）",
+    "answer": "400860",
+    "unit": "万",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4008600000 ÷ 10000 = 400860",
+      "1 个万相当于 10000，除以 10000 就去掉末尾四个 0，商就是以万为单位的数。",
+      "答：写成用“万”作单位的数是 400860 万。"
+    ],
+    "hint": "把末尾的四个 0 去掉，商是多少就是多少万。",
+    "alternative": "也可以先去掉两个 0：4008600000 ÷ 100 = 40086000，再去掉两个 0 得 400860。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__hotline-number"
+  },
+  {
+    "id": "bank-math-1-place-023",
+    "familyId": "math-1-place__fam-23",
+    "version": 1,
+    "text": "长跑比赛全程 42000 米，小明已经跑了 38000 米，还剩多少米？",
+    "answer": "4000",
+    "unit": "米",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "42000 - 38000 = 4000",
+      "总路程减去已经跑的路程就是剩下的路程。",
+      "答：还剩 4000 米。"
+    ],
+    "hint": "两个数末尾都有三个 0，先去掉 0 再相减。",
+    "alternative": "也可以先减去 40000 得 2000，再减掉多算的 2000，得 4000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__race-distance"
+  },
+  {
+    "id": "bank-math-1-place-024",
+    "familyId": "math-1-place__fam-24",
+    "version": 1,
+    "text": "学校食堂每天用水 32000 升，一个月按 30 天算，共用水多少升？",
+    "answer": "960000",
+    "unit": "升",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 × 32000 = 960000",
+      "每天用水量相同，30 天一共用水用乘法计算。",
+      "答：共用水 960000 升。"
+    ],
+    "hint": "先算 3 天用多少水，再把 3 个这样的数乘 10。",
+    "alternative": "也可以先算 32000 × 10 = 320000，3 个 320000 是 960000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__canteen-water"
+  },
+  {
+    "id": "bank-math-1-place-025",
+    "familyId": "math-1-place__fam-25",
+    "version": 1,
+    "text": "小丽存了 250000 元，妈妈又存了 180000 元，两人一共有多少元？",
+    "answer": "430000",
+    "unit": "元",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "250000 + 180000 = 430000",
+      "把两部分存的钱合起来，用加法计算。",
+      "答：两人一共有 430000 元。"
+    ],
+    "hint": "先算 25 万 + 18 万，再把末尾的三个 0 补回去。",
+    "alternative": "也可以先加 250000 + 150000 = 400000，再加 30000 得 430000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__family-savings"
+  },
+  {
+    "id": "bank-math-1-place-026",
+    "familyId": "math-1-place__fam-26",
+    "version": 1,
+    "text": "一板鸡蛋装 30 枚，超市有 1200 板鸡蛋，一共多少枚？",
+    "answer": "36000",
+    "unit": "枚",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1200 × 30 = 36000",
+      "每板的枚数相同，1200 板就是 1200 个 30，用乘法计算。",
+      "答：一共 36000 枚。"
+    ],
+    "hint": "把 1200 拆成 1200 个一去乘 30，也可以先算 12 × 30 = 360，再在末尾添两个 0。",
+    "alternative": "也可以先算 30 × 1000 = 30000，再加 30 × 200 = 6000，得 36000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__egg-carton"
+  },
+  {
+    "id": "bank-math-1-place-027",
+    "familyId": "math-1-place__fam-27",
+    "version": 1,
+    "text": "1 路公交车某天运客 125000 人次，8 路公交车运客 87000 人次。1 路比 8 路多多少人次？",
+    "answer": "38000",
+    "unit": "人次",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "125000 - 87000 = 38000",
+      "求多多少人次用大数减小数。",
+      "答：1 路比 8 路多 38000 人次。"
+    ],
+    "hint": "两个数位数相同，从万位开始一位一位地比。",
+    "alternative": "也可以把 125000 看作 12 万 + 5000，87000 看作 8 万 + 7000，先算 12 万 - 8 万 = 4 万，再算 5000 - 7000 时向万位借 1，得 38000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__bus-ridership"
+  },
+  {
+    "id": "bank-math-1-place-028",
+    "familyId": "math-1-place__fam-28",
+    "version": 1,
+    "text": "仓库有 90000 个零件，每箱装 2500 个，正好装满多少箱？",
+    "answer": "36",
+    "unit": "箱",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90000 ÷ 2500 = 36",
+      "求能装满多少箱，用总数除以每箱装的个数。",
+      "答：正好装满 36 箱。"
+    ],
+    "hint": "先想 2500 乘 30 是 75000，再添 6 个 2500 是否正好 90000。",
+    "alternative": "也可以把 90000 和 2500 同时去掉一个 0，变成 9000 ÷ 250，商仍然是 36。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__warehouse-boxes"
+  },
+  {
+    "id": "bank-math-1-place-029",
+    "familyId": "math-1-place__fam-29",
+    "version": 1,
+    "text": "图书馆上半年办读者卡 28000 张，下半年办 41000 张，下半年比上半年多办多少张？",
+    "answer": "13000",
+    "unit": "张",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "41000 - 28000 = 13000",
+      "下半年办得多，求多出的部分用减法。",
+      "答：下半年比上半年多办 13000 张。"
+    ],
+    "hint": "两个数都是五位数，相同数位上的数字相减就能求出相差数。",
+    "alternative": "也可以先加上半年的 28000 得 69000，再减去它，得 13000。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__reader-cards"
+  },
+  {
+    "id": "bank-math-1-place-030",
+    "familyId": "math-1-place__fam-30",
+    "version": 1,
+    "text": "电子计数器上显示 9876543，这个七位数中最大的数字与最小的数字相差多少？",
+    "answer": "6",
+    "unit": "",
+    "knowledgeId": "math-1-place",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 - 3 = 6",
+      "9876543 中最大的数字是 9，最小的数字是 3。",
+      "答：最大的数字与最小的数字相差 6。"
+    ],
+    "hint": "把 9876543 的每一位数字都看一遍，找出最大的和最小的。",
+    "alternative": "也可以按数位顺序从左到右排一排：9、8、7、6、5、4、3，最大的是 9，最小的是 3。",
+    "prerequisites": [
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-place__counter-digits"
+  },
+  {
+    "id": "bank-math-1-billion-001",
+    "familyId": "math-1-billion__fam-01",
+    "version": 1,
+    "text": "一个数比 3000000000 多 205000，这个数是多少？",
+    "answer": "3000205000",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3000000000 + 205000 = 3000205000",
+      "已知一个数比另一个数多多少，求这个数用加法。",
+      "答：这个数是 3000205000。"
+    ],
+    "hint": "比……多，求这个数就用加法，注意加的时候哪一位上没有 0 就补 0。",
+    "alternative": "也可以把 205000 看成 20 万 + 5000，3000000000 看成 30 亿，30 亿 + 20 万 + 5000 就是这个数。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__level-reading"
+  },
+  {
+    "id": "bank-math-1-billion-002",
+    "familyId": "math-1-billion__fam-02",
+    "version": 1,
+    "text": "一个数读作“二十亿零三百零五万零四十”，它的万级上的数是 3005，个级上的数是 40，这两个数相差多少？",
+    "answer": "2965",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3005 - 40 = 2965",
+      "读亿以上的数先读亿级，再读万级，最后读个级。“零三百零五万”对应万级上的数 3005，“零四十”对应个级上的数 40。",
+      "答：这两个数相差 2965。"
+    ],
+    "hint": "先把读法按亿级、万级、个级分开，再把每一级写成阿拉伯数字。",
+    "alternative": "也可以先求两级之和 3005 + 40 = 3045，再减去两倍个级 40 × 2 = 80，得 2965。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__level-reading"
+  },
+  {
+    "id": "bank-math-1-billion-003",
+    "familyId": "math-1-billion__fam-03",
+    "version": 1,
+    "text": "读作“三千零八亿五千零六万”的数，万级上的数是 5006，亿级上的数是 3008，这两个数值相差多少？",
+    "answer": "1998",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5006 - 3008 = 1998",
+      "“三千零八亿”对应亿级上的数 3008，“五千零六万”对应万级上的数 5006。",
+      "答：这两个数值相差 1998。"
+    ],
+    "hint": "先分清哪一段读的是亿级，哪一段读的是万级，再做减法。",
+    "alternative": "也可以先求两级之和 5006 + 3008 = 8014，再减去两倍较小的 3008 × 2 = 6016，得 1998。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__level-reading"
+  },
+  {
+    "id": "bank-math-1-billion-004",
+    "familyId": "math-1-billion__fam-04",
+    "version": 1,
+    "text": "一个数读作“八百零九亿零三十万零七千”，它的万级上的数是 30，个级上的数是 7000，两个数值相差多少？",
+    "answer": "6970",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7000 - 30 = 6970",
+      "“零三十万”对应万级上的数 30，“零七千”对应个级上的数 7000。",
+      "答：两个数值相差 6970。"
+    ],
+    "hint": "读数时每级末尾的 0 都不读出来，中间连续几个 0 只读一个零。",
+    "alternative": "也可以先算 7000 + 30 = 7030，再减去两倍万级 30 × 2 = 60，得 6970。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__level-reading"
+  },
+  {
+    "id": "bank-math-1-billion-005",
+    "familyId": "math-1-billion__fam-05",
+    "version": 1,
+    "text": "一个数读作“一千零八亿零七万”，它的亿级上的数是 1008，万级上的数是 7，这两个数值相差多少？",
+    "answer": "1001",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1008 - 7 = 1001",
+      "“一千零八亿”对应亿级上的数 1008，“零七万”对应万级上的数 7。",
+      "答：这两个数值相差 1001。"
+    ],
+    "hint": "注意亿级读的是几个亿、万级读的是几个万，两级的单位不同，不要混在一起比。",
+    "alternative": "也可以先求两级之和 1008 + 7 = 1015，再减去两倍万级 7 × 2 = 14，得 1001。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__zero-in-middle"
+  },
+  {
+    "id": "bank-math-1-billion-006",
+    "familyId": "math-1-billion__fam-06",
+    "version": 1,
+    "text": "3007000000 中的 7 使这个数比 3000000000 多了多少？",
+    "answer": "7000000",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3007000000 - 3000000000 = 7000000",
+      "两个数只有千万位上的数字不同，一个的千万位是 7，另一个是 0，所以相差 7 个千万。",
+      "答：多了 7000000。"
+    ],
+    "hint": "把两个数按亿级、万级、个级分开写出来，比较相同的数位。",
+    "alternative": "也可以把 3007000000 写成 30 亿 + 700 万，3000000000 就是 30 亿，两数相差的就是 700 万。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__zero-in-middle"
+  },
+  {
+    "id": "bank-math-1-billion-007",
+    "familyId": "math-1-billion__fam-07",
+    "version": 1,
+    "text": "一个数加上 8000000 后是 3008000000，这个数是多少？",
+    "answer": "3000000000",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3008000000 - 8000000 = 3000000000",
+      "已知和与一部分，求另一部分用减法。",
+      "答：这个数是 3000000000。"
+    ],
+    "hint": "用和减去加上的那部分，看看剩下的数位上都是什么。",
+    "alternative": "也可以把 3008000000 写成 30 亿 + 800 万，去掉加上的 800 万，剩下的就是 30 亿。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__zero-in-middle"
+  },
+  {
+    "id": "bank-math-1-billion-008",
+    "familyId": "math-1-billion__fam-08",
+    "version": 1,
+    "text": "1 个亿是 100000000，1 个千万是 1000000，1 个亿里面有多少个千万？",
+    "answer": "100",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100000000 ÷ 1000000 = 100",
+      "1 个亿里面有 10 个千万，1 个千万是 1000000，所以用 100000000 除以 1000000 求出千万的个数。",
+      "答：1 个亿里面有 100 个千万。"
+    ],
+    "hint": "用大单位的个数除以小单位的个数，就得到小单位有多少个。",
+    "alternative": "也可以一层一层地数：1 亿 = 10 个千万，1 千万 = 10 个百万，1 百万 = 10 个十万，1 十万 = 10 个万，1 万 = 10 个千，1 千 = 10 个百，1 百 = 10 个十，10 × 10 = 100。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__counting-units"
+  },
+  {
+    "id": "bank-math-1-billion-009",
+    "familyId": "math-1-billion__fam-09",
+    "version": 1,
+    "text": "把 2500000000 写成以“亿”为单位的数是多少？（1 亿 = 100000000）",
+    "answer": "25",
+    "unit": "亿",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2500000000 ÷ 100000000 = 25",
+      "1 个亿相当于 100000000，除以 100000000 就把数写成了以亿为单位的数。",
+      "答：写成以“亿”为单位的数是 25 亿。"
+    ],
+    "hint": "去掉末尾的 0，商是多少就是多少亿。",
+    "alternative": "也可以先去掉一个 0：2500000000 ÷ 100000000 = 25000000，再去掉两个 0 得 25。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__counting-units"
+  },
+  {
+    "id": "bank-math-1-billion-010",
+    "familyId": "math-1-billion__fam-10",
+    "version": 1,
+    "text": "8 个十亿合起来是多少？（1 个十亿是 1000000000）",
+    "answer": "8000000000",
+    "unit": "",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 1000000000 = 8000000000",
+      "几个十亿相加就是几个十亿，每个十亿是 1000000000。",
+      "答：8 个十亿合起来是 8000000000。"
+    ],
+    "hint": "先想 1 个十亿是多少，再想 8 个十亿就是几个这样的数。",
+    "alternative": "也可以先算 1000000000 × 4 = 4000000000，把两个这样的和合起来得 8000000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-billion__counting-units"
+  },
+  {
+    "id": "bank-math-1-billion-011",
+    "familyId": "math-1-billion__fam-11",
+    "version": 1,
+    "text": "某市去年财政收入 1250000000 元，今年比去年增加 75000000 元，今年财政收入是多少元？",
+    "answer": "1325000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1250000000 + 75000000 = 1325000000",
+      "求今年的收入，用去年的收入加上增加的部分。",
+      "答：今年财政收入是 1325000000 元。"
+    ],
+    "hint": "先想 1250000000 是 12 亿 5000 万，75000000 是 7500 万，再把它们合起来。",
+    "alternative": "也可以先加上 50000000 得 1300000000，再加 25000000 得 1325000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__city-budget"
+  },
+  {
+    "id": "bank-math-1-billion-012",
+    "familyId": "math-1-billion__fam-12",
+    "version": 1,
+    "text": "某市去年财政收入 1250000000 元，今年是 1325000000 元，今年比去年增加多少元？",
+    "answer": "75000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1325000000 - 1250000000 = 75000000",
+      "求增加的钱数，用今年的收入减去去年的收入。",
+      "答：今年比去年增加 75000000 元。"
+    ],
+    "hint": "两个数位数相同，从最高位开始一位一位地看，找出不同的数位。",
+    "alternative": "也可以先算 1325000000 - 1200000000 = 125000000，再减去 1250000000 - 1200000000 = 50000000，合起来是 75000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__city-budget"
+  },
+  {
+    "id": "bank-math-1-billion-013",
+    "familyId": "math-1-billion__fam-13",
+    "version": 1,
+    "text": "一枚月球探测器的成本是 3000000000 元，一辆家用轿车的价格是 200000 元，探测器的成本是轿车的多少倍？",
+    "answer": "15000",
+    "unit": "倍",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3000000000 ÷ 200000 = 15000",
+      "求一个数是另一个数的几倍，用较大的数除以较小的数。",
+      "答：探测器的成本是轿车的 15000 倍。"
+    ],
+    "hint": "先去掉末尾的 0 变成 30000000 ÷ 2000，再想 2000 乘几正好是 30000000。",
+    "alternative": "也可以先算 200000 × 1000 = 200000000，再看还剩多少，是 3000000000 - 200000000 = 2800000000，2800000000 ÷ 200000 = 14000，合起来 15000 倍。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__space-program"
+  },
+  {
+    "id": "bank-math-1-billion-014",
+    "familyId": "math-1-billion__fam-14",
+    "version": 1,
+    "text": "月球探测器在月面行驶了 2000000 米，行驶速度是每小时 50000 米，它在月面行驶了多少小时？",
+    "answer": "40",
+    "unit": "小时",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2000000 ÷ 50000 = 40",
+      "求行驶时间，用总路程除以每小时行驶的路程。",
+      "答：它在月面行驶了 40 小时。"
+    ],
+    "hint": "先想 50000 乘 40 是多少，再看是不是正好等于 2000000。",
+    "alternative": "也可以把两个数同时去掉两个 0，变成 20000 ÷ 500，商仍然是 40。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__space-program"
+  },
+  {
+    "id": "bank-math-1-billion-015",
+    "familyId": "math-1-billion__fam-15",
+    "version": 1,
+    "text": "某公司去年营业额 3500000000 元，今年营业额 4800000000 元，今年比去年增加了多少元？",
+    "answer": "1300000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4800000000 - 3500000000 = 1300000000",
+      "用今年的营业额减去去年的营业额。",
+      "答：今年比去年增加了 1300000000 元。"
+    ],
+    "hint": "先看两个数都是十位数，最高位上的 4 比 3 大 1，说明每亿位多 1 亿。",
+    "alternative": "也可以先算 4800000000 - 3000000000 = 1800000000，再减去 500000000 得 1300000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__company-revenue"
+  },
+  {
+    "id": "bank-math-1-billion-016",
+    "familyId": "math-1-billion__fam-16",
+    "version": 1,
+    "text": "某公司上半年营业额 1200000000 元，下半年营业额 1800000000 元，全年共营业额多少元？",
+    "answer": "3000000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1200000000 + 1800000000 = 3000000000",
+      "把上下两个半年的营业额合起来，用加法。",
+      "答：全年共营业额 3000000000 元。"
+    ],
+    "hint": "两个数都是 10 位数，亿位上的 1 加 1 得 2，再把后面的数位一起加上。",
+    "alternative": "也可以先算 1200000000 + 1200000000 = 2400000000，再加上剩下的 600000000，得 3000000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__company-revenue"
+  },
+  {
+    "id": "bank-math-1-billion-017",
+    "familyId": "math-1-billion__fam-17",
+    "version": 1,
+    "text": "第七次全国人口普查我国总人口是 1411780000 人，第六次人口普查是 1337000000 人，七年增加了多少人口？",
+    "answer": "74780000",
+    "unit": "人",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1411780000 - 1337000000 = 74780000",
+      "用第七次普查的人数减去第六次普查的人数。",
+      "答：七年增加了 74780000 人。"
+    ],
+    "hint": "两个数都是十位数，先看亿位，再看万位，最后看剩下的数位。",
+    "alternative": "也可以先减去 1300000000 得 111780000，再减去 37000000 得 74780000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__population-census"
+  },
+  {
+    "id": "bank-math-1-billion-018",
+    "familyId": "math-1-billion__fam-18",
+    "version": 1,
+    "text": "某项民生工程总预算 5000000000 元，平均分给 8 个子项目，每个子项目分得多少元？",
+    "answer": "625000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5000000000 ÷ 8 = 625000000",
+      "平均分用除法，总预算除以子项目的个数。",
+      "答：每个子项目分得 625000000 元。"
+    ],
+    "hint": "先想 5000000000 的一半是多少，再往下推一推 8 份。",
+    "alternative": "也可以先去掉末尾的 0 变成 500000000 ÷ 8 = 62500000，再把两个 0 补回去。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__population-census"
+  },
+  {
+    "id": "bank-math-1-billion-019",
+    "familyId": "math-1-billion__fam-19",
+    "version": 1,
+    "text": "一座核电站一年发电 13000000000 千瓦时，100 座这样的电站一年共发电多少千瓦时？",
+    "answer": "1300000000000",
+    "unit": "千瓦时",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100 × 13000000000 = 1300000000000",
+      "每座电站发电量相同，100 座就是 100 个这样的数，用乘法。",
+      "答：100 座这样的电站一年共发电 1300000000000 千瓦时。"
+    ],
+    "hint": "先算 10 座电站的发电量，再把结果乘 10。",
+    "alternative": "也可以先算 13000000000 × 10 = 130000000000，再乘 10 得 1300000000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__energy-output"
+  },
+  {
+    "id": "bank-math-1-billion-020",
+    "familyId": "math-1-billion__fam-20",
+    "version": 1,
+    "text": "某市去年用电 2400000000 千瓦时，今年用电 2800000000 千瓦时，今年比去年多多少千瓦时？",
+    "answer": "400000000",
+    "unit": "千瓦时",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2800000000 - 2400000000 = 400000000",
+      "用今年的用电量减去去年的用电量。",
+      "答：今年比去年多 400000000 千瓦时。"
+    ],
+    "hint": "两个数的亿位相同，都是 24 亿和 28 亿的差，看看差在哪一级。",
+    "alternative": "也可以先算 2800000000 - 2000000000 = 800000000，再减去 400000000，得 400000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-billion__energy-output"
+  },
+  {
+    "id": "bank-math-1-billion-021",
+    "familyId": "math-1-billion__fam-21",
+    "version": 1,
+    "text": "2023 年世界人口约 8000000000 人，其中亚洲约 4700000000 人，欧洲约 750000000 人。亚洲人口比欧洲人口多多少人？",
+    "answer": "3950000000",
+    "unit": "人",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4700000000 - 750000000 = 3950000000",
+      "用亚洲人口减去欧洲人口。",
+      "答：亚洲人口比欧洲人口多 3950000000 人。"
+    ],
+    "hint": "先比较位数：4700000000 是十位数，750000000 是九位数，位数多的一定大。",
+    "alternative": "也可以先减去 500000000 得 4200000000，再减去 250000000 得 3950000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__world-population"
+  },
+  {
+    "id": "bank-math-1-billion-022",
+    "familyId": "math-1-billion__fam-22",
+    "version": 1,
+    "text": "地球到太阳的平均距离约 150000000 千米，地球到月球的平均距离约 384000 千米，两者相差多少千米？",
+    "answer": "149616000",
+    "unit": "千米",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150000000 - 384000 = 149616000",
+      "两个数位数不同，150000000 是九位数，384000 是六位数，用大数减小数即可。",
+      "答：两者相差 149616000 千米。"
+    ],
+    "hint": "先减掉后面整千万的部分，再减掉剩下的零头。",
+    "alternative": "也可以先减去 400000 得 149600000，再加回 16000，得 149616000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__sun-earth-distance"
+  },
+  {
+    "id": "bank-math-1-billion-023",
+    "familyId": "math-1-billion__fam-23",
+    "version": 1,
+    "text": "一块 1TB 的硬盘有 1000000000000 字节，是 1GB 硬盘（1000000000 字节）的多少倍？",
+    "answer": "1000",
+    "unit": "倍",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1000000000000 ÷ 1000000000 = 1000",
+      "求一个数是另一个数的几倍，用大数除以小数。",
+      "答：是 1000 倍。"
+    ],
+    "hint": "先把两个数末尾的 0 尽量约去，看看商是多少。",
+    "alternative": "也可以先算 1000000000 × 100 = 100000000000，再算 1000000000000 - 100000000000 = 900000000000，900000000000 ÷ 1000000000 = 900，合起来是 1000 倍。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__storage-capacity"
+  },
+  {
+    "id": "bank-math-1-billion-024",
+    "familyId": "math-1-billion__fam-24",
+    "version": 1,
+    "text": "某国 10 年前人口 1200000000 人，现在有 1350000000 人，10 年间增加了多少人口？",
+    "answer": "150000000",
+    "unit": "人",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1350000000 - 1200000000 = 150000000",
+      "用现在的人口减去 10 年前的人口。",
+      "答：10 年间增加了 150000000 人。"
+    ],
+    "hint": "两个数都是十位数，亿位相同，就看剩下的数位差多少。",
+    "alternative": "也可以先减去 1000000000 得 350000000，再减去 200000000 得 150000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__population-growth"
+  },
+  {
+    "id": "bank-math-1-billion-025",
+    "familyId": "math-1-billion__fam-25",
+    "version": 1,
+    "text": "我国某省森林总面积 220000000 公顷，其中天然林 130000000 公顷，人工林面积比天然林多多少公顷？",
+    "answer": "90000000",
+    "unit": "公顷",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "220000000 - 130000000 = 90000000",
+      "人工林面积 = 总面积 - 天然林面积，再求它比天然林多多少。",
+      "答：人工林面积比天然林多 90000000 公顷。"
+    ],
+    "hint": "先算出人工林有多少公顷，再用减法求它比天然林多多少。",
+    "alternative": "也可以先算 220000000 - 100000000 = 120000000，再减去 30000000，得 90000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__forest-area"
+  },
+  {
+    "id": "bank-math-1-billion-026",
+    "familyId": "math-1-billion__fam-26",
+    "version": 1,
+    "text": "A 车间年用电 1200000000 千瓦时，B 车间年用电 800000000 千瓦时，B 车间比 A 车间少用多少千瓦时？",
+    "answer": "400000000",
+    "unit": "千瓦时",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1200000000 - 800000000 = 400000000",
+      "求少用多少，用用得多的减去用得少的。",
+      "答：B 车间比 A 车间少用 400000000 千瓦时。"
+    ],
+    "hint": "两个数位数相同，从亿位比到万位，找到第一个不同的数位。",
+    "alternative": "也可以先算 1200000000 - 1000000000 = 200000000，再减去 800000000 中的 800000000，200000000 + 200000000 = 400000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__factory-energy"
+  },
+  {
+    "id": "bank-math-1-billion-027",
+    "familyId": "math-1-billion__fam-27",
+    "version": 1,
+    "text": "长江全长 6300000 米，黄河全长 5464000 米，长江比黄河长多少米？",
+    "answer": "836000",
+    "unit": "米",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6300000 - 5464000 = 836000",
+      "两个数都是七位数，从百万位开始一位一位地比，再用大数减小数。",
+      "答：长江比黄河长 836000 米。"
+    ],
+    "hint": "先算 6300000 - 5460000，再把剩下的 4000 补减掉。",
+    "alternative": "也可以把 6300000 看作 630 万，5464000 看作 546 万 + 4000，先算 630 万 - 546 万 = 84 万，再减 4000，得 836000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__river-length"
+  },
+  {
+    "id": "bank-math-1-billion-028",
+    "familyId": "math-1-billion__fam-28",
+    "version": 1,
+    "text": "我国某年粮食总产量约 60000000000 千克，其中小麦产量约 15000000000 千克，总产量约是小麦产量的多少倍？",
+    "answer": "4",
+    "unit": "倍",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60000000000 ÷ 15000000000 = 4",
+      "求总产量是小麦产量的几倍，用总产量除以小麦产量。",
+      "答：总产量约是小麦产量的 4 倍。"
+    ],
+    "hint": "先去掉末尾的 0，变成 6000000000 ÷ 1500000000，再想 1500000000 乘几是 6000000000。",
+    "alternative": "也可以先算 15000000000 × 2 = 30000000000，再算 30000000000 × 2 = 60000000000，所以是 4 倍。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__grain-output"
+  },
+  {
+    "id": "bank-math-1-billion-029",
+    "familyId": "math-1-billion__fam-29",
+    "version": 1,
+    "text": "全球智能手机用户约 7000000000 人，我国约有 1750000000 人，全球用户数约是我国的几倍？",
+    "answer": "4",
+    "unit": "倍",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7000000000 ÷ 1750000000 = 4",
+      "用全球用户数除以我国用户数，求出倍数。",
+      "答：全球用户数约是我国的 4 倍。"
+    ],
+    "hint": "先估一估 1750000000 的 4 倍是多少，再看是不是正好等于 7000000000。",
+    "alternative": "也可以先算 1750000000 × 4 = 7000000000，说明全球用户数正好是我国的 4 倍。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__global-phone-users"
+  },
+  {
+    "id": "bank-math-1-billion-030",
+    "familyId": "math-1-billion__fam-30",
+    "version": 1,
+    "text": "某银行第一年贷款 2000000000 元，第二年贷款 3500000000 元，两年一共贷款多少元？",
+    "answer": "5500000000",
+    "unit": "元",
+    "knowledgeId": "math-1-billion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2000000000 + 3500000000 = 5500000000",
+      "把两年的贷款数合起来，用加法。",
+      "答：两年一共贷款 5500000000 元。"
+    ],
+    "hint": "两个数都是十位数，亿位上的 2 与 3 相加，再把后面的数位一起加上。",
+    "alternative": "也可以先算 2000000000 + 3000000000 = 5000000000，再加上 500000000，得 5500000000。",
+    "prerequisites": [
+      "math-1-billion",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-billion__bank-loan"
+  },
+  {
+    "id": "bank-math-1-compare-001",
+    "familyId": "math-1-compare__fam-01",
+    "version": 1,
+    "text": "80500000 与 85000000 相差多少？",
+    "answer": "4500000",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "85000000 - 80500000 = 4500000",
+      "两个数都是八位数，万位上一个是 5，一个是 0，相同数位上的数字都一样，所以相差 450 个万，也就是 4500000。",
+      "答：相差 4500000。"
+    ],
+    "hint": "先比位数，再从最高位开始一位一位地比，找出第一个不同的数位。",
+    "alternative": "也可以先写成 850 万与 805 万，850 - 805 = 45 个万，再写成 4500000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-by-digits"
+  },
+  {
+    "id": "bank-math-1-compare-002",
+    "familyId": "math-1-compare__fam-02",
+    "version": 1,
+    "text": "12345678 和 12345679 中，较大的数比另一个数大多少？",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12345679 - 12345678 = 1",
+      "两个数从千万位到十位都一样，只有个位不同，9 比 8 大 1，所以大的数只比另一个数大 1。",
+      "答：大的数比另一个数大 1。"
+    ],
+    "hint": "比较两个数时，先看最高位，最高位相同就顺次往下看。",
+    "alternative": "也可以把两个数一个数位一个数位地对齐比较，找出只有个位不同，差就是 1。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-by-digits"
+  },
+  {
+    "id": "bank-math-1-compare-003",
+    "familyId": "math-1-compare__fam-03",
+    "version": 1,
+    "text": "6080000 和 6008000 中，较大的数比另一个数多多少？",
+    "answer": "72000",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6080000 - 6008000 = 72000",
+      "两个数的百万位、万位、个位都相同，只有千位不同：一个是 8，一个是 0，所以相差 8 个千。",
+      "答：较大的数比另一个数多 72000。"
+    ],
+    "hint": "把两个数按数位对齐排一排，先找相同的前几位。",
+    "alternative": "也可以把 6080000 看成 608 个千，6008000 看成 600 个千加 8000，608 千 - 600 千 = 8 千，减去 8000 得 72000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-by-digits"
+  },
+  {
+    "id": "bank-math-1-compare-004",
+    "familyId": "math-1-compare__fam-04",
+    "version": 1,
+    "text": "在 70050000 与 70005000 之间，大的那个数比小的那个数多多少？",
+    "answer": "45000",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "70050000 - 70005000 = 45000",
+      "两个数的千万位、百万位、十万位都是 70 万万级上的 7，从万位开始才不同：一个是 5，一个是 0，相差 5 个万减 0 个万。",
+      "答：大的那个数比小的那个数多 45000。"
+    ],
+    "hint": "相同数位上的数字一样多就不用比，从第一个不同的数位开始比较。",
+    "alternative": "也可以把 70050000 看成 7005 个千，70005000 看成 7000 个千加 5000，7005 千 - 7000 千 = 5 千，再减 5000 得 45000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-by-digits"
+  },
+  {
+    "id": "bank-math-1-compare-005",
+    "familyId": "math-1-compare__fam-05",
+    "version": 1,
+    "text": "一个 7 位数与一个 6 位数相比，较大的数至少比另一个数大多少？",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 - 6 = 1",
+      "位数多的数一定大，最小的 7 位数是 1000000，最大的 6 位数是 999999，两者正好相差 1。",
+      "答：至少大 1。"
+    ],
+    "hint": "位数不同不用一位一位比，位数多的数一定大，再想想最小的 7 位数有多大。",
+    "alternative": "也可以想最小的 7 位数是 1000000，它比任何 6 位数都大，最接近的是 999999，所以至少大 1。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-length"
+  },
+  {
+    "id": "bank-math-1-compare-006",
+    "familyId": "math-1-compare__fam-06",
+    "version": 1,
+    "text": "最大的六位数 999999 比最小的七位数 1000000 少多少？",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1000000 - 999999 = 1",
+      "最大的六位数是 999999，最小的七位数是 1000000，它们只相差 1。",
+      "答：少 1。"
+    ],
+    "hint": "想一想 999999 再加 1 会变成什么数。",
+    "alternative": "也可以把 1000000 看成 100 个万，把 999999 看成 99 个万加 9999，100 万 - 99 万 = 1 万，再减 9999 得 1。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-length"
+  },
+  {
+    "id": "bank-math-1-compare-007",
+    "familyId": "math-1-compare__fam-07",
+    "version": 1,
+    "text": "8000000 和 799999 的位数就不同。较大的数比另一个数大多少？",
+    "answer": "7200001",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8000000 - 799999 = 7200001",
+      "8000000 是七位数，799999 是六位数，位数多的 8000000 大，再用大数减小数求相差数。",
+      "答：较大的数比另一个数大 7200001。"
+    ],
+    "hint": "先比出大小，再做减法；也可以先给 799999 补上一个 0 使数位对齐。",
+    "alternative": "也可以把 8000000 看作 800 万，把 799999 看作 79 万加 9999，先算 800 万 - 79 万 = 721 万，再减 9999，得 7200001。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__compare-length"
+  },
+  {
+    "id": "bank-math-1-compare-008",
+    "familyId": "math-1-compare__fam-08",
+    "version": 1,
+    "text": "把 6400000 改写成用“万”作单位的数是多少？（1 万 = 10000）",
+    "answer": "640",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6400000 ÷ 10000 = 640",
+      "1 个万相当于 10000，除以 10000 后商是多少，就是多少万。",
+      "答：改写成用“万”作单位的数是 640 万。"
+    ],
+    "hint": "改写不改变数的大小，把末尾的四个 0 去掉，商就是以万为单位的数。",
+    "alternative": "也可以先去掉两个 0：6400000 ÷ 100 = 64000，再去掉两个 0 得 640。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__rewrite-in-wan"
+  },
+  {
+    "id": "bank-math-1-compare-009",
+    "familyId": "math-1-compare__fam-09",
+    "version": 1,
+    "text": "把 385000000 写成以“万”为单位，是多少万？（1 万 = 10000）",
+    "answer": "38500",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "385000000 ÷ 10000 = 38500",
+      "改写成以万为单位的数，就是求这个数里有多少个万。",
+      "答：改写成用“万”作单位的数是 38500 万。"
+    ],
+    "hint": "先数一数这个数末尾有几个 0，去掉四个 0 后看看商是多少。",
+    "alternative": "也可以先去掉三个 0 得 385000，再除以 10 得 38500。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__rewrite-in-wan"
+  },
+  {
+    "id": "bank-math-1-compare-010",
+    "familyId": "math-1-compare__fam-10",
+    "version": 1,
+    "text": "一个数除以 10000 得 7050，这个数是多少？",
+    "answer": "70500000",
+    "unit": "",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7050 × 10000 = 70500000",
+      "已知商和除数求被除数，用乘法。",
+      "答：这个数是 70500000。"
+    ],
+    "hint": "除以 10000 相当于去掉末尾四个 0，反过来把四个 0 添回去。",
+    "alternative": "也可以先算 7050 × 10 = 70500，再乘 10 得 705000，再乘 100 得 70500000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-compare__rewrite-in-wan"
+  },
+  {
+    "id": "bank-math-1-compare-011",
+    "familyId": "math-1-compare__fam-11",
+    "version": 1,
+    "text": "甲图书馆藏书 1860000 册，乙图书馆藏书 1250000 册。甲馆比乙馆多多少册？",
+    "answer": "610000",
+    "unit": "册",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1860000 - 1250000 = 610000",
+      "两个数都是七位数，从百万位开始比，百万位相同就看十万位。",
+      "答：甲馆比乙馆多 610000 册。"
+    ],
+    "hint": "先把两个数写成 186 万和 125 万来比较，再算相差数。",
+    "alternative": "也可以先减去 1000000 得 860000，再减去 250000 得 610000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__two-libraries"
+  },
+  {
+    "id": "bank-math-1-compare-012",
+    "familyId": "math-1-compare__fam-12",
+    "version": 1,
+    "text": "甲图书馆藏书 1860000 册，把这个数改写成用“万”作单位的数是多少？（1 万 = 10000）",
+    "answer": "186",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1860000 ÷ 10000 = 186",
+      "去掉末尾四个 0，商就是以万为单位的数。",
+      "答：改写成用“万”作单位的数是 186 万。"
+    ],
+    "hint": "先想 186 个万是多少，再检验一下和原数是否相等。",
+    "alternative": "也可以先写成 186 万，再乘 10000 检验：186 × 10000 = 1860000，与原数相同。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__two-libraries"
+  },
+  {
+    "id": "bank-math-1-compare-013",
+    "familyId": "math-1-compare__fam-13",
+    "version": 1,
+    "text": "两台同类机床，一台 8600000 元，另一台 8300000 元。价格高的那台比另一台贵多少元？",
+    "answer": "300000",
+    "unit": "元",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8600000 - 8300000 = 300000",
+      "两个数只有十万位上的数字不同：一个是 6，一个是 3，相差 3 个十万。",
+      "答：价格高的那台比另一台贵 300000 元。"
+    ],
+    "hint": "先比较两台机床哪个贵，再算相差的数。",
+    "alternative": "也可以先算 8600000 - 8000000 = 600000，再减去 300000，得 300000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__factory-compare"
+  },
+  {
+    "id": "bank-math-1-compare-014",
+    "familyId": "math-1-compare__fam-14",
+    "version": 1,
+    "text": "甲厂一个月生产 2500000 件，乙厂生产 2400000 件。把两个数都改写成用“万”作单位的数后，相差多少万件？",
+    "answer": "10",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "250 - 240 = 10",
+      "先把两个数改写成以万为单位的数：2500000 是 250 万件，2400000 是 240 万件，再求相差数。",
+      "答：相差 10 万件。"
+    ],
+    "hint": "改写后再比较更方便，先把两个数都换成以万作单位的数。",
+    "alternative": "也可以先求原数相差 2500000 - 2400000 = 100000，再把 100000 改写成 10 万件。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__factory-compare"
+  },
+  {
+    "id": "bank-math-1-compare-015",
+    "familyId": "math-1-compare__fam-15",
+    "version": 1,
+    "text": "甲地到乙地 1250000 米，乙地到丙地 1080000 米。甲地到丙地共多少米？",
+    "answer": "2330000",
+    "unit": "米",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1250000 + 1080000 = 2330000",
+      "把两段路程合起来，用加法。",
+      "答：甲地到丙地共 2330000 米。"
+    ],
+    "hint": "先想 125 万加 108 万是多少，再把末尾的四个 0 补回去。",
+    "alternative": "也可以先算 1250000 + 1000000 = 2250000，再加 80000，得 2330000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__travel-budget"
+  },
+  {
+    "id": "bank-math-1-compare-016",
+    "familyId": "math-1-compare__fam-16",
+    "version": 1,
+    "text": "甲地到乙地 1250000 米，乙地到丙地 1080000 米，两段路一共 2330000 米。把这段路的长度改写成用“万”作单位的数是多少米？（1 万 = 10000）",
+    "answer": "233",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2330000 ÷ 10000 = 233",
+      "改写只是换一种说法，数的大小不变，去掉末尾四个 0 即可。",
+      "答：改写成用“万”作单位的数是 233 万米。"
+    ],
+    "hint": "先确认两段路一共是多少米，再把这个长度换成以万作单位。",
+    "alternative": "也可以把 1250000 和 1080000 分别改写成 125 万米和 108 万米，再相加得 233 万米。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__travel-budget"
+  },
+  {
+    "id": "bank-math-1-compare-017",
+    "familyId": "math-1-compare__fam-17",
+    "version": 1,
+    "text": "某市有 3860000 人，邻市有 2450000 人。两市人口相差多少人？",
+    "answer": "1410000",
+    "unit": "人",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3860000 - 2450000 = 1410000",
+      "两个数都是七位数，百万位上一个是 3，一个是 2，相差 1 个百万；再看十万位相差 4 个十万，合起来是 141 个万。",
+      "答：两市人口相差 1410000 人。"
+    ],
+    "hint": "先把 3860000 和 2450000 都看成多少个万，再比较。",
+    "alternative": "也可以先减去 2000000 得 1860000，再减去 450000 得 1410000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__population-rewrite"
+  },
+  {
+    "id": "bank-math-1-compare-018",
+    "familyId": "math-1-compare__fam-18",
+    "version": 1,
+    "text": "某市有 3860000 人，把人口数改写成用“万”作单位的数是多少万人？（1 万 = 10000）",
+    "answer": "386",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3860000 ÷ 10000 = 386",
+      "去掉末尾四个 0，商就是以万为单位的数。",
+      "答：改写成用“万”作单位的数是 386 万人。"
+    ],
+    "hint": "先写出 386 万，再乘 10000 看看是不是 3860000。",
+    "alternative": "也可以把 3860000 写成 386 个万，再乘 10000 检验得 3860000，说明改写正确。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__population-rewrite"
+  },
+  {
+    "id": "bank-math-1-compare-019",
+    "familyId": "math-1-compare__fam-19",
+    "version": 1,
+    "text": "某景区一年接待游客 8600000 人次，把接待人数改写成用“万”作单位的数是多少万人次？（1 万 = 10000）",
+    "answer": "860",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8600000 ÷ 10000 = 860",
+      "8600000 里面有 860 个万。",
+      "答：改写成用“万”作单位的数是 860 万人次。"
+    ],
+    "hint": "把末尾的四个 0 去掉，看商是多少。",
+    "alternative": "也可以先去掉三个 0 得 8600，再除以 10 得 860。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__tourism-rewrite"
+  },
+  {
+    "id": "bank-math-1-compare-020",
+    "familyId": "math-1-compare__fam-20",
+    "version": 1,
+    "text": "某景区今年接待游客 8600000 人次，去年是 7500000 人次。把两个数都改写成用“万”作单位的数后，今年比去年多多少万人次？",
+    "answer": "110",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "860 - 750 = 110",
+      "先把两个数改写成以万为单位的数：8600000 是 860 万人次，7500000 是 750 万人次，再求相差数。",
+      "答：今年比去年多 110 万人次。"
+    ],
+    "hint": "先改写再相减，比直接对大数做减法更方便。",
+    "alternative": "也可以先求原数相差 8600000 - 7500000 = 1100000，再改写成 110 万人次。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-compare__tourism-rewrite"
+  },
+  {
+    "id": "bank-math-1-compare-021",
+    "familyId": "math-1-compare__fam-21",
+    "version": 1,
+    "text": "甲地年降水量 1250000 毫米，乙地年降水量 980000 毫米。甲地比乙地多多少毫米？",
+    "answer": "270000",
+    "unit": "毫米",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1250000 - 980000 = 270000",
+      "两个数都是七位数，十万位上一个是 2，一个是 9，先比出乙地大，再算相差数。",
+      "答：甲地比乙地多 270000 毫米。"
+    ],
+    "hint": "先比大小再算差：1250000 是 125 万，980000 不足 100 万。",
+    "alternative": "也可以把 980000 看成 98 万，1250000 是 125 万，125 万 - 98 万 = 27 万，也就是 270000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__rainfall-records"
+  },
+  {
+    "id": "bank-math-1-compare-022",
+    "familyId": "math-1-compare__fam-22",
+    "version": 1,
+    "text": "1 路公交车全程 3250000 米，25 路全程 2880000 米。把两个数都改写成用“万”作单位的数后相差多少万米？",
+    "answer": "37",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "325 - 288 = 37",
+      "先把两个数改写成以万为单位的数：3250000 是 325 万米，2880000 是 288 万米，再求相差数。",
+      "答：相差 37 万米。"
+    ],
+    "hint": "改写后再比较，两条线路的长短关系会更清楚。",
+    "alternative": "也可以先求相差 3250000 - 2880000 = 370000，再把它改写成 37 万米。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__bus-line-length"
+  },
+  {
+    "id": "bank-math-1-compare-023",
+    "familyId": "math-1-compare__fam-23",
+    "version": 1,
+    "text": "两件商品的价格分别是 1999000 元和 19990000 元，较大的价格改写成用“万”作单位的数是多少元？（1 万 = 10000）",
+    "answer": "1999",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "19990000 ÷ 10000 = 1999",
+      "19990000 是八位数，1999000 是七位数，位数多的更大；把较大的数去掉末尾四个 0。",
+      "答：改写成用“万”作单位的数是 1999 万元。"
+    ],
+    "hint": "先比出哪个数大，再把大的那个改写成以万为单位的数。",
+    "alternative": "也可以先写成 1999 万，再乘 10000 检验得 19990000，与原来的较大数相等。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__commodity-price"
+  },
+  {
+    "id": "bank-math-1-compare-024",
+    "familyId": "math-1-compare__fam-24",
+    "version": 1,
+    "text": "地球赤道的周长约 40000000 米，是 80000 米一圈的跑道多少圈？",
+    "answer": "500",
+    "unit": "圈",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "40000000 ÷ 80000 = 500",
+      "求一个数里有几个另一个数，用除法。",
+      "答：是 500 圈。"
+    ],
+    "hint": "先去掉末尾的 0，把 40000000 ÷ 80000 变成 4000000 ÷ 8000 再算。",
+    "alternative": "也可以先算 80000 × 100 = 8000000，看它几次能凑成 40000000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__earth-circumference"
+  },
+  {
+    "id": "bank-math-1-compare-025",
+    "familyId": "math-1-compare__fam-25",
+    "version": 1,
+    "text": "某项工程预算 12500000 元，实际支出 11800000 元，节余了多少元？",
+    "answer": "700000",
+    "unit": "元",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12500000 - 11800000 = 700000",
+      "预算减去实际支出就是节余的钱数。",
+      "答：节余了 700000 元。"
+    ],
+    "hint": "两个数都是八位数，从千万位开始一位一位地比。",
+    "alternative": "也可以先算 12500000 - 12000000 = 500000，再减去 200000，得 700000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__project-budget"
+  },
+  {
+    "id": "bank-math-1-compare-026",
+    "familyId": "math-1-compare__fam-26",
+    "version": 1,
+    "text": "20 个集装箱共重 960000 千克，平均每个集装箱重多少千克？",
+    "answer": "48000",
+    "unit": "千克",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "960000 ÷ 20 = 48000",
+      "求平均每个是多少，用总重量除以个数。",
+      "答：平均每个集装箱重 48000 千克。"
+    ],
+    "hint": "先想 20 个 48000 是不是正好 960000。",
+    "alternative": "也可以先去掉末尾的两个 0，变成 9600 ÷ 2 = 4800，再把两个 0 补回去得 48000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__container-load"
+  },
+  {
+    "id": "bank-math-1-compare-027",
+    "familyId": "math-1-compare__fam-27",
+    "version": 1,
+    "text": "某商场 A 品牌售出 3200000 件，B 品牌售出 2850000 件。改写成用“万”作单位的数后相差多少万件？",
+    "answer": "35",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "320 - 285 = 35",
+      "先把两个数改写成以万为单位的数：3200000 是 320 万件，2850000 是 285 万件，再求相差数。",
+      "答：改写后相差 35 万件。"
+    ],
+    "hint": "改写后两个数变短了，比较起来更省力。",
+    "alternative": "也可以先求原数相差 3200000 - 2850000 = 350000，再改写成 35 万件。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__sales-ranking"
+  },
+  {
+    "id": "bank-math-1-compare-028",
+    "familyId": "math-1-compare__fam-28",
+    "version": 1,
+    "text": "黑龙江全长 4440000 米，把长度改写成用“万”作单位的数是多少米？（1 万 = 10000）",
+    "answer": "444",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4440000 ÷ 10000 = 444",
+      "去掉末尾四个 0，商就是以万为单位的数。",
+      "答：改写成用“万”作单位的数是 444 万米。"
+    ],
+    "hint": "先数一数末尾有几个 0，去掉四个 0 后看商。",
+    "alternative": "也可以先去掉三个 0 得 4440，再除以 10 得 444。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__river-length-rewrite"
+  },
+  {
+    "id": "bank-math-1-compare-029",
+    "familyId": "math-1-compare__fam-29",
+    "version": 1,
+    "text": "一双限量球鞋售价 25000000 元，把价格改写成用“万”作单位的数是多少元？（1 万 = 10000）",
+    "answer": "2500",
+    "unit": "万",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25000000 ÷ 10000 = 2500",
+      "25000000 里面有 2500 个万。",
+      "答：改写成用“万”作单位的数是 2500 万元。"
+    ],
+    "hint": "除以 10000 就是去掉末尾四个 0，看看商是多少。",
+    "alternative": "也可以先写成 2500 万，再乘 10000 检验得 25000000，与原数相等。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__sneaker-price"
+  },
+  {
+    "id": "bank-math-1-compare-030",
+    "familyId": "math-1-compare__fam-30",
+    "version": 1,
+    "text": "某省 2024 年人口 96000000 人，2025 年人口 98000000 人，增加了多少人？",
+    "answer": "2000000",
+    "unit": "人",
+    "knowledgeId": "math-1-compare",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "98000000 - 96000000 = 2000000",
+      "两个数都是八位数，只有千万位上的数字不同，相差 2 个千万。",
+      "答：增加了 2000000 人。"
+    ],
+    "hint": "先比出哪个数大，再算相差数；也可以把两个数都看成多少个千万。",
+    "alternative": "也可以先减去 90000000 得 8000000，再减去 6000000，得 2000000。",
+    "prerequisites": [
+      "math-1-compare",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-compare__population-compare"
+  },
+  {
+    "id": "bank-math-1-round-001",
+    "familyId": "math-1-round__fam-01",
+    "version": 1,
+    "text": "把 1286500 四舍五入到万位，千位上的 6 大于 5，要向万位进 1。万位上的 8 加上进位的 1 等于多少？",
+    "answer": "9",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 + 1 = 9",
+      "1286500 的万位上是 8，千位上的 6 比 5 大，尾数舍去后要向万位进 1，所以万位上的 8 加上 1 得 9。",
+      "答：等于 9。"
+    ],
+    "hint": "四舍五入的“进”就进在保留的那一位上，先找出保留位上是几。",
+    "alternative": "也可以把 1286500 看成 128 万多 6500，多出的部分超过半个万，要向万位进 1，128 万就变成 129 万。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-wan"
+  },
+  {
+    "id": "bank-math-1-round-002",
+    "familyId": "math-1-round__fam-02",
+    "version": 1,
+    "text": "把 7643218 四舍五入到万位，千位上的 3 比 5 小，舍去尾数后得 7640000。舍去的尾数是多少？",
+    "answer": "3218",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7643218 - 7640000 = 3218",
+      "万位后面的 3218 被舍去了，用原来的数减去舍去后剩下的数，就能求出尾数。",
+      "答：舍去的尾数是 3218。"
+    ],
+    "hint": "尾数就是被舍掉的那一部分，用原数减去四舍五入后得到的数。",
+    "alternative": "也可以想 7643218 由 764 万和 3218 个一组成，舍去后面 3218 个一，剩下的就是 764 万。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-wan"
+  },
+  {
+    "id": "bank-math-1-round-003",
+    "familyId": "math-1-round__fam-03",
+    "version": 1,
+    "text": "某工厂去年用水 1263500 吨，把用水量精确到万位，千位上的 3 比 5 小，舍去尾数后得 1260000 吨。舍去的尾数是多少吨？",
+    "answer": "3500",
+    "unit": "吨",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1263500 - 1260000 = 3500",
+      "精确到万位时万位后面的 3500 被舍去，用原来的用水量减去舍去后剩下的水量就是尾数。",
+      "答：舍去的尾数是 3500 吨。"
+    ],
+    "hint": "先想清楚舍去后剩下多少，再用原来的数减去它。",
+    "alternative": "也可以想 1263500 是 126 万多 3500 吨，精确到万位后多出的 3500 吨被舍去了。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-wan"
+  },
+  {
+    "id": "bank-math-1-round-004",
+    "familyId": "math-1-round__fam-04",
+    "version": 1,
+    "text": "某市图书馆藏书 4087500 册，把册数精确到万位，千位上的 7 大于 5，要向万位进 1，得 4090000 册。比原数多了多少册？",
+    "answer": "2500",
+    "unit": "册",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4090000 - 4087500 = 2500",
+      "四舍五入要向前进 1，近似数就比原数大，大多少正好是被舍去又补上的那部分。",
+      "答：比原数多了 2500 册。"
+    ],
+    "hint": "近似数比原数多出来的部分，就是进位补上的量，用近似数减原数。",
+    "alternative": "也可以想 4087500 比 4090000 少 2500，4090000 是四舍五入后的数，所以近似数多了 2500 册。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-wan"
+  },
+  {
+    "id": "bank-math-1-round-005",
+    "familyId": "math-1-round__fam-05",
+    "version": 1,
+    "text": "把 48230 四舍五入到百位，十位上的 3 比 5 小，舍去尾数后得 48200。舍去的尾数是多少？",
+    "answer": "30",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "48230 - 48200 = 30",
+      "百位后面的 30 被舍去了，用原来的数减去剩下的数就得到尾数。",
+      "答：舍去的尾数是 30。"
+    ],
+    "hint": "四舍五入到百位要看的，是十位上的数是几。",
+    "alternative": "也可以想 48230 是 482 个百多 30，精确到百位后多出的 30 被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-hundred"
+  },
+  {
+    "id": "bank-math-1-round-006",
+    "familyId": "math-1-round__fam-06",
+    "version": 1,
+    "text": "果园里共有 7340 棵苹果树，把棵数精确到百位，十位上的 4 比 5 小，舍去尾数后得 7300 棵。舍去的尾数是多少棵？",
+    "answer": "40",
+    "unit": "棵",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7340 - 7300 = 40",
+      "舍去的是十位和个位上的 40，用原来的棵数减去舍去后剩下的 7300 棵即可。",
+      "答：舍去的尾数是 40 棵。"
+    ],
+    "hint": "先找出多出来的部分，再用总数减去它。",
+    "alternative": "也可以想 7340 棵比 7300 棵多 40 棵，精确到百位时多出来的 40 棵被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-hundred"
+  },
+  {
+    "id": "bank-math-1-round-007",
+    "familyId": "math-1-round__fam-07",
+    "version": 1,
+    "text": "把 39750 四舍五入到百位，十位上的 7 大于 5，要向百位进 1。百位上的 9 加上进位的 1 等于多少？",
+    "answer": "10",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 + 1 = 10",
+      "39750 的百位上是 9，尾数舍去后要向百位进 1，百位上的 9 加 1 正好满十，说明这一位要写成 0，再向千位进 1。",
+      "答：等于 10。"
+    ],
+    "hint": "进位加满十的时候，本位要写成 0，还要再往前一位进 1。",
+    "alternative": "也可以想 39750 最接近的整百数是 40000，正好多出 50，这个多出来的部分就是进位带来的。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-hundred"
+  },
+  {
+    "id": "bank-math-1-round-008",
+    "familyId": "math-1-round__fam-08",
+    "version": 1,
+    "text": "把 78420 四舍五入到千位，百位上的 4 比 5 小，舍去尾数后得 78000。舍去的尾数是多少？",
+    "answer": "420",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "78420 - 78000 = 420",
+      "千位后面的 420 被舍去了，用原来的数减去四舍五入后得到的数就得到尾数。",
+      "答：舍去的尾数是 420。"
+    ],
+    "hint": "精确到千位要看百位上的数，舍去的就是百位以下的部分。",
+    "alternative": "也可以想 78420 是 78 个千多 420，精确到千位后多出的 420 被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-thousand-and-ten"
+  },
+  {
+    "id": "bank-math-1-round-009",
+    "familyId": "math-1-round__fam-09",
+    "version": 1,
+    "text": "把 7842 四舍五入到十位，个位上的 2 比 5 小，舍去尾数后得 7840。舍去的尾数是多少？",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7842 - 7840 = 2",
+      "精确到十位时被舍去的只有个位上的 2，用原来的数减去剩下的数就得 2。",
+      "答：舍去的尾数是 2。"
+    ],
+    "hint": "四舍五入到十位看个位，被舍掉的只会是个位上的数。",
+    "alternative": "也可以想 7842 比 7840 多 2，精确到十位时多出来的 2 被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-thousand-and-ten"
+  },
+  {
+    "id": "bank-math-1-round-010",
+    "familyId": "math-1-round__fam-10",
+    "version": 1,
+    "text": "把 4680 四舍五入到十位，个位上的 0 比 5 小，不用向前进位。这个数约是多少个十？（10 个一是 1 十）",
+    "answer": "468",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4680 ÷ 10 = 468",
+      "4680 的个位上是 0，比 5 小，不用进位，所以它本身就是 468 个十。",
+      "答：约是 468 个十。"
+    ],
+    "hint": "个位上是 0 时，四舍五入到十位这个数本身没有变化。",
+    "alternative": "也可以想 4680 ÷ 10 = 468，商就是十位上的数，说明尾数 0 被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-1-round__to-thousand-and-ten"
+  },
+  {
+    "id": "bank-math-1-round-011",
+    "familyId": "math-1-round__fam-11",
+    "version": 1,
+    "text": "某小学四年级有 4236 名学生，把人数精确到百位，十位上的 3 比 5 小，舍去尾数后得 4200 人。舍去的尾数是多少人？",
+    "answer": "36",
+    "unit": "人",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4236 - 4200 = 36",
+      "精确到百位时被舍去的是十位和个位上的 36 人，用原来的人数减去 4200 人即可。",
+      "答：舍去的尾数是 36 人。"
+    ],
+    "hint": "先确认十位上的数小于 5，再算出多出来的部分。",
+    "alternative": "也可以想 4236 人是 42 个百多 36 人，多出的 36 人被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__school-enrollment"
+  },
+  {
+    "id": "bank-math-1-round-012",
+    "familyId": "math-1-round__fam-12",
+    "version": 1,
+    "text": "学校图书馆藏书 42360 册，把册数精确到千位，百位上的 3 比 5 小，舍去尾数后得 42000 册。舍去的尾数是多少册？",
+    "answer": "360",
+    "unit": "册",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "42360 - 42000 = 360",
+      "精确到千位时百位以下的部分被舍去，用原来的册数减去舍去后剩下的册数。",
+      "答：舍去的尾数是 360 册。"
+    ],
+    "hint": "精确到千位就看百位上的数，尾数是被舍掉的那部分。",
+    "alternative": "也可以想 42360 册是 42 个千多 360 册，精确到千位后多出的 360 册被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__school-enrollment"
+  },
+  {
+    "id": "bank-math-1-round-013",
+    "familyId": "math-1-round__fam-13",
+    "version": 1,
+    "text": "某次研学的总费用是 382000 元，把总费用精确到万位，千位上的 2 比 5 小，舍去尾数后得 380000 元。舍去的尾数是多少元？",
+    "answer": "2000",
+    "unit": "元",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "382000 - 380000 = 2000",
+      "精确到万位时万位后面的 2000 元被舍去，用总费用减去舍去后的费用就是尾数。",
+      "答：舍去的尾数是 2000 元。"
+    ],
+    "hint": "先看千位上的数字定下舍还是进，再算被舍去的那部分有多少。",
+    "alternative": "也可以想 382000 元是 38 万多 2000 元，精确到万位后多出的 2000 元被舍去了。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__study-trip"
+  },
+  {
+    "id": "bank-math-1-round-014",
+    "familyId": "math-1-round__fam-14",
+    "version": 1,
+    "text": "从学校到博物馆有 12840 米，把路程精确到百米，十位上的 4 比 5 小，舍去尾数后得 12800 米。舍去的尾数是多少米？",
+    "answer": "40",
+    "unit": "米",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12840 - 12800 = 40",
+      "精确到百米时被舍去的是十位和个位上的 40 米，用原路程减去舍去后的路程。",
+      "答：舍去的尾数是 40 米。"
+    ],
+    "hint": "看看十位上的数是不是比 5 小，再算出多出来的部分。",
+    "alternative": "也可以想 12840 米比 12800 米多 40 米，精确到百米时这 40 米被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__study-trip"
+  },
+  {
+    "id": "bank-math-1-round-015",
+    "familyId": "math-1-round__fam-15",
+    "version": 1,
+    "text": "某农场一年出栏生猪 860400 头，把头数精确到万位，千位上的 4 比 5 小，舍去尾数后得 860000 头。舍去的尾数是多少头？",
+    "answer": "400",
+    "unit": "头",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "860400 - 860000 = 400",
+      "精确到万位时万位后面的 400 头被舍去，用出栏总数减去舍去后的头数。",
+      "答：舍去的尾数是 400 头。"
+    ],
+    "hint": "先判断千位上的数要不要进位，再算出被舍去的那部分。",
+    "alternative": "也可以想 860400 头是 86 万多 400 头，精确到万位后多出的 400 头被舍去了。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__farm"
+  },
+  {
+    "id": "bank-math-1-round-016",
+    "familyId": "math-1-round__fam-16",
+    "version": 1,
+    "text": "农场收购玉米 421250 千克，把重量精确到万位，千位上的 2 比 5 小，舍去尾数后得 420000 千克。舍去的尾数是多少千克？",
+    "answer": "1250",
+    "unit": "千克",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "421250 - 420000 = 1250",
+      "精确到万位时被舍去的是 1250 千克，用原来的重量减去舍去后的重量。",
+      "答：舍去的尾数是 1250 千克。"
+    ],
+    "hint": "千位上的数小于 5 就舍去，舍去的是万位后面的零头。",
+    "alternative": "也可以想 421250 千克是 42 万多 1250 千克，精确到万位后多出的 1250 千克被舍去了。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__farm"
+  },
+  {
+    "id": "bank-math-1-round-017",
+    "familyId": "math-1-round__fam-17",
+    "version": 1,
+    "text": "某品牌手机售价 321750 元，把价格精确到万位，千位上的 7 大于 5，要向万位进 1，得 330000 元。比原价多了多少元？",
+    "answer": "8250",
+    "unit": "元",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "330000 - 321750 = 8250",
+      "四舍五入要向前进 1，近似数就比原价大，用近似数减去原价求出多出的部分。",
+      "答：比原价多了 8250 元。"
+    ],
+    "hint": "进位的近似数一定比原数大，用大数减小数。",
+    "alternative": "也可以想 321750 元是 32 万多 1750 元，进位后变成 33 万，多出 10 万减 1750 元正好是 8250 元。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__shopping"
+  },
+  {
+    "id": "bank-math-1-round-018",
+    "familyId": "math-1-round__fam-18",
+    "version": 1,
+    "text": "某款商品原价 321400 元，把价格精确到千元，百位上的 4 比 5 小，舍去尾数后得 321000 元。舍去的尾数是多少元？",
+    "answer": "400",
+    "unit": "元",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "321400 - 321000 = 400",
+      "精确到千元时被舍去的是 400 元，用原价减去舍去后的价格即可。",
+      "答：舍去的尾数是 400 元。"
+    ],
+    "hint": "精确到千元看百位上的数，舍去的部分就是百位以下的零头。",
+    "alternative": "也可以想 321400 元是 321 个千多 400 元，精确到千元后多出的 400 元被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__shopping"
+  },
+  {
+    "id": "bank-math-1-round-019",
+    "familyId": "math-1-round__fam-19",
+    "version": 1,
+    "text": "某动车 3 小时行驶 1080000 米，把路程精确到万位，舍去尾数后得 1080000 米。这个数是多少个万？（1 万 = 10000）",
+    "answer": "108",
+    "unit": "万",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1080000 ÷ 10000 = 108",
+      "1080000 正好是 108 个万，没有需要四舍五入的零头，所以约数就是 108 万米。",
+      "答：约是 108 万米。"
+    ],
+    "hint": "先把路程换算成以万为单位的数，再看尾数要不要四舍五入。",
+    "alternative": "也可以想 1080000 米末尾的 0 都在万位上，万位上是 8，后面的尾数全是 0，所以约数就是 108 万米。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__train"
+  },
+  {
+    "id": "bank-math-1-round-020",
+    "familyId": "math-1-round__fam-20",
+    "version": 1,
+    "text": "某动车 3 小时行驶 1080000 米，它平均每小时行多少米？",
+    "answer": "360000",
+    "unit": "米",
+    "knowledgeId": "math-1-round",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1080000 ÷ 3 = 360000",
+      "求平均每小时行多少米，用总路程除以小时数。",
+      "答：平均每小时行 360000 米。"
+    ],
+    "hint": "先想 3 个多少正好是 1080000。",
+    "alternative": "也可以先去掉三个 0，变成 1080 ÷ 3 = 360，再把三个 0 补回去。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-1-round__train"
+  },
+  {
+    "id": "bank-math-1-round-021",
+    "familyId": "math-1-round__fam-21",
+    "version": 1,
+    "text": "某地年降水量的近似数是 124900 毫米，实测值是 124850 毫米。近似数比实测值多了多少毫米？",
+    "answer": "50",
+    "unit": "毫米",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "124900 - 124850 = 50",
+      "124850 的十位上是 5，四舍五入到百位要向前进 1，所以它的近似数正是 124900，近似数比实测值多 50。",
+      "答：近似数比实测值多了 50 毫米。"
+    ],
+    "hint": "先判断实测值四舍五入到百位会得到哪个近似数，再求两者的差。",
+    "alternative": "也可以想 124850 到 124900 相差 50，说明进位时多加了 50，这个 50 就是近似数与实测值的差。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__rounding-error"
+  },
+  {
+    "id": "bank-math-1-round-022",
+    "familyId": "math-1-round__fam-22",
+    "version": 1,
+    "text": "小明估计从家到学校大约 800 米，实际走了 780 米。实际路程比估计值少多少米？",
+    "answer": "20",
+    "unit": "米",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "800 - 780 = 20",
+      "估计值 800 米是精确到百米的近似数，实际 780 米比它少 20 米。",
+      "答：实际路程比估计值少 20 米。"
+    ],
+    "hint": "估计值是取整过的数，和实际数相比就能看出差多少。",
+    "alternative": "也可以想 780 米四舍五入到百位正好是 800 米，进位时多加了 20，所以相差 20 米。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__estimate-vs-actual"
+  },
+  {
+    "id": "bank-math-1-round-023",
+    "familyId": "math-1-round__fam-23",
+    "version": 1,
+    "text": "一间教室的面积约 60 平方米，一栋教学楼有 24 间教室，建筑面积大约是多少平方米？",
+    "answer": "1440",
+    "unit": "平方米",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60 × 24 = 1440",
+      "每间教室的面积相同，24 间教室就是 24 个 60，用乘法计算，再看结果是否需要取整。",
+      "答：建筑面积大约是 1440 平方米。"
+    ],
+    "hint": "先算 24 个 60 是多少，再判断这个数是否接近整十、整百。",
+    "alternative": "也可以先算 60 × 20 = 1200，再加 60 × 4 = 240，合起来 1440 平方米。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__scale-estimate"
+  },
+  {
+    "id": "bank-math-1-round-024",
+    "familyId": "math-1-round__fam-24",
+    "version": 1,
+    "text": "某单位报表上写着“本年收入约 12000000 元”，实际收入是 11980000 元。报表上的近似数比实际收入多了多少元？",
+    "answer": "20000",
+    "unit": "元",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12000000 - 11980000 = 20000",
+      "11980000 的万位上是 9，比 5 大，四舍五入到万位要向千万位进 1，它的近似数正是 12000000。",
+      "答：报表上的近似数比实际收入多了 20000 元。"
+    ],
+    "hint": "先验证实际收入四舍五入到万位是不是报表上写的那个数，再求差。",
+    "alternative": "也可以先算 12000000 - 11980000 = 20000，说明进位到千万位时多加了 20000，这个差就是近似数多出来的部分。",
+    "prerequisites": [
+      "math-1-round",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__data-report"
+  },
+  {
+    "id": "bank-math-1-round-025",
+    "familyId": "math-1-round__fam-25",
+    "version": 1,
+    "text": "用米尺测得一棵小树高 2850 毫米，把高度精确到十位，个位上的 0 比 5 小，舍去尾数后得 2850 毫米。这个数约是多少个十？（10 个一是 1 十）",
+    "answer": "285",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2850 ÷ 10 = 285",
+      "2850 的个位上是 0，精确到十位时尾数 0 被舍去，这个数就是 285 个十，也就是 2850 毫米。",
+      "答：约是 285 个十。"
+    ],
+    "hint": "个位上是 0 时，精确到十位后这个数本身没有变，除以 10 就是十位上的数。",
+    "alternative": "也可以想 2850 毫米正好是 285 个十，精确到十位后还是 2850 毫米。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__measurement-precision"
+  },
+  {
+    "id": "bank-math-1-round-026",
+    "familyId": "math-1-round__fam-26",
+    "version": 1,
+    "text": "把 3987 四舍五入到十位，个位上的 7 大于 5，要向十位进 1。十位上的 8 加上进位的 1 等于多少？",
+    "answer": "9",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 + 1 = 9",
+      "3987 的十位上是 8，个位上的 7 比 5 大，尾数舍去后要向十位进 1，十位上的 8 加上 1 得 9。",
+      "答：等于 9。"
+    ],
+    "hint": "先找出保留的那一位上是几，再加上进位的 1。",
+    "alternative": "也可以想 3987 比 3990 少 3，最接近的整十数是 3990，说明十位上加了 1。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__carry-case-ten"
+  },
+  {
+    "id": "bank-math-1-round-027",
+    "familyId": "math-1-round__fam-27",
+    "version": 1,
+    "text": "某数是 78560，精确到百位的近似数是 78600，精确到万位的近似数是 80000。两个近似数相差多少？",
+    "answer": "1400",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "80000 - 78600 = 1400",
+      "同一个数保留的位数不同，近似数的大小也不一样：保留到万位比保留到百位更“粗”，两个近似数相差 1400。",
+      "答：两个近似数相差 1400。"
+    ],
+    "hint": "先分别把两个近似数写出来，再用大数减小数。",
+    "alternative": "也可以先算 80000 - 78000 = 2000，再减去 78600 - 78000 = 600，得 1400。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__compare-approximates"
+  },
+  {
+    "id": "bank-math-1-round-028",
+    "familyId": "math-1-round__fam-28",
+    "version": 1,
+    "text": "某笔货款 86420 元，精确到百元，十位上的 2 比 5 小，舍去尾数后得 86400 元。舍去的尾数是多少元？",
+    "answer": "20",
+    "unit": "元",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "86420 - 86400 = 20",
+      "精确到百元时被舍去的是十位和个位上的 20 元，用货款减去舍去后的货款。",
+      "答：舍去的尾数是 20 元。"
+    ],
+    "hint": "精确到百元看十位上的数，被舍掉的零头就是尾数。",
+    "alternative": "也可以想 86420 元比 86400 元多 20 元，精确到百元时多出来的 20 元被舍去了。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__currency-approx"
+  },
+  {
+    "id": "bank-math-1-round-029",
+    "familyId": "math-1-round__fam-29",
+    "version": 1,
+    "text": "某县在宣传册上写“人口约 420000 人”，实际人口是 418500 人，宣传册上的数比实际人口多多少人？",
+    "answer": "1500",
+    "unit": "人",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "420000 - 418500 = 1500",
+      "418500 的千位上是 5，四舍五入到万位要向十万位进 1，它的近似数正是 420000。",
+      "答：宣传册上的数比实际人口多 1500 人。"
+    ],
+    "hint": "先判断实际人口取近似数时进位到了哪里，再求两者相差多少。",
+    "alternative": "也可以先算 420000 - 400000 = 20000，再减去 18500，得 1500。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__population-report"
+  },
+  {
+    "id": "bank-math-1-round-030",
+    "familyId": "math-1-round__fam-30",
+    "version": 1,
+    "text": "把 99950 四舍五入到百位，千位上的 9 大于 5，要向百位进 1。百位上的 9 加上进位的 1 等于多少？",
+    "answer": "10",
+    "unit": "",
+    "knowledgeId": "math-1-round",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 + 1 = 10",
+      "99950 的百位上是 9，尾数舍去后要向百位进 1，百位上的 9 加 1 正好满十，说明这一位写成 0，再向千位进 1。",
+      "答：等于 10。"
+    ],
+    "hint": "进位加满十的时候，本位要写成 0，别忘了再往前一位进 1。",
+    "alternative": "也可以想 99950 最接近的整百数是 100000，正好多出 50，这个多出来的部分就是进位带来的。",
+    "prerequisites": [
+      "math-1-round"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-1-round__carry-case-hundred"
+  }
+]

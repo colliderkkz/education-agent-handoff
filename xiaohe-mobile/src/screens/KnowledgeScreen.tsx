@@ -3,16 +3,17 @@ import { router, usePreventRemove } from 'expo-router';
 import { Alert, Text, View } from 'react-native';
 import { Screen } from '../components/Screen';
 import { Badge, Button, Card } from '../components/ui';
-import { errorMessage, learningStyles as ls, LoadingPanel, Notice } from '../components/learning/LearnUI';
+import { Chip, errorMessage, learningStyles as ls, LoadingPanel, Notice } from '../components/learning/LearnUI';
 import { assessmentLabel, AssessmentConditions, MasteryHistory } from '../components/learning/MasteryHistory';
 import { MasteryLegend, masteryLevelNames } from '../components/learning/MasteryLegend';
+import { stageLabel, stageOptions, stageOf } from '../components/learning/stage';
 import { useLearning } from '../context/LearningContext';
 import { effectiveEvidence, evidenceLink } from '../components/learning/evidenceView';
 import type { KnowledgeId } from '../local/types';
 import { styles } from '../theme';
 
 export default function KnowledgeScreen() {
-  const { state, error, reload, act, busy } = useLearning();
+  const { state, error, reload, act, busy, stage, setStage } = useLearning();
   const [expanded, setExpanded] = useState<string | null>(null), [reassessing, setReassessing] = useState<KnowledgeId | null>(null);
   const [actionError, setActionError] = useState(''), [notice, setNotice] = useState('');
   const operation = useRef(false);
@@ -27,11 +28,14 @@ export default function KnowledgeScreen() {
     catch (cause) { setActionError(errorMessage(cause)); }
     finally { operation.current = false; setReassessing(null); }
   };
-  return <Screen><View><Text style={styles.eyebrow}>本机试用 · 知识地图</Text><Text style={styles.title}>理解多少，{ '\n' }依据说得清。</Text><Text style={styles.subtitle}>{state.profile.grade} · {state.profile.course} · {state.profile.textbook}</Text></View>
+  const visible = state.knowledge.filter(item => stageOf(item.id) === stage);
+  return <Screen><View><Text style={styles.eyebrow}>本机试用 · 知识地图</Text><Text style={styles.title}>理解多少，{ '\n' }依据说得清。</Text><Text style={styles.subtitle}>{stageLabel(stage)} · {state.profile.course}</Text></View>
+    <View style={ls.wrap}>{stageOptions.map(option => <Chip key={option.id} text={option.label} selected={stage === option.id} onPress={() => setStage(option.id)} />)}</View>
+    {visible.length === 0 && <Notice text={`本机还没有${stageLabel(stage)}的知识点。可以先在「内容包」里导入对应内容包，再回到这里练习。`} />}
     <MasteryLegend />
     {activeRule ? <Notice text={`当前启用：${activeRule.name} · v${activeRule.version}。规则处于试用、教学验证尚未完成；达到星级只表示满足该版本的记录条件。`} /> : <Notice text="当前规则尚未准备完成，已有作答与历史结果仍保留。可以重读本机记录后再评估。" />}
     {!!(actionError || error) && <View style={ls.section}><Notice text={actionError || error!} error /><Button label="重读本机记录" secondary disabled={busy || !!reassessing} onPress={() => { void reload().then(() => setActionError('')).catch(cause => setActionError(errorMessage(cause))); }} /></View>}{!!notice && <Notice text={notice} />}
-    {state.knowledge.map(item => {
+    {visible.map(item => {
       const history = (state.mastery?.assessments || []).filter(assessment => assessment.knowledgeId === item.id).reverse();
       const current = history.find(assessment => assessment.id === item.assessmentId) || history[0];
       const evidence = currentEvidence.filter(record => record.knowledgeId === item.id);
