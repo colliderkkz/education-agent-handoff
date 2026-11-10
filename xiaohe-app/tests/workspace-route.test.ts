@@ -60,6 +60,7 @@ function fixture() {
     "../../chatgpt-auth": { getChatGPTUser: async () => authenticated },
     "../../../lib/server/domain": domain,
     "../../../lib/server/http": http,
+    "../../../lib/content-bank": { loadContentBank: () => ({ version: "test", digest: "", questions: [] }) },
     "../../../lib/server/access-policy": { projectWorkspace },
     "../../../lib/server/history-file-gc": { retryHistoryFiles: async (actor: ChatGPTUser, access: AccessContext) => { if (!["owner", "student"].includes(access.role)) throw new domain.DomainError("无权清理", 403); return { state: await read(actor, access), pendingUploads: 0 }; } },
     "../../../lib/server/memberships": { resolveAccess: async (user: ChatGPTUser, id?: string) => {
