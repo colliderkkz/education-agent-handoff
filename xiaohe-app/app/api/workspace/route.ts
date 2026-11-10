@@ -1,5 +1,6 @@
 import { getChatGPTUser } from "../../chatgpt-auth";
 import { applyAction, DomainError } from "../../../lib/server/domain";
+import { loadContentBank } from "../../../lib/content-bank";
 import { changeWorkspace, readWorkspace } from "../../../lib/server/store";
 import { assertSameOrigin, errorResponse, json, readLimitedBody, requestWorkspaceId } from "../../../lib/server/http";
 import { resolveAccess } from "../../../lib/server/memberships";
@@ -33,7 +34,7 @@ export async function POST(request: Request): Promise<Response> {
       const pending = state.historyDeletion?.fileTasks.filter(task => task.status === "pending").length ?? 0;
       return json({ state: projectWorkspace(state, access.role), result: { pendingUploads, message: pending || pendingUploads ? `已撤销图片访问，仍有 ${pending + pendingUploads} 个文件等待回收，可重试` : "已处理所选图片和当前可确认归属的暂存上传" } });
     }
-    const result = await changeWorkspace(user, state => applyAction(state, command, { ...user, role: access.role }), access);
+    const result = await changeWorkspace(user, state => applyAction(state, command, { ...user, role: access.role, bank: loadContentBank() }), access);
     if (command.action === "history.delete.confirm") {
       const { state, pendingUploads } = await retryHistoryFiles(user, access);
       const pending = state.historyDeletion?.fileTasks.filter(task => task.status === "pending").length ?? 0;

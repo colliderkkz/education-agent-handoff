@@ -1,10 +1,10 @@
-// Generated from xiaohe-app/lib/seed.ts; SHA-256: 8b81a4327f360ab87494c55cdab09e82cb4868a1e8dcb856bfe431a5e2d89d49
+// Generated from xiaohe-app/lib/seed.ts; SHA-256: 00ed22bf52230f5e7877cbd005a94458e7427289a2b04649d92f949fa3ad94fe
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
-import type { Question, KnowledgeId, WorkspaceState, Evidence, Paper, Attempt } from "./types";
+import type { Question, LegacyKnowledgeId, WorkspaceState, Evidence, Paper, Attempt } from "./types";
 
 const seedDate = "2026-10-01T08:00:00.000Z";
 type Item = [string, string, string, string, string, string];
-const content: Record<KnowledgeId, Item[]> = {
+const content: Record<LegacyKnowledgeId, Item[]> = {
   division: [
     ["图书角新买了 168 本书，平均分给 12 个小组，每组分到多少本？", "14", "本", "先想 12 乘几等于 168。", "168 ÷ 12 = 14。", "把 168 拆成 120 和 48，分别除以 12，10 + 4 = 14。"],
     ["一盒彩笔有 24 支。288 支彩笔可以装满多少盒？", "12", "盒", "用彩笔总数除以每盒的支数。", "288 ÷ 24 = 12。", "24 × 10 = 240，还剩 48 支，可再装 2 盒，共 12 盒。"],
@@ -45,14 +45,14 @@ const content: Record<KnowledgeId, Item[]> = {
 
 // Versioned local-trial teaching annotations, not a claim of validated curriculum
 // coverage. Existing paper/evidence snapshots never inherit these new fields.
-const taskMetadata: Record<KnowledgeId, [NonNullable<Question["taskType"]>, string][]> = {
+const taskMetadata: Record<LegacyKnowledgeId, [NonNullable<Question["taskType"]>, string][]> = {
   division: [["basic", "equal-sharing"], ["basic", "packing-groups"], ["basic", "array-arrangement"], ["application", "transport-trips"], ["application", "equal-sharing"], ["application", "average-production"], ["application", "length-segmentation"], ["application", "weight-packing"], ["transfer", "reserve-then-share"], ["transfer", "equal-budget-exchange"]],
   geometry: [["basic", "rectangle-perimeter"], ["basic", "rectangle-area"], ["basic", "square-perimeter"], ["application", "square-area"], ["application", "inverse-perimeter"], ["application", "perimeter-to-area"], ["application", "area-change"], ["application", "inverse-area"], ["transfer", "same-area-different-boundary"], ["transfer", "fixed-perimeter-reshape"]],
   multiplication: [["basic", "purchase-total"], ["basic", "equal-groups-total"], ["basic", "book-set-total"], ["application", "distance-from-rate"], ["application", "purchase-total"], ["application", "purchase-total"], ["application", "shelf-capacity"], ["application", "production-from-rate"], ["transfer", "total-price-discount"], ["transfer", "mixed-purchase-budget"]],
 };
 
 export function seedQuestions(): Question[] {
-  return (Object.entries(content) as [KnowledgeId, Item[]][]).flatMap(([knowledgeId, items]) => items.map((item, i) => ({
+  return (Object.entries(content) as [LegacyKnowledgeId, Item[]][]).flatMap(([knowledgeId, items]) => items.map((item, i) => ({
     id: `seed-${knowledgeId}-${i + 1}`, familyId: `family-${knowledgeId}-${i + 1}`, version: 2,
     taskType: taskMetadata[knowledgeId][i][0], contextId: taskMetadata[knowledgeId][i][1],
     text: item[0], answer: item[1], unit: item[2], knowledgeId,

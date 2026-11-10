@@ -1,14 +1,39 @@
-// Generated from xiaohe-app/lib/server/content.ts; SHA-256: 3e46b645cade7eeed849382aa5cf3459fa7761ece11a3ae55e45350e838bda0b
+// Generated from xiaohe-app/lib/server/content.ts; SHA-256: 823fb9ea55a1fdbbbe5d4e7dc92d544fc5f5954409dc97144b9634e77a62fabe
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
-import type { ApiResult, ContentBatch, ContentCatalogEntry, ContentPackage, ContentPointer, ContentPreview, ContentState, ContentVersion, Question, QuestionStatus, WorkspaceState } from '../types.ts';
+import { allowedGrades, allKnowledgeIds, mergedQuestions, stageOfKnowledge, subjectIds, subjectNames, subjectOfKnowledge, type ApiResult, type ContentBank, type ContentBatch, type ContentCatalogEntry, type ContentPackage, type ContentPointer, type ContentPreview, type ContentState, type ContentVersion, type KnowledgeId, type Question, type QuestionStatus, type StageId, type SubjectId, type WorkspaceState } from '../types.ts';
 import { DomainError } from './domain-error.ts';
+import { curriculumCatalog } from '../curriculum-catalog.ts';
+import { shanghaiCatalog } from '../curriculum-catalog-shanghai.ts';
+
+/**
+ * 当前生效规则的标签，与 server/mastery.ts 的 activeRuleLabel 保持一致。
+ *
+ * 这里单独实现而不是从 mastery.ts 引入：mastery.ts 依赖 effective-evidence.ts，
+ * 而 effective-evidence.ts 又从本文件取 sha256 —— 直接引入会形成
+ * content → mastery → effective-evidence → content 的循环导入。
+ */
+function activeRuleLabel(state: WorkspaceState): string {
+  const active = state.mastery?.rules.find(rule => rule.id === state.mastery?.activeRuleId);
+  return active ? (active.mode === "legacy-pilot" ? "pilot-v2-max3" : `${active.id}/v${active.version}`) : "pilot-v2-max3";
+}
+
+/** 知识点目录里的名称与说明（小学四年级 + 上海初高中）。 */
+function catalogPointById(knowledgeId: string): { name: string; description: string } | undefined {
+  for (const subject of [...curriculumCatalog, ...shanghaiCatalog]) {
+    for (const unit of subject.units) {
+      const point = unit.points.find(item => item.id === knowledgeId);
+      if (point) return { name: point.name, description: point.description };
+    }
+  }
+  return undefined;
+}
 
 export const MAX_CONTENT_PACKAGE_BYTES = 500 * 1024;
 export const MAX_CONTENT_PACKAGE_ITEMS = 200;
 const TRUST_WARNING = '本地试用内容包未签名；作者与审核标识原样保留，身份和教学有效性未经核验。';
 const statuses: QuestionStatus[] = ['draft', 'review', 'approved', 'published', 'disabled'];
-const questionKeys = ['id', 'familyId', 'version', 'text', 'answer', 'unit', 'knowledgeId', 'difficulty', 'source', 'sourceScope', 'steps', 'hint', 'alternative', 'prerequisites', 'status', 'authorId', 'reviewerId', 'reviewNote', 'createdAt', 'taskType', 'contextId'];
+const questionKeys = ['id', 'familyId', 'version', 'text', 'answer', 'unit', 'knowledgeId', 'difficulty', 'source', 'sourceScope', 'steps', 'hint', 'alternative', 'prerequisites', 'status', 'authorId', 'reviewerId', 'reviewNote', 'createdAt', 'taskType', 'contextId', 'image', 'examRef'];
 const fail = (message: string, status = 400): never => { throw new DomainError(message, status); };
 function check(ok: unknown, message: string): asserts ok { if (!ok) fail(message); }
 const object = (value: unknown, label: string): Record<string, unknown> => {
@@ -113,7 +138,10 @@ function validateQuestion(value: unknown, published = false): asserts value is Q
   exactKeys(q, questionKeys, label);
   check(identifier(q.id) && identifier(q.familyId) && positive(q.version), `${label} 的 ID、题族或版本无效`);
   for (const [key, max, empty] of [['text',2000,false],['answer',300,false],['unit',30,true],['source',300,false],['sourceScope',300,!published],['hint',1000,false],['alternative',2000,true],['authorId',150,false]] as const) check(bounded(q[key], max, empty), `${label} 的 ${key} 缺失或超限`);
-  check(['division','geometry','multiplication'].includes(String(q.knowledgeId)) && ['基础','巩固','挑战'].includes(String(q.difficulty)) && statuses.includes(q.status as QuestionStatus) && date(q.createdAt), `${label} 的课程、难度、状态或时间无效`);
+  // 配图是可选字段；放在长度数组外校验，否则没有配图的存量题目会被误判为无效。
+  if (q.image !== undefined) check(bounded(q.image, 300), `${label} 的配图路径缺失或超限`);
+  if (q.examRef !== undefined) { const ref = q.examRef as Record<string, unknown>; check(typeof ref === "object" && ref !== null && !Array.isArray(ref), `${label} 的考点对应格式不正确`); check(Object.keys(ref).every(key => ["topicKey", "label", "sourceUrl", "sourceTier", "sourceTitle"].includes(key)), `${label} 的考点对应含有未知字段`); check(bounded(String(ref.topicKey ?? ""), 60) && bounded(String(ref.label ?? ""), 200) && bounded(String(ref.sourceUrl ?? ""), 300) && bounded(String(ref.sourceTitle ?? ""), 200), `${label} 的考点对应字段缺失或超限`); check(["official-commentary", "official-policy", "third-party"].includes(String(ref.sourceTier)), `${label} 的考点对应来源分级无效`); }
+  check((allKnowledgeIds as readonly string[]).includes(String(q.knowledgeId)) && ['基础','巩固','挑战'].includes(String(q.difficulty)) && statuses.includes(q.status as QuestionStatus) && date(q.createdAt), `${label} 的课程、难度、状态或时间无效`);
   for (const key of ['steps','prerequisites']) check(Array.isArray(q[key]) && (q[key] as unknown[]).length <= 20 && (q[key] as unknown[]).every(v => bounded(v,1500)) && (key !== 'steps' || (q[key] as unknown[]).length > 0), `${label} 的 ${key} 无效`);
   check(q.reviewerId === undefined || bounded(q.reviewerId,150), `${label} 的审核标识无效`);
   check(q.reviewNote === undefined || bounded(q.reviewNote,2000,true), `${label} 的审核说明无效`);
@@ -135,8 +163,13 @@ function parsePackage(input: unknown, op: ContentOperation): ContentPackage {
   exactKeys(p, ['schemaVersion','kind','trust','teachingValidation','packageId','publisherId','createdAt','courseScope','items','withdrawals','digest'], '内容包');
   check(p.schemaVersion === 1 && p.kind === 'xiaohe-content' && p.trust === 'unsigned' && p.teachingValidation === 'unvalidated-trial', '不支持的内容包版本、信任类型或教学验证声明');
   check(identifier(p.packageId) && identifier(p.publisherId) && date(p.createdAt), '内容包 ID、发行标识或时间无效');
-  const scope = object(p.courseScope, '课程范围'); exactKeys(scope,['grade','course'],'课程范围');
-  check(scope.grade === '四年级' && scope.course === '数学', '只支持四年级数学内容包');
+  const scope = object(p.courseScope, '课程范围'); exactKeys(scope,['grade','course','subjects'],'课程范围');
+  // course 保持中文科目名（与既有内容包一致），subjects 用教材目录的学科 id。
+  const scopeCourseId = subjectIds.find(id => subjectNames[id] === String(scope.course));
+  check(allowedGrades.includes(String(scope.grade)) && scopeCourseId, '内容包须声明受支持的年级与学科');
+  // subjects 是可选键：缺省时视为只含 course，老内容包不需要改动即可继续解析。
+  const scopeSubjects = scope.subjects === undefined ? [scopeCourseId] : (Array.isArray(scope.subjects) ? scope.subjects.map(String) : null);
+  check(scopeSubjects !== null && scopeSubjects.length > 0 && scopeSubjects.every(s => subjectIds.includes(s as SubjectId)), '内容包学科范围无效');
   check(Array.isArray(p.items) && Array.isArray(p.withdrawals) && p.items.length + p.withdrawals.length > 0 && p.items.length + p.withdrawals.length <= MAX_CONTENT_PACKAGE_ITEMS, '内容包须包含 1—200 项题目或撤回');
   const ids = new Set<string>(), fingerprints = new Map<string, string>(), shapes = new Map<string, string>();
   for (const item of p.items) {
@@ -190,7 +223,7 @@ export function recordQuestionVersion(state: WorkspaceState, q: Question): void 
 const pointer = (q: Question | undefined, op: ContentOperation): ContentPointer | null => q ? {versionId:versionId(q,op),status:q.status} : null;
 const samePointer = (a: ContentPointer|null, b: ContentPointer|null) => a?.versionId === b?.versionId && a?.status === b?.status;
 const summary = (q: Question, op: ContentOperation): ContentCatalogEntry => ({questionId:q.id,familyId:q.familyId,version:q.version,knowledgeId:q.knowledgeId,status:q.status,...(q.taskType?{taskType:q.taskType}:{}),digest:op.identity(q).digest});
-export function contentCatalog(state: WorkspaceState): ContentCatalogEntry[] { const op = new ContentOperation(); return state.questions.map(q => summary(q,op)); }
+export function contentCatalog(state: WorkspaceState, bank?: ContentBank): ContentCatalogEntry[] { const op = new ContentOperation(); return mergedQuestions(state, bank).map(q => summary(q,op)); }
 function compatible(index: ReturnType<typeof archiveIndex>, q: Question, op: ContentOperation): void {
   const known = index.byQuestion.get(q.id) || [], identity = op.identity(q);
   check(known.every(v => v.question.familyId === q.familyId), `题目 ${q.id} 不能更换已登记题族`);
@@ -261,6 +294,19 @@ export function applyContentPackage(current: WorkspaceState, input: unknown, bin
     const q = state.questions.find(item => item.id === w.questionId)!; const before = pointer(q,op); q.status = 'disabled';
     const after = pointer(q,op); if (!samePointer(before,after)) batch.changes.push({questionId:q.id,before,after});
   }
+  // 内容包带来的知识点，在学习空间里建立条目 ——
+  // 否则题目进了题库却没有可练的知识点（组卷只认已解锁的知识点）。
+  const ruleLabel = activeRuleLabel(state);
+  for (const knowledgeId of new Set(pack.items.map(item => item.knowledgeId))) {
+    if (state.knowledge.some(knowledge => knowledge.id === knowledgeId)) continue;
+    const point = catalogPointById(knowledgeId);
+    state.knowledge.push({
+      id: knowledgeId as KnowledgeId, name: point?.name ?? knowledgeId, description: point?.description ?? '随内容包加入的知识点',
+      learningState: 'current', stars: null, evidenceIds: [],
+      reason: `随内容包加入学习范围，尚无本规则下的独立新题证据。${ruleLabel}`,
+      ruleVersion: ruleLabel, assessmentState: 'insufficient',
+    });
+  }
   content.batches.push(batch); audit(state,'content.apply',JSON.stringify({packageId:pack.packageId,batchId,digest:pack.digest}),ctx); state.revision++;
   validateContentWithOperation(state,op);
   return {state,result:{id:batchId,preview,message:`内容包已应用。${TRUST_WARNING}`}};
@@ -288,14 +334,27 @@ export function rollbackContentBatch(current: WorkspaceState, batchId: string, e
   validateContentWithOperation(state,op);
   return {state,result:{id:batchId,message:'已回退题库可用版本；历史原卷、作答与已见题族记录保持保留。'}};
 }
-export function exportContentPackage(state: WorkspaceState, options: {packageId:string;publisherId:string;createdAt:string;questionIds?:string[];withdrawals?:string[]}): ContentPackage {
-  check(state.profile.grade === '四年级' && state.profile.course === '数学','只支持从四年级数学档案导出内容包，请先核对课程范围');
+export function exportContentPackage(state: WorkspaceState, options: {packageId:string;publisherId:string;createdAt:string;questionIds?:string[];withdrawals?:string[];bank?:ContentBank;grade?:string}): ContentPackage {
+  check(allowedGrades.includes(String(state.profile.grade)),'档案年级不在支持的范围内，请先核对课程范围');
+  // 静态库题也可被显式导出；默认集仍只取工作区已发布题，避免默认导出超过内容包条目上限。
+  const pool = mergedQuestions(state, options.bank);
   const requested = options.questionIds ?? state.questions.filter(q => q.status === 'published').map(q => q.id);
   check(Array.isArray(requested) && new Set(requested).size === requested.length,'导出题号重复或无效');
-  const items = requested.map(id => { const q = state.questions.find(q => q.id === id); check(q,`导出题目不存在：${id}`); validateQuestion(q,true); return structuredClone(q); });
+  const items = requested.map(id => { const q = pool.find(q => q.id === id); check(q,`导出题目不存在：${id}`); validateQuestion(q,true); return structuredClone(q); });
   check(options.withdrawals === undefined || Array.isArray(options.withdrawals),'撤回题号须为数组');
   const withdrawals = (options.withdrawals ?? []).map(id => { const q = state.questions.find(q => q.id === id); check(q && q.status === 'disabled',`撤回导出仅接受当前已停用题目：${id}`); return {questionId:q.id,familyId:q.familyId,version:q.version}; });
-  const pack: ContentPackage = {schemaVersion:1,kind:'xiaohe-content',trust:'unsigned',teachingValidation:'unvalidated-trial',packageId:options.packageId,publisherId:options.publisherId,createdAt:options.createdAt,courseScope:{grade:'四年级',course:'数学'},items,withdrawals,digest:''};
+  // 课程范围绑定「被导出的内容」，而不是档案的主科字符串：
+  // 导出的题目属于哪个学科就声明哪个学科，属于哪个学段就声明那个学段的年级。
+  const subjects = [...new Set(items.map(q => subjectOfKnowledge(q.knowledgeId)).filter((id): id is SubjectId => Boolean(id)))];
+  const stages = [...new Set(items.map(q => stageOfKnowledge(q.knowledgeId)))];
+  check(stages.length <= 1,'一个内容包不能跨学段导出，请按学段分别导出');
+  const stageGrades: Record<StageId, string> = { primary: '四年级', junior: '九年级', senior: '高三' };
+  const courseScope: ContentPackage["courseScope"] = {
+    grade: options.grade ?? (stages.length === 1 ? stageGrades[stages[0]] : state.profile.grade),
+    course: subjects.length ? subjectNames[subjects[0]] : state.profile.course,
+    ...(subjects.length > 1 ? { subjects } : {}),
+  };
+  const pack: ContentPackage = {schemaVersion:1,kind:'xiaohe-content',trust:'unsigned',teachingValidation:'unvalidated-trial',packageId:options.packageId,publisherId:options.publisherId,createdAt:options.createdAt,courseScope,items,withdrawals,digest:''};
   pack.digest = packageDigest(pack); return parseContentPackage(pack);
 }
 

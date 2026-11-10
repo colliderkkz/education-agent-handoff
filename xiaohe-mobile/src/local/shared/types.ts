@@ -1,10 +1,117 @@
-// Generated from xiaohe-app/lib/types.ts; SHA-256: 8901785936f54a7c575c963212e3d32b30f673c7f5e97c051fa60b1fafbf64f6
+// Generated from xiaohe-app/lib/types.ts; SHA-256: 53dad985df2beae91d2c6f3eeb75c986faaf62bc6db54b29d09ab099902611a9
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
+import type { MistakeCause } from "./mistake-causes.ts";
 export type Role = "owner" | "editor" | "reviewer" | "student" | "parent" | "teacher";
 export type HelpLevel = "independent" | "hint" | "explanation" | "unknown";
-export type KnowledgeId = "division" | "geometry" | "multiplication";
+/**
+ * 教材目录里的知识点 id。
+ * 这些 id 同时是正式题库的 knowledgeId —— 目录与题库共用一套标识，
+ * 避免再维护一张映射表。
+ *
+ * id 格式：`<学科>-<学段标记>-<单元>-<知识点>`。
+ * 小学没有学段标记（`math-1-place`）；初中用 `j`、高中用 `s`（`math-j-1-real`）。
+ * 学科永远取第一段、学段取第二段 —— 这样加学段不必改学科判定逻辑。
+ */
+const primaryKnowledgeIds = [
+  "chinese-1-imagery", "chinese-1-order", "chinese-1-write",
+  "chinese-2-question", "chinese-2-evidence", "chinese-2-science",
+  "chinese-3-observe", "chinese-3-diary",
+  "chinese-4-plot", "chinese-4-character", "chinese-4-retell",
+  "chinese-5-sequence", "chinese-5-details",
+  "chinese-6-feelings", "chinese-6-narrative",
+  "chinese-7-event", "chinese-7-context",
+  "chinese-8-brief", "chinese-8-classical",
+  "math-1-place", "math-1-billion", "math-1-compare", "math-1-round",
+  "math-2-angle", "math-2-measure",
+  "math-3-mental", "math-3-written", "math-3-pattern",
+  "math-4-add", "math-4-multiply", "math-4-apply",
+  "math-5-lines", "math-5-quads", "math-5-mobius", "math-5-review",
+  "math-6-single", "math-6-double", "math-6-project",
+  "math-7-organize", "math-7-apply", "math-7-rabbits",
+  "english-1-listen", "english-1-talk", "english-1-read",
+  "english-2-describe", "english-2-dialogue",
+  "english-3-place", "english-3-question",
+  "english-4-actions", "english-4-talk",
+  "english-5-weather", "english-5-plan",
+  "english-6-seasons", "english-6-actions",
+  "english-review-read", "english-review-plan", "english-review-write",
+] as const;
+/** 上海初中数学知识点（按中考考纲分单元）。 */
+const juniorKnowledgeIds = [
+  "math-j-1-real", "math-j-1-radical", "math-j-1-poly", "math-j-1-factor",
+  "math-j-1-fraction", "math-j-1-linear-eq", "math-j-1-inequality", "math-j-1-quadratic-eq",
+  "math-j-2-function", "math-j-2-linear", "math-j-2-quadratic", "math-j-2-inverse",
+  "math-j-2-graph", "math-j-2-application",
+  "math-j-3-angle", "math-j-3-parallel", "math-j-3-triangle", "math-j-3-quadrilateral",
+  "math-j-3-circle", "math-j-3-acute-right", "math-j-3-similar", "math-j-3-proportion",
+  "math-j-3-coordinates", "math-j-3-transformation",
+  "math-j-4-statistics", "math-j-4-probability", "math-j-4-survey",
+  "math-j-5-quadratic-geometry", "math-j-5-moving-point", "math-j-5-extreme",
+  "math-j-5-parameter", "math-j-5-new-definition", "math-j-5-reading",
+] as const;
+/** 上海高中数学知识点（按高考考纲分单元）。 */
+const seniorKnowledgeIds = [
+  "math-s-1-function", "math-s-1-log", "math-s-1-trig", "math-s-1-derivative", "math-s-1-extreme",
+  "math-s-2-sequence", "math-s-2-application",
+  "math-s-3-solid", "math-s-3-vector",
+  "math-s-4-conic", "math-s-4-parameter",
+  "math-s-5-probability", "math-s-5-statistics",
+  "math-s-6-complex", "math-s-6-trig-apply",
+] as const;
+export const catalogKnowledgeIds = [...primaryKnowledgeIds, ...juniorKnowledgeIds, ...seniorKnowledgeIds] as const;
+/** 早期演示题库使用的三个知识点；随正式题库上线后仅作存量兼容。 */
+export const legacyKnowledgeIds = ["division", "geometry", "multiplication"] as const;
+export type KnowledgeId = typeof catalogKnowledgeIds[number] | typeof legacyKnowledgeIds[number];
+export type LegacyKnowledgeId = typeof legacyKnowledgeIds[number];
+export const allKnowledgeIds: readonly KnowledgeId[] = [...catalogKnowledgeIds, ...legacyKnowledgeIds];
+export function isKnowledgeId(value: unknown): value is KnowledgeId {
+  return typeof value === "string" && (allKnowledgeIds as readonly string[]).includes(value);
+}
+export type SubjectId = "chinese" | "math" | "english";
+export const subjectIds: readonly SubjectId[] = ["chinese", "math", "english"];
+export const subjectNames: Record<SubjectId, string> = { chinese: "语文", math: "数学", english: "英语" };
+/** 内容包允许声明的年级（小学四年级、初中三个年级、高中三个年级）。 */
+export const allowedGrades: readonly string[] = ["四年级", "七年级", "八年级", "九年级", "高一", "高二", "高三"];
+/** 知识点归属学科 —— 取 id 第一段；legacy 演示题库的三个知识点归入数学。 */
+export function subjectOfKnowledge(id: KnowledgeId): SubjectId | undefined {
+  const first = id.split("-")[0];
+  if (subjectIds.includes(first as SubjectId)) return first as SubjectId;
+  if ((legacyKnowledgeIds as readonly string[]).includes(id)) return "math";
+  return undefined;
+}
+/** 学段：小学 / 初中 / 高中。取 id 第二段（`j` 初中、`s` 高中），没有则小学。 */
+export type StageId = "primary" | "junior" | "senior";
+export const stageIds: readonly StageId[] = ["primary", "junior", "senior"];
+export const stageNames: Record<StageId, string> = { primary: "小学", junior: "初中", senior: "高中" };
+export function stageOfKnowledge(id: KnowledgeId): StageId {
+  const second = id.split("-")[1];
+  if (second === "j") return "junior";
+  if (second === "s") return "senior";
+  return "primary";
+}
+/**
+ * 静态内容库：仓库内只读、内容寻址的正式题库。
+ * 不进入工作区 state —— 工作区体积只与「实际使用量」成正比。
+ * 库题一旦被组进试卷，正文会由 ensureContent 冻结进 state.content.versions。
+ */
+export interface ContentBank {
+  version: string;
+  digest: string;
+  questions: Question[];
+}
 export type QuestionStatus = "draft" | "review" | "approved" | "published" | "disabled";
 export type TaskType = "basic" | "application" | "transfer";
+/**
+ * 考点对应 —— 指向官方公布的出处（**不是**真题原文，只标考点与题号）。
+ * 来源见 lib/exam-references.ts，来源分级必须在界面上原样显示。
+ */
+export interface ExamRef {
+  topicKey: string;
+  label: string;
+  sourceUrl: string;
+  sourceTier: "official-commentary" | "official-policy" | "third-party";
+  sourceTitle: string;
+}
 export interface Question {
   id: string; familyId: string; version: number; text: string; answer: string;
   unit: string; knowledgeId: KnowledgeId; difficulty: "基础" | "巩固" | "挑战";
@@ -12,8 +119,12 @@ export interface Question {
   alternative: string; prerequisites: string[]; status: QuestionStatus;
   authorId: string; reviewerId?: string; reviewNote?: string; createdAt: string;
   taskType?: TaskType; contextId?: string;
+  /** 题目配图的站内相对路径（内容寻址：文件名内嵌内容 hash）。 */
+  image?: string;
+  /** 考点对应（上海市教育考试院官方点评里的出处索引）。 */
+  examRef?: ExamRef;
 }
-export interface Profile { name: string; grade: string; semester: string; course: string; textbook: string; school: string; }
+export interface Profile { name: string; grade: string; semester: string; course: string; textbook: string; school: string; /** 已解锁学科；缺省时按 course 推导，兼容存量档案。 */ subjects?: string[]; }
 export interface Knowledge {
   id: KnowledgeId; name: string; description: string; learningState: "current" | "upcoming";
   stars: number | null; evidenceIds: string[]; reason: string; ruleVersion: string;
@@ -130,7 +241,7 @@ export interface MasteryState {
   schemaVersion: 1; activeRuleId: string; rules: MasteryRule[]; assessments: MasteryAssessment[];
   reviewPlans: ReviewPlan[]; previews: RulePreview[];
 }
-export interface Mistake { id: string; question: Question; originalAnswer: string; correctedAnswer?: string; correctedAt?: string; evidenceId: string; }
+export interface Mistake { id: string; question: Question; originalAnswer: string; correctedAnswer?: string; correctedAt?: string; evidenceId: string; /** 错因标签：学生自己选的，系统不替他猜。 */ cause?: MistakeCause; /** 错因备注（可选）。 */ causeNote?: string; }
 export interface AuditEvent { id: string; action: string; label: string; actorId: string; createdAt: string; detail: string; }
 export interface UploadItem { id: string; name: string; url: string; createdAt: string; status: "pending" | "confirmed"; purpose: "single" | "homework"; }
 export interface RecognitionLine {
@@ -213,7 +324,8 @@ export interface ContentWithdrawal { questionId: string; familyId: string; versi
 export interface ContentPackage {
   schemaVersion: 1; kind: "xiaohe-content"; trust: "unsigned"; teachingValidation: "unvalidated-trial";
   packageId: string; publisherId: string; createdAt: string;
-  courseScope: { grade: "四年级"; course: "数学" };
+  /** 课程范围。subjects 可选：缺省时视为 [course]；存在时必须是教材目录里的学科。 */
+  courseScope: { grade: string; course: string; subjects?: string[] };
   items: Question[]; withdrawals: ContentWithdrawal[]; digest: string;
 }
 export interface ContentVersion {
@@ -295,3 +407,22 @@ export interface WorkspaceState {
   capabilities: { ocr: boolean; ai: boolean; speech: boolean; storage: boolean };
 }
 export interface ApiResult { state: WorkspaceState; result?: { id?: string; message?: string; [key: string]: unknown }; }
+/**
+ * 合并工作区私有题库与静态内容库。
+ * 工作区同名题优先；工作区停用的库题从可用集剔除。
+ * 缺省无库（移动端、存量环境、单测）时返回工作区题集，行为与扩展前完全一致。
+ */
+export function mergedQuestions(state: WorkspaceState, bank?: ContentBank): Question[] {
+  if (!bank || !bank.questions.length) return state.questions;
+  const overrides = new Map(state.questions.map(question => [question.id, question]));
+  const bankIds = new Set(bank.questions.map(question => question.id));
+  const merged: Question[] = [];
+  for (const question of bank.questions) {
+    const override = overrides.get(question.id);
+    if (!override) { merged.push(question); continue; }
+    if (override.status === "disabled") continue;
+    merged.push(override);
+  }
+  for (const question of state.questions) if (!bankIds.has(question.id)) merged.push(question);
+  return merged;
+}
