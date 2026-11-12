@@ -11,11 +11,13 @@ import CameraWorkspace from "@/components/camera-workspace";
 import CompanionChat from "@/components/companion-chat";
 import AccessWorkspace, { roleNames } from "@/components/access-workspace";
 import EvidenceReviewWorkspace from "@/components/evidence-review-workspace";
-import { effectiveAttempt, effectiveMistakes } from "@/lib/effective-evidence";
+import { effectiveAttempt, effectiveMistakes, effectiveReviewSource } from "@/lib/effective-evidence";
+import { reviewAvailableAt } from "@/lib/server/mastery";
 import SharedLearning from "@/components/shared-learning";
 import HistoryDeletionWorkspace from "@/components/history-deletion-workspace";
 import { curriculumCatalog } from "@/lib/curriculum-catalog";
 import { studentSection } from "@/lib/student-navigation";
+import { homeWork } from "@/lib/home-work";
 import { pruneLearningCaches } from "@/lib/learning-cache-cleanup";
 import "@/components/interface-refresh.css";
 
@@ -127,16 +129,36 @@ export default function HomePage() {
   </div>;
 }
 function Today({state,navigate,onCurriculumSubjectChange}: AppProps) {
-  const completed = state.attempts.filter(a => a.status === "submitted" && !a.id.startsWith("demo-"));
-  const independent = completed.reduce((sum,a) => sum + (effectiveAttempt(state, a.id)?.independentCorrect ?? 0),0);
-  const pendingPaper = state.papers.find(p => p.status === "in_progress");
-  const mistakes = effectiveMistakes(state).filter(m => !m.correctedAt && !m.id.startsWith("demo-")).length;
-  const date = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"long",day:"numeric",weekday:"long"}).format(new Date());
+  const [now, setNow] = useState(() => Date.now());
+  useEffect(() => {
+    const refreshTime = () => setNow(Date.now());
+    const timer = window.setInterval(refreshTime, 60_000);
+    window.addEventListener("focus", refreshTime);
+    return () => { window.clearInterval(timer); window.removeEventListener("focus", refreshTime); };
+  }, []);
+  const { pending: pendingPapers, pendingAttempt, recent, latest } = homeWork(state.papers, state.attempts, now);
+  const pendingPaper = pendingPapers[0];
+  const latestPaper = state.papers.find(p => p.id === latest?.paperId);
+  const latestResult = latest ? effectiveAttempt(state, latest.id) : undefined;
+  const answered = pendingAttempt?.answers.filter(a => a.value.trim()).length ?? 0;
+  const mistakes = effectiveMistakes(state).filter(m => !m.correctedAt && !m.id.startsWith("demo-") && !m.effectiveEvidence.attemptId.startsWith("demo-") && !m.effectiveEvidence.paperId.startsWith("demo-"));
+  const dueReviews = (state.mastery?.reviewPlans ?? []).filter(plan => {
+    if (plan.status !== "scheduled" || plan.paperId || !effectiveReviewSource(state, plan).valid) return false;
+    try { return Date.parse(reviewAvailableAt(state, plan)) <= now; } catch { return false; }
+  });
+  const date = new Intl.DateTimeFormat("zh-CN",{timeZone:"Asia/Shanghai",month:"long",day:"numeric",weekday:"long"}).format(new Date(now));
+  const shortDate = (value: string) => Number.isFinite(Date.parse(value)) ? new Intl.DateTimeFormat("zh-CN", { timeZone: "Asia/Shanghai", month: "long", day: "numeric" }).format(new Date(value)) : "日期待核对";
   return <div className="today-view home-refresh">
-    <div className="page-heading"><div><p className="eyebrow"><Sun size={16}/>{date}</p><h1>{state.profile.name}，今天从哪里开始？</h1><p className="muted">学懂一个知识点，再用练习巩固。</p></div><span className="badge">四年级 · 上册</span></div>
-    <section className="home-start"><div><span className="eyebrow">我的课程</span><h2>选一门课，开始今天的学习</h2><p>按单元找知识点，查看讲解，再做对应练习。</p></div><BookOpen size={44} strokeWidth={1.3}/></section>
-    <div className="home-subjects">{curriculumCatalog.map((subject,index) => <button key={subject.id} className={`home-subject subject-${subject.id}`} onClick={() => { onCurriculumSubjectChange?.(subject.id); navigate("knowledge"); }}><span className="home-subject-mark">{["文","数","英"][index]}</span><h2>{subject.name}</h2><p>{subject.units.length} 个单元 · {subject.units.reduce((n,u) => n + u.points.length,0)} 个知识点</p><span className="home-subject-action">进入课程<ArrowRight size={18}/></span></button>)}</div>
-    {pendingPaper && <section className="card home-resume"><div><span className="eyebrow">上次还没完成</span><h3>{pendingPaper.title}</h3><p className="muted">答案草稿已保存，继续完成这份练习。</p></div><button className="btn btn-primary" onClick={() => navigate("practice", pendingPaper.id)}>继续练习<ArrowRight size={17}/></button></section>}
-    <div className="home-bottom"><section className="card"><div className="section-heading"><h2>学习记录</h2><button className="text-link" onClick={() => navigate("profile")}>查看学习小结<ChevronRight size={16}/></button></div><div className="home-stats"><div><strong>{completed.length}</strong><span>完成试卷</span></div><div><strong>{independent}</strong><span>独立答对</span></div><button onClick={() => navigate("mistakes")}><strong>{mistakes}</strong><span>待订正错题<ChevronRight size={13}/></span></button></div><p className="learn-small-note">统计已提交的试卷作答，知识点自练不计入。</p></section><section className="card home-tools"><h2>需要帮助时</h2><button onClick={() => navigate("camera")}><Camera size={21}/><span><strong>拍照与回传</strong><small>保存题目照片，人工核对作答</small></span><ChevronRight size={17}/></button><button onClick={() => navigate("chat")}><MessageCircle size={21}/><span><strong>学习帮助</strong><small>查看题库提示，记录学习问题</small></span><ChevronRight size={17}/></button></section></div>
+    <div className="page-heading"><div><p className="eyebrow"><Sun size={16}/>{date}</p><h1>{state.profile.name}，欢迎回来</h1><p className="muted">看看最近的学习，挑一件想做的事开始吧。</p></div><span className="badge">四年级 · 上册</span></div>
+    <section className="home-focus" aria-labelledby="home-focus-title"><div className="home-focus-heading"><div><span className="eyebrow">接着学</span><h2 id="home-focus-title">今天可以做什么？</h2></div><button className="text-link" onClick={() => navigate("papers", "history")}>查看全部练习<ChevronRight size={16}/></button></div>
+      <div className="home-actions">
+        {pendingPaper ? <article className="home-action home-action-primary"><span className="home-action-label">{pendingPaper.status === "in_progress" ? "上次没完成" : "准备好的练习"}</span><h3>{pendingPaper.title}</h3><p>{pendingPaper.status === "in_progress" ? pendingAttempt ? `已填写 ${answered} / ${pendingPaper.questionIds.length} 题，可以接着做。` : "这份练习还没完成，可以继续。" : `共 ${pendingPaper.questionIds.length} 道题，准备好了就开始。`}{pendingPapers.length > 1 ? ` 还有 ${pendingPapers.length - 1} 份未完成练习。` : ""}</p><button className="btn btn-primary" onClick={() => navigate(pendingPaper.status === "in_progress" ? "practice" : "papers", pendingPaper.id)}>{pendingPaper.status === "in_progress" ? "继续练习" : "查看练习"}<ArrowRight size={17}/></button></article> : <article className="home-action home-action-primary"><span className="home-action-label">新的开始</span><h3>选一个知识点，慢慢学</h3><p>先看讲解，再做一道对应练习。</p><button className="btn btn-primary" onClick={() => navigate("knowledge")}>去知识地图<ArrowRight size={17}/></button></article>}
+        <article className="home-action"><span className="home-action-label">回头看看</span><h3>{mistakes.length ? `${mistakes.length} 道题等你订正` : "暂时没有待订正的题"}</h3><p>{mistakes.length ? "再想一想之前遇到的难题。" : "做完练习后，可以在错题本里回顾。"}</p><button className="btn btn-secondary" onClick={() => navigate("mistakes")}>{mistakes.length ? "去错题本" : "查看错题本"}<ArrowRight size={17}/></button></article>
+      </div>
+    </section>
+    {dueReviews.length > 0 && <section className="card home-review-due"><div><span className="eyebrow">可以复习了</span><h2>{dueReviews.length} 个新题复查计划已到时间</h2><p className="muted">回顾之前学过的内容，用新题再试一次。</p></div><button className="btn btn-secondary" onClick={() => navigate("papers", "reviews")}>查看复查计划<ArrowRight size={16}/></button></section>}
+    <section className="card home-recent" aria-labelledby="home-recent-title"><div className="section-heading"><h2 id="home-recent-title">最近的学习</h2><button className="text-link" onClick={() => navigate("profile")}>查看学习小结<ChevronRight size={16}/></button></div><div className="home-recent-content"><div><strong>{recent.length}</strong><span>近 7 天完成的试卷</span></div><div className="home-recent-latest">{latest && latestPaper && latestResult && latestResult.retainedCount > 0 ? <><span>最近完成 · {shortDate(latest.submittedAt ?? latest.startedAt)}</span><h3>{latestPaper.title}</h3><p>独立答对 {latestResult.independentCorrect} 题 · 记录按当前有效作答统计</p><button className="text-link" onClick={() => navigate("report", latest.id)}>查看这次报告<ChevronRight size={16}/></button></> : <><span>还没有可展示的完成记录</span><p>提交练习后，最近的学习会出现在这里。</p></>}</div></div><p className="learn-small-note">这里只统计正式提交的试卷，知识点自练暂不计入。</p></section>
+    <section aria-labelledby="home-courses-title"><div className="section-heading"><div><span className="eyebrow">我的课程</span><h2 id="home-courses-title">继续探索课程</h2></div></div><div className="home-subjects">{curriculumCatalog.map((subject,index) => <button key={subject.id} className={`home-subject subject-${subject.id}`} onClick={() => { onCurriculumSubjectChange?.(subject.id); navigate("knowledge"); }}><span className="home-subject-mark">{["文","数","英"][index]}</span><h2>{subject.name}</h2><p>{subject.units.length} 个单元 · {subject.units.reduce((n,u) => n + u.points.length,0)} 个知识点</p><span className="home-subject-action">进入课程<ArrowRight size={18}/></span></button>)}</div></section>
+    <section className="card home-tools"><h2>需要帮助时</h2><button onClick={() => navigate("camera")}><Camera size={21}/><span><strong>拍照与回传</strong><small>保存题目照片，人工核对作答</small></span><ChevronRight size={17}/></button><button onClick={() => navigate("chat")}><MessageCircle size={21}/><span><strong>学习帮助</strong><small>查看题库提示，记录学习问题</small></span><ChevronRight size={17}/></button></section>
   </div>;
 }

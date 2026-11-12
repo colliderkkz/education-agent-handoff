@@ -460,3 +460,11 @@
 .learn-curriculum-reference { background: #f3f8f1; border-radius: 14px; margin-top: 14px; padding: 16px 18px; }
 .learn-curriculum-reference p { margin: 8px 0 0; line-height: 1.7; }
 @media (max-width: 760px) { .learn-curriculum-picker { grid-template-columns: 1fr; } }
+
+/* Keep the selected unit and its explanation close together on narrow screens. */
+@media (max-width: 560px) {
+  .learn-unit-nav { display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 6px; align-items: stretch; padding: 12px; scroll-snap-type: x proximity; }
+  .learn-unit-nav .eyebrow { flex: 0 0 auto; align-self: center; margin: 0 6px 0 0; }
+  .learn-unit-nav button { flex: 0 0 auto; width: auto; max-width: 210px; scroll-snap-align: start; }
+  .learn-unit-nav button svg { display: none; }
+}

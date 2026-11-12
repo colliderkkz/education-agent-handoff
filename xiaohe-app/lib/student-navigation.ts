@@ -9,6 +9,11 @@ export function studentSection(view: View): View {
 
 export function practiceSection(id?: string): "points" | "sets" | "history" {
   if (id === "history") return "history";
-  if (["sets", "configure", "division", "multiplication", "geometry"].includes(id ?? "")) return "sets";
+  if (["sets", "reviews", "configure", "division", "multiplication", "geometry"].includes(id ?? "")) return "sets";
   return "points";
+}
+
+/** Resume at the first unanswered question, or the first question if all are filled. */
+export function firstUnansweredIndex(answers: { value: string }[]): number {
+  return Math.max(0, answers.findIndex(answer => !answer.value.trim()));
 }
