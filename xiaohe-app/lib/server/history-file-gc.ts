@@ -1,4 +1,4 @@
-import { env } from "cloudflare:workers";
+import { imageStorage, storageConfigured } from "./image-storage";
 import { and, eq, lt } from "drizzle-orm";
 import { getDb } from "../../db";
 import { uploadedFiles } from "../../db/schema";
@@ -45,7 +45,7 @@ export async function collectUnindexedUploads(ownerId: string, dependencies: Uni
     for (const object of page.objects) {
       const keyId = object.key.startsWith(prefix) ? object.key.slice(prefix.length) : "";
       if (!/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(keyId)) continue;
-      const metadata = object.customMetadata ?? await dependencies.readMetadata?.(object.key), id = metadata?.uploadId, epochText = metadata?.historyEpoch;
+      const metadata = object.customMetadata ?? await dependencies.readMetadata?.(object.key); if (!metadata) throw new DomainError("图片回收元数据不可用，请稍后重试", 503); const id = metadata.uploadId, epochText = metadata.historyEpoch;
       if (!id || !/^[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}$/i.test(id)
         || object.key !== `${prefix}${id}` || metadata?.owner !== ownerId || !epochText || !/^(0|[1-9]\d*)$/.test(epochText)) continue;
       const epoch = Number(epochText), state = await dependencies.read();
@@ -113,7 +113,7 @@ export async function retryHistoryFiles(user: ChatGPTUser, access: AccessContext
   if (access.role !== "owner" && access.role !== "student") throw new DomainError("当前角色不能清理学习历史文件", 403);
   const io = {
     read: () => readWorkspace(user, access),
-    deleteObject: async (key: string) => { if (!env.BUCKET) throw new DomainError("文件存储暂不可用，请稍后重试回收", 503); await env.BUCKET.delete(key); },
+    deleteObject: async (key: string) => { if (!storageConfigured()) throw new DomainError("文件存储暂不可用，请稍后重试回收", 503); await imageStorage.delete(key); },
     deleteIndex: async (id: string) => { await getDb().delete(uploadedFiles).where(and(eq(uploadedFiles.id, id), eq(uploadedFiles.userId, access.ownerId))); },
   };
   await collectHistoryFiles(access.ownerId, {
@@ -130,13 +130,10 @@ export async function retryHistoryFiles(user: ChatGPTUser, access: AccessContext
   if (deletionEpoch(current) > 0) pendingUploads += await collectUnindexedUploads(access.ownerId, {
     ...io,
     list: async cursor => {
-      if (!env.BUCKET) throw new DomainError("图片存储暂不可用，无法确认回收范围，请稍后重试", 503);
-      return env.BUCKET.list({ prefix: `private/${encodeURIComponent(access.ownerId)}/`, limit: 1000, ...(cursor ? { cursor } : {}) });
+      if (!storageConfigured()) throw new DomainError("图片存储暂不可用，无法确认回收范围，请稍后重试", 503);
+      return imageStorage.list(`private/${encodeURIComponent(access.ownerId)}/`, cursor);
     },
-    readMetadata: async key => {
-      if (!env.BUCKET) throw new DomainError("图片存储暂不可用，请稍后重试", 503);
-      return (await env.BUCKET.head(key))?.customMetadata;
-    },
+    readMetadata: key => imageStorage.metadata(key),
     indexed: async id => Boolean(await getDb().select({ id: uploadedFiles.id }).from(uploadedFiles).where(eq(uploadedFiles.id, id)).get()),
   });
   return { state: await io.read(), pendingUploads };

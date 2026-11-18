@@ -1,4 +1,4 @@
-import { env } from "cloudflare:workers";
+import { imageStorage, storageConfigured } from "../../../../lib/server/image-storage";
 import { eq } from "drizzle-orm";
 import { getChatGPTUser } from "../../../chatgpt-auth";
 import { getDb } from "../../../../db";
@@ -16,12 +16,12 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
     const { id } = await context.params;
     const selectedWorkspace = requestWorkspaceId(request);
     const file = await getDb().select().from(uploadedFiles).where(eq(uploadedFiles.id, id)).get();
-    if (!file || !env.BUCKET || (selectedWorkspace && selectedWorkspace !== file.userId)) return json({ error: "图片不存在或无权查看" }, 404);
+    if (!file || !storageConfigured() || (selectedWorkspace && selectedWorkspace !== file.userId)) return json({ error: "图片不存在或无权查看" }, 404);
     const access = await resolveAccess(user, file.userId).catch(() => null);
     if (!access || !["owner", "student"].includes(access.role)) return json({ error: "图片不存在或无权查看" }, 404);
     const before = await readWorkspace(user, access).catch(() => null);
     if (!before || !availableUpload(before, id)) return json({ error: "图片不存在或无权查看" }, 404);
-    const object = await env.BUCKET.get(file.objectKey);
+    const object = await imageStorage.get(file.objectKey);
     if (!object) return json({ error: "图片暂时不可用" }, 404);
     const after = await readWorkspace(user, access).catch(() => null);
     if (!after || !availableUpload(after, id)) return json({ error: "图片不存在或无权查看" }, 404);

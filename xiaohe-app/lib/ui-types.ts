@@ -11,4 +11,6 @@ export interface AppProps {
   chatEntryError?: string;
   reload?: () => Promise<void>;
   busy: boolean;
+  curriculumSubjectId?: string;
+  onCurriculumSubjectChange?: (id: string) => void;
 }

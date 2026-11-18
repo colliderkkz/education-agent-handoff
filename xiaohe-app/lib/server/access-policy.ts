@@ -15,7 +15,7 @@ const studentActions = new Set([
   "recognition.open", "recognition.run.save", "recognition.entry.save", "recognition.match", "recognition.submit",
 ]);
 const roleActions: Partial<Record<Role, Set<string>>> = {
-  editor: new Set(["question.create", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
+  editor: new Set(["question.create", "question.import", "question.delete", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
   reviewer: new Set(["question.review", "question.publish", "question.disable", "rule.preview", "rule.review", "content.export"]),
   teacher: new Set(["help.receive", "help.reply", "evidence.preview", "evidence.review"]),
 };

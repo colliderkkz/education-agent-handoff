@@ -3,7 +3,7 @@ import type { ApiResult, Attempt, Evidence, HelpLevel, KnowledgeId, Paper, Paper
 import { DomainError } from "./domain-error.ts";
 import { assertActionAllowed } from "./access-policy.ts";
 import { ensureMastery, finishMasterySubmission, masteryAction, startReview } from "./mastery.ts";
-import { ensureContent, exportContentPackage, recordQuestionVersion, rollbackContentBatch } from "./content.ts";
+import { ensureContent, exportContentPackage, recordQuestionVersion, rollbackContentBatch, sha256 } from "./content.ts";
 import { companionAction, createCompanionHelpRequest } from "./companion.ts";
 import { assertHistoryWriteAllowed, historyAction } from "./history.ts";
 import { evidenceAction } from "./evidence.ts";
@@ -460,6 +460,35 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       if (!gradeAnswer(answer, mistake.question)) throw new DomainError("这次订正还不正确，可以先看看提示再试一次。");
       mistake.correctedAnswer = answer; mistake.correctedAt = now;
       result.id = mistake.id; result.message = "订正已保存，原始作答和星级保持不变"; label = "完成错题订正"; break;
+    }
+    case "question.import": {
+      const requestId = string(input.requestId, "导入编号", 150);
+      const source = string(input.source, "图片来源", 300);
+      if (!Array.isArray(input.questions) || !input.questions.length || input.questions.length > 20) throw new DomainError("每次可导入 1 至 20 道题");
+      const texts = input.questions.map(value => string(value, "识别题干", 2000));
+      const prefix = `ocr-${sha256(`${context.userId}:${requestId}`)}-`;
+      const ids = texts.map((_, index) => `${prefix}${index}`);
+      const existing = state.questions.filter(q => q.id.startsWith(prefix));
+      if (!existing.length && state.content!.versions.some(v => v.questionId.startsWith(prefix))) throw new DomainError("这批导入记录已有题目被删除，请修改后重新导入。", 409);
+      if (existing.length) {
+        const initial = state.content!.versions.filter(v => ids.includes(v.questionId) && v.version === 1);
+        if (existing.length !== texts.length || initial.length !== texts.length || ids.some((qid, index) => !initial.some(v => v.questionId === qid && v.question.text === texts[index] && v.question.source === source))) throw new DomainError("导入编号已用于不同内容，请重新识别。", 409);
+        return { state: current, result: { questionIds: ids, message: `这批 ${ids.length} 道题已导入，请继续校对。` } };
+      }
+      texts.forEach((text, index) => {
+        // These two empty fields are allowed only for OCR drafts; submission
+        // validates them just like every other question, so nothing is guessed.
+        const question: Question = { id: ids[index], familyId: newId(), version: 1, text, answer: "", unit: "", knowledgeId: "" as KnowledgeId, difficulty: "" as Question["difficulty"], source, sourceScope: "", steps: [], hint: "", alternative: "", prerequisites: [], authorId: context.userId, createdAt: now, status: "draft" };
+        state.questions.unshift(question); recordQuestionVersion(state, question);
+      });
+      result.questionIds = ids; result.message = `已导入 ${ids.length} 道待校对草稿，请补齐题目和教学信息。`; label = "导入图片题目草稿"; break;
+    }
+    case "question.delete": {
+      const q = findQuestion(state, input.id);
+      if (q.status !== "draft") throw new DomainError("只能删除草稿题目", 409);
+      if (state.papers.some(p => p.questions.some(item => item.id === q.id)) || state.content!.batches.some(b => b.changes.some(c => c.questionId === q.id))) throw new DomainError("题目已被试卷或内容批次引用，不能删除", 409);
+      state.questions = state.questions.filter(item => item.id !== q.id);
+      result.id = q.id; result.message = "草稿已删除，历史版本保留"; label = "删除题目草稿"; break;
     }
     case "question.create": {
       const fields = questionFields(input.question);
