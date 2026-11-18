@@ -1,0 +1,2616 @@
+[
+  {
+    "id": "bank-chinese-2-question-001",
+    "familyId": "chinese-2-question__fam-001",
+    "version": 1,
+    "text": "读下面这段话：「公园里的银杏叶黄了，落了一地，像铺上一层金色的地毯。下课铃一响，孩子们跑过去捡落叶。李老师站在一旁提醒：别踩，踩碎的叶子就再也黄不起来了。」请针对这段话，分别提出一个关于\"写了什么\"的问题和一个关于\"为什么\"的问题。",
+    "answer": "示例：写了什么——孩子们为什么跑去捡落叶？为什么——李老师为什么提醒大家别踩叶子？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "提问题时先分清角度：问\"写了什么\"就去找文章写了哪些事，问\"为什么\"就去找事情背后的原因，一个问题只问一件事。",
+      "这段话里孩子们和李老师都有动作，两个角度可以分别从他们的做法去想。",
+      "答：示例：写了什么——孩子们为什么跑去捡落叶？为什么——李老师为什么说\"踩碎的叶子就再也黄不起来了\"？"
+    ],
+    "hint": "先把这段话分成\"写了什么\"和\"为什么\"两类，再各找一个能指向文中具体词句的问题。",
+    "alternative": "也可以先圈出文中让人好奇的三个词（地毯、捡、踩碎），每个词各配一个问题，再从里面挑出角度不同的一问一答。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__content-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-question-002",
+    "familyId": "chinese-2-question__fam-002",
+    "version": 1,
+    "text": "读下面这段话：「周末，妈妈把旧毛衣拆成毛线团，织了两只小小的手套。妹妹把手套戴在手上，转身跑进了雪地里，咯咯地笑。」请针对这段话，分别提出一个关于\"人物做法\"的问题和一个关于\"结果\"的问题。",
+    "answer": "示例：做法——妈妈为什么要把旧毛衣拆成毛线团？结果——妹妹戴着手套跑进雪地后是什么样子？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做法类的问题要盯住人物\"做了什么\"，结果类的问题要盯住事情最后\"怎么样了\"，两类问题要落在不同的句子上。",
+      "这段话里妈妈的动作是拆毛衣、织手套，妹妹的动作是戴手套跑进雪地，可以分别出题。",
+      "答：示例：妈妈为什么把旧毛衣拆成毛线团？妹妹戴着新手套跑进雪地后发出了什么声音？"
+    ],
+    "hint": "先数一数这段话里有几个不同的人物，再分别想想他们做了什么、最后怎么样。",
+    "alternative": "也可以顺着\"我还能想到什么\"这个角度提问，比如问\"妹妹的笑声让你想到她在想什么\"。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__content-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-question-003",
+    "familyId": "chinese-2-question__fam-003",
+    "version": 1,
+    "text": "读下面这段话：「教室里的小鱼缸里，两条小金鱼围着水草转来转去。下课铃一响，同学们就一起围了过来。」请针对这段话，分别提出一个关于\"小鱼为什么转\"的问题和一个关于\"同学们为什么围过来\"的问题。",
+    "answer": "示例：小鱼为什么一直围着水草转？同学们围过来是为了看什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "给同一段话里的两个对象分别提问，两个问题的对象不能是同一个，答案也不会互相重复。",
+      "小鱼转圈和同学围观是并排出现的两件事，各自追问\"为什么\"就能得到两个不同的问题。",
+      "答：示例：小鱼为什么一直围着水草转？同学们下课围过来是想看小鱼，还是想跟鱼说话？"
+    ],
+    "hint": "先数一数这段话里出现了几个对象，再给每个对象各提一个\"为什么\"。",
+    "alternative": "也可以从\"看见了什么\"和\"想到了什么\"分开来提：先问小鱼的动作表示什么，再问同学们看见后想到了什么。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__content-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-question-004",
+    "familyId": "chinese-2-question__fam-004",
+    "version": 1,
+    "text": "读下面这段话：「老屋的门框上贴着一张褪色的春联，红字已经模糊得看不清了。爷爷说，这副春联是他小时候亲手贴上去的。」请针对这段话，分别提出一个关于\"春联\"的问题和一个关于\"爷爷的话\"的问题。",
+    "answer": "示例：春联——门框上的春联为什么褪成了这样？爷爷的话——爷爷的话让你想到了什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "提问时抓住对象最显眼的地方，再顺着叙述往下追问一步，问题就会变得有内容。",
+      "这段话里\"褪色的春联\"是看到的，\"小时候亲手贴的\"是听到的，两个角度都落在同一处描写上。",
+      "答：示例：老屋门框上的春联为什么会褪成这样？爷爷说这副春联是自己小时候贴的，这句话让你想到些什么？"
+    ],
+    "hint": "读完这段话，先在脑子里留下最有印象的一幅画面，再针对这幅画面提问。",
+    "alternative": "也可以从\"能不能从这副春联读出一家人的故事\"这个角度提问，而不只是盯着春联本身。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__content-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-question-005",
+    "familyId": "chinese-2-question__fam-005",
+    "version": 1,
+    "text": "摘抄本上写着：「池塘边的柳条垂到水面上，像给水面镶了一道绿边。」请针对这句摘抄，分别提出一个关于\"用了什么手法\"的问题和一个关于\"这样写的好处\"的问题。",
+    "answer": "示例：手法——这句话把柳条比作什么？好处——这样写让读者在眼前浮现出怎样的画面？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "从摘抄句提问，先看它用了比喻、拟人还是别的写法，再问这样写带来了什么效果。",
+      "\"像给水面镶了一道绿边\"把柳条和\"镶边\"相比，因此可以从比喻的对象和表达效果两处提问。",
+      "答：示例：这句话把柳条比作什么？这样写让读者在脑海里看到了怎样的一幅画面？"
+    ],
+    "hint": "摘抄句里的\"像\"字往往提示了比喻，先找出被比的东西和用来比的东西。",
+    "alternative": "也可以改问\"如果把这句里的比喻去掉，画面会有什么不同\"，把问题变成比较式的。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__reading-notes"
+  },
+  {
+    "id": "bank-chinese-2-question-006",
+    "familyId": "chinese-2-question__fam-006",
+    "version": 1,
+    "text": "摘抄本上写着：「爷爷的手掌很粗糙，像一块老树皮。」请针对这句摘抄，分别提出一个关于\"把什么比作什么\"的问题和一个关于\"为什么这样比喻\"的问题。",
+    "answer": "示例：把爷爷的手掌比作老树皮；用树皮作比是因为它粗糙，显出年岁和劳作的痕迹。",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比喻句里有两样东西，先分清哪个是被比方、哪个是用来比的，再想这个比方为什么选得合适。",
+      "树皮和手掌的共同点是粗糙，手掌像树皮让人想到长年操劳，所以原因可以从\"像在哪里\"去找。",
+      "答：示例：这句话把爷爷的手掌比作什么？为什么用老树皮来比手掌是合适的？"
+    ],
+    "hint": "找出两样东西的共同点，再想想这个共同点让你感受到什么。",
+    "alternative": "也可以从爷爷的经历去追问：\"爷爷的手为什么这么粗糙\"其实是在间接提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__reading-notes"
+  },
+  {
+    "id": "bank-chinese-2-question-007",
+    "familyId": "chinese-2-question__fam-007",
+    "version": 1,
+    "text": "读书笔记写着：「我最喜欢第三自然段，它让我第一次明白雪原来不是透明的。」请围绕这条笔记，分别提出一个关于\"为什么喜欢\"的问题和一个关于\"雪为什么不是透明的\"的问题。",
+    "answer": "示例：为什么喜欢——第三自然段里哪一句最打动你？雪为什么不透明——这段话是怎么把这个道理讲明白的？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读书笔记里的两个感受可以分别追问：一个是自己的理由，一个是文章讲清的道理。",
+      "\"第一次明白\"说明这一段写得清楚，问题可以顺着\"哪句话最关键\"去提。",
+      "答：示例：第三自然段的哪一句话让你觉得雪不是透明的？雪不是透明的道理，这一段是怎么讲明白的？"
+    ],
+    "hint": "把笔记里的两个短句分别圈出来，一个圈感受，一个圈道理，再各问一个\"为什么\"。",
+    "alternative": "也可以追问\"第三自然段和其他段落比，好在哪里\"，把问题换成比较写法的好坏。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__reading-notes"
+  },
+  {
+    "id": "bank-chinese-2-question-008",
+    "familyId": "chinese-2-question__fam-008",
+    "version": 1,
+    "text": "一篇短文的题目是《会走路的水》。开头写：「雨停以后，山路两旁冒出一条条小溪。」结尾写：「它们一边流，一边唱着歌走了。」请针对这个题目和结尾，分别提出一个关于\"题目为什么这样写\"的问题和一个关于\"结尾表达了什么\"的问题。",
+    "answer": "示例：题目为什么不直接写\"小溪\"？结尾\"一边流一边唱着歌\"表达了作者怎样的心情？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "标题题常常藏在比喻里，要追问它把什么比作什么；结尾题要问它把心情藏在了哪句话里。",
+      "题目把溪水说成会走路、会唱歌的东西，问题可以从\"这样写多有趣\"追到\"为什么这样写更美\"。",
+      "答：示例：题目《会走路的水》为什么不直接写\"小溪\"？结尾\"一边流一边唱着歌\"表达了作者怎样的心情？"
+    ],
+    "hint": "先找出标题里最有意思的那个说法，再想想它妙在哪里。",
+    "alternative": "也可以用\"如果把题目换成《山雨后的溪流》，你更喜欢哪一个，为什么\"来提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__title-and-ending"
+  },
+  {
+    "id": "bank-chinese-2-question-009",
+    "familyId": "chinese-2-question__fam-009",
+    "version": 1,
+    "text": "一篇写校园的文章，题目是《操场上的十分钟》。中间写了跑步、跳绳和追逐三件事。请针对题目和中间内容，分别提出一个关于\"为什么只写十分钟\"的问题和一个关于\"哪一幅画面最吸引你\"的问题。",
+    "answer": "示例：作者为什么只把镜头放在这十分钟里？跑步、跳绳、追逐这三件事中你最喜欢哪一件，为什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目题要追问作者为什么这样限定范围，画面题要说出自己选的那一幕和喜欢的理由。",
+      "\"十分钟\"是题目限定的范围，\"最吸引你\"需要读者从中间的三件事里做一次选择并说明理由。",
+      "答：示例：作者为什么把镜头只放在\"十分钟\"里？中间写的三件事中你最喜欢哪一件，为什么？"
+    ],
+    "hint": "先在中间的三件事上做一次选择，再把选择和你的理由连起来说。",
+    "alternative": "也不妨提一个\"如果再写一篇校园文章，你会选哪个时间\"的问题，把角度放到文章之外。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__title-and-ending"
+  },
+  {
+    "id": "bank-chinese-2-question-010",
+    "familyId": "chinese-2-question__fam-010",
+    "version": 1,
+    "text": "一篇短文的开头是：「我家的门铃坏了整整一个星期。」结尾是：「门铃终于响了，来的人是修门的师傅。」请针对这段话，分别提出一个关于\"这一个星期里家人在做什么\"的问题和一个关于\"为什么作者要把门铃的事写进文章\"的问题。",
+    "answer": "示例：门铃坏了一个星期，一家人平时怎么进门？作者用这件小事写家，还想说什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "开头结尾题有两种办法：中间没写的可以补，结尾的用意可以问，合起来就是两个好问题。",
+      "开头和结尾之间留了一个星期的空白，正是提问的好地方；结尾的收束处则是问动机的入口。",
+      "答：示例：门铃坏了一个星期，一家人平时怎么进门？作者把这么小的一件事写进文章，是想说什么？"
+    ],
+    "hint": "把开头和结尾摆在一起，看看中间空着的地方能填进什么。",
+    "alternative": "也可以提一个\"你从门铃这件事里感受到这个家人的什么\"，从情感角度切入。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-question__title-and-ending"
+  },
+  {
+    "id": "bank-chinese-2-question-011",
+    "familyId": "chinese-2-question__fam-011",
+    "version": 1,
+    "text": "故事片段：「他举起手，想再举一次。手举到一半，却慢慢放下了。」请针对这段话，分别提出一个关于\"他为什么把手放下\"的问题和一个关于\"作者为什么不把话说出来\"的问题。",
+    "answer": "示例：他举到一半为什么又放下了？作者为什么不直接写出他心里的话，这样写好在哪里？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "故事里\"没有说出口的话\"最值得提问：一个问人物的原因，一个问写法的用意。",
+      "动作里的\"想再举一次\"和\"慢慢放下\"前后不一致，这个矛盾处正好能生出两个问题。",
+      "答：示例：他举到一半为什么又放下了？作者为什么不直接写出他心里的想法，这样写有什么好处？"
+    ],
+    "hint": "找出这段话里前后不一致的地方，矛盾往往就是好问题的来源。",
+    "alternative": "也可以把这个片段和\"他后来怎样了\"连起来，提一个预测故事发展的疑问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__story-scene"
+  },
+  {
+    "id": "bank-chinese-2-question-012",
+    "familyId": "chinese-2-question__fam-012",
+    "version": 1,
+    "text": "故事片段：「雨越下越大，妈妈把伞往我这边挪了挪，自己的肩膀已经湿了一片。」请针对这段话，分别提出一个关于\"妈妈为什么这样做\"的问题和一个关于\"从哪个细节能看出妈妈的做法\"的问题。",
+    "answer": "示例：妈妈为什么要把伞往\"我\"这边挪？\"自己的肩膀已经湿了一片\"这个细节说明了什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一个问题问\"为什么\"，一个问题问\"凭哪句话看出来\"，合起来就完整了。",
+      "伞的移动和肩膀湿了是文中并列出现的两个细节，一个用来问原因，一个用来问根据。",
+      "答：示例：妈妈为什么要把伞往\"我\"这边挪？她自己的肩膀湿了，这个细节让你感受到什么？"
+    ],
+    "hint": "先在文中画出一个表示动作的词，再在旁边写上\"为什么\"。",
+    "alternative": "也可以从\"我\"的角度提问：当时的我有没有发现妈妈的肩膀湿了，这同样是个好问题。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__story-scene"
+  },
+  {
+    "id": "bank-chinese-2-question-013",
+    "familyId": "chinese-2-question__fam-013",
+    "version": 1,
+    "text": "班级通知：「本周五下午三点，全班同学到操场参加拔河比赛，请穿运动鞋。」请针对这则通知，分别提出一个关于\"为什么要穿运动鞋\"的问题和一个关于\"如果下雨怎么办\"的问题。",
+    "answer": "示例：通知为什么特别要求穿运动鞋？遇到下雨，拔河比赛是改期还是照常进行？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "通知类提问要盯住\"通知里没写清楚、但读者会关心\"的地方。",
+      "通知写了时间、地点和一项要求，却没有交代理由和变动办法，这正是提问的入口。",
+      "答：示例：通知为什么特别要求穿运动鞋？如果遇到下雨，拔河比赛是改期还是照常？"
+    ],
+    "hint": "把自己当成收到通知的同学，把最想知道却没有写出来的两件事写下来。",
+    "alternative": "也可以问\"如果同学当天生病了，应该怎样向老师说明\"，把问题换成向人询问的角度。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__notice-and-announcement"
+  },
+  {
+    "id": "bank-chinese-2-question-014",
+    "familyId": "chinese-2-question__fam-014",
+    "version": 1,
+    "text": "图书馆公告：「本周新到的绘本放在二楼靠窗的书架上，欢迎小读者借阅，每次最多可借两本。」请针对这则公告，分别提出一个关于\"到哪里借\"的问题和一个关于\"借书有什么限制\"的问题。",
+    "answer": "示例：新到的绘本具体放在图书馆的什么位置？除了每次最多两本，公告里还说了哪些借阅规定？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "公告提问要分清\"地点信息\"和\"规定信息\"，两类信息各问一次。",
+      "公告里有地点（二楼靠窗的书架）和规定（最多两本），也留下了开放时间之类的空白。",
+      "答：示例：新到的绘本具体放在图书馆的什么位置？借阅规定除了每次两本之外还写了什么？"
+    ],
+    "hint": "把公告里的信息分成地点、时间和规定三堆，看看哪一堆最空。",
+    "alternative": "也可以提一个\"怎样向管理员确认自己能不能借这本书\"，属于询问办法的提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__notice-and-announcement"
+  },
+  {
+    "id": "bank-chinese-2-question-015",
+    "familyId": "chinese-2-question__fam-015",
+    "version": 1,
+    "text": "古诗：「床前明月光，疑是地上霜。举头望明月，低头思故乡。」请针对这首诗，分别提出一个关于\"诗人看到了什么\"的问题和一个关于\"为什么低头反而会想起故乡\"的问题。",
+    "answer": "示例：诗人床前看到的到底是月光还是霜？为什么举头看月、低头看地的时候却想起了故乡？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读古诗提问，要抓住诗中的动作和比喻：\"疑是\"\"举头\"\"低头\"三处都是提问的好入口。",
+      "\"疑是地上霜\"是把月光看成霜，\"举头望明月，低头思故乡\"是动作的转折，正好用来提问。",
+      "答：示例：诗人床前看到的到底是月光还是霜？为什么低头看地面时反而想起了故乡？"
+    ],
+    "hint": "把诗中表示动作的词圈出来，每个动作后面都可以挂一个问题。",
+    "alternative": "也可以问\"如果把最后一句改成'低头看霜'，诗的味道会有什么不同\"，从改写角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__poem-and-short-lines"
+  },
+  {
+    "id": "bank-chinese-2-question-016",
+    "familyId": "chinese-2-question__fam-016",
+    "version": 1,
+    "text": "短句：「荷叶上的青蛙鼓着腮帮子，星星一颗一颗落进水里。」请针对这两句，分别提出一个关于\"青蛙为什么鼓着腮帮子\"的问题和一个关于\"星星是不是真的落进了水里\"的问题。",
+    "answer": "示例：青蛙鼓着腮帮子可能是在做什么？水里的\"星星\"真的是星星吗，为什么看起来像？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写景句里的动作和比喻都可以提问：一个问写到的真实情况，一个问给人造成的错觉。",
+      "\"鼓着腮帮子\"是动作，\"星星落进水里\"是写景的想象，两句各有各的入口。",
+      "答：示例：青蛙鼓着腮帮子是在做什么准备？水里的\"星星\"真的是星星吗，为什么看起来那么像？"
+    ],
+    "hint": "找出句子里写景最奇特的两个地方，各提一个问题。",
+    "alternative": "也可以提\"把'星星落进水里'换成'星星躺在水里'，感觉有什么不同\"，从用词角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__poem-and-short-lines"
+  },
+  {
+    "id": "bank-chinese-2-question-017",
+    "familyId": "chinese-2-question__fam-017",
+    "version": 1,
+    "text": "对话：「你昨天怎么没来？」「我病了。」「那现在好点了吗？」「好多了，谢谢。」请针对这段对话，分别提出一个关于\"说话人心情\"的问题和一个关于\"还可以补充什么信息\"的问题。",
+    "answer": "示例：说\"好多了，谢谢\"的人心里是什么感觉？他昨天到底生的是什么病，病了几天？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对话提问要问出\"话里没说\"的内容：一边问心情，一边问缺失的信息。",
+      "第四句\"好多了，谢谢\"带着客套和关心，而生病这件事是整段话里最大的空白。",
+      "答：示例：\"好多了，谢谢\"这句话背后，说话的人心里怎么想？他昨天得了什么病，得了几天？"
+    ],
+    "hint": "先把对话里真正说过的内容和没说过的内容分开，再从\"没说过的\"里提问题。",
+    "alternative": "也可以问问第三句为什么先问\"现在\"而不是\"昨天\"，从说话顺序提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__dialogue-questions"
+  },
+  {
+    "id": "bank-chinese-2-question-018",
+    "familyId": "chinese-2-question__fam-018",
+    "version": 1,
+    "text": "对话：「这本书真好看！」「好看在哪里？」「我也说不上来，就是舍不得放下。」请针对这段对话，分别提出一个关于\"第二个人为什么答不上来\"的问题和一个关于\"怎样把好看说得具体些\"的问题。",
+    "answer": "示例：明明\"舍不得放下\"，第二个人为什么还说\"说不上来\"？要把\"好看\"说具体，可以从哪几个方面入手？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一个问题追问对方说不清的原因，另一个问题反过来问\"应该怎么回答\"，两个角度互补。",
+      "\"舍不得放下\"其实已经透露了理由，可以顺着它追问；\"说得具体些\"则要给出一个可以从哪些角度去说的方向。",
+      "答：示例：明明\"舍不得放下\"，第二个人为什么还说\"说不上来\"？要把\"好看\"说具体，可以从哪几个方面入手？"
+    ],
+    "hint": "注意第三句其实已经给出了理由，把它和\"说不上来\"放在一起比较。",
+    "alternative": "也不妨假设你是第三个人，替他说出一句更具体的评价，这本身就是一个好问题。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__dialogue-questions"
+  },
+  {
+    "id": "bank-chinese-2-question-019",
+    "familyId": "chinese-2-question__fam-019",
+    "version": 1,
+    "text": "说明文字：「这盏台灯的灯罩可以调节角度，光线能照到桌面两边。灯杆可以伸缩，拉到最高大约一米二。」请针对这段说明，分别提出一个关于\"怎样调节光线\"的问题和一个关于\"一米二的高度适合什么样的桌子\"的问题。",
+    "answer": "示例：灯罩要怎样调节才能照亮桌面两边？把灯杆拉到一米二，适合放在什么样的桌子旁？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说明文字提问，一个问\"怎么用\"，一个问\"用在什么情况下\"，两个问题方向不同。",
+      "文中写了两个可以调节的地方——灯罩的角度和灯杆的长度，问题正好分别对应操作和用途。",
+      "答：示例：台灯的灯罩要怎样调节才能照亮桌面两边？把灯杆拉到一米二，适合放在什么样的桌子旁边？"
+    ],
+    "hint": "把说明里写的\"可以\"和\"能\"找出来，每个后面都藏着一个问题。",
+    "alternative": "也可以问\"这盏台灯的说明还缺少哪些内容\"，从完善说明的角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__object-description"
+  },
+  {
+    "id": "bank-chinese-2-question-020",
+    "familyId": "chinese-2-question__fam-020",
+    "version": 1,
+    "text": "说明文字：「这双雨鞋的鞋底有花纹，踩在湿滑的地砖上不容易滑。鞋帮是软面的，可以直接套在普通鞋外面。」请针对这段说明，分别提出一个关于\"为什么要套在普通鞋外面\"的问题和一个关于\"在哪种路面上最需要它\"的问题。",
+    "answer": "示例：雨鞋的鞋帮为什么要做得这么软？如果不套在普通鞋外面直接穿，会有什么不便？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说明文字里\"为什么这样设计\"和\"适合什么场合\"是两个常用的提问方向。",
+      "软面鞋帮是为了套鞋，花纹是为了防滑，两处设计各对应一个问题。",
+      "答：示例：雨鞋的鞋帮为什么要做得这么软？在湿滑的地砖以外，还有哪种路面最需要它？"
+    ],
+    "hint": "找出说明里写\"这样设计\"的两处地方，看看它们各自解决了什么问题。",
+    "alternative": "也可以从穿着的感受提问：雨鞋套在鞋外面，脚会不会又闷又热，把问题引向新的体验。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-question__object-description"
+  },
+  {
+    "id": "bank-chinese-2-question-021",
+    "familyId": "chinese-2-question__fam-021",
+    "version": 1,
+    "text": "科普短文：「做豆芽实验时，作者把绿豆铺在湿棉花上，每天保持棉花湿润。几天后，豆子裂开一条缝，钻出了小小的芽。」请针对这段科普文字，分别提出一个关于\"为什么每天要保持湿润\"的问题和一个关于\"裂缝和芽是什么关系\"的问题。",
+    "answer": "示例：如果不保持湿润，豆子还会发芽吗？豆子上的裂缝和后来长出的芽之间是什么关系？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "给科普短文提问，既可以问科学道理，也可以问作者写作时的前后安排，两条路都走得通。",
+      "\"保持湿润\"是做法，\"裂缝\"和\"芽\"是观察到的现象，两处都能通向一个更深的问题。",
+      "答：示例：如果不保持湿润，豆子还能发芽吗？豆子上的裂缝和后来长出的芽之间是什么关系？"
+    ],
+    "hint": "找出短文里的\"做法\"和\"看到的现象\"各一处，再各提一个问题。",
+    "alternative": "也可以提\"作者为什么先写做法再写结果\"，把问题转向写法的安排。",
+    "prerequisites": [
+      "chinese-2-question",
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__science-experiment"
+  },
+  {
+    "id": "bank-chinese-2-question-022",
+    "familyId": "chinese-2-question__fam-022",
+    "version": 1,
+    "text": "指路牌上写着：「图书馆在前，体育馆在后。穿过小花园，向右转就是体育馆。」请针对这块指路牌，分别提出一个关于\"穿过小花园后往哪边转\"的问题和一个关于\"遇到指路牌看不懂可以问谁\"的问题。",
+    "answer": "示例：穿过小花园以后要往哪个方向走才能到体育馆？遇到没写清楚的地方，可以向谁打听？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看指路牌、路线图提问，一类问\"怎么走\"，一类问\"遇到疑问怎么办\"，两条路都行。",
+      "牌子上给出了相对位置和转弯方向，一个问题可以照着牌子找答案，另一个问题要靠生活经验。",
+      "答：示例：穿过小花园以后要往哪个方向走？遇到指路牌上没有写清楚的地方，可以向谁打听？"
+    ],
+    "hint": "先把牌子上写的路线一步步读出来，再决定要提哪一类问题。",
+    "alternative": "也可以提\"如果小花园正在施工，牌子上的哪句话就没用了\"，从变化的角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__map-sign"
+  },
+  {
+    "id": "bank-chinese-2-question-023",
+    "familyId": "chinese-2-question__fam-023",
+    "version": 1,
+    "text": "菜谱上写着：「打蛋液时，把鸡蛋磕进碗里，加两勺盐，用筷子朝一个方向搅到表面起泡。」请针对这一步做法，分别提出一个关于\"为什么要朝一个方向搅\"的问题和一个关于\"怎样判断已经搅好了\"的问题。",
+    "answer": "示例：搅蛋液为什么非要朝同一个方向？看到表面起泡就可以停了吗，还需要看什么？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做法的提问要追两个点：这一步的道理，和判断做好的标准，两点不能只答一个。",
+      "菜谱只写了动作和终点现象，没有写原因，也没有写判断标准，提问正好可以补上。",
+      "答：示例：为什么搅蛋液要朝同一个方向？看到蛋液表面起泡是不是就可以停了，还需要看什么？"
+    ],
+    "hint": "把菜谱里的\"怎样做\"和\"做成什么样\"分成两栏，各提一个问题。",
+    "alternative": "也可以问\"如果忘了加盐会怎么样\"，从改变条件提出问题。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__recipe-steps"
+  },
+  {
+    "id": "bank-chinese-2-question-024",
+    "familyId": "chinese-2-question__fam-024",
+    "version": 1,
+    "text": "一封给老师的信里写道：「我把每天的错题抄在本子上。爸爸建议我先找出错的原因，再把正确的做法写一遍。我照着做了，一个星期写满了三页。」请针对这封信的内容，分别提出一个关于\"爸爸的建议\"的问题和一个关于\"三页本子说明什么\"的问题。",
+    "answer": "示例：爸爸为什么要我先找出错的原因再抄？本子写满三页，说明我坚持了多久、付出了多少？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读别人的文字提问，一个针对别人提出的办法，一个针对文字透露出的情况。",
+      "爸爸的建议是一种方法，\"写满三页\"是一个结果，两个入口分别通向方法的好处和坚持的程度。",
+      "答：示例：爸爸为什么要我先找出错的原因再抄？这本子写满三页，说明我坚持了多久？"
+    ],
+    "hint": "找出信里\"别人的建议\"和\"自己的行动\"两处，各问一个问题。",
+    "alternative": "也可以提\"如果老师看到这三页本子，会给我什么建议\"，把问题转向读者的身份。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__letter-to-teacher"
+  },
+  {
+    "id": "bank-chinese-2-question-025",
+    "familyId": "chinese-2-question__fam-025",
+    "version": 1,
+    "text": "实验记录写着：「我把同样大小的小纸片剪好，第一组直接放在水面上，第二组先用水彩涂过。涂过的那组几秒后沉下去，没涂的能浮很久。」请针对这则记录，分别提出一个关于\"两组还需要什么保持一样\"的问题和一个关于\"涂色为什么会改变结果\"的问题。",
+    "answer": "示例：除了涂没涂色，两组还需要哪些条件一样？纸片涂了颜色以后，表面发生了什么变化？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "实验记录提问，一个问还可以怎样改进实验，一个问现象背后的原因。",
+      "记录写清了两组的处理方式和结果，却没写机理的解释，也没写其他条件，问题可以从这两处出发。",
+      "答：示例：除了涂没涂色，两组还需要哪些条件一样？涂了颜色以后，纸片表面发生了什么变化？"
+    ],
+    "hint": "先把记录里写了的和没写的分别列出来，再针对\"没写的\"提问。",
+    "alternative": "也可以提\"还可以增加第三组来验证什么\"，把问题变成新的实验设计。",
+    "prerequisites": [
+      "chinese-2-question",
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__experiment-record"
+  },
+  {
+    "id": "bank-chinese-2-question-026",
+    "familyId": "chinese-2-question__fam-026",
+    "version": 1,
+    "text": "博物馆导览牌写着：「展厅里展出的是一百年前的信封和邮票。展柜里的温度保持在十八摄氏度，灯光也调暗了。」请针对这段导览介绍，分别提出一个关于\"为什么灯光要调暗\"的问题和一个关于\"为什么控制温度\"的问题。",
+    "answer": "示例：展厅为什么把灯光调暗？为什么要把展柜温度控制在十八摄氏度？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普式说明里的每个做法背后都有原因，提问要顺着\"为什么这样做\"一直往下追。",
+      "调暗灯光和控制温度都是保护展品的措施，原因要从展品本身的特点去推。",
+      "答：示例：展厅为什么把灯光调暗？为什么要把展柜的温度保持在十八摄氏度？"
+    ],
+    "hint": "想一想邮票和信封是用什么材料做的，再想想它们最怕什么。",
+    "alternative": "也可以问\"如果展厅换成青铜器，布置上还需要哪些改变\"，把问题迁移到新的展品。",
+    "prerequisites": [
+      "chinese-2-question",
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__museum-guide"
+  },
+  {
+    "id": "bank-chinese-2-question-027",
+    "familyId": "chinese-2-question__fam-027",
+    "version": 1,
+    "text": "小组分工写道：「我们决定做一份家乡植物调查海报。小雨负责查资料，我负责画图，阿明负责采访老人。」请针对这段分工，分别提出一个关于\"为什么要分工\"的问题和一个关于\"海报上除了植物还应该放什么\"的问题。",
+    "answer": "示例：三个人为什么要分开来做这份海报？海报上除了植物的照片，还应该放上哪些调查信息？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "方案类提问，一个问做法的道理，一个问成果还缺什么。",
+      "分工说明了谁做什么，却没有说为什么分，也没有说海报该有哪些内容，问题正落在这两处。",
+      "答：示例：三个人为什么要分开来做这份海报？海报上除了植物的照片，还应该放上哪些调查信息？"
+    ],
+    "hint": "想象你自己是海报的读者，你最想从海报上知道什么。",
+    "alternative": "也可以问\"如果采访的老人记不清植物的名字，这个分工该怎么办\"，从意外情况提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__team-project"
+  },
+  {
+    "id": "bank-chinese-2-question-028",
+    "familyId": "chinese-2-question__fam-028",
+    "version": 1,
+    "text": "一条博客留言写道：「读了那篇《阳台种菜记》，我才知道原来土壤也需要呼吸。我家的青菜长得歪歪扭扭，看来是没换土。」请针对这条留言，分别提出一个关于\"青菜为什么长得歪\"的问题和一个关于\"读者还想知道什么\"的问题。",
+    "answer": "示例：作者认为青菜长歪是没有换土造成的，这个判断站得住吗？看完留言，你还想知道关于阳台种菜的什么知识？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读者留言提问，一类追问留言里的判断，一类替读者提出想知道的新事。",
+      "留言把\"长得歪\"归到\"没换土\"，这是一个可以追问的判断，也留下了许多没说到的知识。",
+      "答：示例：作者觉得青菜长歪是没有换土造成的，这个说法有道理吗？看完留言，你还想知道阳台种菜的什么知识？"
+    ],
+    "hint": "先找出留言里\"我觉得\"的那句话，再想想读者接下来会关心什么。",
+    "alternative": "也可以问\"作者为什么不直接写出换土的办法\"，从写作角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__blog-comment"
+  },
+  {
+    "id": "bank-chinese-2-question-029",
+    "familyId": "chinese-2-question__fam-029",
+    "version": 1,
+    "text": "一张作息表写着：「周一、周三读课外书，周二、周四练字，周五整理书桌。每天睡前给妹妹讲十分钟故事。」请针对这份作息表，分别提出一个关于\"为什么要把事情固定在不同的日子\"的问题和一个关于\"妹妹可能在期待什么\"的问题。",
+    "answer": "示例：为什么要把读课外书、练字、整理书桌分在不同的日子？每晚都有故事，妹妹可能会形成什么习惯？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划表提问，一个问安排的用意，一个问被安排的人会有怎样的感受。",
+      "把三件事分在不同的日子和每晚讲故事，分别指向安排的道理和被影响的人。",
+      "答：示例：为什么要把读课外书、练字、整理书桌分在不同的日子？每晚都有故事，妹妹可能会养成什么习惯？"
+    ],
+    "hint": "试着想象作息表上某个人的一天，再从他的需要出发提问。",
+    "alternative": "也可以问\"如果周末不按表执行，会少了什么\"，从变化的角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__daily-schedule"
+  },
+  {
+    "id": "bank-chinese-2-question-030",
+    "familyId": "chinese-2-question__fam-030",
+    "version": 1,
+    "text": "海报上写着：「周末旧物交换会。把家里不用的书和文具带来，换一件你喜欢的。等你。」请针对这则海报，分别提出一个关于\"为什么要带旧物\"的问题和一个关于\"怎样参加这次交换\"的问题。",
+    "answer": "示例：主办方为什么鼓励大家把不用的东西带来？参加交换会要带什么、到哪里去、什么时候到？",
+    "unit": "",
+    "knowledgeId": "chinese-2-question",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "宣传文字提问，一个问活动的用意，一个问具体的做法，两个问题要针对不同的读者需求。",
+      "海报只说了\"带什么\"和\"换什么\"，活动的用意和参加的具体步骤都没写出来。",
+      "答：示例：主办方为什么鼓励大家把不用的东西带来？参加这次交换要带什么、到哪里去、什么时候到？"
+    ],
+    "hint": "把自己想成要参加的人，把最想知道的三个问题写出来，再挑两个提出来。",
+    "alternative": "也可以问\"如果两个人都想要对方那件东西，交换还能顺利进行吗\"，从规则角度提问。",
+    "prerequisites": [
+      "chinese-2-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-question__poster-copy"
+  },
+  {
+    "id": "bank-chinese-2-evidence-001",
+    "familyId": "chinese-2-evidence__fam-001",
+    "version": 1,
+    "text": "短文：「因为地上铺了厚厚的落叶，踩上去几乎没有声音。」落叶铺在地上，为什么让脚步几乎没有声音？请指出依据。",
+    "answer": "落叶铺在地上把脚步声吸收了；依据是句中的「因为地上铺了厚厚的落叶」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答「为什么」要回到原文找表示原因的词，找到原因词后再用一句话把原因和结果连起来。",
+      "句子里「因为」后面是原因，「几乎没有声音」是结果，两部分写在同一句里。",
+      "答：落叶层厚厚的，把脚步声吸收了；依据是「因为地上铺了厚厚的落叶」。"
+    ],
+    "hint": "先在短文里找出表示原因的词，再看它后面跟着的是什么样的结果。",
+    "alternative": "也可以从声音大小去想，说明依据里「厚」这个字起了什么作用。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__cause-and-effect"
+  },
+  {
+    "id": "bank-chinese-2-evidence-002",
+    "familyId": "chinese-2-evidence__fam-002",
+    "version": 1,
+    "text": "短文：「由于连着几天降温，池塘表面结了一层薄冰。」池塘结冰的原因是什么？请写出依据。",
+    "answer": "连着几天降温；依据是「由于连着几天降温」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先圈出表示原因的词，再把原因和现象连起来回答，不能只写现象。",
+      "「由于」提示原因，「连着几天」说明降温持续的时间，也是原因的一部分。",
+      "答：池塘结冰是因为连着几天降温；依据是「由于连着几天降温」。"
+    ],
+    "hint": "在短文里找一找哪个词告诉你「是因为什么」。",
+    "alternative": "也可以补充说明「降温要持续几天才会结冰」，指出依据里的时间条件不能忽略。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__cause-and-effect"
+  },
+  {
+    "id": "bank-chinese-2-evidence-003",
+    "familyId": "chinese-2-evidence__fam-003",
+    "version": 1,
+    "text": "短文：「小明把橡皮擦得只剩一小块，所以作业本上的字比以前淡了。」字变淡的原因是什么？依据是哪句话？",
+    "answer": "橡皮只剩一小块，擦的时候带走了更多铅粉，所以字变淡了；依据是「小明把橡皮擦得只剩一小块，所以作业本上的字比以前淡了」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因果句里「所以」后面是结果，「所以」前面是原因，回答时要先说原因再说结果。",
+      "原因和结果都写在同一句里，用「所以」连接，抓住这个词就能把句子拆开。",
+      "答：因为橡皮只剩一小块，擦的时候带走了更多铅粉，所以字变淡了；依据是「所以」前面那半句。"
+    ],
+    "hint": "找到表示结果的词，再看它前面那句写了什么。",
+    "alternative": "也可以从橡皮用到什么样就不能擦了这个角度补充，让依据更完整。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__cause-and-effect"
+  },
+  {
+    "id": "bank-chinese-2-evidence-004",
+    "familyId": "chinese-2-evidence__fam-004",
+    "version": 1,
+    "text": "短文：「今天是垃圾分类宣传日。阿姨把垃圾分成三袋，分别贴上纸牌。」阿姨为什么要给垃圾袋贴纸牌？请从文中找出依据。",
+    "answer": "因为今天是垃圾分类宣传日，要让不同种类的垃圾分得清清楚楚；依据是「今天是垃圾分类宣传日」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清短文交代的是一件什么事，再找出和这件事有关的行动，行动的理由常常写在背景句里。",
+      "第一句交代背景，第二句写行动，背景正是行动的理由所在。",
+      "答：因为今天是垃圾分类宣传日，要让不同种类的垃圾分清楚；依据是「今天是垃圾分类宣传日」。"
+    ],
+    "hint": "短文里哪一句交代了「为什么今天是特殊的日子」？",
+    "alternative": "也不妨从「如果少贴一袋会怎么样」反过来推想理由，同样要有原文依据。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__cause-and-effect"
+  },
+  {
+    "id": "bank-chinese-2-evidence-005",
+    "familyId": "chinese-2-evidence__fam-005",
+    "version": 1,
+    "text": "短文：「老屋的窗台上摆着一盆风信子。今年春天，它第一次开出了花。」短文说风信子今年春天第一次开了花。请在原文中找出直接能回答这个问题的句子，并把它抄下来。",
+    "answer": "「今年春天，它第一次开出了花。」",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找依据就是把直接回答问题的那句话原样抄下来，不能只用自己的话转述。",
+      "短文有两句，第一句说摆着花盆，第二句才说到开花，要找的正是第二句。",
+      "答：依据是「今年春天，它第一次开出了花。」这一句。"
+    ],
+    "hint": "先把问题里的关键词（风信子、开花）标出来，再到短文里找含有关键词的那句。",
+    "alternative": "也可以用自己的话复述依据，但一定要说清这句话在原文的哪个位置，前后是什么。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__locate-the-answer"
+  },
+  {
+    "id": "bank-chinese-2-evidence-006",
+    "familyId": "chinese-2-evidence__fam-006",
+    "version": 1,
+    "text": "短文：「弟弟把风筝线缠在手腕上，缠了又松，松了又缠。」弟弟在做什么？请在原文中找出直接说明这件事的句子。",
+    "answer": "弟弟在把风筝线缠在手腕上；依据是「弟弟把风筝线缠在手腕上」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先用自己的话说出答案，再回到原文里找那句能支持它的话，两步都要做。",
+      "「把风筝线缠在手腕上」这个动作直接回答了问题，后面的「缠了又松」是补充说明。",
+      "答：弟弟在把风筝线缠在手腕上；依据是「弟弟把风筝线缠在手腕上」这一句。"
+    ],
+    "hint": "找到短文里表示动作的那个词，看看它前后分别是哪几句话。",
+    "alternative": "还可以把「缠了又松，松了又缠」当作另一处依据，说明他反复在调整线的长度。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__locate-the-answer"
+  },
+  {
+    "id": "bank-chinese-2-evidence-007",
+    "familyId": "chinese-2-evidence__fam-007",
+    "version": 1,
+    "text": "短文：「雨停了，屋檐还在滴水，滴答滴答，像有人在轻轻敲窗。」短文用什么声音来写屋檐滴水？请在原文中找出对应的词句。",
+    "answer": "用「滴答滴答」的滴水声来写，还比作有人轻轻敲窗的声音；依据是「滴答滴答，像有人在轻轻敲窗」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找词句时留意拟声词和比喻句，它们往往就是作者写声音的关键。",
+      "短文先写「滴答滴答」，再打比方说像有人敲窗，两处都在回答这个问题。",
+      "答：作者用「滴答滴答」的滴水声来写，还说它像有人在轻轻敲窗；依据就是这半句话。"
+    ],
+    "hint": "找出短文里带「滴答」两个字的词，再看它后面还写了什么。",
+    "alternative": "也可以说一说如果删掉打比方的那半句，声音的感觉会有什么变化，这同样是依据的另一种用法。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__locate-the-answer"
+  },
+  {
+    "id": "bank-chinese-2-evidence-008",
+    "familyId": "chinese-2-evidence__fam-008",
+    "version": 1,
+    "text": "短文：「奶奶的老花镜滑到鼻尖上，她眯着眼，才把针线穿进针孔。」这里「眯着眼」是什么意思？请结合上下文说明。",
+    "answer": "指把眼睛微微闭上、眯起来仔细看；因为老花镜滑到鼻尖上，奶奶看不清针孔，只能眯起眼睛努力对准。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "理解词语要抓住它前后写的内容，想想在什么情况下会这样做、为什么必须这样做。",
+      "前一句说老花镜滑到了鼻尖，后一句说费劲才能穿针，两句合起来解释了「眯着眼」的意思。",
+      "答：「眯着眼」指把眼睛微微闭上、眯起来仔细看；因为老花镜滑到鼻尖上，奶奶看不清针孔，才要眯着眼穿针。"
+    ],
+    "hint": "先看这个词前面一句写了什么，再看后面一句写了什么。",
+    "alternative": "也不妨先猜一猜「眯着眼」和「睁大眼睛」有什么不同，再回到文中验证。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__word-in-context"
+  },
+  {
+    "id": "bank-chinese-2-evidence-009",
+    "familyId": "chinese-2-evidence__fam-009",
+    "version": 1,
+    "text": "短文：「小路被雨水泡得发软，踩上去像踩在棉花上。」文中「发软」说的是小路什么样？请用文中的话说明。",
+    "answer": "说小路被雨水泡过后变松变软，踩上去像踩棉花；依据是「被雨水泡得发软，踩上去像踩在棉花上」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "词语的意思要从同句或邻句的说明里读出来，作者常常在后面紧接着打比方。",
+      "「发软」后面紧接着「像踩在棉花上」，这个比方把「软」写得能摸得着。",
+      "答：「发软」指小路被雨水泡过后变松变软，踩上去像踩棉花；依据是「踩上去像踩在棉花上」。"
+    ],
+    "hint": "在词语后面找一找有没有「像……」这样的比方句。",
+    "alternative": "也可以用踩上去的声音和感觉来说明，比单说一个「软」字更具体。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__word-in-context"
+  },
+  {
+    "id": "bank-chinese-2-evidence-010",
+    "familyId": "chinese-2-evidence__fam-010",
+    "version": 1,
+    "text": "短文：「新买的风筝在草地上试了三次才稳稳升起。」这里「稳稳升起」写出了怎样的情形？请结合句子说一说。",
+    "answer": "写风筝不再摇摆、平稳地飞上天；因为前面说「试了三次才」，说明前面几次飞得不稳。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "理解带修饰的词语，要先看它前面写了几次、前后是什么情况。",
+      "「试了三次才」说明前面几次没有成功，「稳稳升起」正好和前面的不稳定形成对照。",
+      "答：「稳稳升起」写风筝不再摇摆、平稳地飞上天；依据是「试了三次才稳稳升起」里的「三次才」。"
+    ],
+    "hint": "把「试了三次才」这几个字读一读，它和「稳稳」是什么关系。",
+    "alternative": "也可以反过来想：前两次可能是什么样的，从对比中理解词语。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-evidence__word-in-context"
+  },
+  {
+    "id": "bank-chinese-2-evidence-011",
+    "familyId": "chinese-2-evidence__fam-011",
+    "version": 1,
+    "text": "短文：「周五下午，实验小组在操场上做了一个小实验。他们用两个一样的纸杯，一个杯口蒙上保鲜膜，一个蒙上纱布。」实验小组在什么时间、什么地方做实验？请用文中的词语回答。",
+    "answer": "时间是周五下午，地点是操场；依据是「周五下午，实验小组在操场上做了一个小实验」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答「时间」「地点」这类问题，要一个一个去找短文里的对应词语，不能凭印象作答。",
+      "短文第一句同时交代了时间和地点，先把这句画出来。",
+      "答：时间是周五下午，地点是操场；依据是「周五下午，实验小组在操场上做了一个小实验」。"
+    ],
+    "hint": "把问题分成时间、地点两栏，逐栏到短文里找词。",
+    "alternative": "也可以把两个纸杯的区别一起写进答案，让依据更完整。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__fact-detail"
+  },
+  {
+    "id": "bank-chinese-2-evidence-012",
+    "familyId": "chinese-2-evidence__fam-012",
+    "version": 1,
+    "text": "短文：「《昆虫记》的作者法布尔用了三十多年观察昆虫。他的观察笔记后来被写成了一本书。」法布尔观察昆虫用了多少年？他的观察结果后来变成了什么？答案的依据是哪两处？",
+    "answer": "用了三十多年；观察笔记后来被写成了一本书。依据是「用了三十多年观察昆虫」和「他的观察笔记后来被写成了一本书」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一个问题对应一处依据，问了几处就要在短文里找到几处，不能只靠一处。",
+      "短文只有两句，第一句说时间，第二句说结果，正好一问一处依据。",
+      "答：用了三十多年；观察笔记被写成了一本书。依据是「用了三十多年观察昆虫」和「观察笔记后来被写成了一本书」两句。"
+    ],
+    "hint": "先数一数问题有几个，再去短文里找同样多的依据。",
+    "alternative": "也可以把两处依据连起来说成一句话，说明时间和结果之间的先后关系。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__fact-detail"
+  },
+  {
+    "id": "bank-chinese-2-evidence-013",
+    "familyId": "chinese-2-evidence__fam-013",
+    "version": 1,
+    "text": "短文：「放学时，下起了大雨。同学小文发现同桌没带伞，就把伞举高了一些，两人一起走回了家。」这段话主要讲了什么？请用一句话概括，并指出概括时依据了哪两个关键句。",
+    "answer": "小文在下雨时和没带伞的同桌一起走回了家；依据是「发现同桌没带伞」和「两人一起走回了家」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括主要内容要抓住人物和事情，删去时间地点一类的细节，并指出哪两句话支撑了这个概括。",
+      "短文的中心在小文的行动上，找出行动的两头就能概括出来。",
+      "答：小文在下雨天和没带伞的同桌一起走回了家；依据是「发现同桌没带伞」和「两人一起走回了家」。"
+    ],
+    "hint": "先找出短句里的人物，再看他做了哪件主要的事。",
+    "alternative": "也可以把概括写成「小文帮助了没带伞的同桌」，并说明这样概括后丢掉了什么信息。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__main-idea"
+  },
+  {
+    "id": "bank-chinese-2-evidence-014",
+    "familyId": "chinese-2-evidence__fam-014",
+    "version": 1,
+    "text": "短文：「公园里的池塘干了以后，露出了底部的裂缝。裂缝里长出了几株小草，春天还开出了黄色的小花。」这段话主要讲了什么？概括时不能丢掉哪些关键信息？",
+    "answer": "主要讲池塘干涸后裂缝里长出小草并开出了黄花；概括时不能丢掉「池塘干了」这个起因和「长出小草、开了黄花」这个结果。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括一段话要把起因和结果都留下，只说其中一半就不算概括完整。",
+      "短文按「干裂、长草、开花」的顺序来写，概括时要覆盖这条线索。",
+      "答：主要讲池塘干涸后裂缝里长出小草并开出黄花；概括时不能丢掉池塘干了这个起因和长草开花这个结果。"
+    ],
+    "hint": "用一句话试概括，再回头检查起因和结果是不是都在里面。",
+    "alternative": "也不妨先把短文分成三个阶段，再看少了哪一段话意思就不完整。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__main-idea"
+  },
+  {
+    "id": "bank-chinese-2-evidence-015",
+    "familyId": "chinese-2-evidence__fam-015",
+    "version": 1,
+    "text": "短文：「值日生小禾发现窗台上的水杯倒了，赶紧用拖把擦干，又把杯子放回桌上。」小禾做了哪两件事？从哪里可以看出他很细心？",
+    "answer": "用拖把擦干了水，又把杯子放回桌上；依据是「赶紧用拖把擦干，又把杯子放回桌上」这些动作。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答「做了哪几件事」要数清动作，回答「有什么特点」要把能支持这个特点的动作举出来。",
+      "短文里有两个并列的动作，动词「擦干」和「放回」正好一一对应。",
+      "答：先用拖把把地上的水擦干，再把杯子放回桌上；依据是「赶紧用拖把擦干，又把杯子放回桌上」。"
+    ],
+    "hint": "在短文里圈出表示动作的词，数一数有几个。",
+    "alternative": "也可以从「赶紧」这个词入手，说明正是这个字写出了小禾的细心。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__character-and-evidence"
+  },
+  {
+    "id": "bank-chinese-2-evidence-016",
+    "familyId": "chinese-2-evidence__fam-016",
+    "version": 1,
+    "text": "短文：「奶奶腰疼，还是弯着腰把院子里的衣服一件件收进来。」奶奶是个怎样的人？请说出依据。",
+    "answer": "奶奶是个勤劳又坚强的人；依据是「腰疼，还是弯着腰把院子里的衣服一件件收进来」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断人物特点要从具体的行为和状态去推，再把行为本身作为依据写出来。",
+      "「腰疼」和「还是弯着腰」形成对照，作者正是用这个对照表现人物。",
+      "答：奶奶是个勤劳又坚强的人；依据是「腰疼，还是弯着腰把院子里的衣服一件件收进来」。"
+    ],
+    "hint": "注意短文里前后两个词是不是相反的，答案往往藏在这个对照里。",
+    "alternative": "也不妨说说作者用「一件件」这个词，让你对奶奶多了什么感受。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__character-and-evidence"
+  },
+  {
+    "id": "bank-chinese-2-evidence-017",
+    "familyId": "chinese-2-evidence__fam-017",
+    "version": 1,
+    "text": "甲段：「荷叶上的青蛙鼓着腮帮子。」乙段：「荷叶上的青蛙鼓着腮帮子，扑通一声跳进了池塘。」两段都能写青蛙的样子，乙段比甲段多写了什么？请说出依据。",
+    "answer": "乙段多写了青蛙跳进池塘的动作和声音；依据是乙段末尾「扑通一声跳进了池塘」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两段要找多出来的部分，再把多出来的部分和乙段中的原话一一对应。",
+      "两段的前半句完全相同，差别只在乙段后面多出来的那一截。",
+      "答：乙段多写了青蛙跳进池塘的动作和「扑通一声」的声音；依据是乙段末尾「扑通一声跳进了池塘」。"
+    ],
+    "hint": "把两段的前半句对齐，只看后面多出来的字。",
+    "alternative": "也可以问这样加写有什么好处，让比较不止停留在「多了什么」。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__compare-passages"
+  },
+  {
+    "id": "bank-chinese-2-evidence-018",
+    "familyId": "chinese-2-evidence__fam-018",
+    "version": 1,
+    "text": "甲段：「天黑了，奶奶把灯打开。」乙段：「天黑了，奶奶把灯打开，屋里一下子亮堂堂的，奶奶坐在灯下缝衣服。」乙段比甲段多给出了哪些信息？请指出这些信息来自乙段的哪些地方。",
+    "answer": "多了屋里变亮和奶奶在灯下缝衣服两处信息；依据是「屋里一下子亮堂堂的」和「奶奶坐在灯下缝衣服」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两段时，把乙段多出来的每一条信息都在原文里标出来，一条信息配一处依据。",
+      "乙段在「把灯打开」后面连着加了两句，两句各提供一条新信息。",
+      "答：多了屋里变亮和奶奶在灯下缝衣服两处信息；依据是「屋里一下子亮堂堂的」和「奶奶坐在灯下缝衣服」。"
+    ],
+    "hint": "逐句读乙段，凡是甲段里没有的都记下来。",
+    "alternative": "还可以追问如果把这两句删掉，读者对奶奶的印象会少掉什么。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__compare-passages"
+  },
+  {
+    "id": "bank-chinese-2-evidence-019",
+    "familyId": "chinese-2-evidence__fam-019",
+    "version": 1,
+    "text": "短文：「小溪从山谷里流出来，绕过一块大石头。水流碰到石头时溅起白色的水花，又继续向前流。」下面两句话，哪一句和短文内容相符？请说出理由。（一）小溪一直向前流，从不碰到石头。（二）小溪碰到石头时会溅起白色的水花。",
+    "answer": "第二句相符；依据是「水流碰到石头时溅起白色的水花」，而第一句与「绕过一块大石头」和「碰到石头时溅起水花」不符。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断说法是否符合短文，要一句一句回到原文核对，理由要指出对应的原句。",
+      "两句话都提到石头，一句说从不碰到，一句说碰到会怎样，正文把两种情况都写了，所以要看清是「绕过」还是「碰到」。",
+      "答：第二句相符，依据是「水流碰到石头时溅起白色的水花」；第一句与「绕过一块大石头」不符。"
+    ],
+    "hint": "把选项里的关键词和短文里的词一一对上。",
+    "alternative": "也不妨先判断每句话里过于绝对的说法，再看短文有没有给出相反的情况。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__judge-and-check"
+  },
+  {
+    "id": "bank-chinese-2-evidence-020",
+    "familyId": "chinese-2-evidence__fam-020",
+    "version": 1,
+    "text": "短文：「冬天的早上，湖面结着冰。太阳升起来后，冰面上冒出一层白雾。」下面两句话，哪一句和短文内容相符？请说出理由。（一）白雾是在太阳升起之前出现的。（二）白雾出现在太阳升起之后。",
+    "answer": "第二句相符；依据是「太阳升起来后，冰面上冒出一层白雾」，第一句把先后顺序说反了。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断对错时先看选项和短文说的是不是同一件事，再比一比先后顺序。",
+      "短文用「太阳升起来后」标明了时间，选项正好把顺序说反了。",
+      "答：第二句相符，依据是「太阳升起来后，冰面上冒出一层白雾」；第一句与短文的时间先后相反。"
+    ],
+    "hint": "在短文里画出表示先后的词，比如「后」「先」「起」。",
+    "alternative": "也可以先自己说一句符合短文的话，再和两个选项比较。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-evidence__judge-and-check"
+  },
+  {
+    "id": "bank-chinese-2-evidence-021",
+    "familyId": "chinese-2-evidence__fam-021",
+    "version": 1,
+    "text": "学校公告栏：「本周四下午两点，图书馆在四年级阅览区举办故事里的桥读书会，请带一本自己最喜欢的书参加。」根据公告写出读书会的时间、地点，并说明要带什么。请指出你依据的句子。",
+    "answer": "时间是本周四下午两点，地点是图书馆四年级阅览区，要带一本自己最喜欢的书；依据是公告中「本周四下午两点」「在四年级阅览区」「请带一本自己最喜欢的书参加」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先从公告里逐项读出时间、地点和要求，再把支撑它们的那句话指出来。",
+      "公告虽只有一句，但包含的信息分成了时间、地点和物品三部分。",
+      "答：时间本周四下午两点，地点图书馆四年级阅览区，要带一本自己最喜欢的书；依据是「本周四下午两点，图书馆在四年级阅览区……请带一本自己最喜欢的书参加」。"
+    ],
+    "hint": "把句中的时间词、地点词和「请」字后面的要求分别抄下来。",
+    "alternative": "也可以补一句「公告里还应该说明什么」，用缺什么来说明自己还需要哪条依据。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__notice-board"
+  },
+  {
+    "id": "bank-chinese-2-evidence-022",
+    "familyId": "chinese-2-evidence__fam-022",
+    "version": 1,
+    "text": "菜谱卡片：「第一步，把鸡蛋磕进碗中，加两勺盐，充分打散。第二步，锅里放油，油热后倒入蛋液，等边缘凝固再翻面。」要想炒出金黄的蛋，第二步应该注意什么？请从卡片中找出相关依据。",
+    "answer": "要等油热后再倒入蛋液，并且等蛋液边缘凝固了再翻面；依据是「油热后倒入蛋液，等边缘凝固再翻面」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把卡片上每一步做法的理由想清楚，再回答该注意什么并指出依据。",
+      "第二步里写了「油热后」和「等边缘凝固再翻面」两个关键条件，正是蛋会变金黄的原因。",
+      "答：要在油热后再倒入蛋液，等蛋液边缘凝固了再翻面；依据是「油热后倒入蛋液，等边缘凝固再翻面」。"
+    ],
+    "hint": "把卡片里带「等」「后」这样的词圈出来，它们常常是关键条件。",
+    "alternative": "也可以从「油不够热会怎样」的角度回答，再对应回卡片上的那句话。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__recipe-card"
+  },
+  {
+    "id": "bank-chinese-2-evidence-023",
+    "familyId": "chinese-2-evidence__fam-023",
+    "version": 1,
+    "text": "观察记录：「三月初，燕子飞回来了。四月中旬，屋檐下的泥巢已经筑好。」记录里写了燕子的哪两件事？请按先后顺序说出，并指出依据。",
+    "answer": "先写燕子飞回来了，后写屋檐下的泥巢筑好了；依据是「三月初，燕子飞回来了」和「四月中旬，屋檐下的泥巢已经筑好」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按时间顺序概括要抓住表示时间的词，一件事对应一条依据。",
+      "两句话各带一个时间点，顺序就是三月初在前、四月中旬在后。",
+      "答：先写了燕子飞回来，后写了屋檐下的泥巢筑好了；依据是「三月初，燕子飞回来了」和「四月中旬，屋檐下的泥巢已经筑好」这两句。"
+    ],
+    "hint": "先把记录里的时间点排好，再在每句旁边写出它说的事。",
+    "alternative": "也可以想一想记录里还缺少哪一件事，比如什么时候离开，从完整性回答。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__animal-record"
+  },
+  {
+    "id": "bank-chinese-2-evidence-024",
+    "familyId": "chinese-2-evidence__fam-024",
+    "version": 1,
+    "text": "展品说明牌：「这是一只清代的瓷碗，碗底有“大明宣德年制”六个字。经检测，胎体是用本地泥土烧制的。」说明牌告诉了我们哪两件与这只碗有关的事？请分别指出依据。",
+    "answer": "这是一件清代的瓷碗，胎体用本地泥土烧成；依据是「这是一只清代的瓷碗」和「经检测，胎体是用本地泥土烧制的」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说明牌上的每一句常对应一条信息，先分清哪句说的是年代，哪句说的是成分。",
+      "第一句说朝代和器物，第二句说检测结果，两句各提供一条信息。",
+      "答：一件是这只碗属于清代、是瓷碗，另一件是它的胎体用本地泥土烧成；依据分别是「这是一只清代的瓷碗」和「胎体是用本地泥土烧制的」。"
+    ],
+    "hint": "找出说明牌里带「经检测」等说明来源的词和直接下判断的词。",
+    "alternative": "还可以指出说明牌没有交代什么，例如为什么在这里烧成，由此提出新问题。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__museum-label"
+  },
+  {
+    "id": "bank-chinese-2-evidence-025",
+    "familyId": "chinese-2-evidence__fam-025",
+    "version": 1,
+    "text": "实验小结：「我们把同样多的豆子分别放在湿棉花和干棉花上。三天后，湿棉花上的豆子发芽了，干棉花上的没有。」为什么湿棉花上的豆子发芽了？答案的依据是哪一句？",
+    "answer": "因为湿棉花上有水，豆子得到了发芽需要的水分；依据是「三天后，湿棉花上的豆子发芽了，干棉花上的没有」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看清实验只改变了一个条件，再想这个条件为什么这样关键，依据要指出体现差异的那句话。",
+      "两组只有湿、干不同，结果一组发芽一组没发芽，差别就出在水分上。",
+      "答：因为湿棉花上有水，豆子得到了发芽需要的水分；依据是「湿棉花上的豆子发芽了，干棉花上的没有」。"
+    ],
+    "hint": "先找出两组之间唯一不同的条件，再看结果上的差别。",
+    "alternative": "也可以指出结论的限度：这次实验只说明豆子发芽需要水，不能推广到所有种子。",
+    "prerequisites": [
+      "chinese-2-evidence",
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__experiment-report"
+  },
+  {
+    "id": "bank-chinese-2-evidence-026",
+    "familyId": "chinese-2-evidence__fam-026",
+    "version": 1,
+    "text": "天气预报：「明天白天多云，最高气温十八摄氏度；夜间有雾，能见度较低。」如果明天傍晚要骑车上学，需要注意什么？请用预报中的信息说明理由。",
+    "answer": "要注意夜间有雾、能见度低，路上要慢下来、看清再走；依据是「夜间有雾，能见度较低」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把预报里的信息按时间分清，再把和出行有关的那条挑出来作为理由。",
+      "预报写了白天和夜间两种情况，骑车在傍晚正好遇上夜间有雾这一条。",
+      "答：要注意夜里起雾、看得不太清楚，骑行要放慢速度、看清路面；依据是「夜间有雾，能见度较低」。"
+    ],
+    "hint": "把预报按白天和夜间分成两栏，再想傍晚属于哪一栏。",
+    "alternative": "也可以把回答写成给同学的提醒，再加上「要不要带雨衣」的另一条依据。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__weather-report"
+  },
+  {
+    "id": "bank-chinese-2-evidence-027",
+    "familyId": "chinese-2-evidence__fam-027",
+    "version": 1,
+    "text": "班级公约：「上课发言要先举手，得到允许后再站起来说。下课不要在走廊奔跑，因为走廊很窄。」公约为什么要求发言先举手？公约中哪一条是为了安全？答案的依据是什么？",
+    "answer": "先举手是为了不打断老师和同学，让发言有秩序；为了安全的是「下课不要在走廊奔跑，因为走廊很窄」这一条，依据是公约里写明的「因为走廊很窄」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答「为什么」要找出公约里写出的理由，回答「哪一条」要指出原句，依据不能凭感觉补。",
+      "公约里两条一条没写理由，一条写了「因为走廊很窄」，这条就是安全条款的依据。",
+      "答：先举手是为了不打断别人、让发言有秩序；为了安全的是走廊不奔跑这一条，依据是「因为走廊很窄」。"
+    ],
+    "hint": "找出公约里带「因为」的那一条，那多半就是写明了理由的条款。",
+    "alternative": "也不妨替公约再补一条安全规定，并说明提出这条要依据什么。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__school-rules"
+  },
+  {
+    "id": "bank-chinese-2-evidence-028",
+    "familyId": "chinese-2-evidence__fam-028",
+    "version": 1,
+    "text": "游览图说明：「从北门进入后，沿石板路一直向东走，经过钟塔再往南走，就到了荷花池。」要找到荷花池，应该怎么走？请按照说明中的顺序说，并指出依据。",
+    "answer": "从北门进入，沿石板路一直向东走，经过钟塔再往南走，就到了荷花池；依据是「沿石板路一直向东走，经过钟塔再往南走，就到了荷花池」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按路线说明回答要一步一步复述，并把路线依据的那句话指出来。",
+      "说明里用「一直向东」「再往南」标出方向，用「经过钟塔」标出参照物。",
+      "答：从北门进入，沿石板路向东走，经过钟塔后往南走就到了荷花池；依据是「经过钟塔再往南走，就到了荷花池」。"
+    ],
+    "hint": "把说明里的方向词和参照物按顺序抄一遍，不要打乱。",
+    "alternative": "也可以画一条简单的路线图来代替文字说明，再标出你依据的句子。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__map-guide"
+  },
+  {
+    "id": "bank-chinese-2-evidence-029",
+    "familyId": "chinese-2-evidence__fam-029",
+    "version": 1,
+    "text": "邮件正文：「老师您好。孩子这周每天坚持跳绳五分钟，昨天一口气跳了一百二十下。我怕他累着，想问要不要减量。」从邮件里可以看出两件事实。是什么？请分别指出依据。",
+    "answer": "孩子这周每天坚持跳绳五分钟，昨天一口气跳了一百二十下；依据是「这周每天坚持跳绳五分钟」和「昨天一口气跳了一百二十下」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读信要区分事实和担心：写下来的事情是事实，猜测和请求是写信人的想法。",
+      "邮件里有两处具体的情形记录，还有一处是写信人的担心，事实只有前两处。",
+      "答：孩子这周每天坚持跳绳五分钟，昨天一口气跳了一百二十下；依据是「这周每天坚持跳绳五分钟」和「昨天一口气跳了一百二十下」。"
+    ],
+    "hint": "把信里写的和猜的分开，只把写下来的事实留下来。",
+    "alternative": "也可以从写信人的角度回答：写信人担心孩子累着，说明他对孩子的情况比较了解。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__email-letter"
+  },
+  {
+    "id": "bank-chinese-2-evidence-030",
+    "familyId": "chinese-2-evidence__fam-030",
+    "version": 1,
+    "text": "新闻剪报：「昨天上午，一场义务植树活动在城南的小广场举行。五十多名同学种下了六十棵小树。」新闻写明了哪些数字信息？这些数字分别说明什么？请指出依据。",
+    "answer": "五十多名同学和六十棵小树；前者说明参加的人很多，后者说明这次活动的规模；依据是「五十多名同学种下了六十棵小树」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-evidence",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把新闻里的数字找齐，再想每个数字说明了活动的那一方面，依据要指回原句。",
+      "短文里有两个数字，一个说人数，一个说种树的数量，分别对应参与规模和活动成效。",
+      "答：五十多名同学说明参加的人多，六十棵小树说明这次种树的规模；依据是「五十多名同学种下了六十棵小树」。"
+    ],
+    "hint": "找出新闻中所有的数量，再问一句「这个数量说明了什么」。",
+    "alternative": "也可以补充一条新闻没写到的内容，比如活动用了多久，并说明这样写会让读者多知道什么。",
+    "prerequisites": [
+      "chinese-2-evidence"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-evidence__news-clipping"
+  },
+  {
+    "id": "bank-chinese-2-science-001",
+    "familyId": "chinese-2-science__fam-001",
+    "version": 1,
+    "text": "科普短文：「用水彩笔在纸上画一条直线，把纸对折，沿着直线斜着剪开。展开后，纸上出现了一个个左右对称的图形。」请用三句话说清剪纸的过程，顺序不能颠倒。",
+    "answer": "先在纸上画一条直线；再把纸对折；然后沿着直线斜着剪开，展开后纸上就出现了一个个左右对称的图形。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说过程要按做事的先后顺序写，一个动作一句，先做什么、后做什么不能乱。",
+      "短文里的动作依次是画线、对折、斜着剪开，展开是最后一步。",
+      "答：先在纸上画一条直线；再把纸对折；然后沿着直线斜着剪开，展开后纸上就出现了一个个左右对称的图形。"
+    ],
+    "hint": "把短文里表示动作的词按「先、再、然后」排一排，再补上最后展开这一步。",
+    "alternative": "也可以用「先……接着……最后……」的连接词把三步串起来，每一步都写清工具和位置。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__process-steps"
+  },
+  {
+    "id": "bank-chinese-2-science-002",
+    "familyId": "chinese-2-science__fam-002",
+    "version": 1,
+    "text": "科普短文：「蚕宝宝吃桑叶长大，过一段时间会吐丝结茧。茧里的蛹变成蚕蛾后，会咬破茧壳飞出来。」请用一句话说清蚕变成蚕蛾要经过哪些阶段。",
+    "answer": "蚕吃桑叶长大后吐丝结茧，茧里的蛹变成蚕蛾，蚕蛾最后咬破茧壳飞出来。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一句话概括过程要用「先……接着……最后……」把阶段串起来，中间环节不能漏。",
+      "短文写出了吃桑叶长大、吐丝结茧、变成蚕蛾、咬破茧壳四个环节。",
+      "答：蚕吃桑叶长大后吐丝结茧，茧里的蛹变成蚕蛾，蚕蛾最后咬破茧壳飞出来。"
+    ],
+    "hint": "先数一数短文里写了几个阶段，再用一个顺序词把它们连起来。",
+    "alternative": "也可以画一条带箭头的流程图，再照着图把过程说一遍。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__process-steps"
+  },
+  {
+    "id": "bank-chinese-2-science-003",
+    "familyId": "chinese-2-science__fam-003",
+    "version": 1,
+    "text": "科普短文：「种绿豆芽时，先把绿豆放进垫了湿棉花的小盆里，再盖上一张纸片防灰，最后每天喷一次水。」请照着这段话说说照顾绿豆芽的步骤，每一步要做什么。",
+    "answer": "先把绿豆放进垫了湿棉花的小盆里；再盖上一张纸片防灰；最后每天喷一次水。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述步骤要按原文的顺序做，原文里的顺序词就是最好的提示。",
+      "三步分别由「先」「再」「最后」引出，每一步都写了具体的做法。",
+      "答：先把绿豆放进垫了湿棉花的小盆里；再盖上一张纸片防灰；最后每天喷一次水。"
+    ],
+    "hint": "找出短文里的顺序词，按它们把三个动作排好再连起来说。",
+    "alternative": "也不妨说出每一步这样做的用意，把「步骤」和「为什么」一起讲清楚。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__process-steps"
+  },
+  {
+    "id": "bank-chinese-2-science-004",
+    "familyId": "chinese-2-science__fam-004",
+    "version": 1,
+    "text": "科普短文：「蜜蜂落到花上，用像吸管一样的长舌把花蜜吸进蜜囊。它把花蜜带回蜂巢，和别的蜜蜂一起反复加工，最后酿成蜂蜜。」请按顺序说出蜜蜂酿蜜要经过哪几步。",
+    "answer": "蜜蜂落到花上吸花蜜，装进蜜囊带回蜂巢，再和同伴一起反复加工，最后酿成蜂蜜。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说酿蜜的过程要抓住「采集、带回、加工、酿成」这条线，每一步都不能省。",
+      "短文用「落到花上」「带回蜂巢」「反复加工」「最后酿成」写出了四步。",
+      "答：蜜蜂落到花上吸花蜜，装进蜜囊带回蜂巢，再和同伴一起反复加工，最后酿成蜂蜜。"
+    ],
+    "hint": "把短文里表示先后位置的词圈出来，数一数一共几步。",
+    "alternative": "也可以追问「如果少了最后加工这一步会怎样」，从关键环节切入。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__process-steps"
+  },
+  {
+    "id": "bank-chinese-2-science-005",
+    "familyId": "chinese-2-science__fam-005",
+    "version": 1,
+    "text": "科普短文：「鱼类用鳃呼吸，鳃能利用水里的氧气。所以鱼一旦离开水，就会难受甚至死去。」短文先说了哪个事实，再说哪个结论？这样写有什么好处？",
+    "answer": "先说鱼类用鳃呼吸、鳃能利用水中氧气这个事实，再说鱼离开水会难受甚至死去这个结论；好处是让读者明白结论是从哪里来的。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判断科普段落的结构，要先分清哪句是观察到的事实，哪句是作者得出的结论。",
+      "第一句是事实，第二句是结论，而且用了「所以」把两者连起来。",
+      "答：先说鱼类用鳃呼吸、鳃能利用水中氧气的事实，再说鱼离开水会难受甚至死去的结论；好处是让读者明白结论是从哪来的。"
+    ],
+    "hint": "找出句子里表示因果的词，含它的后一句通常就是结论。",
+    "alternative": "也可以把两句话颠倒过来读一读，看看哪一种读起来更容易让人信服。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__fact-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-science-006",
+    "familyId": "chinese-2-science__fam-006",
+    "version": 1,
+    "text": "科普短文：「天空中的云是许多小水滴和小冰晶组成的。云里的水滴越聚越多，就会落下来形成雨。」短文说明了哪两件事？它们之间是什么关系？",
+    "answer": "一是云由许多小水滴和小冰晶组成，二是云里的水滴越聚越多就会落下来形成雨；后者是前者的结果，前者解释了后者。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普短文常常先介绍事物的组成，再说明它会怎样变化，两件事要分清。",
+      "第一句说云的组成，第二句说云的变化，两句都围绕「云」展开。",
+      "答：一件是云由许多小水滴和小冰晶组成，一件是云里的水滴越聚越多会落下来形成雨；后者是前者的结果，前者解释了后者。"
+    ],
+    "hint": "把两句里共同出现的那个主体词找出来，两件事的关系往往就藏在这个重复的词上。",
+    "alternative": "也可以顺着往下问「雨落下来以后又会到哪里去」，把两件事连成一条线。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__fact-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-science-007",
+    "familyId": "chinese-2-science__fam-007",
+    "version": 1,
+    "text": "科普短文：「含羞草的叶子被碰到以后会合拢起来。因为叶柄下面的细胞水分很快流失，叶子就慢慢垂下了。」短文先介绍现象还是先讲原因？这样安排有什么好处？",
+    "answer": "先介绍叶子被碰到会合拢的现象，再讲细胞水分流失的原因；好处是先用奇异的现象引起好奇，再作解释，读者记得更牢。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读科普段落先分清现象和原因，再想一想先说哪一个更容易引起读者兴趣。",
+      "第一句是被看到的现象，第二句是用「因为」引出的解释。",
+      "答：先介绍叶子被碰到会合拢的现象，再讲细胞水分流失的原因；好处是先用现象引起好奇，再作解释，读者记得更牢。"
+    ],
+    "hint": "找出「因为」这个词，它前面的一句就是现象。",
+    "alternative": "也可以想一想如果把两句对调，读者读起来会觉得怎样，从阅读感受作比较。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__fact-and-reason"
+  },
+  {
+    "id": "bank-chinese-2-science-008",
+    "familyId": "chinese-2-science__fam-008",
+    "version": 1,
+    "text": "科普短文：「超声波的频率比人耳能听到的声音高很多，所以人听不见，动物却能听见。」请用自己的话说清楚「人听不见、狗却能听见」的原因。",
+    "answer": "因为超声波的频率比人耳能听到的声音高得多，人的耳朵听不见这种声音，狗的耳朵却能听见。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用自己的话解释，就是把原因和结果都用平常的说法讲一遍，不照抄原句。",
+      "原文的关键词是「频率高」，解释时要说清高到人耳听不见、动物却能听见。",
+      "答：因为超声波的频率比人耳能听到的声音高得多，人的耳朵听不见这种声音，狗的耳朵却能听见。"
+    ],
+    "hint": "先找出原文里解释原因的关键词，再用自己的话把它说白。",
+    "alternative": "也可以用打比方来说明频率的高低，比如声音太尖细，人的耳朵接不住。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__concept-plain"
+  },
+  {
+    "id": "bank-chinese-2-science-009",
+    "familyId": "chinese-2-science__fam-009",
+    "version": 1,
+    "text": "科普短文：「鸟的翅膀上面弯曲、下面平直。飞行时空气从上面走得快、下面走得慢，就把鸟托了起来。」请用自己的话解释「空气」是怎样把鸟托起来的。",
+    "answer": "鸟飞的时候，翅膀上面的空气流得快，下面的空气流得慢，下面推力更大，就把鸟托了起来。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "解释一个看不见的过程，要抓住「快慢不同」「压力不同」这类关键差别，再用平常话说出来。",
+      "短文给了两处差别：上面走得快、下面走得慢，这两处差别造成的结果就是把鸟托起来。",
+      "答：鸟飞的时候，翅膀上面的空气流得快，下面的空气流得慢，下面的推力更大，就把鸟托了起来。"
+    ],
+    "hint": "先找出「快」和「慢」分别指哪一边，再想想两边的差别会带来什么。",
+    "alternative": "也可以用「下面的空气把鸟托起来」这样的说法，只要把快慢的差别讲清楚就算解释到位。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__concept-plain"
+  },
+  {
+    "id": "bank-chinese-2-science-010",
+    "familyId": "chinese-2-science__fam-010",
+    "version": 1,
+    "text": "科普短文：「植物的叶子里有叶绿素，它能利用阳光，把水和二氧化碳变成养分，同时放出氧气。」请用自己的话说清楚植物的叶子在做什么。",
+    "answer": "叶子里的叶绿素借着阳光，把水和二氧化碳变成养分，同时放出氧气，这就是叶子在做的事。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括过程要说出「拿什么」「靠什么」「做成什么」，三样都要出现在句子里。",
+      "原文写明了材料（水和二氧化碳）、条件（阳光和叶绿素）和结果（养分和氧气）。",
+      "答：叶子里的叶绿素借着阳光，把水和二氧化碳变成养分，同时放出氧气。"
+    ],
+    "hint": "在原句里找出「利用」「变成」这样的动词，它们标出了过程的两头。",
+    "alternative": "也不妨先用「植物在吃饭」来打比方，再换成叶绿素的说法，用生活经验帮助理解。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-2-science__concept-plain"
+  },
+  {
+    "id": "bank-chinese-2-science-011",
+    "familyId": "chinese-2-science__fam-011",
+    "version": 1,
+    "text": "科普短文：「海边白天和夜晚的风向常常相反。白天陆地升温快，热的空气往上升，凉快的海风就吹向陆地；到了夜晚陆地降温快，风向就反过来。」白天海边为什么常吹海风？请用短文中的原因来说明。",
+    "answer": "因为白天陆地升温快，热空气往上升，凉快的海风就吹向陆地，所以海边常吹海风。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说明现象的原因要引用短文写出的原因，并把它和现象连起来说。",
+      "短文用分号把白天和夜晚分成两种情况，白天那半句就是原因。",
+      "答：白天陆地升温快，热空气往上升，凉快的海风就吹向陆地，所以海边常吹海风。"
+    ],
+    "hint": "在短文里找出「白天」那半句，看看它解释了什么。",
+    "alternative": "也可以补充夜晚的情况，说明风会反过来，用两个方向对比着回答。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__why-phenomenon"
+  },
+  {
+    "id": "bank-chinese-2-science-012",
+    "familyId": "chinese-2-science__fam-012",
+    "version": 1,
+    "text": "科普短文：「冬天呼出的“白气”看起来像一团雾，其实那是嘴里呼出的水蒸气遇冷凝结成的小水滴。」冬天呼气为什么会有“白气”？请指出短文中的原因。",
+    "answer": "因为嘴里呼出的水蒸气遇到冷空气，凝结成了许多小水滴，看上去就像一团白气。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找原因要抓住短文里解释「其实」的那部分，「其实」后面往往就是答案。",
+      "短文用「其实」纠正了误解，后面直接点明了水蒸气遇冷凝结。",
+      "答：因为嘴里呼出的水蒸气遇到冷空气，凝结成了许多小水滴，看上去就像一团白气。"
+    ],
+    "hint": "在短文里找一找表示纠正的词，比如「其实」，它后面常常跟着答案。",
+    "alternative": "也可以补充「所以这不是烟雾，而是许多小水滴」，从辨析误解的角度作答。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__why-phenomenon"
+  },
+  {
+    "id": "bank-chinese-2-science-013",
+    "familyId": "chinese-2-science__fam-013",
+    "version": 1,
+    "text": "科普短文：「鲸是哺乳动物，用肺呼吸，要浮到水面换气；鱼用鳃呼吸，可以在水里直接呼吸。」短文拿鲸和鱼作了哪些比较？请说出比较的方面和结果。",
+    "answer": "比较的方面是呼吸方式和呼吸的场所；鲸用肺呼吸、要浮到水面换气，鱼用鳃呼吸、可以在水里呼吸。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较类阅读要找「同一个方面、不同结果」，方面就是比较的角度。",
+      "两句话用分号并列，说的是同一件事：怎么呼吸、在哪里呼吸。",
+      "答：比较的是呼吸方式和呼吸的地方；鲸用肺呼吸、要浮到水面换气，鱼用鳃呼吸、能在水里呼吸。"
+    ],
+    "hint": "找出两句里意思相同的那一部分，它就是比较的方面。",
+    "alternative": "也可以顺着比较的结果想一想：鲸为什么不能像鱼一样一直待在水里。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__compare-in-text"
+  },
+  {
+    "id": "bank-chinese-2-science-014",
+    "familyId": "chinese-2-science__fam-014",
+    "version": 1,
+    "text": "科普短文：「蝴蝶靠翅膀飞行，翅膀上的鳞片能减少空气的阻力。跳蚤没有翅膀，却靠着强壮的后腿和能伸缩的脚趾，跳得比人跑得快。」短文比较了蝴蝶和跳蚤的哪一点？从中可以看出跳蚤在什么地方更占优势吗？",
+    "answer": "比较的是各自靠什么身体结构运动；跳蚤在跳跃方面更占优势，它没有翅膀，却跳得比人跑得快。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较之后还要看短文给出的结果指向谁，才能说出谁在什么方面更有优势。",
+      "短文先说蝴蝶靠翅膀，再用「却」引出跳蚤靠后腿，优势藏在「却」字后面。",
+      "答：比较的是靠什么身体结构运动；跳蚤在跳跃方面更占优势，它没有翅膀却跳得比人跑得快。"
+    ],
+    "hint": "找出短文里的转折词，它后面常常就是比较的结论。",
+    "alternative": "也可以补充「蝴蝶在什么地方更占优势」，从两个方向一起比较。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__compare-in-text"
+  },
+  {
+    "id": "bank-chinese-2-science-015",
+    "familyId": "chinese-2-science__fam-015",
+    "version": 1,
+    "text": "科普短文配一幅示意图：图上画着一条自下而上的箭头，箭头旁依次标着「水汽上升」「遇冷变成云」「聚在一起落下来」。短文说：「地面的水被太阳晒热，变成水汽升到空中。」请按照示意图的顺序，把水变成雨的过程说完整。",
+    "answer": "地面的水被太阳晒热变成水汽升到空中；水汽上升时遇冷变成云；云里的水聚在一起落下来成为雨。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "图文合起来答题，要按箭头标出的顺序把两边的信息接上，不能跳过中间环节。",
+      "图给出三个环节，短文补上了第一个环节的起因「被太阳晒热」。",
+      "答：地面的水被太阳晒热变成水汽升到空中；水汽上升时遇冷变成云；云里的水聚在一起落下来就是雨。"
+    ],
+    "hint": "先按箭头把三个环节抄下来，再把短文里说明起点的那句接到最前面。",
+    "alternative": "也不妨在示意图上补一个方框，写上「太阳晒热」，让图和文完全对上。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__text-and-figure"
+  },
+  {
+    "id": "bank-chinese-2-science-016",
+    "familyId": "chinese-2-science__fam-016",
+    "version": 1,
+    "text": "科普短文配一幅示意图：图上画着一只青蛙，后腿边有一道表示蹬地的弧线，弧线旁写着「后腿有力」。短文说：「青蛙跳得远，靠的是强壮的后腿和善于伸缩的脚趾。」图文合起来，把青蛙跳得远的原因说完整。",
+    "answer": "因为青蛙的后腿强壮有力，能蹬地；脚趾又善于伸缩，能蹬到更远的地方，所以它跳得远。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "图文合起来答题，要把图上的提示和文中的说法互相补充，不能只用其中一边。",
+      "图上标出「后腿有力」，文中还补上了脚趾善于伸缩这一点，两边合起来才完整。",
+      "答：青蛙的后腿强壮有力，能蹬地；脚趾又善于伸缩，能蹬得更远，所以它跳得远。"
+    ],
+    "hint": "把图上的提示和文中的词语各抄一半，再拼成一句完整的话。",
+    "alternative": "也可以对照图想一想：图中特别画出后腿，说明作者最想让我们注意什么。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__text-and-figure"
+  },
+  {
+    "id": "bank-chinese-2-science-017",
+    "familyId": "chinese-2-science__fam-017",
+    "version": 1,
+    "text": "科普短文：「骆驼的脚掌上有厚厚的肉垫，走在松软的沙地上不会陷下去。肉垫还能隔开地面滚烫的沙粒，让骆驼不至于被烫伤。」短文中的「肉垫」指的是什么？它有两个作用，分别是哪两个？",
+    "answer": "「肉垫」指骆驼脚掌上厚厚的软肉；两个作用是走在沙地上不下陷，以及隔开滚烫的沙粒不被烫伤。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普术语要靠上下文来界定，先找出它指代的具体部位，再数一数它有几种作用。",
+      "短文先交代肉垫长在脚掌上，再分别说了不下陷和隔热两件事。",
+      "答：「肉垫」是骆驼脚掌上厚厚的软肉；作用一是在松软的沙地上不下陷，作用二是隔开滚烫的沙粒不被烫伤。"
+    ],
+    "hint": "先找「肉垫」出现在哪个部位，再往下看它分别做了什么。",
+    "alternative": "也不妨用自己知道的其他动物来印证，比如说明为什么沙漠里的动物都有厚脚掌。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__term-meaning"
+  },
+  {
+    "id": "bank-chinese-2-science-018",
+    "familyId": "chinese-2-science__fam-018",
+    "version": 1,
+    "text": "科普短文：「蜂鸟的翅膀每秒振动很多次，能在空中「悬停」在花前不动。它的嘴又细又长，可以直接伸进花里吸取花蜜。」短文中的「悬停」是什么意思？短文还说了蜂鸟用什么办法取食？",
+    "answer": "「悬停」指停在空中不动；蜂鸟靠又细又长的嘴伸进花里吸取花蜜。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先弄清术语的字面意思和文中意思，再看短文里还介绍了哪一种办法。",
+      "「悬停」在文中由「在空中停着不动」来解释，办法则由后一句的细长嘴来说明。",
+      "答：「悬停」是指停在空中不动；蜂鸟用又细又长的嘴伸进花朵里吸取花蜜。"
+    ],
+    "hint": "在术语后面找有没有「就是」「也就是」这样的解释，或者由后面的句子说明。",
+    "alternative": "也可以说一说悬停对采蜜有什么好处，把术语和它的作用连起来。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__term-meaning"
+  },
+  {
+    "id": "bank-chinese-2-science-019",
+    "familyId": "chinese-2-science__fam-019",
+    "version": 1,
+    "text": "科普短文：「竹子并不是树，它的茎是草质的。竹子开花后会结出种子，竹米落到地上又能长出新的竹子。」请用一句话概括这段话讲了什么。",
+    "answer": "竹子不是树而是草质的植物，它开花结出竹米，竹米落到地上又能长出新的竹子。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括成一句话要把最重要的两点合起来，不能只说其中一点。",
+      "短文先纠正一种常见看法，再说竹子的繁殖方式，两点都要进概括句。",
+      "答：竹子不是树，它的茎是草质的；它开花结出竹米，竹米落到地上又能长出新的竹子。"
+    ],
+    "hint": "先把短文分成几层意思，再挑出最主要的一层加上一句补充。",
+    "alternative": "也可以概括成「这是关于竹子的一则科普」，再把两句话补充在后面作为展开。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__one-sentence-summary"
+  },
+  {
+    "id": "bank-chinese-2-science-020",
+    "familyId": "chinese-2-science__fam-020",
+    "version": 1,
+    "text": "科普短文：「蚂蚁找到食物后，会在回家的路上留下气味。同伴闻到这种气味，就沿着同一条路线找到食物。」请用一句话概括这段话的意思。",
+    "answer": "蚂蚁找到食物后会在回巢的路上留下气味，同伴闻到气味就能沿着同样的路线找到食物。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "概括要把「谁用什么办法」「同伴因此能做什么」两半合进同一句话里。",
+      "短文前半句说蚂蚁留下气味，后半句说同伴顺着气味找到食物，两半必须都在。",
+      "答：蚂蚁找到食物后会在回巢的路上留下气味，同伴闻到气味就能沿着同样的路线找到食物。"
+    ],
+    "hint": "在原句里找出「谁」「用什么」「结果怎样」三个要素，再连成一句话。",
+    "alternative": "也可以用「留下路标」这样更简练的说法，意思不变但更概括。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-2-science__one-sentence-summary"
+  },
+  {
+    "id": "bank-chinese-2-science-021",
+    "familyId": "chinese-2-science__fam-021",
+    "version": 1,
+    "text": "科普短文：「一棵成年大树一天里从根部吸进大量的水，水分大部分又通过叶片上的小孔蒸发到空气里。这些水汽升到高空，凝结成云，最后变成雨落下来。」这段话讲的是水的哪一次循环？请按短文的顺序说出几个关键环节。",
+    "answer": "讲的是水在自然界里的循环；顺序是树根吸水、叶片蒸发成水汽、水汽升到高空、凝结成云、最后落下来变成雨。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读科普段落要把一连串动作串成一条线，顺序不能打乱，环节不能少。",
+      "短文的顺序是吸水、蒸发、升到高空、凝结成云、落成雨，一环扣一环。",
+      "答：讲的是水在自然界里的循环；顺序是树根吸水、叶片蒸发成水汽、水汽升到高空、凝结成云、最后落下来变成雨。"
+    ],
+    "hint": "把短文里表示位置的词和表示变化的词连起来，数一数一共有几个环节。",
+    "alternative": "也可以从人的角度想一想：这棵树喝的水最后又回到了哪里，把这条线接完整。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__forest-water-cycle"
+  },
+  {
+    "id": "bank-chinese-2-science-022",
+    "familyId": "chinese-2-science__fam-022",
+    "version": 1,
+    "text": "科普短文：「夜里地面变冷，空气中的水汽在草叶上凝成小水珠，这就是露。气温降到零度以下时，水汽直接变成小冰晶，就成了霜。」露和霜有什么相同点和不同点？答案的依据是什么？",
+    "answer": "相同点是都由空气中的水汽在草叶上凝结而成；不同点是露是小水珠，霜是小冰晶，霜出现时气温要在零度以下。依据是「水汽在草叶上凝成小水珠」和「水汽直接变成小冰晶」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两种事物要分成「相同」和「不同」两栏，每一条都要在短文里找到依据。",
+      "两句话句式相似，都写水汽在草叶上变出东西，差别在变成的是什么、在什么温度下发生。",
+      "答：相同点是都由空气中的水汽在草叶上凝结而成；不同点是露是小水珠，霜是小冰晶，霜出现需要气温低于零度。依据是「凝成小水珠」和「直接变成小冰晶」两句。"
+    ],
+    "hint": "把两句结构相同的地方找出来，相同点就在那里，剩下的差别就是不同点。",
+    "alternative": "也可以补充「露和霜谁更容易化掉，为什么」，从水的三种状态去理解。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__dew-and-frost"
+  },
+  {
+    "id": "bank-chinese-2-science-023",
+    "familyId": "chinese-2-science__fam-023",
+    "version": 1,
+    "text": "科普短文：「蜜蜂回到巢里会用舞蹈告诉同伴食物在哪里。舞蹈的方向表示花在太阳的哪个方位，摇摆的时间长短表示食物有多远。」蜜蜂靠什么把食物的位置告诉同伴？请说出两样信息分别表示什么。",
+    "answer": "靠舞蹈；舞蹈的方向表示花在太阳的哪个方位，摇摆时间的长短表示食物离蜂巢有多远。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普短文里常用「表示」把两样东西对应起来，找出这些对应的词就能答。",
+      "短文用「方向表示」「时间表示」把舞蹈动作和食物位置一一对应起来。",
+      "答：蜜蜂靠舞蹈传递消息；舞蹈的方向表示花在太阳的哪个方位，摇摆的时间长短表示食物离得有多远。"
+    ],
+    "hint": "在短文里找一找「表示」这个词，它前后两边的内容就是答案的两半。",
+    "alternative": "也可以问「如果太阳被云挡住，蜜蜂还能找到花吗」，从条件的角度追问。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__honey-bee"
+  },
+  {
+    "id": "bank-chinese-2-science-024",
+    "familyId": "chinese-2-science__fam-024",
+    "version": 1,
+    "text": "科普短文：「火箭升空时向下喷出高速的气体，反作用力就把火箭推向上空。多级火箭在燃料用完后，会把空壳一段段丢掉，减轻负担继续飞行。」短文讲了两件事，它们分别是什么？",
+    "answer": "一是火箭靠向下喷气产生的反作用力升空，二是多级火箭会一段段丢掉空壳来减轻负担。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一段话讲了几件事，就按意思分成几块，每块用一句话说清，并保留各自的关键词。",
+      "第一块讲推力，第二块讲丢掉空壳，两块之间用句号断开。",
+      "答：一件是火箭向下喷出高速气体，反作用力把它推上天空；另一件是多级火箭在燃料用完后一段段丢掉空壳，减轻负担继续飞。"
+    ],
+    "hint": "先按句号把短文分成两块，再看每块的核心是什么。",
+    "alternative": "也不妨问「为什么火箭要分成多级」，从设计的角度补充。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__rocket-launch"
+  },
+  {
+    "id": "bank-chinese-2-science-025",
+    "familyId": "chinese-2-science__fam-025",
+    "version": 1,
+    "text": "科普短文：「把废纸打成浆再做成新纸，一吨废纸大约能少砍十七棵大树。回收的玻璃瓶可以重新熔成新瓶子，再次使用。」短文用数字说明了回收的什么好处？请再举一个短文没有提到的可以回收的东西。",
+    "answer": "数字说明回收废纸能少砍大树、保护了森林；还可以回收旧衣服、废旧金属这样的东西，短文只提到了废纸和玻璃瓶。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短文里的数字要用来说明好处，不能只把数字抄下来，还要说清它说明了什么。",
+      "「一吨废纸」和「十七棵大树」两个数字合起来，说明回收废纸能少砍树。",
+      "答：数字说明回收废纸可以少砍大树、保护森林，还可以举出旧衣服或废旧金属这样的可回收物。"
+    ],
+    "hint": "找到数字所在的句子，再问一句「这个数量说明了什么」。",
+    "alternative": "也可以补充「回收的玻璃瓶为什么还要重新熔一次」，从做法追问好处。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__recycling"
+  },
+  {
+    "id": "bank-chinese-2-science-026",
+    "familyId": "chinese-2-science__fam-026",
+    "version": 1,
+    "text": "科普短文：「蚂蚁找到食物后，会在回巢的路上留下气味。同伴闻到这种气味，就沿着同一条路线走，一条长长的队伍就这样排了起来。」蚂蚁靠什么记住回家的路？同伴又是靠什么找到食物的？",
+    "answer": "找到食物的蚂蚁靠留下的气味记住回家的路；同伴靠闻到这种气味找到食物。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "同一段科普常常从两个角色出发各说一次，要分清谁是谁、谁做了什么。",
+      "留下气味的是找到食物的蚂蚁，顺着气味走的是同伴，两个角色要对应清楚。",
+      "答：找到食物的蚂蚁靠留下的气味记住回家的路；同伴靠闻到这种气味找到食物。"
+    ],
+    "hint": "在短文里找出两个不同的「谁」，再分别看他做什么。",
+    "alternative": "也可以问「如果下大雨冲掉了气味，同伴会怎样」，从条件变化去理解。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__ant-trail"
+  },
+  {
+    "id": "bank-chinese-2-science-027",
+    "familyId": "chinese-2-science__fam-027",
+    "version": 1,
+    "text": "科普短文：「磁铁能隔空吸住铁做的东西，却吸不住铜和铝做的勺子。磁铁的两端吸力最强，中间最弱。」磁铁能吸住哪些东西？磁铁上哪个部位的吸力最强？请指出依据。",
+    "answer": "能吸住铁做的东西，吸不住铜和铝做的勺子；磁铁两端吸力最强，依据是「磁铁的两端吸力最强，中间最弱」。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "科普短文里的「能」和「却」分别标出可行与不可行，两边都要写进答案。",
+      "第一句用「却」把吸得住和吸不住分成两边，第二句直接说明了吸力的强弱。",
+      "答：能吸住铁做的东西，吸不住铜和铝做的勺子；磁铁两端吸力最强，依据是「磁铁的两端吸力最强，中间最弱」。"
+    ],
+    "hint": "找出短文里表示转折和表示限定的词，两边的信息就都在了。",
+    "alternative": "也不妨想一想「如果把磁铁中间再剪一刀会发生什么」，从新问题理解磁力分布。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__magnet-lifting"
+  },
+  {
+    "id": "bank-chinese-2-science-028",
+    "familyId": "chinese-2-science__fam-028",
+    "version": 1,
+    "text": "科普短文：「食物先在嘴里被嚼碎，经过食道到达胃里。胃像一个口袋一样收缩，把食物搅成糊。接着小肠吸收其中的养分，剩下的渣滓到大肠，最后成为粪便排出体外。」食物在人体内经过了哪些地方？请按顺序说。",
+    "answer": "嘴里、食道、胃、小肠、大肠，最后变成粪便排出体外。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按顺序说明要抓住表示位置的词和表示动作的词，把地点串成一条路线。",
+      "短文依次写到嘴里、食道、胃、小肠、大肠，动词是嚼碎、到达、收缩、吸收。",
+      "答：食物依次经过嘴里、食道、胃、小肠、大肠，最后变成粪便排出体外。"
+    ],
+    "hint": "把表示位置的词抄成一串，再检查有没有漏掉哪一段。",
+    "alternative": "也可以问「营养主要在哪一段被吸收」，从这条路线里挑出关键的一站。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__digestion"
+  },
+  {
+    "id": "bank-chinese-2-science-029",
+    "familyId": "chinese-2-science__fam-029",
+    "version": 1,
+    "text": "科普短文：「种子发芽需要三个条件：适量的水、足够的空气和合适的温度，三者缺一不可。缺了水，种子会干瘪；缺了空气，它会闷住不发；温度太低，它就一直睡着。」短文说种子发芽需要哪几个条件？其中最容易忽略的是哪一个？",
+    "answer": "需要适量的水、足够的空气和合适的温度三个条件，三者缺一不可；最容易忽略的是足够的空气。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找出条件以后还要比较哪一个最容易被人忽略，可以从短文里有没有专门说明来判断。",
+      "短文列了三个条件，又分别写了缺了水的后果，但空气只在条件里出现，没有单独展开。",
+      "答：发芽需要适量的水、足够的空气和合适的温度，三者缺一不可；最容易忽略的是足够的空气，因为短文只说了它会闷住不发。"
+    ],
+    "hint": "把三个条件列出来后，看哪一个在短文里讲得最少。",
+    "alternative": "也不妨说说为什么缺了空气豆子不会烂，反而只是不发芽。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__seed-germination"
+  },
+  {
+    "id": "bank-chinese-2-science-030",
+    "familyId": "chinese-2-science__fam-030",
+    "version": 1,
+    "text": "科普短文：「声音是物体振动产生的，振动一停止，声音也就消失了。声音还要靠空气或其他物质来传播，在没有空气的太空里，我们听不到声音。」短文讲了关于声音的哪两点知识？",
+    "answer": "一是声音由物体振动产生，振动停止声音就消失；二是声音要靠空气或其他物质传播，所以真空里传不了声音。",
+    "unit": "",
+    "knowledgeId": "chinese-2-science",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一段科普讲几点知识，就按意思分成几块，每块用一句话概括，并保留关键的因果关系。",
+      "两块意思分别由句号分开，第一块讲声音的来源，第二块讲声音的传播。",
+      "答：第一，声音是物体振动产生的，振动一停止声音就消失；第二，声音要靠空气或其他物质传播，所以在太空里听不到声音。"
+    ],
+    "hint": "先按句号分成两块，再看每块里有没有「所以」这样的连接。",
+    "alternative": "也不妨追问「那么把耳朵贴在桌面上能听见敲桌声吗」，把两块知识连起来用一用。",
+    "prerequisites": [
+      "chinese-2-science"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-2-science__sound-travel"
+  }
+]

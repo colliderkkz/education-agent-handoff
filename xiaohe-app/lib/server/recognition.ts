@@ -1,10 +1,10 @@
-import type { ApiResult, Paper, Question, RecognitionCandidate, RecognitionCapture, RecognitionEntry, RecognitionLine, RecognitionMatch, RecognitionState, Role, WorkspaceState } from '../types.ts';
+import { mergedQuestions, type ApiResult, type ContentBank, type Paper, type Question, type RecognitionCandidate, type RecognitionCapture, type RecognitionEntry, type RecognitionLine, type RecognitionMatch, type RecognitionState, type Role, type WorkspaceState } from '../types.ts';
 import { historyDeletedUpload, historyFileIdentity } from '../history-deletion.ts';
 import { canonicalStringify, ensureContent, questionContentDigest, sha256 } from './content.ts';
 import { DomainError } from './domain-error.ts';
 
 type Input = Record<string, unknown>;
-type Context = { userId: string; displayName: string; role: Role; channel?: 'local'; now: string; newId: () => string };
+type Context = { userId: string; displayName: string; role: Role; channel?: 'local'; now: string; newId: () => string; bank?: ContentBank };
 type Submit = (state: WorkspaceState, paper: Paper, entries: RecognitionEntry[]) => string;
 const hash = (value: unknown) => sha256(canonicalStringify(value));
 function check(value: unknown, message: string, status = 400): asserts value { if (!value) throw new DomainError(message, status); }
@@ -52,11 +52,11 @@ function writableCapture(state: WorkspaceState, id: unknown, userId: string): Re
 }
 function eligible(q: Question) { return q.status === 'published' && Boolean(q.reviewerId) && q.reviewerId !== q.authorId; }
 /** Returns public candidate metadata only; retrieval never establishes same-question identity. */
-export function recognitionMatches(state: WorkspaceState, query: string): RecognitionMatch[] {
+export function recognitionMatches(state: WorkspaceState, query: string, bank?: ContentBank): RecognitionMatch[] {
   text(query, 2000);
   const normalized = query.normalize('NFKC').replace(/\s+/g, '');
   const terms = [...new Set(normalized.match(/\d+(?:\.\d+)?|[\u4e00-\u9fff]|[A-Za-z]+/g) ?? [normalized])];
-  return state.questions.filter(eligible).map(q => ({ q, score: terms.reduce((sum, term) => sum + (q.text.normalize('NFKC').includes(term) ? term.length : 0), 0) }))
+  return mergedQuestions(state, bank).filter(eligible).map(q => ({ q, score: terms.reduce((sum, term) => sum + (q.text.normalize('NFKC').includes(term) ? term.length : 0), 0) }))
     .filter(v => v.score > 0).sort((a,b) => b.score - a.score || a.q.id.localeCompare(b.q.id)).slice(0, 8)
     .map(({q}) => ({ questionId: q.id, questionVersion: q.version, contentDigest: questionContentDigest(q), text: q.text, unit: q.unit, knowledgeId: q.knowledgeId }));
 }
@@ -76,7 +76,7 @@ export function recognitionAction(current: WorkspaceState, action: string, input
     'recognition.submit': [...common,'entryIds'],
   };
   check(fields[action], '不支持的识别操作'); keys(input, fields[action]);
-  if (action === 'recognition.match') { writableCapture(current, input.captureId, ctx.userId); return { state: current, result: { candidates: recognitionMatches(current, text(input.text, 2000)), message: '仅为文字检索候选；请对照原图确认题干、数值和单位完全一致。' } }; }
+  if (action === 'recognition.match') { writableCapture(current, input.captureId, ctx.userId); return { state: current, result: { candidates: recognitionMatches(current, text(input.text, 2000), ctx.bank), message: '仅为文字检索候选；请对照原图确认题干、数值和单位完全一致。' } }; }
   check(identifier(input.requestId), '识别请求标识无效');
   const fingerprint = hash(input), previous = current.recognition?.requests.find(r => r.ownerId === ctx.userId && r.requestId === input.requestId);
   if (previous) {
@@ -133,7 +133,7 @@ export function recognitionAction(current: WorkspaceState, action: string, input
       let snapshot: Question | undefined;
       if (pin) {
         if (existing?.snapshot && canonicalStringify(existing.candidate) === canonicalStringify(pin)) snapshot = existing.snapshot;
-        else { const q = state.questions.find(q => q.id === pin.questionId && q.version === pin.questionVersion && eligible(q)); check(q && questionContentDigest(q) === pin.contentDigest, '候选题版本已变化，请重新检索并核对，不能替换为新版题目', 409); snapshot = structuredClone(q); }
+        else { const q = mergedQuestions(state, ctx.bank).find(q => q.id === pin.questionId && q.version === pin.questionVersion && eligible(q)); check(q && questionContentDigest(q) === pin.contentDigest, '候选题版本已变化，请重新检索并核对，不能替换为新版题目', 409); snapshot = structuredClone(q); }
       }
       const entry: RecognitionEntry = { id: input.entryId, captureId: capture.id, runId: run.id, sourceLineIds, originalNumber: text(input.originalNumber, 50, true), stem: text(input.stem, 2000, true), answer: text(input.answer, 300, true), working: text(input.working, 3000, true), candidate: pin, checked: flags(input.checked), status: 'draft', createdAt: existing?.createdAt ?? ctx.now, updatedAt: ctx.now, ...(snapshot ? { snapshot } : {}) };
       if (!existing || canonicalStringify(selectionBody(existing)) !== canonicalStringify(selectionBody(entry))) entry.checked = unchecked();
@@ -239,7 +239,7 @@ export function validateRecognitionState(state: WorkspaceState): void {
       check(e.redactedAt === undefined && e.redactionOperationId === undefined && (e.status !== 'draft' || !c.redactedAt), '已清理原图仍存在可写草稿');
       check(pin ? e.snapshot && eligible(e.snapshot) && e.snapshot.id === pin.questionId && e.snapshot.version === pin.questionVersion && questionContentDigest(e.snapshot) === pin.contentDigest : e.snapshot === undefined && !e.checked.match, '核对候选快照无效');
       if (e.snapshot && pin) {
-        keys(e.snapshot, ['id','familyId','version','text','answer','unit','knowledgeId','difficulty','source','sourceScope','steps','hint','alternative','prerequisites','status','authorId','reviewerId','reviewNote','createdAt','taskType','contextId']);
+        keys(e.snapshot, ['id','familyId','version','text','answer','unit','knowledgeId','difficulty','source','sourceScope','steps','hint','alternative','prerequisites','status','authorId','reviewerId','reviewNote','createdAt','taskType','contextId','image']);
         check(state.content?.versions.some(v => v.questionId === pin.questionId && v.version === pin.questionVersion && v.digest === pin.contentDigest && canonicalStringify(v.question) === canonicalStringify(e.snapshot)), '核对快照缺少一致的原始教学版本归档');
       }
     }

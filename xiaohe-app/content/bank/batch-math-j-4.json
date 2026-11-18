@@ -1,0 +1,1668 @@
+[
+  {
+    "id": "bank-math-j-4-statistics-001",
+    "familyId": "math-j-4-statistics__fam-01",
+    "version": 1,
+    "text": "上海市某中学七年级一班同学本周课外阅读的册数依次为 12、15、9、20、14，求这组数据的平均数。",
+    "answer": "14",
+    "unit": "册",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(12 + 15 + 9 + 20 + 14) ÷ 5 = 14。",
+      "平均数等于所有数据之和除以数据的个数，这 5 个数的和是 70。",
+      "答：这组数据的平均数是 14 册。"
+    ],
+    "hint": "先把这 5 个数加在一起，再除以数据的个数 5，注意最后是除以 5 而不是 70。",
+    "alternative": "也可以用检验法：把 12、15、9、20、14 分别减去 14，所得的差是 -2、1、-5、6、0，五个差刚好加起来为 0，说明 14 确实是这组数据的平均数。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-statistics__mean-and-median",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-002",
+    "familyId": "math-j-4-statistics__fam-02",
+    "version": 1,
+    "text": "校运动会上，甲、乙、丙、丁、戊、己、庚、辛 8 名同学一分钟跳绳的次数由少到多依次为 62、78、85、90、96、104、112、120，求这组数据的中位数。",
+    "answer": "93",
+    "unit": "次",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(90 + 96) ÷ 2 = 93。",
+      "数据共 8 个且已按从小到大排列，中位数取正中间第 4 个数 90 与第 5 个数 96 的平均数。",
+      "答：这组数据的中位数是 93 次。"
+    ],
+    "hint": "偶数个数据时，中位数是中间两个数的平均数，所以先要数清一共有几个数。",
+    "alternative": "也可以把 8 个数分成前 4 个和后 4 个两组，两组交界处的两个数是 90 和 96，中位数就是它们的平均数 93。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-statistics__mean-and-median",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-003",
+    "familyId": "math-j-4-statistics__fam-03",
+    "version": 1,
+    "text": "如图是某中学图书馆一周内四类图书的借阅情况条形统计图，图中 A 代表科普类、B 代表文学类、C 代表历史类、D 代表运动类。根据统计图，借阅册数最多的一类共有多少册？",
+    "answer": "36",
+    "unit": "册",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由条形图读出四类图书的借阅册数：A 类 24 册，B 类 36 册，C 类 18 册，D 类 12 册。",
+      "其中 B 类对应的柱形最高，借阅册数最多，为 36 册。",
+      "答：借阅册数最多的一类共有 36 册。"
+    ],
+    "hint": "看条形统计图时先比较每根柱的高度，柱顶标出的数字就是这一类对应的数量。",
+    "alternative": "也可以把图中读出的四个数 24、36、18、12 列成一排比大小，最大的 36 就是借阅册数最多的那一类的册数。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-statistics__frequency-table-and-chart",
+    "image": "/illustrations/math/math-j-4-statistics/library-borrow-chart.svg",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-004",
+    "familyId": "math-j-4-statistics__fam-04",
+    "version": 1,
+    "text": "某班共 40 名学生，参加各类社团的情况是：科技社 16 人，文学社 12 人，体育社 8 人，其余 4 人没有参加任何社团。求参加科技社的学生占全班人数的频率（结果用小数表示）。",
+    "answer": "0.4",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "16 ÷ 40 = 0.4。",
+      "频率等于这一类的数量除以总数，参加科技社的有 16 人，全班共 40 人。",
+      "答：参加科技社的学生占全班人数的频率是 0.4。"
+    ],
+    "hint": "频率就是这一类的人数除以总人数，先把全班总人数确认好。",
+    "alternative": "也可以先算出没有参加任何社团之外的人占的频率：40 − 16 − 12 − 8 = 4，4 ÷ 40 = 0.1，再用 1 − 0.1 − 0.3 − 0.2 = 0.4 得到科技社所占的频率。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-statistics__frequency-table-and-chart",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-005",
+    "familyId": "math-j-4-statistics__fam-05",
+    "version": 1,
+    "text": "某中学调查了 81 名学生最喜欢的运动项目，统计结果如图（条形图中 A、B、C、D 分别代表篮球、足球、排球、乒乓球）。在这组数据中，出现次数最多的项目所对应的数值叫做众数，这个项目是什么？请写出项目名称。",
+    "answer": "足球",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由条形图读出四个项目被选的人数：A 类篮球 18 人，B 类足球 27 人，C 类排球 24 人，D 类乒乓球 12 人，四项合计 18 + 27 + 24 + 12 = 81 人，与被调查的学生总数相符。",
+      "被选人数最多的项目是 B 类足球，共 27 人，它就是这组数据中众数 27 所代表的项目。",
+      "答：出现次数最多的项目是足球。"
+    ],
+    "hint": "在分组统计表里，出现次数最多的那一组（频数最大的一组）就是众数所在的组。",
+    "alternative": "也可以把人数从多到少排一排：27、24、18、12，排第一的 27 对应的项目就是众数所代表的项目。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-statistics__frequency-table-and-chart",
+    "image": "/illustrations/math/math-j-4-statistics/sport-favorite-chart.svg",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-006",
+    "familyId": "math-j-4-statistics__fam-06",
+    "version": 1,
+    "text": "小明的学期总评成绩由平时、期中、期末三部分按 30%、30%、40% 的权重合成。他的平时成绩是 80 分，期中成绩是 85 分，期末成绩是 90 分，求小明的学期总评成绩。",
+    "answer": "85.5",
+    "unit": "分",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(80 × 30 + 85 × 30 + 90 × 40) ÷ 100 = 85.5。",
+      "这是加权平均数：各部分成绩分别乘以对应的权重后再求和，权重是百分比，所以最后要除以 100。",
+      "答：小明的学期总评成绩是 85.5 分。"
+    ],
+    "hint": "权重不是人数而是百分比，三项权重相加应当等于 100，别把权重直接相加就结束。",
+    "alternative": "也可以先合并平时与期中两部分：80 × 30% + 85 × 30% = 49.5，再算期末的贡献 90 × 40% = 36，两部分相加同样得 85.5 分。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-statistics__weighted-average",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-007",
+    "familyId": "math-j-4-statistics__fam-07",
+    "version": 1,
+    "text": "某班有 6 名同学每天课外运动 18 分钟，另有 14 名同学每天课外运动 12 分钟。求全班同学每天课外运动时长的平均数（结果精确到小数点后一位）。",
+    "answer": "13.8",
+    "unit": "分钟",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(6 × 18 + 14 × 12) ÷ 20 = 13.8。",
+      "这里人数就是权重，属于加权平均数：先分别求出两组的运动总时长 6 × 18 = 108 与 14 × 12 = 168，再除以总人数 20。",
+      "答：全班同学每天课外运动时长的平均数是 13.8 分钟。"
+    ],
+    "hint": "两组人数不一样时不能直接把 18 和 12 取平均，要按人数加权。",
+    "alternative": "也可以先求总时长 6 × 18 + 14 × 12 = 276 分钟，再除以总人数 6 + 14 = 20 人，同样得到 13.8 分钟。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-statistics__weighted-average",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-008",
+    "familyId": "math-j-4-statistics__fam-08",
+    "version": 1,
+    "text": "甲运动员在一次射击训练中射击 4 次，成绩（环）依次为 8、10、10、12。求这 4 次射击成绩的方差。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "((8 - 10) × (8 - 10) + (10 - 10) × (10 - 10) + (10 - 10) × (10 - 10) + (12 - 10) × (12 - 10)) ÷ 4 = 2。",
+      "这组数据的平均数是 (8 + 10 + 10 + 12) ÷ 4 = 10，四个数据与平均数的差分别是 -2、0、0、2。",
+      "方差是这些差的平方的平均值：(4 + 0 + 0 + 4) ÷ 4 = 2。",
+      "答：这 4 次射击成绩的方差是 2。"
+    ],
+    "hint": "方差 = 各数据与平均数之差的平方的平均值，先求平均数，再求差、平方、求平均。",
+    "alternative": "也可以用另一种记法：方差等于各个数据平方的平均数减去平均数的平方，即 (64 + 100 + 100 + 144) ÷ 4 − 10 × 10 = 102 − 100 = 2。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-statistics__variance-and-stability",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-009",
+    "familyId": "math-j-4-statistics__fam-09",
+    "version": 1,
+    "text": "甲、乙两个班各抽取 5 名学生，统计他们一分钟跳绳的次数：甲班是 80、85、90、95、100，乙班是 70、90、90、110、130。哪一组的数据波动更小、更稳定？请写出组别。",
+    "answer": "甲班",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "甲班的平均数是 90，方差为 (10 × 10 + 5 × 5 + 0 + 5 × 5 + 10 × 10) ÷ 5 = 50。",
+      "乙班的平均数是 98，方差为 (28 × 28 + 8 × 8 + 8 × 8 + 12 × 12 + 32 × 32) ÷ 5 = 416。",
+      "方差越小说明数据波动越小，50 小于 416，所以甲班的数据更稳定。",
+      "答：甲班的数据更稳定。"
+    ],
+    "hint": "方差是用来刻画数据波动大小的量，方差越小越稳定，所以要分别算出两组的方差再比较。",
+    "alternative": "也可以先比较极差作粗判：甲班的极差是 100 − 80 = 20，乙班的极差是 130 − 70 = 60，甲班的波动范围明显更小。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-statistics__variance-and-stability",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-010",
+    "familyId": "math-j-4-statistics__fam-10",
+    "version": 1,
+    "text": "某中学有 1200 名学生。为了解学生每天的课外阅读时间，学校随机抽取了 50 名学生进行调查，其中 18 人每天阅读时间超过 30 分钟。据此估计全校每天阅读时间超过 30 分钟的学生人数。",
+    "answer": "432",
+    "unit": "人",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1200 × 18 ÷ 50 = 432。",
+      "样本中每天阅读超过 30 分钟的频率是 18 ÷ 50 = 0.36，用这个频率乘全校人数即可作估计。",
+      "这只是一个估计值，被抽取的 50 名学生未必与全校学生完全一样，实际人数可能与估计值有出入。",
+      "答：估计全校每天阅读时间超过 30 分钟的学生约有 432 人。"
+    ],
+    "hint": "用样本中符合条件的人数占样本总人数的比例，去乘全校人数。",
+    "alternative": "也可以先求频率再求人数：18 ÷ 50 = 0.36，1200 × 0.36 = 432 人，结果相同。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-statistics__estimate-from-sample",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-011",
+    "familyId": "math-j-4-statistics__fam-11",
+    "version": 1,
+    "text": "学校要选派 1 名学生参加市级演讲比赛，甲、乙两名候选同学的 5 位评委打分（满分 100）分别是：甲 80、85、90、95、100，乙 78、88、90、94、100。比赛规定先比较平均分，平均分相同时方差小者胜出。应选派哪一名同学？请写出姓名。",
+    "answer": "甲同学",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "甲的平均分是 (80 + 85 + 90 + 95 + 100) ÷ 5 = 90，方差是 (10 × 10 + 5 × 5 + 0 + 5 × 5 + 10 × 10) ÷ 5 = 50。",
+      "乙的平均分是 (78 + 88 + 90 + 94 + 100) ÷ 5 = 90，方差是 (12 × 12 + 2 × 2 + 0 + 4 × 4 + 10 × 10) ÷ 5 = 52.8。",
+      "两人的平均分相同，而甲的方差 50 小于乙的方差 52.8，甲的成绩波动更小、更稳定。",
+      "答：应选派甲同学。"
+    ],
+    "hint": "比赛规则给出了两步顺序：先比平均分，平均分相同时才比方差，两类数据都要算出来。",
+    "alternative": "也可以从偏离程度来比较：两人的平均分都是 90，甲的偏离是 ±10、±5 与 0，偏离平方和为 100 + 25 + 0 + 25 + 100 = 250；乙的偏离是 −12、−2、+4、+10，偏离平方和为 144 + 4 + 0 + 16 + 100 = 264，264 > 250，所以选甲。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-statistics__stability-decision",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-012",
+    "familyId": "math-j-4-statistics__fam-12",
+    "version": 1,
+    "text": "某中学调查了 400 名学生每天课外运动时长的分布情况，得到频数分布表并绘成条形统计图（图中 A 表示不足 30 分钟，B 表示 30 分钟至 1 小时，C 表示 1 小时至 1.5 小时，D 表示 1.5 小时以上）。四组的频数依次是 40 人、120 人、160 人、80 人。由表可知，运动时长在 1 小时至 1.5 小时之间的学生占被调查学生总数的频率是多少（结果用小数表示）？",
+    "answer": "0.4",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "160 ÷ 400 = 0.4。",
+      "C 组（1 小时至 1.5 小时）的频数是 160 人，被调查学生总数是 400 人，频率等于频数除以总数。",
+      "答：运动时长在 1 小时至 1.5 小时之间的学生所占的频率是 0.4。"
+    ],
+    "hint": "频率等于这一组的频数除以总人数，先在表里找准对应的频数。",
+    "alternative": "也可以用补全频率列的办法：40 ÷ 400 = 0.1，120 ÷ 400 = 0.3，80 ÷ 400 = 0.2，剩下的 1 − 0.1 − 0.3 − 0.2 = 0.4 就是 C 组的频率。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-statistics__frequency-distribution",
+    "image": "/illustrations/math/math-j-4-statistics/motion-duration-chart.svg",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-013",
+    "familyId": "math-j-4-statistics__fam-13",
+    "version": 1,
+    "text": "某校在校园网上发起投票，调查全校学生对增设「课后延时托管」服务的意见，共有 3200 名学生参与投票，其中 76% 表示赞成。校报据此刊登标题「全校 76% 的学生赞成开办托管班」。这个结论能由这次投票推出吗？请写出你的判断。",
+    "answer": "不能，投票是自愿参与的",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "参加投票的 3200 名学生是自愿参与的，需要托管服务的同学更愿意点开投票，而不需要的同学可能直接略过。",
+      "这样得到的样本与全校学生的真实态度并不一致，76% 只反映了这批自愿投票者的态度，不能代表全体学生。",
+      "答：不能，投票是自愿参与的，样本不能代表全校学生。"
+    ],
+    "hint": "想一想投票的人是自己选择加入的还是被随机抽到的，样本的选取方式会影响结论的可靠性。",
+    "alternative": "也可以对比着说：若改用随机抽取 3200 名学生进行匿名问卷，样本与总体的结构才接近，得到的比例才更接近全校的真实情况。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-statistics__conclusion-reliability",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-014",
+    "familyId": "math-j-4-statistics__fam-14",
+    "version": 1,
+    "text": "甲、乙两家超市公布各自某月牛奶的销量：甲超市 120 盒，乙超市 135 盒。有人把条形统计图的纵轴起点抬高后作图，使乙超市的柱子看上去比甲超市高出好几倍，并据此宣称「乙超市的销量是甲超市的两倍」。这个说法正确吗？",
+    "answer": "不正确",
+    "unit": "",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两根柱子的视觉高差在很大程度上是被抬高的纵轴起点造成的，与数据本身的大小关系无关。",
+      "实际数据是甲超市 120 盒、乙超市 135 盒，乙超市只比甲超市多 15 盒，并没有两倍。",
+      "答：不正确。"
+    ],
+    "hint": "读统计图先看纵轴是从几开始的，纵轴起点不同会直接改变柱子的视觉高差。",
+    "alternative": "也可以直接算：135 ÷ 120 ≈ 1.125，乙超市的销量只比甲超市多约 12.5%，与两倍相差很远。",
+    "prerequisites": [
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-statistics__misleading-chart",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-statistics-015",
+    "familyId": "math-j-4-statistics__fam-15",
+    "version": 1,
+    "text": "某商店把 100 件商品按售价分成四组：售价在 0 元至 50 元的有 10 件，50 元至 100 元的有 25 件，100 元至 150 元的有 40 件，150 元至 200 元的有 25 件。用各组的组中值代表这一组的商品，计算这 100 件商品的平均售价（结果精确到 1 元）。",
+    "answer": "115",
+    "unit": "元",
+    "knowledgeId": "math-j-4-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(10 × 25 + 25 × 75 + 40 × 125 + 25 × 175) ÷ 100 = 115。",
+      "四组的组中值分别是 25、75、125、175，把每组的组中值乘以该组的件数再相加，最后除以总件数 100，就是加权平均数。",
+      "答：这 100 件商品的平均售价约为 115 元。"
+    ],
+    "hint": "分组数据求平均数时用组中值作代表值，本质上仍然是按各组个数加权的平均数。",
+    "alternative": "也可以先求各组售价之和：250 + 1875 + 5000 + 4375 = 11500 元，再除以总件数 100，得到平均售价 115 元。",
+    "prerequisites": [
+      "math-j-4-statistics",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-statistics__grouped-mean",
+    "examRef": {
+      "topicKey": "math-culture",
+      "label": "2021 年上海中考数学第 17 题的考点：数学文化（九章算术、赵爽弦图、日高图说）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-001",
+    "familyId": "math-j-4-survey__fam-01",
+    "version": 1,
+    "text": "某中学要了解本校 1200 名学生每天的课外阅读时间，抽取了其中 60 名学生进行调查。在这项调查中，被调查对象的全体叫做总体，抽取出来的那一部分个体叫做样本，那么被抽取的 60 名学生叫做什么？",
+    "answer": "样本",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "调查对象的全体（全校 1200 名学生）叫做总体。",
+      "从总体中抽取的一部分个体（60 名学生）叫做样本。",
+      "答：被抽取的 60 名学生叫做样本。"
+    ],
+    "hint": "把「所有被调查的人」和「实际被问到的那部分人」这两个概念分清楚。",
+    "alternative": "也可以这样记：总体是问题的全集，样本是从全集里取出的一部分，被抽出的 60 名学生就是样本。",
+    "prerequisites": [
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-survey__population-and-sample",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-002",
+    "familyId": "math-j-4-survey__fam-02",
+    "version": 1,
+    "text": "为了解全校学生的视力情况，某校采用分层抽样：从七年级抽取 12 名学生，从八年级抽取 14 名学生，从九年级抽取 14 名学生。这次抽样调查的样本容量是多少？",
+    "answer": "40",
+    "unit": "名",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(12 + 14 + 14) = 40。",
+      "样本容量就是被抽取的个体的个数，把三个年级抽取的人数相加即可。",
+      "答：这次抽样调查的样本容量是 40 名。"
+    ],
+    "hint": "样本容量只数抽了多少个人，把各层抽到的人数加起来。",
+    "alternative": "也可以分两步累加：12 + 14 = 26，再算 26 + 14 = 40，样本容量为 40 名。",
+    "prerequisites": [
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-survey__population-and-sample",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-003",
+    "familyId": "math-j-4-survey__fam-03",
+    "version": 1,
+    "text": "要调查全市初中生的视力情况，下列做法中不可行的是（　　）。A．对全市每一名初中生逐一做视力检查　B．随机抽取 500 名初中生做视力检查　C．按年级分层抽取 500 名初中生做视力检查　D．在全市各区随机抽取若干所学校，再从每所学校随机抽取学生",
+    "answer": "对全市每一名初中生逐一做视力检查",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "全市初中生人数众多，逐一做视力检查属于普查，耗费的人力、物力和时间都难以承受，所以不可行。",
+      "B、C、D 都是从总体中抽取一部分个体进行调查的抽样调查，样本有代表性且可以实施。",
+      "答：A，对全市每一名初中生逐一做视力检查。"
+    ],
+    "hint": "先区分普查与抽样调查，再想一想全市有多少学生，逐个检查现实吗。",
+    "alternative": "也可以从成本角度比较：普查虽然结果最准确，但在全市范围几乎无法实施，因此实际调查都应采用抽样调查。",
+    "prerequisites": [
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-survey__population-and-sample",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-004",
+    "familyId": "math-j-4-survey__fam-04",
+    "version": 1,
+    "text": "学校要调查全校学生的课间活动情况，先把学生按年级分成若干层，再按各层人数的比例分别抽取若干学生进行调查，这种抽样方法叫做（　　）。",
+    "answer": "分层抽样",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把总体按某个特征分成若干层（这里是按年级分层），再按各层在总体中的比例抽取样本，这种方法叫分层抽样。",
+      "分层抽样可以让每一层在样本中都有相应的代表，样本结构更接近总体。",
+      "答：分层抽样。"
+    ],
+    "hint": "先分层、再按比例抽取，这是分层抽样的基本做法。",
+    "alternative": "也可以与简单随机抽样比较：简单随机抽样把每个个体抽到的机会看作相同，分层抽样则先把总体分层，保证各类个体在样本中按比例出现。",
+    "prerequisites": [
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-survey__sampling-method",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-005",
+    "familyId": "math-j-4-survey__fam-05",
+    "version": 1,
+    "text": "在一条流水线上，工人给每件产品按顺序编号，然后每隔 5 件抽取 1 件进行质量检测，这种抽样方法叫做（　　）。",
+    "answer": "系统抽样",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把总体按一定顺序编号，再按固定的间隔等距地抽取个体，这种方法叫系统抽样（等距抽样）。",
+      "本例中编号每隔 5 件抽 1 件，抽取的间隔是固定的，所以是系统抽样。",
+      "答：系统抽样。"
+    ],
+    "hint": "关键看抽取的间隔是不是固定的，编号后等距离抽取就是系统抽样。",
+    "alternative": "也可以与分层抽样区分：分层抽样是先把总体分成互不重叠的层再各层抽取，系统抽样则不分层，只按编号的固定间隔抽取。",
+    "prerequisites": [
+      "math-j-4-survey"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-survey__sampling-method",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-006",
+    "familyId": "math-j-4-survey__fam-06",
+    "version": 1,
+    "text": "某区有 6000 名初中学生。为了解他们的课外阅读习惯，区里随机抽取了 800 名学生进行调查，其中 176 人每天课外阅读时间不少于 30 分钟。据此估计全区每天课外阅读时间不少于 30 分钟的初中学生人数。",
+    "answer": "1320",
+    "unit": "人",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6000 × 176 ÷ 800 = 1320。",
+      "样本中符合条件的频率是 176 ÷ 800 = 0.22，用这个频率乘全区初中生人数即可作估计。",
+      "由于样本是随机抽取的，样本比例接近总体比例，所以这个估计比较可靠，但仍是估计值而非精确值。",
+      "答：估计全区每天课外阅读时间不少于 30 分钟的初中学生约有 1320 人。"
+    ],
+    "hint": "用样本中符合条件的人数占样本总人数的百分比，再乘以全区的人数。",
+    "alternative": "也可以先算频率 176 ÷ 800 = 0.22，再估计 6000 × 0.22 = 1320 人。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-survey__estimate-population",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-007",
+    "familyId": "math-j-4-survey__fam-07",
+    "version": 1,
+    "text": "某中学在 500 名学生中做问卷调查，得到 35% 的学生喜欢打篮球。如果用这个调查结果估计全校 2000 名学生中喜欢打篮球的人数，估计有多少人？",
+    "answer": "700",
+    "unit": "人",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2000 × 35 ÷ 100 = 700。",
+      "调查得到的 35% 就是喜欢打篮球的学生在总体中所占比例的估计值，用它乘全校人数即可。",
+      "答：估计全校约有 700 名学生喜欢打篮球。"
+    ],
+    "hint": "题目给的是百分比，先把它换算成总体中的人数。",
+    "alternative": "也可以先换算成人数：500 × 35% = 175 人是样本中喜欢打篮球的人数，再用这个比例去估计全校：175 ÷ 500 × 2000 = 700 人。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-survey__estimate-population",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-008",
+    "familyId": "math-j-4-survey__fam-08",
+    "version": 1,
+    "text": "某校想知道学生对新食堂菜品的满意度，调查了由校篮球队 12 名队员组成的样本，结果 10 人表示满意。校方据此宣布「全校 92% 的学生对新菜品满意」。这个结论可信吗？请写出你的判断。",
+    "answer": "不可信，样本缺乏代表性",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "被调查的 12 人全部是篮球队队员，他们偏爱运动、对食堂的接受度本来就与一般学生不同。",
+      "这样的样本与全校学生的结构差别很大，把它当作全校的代表会产生系统性偏差，92% 这个数字站不住脚。",
+      "答：不可信，样本缺乏代表性。"
+    ],
+    "hint": "想一想被调查的这些人和其他学生有什么不一样，样本能不能代表全校。",
+    "alternative": "也可以给出改进办法：应当从全校各年级随机抽取 200 名左右的学生进行调查，再把各年级调查结果按人数加权汇总。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-survey__sample-bias",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-009",
+    "familyId": "math-j-4-survey__fam-09",
+    "version": 1,
+    "text": "某中学七年级有 1200 人，八年级有 1100 人，九年级有 1000 人。学校为了解学生对新食堂菜品的意见，抽取了 200 名学生进行调查，其中七年级 180 人、八年级 15 人、九年级 5 人（如图）。用这 200 人的调查结果去估计全校学生的情况，合适吗？（　　）A．合适，样本人数已有 200 人　B．合适，只要计算过程准确就行　C．不合适，样本的年级结构与全校差别很大　D．不合适，因为调查人数不足 200 人",
+    "answer": "不合适，样本的年级结构与全校差别很大",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "全校三个年级的人数都差不多（1200 人、1100 人、1000 人），而样本里七年级占了 180 人，八、九年级合计只有 20 人。",
+      "样本的年级结构与总体相差悬殊，用它估计全校会严重失真，问题出在样本的代表性而不是人数多少。",
+      "答：C，不合适，样本的年级结构与全校差别很大。"
+    ],
+    "hint": "不要只看样本人数多不多，还要看样本的构成与总体是否接近。",
+    "alternative": "也可以用比例说明：七年级占全校人数的 1200 ÷ 3300 约为 36%，而样本中七年级占了 180 ÷ 200 = 90%，两者相差太远。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-survey__sample-bias",
+    "image": "/illustrations/math/math-j-4-survey/sample-composition.svg",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-010",
+    "familyId": "math-j-4-survey__fam-10",
+    "version": 1,
+    "text": "某市有 20000 名市民。社区想了解市民对新建市民健身中心的看法，随机抽取了 500 人进行调查，其中 190 人表示支持。据此估计全市支持新建市民健身中心的人数，并说明这个估计值与实际人数之间可能存在怎样的关系。",
+    "answer": "7600",
+    "unit": "人",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20000 × 190 ÷ 500 = 7600。",
+      "样本中支持的比例是 190 ÷ 500 = 0.38，用它乘全市人数得到估计值 7600 人。",
+      "抽样调查得到的只是一批个体的信息，估计值可能比实际人数偏大，也可能偏小，不可能保证与实际人数完全相同。",
+      "答：估计全市支持新建市民健身中心的人数约有 7600 人；这个估计值可能比实际人数偏大，也可能偏小，两者不一定相等。"
+    ],
+    "hint": "先用样本比例估计总体人数，再想清楚估计值和真值之间是相等还是有偏差。",
+    "alternative": "也可以分两步：先算样本中支持的人占 190 ÷ 500 = 0.38，再算 20000 × 0.38 = 7600 人。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-survey__estimate-and-error",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-011",
+    "familyId": "math-j-4-survey__fam-11",
+    "version": 1,
+    "text": "某校七年级有 480 人，八年级有 520 人，九年级有 500 人，全校共 1500 人（如图）。学校决定用分层抽样从三个年级共抽取 150 名学生参加访谈，按各年级人数比例计算，七年级应抽取多少人？",
+    "answer": "48",
+    "unit": "名",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "150 × 480 ÷ 1500 = 48。",
+      "分层抽样按各层人数占总数的比例分配名额，七年级占总人数的 480 ÷ 1500 = 0.32。",
+      "答：七年级应抽取 48 名学生。"
+    ],
+    "hint": "先算各年级人数占总人数的百分比，再乘以计划抽取的总人数。",
+    "alternative": "也可以先求抽样比例：150 ÷ 1500 = 0.1，即抽取 10%，再乘七年级人数 480 × 0.1 = 48 人。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-survey__stratified-plan",
+    "image": "/illustrations/math/math-j-4-survey/grade-enrollment.svg",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-012",
+    "familyId": "math-j-4-survey__fam-12",
+    "version": 1,
+    "text": "为调查全市初中生每周的课外阅读时间，小李建议用抽签法从全市 5000 名学生中随机抽取 200 人；小张建议只从市实验中学抽取 200 人。小张的方案在估计全市情况时更不可靠，原因是（　　）。A．抽取的人数太少　B．没有使用计算工具　C．问卷的题目表述不清　D．样本只来自一所学校，缺乏代表性",
+    "answer": "样本只来自一所学校，缺乏代表性",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "全市有 5000 名学生分布在许多所学校，只从一所中学抽 200 人，样本的来源过于集中。",
+      "不同学校的城市家庭背景、阅读习惯可能存在差别，用一所学校的数据代表全市会产生偏差。",
+      "答：D，样本只来自一所学校，缺乏代表性。"
+    ],
+    "hint": "两个方案抽取的人数一样多，问题只能出在样本从哪里来。",
+    "alternative": "也可以说：要让样本代表全市，抽签法让全市每名学生都有相同机会被抽到，覆盖面广；只抽一所学校则漏掉了其他学校学生的信息。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-survey__compare-sampling-plans",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-013",
+    "familyId": "math-j-4-survey__fam-13",
+    "version": 1,
+    "text": "某校抽取 200 名学生，测得他们平均每天运动 42 分钟。若用这个样本的平均数去估计全校 10000 名学生的平均每天运动时间，估计值与样本的平均数相同还是不同？请写出你的判断。",
+    "answer": "相同，两者都是 42 分钟",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用样本的平均数估计总体的平均数，估计的是平均水平而不是人数的总和，所以不需要再乘全校人数。",
+      "样本是随机抽取的，样本平均数 42 分钟可以作为全校平均每天运动时间的估计值。",
+      "答：相同，两者都是 42 分钟。"
+    ],
+    "hint": "估计的是「平均数」还是「总量」，两种问法的算法完全不同。",
+    "alternative": "也可以对比着说：如果问的是全校每天运动的总时长，那才需要用 42 × 10000 去估计；问平均时长时，答案就是样本平均数 42 分钟。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-survey__mean-estimate",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-014",
+    "familyId": "math-j-4-survey__fam-14",
+    "version": 1,
+    "text": "某电视台在官方微信公众号上发起投票，调查市民是否支持延长地铁末班车时间，一周内收到 12 万条留言，其中 71% 表示支持。电视台据此在新闻中称「本市市民 71% 支持延长末班车」。造成这一结果的主要原因是（　　）。A．参与投票的人数太少　B．采取自愿参与的网络投票，样本缺乏代表性　C．计算百分数的方法有误　D．随机抽取的方法不合理",
+    "answer": "采取自愿参与的网络投票，样本缺乏代表性",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "网络投票是自愿参与的，对延长末班车非常在意的人更愿意留言，因此这 12 万条留言不能代表全市 71% 的意见。",
+      "人数多并不能保证结论可靠，问题出在样本不是随机抽取的、而是自我选择的。",
+      "答：B，采取自愿参与的网络投票，样本缺乏代表性。"
+    ],
+    "hint": "注意区分「随机抽样调查」和「自愿参与的网络投票」，两者的样本质量完全不同。",
+    "alternative": "也可以从覆盖面说：网络投票只覆盖经常使用该公众号和网络的人群，而不用这些平台、不关注末班车的人完全没有机会表达意见。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-survey__voluntary-response-bias",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-survey-015",
+    "familyId": "math-j-4-survey__fam-15",
+    "version": 1,
+    "text": "某区共有 12000 户居民。抽样调查显示，其中 58% 的家庭有老人需要社区食堂提供送餐服务。若社区食堂计划每天只提供 800 份送餐餐食，按这个比例估算，供需情况会怎样？请写出你的结论。",
+    "answer": "供不应求，缺口很大",
+    "unit": "",
+    "knowledgeId": "math-j-4-survey",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "需要送餐的家庭数约为 12000 × 58% = 6960 户。",
+      "食堂每天只能提供 800 份餐食，而潜在需求约 6960 份，两者相差 6160 份。",
+      "答：供不应求，缺口很大。"
+    ],
+    "hint": "先用样本比例算出潜在需求的总份数，再和食堂实际能提供的份数比一比。",
+    "alternative": "也可以换个角度算：800 ÷ 12000 = 6.7% 的家庭能吃到送餐，远低于 58% 的需求比例，所以供给远远跟不上需求。",
+    "prerequisites": [
+      "math-j-4-survey",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-survey__supply-and-demand",
+    "examRef": {
+      "topicKey": "statistics",
+      "label": "2020 年上海中考数学第 14 题的考点：统计（读图、样本估计总体）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-001",
+    "familyId": "math-j-4-probability__fam-01",
+    "version": 1,
+    "text": "袋子里有 3 个红球和 5 个白球，这些球除颜色外完全相同。任意摸出 1 个球，摸到红球的概率是多少（结果用小数表示）？",
+    "answer": "0.375",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 ÷ 8 = 0.375。",
+      "袋中共有 3 + 5 = 8 个等可能的球，其中红球 3 个，所以摸到红球的概率是 3 ÷ 8。",
+      "答：摸到红球的概率是 0.375。"
+    ],
+    "hint": "等可能事件的概率等于符合条件的结果数除以所有等可能结果的总数，先数清总数。",
+    "alternative": "也可以用对立事件：摸到白球的概率是 5 ÷ 8 = 0.625，再用 1 − 0.625 = 0.375 得到摸到红球的概率。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-probability__single-event",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-002",
+    "familyId": "math-j-4-probability__fam-02",
+    "version": 1,
+    "text": "把 1 枚均匀的硬币抛 1 次，正面朝上的概率是多少（结果用小数表示）？",
+    "answer": "0.5",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 ÷ 2 = 0.5。",
+      "一枚均匀硬币共有正面、反面 2 个等可能的结果，其中正面 1 个。",
+      "答：正面朝上的概率是 0.5。"
+    ],
+    "hint": "先列出所有等可能的结果，再数出其中符合条件的有几个。",
+    "alternative": "也可以用对立事件：反面朝上的概率与正面朝上相同，两者相加为 1，所以正面的概率是 1 ÷ 2 = 0.5。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-probability__single-event",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-003",
+    "familyId": "math-j-4-probability__fam-03",
+    "version": 1,
+    "text": "某同学做摸球实验：袋中有 3 个红球和 5 个白球，每次摸球后放回，连续摸 100 次，其中摸到红球 62 次（如图，条形图中 A 表示红球、B 表示白球）。用这个频率估计摸到红球的概率（结果用小数表示）。",
+    "answer": "0.62",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "62 ÷ 100 = 0.62。",
+      "在大量重复试验中，事件发生的频率可以近似代替它的概率，所以摸到红球的概率约为 0.62。",
+      "答：摸到红球的概率约为 0.62。"
+    ],
+    "hint": "大量重复试验中频率会稳定在一个数附近，这个数就是事件概率的估计值。",
+    "alternative": "也可以用白球的频率估计：38 ÷ 100 = 0.38，再用 1 − 0.38 = 0.62 得到摸到红球的概率。",
+    "prerequisites": [
+      "math-j-4-probability",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-probability__single-event",
+    "image": "/illustrations/math/math-j-4-probability/draw-frequency.svg",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-004",
+    "familyId": "math-j-4-probability__fam-04",
+    "version": 1,
+    "text": "盒子里有 3 个红球和 1 个白球（除颜色外完全相同），从中随机摸出 1 个球，记下颜色后放回，再摸 1 个球。用列表法列出所有等可能的结果，求两次都摸到红球的概率（结果用小数表示）。",
+    "answer": "0.5625",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(3 × 3) ÷ 16 = 0.5625。",
+      "把袋中的 4 个球都编号，则第一次摸球有 4 种摸法、第二次也有 4 种摸法，共 4 × 4 = 16 种等可能结果；按颜色归类就是红红、红白、白红、白白四种。",
+      "其中两次都是红球的共有 3 × 3 = 9 种。",
+      "答：两次都摸到红球的概率是 0.5625。"
+    ],
+    "hint": "列表法要把每一步的所有结果都列出来，注意红球有 3 个，所以红红这一格里有 3 × 3 种。",
+    "alternative": "也可以分两步用乘法：摸到红球的概率 3 ÷ 4 = 0.75，两次都摸到红球的概率 0.75 × 0.75 = 0.5625。",
+    "prerequisites": [
+      "math-j-4-probability",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-probability__list-method",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-005",
+    "familyId": "math-j-4-probability__fam-05",
+    "version": 1,
+    "text": "从写有数字 1、2、3、4、5、6 的 6 张卡片中随机抽取 1 张，不放回，再从剩下的卡片中随机抽取 1 张。用列表法列出所有等可能的结果，求两次抽到的数字之和为 7 的概率（结果用小数表示）。",
+    "answer": "0.2",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 ÷ 30 = 0.2。",
+      "第一次有 6 种结果，第二次有 5 种结果，共 6 × 5 = 30 种等可能结果。",
+      "数字之和为 7 的有 (1,6)、(2,5)、(3,4)、(4,3)、(5,2)、(6,1) 共 6 种。",
+      "答：两次抽到的数字之和为 7 的概率是 0.2。"
+    ],
+    "hint": "第二次抽取时第一张已不在盒中，所以总结果数是 6 × 5 而不是 6 × 6。",
+    "alternative": "也可以换个角度数：全部有序结果共 6 × 5 = 30 种，而和为 7 的只有 (1,6)、(2,5)、(3,4) 三对互为相反顺序的搭配，共 6 种，所求概率就是 6 ÷ 30 = 0.2。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-4-probability__list-method",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-006",
+    "familyId": "math-j-4-probability__fam-06",
+    "version": 1,
+    "text": "袋中有 2 个红球和 2 个白球（除颜色外完全相同），先从袋中随机摸 1 个球（不放回），再抛 1 枚均匀的硬币。用树状图列出所有等可能结果，求「摸到红球且硬币正面朝上」的概率（结果用小数表示）。",
+    "answer": "0.25",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 ÷ 4 = 0.25。",
+      "树状图第一层是摸球的两种结果（红球、白球），第二层是硬币的两种结果（正面、反面），共有 2 × 2 = 4 条等可能的完整路径。",
+      "其中「红球且正面」的路径只有 1 条，所以概率是 1 ÷ 4。",
+      "答：摸到红球且硬币正面朝上的概率是 0.25。"
+    ],
+    "hint": "树状图每一层表示一步的结果，完整路径的条数就是等可能结果的总数。",
+    "alternative": "也可以用两步概率相乘：摸到红球的概率 2 ÷ 4 = 0.5，硬币正面的概率 1 ÷ 2 = 0.5，两步同时发生的概率 0.5 × 0.5 = 0.25。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-probability__tree-two-step",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-007",
+    "familyId": "math-j-4-probability__fam-07",
+    "version": 1,
+    "text": "一个不透明的袋子里装有 2 个红球和 3 个白球（除颜色外完全相同），从中随机摸出 1 个球，记下颜色后放回，再摸 1 个球。用树状图求两次摸到的颜色不相同的概率（结果用小数表示）。",
+    "answer": "0.48",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(2 × 3 + 3 × 2) ÷ 25 = 0.48。",
+      "两次摸球有 5 × 5 = 25 种等可能结果；颜色不同的情况有「先红后白」2 × 3 种和「先白后红」3 × 2 种，共 12 种。",
+      "答：两次摸到的颜色不相同的概率是 0.48。"
+    ],
+    "hint": "先数总数再数符合条件的结果，注意「先红后白」和「先白后红」是两种不同的结果。",
+    "alternative": "也可以用补集：两次颜色相同的概率是 (2 × 2 + 3 × 3) ÷ 25 = 0.52，再用 1 − 0.52 = 0.48 得到颜色不同的概率。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-probability__tree-two-step",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-008",
+    "familyId": "math-j-4-probability__fam-08",
+    "version": 1,
+    "text": "一个不透明的袋子里装有 2 个红球、2 个白球和 1 个黑球，这 5 个球除颜色外完全相同。从中随机摸出 1 个球，记下颜色后放回，再摸 1 个球。用列表法求「两次摸到的颜色不相同」的概率（结果用小数表示）。",
+    "answer": "0.64",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(5 × 5 − 2 × 2 − 2 × 2 − 1 × 1) ÷ 25 = 0.64。",
+      "两次摸球共 5 × 5 = 25 种等可能结果；颜色相同的有红红 2 × 2 种、白白 2 × 2 种、黑黑 1 × 1 种，共 9 种。",
+      "颜色不相同的有 25 − 9 = 16 种。",
+      "答：两次摸到的颜色不相同的概率是 0.64。"
+    ],
+    "hint": "用列表法时先把三种颜色分别写出来，数出颜色相同的情形，再用总数减去它。",
+    "alternative": "也可以直接数颜色不同的情形：红白 2 × 2、白红 2 × 2、红黑 2 × 1、黑红 1 × 2、白黑 2 × 1、黑白 1 × 2，共 16 种，16 ÷ 25 = 0.64。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-probability__list-two-draw",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-009",
+    "familyId": "math-j-4-probability__fam-09",
+    "version": 1,
+    "text": "一个不透明的袋子里装有 3 个红球和 1 个白球（除颜色外完全相同），从中随机摸出 1 个球，记下颜色后放回，再摸 1 个球。用列表法求「第一次摸到红球、第二次摸到白球」的概率（结果用小数表示）。",
+    "answer": "0.1875",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(3 × 1) ÷ 16 = 0.1875。",
+      "两次摸球共 4 × 4 = 16 种等可能结果，其中第一次红球、第二次白球的有 3 × 1 = 3 种。",
+      "答：第一次摸到红球、第二次摸到白球的概率是 0.1875。"
+    ],
+    "hint": "列表时看行（第一次）和列（第二次）的对应，红球行与白球列交叉处的个数就是符合条件的结果数。",
+    "alternative": "也可以分两步相乘：第一次摸到红球的概率 3 ÷ 4 = 0.75，第二次摸到白球的概率 1 ÷ 4 = 0.25，两者相乘得 0.1875。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-probability__list-two-draw",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-010",
+    "familyId": "math-j-4-probability__fam-10",
+    "version": 1,
+    "text": "一枚均匀的正方体骰子的 6 个面上分别写着 1 到 6，把这枚骰子掷 2 次。用列表法求「两次点数之积为偶数」的概率（结果用小数表示）。",
+    "answer": "0.75",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(6 × 6 − 3 × 3) ÷ 36 = 0.75。",
+      "列表后共 6 × 6 = 36 种等可能结果；积为奇数说明两次都是奇数，只有 3 × 3 = 9 种。",
+      "所以积为偶数的有 36 − 9 = 27 种。",
+      "答：两次点数之积为偶数的概率是 0.75。"
+    ],
+    "hint": "积为奇数的只有一种情形：两次都是奇数，先把这种情形数出来再用总数减去。",
+    "alternative": "也可以用两步概率相乘：两次点数之积为奇数当且仅当两次都是奇数，其概率为 1/2 × 1/2 = 1/4，所以积为偶数的概率是 1 − 1/4 = 0.75。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-4-probability__exactly-and-at-least",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-011",
+    "familyId": "math-j-4-probability__fam-11",
+    "version": 1,
+    "text": "小刚从一个不透明的袋子里摸球：袋中有 3 个红球和 1 个白球（除颜色外完全相同），每次摸出 1 个球记下颜色后放回，一共摸 3 次。用树状图求「恰有 2 次摸到红球」的概率（结果用小数表示）。",
+    "answer": "0.421875",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(3 × 3 × 3) ÷ 64 = 0.421875。",
+      "每次摸球有红、白两种结果，三次摸球在树状图上共有 4 × 4 × 4 = 64 条等可能路径。",
+      "恰有 2 次红球的排列有红红白、红白红、白红红 3 种，每种里取球方式有 3 × 3 × 1 = 9 种，共 3 × 3 × 3 = 27 条。",
+      "这个精确值也就是 27 ÷ 64，手算时约为 0.42，答题时写 0.421875。",
+      "答：恰有 2 次摸到红球的概率是 0.421875。"
+    ],
+    "hint": "先画出三层的树状图数清总路径数，再数出「恰有两次红球」的路径，注意三次中红球出现的位置有 3 种。",
+    "alternative": "也可以用组合的思路：三次中恰有两次红球有 3 种排列，每次摸红球 3 ÷ 4、摸白球 1 ÷ 4，所以概率为 3 × 0.75 × 0.75 × 0.25 = 0.421875。",
+    "prerequisites": [
+      "math-j-4-probability",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-probability__tree-three-steps",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-012",
+    "familyId": "math-j-4-probability__fam-12",
+    "version": 1,
+    "text": "某射手在 100 次射击中命中靶心 82 次。用频率估计概率，他 1 次射击不命中靶心的概率是多少（结果用小数表示）？",
+    "answer": "0.18",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 − 82 ÷ 100 = 0.18。",
+      "大量重复射击中频率可以近似代替概率，所以命中靶心的概率约为 82 ÷ 100 = 0.82。",
+      "「不命中」与「命中」互为对立事件，两者的概率之和为 1。",
+      "答：他 1 次射击不命中靶心的概率约为 0.18。"
+    ],
+    "hint": "先由频率估计出命中的概率，再用对立事件求补，概率之和为 1。",
+    "alternative": "也可以直接用不命中的次数估计：100 − 82 = 18 次，18 ÷ 100 = 0.18，结果相同。",
+    "prerequisites": [
+      "math-j-4-probability",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-probability__complement-event",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-013",
+    "familyId": "math-j-4-probability__fam-13",
+    "version": 1,
+    "text": "甲、乙两人玩转盘游戏：转盘被分成面积相等的 6 个扇区，其中 3 个涂红色、3 个涂蓝色。甲选择转盘停在红色时得 1 分，乙选择转盘停在蓝色时得 1 分。这个游戏对双方公平吗？请写出你的判断。",
+    "answer": "公平，两人获胜概率相同",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "甲获胜（指针停在红色）的概率是 3 ÷ 6 = 0.5。",
+      "乙获胜（指针停在蓝色）的概率同样是 3 ÷ 6 = 0.5。",
+      "两人获胜的概率相等，所以这个游戏是公平的。",
+      "答：公平，两人获胜概率相同。"
+    ],
+    "hint": "分别算出两人各自获胜的概率，概率相等时游戏才是公平的。",
+    "alternative": "也可以从扇区分布看：红色扇区与蓝色扇区各占一半，转盘本身左右对称，两人的获胜机会完全相同。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-probability__fair-game",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-014",
+    "familyId": "math-j-4-probability__fam-14",
+    "version": 1,
+    "text": "抛一枚均匀硬币 2 次。小明列出 3 种结果：正正、正反、反反，并认为「两次都是正面」的概率是 1 ÷ 3；小红的树状图给出 4 种结果：正正、正反、反正、反反，算得概率是 0.25。谁的方法正确？请说明理由。",
+    "answer": "小红的正确，列表要列出全部等可能结果",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "抛 2 次硬币共有 2 × 2 = 4 种等可能结果：正正、正反、反正、反反。",
+      "小明漏掉了「反正」这一结果，剩下的三种结果并非等可能，所以用 1 ÷ 3 计算不成立。",
+      "小红的树状图分支完整，其中「两次都是正面」的结果只有「正正」1 种，概率为 1 ÷ 4 = 0.25。",
+      "答：小红的正确，列表要列出全部 4 种等可能结果。"
+    ],
+    "hint": "用树状图数一数第二步有几种结果，一共应该有 2 × 2 条分支。",
+    "alternative": "也可以从对称性去判断：「正反」与「反正」出现的可能性完全相同，漏掉任何一条分支都会把概率算错。",
+    "prerequisites": [
+      "math-j-4-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-probability__list-and-tree-check",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-4-probability-015",
+    "familyId": "math-j-4-probability__fam-15",
+    "version": 1,
+    "text": "校运会同一项目有 A、B 两名选手参赛，谁先出场由抽签决定，抽签结果使 A 选手后出场的概率是 0.5。已知无论先出场还是后出场，A 选手获胜的概率都是 0.6。求「A 选手后出场并且获胜」的概率（结果用小数表示）。",
+    "answer": "0.3",
+    "unit": "",
+    "knowledgeId": "math-j-4-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "0.5 × 0.6 = 0.3。",
+      "「后出场」的概率是 0.5，而在后出场的前提下 A 选手获胜的概率是 0.6。",
+      "两个条件同时发生，把两步的概率相乘即可。",
+      "答：A 选手后出场并且获胜的概率是 0.3。"
+    ],
+    "hint": "这是两步事件：先确定是否后出场，再在「后出场」的条件下判断是否获胜。",
+    "alternative": "也可以画树状图：第一层分后出场 0.5 与先出场 0.5 两支，后出场那支再分获胜 0.6 与失败 0.4，后出场且获胜的分支概率就是 0.5 × 0.6 = 0.3。",
+    "prerequisites": [
+      "math-j-4-probability",
+      "math-j-4-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-4-probability__real-situation",
+    "examRef": {
+      "topicKey": "probability",
+      "label": "2021 年上海中考数学第 12 题的考点：概率",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  }
+]

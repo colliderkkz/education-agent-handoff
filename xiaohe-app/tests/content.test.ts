@@ -32,7 +32,7 @@ test('export includes only requested published independently reviewed items and 
   assert.equal(p.items.length,30);assert.equal(p.trust,'unsigned');assert.equal(p.teachingValidation,'unvalidated-trial');
   assert.ok(!JSON.stringify(p).includes('demo-original-attempt'));assert.ok(!Object.hasOwn(p,'profile'));
   assert.throws(()=>exportContentPackage(s,{packageId:'x',publisherId:'local-trial',createdAt:NOW,questionIds:['missing']}),/不存在/);
-  s.profile.grade='五年级';assert.throws(()=>exportContentPackage(s,{packageId:'x',publisherId:'local-trial',createdAt:NOW}),/四年级/);
+  s.profile.grade='五年级';assert.throws(()=>exportContentPackage(s,{packageId:'x',publisherId:'local-trial',createdAt:NOW}),/年级不在支持的范围内/);
 });
 test('baseline archives conflicting frozen snapshots without changing or inventing history; conflicts cannot import',()=>{
   const s=createSeedWorkspace('local-test','test',NOW);const q=s.questions[0];const snapshot={...q,answer:'wrong historical key'};
@@ -179,4 +179,21 @@ test('near-limit 200-question packs preview and apply without quadratic archive 
   assert.equal(preview.counts.added,200);assert.equal(out.questions.length,s.questions.length+200);assert.deepEqual(s,before);
   const copy={...b.items[199],id:'bulk-clone',familyId:'bulk-clone-family',answer:'999'};
   assert.throws(()=>previewContentPackage(out,pack([copy])),/规范化题干/);
+});
+
+test('importing a package creates the knowledge points it needs, named from the textbook catalog',()=>{
+  // 上海初中几何的一个知识点：包里带了题，学习空间里也要有可练的知识点条目。
+  const template=newQuestion('sh-j-3-q');
+  const question:Question={...template,id:'sh-j-3-q',familyId:'sh-j-3-family',knowledgeId:'math-j-3-triangle',text:'上海初中几何题：△ABC 中 ∠A = 50°，∠B = 60°，求 ∠C 的度数。',answer:'70',steps:['180 - 50 - 60 = 70。'],source:'小禾教研原创 · 按上海中考考纲编写 · 非真题',sourceScope:'按上海中考考纲编写 · 非真题 · 未人工逐题复核',difficulty:'基础',taskType:'basic',contextId:'math-j-3-triangle__angle-sum'};
+  const s=apply(base(),pack([question],'sh-j-3-pack'));
+  const point=s.knowledge.find(item=>item.id==='math-j-3-triangle');
+  assert.ok(point,'导入后应建立知识点条目');
+  assert.equal(point!.learningState,'current');
+  assert.equal(point!.name,'三角形');
+  assert.equal(point!.stars,null);
+  assert.deepEqual(point!.evidenceIds,[]);
+  assert.ok(point!.reason.includes('随内容包加入学习范围'),point!.reason);
+  // 已经有条目的知识点不重复建立。
+  const again=apply(s,pack([question],'sh-j-3-pack-2'));
+  assert.equal(again.knowledge.filter(item=>item.id==='math-j-3-triangle').length,1);
 });

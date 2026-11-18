@@ -1,0 +1,2699 @@
+[
+  {
+    "id": "bank-english-review-read-001",
+    "familyId": "english-review-read__fam-001",
+    "version": 1,
+    "text": "In the class play, Amy plays the doctor and Ben plays the patient. Which line is the doctor's line? A. 'Please open your mouth.' B. 'I have a sore throat.'",
+    "answer": "Please open your mouth.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想清楚每个角色是做什么的，再去判断哪一句符合他的身份。",
+      "医生看病人时会给病人提要求；说自己喉咙疼的是病人。",
+      "答：Please open your mouth."
+    ],
+    "hint": "想一想医生在看病时会下什么指令，再看哪一句是在说自己的不舒服。",
+    "alternative": "也可以答 A. Please open your mouth. 把选项编号一起写出来更清楚。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__role-and-line"
+  },
+  {
+    "id": "bank-english-review-read-002",
+    "familyId": "english-review-read__fam-002",
+    "version": 1,
+    "text": "Two children read this in the show: 'Good morning! Can you help me, please?' 'Good morning! Of course. What can I do?' Who says the first line?",
+    "answer": "The child who asks for help.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对话总是一问一答，先出现的那一句说明这个人先开口。",
+      "第一句里有 Can you help me，是求助，所以说话的是提出请求的人。",
+      "答：The child who asks for help."
+    ],
+    "hint": "先分清哪一句是提问或请求，哪一句是答应。",
+    "alternative": "也可以答 The first speaker. 用先后顺序来说明答案。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__role-and-line"
+  },
+  {
+    "id": "bank-english-review-read-003",
+    "familyId": "english-review-read__fam-003",
+    "version": 1,
+    "text": "In the play, Amy says to her brother: 'Could you water the flowers?' Who is Amy talking to?",
+    "answer": "Her brother.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句子里被请求做事的那个人，就是听话人。",
+      "Could you water the flowers 是对哥哥说的求助。",
+      "答：Her brother."
+    ],
+    "hint": "找出说话人把请求给了谁，那个人就是要回答台词的人。",
+    "alternative": "也可以答 Her brother Ben. 把人物的名字一起写上。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__role-and-line"
+  },
+  {
+    "id": "bank-english-review-read-004",
+    "familyId": "english-review-read__fam-004",
+    "version": 1,
+    "text": "The class show has a short dialogue: 'I like spring.' 'Do you like spring?' 'Yes, I do.' How many people are talking in it?",
+    "answer": "Two.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一问一答需要两个人：一个提问，一个回答。",
+      "Do you like spring? 是问句，Yes, I do. 是另一个人的回答。",
+      "答：Two."
+    ],
+    "hint": "数一数一问一答要用到几个人。",
+    "alternative": "也可以答 Two people. 直接写出人数也可以。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__role-and-line"
+  },
+  {
+    "id": "bank-english-review-read-005",
+    "familyId": "english-review-read__fam-005",
+    "version": 1,
+    "text": "In the play, the teacher asks: 'Would you like to read the story to the class?' Choose the most polite reply.",
+    "answer": "Yes, I would. Thank you.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "别人邀请你做一件事时，礼貌的回答通常先表示同意，再说谢谢。",
+      "问的是 Would you like...，答句要用 Yes, I would. 再加一句 Thank you 更礼貌。",
+      "答：Yes, I would. Thank you."
+    ],
+    "hint": "想一想别人邀请你时，礼貌的回答由哪两部分组成。",
+    "alternative": "也可以答 I'd love to. 表示自己很乐意。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__feelings-and-tone"
+  },
+  {
+    "id": "bank-english-review-read-006",
+    "familyId": "english-review-read__fam-006",
+    "version": 1,
+    "text": "How should the actor read this line: 'Oh no! My cake is on the floor!'? A. In a sad and sorry voice. B. In a happy voice.",
+    "answer": "In a sad and sorry voice.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读台词前先判断台词里说的是好事还是坏事。",
+      "蛋糕掉到地上是让人难过的事，所以要用难过、抱歉的语气。",
+      "答：In a sad and sorry voice."
+    ],
+    "hint": "先想清楚台词里发生的是好事还是坏事。",
+    "alternative": "也可以答 sadly. 用一个词概括要读出来的语气。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__feelings-and-tone"
+  },
+  {
+    "id": "bank-english-review-read-007",
+    "familyId": "english-review-read__fam-007",
+    "version": 1,
+    "text": "In the show, Sam asks the audience: 'Are you ready for the play?' How should the end of this question sound?",
+    "answer": "It should go up, like a question.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "英语的疑问句读到最后，声音通常往上扬。",
+      "Are you ready...? 是问句，句尾要升上去。",
+      "答：It should go up, like a question."
+    ],
+    "hint": "把问句和答句读一读，看看声音走向有什么不同。",
+    "alternative": "也可以答 The voice should rise at the end. 说清声音的变化。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__feelings-and-tone"
+  },
+  {
+    "id": "bank-english-review-read-008",
+    "familyId": "english-review-read__fam-008",
+    "version": 1,
+    "text": "In the show, Tom says: 'The sky is grey, so we stay at home.' What does the word 'grey' tell us about the weather?",
+    "answer": "The weather is dull or cloudy.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读单词要放回句子里，看它描述的是什么。",
+      "grey 说的是天空的颜色，说明天空不明亮，天气阴沉。",
+      "答：The weather is dull or cloudy."
+    ],
+    "hint": "先找出它修饰的是哪个词，再想想那种颜色会带来什么感觉。",
+    "alternative": "也可以答 The weather is not sunny. 用否定句说同样的意思。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__words-and-voice"
+  },
+  {
+    "id": "bank-english-review-read-009",
+    "familyId": "english-review-read__fam-009",
+    "version": 1,
+    "text": "In the play, Lily says: 'I want to help my mum.' Which word should she say the most clearly? A. want B. help C. mum",
+    "answer": "help.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "重读那个最能让观众明白重点的词。",
+      "这句话的重点是愿意帮忙，所以 help 最关键。",
+      "答：help."
+    ],
+    "hint": "想一想这句话想让观众记住的是哪一个动作。",
+    "alternative": "也可以答 The word 'help'. 直接把要重读的词写出来。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__words-and-voice"
+  },
+  {
+    "id": "bank-english-review-read-010",
+    "familyId": "english-review-read__fam-010",
+    "version": 1,
+    "text": "In the show, a boy says: 'It is cold today. Put on your coat.' What should the actor do while he says this line?",
+    "answer": "He should mime putting on a coat.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "表演时动作要能帮观众看懂台词。",
+      "这句台词说的是穿上外套，手里比划穿外套最合适。",
+      "答：He should mime putting on a coat."
+    ],
+    "hint": "选一个能让观众一眼就看懂的动作。",
+    "alternative": "也可以答 He should take out a coat and put it on. 一边说一边真的做动作。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__words-and-voice"
+  },
+  {
+    "id": "bank-english-review-read-011",
+    "familyId": "english-review-read__fam-011",
+    "version": 1,
+    "text": "In the home play, Dad's line is 'Work is heavy.' Write it again in a friendly way that Dad would say to the family.",
+    "answer": "The housework is hard, but let's do it together.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改台词要保留原来的意思，只换语气和说法。",
+      "原句在抱怨活儿多，改成亲切口吻就要加上一起做、不要抱怨的意思。",
+      "答：The housework is hard, but let's do it together."
+    ],
+    "hint": "先想清楚 friendly 是让听的人开心还是难过，再决定加哪些词。",
+    "alternative": "也可以答 Let's share the housework today. 换成邀请大家一起分着做。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__home-duty-play"
+  },
+  {
+    "id": "bank-english-review-read-012",
+    "familyId": "english-review-read__fam-012",
+    "version": 1,
+    "text": "Two actors are rehearsing a play about helping at home. One actor speaks very fast. What should the other actor do?",
+    "answer": "He should ask him to speak more slowly.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "排练时互相提意见，是为了配合得更好。",
+      "台词太快观众听不清，正确的做法是请对方慢一点。",
+      "答：He should ask him to speak more slowly."
+    ],
+    "hint": "排练的目的是让台下的每一位观众都能听清楚。",
+    "alternative": "也可以答 He should tell him to read the line again slowly. 让他重新慢读一遍。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__home-duty-play"
+  },
+  {
+    "id": "bank-english-review-read-013",
+    "familyId": "english-review-read__fam-013",
+    "version": 1,
+    "text": "In the friends' sketch, Amy says: 'You are late again!' Tom looks sorry. How should the audience react at that moment?",
+    "answer": "They should laugh a little.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "观众的反应要帮演员把气氛带起来。",
+      "这句是朋友之间半开玩笑的抱怨，观众轻轻笑一下最合适。",
+      "答：They should laugh a little."
+    ],
+    "hint": "想一想这句台词是真心生气、难过，还是开玩笑。",
+    "alternative": "也可以答 They should smile. 用微笑来配合这种轻松的场面。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__friends-sketch"
+  },
+  {
+    "id": "bank-english-review-read-014",
+    "familyId": "english-review-read__fam-014",
+    "version": 1,
+    "text": "In the friends' sketch, the scene is in the park on Sunday. Write the first stage direction. Use 'It is ...'.",
+    "answer": "It is Sunday in the park.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "舞台说明要交代清楚时间和地点，用一个完整的句子。",
+      "剧本给出的是星期天和公园，所以开头要把这两点说出来。",
+      "答：It is Sunday in the park."
+    ],
+    "hint": "舞台说明一般先说时间，再说地点。",
+    "alternative": "也可以答 It is Sunday. We are in the park. 用两个短句分开说也行。",
+    "prerequisites": [
+      "english-3-place",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__friends-sketch"
+  },
+  {
+    "id": "bank-english-review-read-015",
+    "familyId": "english-review-read__fam-015",
+    "version": 1,
+    "text": "In the class show, each student guides visitors around one place in the town. You act for the library. Write your first line to welcome the visitors.",
+    "answer": "Welcome! This is the library.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "开场白要先欢迎观众，再告诉大家这是什么地方。",
+      "你扮演图书馆的讲解员，所以要说出图书馆这个名字。",
+      "答：Welcome! This is the library."
+    ],
+    "hint": "开场白一般先打招呼，再介绍自己演的地方。",
+    "alternative": "也可以答 Welcome to the library! Let me show you around. 后面再加上讲解。",
+    "prerequisites": [
+      "english-3-place",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__place-tour-play"
+  },
+  {
+    "id": "bank-english-review-read-016",
+    "familyId": "english-review-read__fam-016",
+    "version": 1,
+    "text": "In the show, the guide acts for the hospital. Choose the best line to start with. A. 'Welcome to the hospital. Do you need help?' B. 'I like football very much.'",
+    "answer": "Welcome to the hospital. Do you need help?",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "讲解员的台词要欢迎别人，并说出这个地方是做什么的。",
+      "医院是帮助病人的地方，所以要问对方需不需要帮助。",
+      "答：Welcome to the hospital. Do you need help?"
+    ],
+    "hint": "想一想医院是做什么的地方，讲解员该说哪一句。",
+    "alternative": "也可以答 Welcome to the hospital. Let me show you the wards. 继续介绍里面的地方。",
+    "prerequisites": [
+      "english-3-place",
+      "english-4-actions",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__place-tour-play"
+  },
+  {
+    "id": "bank-english-review-read-017",
+    "familyId": "english-review-read__fam-017",
+    "version": 1,
+    "text": "The class is performing a play about helping in the community. Which line best shows the idea of helping? A. 'Where is the park?' B. 'Let me clean the bench with you.'",
+    "answer": "Let me clean the bench with you.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主题句要直接说出帮助别人做了什么。",
+      "第二句是主动提出一起打扫长椅，正是帮助的行动。",
+      "答：Let me clean the bench with you."
+    ],
+    "hint": "想一想哪一句是真正的帮助行动，哪一句只是随口一问。",
+    "alternative": "也可以答 B. Let me clean the bench with you. 写出选项编号同样可以。",
+    "prerequisites": [
+      "english-4-actions",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__community-helper-stage"
+  },
+  {
+    "id": "bank-english-review-read-018",
+    "familyId": "english-review-read__fam-018",
+    "version": 1,
+    "text": "In the community play, an actor forgets his line on the stage. What should he do?",
+    "answer": "He should stay calm and continue the scene.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "忘词是排练时常常会遇到的情况，要先想好补救办法。",
+      "慌张地站着会让观众更紧张，正确做法是保持镇定，把戏演下去。",
+      "答：He should stay calm and continue the scene."
+    ],
+    "hint": "站在台上的观众更希望看到演员继续演下去。",
+    "alternative": "也可以答 He should look at the other actor and go on. 看着搭档把戏接下去。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__community-helper-stage"
+  },
+  {
+    "id": "bank-english-review-read-019",
+    "familyId": "english-review-read__fam-019",
+    "version": 1,
+    "text": "In the show, one act is about a rainy day. Which line fits this act? A. 'The sun is shining. We go to the park.' B. 'It is raining. We stay at home and read books.'",
+    "answer": "It is raining. We stay at home and read books.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "每一幕的台词要和这一幕的情境相符。",
+      "这一幕讲下雨天，第二句说的是下雨并待在家里。",
+      "答：It is raining. We stay at home and read books."
+    ],
+    "hint": "先看这一幕讲的是什么天气，再挑同样的天气词。",
+    "alternative": "也可以答 B. It is raining. We stay at home and read books. 加上选项编号更清楚。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__weather-and-season-stage"
+  },
+  {
+    "id": "bank-english-review-read-020",
+    "familyId": "english-review-read__fam-020",
+    "version": 1,
+    "text": "In the season play, an actor says: 'It is hot. We wear shorts and swim.' The act is about winter now. Rewrite the line for winter.",
+    "answer": "It is cold. We wear coats and make a snowman.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改台词要把天气、穿什么、做什么三处都换成冬天的内容。",
+      "冬天是冷的，人们穿厚外套，会堆雪人。",
+      "答：It is cold. We wear coats and make a snowman."
+    ],
+    "hint": "想一想冬天不下雨时是什么天气，人们穿什么、玩什么。",
+    "alternative": "也可以答 It is cold in winter. We wear warm coats. 只改天气和衣着也可以。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__weather-and-season-stage"
+  },
+  {
+    "id": "bank-english-review-read-021",
+    "familyId": "english-review-read__fam-021",
+    "version": 1,
+    "text": "The class is preparing a show for the school festival. You act as a student. Write one line to say hello to the audience.",
+    "answer": "Hello! We are happy to see you today.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "开场要先向观众打招呼，并且说得自然、简单。",
+      "面向观众的问候通常用 Hello 加上一句欢迎的话。",
+      "答：Hello! We are happy to see you today."
+    ],
+    "hint": "想想你在台上第一次开口时最常说的那一句。",
+    "alternative": "也可以答 Good morning, everyone! Welcome to our show. 加上时间问候和欢迎语。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__school-fest"
+  },
+  {
+    "id": "bank-english-review-read-022",
+    "familyId": "english-review-read__fam-022",
+    "version": 1,
+    "text": "In the puppet show, the little rabbit wants to reach the shelf. Write the rabbit's line and say what it shows.",
+    "answer": "Please help me! I want to get the book — it shows the rabbit is asking for help.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "台词要符合角色的处境，还要把角色的心意说清楚。",
+      "小兔够不到书架，只能开口请人帮忙，所以台词是求助的话。",
+      "答：Please help me! I want to get the book — it shows the rabbit is asking for help."
+    ],
+    "hint": "先想小兔遇到了什么麻烦，再想它会开口说什么。",
+    "alternative": "也可以答 Help me, please! I can't reach the book. 换成小兔害怕够不到的说法。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__puppet-show"
+  },
+  {
+    "id": "bank-english-review-read-023",
+    "familyId": "english-review-read__fam-023",
+    "version": 1,
+    "text": "In the radio play, the sound of rain is needed. Which line should the sound maker read? A. 'It is raining hard outside.' B. 'The shop is on the corner.'",
+    "answer": "It is raining hard outside.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "音效提示语要让人听出这是什么声音或什么情形。",
+      "第一句说到下雨，听众就会想象出雨声。",
+      "答：It is raining hard outside."
+    ],
+    "hint": "想想哪一句能让听众马上听出下雨的声音。",
+    "alternative": "也可以答 A. It is raining hard outside. 写出选项编号也符合要求。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__radio-play"
+  },
+  {
+    "id": "bank-english-review-read-024",
+    "familyId": "english-review-read__fam-024",
+    "version": 1,
+    "text": "In the play, a girl sells fruit at a market. Which thing should be on her table?",
+    "answer": "Some fresh fruit.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "桌上摆的东西要和角色做的事情相符。",
+      "卖水果的摊子上应该摆着水果，让观众一眼看懂。",
+      "答：Some fresh fruit."
+    ],
+    "hint": "先想清楚这个角色在做什么生意，再决定桌上该有什么。",
+    "alternative": "也可以答 Apples and bananas. 直接写出两种水果的名字。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__market-stall-play"
+  },
+  {
+    "id": "bank-english-review-read-025",
+    "familyId": "english-review-read__fam-025",
+    "version": 1,
+    "text": "Your grandparents come to your home and watch your show. Write a line to greet them before the show starts.",
+    "answer": "Welcome, Grandma and Grandpa! I hope you like our show.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问候长辈的台词要有称呼，还要表达欢迎和期待。",
+      "先叫出 Grandparents，再说说希望他们喜欢这台演出。",
+      "答：Welcome, Grandma and Grandpa! I hope you like our show."
+    ],
+    "hint": "对长辈说话要客气，先问好再说明接下来会发生什么。",
+    "alternative": "也可以答 Hello, Grandma and Grandpa! Please sit down. 请长辈先入座。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__grandparents-visit"
+  },
+  {
+    "id": "bank-english-review-read-026",
+    "familyId": "english-review-read__fam-026",
+    "version": 1,
+    "text": "In the sibling sketch, the brother drops his sister's school bag. Write one funny line for the sister to say.",
+    "answer": "My bag is heavier than you!",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "笑点台词要轻松、有趣，还要和刚才发生的事情有关。",
+      "书包掉下来是个小意外，妹妹可以开玩笑说书包太重。",
+      "答：My bag is heavier than you!"
+    ],
+    "hint": "想一想妹妹看到书包掉在地上，会怎么调皮地说一句。",
+    "alternative": "也可以答 You are so careless! 用责备又带笑的方式说。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__sibling-sketch"
+  },
+  {
+    "id": "bank-english-review-read-027",
+    "familyId": "english-review-read__fam-027",
+    "version": 1,
+    "text": "The class play is about cleaning the park. Write the last line that shows the park is clean now.",
+    "answer": "Look! Our park is clean and bright.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "结尾句要能看出事情做完了、结果变好了。",
+      "打扫之后公园变干净了，所以结尾要说干净明亮的样子。",
+      "答：Look! Our park is clean and bright."
+    ],
+    "hint": "先想清楚演出结束时公园和演出前有什么不一样。",
+    "alternative": "也可以答 The park is clean now. We did a good job. 说出变化并表扬大家。",
+    "prerequisites": [
+      "english-4-actions",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__community-clean-play"
+  },
+  {
+    "id": "bank-english-review-read-028",
+    "familyId": "english-review-read__fam-028",
+    "version": 1,
+    "text": "You are reading a poem about the four seasons on the stage. Write one line about winter.",
+    "answer": "In winter, snow covers the ground.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写季节的句子要用 In 加季节名开头，再接上这个季节的特点。",
+      "冬天的特点可以是雪、寒冷，也可以是穿厚衣服。",
+      "答：In winter, snow covers the ground."
+    ],
+    "hint": "先想一个冬天能看到的景象，再把它写成一个句子。",
+    "alternative": "也可以答 In winter, it is cold and I wear a warm coat. 用活动和衣着来写。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__season-poem-stage"
+  },
+  {
+    "id": "bank-english-review-read-029",
+    "familyId": "english-review-read__fam-029",
+    "version": 1,
+    "text": "A new classmate comes to your class. During the show, how should you show that he is welcome?",
+    "answer": "By smiling at him and saying hello.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "让别人感到被欢迎，要把欢迎的意思让对方看得见、听得见。",
+      "笑着跟他说一声 hello，就是最直接的欢迎。",
+      "答：By smiling at him and saying hello."
+    ],
+    "hint": "想一想见到新同学时，你会做哪两件让对方觉得舒服的事。",
+    "alternative": "也可以答 By saying hello to him and giving him a seat. 让他有地方坐。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__new-classmate-welcome"
+  },
+  {
+    "id": "bank-english-review-read-030",
+    "familyId": "english-review-read__fam-030",
+    "version": 1,
+    "text": "The play is about a fox and a crow. Write down two things you need for the stage and say what each one is for.",
+    "answer": "A long stick for the crow's nest and a hat for the fox.",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "道具要能帮助演员演出角色的特点，还要说清每件东西的用处。",
+      "乌鸦的窝在高处，可以用长竿表示；狐狸可以用帽子装扮。",
+      "答：A long stick for the crow's nest and a hat for the fox."
+    ],
+    "hint": "先想狐狸和乌鸦各有什么特征，再想用什么道具表现出来。",
+    "alternative": "也可以答 A long stick for the nest and a red hat for the fox. 把狐狸的样子说得更具体。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-read__animal-story-stage"
+  },
+  {
+    "id": "bank-english-review-plan-001",
+    "familyId": "english-review-plan__fam-001",
+    "version": 1,
+    "text": "You hear: 'On Sunday morning, Amy and her father will go to the library.' When will they go to the library?",
+    "answer": "On Sunday morning.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到计划先记住时间、地点和要做的事。",
+      "句中的时间是 On Sunday morning。",
+      "答：On Sunday morning."
+    ],
+    "hint": "先圈出表示时间的词，比如 morning、Sunday、o'clock。",
+    "alternative": "也可以答 They will go on Sunday morning. 把动作一起写出来。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__daily-listen-record"
+  },
+  {
+    "id": "bank-english-review-plan-002",
+    "familyId": "english-review-plan__fam-002",
+    "version": 1,
+    "text": "You hear: 'We will meet at the school gate before the film.' Where will they meet?",
+    "answer": "At the school gate.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "地点常常跟在 at、in、on 这些词后面。",
+      "句中的地点是 at the school gate。",
+      "答：At the school gate."
+    ],
+    "hint": "听听句子里的介词 at、in、on 后面是什么。",
+    "alternative": "也可以答 They will meet at the school gate. 用完整句子回答。",
+    "prerequisites": [
+      "english-3-place",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__daily-listen-record"
+  },
+  {
+    "id": "bank-english-review-plan-003",
+    "familyId": "english-review-plan__fam-003",
+    "version": 1,
+    "text": "You hear: 'My brother will wash the car, and I will clean the bike.' Who will clean the bike, the speaker or the brother?",
+    "answer": "The speaker.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分清句子里的 I 和 my brother 指的是不同的人。",
+      "clean the bike 前面的是 I，所以是说话的人自己。",
+      "答：The speaker."
+    ],
+    "hint": "注意 I（我）和 my brother（我的哥哥）不是同一个人。",
+    "alternative": "也可以答 I will. 直接用英文第一人称回答。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__daily-listen-record"
+  },
+  {
+    "id": "bank-english-review-plan-004",
+    "familyId": "english-review-plan__fam-004",
+    "version": 1,
+    "text": "You hear a plan: 'First we will clean the classroom, then we will put up the pictures.' What will they do after cleaning the classroom?",
+    "answer": "They will put up the pictures.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听计划要抓住先做什么、后做什么。",
+      "then 后面就是要接着做的事：put up the pictures。",
+      "答：They will put up the pictures."
+    ],
+    "hint": "找到 then这个词，它后面就是下一步。",
+    "alternative": "也可以答 Put up the pictures. 直接写要做的事。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__daily-listen-record"
+  },
+  {
+    "id": "bank-english-review-plan-005",
+    "familyId": "english-review-plan__fam-005",
+    "version": 1,
+    "text": "You hear: 'On Saturday we will meet at nine o'clock. Bring your gloves and a big bag.' What should you bring?",
+    "answer": "Your gloves and a big bag.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听到 Bring 这类词，就要把要带的东西记下来。",
+      "句中要带的是 gloves 和 a big bag。",
+      "答：Your gloves and a big bag."
+    ],
+    "hint": "注意听 Bring 后面接的是哪两样东西。",
+    "alternative": "也可以答 Gloves and a big bag. 不用写出物主代词也可以。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__plan-details"
+  },
+  {
+    "id": "bank-english-review-plan-006",
+    "familyId": "english-review-plan__fam-006",
+    "version": 1,
+    "text": "You hear: 'It will be windy tomorrow, so we will draw pictures in the classroom.' What will they do tomorrow?",
+    "answer": "They will draw pictures in the classroom.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划句里 so 后面说明因为这个原因要做什么。",
+      "句中说天气有风，所以他们改在教室里画画。",
+      "答：They will draw pictures in the classroom."
+    ],
+    "hint": "先找到天气怎么样，再听他们改成了做什么。",
+    "alternative": "也可以答 Draw pictures in the classroom. 直接写活动。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__plan-details"
+  },
+  {
+    "id": "bank-english-review-plan-007",
+    "familyId": "english-review-plan__fam-007",
+    "version": 1,
+    "text": "You hear: 'We are going to the farm on Friday because we want to see the animals.' Why are they going to the farm?",
+    "answer": "Because they want to see the animals.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "because 后面就是原因，要听清楚。",
+      "句中的原因是想看看动物。",
+      "答：Because they want to see the animals."
+    ],
+    "hint": "听到 because 就说明后面是理由。",
+    "alternative": "也可以答 They want to see the animals. 把原因直接说出来。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__plan-details"
+  },
+  {
+    "id": "bank-english-review-plan-008",
+    "familyId": "english-review-plan__fam-008",
+    "version": 1,
+    "text": "It is sunny and hot today. Which plan is the best one? A. Make a snowman in the park. B. Swim in the pool.",
+    "answer": "Swim in the pool.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "选计划要看计划和天气是不是相配。",
+      "今天又晴又热，游泳正合适，堆雪人显然不合季节。",
+      "答：Swim in the pool."
+    ],
+    "hint": "先看今天的天气，再问哪件事在这种天气下做得舒服。",
+    "alternative": "也可以答 B. Swim in the pool. 加上选项编号也可以。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__make-a-plan"
+  },
+  {
+    "id": "bank-english-review-plan-009",
+    "familyId": "english-review-plan__fam-009",
+    "version": 1,
+    "text": "You hear: 'Four children will clean the playground, and three children will clean the library.' How many children will help?",
+    "answer": "Seven children.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把听到的两个数量加起来。",
+      "四加三等于七。",
+      "答：Seven children."
+    ],
+    "hint": "先记下两个数，再把它们合起来。",
+    "alternative": "也可以答 Seven. 只写数字也可以。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__make-a-plan"
+  },
+  {
+    "id": "bank-english-review-plan-010",
+    "familyId": "english-review-plan__fam-010",
+    "version": 1,
+    "text": "Listen and repeat the plan in the right order. You hear: 'We will clean the tables, then we will put the chairs, then we will close the windows.' Say the plan in order.",
+    "answer": "We will clean the tables, then put the chairs, then close the windows.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复述计划要按听到的先后顺序说，不能调换。",
+      "顺序是擦桌子、摆椅子、关窗户。",
+      "答：We will clean the tables, then put the chairs, then close the windows."
+    ],
+    "hint": "在句子里标上 first、then、then 再复述。",
+    "alternative": "也可以答 Clean the tables, put the chairs, close the windows. 用短语说同样顺序。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__make-a-plan"
+  },
+  {
+    "id": "bank-english-review-plan-011",
+    "familyId": "english-review-plan__fam-011",
+    "version": 1,
+    "text": "It is Saturday tomorrow. Write two sentences about what you will do at the weekend. Use 'I will ...'.",
+    "answer": "I will clean my room. Then I will visit my grandparents.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说自己的计划要用 will，并且把时间、事情说清楚。",
+      "周末可以做两件事，一件是家里的事，一件是出门的事。",
+      "答：I will clean my room. Then I will visit my grandparents."
+    ],
+    "hint": "先想 weekend 你真的会做的两件事，再各写一句。",
+    "alternative": "也可以答 I will read a book. Then I will play football with my friends. 换成自己的活动。",
+    "prerequisites": [
+      "english-6-actions",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__weekend-plan"
+  },
+  {
+    "id": "bank-english-review-plan-012",
+    "familyId": "english-review-plan__fam-012",
+    "version": 1,
+    "text": "Your friend says: 'Let's go to the zoo on Sunday.' You must help your mum at home. Reply in English and say what you will do instead.",
+    "answer": "Sorry, I can't. I will help my mum at home.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "拒绝别人时先表示抱歉，再说清楚自己要做的事。",
+      "不能去的原因是家里要帮忙，所以要说出自己的安排。",
+      "答：Sorry, I can't. I will help my mum at home."
+    ],
+    "hint": "别人邀请你时，先想清楚自己答应的理由是什么。",
+    "alternative": "也可以答 Sorry, I can't go today. I will help my mum clean the room. 把家里的活儿说具体。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__weekend-plan"
+  },
+  {
+    "id": "bank-english-review-plan-013",
+    "familyId": "english-review-plan__fam-013",
+    "version": 1,
+    "text": "Your group is making a plan for a school show. Write the first step of the plan. Begin with 'First, we will ...'.",
+    "answer": "First, we will choose the story.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写计划的每一步都要用同一个时序词开头，句式要一致。",
+      "演出第一步通常是先定故事或节目，再排练。",
+      "答：First, we will choose the story."
+    ],
+    "hint": "想想做一场演出最先要做的是哪一件事。",
+    "alternative": "也可以答 First, we will choose the music. 先定音乐也是合理的第一步。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__class-project-plan"
+  },
+  {
+    "id": "bank-english-review-plan-014",
+    "familyId": "english-review-plan__fam-014",
+    "version": 1,
+    "text": "The class plan says: 'We will have the show in the playground on Monday.' It will rain on Monday. Change the plan and give a reason.",
+    "answer": "We will have the show in the classroom on Tuesday, because it will rain on Monday.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改计划要把地点或时间换掉，并说明为什么要换。",
+      "下雨不能在操场上演，所以要换地方或换到雨停的那天。",
+      "答：We will have the show in the classroom on Tuesday, because it will rain on Monday."
+    ],
+    "hint": "先找出原计划里最不能实现的那一点，再想怎么改。",
+    "alternative": "也可以答 We will have the show in the hall on Monday, because it will rain. 只换地点也可以。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__class-project-plan"
+  },
+  {
+    "id": "bank-english-review-plan-015",
+    "familyId": "english-review-plan__fam-015",
+    "version": 1,
+    "text": "You hear: 'Your cousin is coming on Saturday at ten o'clock. She likes painting, and she needs an old T-shirt for her painting.' What does she need for her painting?",
+    "answer": "An old T-shirt.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要抓住跟需要有关的关键词 needs。",
+      "句中她画画需要一块旧 T 恤。",
+      "答：An old T-shirt."
+    ],
+    "hint": "听听 needs 后面接的是什么。",
+    "alternative": "也可以答 She needs an old T-shirt. 用完整的句子回答。",
+    "prerequisites": [
+      "english-1-listen",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__family-visit-plan"
+  },
+  {
+    "id": "bank-english-review-plan-016",
+    "familyId": "english-review-plan__fam-016",
+    "version": 1,
+    "text": "Your cousin comes to your home at ten o'clock. Write the plan for the morning: when she arrives, what you do first, and what you do together after that.",
+    "answer": "She arrives at ten o'clock. First we drink some juice, then we paint together.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写早晨的安排要按时间顺序：先到、再先做、然后一起做。",
+      "接待客人可以先请她喝点东西，再一起做喜欢的事。",
+      "答：She arrives at ten o'clock. First we drink some juice, then we paint together."
+    ],
+    "hint": "按先后的顺序列出三件事，就不会漏掉。",
+    "alternative": "也可以答 She comes at ten. First we have breakfast, then we paint pictures together. 换成先吃早饭。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__family-visit-plan"
+  },
+  {
+    "id": "bank-english-review-plan-017",
+    "familyId": "english-review-plan__fam-017",
+    "version": 1,
+    "text": "The weather report says: 'It will rain on Monday and sunny on Saturday.' Which day is good for a picnic?",
+    "answer": "Saturday.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "野餐要在天气好的时候安排。",
+      "星期六是晴天，适合到户外野餐。",
+      "答：Saturday."
+    ],
+    "hint": "先比较两天的天气，再挑好天气那一天。",
+    "alternative": "也可以答 Saturday, because it will be sunny. 把理由一起说出来。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__weather-week-plan"
+  },
+  {
+    "id": "bank-english-review-plan-018",
+    "familyId": "english-review-plan__fam-018",
+    "version": 1,
+    "text": "You planned to fly a kite on Saturday, but the wind is too strong. Say what you will do instead and give a reason.",
+    "answer": "I will stay at home and read books, because the wind is too strong.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "改变计划要说清新的安排，还要说出为什么改。",
+      "风太大飞不了风筝，所以改成待在家里做安静的事。",
+      "答：I will stay at home and read books, because the wind is too strong."
+    ],
+    "hint": "先想风大的时候哪些户外活动不能做，再选一件室内的事。",
+    "alternative": "也可以答 I will draw pictures at home, because it is too windy outside. 换成画画。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__weather-week-plan"
+  },
+  {
+    "id": "bank-english-review-plan-019",
+    "familyId": "english-review-plan__fam-019",
+    "version": 1,
+    "text": "You are planning a birthday party for your friend. Write three things to do before the party. Use 'First', 'Then' and 'Finally'.",
+    "answer": "First, we clean the room. Then we make the cards. Finally, we put up the balloons.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写三步计划要分别用 First、Then、Finally 标出顺序。",
+      "聚会前要做的事可以包括打扫、做贺卡、布置房间。",
+      "答：First, we clean the room. Then we make the cards. Finally, we put up the balloons."
+    ],
+    "hint": "先想三件聚会前一定要做的事，再按先后排好。",
+    "alternative": "也可以答 First, we make the cake. Then we clean the room. Finally, we open the door for our friends. 换成做蛋糕。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__party-plan"
+  },
+  {
+    "id": "bank-english-review-plan-020",
+    "familyId": "english-review-plan__fam-020",
+    "version": 1,
+    "text": "You want to join the swimming club on Saturday. You hear: 'The club meets at nine o'clock on Saturday in front of the school gate. Please bring a towel.' What must you take with you?",
+    "answer": "A towel.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "听规则时要把要求自己的那条记下来。",
+      "通知里明确要求带毛巾。",
+      "答：A towel."
+    ],
+    "hint": "注意听 Please bring 后面说的是什么。",
+    "alternative": "也可以答 You must take a towel. 用完整的句子写出来。",
+    "prerequisites": [
+      "english-1-listen",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__party-plan"
+  },
+  {
+    "id": "bank-english-review-plan-021",
+    "familyId": "english-review-plan__fam-021",
+    "version": 1,
+    "text": "Your class will visit the science museum next Friday. Write a plan with the time and two things to do there.",
+    "answer": "We will leave school at eight. We will see the space show and the robot show.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划要先说时间，再说清楚要做的两件事。",
+      "参观科技馆可以先看太空表演，再看机器人表演。",
+      "答：We will leave school at eight. We will see the space show and the robot show."
+    ],
+    "hint": "想想去博物馆最想看的两个展项。",
+    "alternative": "也可以答 We will meet at eight. We will watch the plane model and the space show. 换成别的展项。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__travel-plan"
+  },
+  {
+    "id": "bank-english-review-plan-022",
+    "familyId": "english-review-plan__fam-022",
+    "version": 1,
+    "text": "For a birthday gift you can choose a cake, a game or a drawing card. Your friend likes drawing best. Which should you choose and why?",
+    "answer": "The drawing card, because your friend likes drawing.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "做选择要说清选哪一个，还要给出和好朋友喜好有关的理由。",
+      "朋友最喜欢画画，所以应该送绘画卡片。",
+      "答：The drawing card, because your friend likes drawing."
+    ],
+    "hint": "把礼物和好朋友最喜欢的东西对上。",
+    "alternative": "也可以答 I will choose the drawing card. She likes drawing best. 用完整的句子说明。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__birthday-choice"
+  },
+  {
+    "id": "bank-english-review-plan-023",
+    "familyId": "english-review-plan__fam-023",
+    "version": 1,
+    "text": "Four people live in your home. Write the cleaning plan for Saturday morning: who does the kitchen and who does the living room?",
+    "answer": "Mum cleans the kitchen and I clean the living room.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分工计划要说清谁负责哪一部分，不能漏掉任何人要做的事。",
+      "可以按家里人的擅长来分：妈妈做厨房，我做客厅。",
+      "答：Mum cleans the kitchen and I clean the living room."
+    ],
+    "hint": "先想想家里几口人，再给每人分一件家务。",
+    "alternative": "也可以答 Dad cleans the kitchen and my sister cleans the living room. 换成别的分工。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__cleaning-schedule"
+  },
+  {
+    "id": "bank-english-review-plan-024",
+    "familyId": "english-review-plan__fam-024",
+    "version": 1,
+    "text": "You borrowed three books from the library. Write a plan to finish them in one week.",
+    "answer": "I will read one book on Monday, one on Wednesday and one on Friday.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划要把时间和任务一一对上，让人一看就知道什么时候读哪本。",
+      "三天读三本书，每天读一本，一个星期正好读完。",
+      "答：I will read one book on Monday, one on Wednesday and one on Friday."
+    ],
+    "hint": "先想一周里有哪几天可以读书，再把书分开。",
+    "alternative": "也可以答 I will read the first book on Monday, the second on Tuesday and the third on Friday. 换成别的日子。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__library-reading-plan"
+  },
+  {
+    "id": "bank-english-review-plan-025",
+    "familyId": "english-review-plan__fam-025",
+    "version": 1,
+    "text": "The school sports day is next week. Write a short plan to get ready for it. Use 'I will ...' twice.",
+    "answer": "I will run every morning. I will drink more water.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写准备计划要用 will，并且每句说清一件要做的事。",
+      "为运动会做准备，可以每天跑步，还要多喝水。",
+      "答：I will run every morning. I will drink more water."
+    ],
+    "hint": "想想比赛前几天最需要练习和照顾的两件事。",
+    "alternative": "也可以答 I will practise the relay race. I will sleep early every night. 换成练习项目。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__sports-day-plan"
+  },
+  {
+    "id": "bank-english-review-plan-026",
+    "familyId": "english-review-plan__fam-026",
+    "version": 1,
+    "text": "Write a plan for a class picnic next Friday. Say when, where and what you will take. Give a reason for the time you choose.",
+    "answer": "We will have the picnic at nine in the park, because it is cool in the morning.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划要包含时间、地点和带的物品，并且要解释为什么选这个时间。",
+      "早上比较凉快，所以把野餐安排在上午九点。",
+      "答：We will have the picnic at nine in the park, because it is cool in the morning."
+    ],
+    "hint": "先想夏天的什么时间最凉快，再决定几点出发。",
+    "alternative": "也可以答 We will go at eight in the park and take water and bread, because it is cool then. 把带的东西也写进去。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__picnic-plan"
+  },
+  {
+    "id": "bank-english-review-plan-027",
+    "familyId": "english-review-plan__fam-027",
+    "version": 1,
+    "text": "Your class will help clean the neighbourhood on Sunday. Write a plan for the morning.",
+    "answer": "We will meet at the school gate at eight. We will pick up litter and then plant some flowers.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "社区活动的计划要写清集合的时间和地点，再说做什么。",
+      "上午可以先捡垃圾，再种一些花美化社区。",
+      "答：We will meet at the school gate at eight. We will pick up litter and then plant some flowers."
+    ],
+    "hint": "先想集合的时间和地点，再想两件能帮到社区的事。",
+    "alternative": "也可以答 We will meet at the park at nine. We will clean the benches and put up notices. 换成别的事。",
+    "prerequisites": [
+      "english-4-actions",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__community-service-plan"
+  },
+  {
+    "id": "bank-english-review-plan-028",
+    "familyId": "english-review-plan__fam-028",
+    "version": 1,
+    "text": "It will snow this weekend. Write a plan for Saturday. Use 'We will ...'.",
+    "answer": "We will make a snowman and then have hot drinks at home.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划要先顺着天气想能做的事，再安排先后顺序。",
+      "下雪天可以先在户外堆雪人，回屋后再喝热饮。",
+      "答：We will make a snowman and then have hot drinks at home."
+    ],
+    "hint": "先想下雪天在户外能做什么，再想回到屋里可以做什么。",
+    "alternative": "也可以答 We will make a snowman first. Then we will go home and drink hot milk. 换成热牛奶。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-5-plan",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__winter-plan"
+  },
+  {
+    "id": "bank-english-review-plan-029",
+    "familyId": "english-review-plan__fam-029",
+    "version": 1,
+    "text": "Your family will move to a new home next week. Write what you will do on the first day there.",
+    "answer": "I will put my books on the shelf and clean my new room.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写第一天的安排，要写自己真的做得完的两件事。",
+      "搬进新家可以先整理书架，再打扫自己的房间。",
+      "答：I will put my books on the shelf and clean my new room."
+    ],
+    "hint": "想一想新家第一天最需要安顿的是哪两个角落。",
+    "alternative": "也可以答 I will make my bed and water the plants in my room. 换成整理床铺。",
+    "prerequisites": [
+      "english-3-place",
+      "english-1-talk",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__moving-plan"
+  },
+  {
+    "id": "bank-english-review-plan-030",
+    "familyId": "english-review-plan__fam-030",
+    "version": 1,
+    "text": "You will go on a trip to the beach in July. Write what you will put in your bag.",
+    "answer": "I will put my hat, my sunglasses and some water in the bag.",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "列物品要选七月去海边真正用得上的东西。",
+      "海边阳光强，要带帽子和太阳镜，还要带水。",
+      "答：I will put my hat, my sunglasses and some water in the bag."
+    ],
+    "hint": "先想七月海边的天气和活动，再决定带什么。",
+    "alternative": "也可以答 I will take a hat, some water and my beach towel. 换成沙滩巾。",
+    "prerequisites": [
+      "english-6-actions",
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-plan__holiday-packing"
+  },
+  {
+    "id": "bank-english-review-write-001",
+    "familyId": "english-review-write__fam-001",
+    "version": 1,
+    "text": "Complete the sentence: 'It is sunny today, so I can ____ outside.'",
+    "answer": "play",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看句子里 can 后面要接什么形式的动词。",
+      "can 后面用动词原形，所以填 play。",
+      "答：play."
+    ],
+    "hint": "想一想天气好的时候在户外常做的一件事。",
+    "alternative": "也可以填 run 或 walk，只要能接在 can 后面、意思通顺即可。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__sentence-build"
+  },
+  {
+    "id": "bank-english-review-write-002",
+    "familyId": "english-review-write__fam-002",
+    "version": 1,
+    "text": "Choose the right word: 'In winter I wear a ____ coat.' A. cold B. hot",
+    "answer": "cold",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "填词时要让句子和季节说得通。",
+      "冬天很冷，所以外套是 cold coat。",
+      "答：cold."
+    ],
+    "hint": "想一想冬天穿外套是为什么。",
+    "alternative": "也可以答 A. cold. 把选项一起写上也可以。",
+    "prerequisites": [
+      "english-6-actions",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__sentence-build"
+  },
+  {
+    "id": "bank-english-review-write-003",
+    "familyId": "english-review-write__fam-003",
+    "version": 1,
+    "text": "Write one English sentence about what you can do at home. Use 'I can ...'.",
+    "answer": "I can clean the table.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句首用 I can 后面接动词原形，句子要完整。",
+      "能做的家务可以是擦桌子、洗碗、扫地。",
+      "答：I can clean the table."
+    ],
+    "hint": "先想一件你真的会做的家务，再套进 I can 的句子里。",
+    "alternative": "也可以答 I can wash the dishes. 换成洗碗。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__sentence-build"
+  },
+  {
+    "id": "bank-english-review-write-004",
+    "familyId": "english-review-write__fam-004",
+    "version": 1,
+    "text": "Correct the mistake: 'They goes to the park on Sunday.'",
+    "answer": "They go to the park on Sunday.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出错在哪里：主语 they 是复数。",
+      "复数主语后面的动词要用 go，不能用 goes。",
+      "答：They go to the park on Sunday."
+    ],
+    "hint": "先看主语是单数还是复数，再决定动词的写法。",
+    "alternative": "也可以答 They go to the park on Sunday. 保持句末的时间不变。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__sentence-build"
+  },
+  {
+    "id": "bank-english-review-write-005",
+    "familyId": "english-review-write__fam-005",
+    "version": 1,
+    "text": "You are going to bed. Write one short sentence to say good night to your mum.",
+    "answer": "Good night, Mum. See you tomorrow.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "睡前问候要简短，先道晚安，再说明明天还会见面。",
+      "句子要有称呼和标点，句首字母要大写。",
+      "答：Good night, Mum. See you tomorrow."
+    ],
+    "hint": "想一想睡前和妈妈说的第一句话是什么。",
+    "alternative": "也可以答 Good night, Mum! Have a nice sleep. 换成祝她睡个好觉。",
+    "prerequisites": [
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__short-message"
+  },
+  {
+    "id": "bank-english-review-write-006",
+    "familyId": "english-review-write__fam-006",
+    "version": 1,
+    "text": "Write one sentence to greet your new English teacher on the first day of school.",
+    "answer": "Good morning, Miss Chen. Nice to meet you.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第一次见面要先问好，再说一句表示认识你很高兴。",
+      "称呼后面要有标点，整句话要完整。",
+      "答：Good morning, Miss Chen. Nice to meet you."
+    ],
+    "hint": "打招呼之后，再想一句表示初次见面的礼貌话。",
+    "alternative": "也可以答 Hello, Miss Chen. I am happy to be your student. 换成自己的身份。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__short-message"
+  },
+  {
+    "id": "bank-english-review-write-007",
+    "familyId": "english-review-write__fam-007",
+    "version": 1,
+    "text": "Your friend asks in English: 'What do you do at home?' Write your answer in one sentence.",
+    "answer": "I clean the table and wash the dishes at home.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答时要把主语和动作连起来，句子要完整。",
+      "可以用 I 加两个家务动词，最后补上 at home。",
+      "答：I clean the table and wash the dishes at home."
+    ],
+    "hint": "先想两件你在家做的家务，再用一个 and 连起来。",
+    "alternative": "也可以答 I often make my bed at home. 只写一件家务也可以。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__short-message"
+  },
+  {
+    "id": "bank-english-review-write-008",
+    "familyId": "english-review-write__fam-008",
+    "version": 1,
+    "text": "Write two sentences to introduce your best friend: one about what your friend is like, one about what you do together.",
+    "answer": "My friend is kind and tall. We play football together.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍朋友分成两句：一句写特点，一句写共同活动。",
+      "特点用一个或两个简单的词就能说清。",
+      "答：My friend is kind and tall. We play football together."
+    ],
+    "hint": "先想朋友的一个性格词，再想你们常一起做的事。",
+    "alternative": "也可以答 My friend is friendly. We go to the library together. 换成一起去图书馆。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__topic-sentences"
+  },
+  {
+    "id": "bank-english-review-write-009",
+    "familyId": "english-review-write__fam-009",
+    "version": 1,
+    "text": "Write one sentence to say what the weather is like today, and one sentence to say what you will do because of it.",
+    "answer": "It is cold today. I will wear a coat and play basketball.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第一句说天气，第二句说因为这个天气你要做什么。",
+      "天气句用 It is...，计划句用 I will...。",
+      "答：It is cold today. I will wear a coat and play basketball."
+    ],
+    "hint": "先写今天冷不冷，再写冷的时候你会多穿什么、少做什么。",
+    "alternative": "也可以答 It is rainy today. I will read books at home. 换成下雨天。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__topic-sentences"
+  },
+  {
+    "id": "bank-english-review-write-010",
+    "familyId": "english-review-write__fam-010",
+    "version": 1,
+    "text": "Write one sentence about spring. Begin with 'In spring, ...'.",
+    "answer": "In spring, the trees turn green and flowers bloom.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写季节要用 In 加季节名开头，再写这个季节的变化。",
+      "春天常见的景象是树变绿、花儿开放。",
+      "答：In spring, the trees turn green and flowers bloom."
+    ],
+    "hint": "先想春天你在窗外看到的一个变化。",
+    "alternative": "也可以答 In spring, I fly my kite in the park. 用季节里的活动来写。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__topic-sentences"
+  },
+  {
+    "id": "bank-english-review-write-011",
+    "familyId": "english-review-write__fam-011",
+    "version": 1,
+    "text": "Write a short email to your teacher. Say who you are, and ask to join the reading club on Friday afternoon.",
+    "answer": "Dear Miss Chen, I am Wu Bin. May I join the reading club on Friday afternoon? Thank you.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "邮件要有称呼、说明身份、提出请求，再致谢。",
+      "请求许可常用 May I ...? 这样的问句。",
+      "答：Dear Miss Chen, I am Wu Bin. May I join the reading club on Friday afternoon? Thank you."
+    ],
+    "hint": "按称呼、我是谁、我的请求、谢谢的顺序写就不会漏。",
+    "alternative": "也可以答 Dear Miss Chen, I am Wu Bin. Can I join the reading club on Friday afternoon? Thanks. 换成 Can I。",
+    "prerequisites": [
+      "english-3-question",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__email-to-teacher"
+  },
+  {
+    "id": "bank-english-review-write-012",
+    "familyId": "english-review-write__fam-012",
+    "version": 1,
+    "text": "Your teacher writes: 'Dear Wu Bin, please help me clean the classroom before the art show.' Write a short reply to say you will help.",
+    "answer": "Dear Miss Chen, I will help you clean the classroom before the art show.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回信要有称呼，表示同意，并说明自己会做的事。",
+      "答应别人的话可以用 I will... 来表达。",
+      "答：Dear Miss Chen, I will help you clean the classroom before the art show."
+    ],
+    "hint": "回信里要出现三样东西：称呼、答应、做什么。",
+    "alternative": "也可以答 Dear Miss Chen, of course I will. I will clean the classroom with you. 表示乐意一起做。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__email-to-teacher"
+  },
+  {
+    "id": "bank-english-review-write-013",
+    "familyId": "english-review-write__fam-013",
+    "version": 1,
+    "text": "Write a short invitation to your friend to come to your birthday party on Saturday morning. Use 'Come to ...'.",
+    "answer": "Come to my birthday party on Saturday morning. We will play games and eat cake.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "邀请要先发出邀请，再说清楚时间和会有什么活动。",
+      "开头用 Come to 加活动名称，是邀请的常用说法。",
+      "答：Come to my birthday party on Saturday morning. We will play games and eat cake."
+    ],
+    "hint": "先写邀请的话，再补一句让对方更想来的活动。",
+    "alternative": "也可以答 Come to my party on Saturday. We will watch a film together. 换成看电影。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__invitation-and-thanks"
+  },
+  {
+    "id": "bank-english-review-write-014",
+    "familyId": "english-review-write__fam-014",
+    "version": 1,
+    "text": "Your neighbour helped you clean the yard. Write one short sentence to thank her.",
+    "answer": "Thank you for helping me clean the yard.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "道谢时要说出感谢的原因，句子才完整。",
+      "用 Thank you for 加做的事，是感谢别人的常用句式。",
+      "答：Thank you for helping me clean the yard."
+    ],
+    "hint": "先想她帮你做了哪件事，再把这件事放进 Thank you for 后面。",
+    "alternative": "也可以答 Thank you for your help today. 换成更简短的说法。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__invitation-and-thanks"
+  },
+  {
+    "id": "bank-english-review-write-015",
+    "familyId": "english-review-write__fam-015",
+    "version": 1,
+    "text": "Write two sentences for Sunday's diary entry: one about what you did at home, and one about how you felt.",
+    "answer": "I helped my mum wash the dishes. I was tired but happy.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "日记先写做了什么，再写自己的感受，两件事分开说。",
+      "感受可以用 but 把两个相反的心情连起来。",
+      "答：I helped my mum wash the dishes. I was tired but happy."
+    ],
+    "hint": "先想一件做过的事，再想当时是高兴、累还是难过。",
+    "alternative": "也可以答 I cleaned my room with my dad. I was proud of myself. 换成自豪的心情。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__diary-and-story"
+  },
+  {
+    "id": "bank-english-review-write-016",
+    "familyId": "english-review-write__fam-016",
+    "version": 1,
+    "text": "A story begins: 'It was snowing. Wu Bin put on his coat and went out.' Write one more sentence to end the story.",
+    "answer": "He made a big snowman and had fun.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "续写结尾要和开头的情境连得上，人物和天气都要对得上。",
+      "开头是下雪和出门，所以结尾可以是他在雪地里做了什么。",
+      "答：He made a big snowman and had fun."
+    ],
+    "hint": "想一想他出门以后最可能做的一件事，再写成一句话。",
+    "alternative": "也可以答 He fell in the snow and laughed. 换成另一种结尾。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__diary-and-story"
+  },
+  {
+    "id": "bank-english-review-write-017",
+    "familyId": "english-review-write__fam-017",
+    "version": 1,
+    "text": "Your neighbour is carrying heavy bags. Write one sentence to offer to help.",
+    "answer": "Can I help you? I can carry the bags for you.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主动帮忙要先问对方需不需要，再用 I can 说明自己能做什么。",
+      "Can I help you? 是提出帮忙的常用问句。",
+      "答：Can I help you? I can carry the bags for you."
+    ],
+    "hint": "先礼貌地问一句，再说你能替他做什么。",
+    "alternative": "也可以答 Let me help you carry those bags. 直接提出帮忙。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__help-and-community"
+  },
+  {
+    "id": "bank-english-review-write-018",
+    "familyId": "english-review-write__fam-018",
+    "version": 1,
+    "text": "Write one rule for your class to keep the classroom clean. Use 'We should ...'.",
+    "answer": "We should clean the classroom every Friday.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写规则要用 We should 开头，说清楚做什么、什么时候做。",
+      "规则要具体可执行，比如每周五一起打扫。",
+      "答：We should clean the classroom every Friday."
+    ],
+    "hint": "先想一条大家都做得到、又能让教室变干净的规则。",
+    "alternative": "也可以答 We should put our rubbish in the bins. 换成不乱扔垃圾。",
+    "prerequisites": [
+      "english-4-actions",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__help-and-community"
+  },
+  {
+    "id": "bank-english-review-write-019",
+    "familyId": "english-review-write__fam-019",
+    "version": 1,
+    "text": "Write one sentence about what you wear when it is cold in winter.",
+    "answer": "I wear a warm coat when it is cold in winter.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说衣着要用 I wear...，再把什么时候穿说清楚。",
+      "可以用 when 引导的时间状语把天气和衣着连起来。",
+      "答：I wear a warm coat when it is cold in winter."
+    ],
+    "hint": "先想冷的冬天要穿什么，再想想用什么词把季节说出来。",
+    "alternative": "也可以答 In winter, I wear a hat and a warm coat. 用 In winter 开头。",
+    "prerequisites": [
+      "english-6-actions",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__weather-and-season-writing"
+  },
+  {
+    "id": "bank-english-review-write-020",
+    "familyId": "english-review-write__fam-020",
+    "version": 1,
+    "text": "Write one sentence about what you do in summer. Begin with 'In summer, I ...'.",
+    "answer": "In summer, I go swimming with my friends.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 In summer, I 开头，后面直接接动词，像夏天的活动。",
+      "夏天的活动可以是游泳、吃冰淇淋、到公园玩。",
+      "答：In summer, I go swimming with my friends."
+    ],
+    "hint": "先想夏天最常做的一件事，再补上是谁和你一起。",
+    "alternative": "也可以答 In summer, I eat ice cream in the park. 换成吃冰淇淋。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-6-actions",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__weather-and-season-writing"
+  },
+  {
+    "id": "bank-english-review-write-021",
+    "familyId": "english-review-write__fam-021",
+    "version": 1,
+    "text": "You have a new pen pal in another city. Write three sentences to introduce yourself and your family.",
+    "answer": "Hi! My name is Wu Bin. I am nine. I live in a small city with my family.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "自我介绍要按顺序写：问候、名字、年龄、住在哪里。",
+      "三句话刚好把最基本的个人信息说清楚。",
+      "答：Hi! My name is Wu Bin. I am nine. I live in a small city with my family."
+    ],
+    "hint": "按问候、我是谁、我的家庭这三步来写。",
+    "alternative": "也可以答 Hi! My name is Amy. I am nine. I live in a city with my parents and my little brother. 换成自己的情况。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-3-place",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__pen-pal-letter"
+  },
+  {
+    "id": "bank-english-review-write-022",
+    "familyId": "english-review-write__fam-022",
+    "version": 1,
+    "text": "Your granny is ill in hospital. Write a short note to say you will visit her on Sunday.",
+    "answer": "Dear Granny, I will visit you on Sunday. I hope you get better soon.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "留言条要有称呼，说明自己会做的事，再送上祝愿。",
+      "先说探望的时间和安排，再表达希望她好起来。",
+      "答：Dear Granny, I will visit you on Sunday. I hope you get better soon."
+    ],
+    "hint": "按称呼、我的安排、我的祝愿三步来写。",
+    "alternative": "也可以答 Dear Granny, I will come to see you on Sunday. Please get well soon. 换成 please。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__visit-granny-note"
+  },
+  {
+    "id": "bank-english-review-write-023",
+    "familyId": "english-review-write__fam-023",
+    "version": 1,
+    "text": "Your class did a community clean-up day. Write two sentences about what the students did and how you felt.",
+    "answer": "We picked up litter in the park and cleaned the playground. I was proud of our class.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先写同学们做了什么社区服务，再写自己的感受。",
+      "感受句可以用 I was... 加一个表示心情的词。",
+      "答：We picked up litter in the park and cleaned the playground. I was proud of our class."
+    ],
+    "hint": "先想同学们动手做了哪两件事，再想这件事让你有什么感觉。",
+    "alternative": "也可以答 We cleaned the park and helped old people. I felt happy. 换成帮助老人。",
+    "prerequisites": [
+      "english-4-actions",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__community-service-note"
+  },
+  {
+    "id": "bank-english-review-write-024",
+    "familyId": "english-review-write__fam-024",
+    "version": 1,
+    "text": "Write a letter to your friend in another city. Say what the weather is like here and what you will do this weekend.",
+    "answer": "Dear Sam, it is snowy here. This weekend I will make a snowman with my brother.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "信里要先问候，再说天气，最后说自己周末的安排。",
+      "天气用 It is...，周末安排用 I will...。",
+      "答：Dear Sam, it is snowy here. This weekend I will make a snowman with my brother."
+    ],
+    "hint": "按问候、天气、安排三步写，就不会漏掉信息。",
+    "alternative": "也可以答 Dear Sam, it is windy here. This weekend I will fly a kite in the park. 换成刮风。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__weather-letter"
+  },
+  {
+    "id": "bank-english-review-write-025",
+    "familyId": "english-review-write__fam-025",
+    "version": 1,
+    "text": "Write one sentence for a diary about autumn: say what the weather or the leaves are like.",
+    "answer": "In autumn, the leaves turn yellow and it is cool.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "日记里写季节常用 In 加季节名开头，再写观察到的情况。",
+      "秋天的景象可以是落叶变黄、天气转凉。",
+      "答：In autumn, the leaves turn yellow and it is cool."
+    ],
+    "hint": "先想想秋天出门看到的画面，再写成一句话。",
+    "alternative": "也可以答 In autumn, it is cool and I wear my old coat. 用衣着来写。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__season-diary"
+  },
+  {
+    "id": "bank-english-review-write-026",
+    "familyId": "english-review-write__fam-026",
+    "version": 1,
+    "text": "You are making a poster for the reading corner. Write one short slogan in English.",
+    "answer": "Read every day, and you will learn a lot.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "宣传语要短、要让人记得住，还要和读书有关。",
+      "可以用 Read every day 这样有力的开头。",
+      "答：Read every day, and you will learn a lot."
+    ],
+    "hint": "想一想能让低年级同学一看就懂的读书好处。",
+    "alternative": "也可以答 Books are fun. Read with your friends. 换成更活泼的说法。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__reading-poster"
+  },
+  {
+    "id": "bank-english-review-write-027",
+    "familyId": "english-review-write__fam-027",
+    "version": 1,
+    "text": "Write a short message to a classmate to say you cannot go to the club meeting on Wednesday and ask to have the notes.",
+    "answer": "Hi Tom, I can't come to the club on Wednesday. Please share the notes with me.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "消息要先说明不能参加，再提出自己的请求。",
+      "I can't... 说明原因，用 Please... 请求帮忙。",
+      "答：Hi Tom, I can't come to the club on Wednesday. Please share the notes with me."
+    ],
+    "hint": "按不能来、想请你帮忙两件事来写。",
+    "alternative": "也可以答 Hi Tom, I am busy on Wednesday. Could you bring me the notes? 换成请他带来笔记。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__class-message"
+  },
+  {
+    "id": "bank-english-review-write-028",
+    "familyId": "english-review-write__fam-028",
+    "version": 1,
+    "text": "Write two sentences to tell a pen pal how you help at home.",
+    "answer": "I often make my bed and clean the table. My mum says I am a good helper.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两句可以先写做什么，再写别人的评价，让内容更完整。",
+      "第一句用 I 加动作，第二句说明别人怎么看。",
+      "答：I often make my bed and clean the table. My mum says I am a good helper."
+    ],
+    "hint": "先写两件家务，再想想家里人会怎么夸你。",
+    "alternative": "也可以答 I help my mum wash the dishes. My dad says I am helpful at home. 换成爸爸的评价。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__pen-friend-helper"
+  },
+  {
+    "id": "bank-english-review-write-029",
+    "familyId": "english-review-write__fam-029",
+    "version": 1,
+    "text": "Write one sentence to tell your pen pal one piece of good news about your family this week.",
+    "answer": "My family is going to the park on Sunday.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "好消息要用完整的句子说出来，并说明是什么事、什么时候。",
+      "可以写周末的安排或者家里的活动。",
+      "答：My family is going to the park on Sunday."
+    ],
+    "hint": "想一想这周家里有什么值得分享的好事。",
+    "alternative": "也可以答 My sister got a new bike last Sunday. 换成家里的另一件事。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__family-news"
+  },
+  {
+    "id": "bank-english-review-write-030",
+    "familyId": "english-review-write__fam-030",
+    "version": 1,
+    "text": "You finish a letter to your teacher. Write the closing line of the letter.",
+    "answer": "Yours, Wu Bin.",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "信的结尾要先写客套话，再写上自己的名字。",
+      "Yours 是给老师写信时常用的结束语，后面加自己的名字。",
+      "答：Yours, Wu Bin."
+    ],
+    "hint": "想想给老师写信时，最后一行通常写的是什么。",
+    "alternative": "也可以答 Best wishes, Wu Bin. 用 Best wishes 作结束语。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-review-write__letter-sign-off"
+  }
+]

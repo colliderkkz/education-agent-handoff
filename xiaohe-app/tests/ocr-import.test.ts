@@ -45,3 +45,17 @@ test('draft deletion retains archive and prevents replaying a deleted import', (
   assert.throws(() => applyAction(deleted.state, {...command, questions:['1. 删除测试']}, context));
   assert.throws(() => applyAction(initial, {action:'question.delete', id:initial.questions[0].id}, context));
 });
+
+test('OCR drafts remain intact while importing a Shanghai content package', async () => {
+  const { readFile } = await import('node:fs/promises');
+  const { parseContentPackage, previewContentPackage, applyContentPackage } = await import('../lib/server/content.ts');
+  const initial = createSeedWorkspace('owner', '空间', context.now);
+  const imported = applyAction(initial, command, context);
+  const ids = imported.result!.questionIds as string[];
+  const pack = parseContentPackage(await readFile(new URL('../../xiaohe-mobile/content-packs/xiaohe-junior-math-v1-2.json', import.meta.url), 'utf8'));
+  const preview = previewContentPackage(imported.state, pack);
+  assert.ok(preview.counts.added > 0);
+  const merged = applyContentPackage(imported.state, pack, preview, context).state;
+  for (const id of ids) assert.equal(merged.questions.find(q => q.id === id)?.status, 'draft');
+  validateContentState(merged);
+});

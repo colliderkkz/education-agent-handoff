@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "bank-english-2-describe-001",
+    "familyId": "english-2-describe__fam-001",
+    "version": 1,
+    "text": "Choose the best word. 'My friend Wang Bin is very ___. He is taller than me.' A. tall B. thin",
+    "answer": "tall",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句子里 taller than me（比……高）提示要选表示「高」的词。",
+      "A 是 tall（高的），B 是 thin（瘦的），thin 只说瘦，不说明高矮。",
+      "答：tall"
+    ],
+    "hint": "先找句子里表示比较的词，再想它比较的是哪一方面。",
+    "alternative": "也可以答 He is taller than me. 直接用比较级说明他比我高。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__name-and-look"
+  },
+  {
+    "id": "bank-english-2-describe-002",
+    "familyId": "english-2-describe__fam-002",
+    "version": 1,
+    "text": "Put the words in order to make a sentence: 'is / my / Amy / friend'",
+    "answer": "Amy is my friend.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "英语陈述句的顺序是「主语 + be 动词 + 宾语」。",
+      "my friend 是宾语，要放在 be 动词 is 的后面；主语是人名 Amy。",
+      "答：Amy is my friend."
+    ],
+    "hint": "先找到表示「是」的词，再把主语放到它前面。",
+    "alternative": "也可以答成 This is my friend, Amy. 用 This is 来介绍身边的人。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__name-and-look"
+  },
+  {
+    "id": "bank-english-2-describe-003",
+    "familyId": "english-2-describe__fam-003",
+    "version": 1,
+    "text": "Complete the sentence with the right word: 'My friend Tom can ___ the piano very well.' A. plays B. play",
+    "answer": "play",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "can 后面必须接动词原形，表示「会做某事」。",
+      "plays 是第三人称单数形式，放在 can 后面不合适。",
+      "答：play"
+    ],
+    "hint": "can 这个词后面要什么形式，先记住这条规则。",
+    "alternative": "也可以答 Tom is good at the piano. 用另一种说法表示他擅长。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__name-and-look"
+  },
+  {
+    "id": "bank-english-2-describe-004",
+    "familyId": "english-2-describe__fam-004",
+    "version": 1,
+    "text": "Read and answer: 'Jack is short and thin. He has big eyes and short hair.' What is Jack like?",
+    "answer": "He is short and thin.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「他什么样」，回答要写句子里描写他身材和样子的词。",
+      "short and thin 说的是身材，所以回答就用这两个词。",
+      "答：He is short and thin."
+    ],
+    "hint": "先把句子里写外貌的词圈出来，再组织成回答。",
+    "alternative": "也可以答 He has big eyes. 用眼睛的特点补充说明。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__name-and-look"
+  },
+  {
+    "id": "bank-english-2-describe-005",
+    "familyId": "english-2-describe__fam-005",
+    "version": 1,
+    "text": "Read and answer: 'Amy and I go to school together. We walk home together every day.' How do Amy and I go to school?",
+    "answer": "We go to school together.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是「我们怎样去上学」，回答要写方式和「一起」的意思。",
+      "句中的 together 说明是一起走，这是回答的关键。",
+      "答：We go to school together."
+    ],
+    "hint": "在句子里找出表示「一起」的词，它就是回答的重点。",
+    "alternative": "也可以答 We go to school together by bike. 如果句子里给了骑车这样的线索。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__activities-together"
+  },
+  {
+    "id": "bank-english-2-describe-006",
+    "familyId": "english-2-describe__fam-006",
+    "version": 1,
+    "text": "Choose the right word: 'We often ___ basketball on Saturday morning. (play / plays)'",
+    "answer": "play",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主语 We 是复数，习惯上后面直接用动词原形。",
+      "plays 用在第三人称单数的主语后面，这里不适用。",
+      "答：play"
+    ],
+    "hint": "先看主语是「我、我们」还是「他、她」，再决定动词要不要加 s。",
+    "alternative": "也可以答 We often play basketball together. 把「一起玩」的意思补出来。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__activities-together"
+  },
+  {
+    "id": "bank-english-2-describe-007",
+    "familyId": "english-2-describe__fam-007",
+    "version": 1,
+    "text": "Read: 'Sarah and I play ping-pong together after school.' Which word means '一起'?",
+    "answer": "together",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要找表示「一起」的词，就在句子里找一起做事的那个词。",
+      "句尾的 together 就是「一起」的意思。",
+      "答：together"
+    ],
+    "hint": "「一起」的英文常常放在句子末尾，可以先去看句子的最后。",
+    "alternative": "也可以答 with each other. 用另一种说法表示「一起」。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__activities-together"
+  },
+  {
+    "id": "bank-english-2-describe-008",
+    "familyId": "english-2-describe__fam-008",
+    "version": 1,
+    "text": "Choose the word that describes a friend who always helps others: A. friendly B. angry",
+    "answer": "friendly",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "always helps others 说明这个朋友待人友好、愿意帮助别人。",
+      "friendly 是「友好的」，angry 是「生气的」，都不符合帮助别人的意思。",
+      "答：friendly"
+    ],
+    "hint": "先读懂「帮助别人」代表什么样的性格，再去两个选项里找。",
+    "alternative": "也可以答 He is a good friend. 用「好朋友」来说明他愿意帮人。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__personality-words"
+  },
+  {
+    "id": "bank-english-2-describe-009",
+    "familyId": "english-2-describe__fam-009",
+    "version": 1,
+    "text": "Read and answer: 'Ben is quiet. He does not talk much in class, but he is friendly to everyone.' How is Ben?",
+    "answer": "He is quiet and friendly.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "句子里先写了 quiet，又补充 friendly，两个性格都要写进回答。",
+      "回答性格用 He is ... 的句式。",
+      "答：He is quiet and friendly."
+    ],
+    "hint": "句子里可能写了不止一个性格词，不要只答第一个。",
+    "alternative": "也可以答 Ben is a quiet friend. 用 quiet 加 friend 来概括。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__personality-words"
+  },
+  {
+    "id": "bank-english-2-describe-010",
+    "familyId": "english-2-describe__fam-010",
+    "version": 1,
+    "text": "Complete the dialogue: '— What's your friend like? — She is ___. She always says hello to me.' A. friendly B. strong",
+    "answer": "friendly",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "What's your friend like 问的是性格特点，回答要用表示性格的词。",
+      "always says hello to me 说明她待人友好，所以选 friendly。",
+      "答：friendly"
+    ],
+    "hint": "先弄清 like 在这里是问「性格如何」，不是问「喜欢什么」。",
+    "alternative": "也可以答 She is nice to me. 表示她对我很友善。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__personality-words"
+  },
+  {
+    "id": "bank-english-2-describe-011",
+    "familyId": "english-2-describe__fam-011",
+    "version": 1,
+    "text": "Read: 'Jack is tall. He likes football. Amy is short. She likes music.' Which statement is true? A. Amy is tall. B. Jack likes football.",
+    "answer": "Jack likes football.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把短文里每个人各写一句小结：Jack 高、喜欢足球；Amy 矮、喜欢音乐。",
+      "A 说 Amy 高，和短文相反；B 和短文一致。",
+      "答：Jack likes football."
+    ],
+    "hint": "先给每个人各写一句小结，再逐个检查选项。",
+    "alternative": "也可以答 B. 先写字母，再写出完整的句子内容。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__classmate-portrait"
+  },
+  {
+    "id": "bank-english-2-describe-012",
+    "familyId": "english-2-describe__fam-012",
+    "version": 1,
+    "text": "Fill in the blank with the right word: 'This is my friend Wu Bin. ___ name is Wu Bin.' A. He B. His",
+    "answer": "His",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "空格后面紧跟名词 name，前面要用表示「他的」的词。",
+      "He 是「他」，只能单独作主语；His 是「他的」，后面可以接名词。",
+      "答：His"
+    ],
+    "hint": "看空格后面紧跟的是不是名词，是名词就考虑物主代词。",
+    "alternative": "也可以分成两句：This is my friend Wu Bin. His name is Wu Bin.",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__classmate-portrait"
+  },
+  {
+    "id": "bank-english-2-describe-013",
+    "familyId": "english-2-describe__fam-013",
+    "version": 1,
+    "text": "Look at the chart. It shows how many hours each friend practises a hobby every week. A means Amy, B means Ben, C means Chen Jie. Which friend practises the longest?",
+    "answer": "Ben.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读条形图先比谁的时间最长，最高的那根柱子就是答案。",
+      "最高的柱子对应 B，而 B 代表 Ben。",
+      "答：Ben."
+    ],
+    "hint": "先找出最高的那根柱子，再看它代表哪个朋友。",
+    "alternative": "也可以答 Ben practises the longest. 用完整句说出结论。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__hobby-hours",
+    "image": "/illustrations/english/english-2-describe/hobby-hours-chart.svg"
+  },
+  {
+    "id": "bank-english-2-describe-014",
+    "familyId": "english-2-describe__fam-014",
+    "version": 1,
+    "text": "Look at the hobby chart of three friends. A means Amy, B means Ben, C means Chen Jie. Who practises the shortest time?",
+    "answer": "Chen Jie.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比一比三根柱子的长短，最矮的那根表示练习时间最少。",
+      "最矮的柱子对应 C，而 C 代表 Chen Jie。",
+      "答：Chen Jie."
+    ],
+    "hint": "先找出最矮的那根柱子，再看它代表哪个朋友。",
+    "alternative": "也可以答 Chen Jie practises the shortest time. 用完整句说出结论。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__hobby-hours",
+    "image": "/illustrations/english/english-2-describe/hobby-hours-chart.svg"
+  },
+  {
+    "id": "bank-english-2-describe-015",
+    "familyId": "english-2-describe__fam-015",
+    "version": 1,
+    "text": "Read: 'Today is Amy's birthday. We will eat cake and sing songs. Amy is wearing a red dress.' What will they do at the party?",
+    "answer": "They will eat cake and sing songs.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「他们会做什么」，答案藏在带 will 的句子里。",
+      "will eat cake and sing songs 就是要做的两件事；wearing a red dress 是写衣服，不是回答的重点。",
+      "答：They will eat cake and sing songs."
+    ],
+    "hint": "先找出带 will 的句子，will 后面的动作就是答案。",
+    "alternative": "也可以答 They will have a birthday party. 用更概括的说法。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__birthday-party"
+  },
+  {
+    "id": "bank-english-2-describe-016",
+    "familyId": "english-2-describe__fam-016",
+    "version": 1,
+    "text": "Choose the best word: 'We will buy Amy a ___ for her birthday.' A. book B. umbrella",
+    "answer": "book",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "生日礼物常用 book、toy、pen 这些学习或玩具类的东西。",
+      "umbrella 是雨伞，下雨天才用，不适合当生日礼物。",
+      "答：book"
+    ],
+    "hint": "先想生日礼物一般是什么，再对照两个选项。",
+    "alternative": "也可以答 a schoolbag. 送同学学习用的东西也很合适。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__birthday-party"
+  },
+  {
+    "id": "bank-english-2-describe-017",
+    "familyId": "english-2-describe__fam-017",
+    "version": 1,
+    "text": "Read the letter: 'Dear Lily, I have a new friend in our class. Her name is Anna. She is ten. She has long hair and she likes music. We sing together after school. Yours, May' Write one sentence about what Anna and May do together.",
+    "answer": "They sing together after school.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要找的是「她们一起做什么」，先在信里找表示一起的词。",
+      "信里 We sing together after school 写的正是两人一起做的事。",
+      "答：They sing together after school."
+    ],
+    "hint": "先圈出信里表示「一起」的动词，再把主语换成她们。",
+    "alternative": "也可以答 Anna and May sing together. 用两个名字加动词来表达。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__pen-friend-letter"
+  },
+  {
+    "id": "bank-english-2-describe-018",
+    "familyId": "english-2-describe__fam-018",
+    "version": 1,
+    "text": "Complete the sentence with the right word: 'My friend Wu Bin ___ sports, and he can play basketball well.' A. likes B. like",
+    "answer": "likes",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "主语 My friend 是「他／她」，后面的动词要加 s。",
+      "like 用在 I、you 或复数主语后面，这里不适用。",
+      "答：likes"
+    ],
+    "hint": "先找出主语是一个人还是一群人，再决定动词形式。",
+    "alternative": "也可以答 My friend Wu Bin is good at sports. 用另一种说法。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__pen-friend-letter"
+  },
+  {
+    "id": "bank-english-2-describe-019",
+    "familyId": "english-2-describe__fam-019",
+    "version": 1,
+    "text": "Look at the chart. It shows how many storybooks three friends read in one month. A means Amy, B means Ben, C means Chen Jie. Who reads the most storybooks?",
+    "answer": "Ben.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比一比三根柱子的长短，最高的那根表示读得最多。",
+      "最高的柱子对应 B，而 B 代表 Ben。",
+      "答：Ben."
+    ],
+    "hint": "先找最高的那根柱子，再看它代表哪个朋友。",
+    "alternative": "也可以答 Ben reads the most storybooks. 用完整句说出结论。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__team-mates",
+    "image": "/illustrations/english/english-2-describe/reading-books-chart.svg"
+  },
+  {
+    "id": "bank-english-2-describe-020",
+    "familyId": "english-2-describe__fam-020",
+    "version": 1,
+    "text": "Read: 'Peter and I are in the same football team. He is fast and strong. I run slowly but I never give up.' What can you say about Peter?",
+    "answer": "He is fast and strong.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是关于 Peter 的信息，要找直接写 Peter 的那两个形容词。",
+      "句子分成两部分：前半写 Peter fast and strong，后半写「我」跑得慢，两部分不能混。",
+      "答：He is fast and strong."
+    ],
+    "hint": "注意句子里说了两个人，别把写「我」的部分当成写朋友的。",
+    "alternative": "也可以答 Peter is a good player in our team. 用整体评价代替具体形容词。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__team-mates"
+  },
+  {
+    "id": "bank-english-2-describe-021",
+    "familyId": "english-2-describe__fam-021",
+    "version": 1,
+    "text": "You meet a new student. He says: 'Hi! I am Peter. I am ten. I am in Class Three.' Write one sentence to introduce Peter to your class.",
+    "answer": "This is Peter. He is ten.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍别人要先说名字，再补充一个特点，可以是年龄、班级或爱好。",
+      "材料里有三个可用信息：名字 Peter、ten、Class Three，任选一个说出来即可。",
+      "答：This is Peter. He is ten."
+    ],
+    "hint": "先从材料里挑一个最有用的信息，再套上 This is ... 的句式。",
+    "alternative": "也可以答 This is Peter. He is in Class Three. 用班级信息来介绍。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__new-student-intro"
+  },
+  {
+    "id": "bank-english-2-describe-022",
+    "familyId": "english-2-describe__fam-022",
+    "version": 1,
+    "text": "At the school festival, Tom says: 'My friend Lily is in the music show. She plays the piano and she is very quiet on the stage.' What does Lily do in the show?",
+    "answer": "She plays the piano.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「她在表演里做什么」，要看和表演有关的那句话。",
+      "She plays the piano 就是在音乐表演里做的事。",
+      "答：She plays the piano."
+    ],
+    "hint": "先排除和表演无关的句子，剩下的那一句就是答案。",
+    "alternative": "也可以答 Lily plays the piano in the music show. 用完整句回答。",
+    "prerequisites": [
+      "english-2-describe",
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__school-festival"
+  },
+  {
+    "id": "bank-english-2-describe-023",
+    "familyId": "english-2-describe__fam-023",
+    "version": 1,
+    "text": "Your friend Amy sends a message: 'Meet me near the big tree. I am wearing a blue hat. I am short.' Write one sentence to tell others what Amy looks like.",
+    "answer": "She is short and she is wearing a blue hat.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把消息里描写外貌的两条信息合起来：short 和 wearing a blue hat。",
+      "写句子时把主语换成 Amy，用 She is ... 把两条信息连起来。",
+      "答：She is short and she is wearing a blue hat."
+    ],
+    "hint": "先把消息里写外貌的句子圈出来，再用 She is 把它们连起来。",
+    "alternative": "也可以答 Amy is short. She wears a blue hat. 分成两句写也可以。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__friend-search-card"
+  },
+  {
+    "id": "bank-english-2-describe-024",
+    "familyId": "english-2-describe__fam-024",
+    "version": 1,
+    "text": "Read: 'In our school club, Sarah likes music. She plays the piano on Friday. Her friend Lily likes sports. She plays basketball.' What does Lily like?",
+    "answer": "She likes sports.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短文里写了两位同学，先分清每一句说的是谁。",
+      "写 Lily 的那一句是 Her friend Lily likes sports。",
+      "答：She likes sports."
+    ],
+    "hint": "先找出 Lily 出现在哪一句，那一句就是答案。",
+    "alternative": "也可以答 Lily likes sports. 直接用名字回答。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__school-club"
+  },
+  {
+    "id": "bank-english-2-describe-025",
+    "familyId": "english-2-describe__fam-025",
+    "version": 1,
+    "text": "You are writing a birthday card for your friend Wu Bin. He likes sports and he can play football well. Write one sentence about him.",
+    "answer": "He can play football well.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写一句话介绍朋友，要从材料里挑一个最突出的特点。",
+      "可以写爱好 He likes sports，也可以写本领 He can play football well。",
+      "答：He can play football well."
+    ],
+    "hint": "先看材料里写的是爱好还是本领，再决定写哪一句。",
+    "alternative": "也可以答 He likes sports. 用爱好来写这一句。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__birthday-card"
+  },
+  {
+    "id": "bank-english-2-describe-026",
+    "familyId": "english-2-describe__fam-026",
+    "version": 1,
+    "text": "You want to e-mail your friend about your new English teacher. Write one sentence to say what the teacher is like. Use: tall / friendly / quiet / strong.",
+    "answer": "My new English teacher is friendly.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍老师的样子或性格，用 My ... is + 形容词 的句式。",
+      "从给出的四个词里选一个合适的形容词接在 is 后面。",
+      "答：My new English teacher is friendly."
+    ],
+    "hint": "先把主语写好，再在 is 后面放一个表示特点的词。",
+    "alternative": "也可以答 My new English teacher is tall. 换一个形容词同样可以。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__email-to-friend"
+  },
+  {
+    "id": "bank-english-2-describe-027",
+    "familyId": "english-2-describe__fam-027",
+    "version": 1,
+    "text": "Read: 'My friend Li Ming is on our basketball team. He is tall. He can jump high. He is very friendly to the new boy.' Give two facts about Li Ming.",
+    "answer": "He is tall. He can jump high.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "短文写了李明三件事，其中两件是身材和能力：tall 和 can jump high。",
+      "把这两件事分成两句说清楚就完成了任务。",
+      "答：He is tall. He can jump high."
+    ],
+    "hint": "先把短文里写李明的句子一句句列出来，再挑两件说。",
+    "alternative": "也可以答 He is tall and he can jump high. 用 and 把两句连成一句。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__basketball-team"
+  },
+  {
+    "id": "bank-english-2-describe-028",
+    "familyId": "english-2-describe__fam-028",
+    "version": 1,
+    "text": "Read: 'My friend has a dog. The dog is black and white. It is big but it is quiet. The dog runs fast and plays with the children in the park.' What is the dog like?",
+    "answer": "It is big and quiet.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「这只狗怎么样」，要找句子里写它体型和性格的词。",
+      "big 说的是体型，quiet 说的是性格，两个都要写。",
+      "答：It is big and quiet."
+    ],
+    "hint": "先圈出写这只狗的形容词，再把体型和性格各挑一个。",
+    "alternative": "也可以答 It is black and white. 用颜色来回答。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__animal-friend"
+  },
+  {
+    "id": "bank-english-2-describe-029",
+    "familyId": "english-2-describe__fam-029",
+    "version": 1,
+    "text": "You visit your friend Zhang Wei on Sunday. He says: 'Come in! I am making tea. My sister is doing her homework. My father is watching TV.' Who is doing homework?",
+    "answer": "His sister.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把家里三个人做的事一一对上：泡茶、做作业、看电视。",
+      "doing her homework 前面的人是他的妹妹。",
+      "答：His sister."
+    ],
+    "hint": "先找出做作业的动词，再看它前面写的是谁。",
+    "alternative": "也可以答 His sister is doing her homework. 用完整句回答。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__sunday-visit"
+  },
+  {
+    "id": "bank-english-2-describe-030",
+    "familyId": "english-2-describe__fam-030",
+    "version": 1,
+    "text": "Look at the drawing your friend made: three children are playing in the park. One child wears a big hat and one has long hair. Write one sentence about the child with the big hat.",
+    "answer": "The child is wearing a big hat.",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "画里有三个孩子在公园玩，其中一个戴着大帽子。",
+      "写句子要写清是谁、在哪里、做什么，先把人和帽子对上。",
+      "答：The child is wearing a big hat."
+    ],
+    "hint": "先找出戴帽子的那个孩子，再写他在哪里做什么。",
+    "alternative": "也可以答 One child is wearing a big hat. 只说帽子的特点也可以。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-describe__drawing-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-001",
+    "familyId": "english-2-dialogue__fam-001",
+    "version": 1,
+    "text": "You hear: 'Who's your friend?' Choose the best answer: A. My friend's name is Wu Bin. B. He is in Class Two.",
+    "answer": "My friend's name is Wu Bin.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「你的朋友是谁」，回答要说出朋友是谁，常用「我的朋友叫……」。",
+      "选项 A 给出了名字，选项 B 只说班级，没有回答是谁。",
+      "答：My friend's name is Wu Bin."
+    ],
+    "hint": "先判断问句问的是人名还是别的信息。",
+    "alternative": "也可以答 This is Wu Bin. 指着身边的人介绍。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__who-is-your-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-002",
+    "familyId": "english-2-dialogue__fam-002",
+    "version": 1,
+    "text": "Read the dialogue: 'A: What's his name? B: His name is Chen Jie.' What is his name?",
+    "answer": "Chen Jie.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 What is his name 要说出名字。",
+      "答话里 His name is Chen Jie，名字就是 Chen Jie。",
+      "答：Chen Jie."
+    ],
+    "hint": "在答话里找 name is 后面的词。",
+    "alternative": "也可以答 His name is Chen Jie. 用完整句子回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__who-is-your-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-003",
+    "familyId": "english-2-dialogue__fam-003",
+    "version": 1,
+    "text": "Complete the dialogue: '— Is she tall? — Yes, she ___. She is tall and strong.'",
+    "answer": "is",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "Is she...? 的简略回答，同意用 Yes, she is.，不同意用 No, she isn't.",
+      "题干里答话开头是 Yes，所以用 is。",
+      "答：is"
+    ],
+    "hint": "先看答话开头是 Yes 还是 No，再决定用 is 还是 isn't。",
+    "alternative": "也可以答 Yes, she is. 把答话单独说完整。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__who-is-your-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-004",
+    "familyId": "english-2-dialogue__fam-004",
+    "version": 1,
+    "text": "You hear: 'How old is your friend?' Choose the best answer: A. He is ten. B. He is my classmate.",
+    "answer": "He is ten.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "How old 问的是年龄，回答要说出年龄。",
+      "选项 A 给出了年龄，选项 B 说的是身份，不是年龄。",
+      "答：He is ten."
+    ],
+    "hint": "问句里有 old，先抓住这个词去找答案。",
+    "alternative": "也可以答 He is ten years old. 把年龄说完整。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__who-is-your-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-005",
+    "familyId": "english-2-dialogue__fam-005",
+    "version": 1,
+    "text": "Read: 'A: What's your friend like? B: He's strong and friendly.' What is his friend like?",
+    "answer": "He is strong and friendly.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问 like 是问性格特点，回答要把 strong 和 friendly 都写出来。",
+      "答话 He's strong and friendly 已经把两个特点说全了。",
+      "答：He is strong and friendly."
+    ],
+    "hint": "问特点的问句，答话常常有两个并列的形容词。",
+    "alternative": "也可以答 He is strong. 只答一个特点也可以。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__what-he-is-like"
+  },
+  {
+    "id": "bank-english-2-dialogue-006",
+    "familyId": "english-2-dialogue__fam-006",
+    "version": 1,
+    "text": "Complete the dialogue: '— What does your friend like? — He likes ___. He plays the piano every day.' A. music B. a music",
+    "answer": "music",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "likes 后面接表示爱好的名词，一个名词前面不用加冠词。",
+      "He plays the piano every day 也说明他喜欢的是音乐。",
+      "答：music"
+    ],
+    "hint": "先读答话的第二句，它常常提示第一句该填什么。",
+    "alternative": "也可以答 He likes music. 用完整句子把爱好说清楚。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__what-he-is-like"
+  },
+  {
+    "id": "bank-english-2-dialogue-007",
+    "familyId": "english-2-dialogue__fam-007",
+    "version": 1,
+    "text": "Read the dialogue: 'A: Is your friend quiet? B: No, she isn't. She likes music and she talks a lot.' Is the girl quiet?",
+    "answer": "No, she isn't.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答话开头 No, she isn't. 已经直接回答了这个问题。",
+      "后半句说她喜欢音乐、话很多，说明她并不安静。",
+      "答：No, she isn't."
+    ],
+    "hint": "回答 Is 开头的问题时，先看答话里的 Yes 或 No。",
+    "alternative": "也可以答 No, she likes music. 用后面的理由来说明。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__what-he-is-like"
+  },
+  {
+    "id": "bank-english-2-dialogue-008",
+    "familyId": "english-2-dialogue__fam-008",
+    "version": 1,
+    "text": "Choose the right question: '— ___? — He is my brother.' A. Who is he? B. What is he like?",
+    "answer": "Who is he?",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答话 He is my brother 说的是他是谁，所以问句要问「他是谁」。",
+      "What is he like 问的是样子或性格，答话没有回答这个。",
+      "答：Who is he?"
+    ],
+    "hint": "先看答话里出现的是名字还是特点，再挑问题。",
+    "alternative": "也可以问 Who is your friend? 用 friend 代替 brother。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__ask-and-answer"
+  },
+  {
+    "id": "bank-english-2-dialogue-009",
+    "familyId": "english-2-dialogue__fam-009",
+    "version": 1,
+    "text": "You hear: 'What can your friend do?' Choose the best answer: A. He can swim. B. He is nine.",
+    "answer": "He can swim.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问句里的 can 表示问「会做什么」，回答也要用 can 加动作。",
+      "选项 B 是年龄，和问句不配。",
+      "答：He can swim."
+    ],
+    "hint": "听到 can 开头的问句，答句里也要出现 can。",
+    "alternative": "也可以答 He can play basketball. 换成另一个动作用同一个句型。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__ask-and-answer"
+  },
+  {
+    "id": "bank-english-2-dialogue-010",
+    "familyId": "english-2-dialogue__fam-010",
+    "version": 1,
+    "text": "Your friend says: 'Let's play football after school!' You want to go. Choose the best reply: A. Great! Let's go. B. I don't like football.",
+    "answer": "Great! Let's go.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对方邀请你一起玩，想去的回答是高兴地答应。",
+      "选项 A 表示同意并一起去，选项 B 表示不想去，都不合你的心意。",
+      "答：Great! Let's go."
+    ],
+    "hint": "先判断你想不想去，再挑一个语气合适的回答。",
+    "alternative": "也可以答 Sure, I like football. 表示乐意并说出原因。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__ask-and-answer"
+  },
+  {
+    "id": "bank-english-2-dialogue-011",
+    "familyId": "english-2-dialogue__fam-011",
+    "version": 1,
+    "text": "Read the dialogue: 'A: Hi, I'm Sarah. What's your name? B: My name's Peter. Nice to meet you. A: Nice to meet you, too.' How does the boy greet the girl?",
+    "answer": "Nice to meet you.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两个人第一次见面，见面时说的是 Nice to meet you。",
+      "答话里 A 回了一句 Nice to meet you, too.，也说明了这句问候语。",
+      "答：Nice to meet you."
+    ],
+    "hint": "看看对话结尾两个人互相说了什么。",
+    "alternative": "也可以答 He says nice to meet you. 用完整句子转述。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__name-card-exchange"
+  },
+  {
+    "id": "bank-english-2-dialogue-012",
+    "familyId": "english-2-dialogue__fam-012",
+    "version": 1,
+    "text": "Complete the dialogue with the right word: '— What's your friend's name? — ___ name is Wu Bin.' A. He B. His",
+    "answer": "His",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "空格后面紧跟名词 name，前面要用表示「他的」的物主代词。",
+      "He 后面不能直接跟名词，所以要选 His。",
+      "答：His"
+    ],
+    "hint": "看空格后面紧跟的是不是名词，是名词就考虑物主代词。",
+    "alternative": "也可以答 His name is Wu Bin. 把这一句单独说出来。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__name-card-exchange"
+  },
+  {
+    "id": "bank-english-2-dialogue-013",
+    "familyId": "english-2-dialogue__fam-013",
+    "version": 1,
+    "text": "Read the dialogue: 'A: Is she tall? B: Yes, she is. A: Is she friendly? B: Yes, she is. A: Is she quiet? B: No, she isn't.' How many questions does the boy ask?",
+    "answer": "Three.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "数一数 A 说了几个问句，每问一句后面 B 就答一句。",
+      "A 一共问了 tall、friendly、quiet 三个问题。",
+      "答：Three."
+    ],
+    "hint": "用手指着 A 的每一句问话，一句一句数过去。",
+    "alternative": "也可以答 He asks three questions. 用完整句子说明。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__classmate-questions"
+  },
+  {
+    "id": "bank-english-2-dialogue-014",
+    "familyId": "english-2-dialogue__fam-014",
+    "version": 1,
+    "text": "Read the dialogue: 'A: What's your friend like? B: She's quiet and friendly. A: What's her favourite sport? B: She likes ping-pong.' What sport does she like?",
+    "answer": "Ping-pong.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是她喜欢的运动，答案在答话 She likes ping-pong 里面。",
+      "ping-pong 就是题目要找的运动项目。",
+      "答：Ping-pong."
+    ],
+    "hint": "在答话里找 She likes 后面的词。",
+    "alternative": "也可以答 She likes ping-pong. 用完整句子回答。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__classmate-questions"
+  },
+  {
+    "id": "bank-english-2-dialogue-015",
+    "familyId": "english-2-dialogue__fam-015",
+    "version": 1,
+    "text": "Read: 'A: Would you like to come to my birthday party? B: When is it? A: This Saturday afternoon. B: I'd love to. Thank you!' Would the girl like to come?",
+    "answer": "Yes, she would.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答话 I'd love to. Thank you! 表示她很愿意来。",
+      "Would you like ...? 的肯定回答可以说 Yes, she would.",
+      "答：Yes, she would."
+    ],
+    "hint": "注意 I'd love to 比 I like 更有礼貌，表示很乐意。",
+    "alternative": "也可以答 She says yes. 用简单说法回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__party-invite"
+  },
+  {
+    "id": "bank-english-2-dialogue-016",
+    "familyId": "english-2-dialogue__fam-016",
+    "version": 1,
+    "text": "Complete the dialogue: 'A: Can you go to the park with me tomorrow? B: Sure, ___.' A. I'd love to B. I'd like to a party",
+    "answer": "I'd love to",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答应别人的邀请，用 I'd love to. 表示非常乐意。",
+      "选项 A 是常用的答语；选项 B 后面跟了 a party，句意不通。",
+      "答：I'd love to"
+    ],
+    "hint": "先看答话开头 Sure 是同意的意思，再补上愿意的程度。",
+    "alternative": "也可以答 Sure, I will. 用更简单的说法表示同意。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__party-invite"
+  },
+  {
+    "id": "bank-english-2-dialogue-017",
+    "familyId": "english-2-dialogue__fam-017",
+    "version": 1,
+    "text": "Read the talk: 'A: Look at my photo. This is my friend Wu Bin. He is tall and he likes sports. B: He looks strong! What sport does he like?' A: He likes basketball.' What sport does Wu Bin like?",
+    "answer": "Basketball.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是 Wu Bin 喜欢哪项运动，答案在最后一轮答话里。",
+      "He likes basketball. 给出了运动的名称。",
+      "答：Basketball."
+    ],
+    "hint": "先找到问 sport 的那一句，再看紧接着的答话。",
+    "alternative": "也可以答 He likes basketball. 用完整句子回答。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__picture-talk"
+  },
+  {
+    "id": "bank-english-2-dialogue-018",
+    "familyId": "english-2-dialogue__fam-018",
+    "version": 1,
+    "text": "Read the talk: 'A: Look at my photo. This is my friend Wu Bin. He is tall and he likes sports. B: He looks strong! What sport does he like?' A: He likes basketball.' What does the girl say about Wu Bin?",
+    "answer": "She says he looks strong.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是女孩对吴彬的评价，要找她说的那句评语。",
+      "He looks strong! 就是女孩的评语。",
+      "答：She says he looks strong."
+    ],
+    "hint": "先分清哪句是甲说的、哪句是乙说的，再找评价。",
+    "alternative": "也可以答 She says he is tall. 用前面那句描述来回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__picture-talk"
+  },
+  {
+    "id": "bank-english-2-dialogue-019",
+    "familyId": "english-2-dialogue__fam-019",
+    "version": 1,
+    "text": "Read: 'A: I can't find my schoolbag. B: Don't worry. Is it in the classroom? A: No, it isn't. B: Let's look in the library. A: OK, thank you!' What are they going to do?",
+    "answer": "They are going to look for the schoolbag in the library.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「他们接下来要做什么」，答案在对话的最后一句。",
+      "Let's look in the library. 说明他们要去图书馆找书包。",
+      "答：They are going to look for the schoolbag in the library."
+    ],
+    "hint": "对话的最后一句常常给出接下来的打算。",
+    "alternative": "也可以答 They will look for the schoolbag. 只说核心动作。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__help-at-school"
+  },
+  {
+    "id": "bank-english-2-dialogue-020",
+    "familyId": "english-2-dialogue__fam-020",
+    "version": 1,
+    "text": "Read: 'A: Can you help me clean the classroom? B: Sure, I can. A: Thanks a lot.' What does the boy do?",
+    "answer": "He helps her clean the classroom.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "女孩请男孩帮忙，男孩答应后就要去帮忙做那件事。",
+      "要帮忙做的事是 clean the classroom。",
+      "答：He helps her clean the classroom."
+    ],
+    "hint": "先找出求助的那句话，看清要求做的是什么。",
+    "alternative": "也可以答 He cleans the classroom with her. 用另一种说法。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__help-at-school"
+  },
+  {
+    "id": "bank-english-2-dialogue-021",
+    "familyId": "english-2-dialogue__fam-021",
+    "version": 1,
+    "text": "A new classmate sits next to you. Choose the best first question: A. Who is your friend? B. Where is the library?",
+    "answer": "Who is your friend?",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "和同学聊天要从认识的人入手，问 Who is your friend? 就能聊起他的朋友。",
+      "选项 B 问的是地点，和「认识新同学」这个话题没有关系。",
+      "答：Who is your friend?"
+    ],
+    "hint": "先想清楚你想聊什么话题，再挑一个合适的问题。",
+    "alternative": "也可以问 What's your name? 先从姓名问起也很好。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__new-classmate-question"
+  },
+  {
+    "id": "bank-english-2-dialogue-022",
+    "familyId": "english-2-dialogue__fam-022",
+    "version": 1,
+    "text": "You call your friend Tom. He answers: 'Hello, this is Tom. Can I speak to Amy?' Choose the best reply: A. Hi, Tom! This is Amy. B. Please hang up.",
+    "answer": "Hi, Tom! This is Amy.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对方问能不能找 Amy 说话，你要先说明自己就是 Amy。",
+      "选项 A 既回应了对方，又说明了自己是谁。",
+      "答：Hi, Tom! This is Amy."
+    ],
+    "hint": "先听清对方要找谁，再想想该怎么报出自己的名字。",
+    "alternative": "也可以答 Yes, it's Amy. 用更短的答法。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__phone-call-friend"
+  },
+  {
+    "id": "bank-english-2-dialogue-023",
+    "familyId": "english-2-dialogue__fam-023",
+    "version": 1,
+    "text": "Read: 'A: Do you like sports? B: Yes, I do. I like ping-pong. A: Let's play ping-pong after school. B: Great! See you then.' When will they play ping-pong?",
+    "answer": "After school.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是「什么时候」，答案在约定打球的句子里。",
+      "Let's play ping-pong after school. 里的 after school 就是时间。",
+      "答：After school."
+    ],
+    "hint": "先找表示时间的词，比如 after school、on Sunday。",
+    "alternative": "也可以答 They will play ping-pong after school. 用完整句回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__sports-club-chat"
+  },
+  {
+    "id": "bank-english-2-dialogue-024",
+    "familyId": "english-2-dialogue__fam-024",
+    "version": 1,
+    "text": "Read: 'A: What does your friend like for his birthday? B: He likes football. A: Shall we buy him a football? B: Good idea!' What will they buy for the friend?",
+    "answer": "A football.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问的是要买什么礼物，答案就在对话里。",
+      "Shall we buy him a football? 说明要买一个足球。",
+      "答：A football."
+    ],
+    "hint": "先找出表示「买」的句子，看买的是什么。",
+    "alternative": "也可以答 They will buy a football for him. 用完整句回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__birthday-party-talk"
+  },
+  {
+    "id": "bank-english-2-dialogue-025",
+    "familyId": "english-2-dialogue__fam-025",
+    "version": 1,
+    "text": "Your friend says: 'See you tomorrow!' Choose the best reply: A. See you! Have a nice day. B. I don't know you.",
+    "answer": "See you! Have a nice day.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对方在道别，要用同样友好的话回应。",
+      "选项 A 是自然的告别语，选项 B 把气氛弄得很生硬。",
+      "答：See you! Have a nice day."
+    ],
+    "hint": "先判断对方在做什么（道别、问候还是提问），再选回应。",
+    "alternative": "也可以答 See you tomorrow! 用同样简单的告别语。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__missing-friend-meeting"
+  },
+  {
+    "id": "bank-english-2-dialogue-026",
+    "familyId": "english-2-dialogue__fam-026",
+    "version": 1,
+    "text": "Your friend shows you a new photo of his family. You want to say something nice about it. Choose the best reply: A. It's nice! B. I don't like it.",
+    "answer": "It's nice!",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "朋友让你看照片，你想夸奖，回应就要说出赞美的话。",
+      "选项 A 是赞美，选项 B 是否定，不符合说话人的想法。",
+      "答：It's nice!"
+    ],
+    "hint": "先读懂说话人的心情，是高兴还是不喜欢，再挑回应。",
+    "alternative": "也可以答 It's a nice photo! 用更完整的一句赞美。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__friend-compliment"
+  },
+  {
+    "id": "bank-english-2-dialogue-027",
+    "familyId": "english-2-dialogue__fam-027",
+    "version": 1,
+    "text": "Read: 'A: I have a lot of homework today. B: Can I help you? A: No, thanks. I can do it myself. B: OK. Call me if you need help.' What does the boy offer?",
+    "answer": "He offers to help her with the homework.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "答话里 Can I help you? 就是在主动提出帮忙。",
+      "要帮的是她的作业 homework。",
+      "答：He offers to help her with the homework."
+    ],
+    "hint": "找到带 can 的那句问话，那就是他的提议。",
+    "alternative": "也可以答 He wants to help her. 用更短的说法。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__help-homework-chat"
+  },
+  {
+    "id": "bank-english-2-dialogue-028",
+    "familyId": "english-2-dialogue__fam-028",
+    "version": 1,
+    "text": "Your friend asks: 'Who can say the most English words?' Look at the chart. It shows how many English words three students can say. A means Amy, B means Ben, C means Chen Jie. Who is it?",
+    "answer": "Amy.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出最高的柱子，它表示能说出的单词最多。",
+      "最高的柱子对应 A，而 A 代表 Amy。",
+      "答：Amy."
+    ],
+    "hint": "先找最高的那根柱子，再看它代表哪个同学。",
+    "alternative": "也可以答 Amy can say the most English words. 用完整句说出结论。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__chart-talk",
+    "image": "/illustrations/english/english-2-dialogue/english-words-chart.svg"
+  },
+  {
+    "id": "bank-english-2-dialogue-029",
+    "familyId": "english-2-dialogue__fam-029",
+    "version": 1,
+    "text": "Your friend says: 'I have to go now. My mum is waiting for me.' Choose the best reply: A. OK. See you tomorrow! B. Please wait here.",
+    "answer": "OK. See you tomorrow!",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对方说要走了，你要礼貌地回应并道别。",
+      "选项 A 表示理解并告别，选项 B 与情境矛盾。",
+      "答：OK. See you tomorrow!"
+    ],
+    "hint": "先听清对方是在告别还是在提问，再选回应。",
+    "alternative": "也可以答 OK. Bye! 用更简单的告别语。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__saying-goodbye"
+  },
+  {
+    "id": "bank-english-2-dialogue-030",
+    "familyId": "english-2-dialogue__fam-030",
+    "version": 1,
+    "text": "Read: 'A: Why do you like your friend? B: Because he is friendly and he always helps me. A: Me too!' Why does the boy like his friend?",
+    "answer": "Because his friend is friendly and helps him.",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问「为什么喜欢」，答案要用 because 开头说明原因。",
+      "答话里说了两点原因：friendly 和 always helps me。",
+      "答：Because his friend is friendly and helps him."
+    ],
+    "hint": "先找到答话里的 because，它后面就是原因。",
+    "alternative": "也可以答 Because he is a good friend. 用更概括的原因回答。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-2-dialogue__friendship-question"
+  }
+]

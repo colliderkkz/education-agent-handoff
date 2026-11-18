@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/access-policy.ts; SHA-256: 88cf396858d6834e69a3ec4fa5ba5a8a3ef77229489491a8a932454e5b955990
+// Generated from xiaohe-app/lib/server/access-policy.ts; SHA-256: e4c3f6c2427a9ec39c4ea9d00e630438c04bdc67f9a9fc3af5313be338bf44b3
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { Answer, AuditEvent, HelpLevel, Question, Role, WorkspaceState } from "../types";
@@ -10,15 +10,15 @@ import { projectRecognition } from "./recognition.ts";
 
 const roles = new Set<string>(["owner", "student", "parent", "teacher", "editor", "reviewer"]);
 const studentActions = new Set([
-  "profile.update", "paper.create", "paper.replace", "paper.resume", "paper.expose", "paper.question.expose", "mastery.reevaluate", "review.start",
+  "profile.update", "knowledge.begin", "paper.create", "paper.replace", "paper.resume", "paper.expose", "paper.question.expose", "mastery.reevaluate", "review.start",
   "paper.return.save", "paper.return.submit",
-  "mistake.correct", "help.create", "chat.send", "single.match", "single.explain", "homework.confirm",
+  "mistake.correct", "mistake.tag", "help.create", "chat.send", "single.match", "single.explain", "homework.confirm",
   "chat.open", "chat.draft.save", "chat.delete.preview", "chat.delete", "memory.preference.set", "memory.preference.delete",
   "evidence.propose", "evidence.preview", "local.evidence.confirm", "history.delete.preview", "history.delete.confirm",
   "recognition.open", "recognition.run.save", "recognition.entry.save", "recognition.match", "recognition.submit",
 ]);
 const roleActions: Partial<Record<Role, Set<string>>> = {
-  editor: new Set(["question.create", "question.import", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
+  editor: new Set(["question.create", "question.import", "question.delete", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
   reviewer: new Set(["question.review", "question.publish", "question.disable", "rule.preview", "rule.review", "content.export"]),
   teacher: new Set(["help.receive", "help.reply", "evidence.preview", "evidence.review"]),
 };
@@ -66,6 +66,8 @@ function learningQuestion(question: Question, exposure: Exposure): Question {
     steps: exposure === 2 ? [...question.steps] : [],
     alternative: exposure === 2 ? question.alternative : "",
     ...(question.taskType ? { taskType: question.taskType } : {}), ...(question.contextId ? { contextId: question.contextId } : {}),
+    // 配图是题干的一部分，学生与家长教师都需要看到。
+    ...(question.image ? { image: question.image } : {}),
   };
 }
 

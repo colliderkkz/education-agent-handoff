@@ -1,4 +1,5 @@
 import { LocalStorageError, type MasteryRule, type StoredLocalRecord, type WorkspaceState } from './types.ts';
+import { allKnowledgeIds } from './shared/types.ts';
 import { DEFAULT_RULE_PARAMETERS, validateRule } from './shared/server/mastery.ts';
 import { validateContentState } from './shared/server/content.ts';
 import { validateCompanionState } from './shared/server/companion.ts';
@@ -22,7 +23,7 @@ function records(v: unknown): Record<string, unknown>[] {
   check(rows.every(r => nonempty(r.id)) && new Set(rows.map(r => r.id)).size === rows.length);
   return rows;
 }
-const knowledge = ['division', 'geometry', 'multiplication'];
+const knowledge: readonly string[] = allKnowledgeIds;
 const help = ['independent', 'hint', 'explanation', 'unknown'];
 function question(v: unknown): Record<string, unknown> {
   const q = object(v);
@@ -82,7 +83,11 @@ export function validateWorkspace(value: unknown): asserts value is WorkspaceSta
     check(text(e.questionText) && text(e.answer) && nonempty(e.expected) && help.includes(String(e.help)) && typeof e.correct === 'boolean' && date(e.createdAt) && integer(e.questionVersion));
     check(['original', 'practice', 'review'].includes(String(e.kind)) && (e.eligible === undefined || typeof e.eligible === 'boolean'));
   }
-  const ks = records(s.knowledge); check(ks.length === 3);
+  const ks = records(s.knowledge);
+  // 知识点数量随教材目录扩充而变化：存量档案只有 3 个 legacy 知识点，新档案可以更多。
+  // 这里用区间而不是固定数量，否则扩充目录会让老档案被判为损坏而拒绝加载。
+  check(ks.length >= 1 && ks.length <= allKnowledgeIds.length);
+  check(new Set(ks.map(k => String(k.id))).size === ks.length);
   for (const k of ks) {
     check(knowledge.includes(String(k.id)) && text(k.name) && text(k.description) && text(k.reason) && nonempty(k.ruleVersion));
     check(['current', 'upcoming'].includes(String(k.learningState)) && stars(k.stars, s.mastery === undefined ? 3 : 5));

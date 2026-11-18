@@ -63,7 +63,8 @@ export function ImageOcr({ image, onUse, onRecognized, onSearch, autoStart = fal
     }
   }
 
-  useEffect(() => { if (autoStart) void recognize();
+  useEffect(() => { const timer = autoStart ? window.setTimeout(() => void recognize(), 0) : undefined;
+    return () => window.clearTimeout(timer);
     // The component is keyed by the selected file; start once for that file.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

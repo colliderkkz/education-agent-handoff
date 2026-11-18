@@ -1,0 +1,1664 @@
+{
+  "math/math-6-single/bar-01": {
+    "kind": "bars",
+    "values": [
+      24,
+      33,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-02": {
+    "kind": "bars",
+    "values": [
+      26,
+      31,
+      19
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-03": {
+    "kind": "bars",
+    "values": [
+      22,
+      35,
+      18
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-04": {
+    "kind": "bars",
+    "values": [
+      19,
+      34,
+      26
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/grid-05": {
+    "kind": "grid",
+    "cell": 30,
+    "width": 360,
+    "height": 270,
+    "shade": [
+      [
+        1,
+        4,
+        2,
+        9
+      ],
+      [
+        5,
+        1,
+        6,
+        9
+      ],
+      [
+        9,
+        5,
+        10,
+        9
+      ]
+    ]
+  },
+  "math/math-6-single/grid-06": {
+    "kind": "grid",
+    "cell": 30,
+    "width": 360,
+    "height": 270,
+    "shade": [
+      [
+        1,
+        3,
+        2,
+        9
+      ],
+      [
+        5,
+        5,
+        6,
+        9
+      ],
+      [
+        9,
+        7,
+        10,
+        9
+      ]
+    ]
+  },
+  "math/math-6-single/grid-07": {
+    "kind": "grid",
+    "cell": 30,
+    "width": 360,
+    "height": 270,
+    "shade": [
+      [
+        1,
+        5,
+        2,
+        9
+      ],
+      [
+        5,
+        0,
+        6,
+        9
+      ],
+      [
+        9,
+        3,
+        10,
+        9
+      ]
+    ]
+  },
+  "math/math-6-single/bar-08": {
+    "kind": "bars",
+    "values": [
+      26,
+      38,
+      41
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-09": {
+    "kind": "bars",
+    "values": [
+      17,
+      29,
+      48
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-10": {
+    "kind": "bars",
+    "values": [
+      22,
+      35,
+      43
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-11": {
+    "kind": "bars",
+    "values": [
+      38,
+      46,
+      25
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-12": {
+    "kind": "bars",
+    "values": [
+      52,
+      41,
+      29
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-13": {
+    "kind": "bars",
+    "values": [
+      6,
+      12,
+      18,
+      13,
+      9
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-14": {
+    "kind": "bars",
+    "values": [
+      6,
+      14,
+      18,
+      10,
+      11
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-15": {
+    "kind": "bars",
+    "values": [
+      24,
+      37,
+      39
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-16": {
+    "kind": "bars",
+    "values": [
+      31,
+      37,
+      46
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-17": {
+    "kind": "bars",
+    "values": [
+      18,
+      25,
+      22
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-18": {
+    "kind": "bars",
+    "values": [
+      27,
+      33,
+      19
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-19": {
+    "kind": "bars",
+    "values": [
+      78,
+      96,
+      85,
+      73
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-20": {
+    "kind": "bars",
+    "values": [
+      82,
+      94,
+      86,
+      71
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-21": {
+    "kind": "bars",
+    "values": [
+      45,
+      38,
+      27
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-22": {
+    "kind": "bars",
+    "values": [
+      128,
+      143,
+      156,
+      96
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-23": {
+    "kind": "bars",
+    "values": [
+      4,
+      5,
+      6,
+      3
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-24": {
+    "kind": "bars",
+    "values": [
+      86,
+      124,
+      57,
+      39
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-25": {
+    "kind": "bars",
+    "values": [
+      196,
+      215,
+      178,
+      203
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-26": {
+    "kind": "bars",
+    "values": [
+      47,
+      63,
+      52,
+      38
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-27": {
+    "kind": "bars",
+    "values": [
+      118,
+      104,
+      97,
+      93
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-28": {
+    "kind": "bars",
+    "values": [
+      96,
+      78,
+      85,
+      64
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-29": {
+    "kind": "bars",
+    "values": [
+      12,
+      8,
+      9,
+      6
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-single/bar-30": {
+    "kind": "bars",
+    "values": [
+      74,
+      61,
+      55,
+      43
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-01": {
+    "kind": "bars",
+    "values": [
+      28,
+      20,
+      24,
+      19,
+      22,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-02": {
+    "kind": "bars",
+    "values": [
+      28,
+      20,
+      24,
+      19,
+      22,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-03": {
+    "kind": "bars",
+    "values": [
+      22,
+      19,
+      24,
+      18,
+      15,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-04": {
+    "kind": "bars",
+    "values": [
+      22,
+      19,
+      24,
+      19,
+      22,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-05": {
+    "kind": "bars",
+    "values": [
+      10,
+      14,
+      15,
+      8,
+      13,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-06": {
+    "kind": "bars",
+    "values": [
+      12,
+      14,
+      15,
+      9,
+      13,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-07": {
+    "kind": "bars",
+    "values": [
+      11,
+      13,
+      16,
+      8,
+      12,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-08": {
+    "kind": "bars",
+    "values": [
+      32,
+      27,
+      24,
+      25,
+      22,
+      20
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-09": {
+    "kind": "bars",
+    "values": [
+      30,
+      25,
+      24,
+      26,
+      23,
+      20
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-10": {
+    "kind": "bars",
+    "values": [
+      36,
+      32,
+      23,
+      26,
+      24,
+      33
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-11": {
+    "kind": "bars",
+    "values": [
+      32,
+      41,
+      23,
+      27,
+      36,
+      19
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-12": {
+    "kind": "bars",
+    "values": [
+      30,
+      41,
+      23,
+      27,
+      36,
+      19
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-13": {
+    "kind": "bars",
+    "values": [
+      35,
+      41,
+      45,
+      33,
+      39,
+      38
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-14": {
+    "kind": "bars",
+    "values": [
+      29,
+      37,
+      41,
+      33,
+      35,
+      36
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-15": {
+    "kind": "bars",
+    "values": [
+      120,
+      95,
+      180,
+      160
+    ],
+    "labels": [
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-16": {
+    "kind": "bars",
+    "values": [
+      130,
+      90,
+      175,
+      155
+    ],
+    "labels": [
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-17": {
+    "kind": "bars",
+    "values": [
+      24,
+      13,
+      17,
+      11
+    ],
+    "labels": [
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-18": {
+    "kind": "bars",
+    "values": [
+      24,
+      45,
+      17,
+      38
+    ],
+    "labels": [
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-19": {
+    "kind": "bars",
+    "values": [
+      34,
+      31,
+      29,
+      28,
+      26,
+      25
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-20": {
+    "kind": "bars",
+    "values": [
+      32,
+      28,
+      29,
+      27,
+      24,
+      25
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-21": {
+    "kind": "bars",
+    "values": [
+      76,
+      54,
+      43,
+      68,
+      49,
+      38
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-22": {
+    "kind": "bars",
+    "values": [
+      92,
+      63,
+      41,
+      85,
+      58,
+      37
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-23": {
+    "kind": "bars",
+    "values": [
+      56,
+      41,
+      29,
+      48,
+      37,
+      25
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-24": {
+    "kind": "bars",
+    "values": [
+      88,
+      64,
+      51,
+      79,
+      60,
+      44
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-25": {
+    "kind": "bars",
+    "values": [
+      100,
+      120,
+      95,
+      115,
+      145,
+      88
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-26": {
+    "kind": "bars",
+    "values": [
+      23,
+      18,
+      30,
+      27,
+      21,
+      26
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-27": {
+    "kind": "bars",
+    "values": [
+      135,
+      112,
+      96,
+      148,
+      120,
+      101
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-28": {
+    "kind": "bars",
+    "values": [
+      35,
+      42,
+      28,
+      37
+    ],
+    "labels": [
+      "A",
+      "B",
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-29": {
+    "kind": "bars",
+    "values": [
+      46,
+      21,
+      13,
+      39,
+      18,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-double/bar-30": {
+    "kind": "bars",
+    "values": [
+      5,
+      7,
+      3,
+      3,
+      6,
+      2
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-01": {
+    "kind": "bars",
+    "values": [
+      45,
+      32,
+      26
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-02": {
+    "kind": "bars",
+    "values": [
+      48,
+      35,
+      26
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-03": {
+    "kind": "bars",
+    "values": [
+      41,
+      34,
+      27
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-04": {
+    "kind": "bars",
+    "values": [
+      41,
+      34,
+      27
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-05": {
+    "kind": "bars",
+    "values": [
+      6,
+      4,
+      3
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-06": {
+    "kind": "bars",
+    "values": [
+      8,
+      5,
+      4
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-07": {
+    "kind": "bars",
+    "values": [
+      8,
+      4,
+      6
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-08": {
+    "kind": "bars",
+    "values": [
+      120,
+      95,
+      108
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-09": {
+    "kind": "bars",
+    "values": [
+      120,
+      95,
+      108
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-10": {
+    "kind": "bars",
+    "values": [
+      125,
+      88,
+      112
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-11": {
+    "kind": "bars",
+    "values": [
+      8,
+      6,
+      5
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-12": {
+    "kind": "bars",
+    "values": [
+      9,
+      7,
+      5
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-13": {
+    "kind": "bars",
+    "values": [
+      45,
+      38,
+      26
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-14": {
+    "kind": "bars",
+    "values": [
+      45,
+      38,
+      52
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-15": {
+    "kind": "bars",
+    "values": [
+      86,
+      94,
+      78
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-16": {
+    "kind": "bars",
+    "values": [
+      79,
+      95,
+      88
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-17": {
+    "kind": "bars",
+    "values": [
+      8,
+      12,
+      16
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-18": {
+    "kind": "bars",
+    "values": [
+      9,
+      13,
+      17
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-19": {
+    "kind": "bars",
+    "values": [
+      12,
+      8,
+      15
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-20": {
+    "kind": "bars",
+    "values": [
+      11,
+      9,
+      14
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-21": {
+    "kind": "bars",
+    "values": [
+      6,
+      9,
+      11
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-22": {
+    "kind": "bars",
+    "values": [
+      14,
+      21,
+      9
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-23": {
+    "kind": "bars",
+    "values": [
+      5,
+      8
+    ],
+    "labels": [
+      "A",
+      "B"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-24": {
+    "kind": "bars",
+    "values": [
+      8,
+      13,
+      6
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-25": {
+    "kind": "bars",
+    "values": [
+      64,
+      41,
+      29
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-26": {
+    "kind": "bars",
+    "values": [
+      27,
+      19,
+      23
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-27": {
+    "kind": "bars",
+    "values": [
+      12,
+      9,
+      11
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-28": {
+    "kind": "bars",
+    "values": [
+      10,
+      13,
+      16,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-29": {
+    "kind": "bars",
+    "values": [
+      2,
+      5,
+      3,
+      4
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  },
+  "math/math-6-project/bar-30": {
+    "kind": "bars",
+    "values": [
+      23,
+      17,
+      12
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "scale": false,
+    "width": 420,
+    "height": 240
+  }
+}

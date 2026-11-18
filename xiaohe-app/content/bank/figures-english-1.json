@@ -1,0 +1,164 @@
+{
+  "english/english-1-listen/school-play-tasks": {
+    "kind": "bars",
+    "values": [6, 4, 2],
+    "labels": ["A", "B", "C"],
+    "width": 420,
+    "height": 240
+  },
+  "english/english-1-listen/party-start-time": {
+    "kind": "numberLine",
+    "min": 1,
+    "max": 8,
+    "step": 1,
+    "marks": [
+      [
+        4,
+        ""
+      ]
+    ],
+    "width": 420,
+    "height": 120
+  },
+  "english/english-1-talk/chore-freq-chart": {
+    "kind": "bars",
+    "values": [2, 5, 3],
+    "labels": ["A", "B", "C"],
+    "width": 400,
+    "height": 220
+  },
+  "english/english-1-talk/tom-chores-week": {
+    "kind": "bars",
+    "values": [4, 3, 2],
+    "labels": ["A", "B", "C"],
+    "width": 440,
+    "height": 230
+  },
+  "english/english-1-talk/morning-start-line": {
+    "kind": "numberLine",
+    "min": 6,
+    "max": 9,
+    "step": 1,
+    "marks": [
+      [
+        7,
+        ""
+      ]
+    ],
+    "width": 400,
+    "height": 110
+  },
+  "english/english-1-talk/pet-jobs-week": {
+    "kind": "bars",
+    "values": [7, 3, 2],
+    "labels": ["A", "B", "C"],
+    "width": 460,
+    "height": 250
+  },
+  "english/english-1-talk/garden-plot": {
+    "kind": "grid",
+    "cell": 36,
+    "width": 144,
+    "height": 108,
+    "shade": [
+      [
+        1,
+        0,
+        3,
+        2
+      ]
+    ],
+    "outline": [
+      [
+        0,
+        0,
+        4,
+        3
+      ]
+    ]
+  },
+  "english/english-1-talk/housework-compare": {
+    "kind": "bars",
+    "values": [3, 2, 4],
+    "labels": ["A", "B", "C"],
+    "width": 380,
+    "height": 210
+  },
+  "english/english-1-read/mum-chore-chart": {
+    "kind": "bars",
+    "values": [2, 4, 3],
+    "labels": ["A", "B", "C"],
+    "width": 430,
+    "height": 235
+  },
+  "english/english-1-read/flat-rooms-grid": {
+    "kind": "grid",
+    "cell": 40,
+    "width": 240,
+    "height": 160,
+    "shade": [
+      [
+        0,
+        0,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        5,
+        3
+      ]
+    ],
+    "outline": [
+      [
+        0,
+        0,
+        6,
+        4
+      ]
+    ]
+  },
+  "english/english-1-read/evening-start-line": {
+    "kind": "numberLine",
+    "min": 5,
+    "max": 9,
+    "step": 1,
+    "marks": [
+      [
+        6,
+        ""
+      ]
+    ],
+    "width": 430,
+    "height": 115
+  },
+  "english/english-1-read/window-rows-grid": {
+    "kind": "grid",
+    "cell": 40,
+    "width": 320,
+    "height": 120,
+    "outline": [
+      [
+        0,
+        0,
+        8,
+        3
+      ]
+    ]
+  },
+  "english/english-1-read/class-survey-chart": {
+    "kind": "bars",
+    "values": [5, 2, 6],
+    "labels": ["A", "B", "C"],
+    "width": 410,
+    "height": 225
+  },
+  "english/english-1-read/chore-slogan-chart": {
+    "kind": "bars",
+    "values": [4, 6, 1],
+    "labels": ["A", "B", "C"],
+    "width": 450,
+    "height": 245
+  }
+}

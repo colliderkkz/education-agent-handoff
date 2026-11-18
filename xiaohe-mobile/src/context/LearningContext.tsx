@@ -2,16 +2,21 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { getLocalEngine } from '../local/runtime';
 import type { LearningSnapshot, LocalLearningEngine } from '../local/engine';
 import type { ApiResult, WorkspaceState } from '../local/types';
+import type { StageId } from '../local/shared/types';
 import { cloneData } from '../local/clone';
 
 interface LearningContextValue extends LearningSnapshot {
   act: (action: string, payload?: Record<string, unknown>) => Promise<ApiResult>;
   reload: () => Promise<WorkspaceState>;
+  /** 当前学段 —— 首页、知识地图、练习页共用一份，不用每处重选。 */
+  stage: StageId;
+  setStage: (stage: StageId) => void;
 }
 const LearningContext = createContext<LearningContextValue | null>(null);
 
 export function LearningProvider({ children }: { children: ReactNode }) {
   const [snapshot, setSnapshot] = useState<LearningSnapshot>({ state: null, loading: true, error: null, busy: false });
+  const [stage, setStage] = useState<StageId>('primary');
   const engineRef = useRef<LocalLearningEngine | null>(null);
   const unsubscribeRef = useRef<(() => void) | null>(null);
   const mountedRef = useRef(false);
@@ -46,7 +51,7 @@ export function LearningProvider({ children }: { children: ReactNode }) {
     void reload().catch(() => undefined);
     return () => { mountedRef.current = false; unsubscribeRef.current?.(); unsubscribeRef.current = null; engineRef.current = null; };
   }, [reload]);
-  const value = useMemo(() => ({ ...snapshot, act, reload }), [snapshot, act, reload]);
+  const value = useMemo(() => ({ ...snapshot, act, reload, stage, setStage }), [snapshot, act, reload, stage]);
   return <LearningContext.Provider value={value}>{children}</LearningContext.Provider>;
 }
 

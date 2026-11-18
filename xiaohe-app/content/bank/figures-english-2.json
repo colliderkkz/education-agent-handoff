@@ -1,0 +1,23 @@
+{
+  "english/english-2-describe/hobby-hours-chart": {
+    "kind": "bars",
+    "values": [3, 5, 2],
+    "labels": ["A", "B", "C"],
+    "width": 420,
+    "height": 240
+  },
+  "english/english-2-describe/reading-books-chart": {
+    "kind": "bars",
+    "values": [4, 6, 5],
+    "labels": ["A", "B", "C"],
+    "width": 420,
+    "height": 240
+  },
+  "english/english-2-dialogue/english-words-chart": {
+    "kind": "bars",
+    "values": [30, 20, 25],
+    "labels": ["A", "B", "C"],
+    "width": 430,
+    "height": 250
+  }
+}

@@ -1,7 +1,7 @@
-// Generated from xiaohe-app/lib/server/evidence.ts; SHA-256: 972bdccd65c80d0c63222f2c4f383a23b71b307a2a52ba79af191985f1fffa38
+// Generated from xiaohe-app/lib/server/evidence.ts; SHA-256: e7812dd7cdcbbf602558f8f6a4153e9e8930e0d1951186f20e3aa0d1e7ce5a26
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
-import type { ApiResult, Evidence, EvidenceDecision, EvidencePatch, EvidencePreview, EvidenceProposal, EvidenceReviewState, KnowledgeId, Role, WorkspaceState } from "../types.ts";
+import { allKnowledgeIds, type ApiResult, type Evidence, type EvidenceDecision, type EvidencePatch, type EvidencePreview, type EvidenceProposal, type EvidenceReviewState, type KnowledgeId, type Role, type WorkspaceState } from "../types.ts";
 import { effectiveAttempt, effectiveEvidence, effectiveReviewSource, originalEvidenceProblem } from "../effective-evidence.ts";
 import { canonicalStringify, sha256 } from "./content.ts";
 import { DomainError } from "./domain-error.ts";
@@ -9,7 +9,7 @@ import { assessKnowledge, ensureMastery, reconcileEvidenceReviewPlans } from "./
 
 type Input = Record<string, unknown>;
 export type EvidenceContext = { now: string; newId: () => string; userId: string; displayName?: string; role: Role; channel?: "local" };
-const knowledgeIds = ["division", "geometry", "multiplication"];
+const knowledgeIds: readonly string[] = allKnowledgeIds;
 const helpLevels = ["independent", "unknown", "hint", "explanation"];
 const hash = (value: unknown) => sha256(canonicalStringify(value));
 const check: (ok: unknown, message: string, status?: number) => asserts ok = (ok, message, status = 400) => { if (!ok) throw new DomainError(message, status); };

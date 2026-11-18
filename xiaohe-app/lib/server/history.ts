@@ -1,4 +1,4 @@
-import type { ApiResult, HistoryDeletionOperation, HistoryDeletionPreview, HistoryDeletionSelection, HistoryDeletionState, KnowledgeId, Role, WorkspaceState } from '../types.ts';
+import { allKnowledgeIds, type ApiResult, type HistoryDeletionOperation, type HistoryDeletionPreview, type HistoryDeletionSelection, type HistoryDeletionState, type KnowledgeId, type Role, type WorkspaceState } from '../types.ts';
 import { historyFileIdentity } from '../history-deletion.ts';
 import { effectiveAttempt, effectiveEvidence, effectiveReviewSource } from '../effective-evidence.ts';
 import { canonicalStringify, sha256 } from './content.ts';
@@ -16,7 +16,7 @@ const isId = (v: unknown): v is string => typeof v === 'string' && /^[A-Za-z0-9_
 const isDate = (v: unknown): v is string => typeof v === 'string' && /^\d{4}-\d\d-\d\dT/.test(v) && Number.isFinite(Date.parse(v));
 const isDigest = (v: unknown): v is string => typeof v === 'string' && /^[a-f0-9]{64}$/.test(v);
 const isRevision = (v: unknown): v is number => Number.isSafeInteger(v) && Number(v) >= 0;
-const knowledgeIds: KnowledgeId[] = ['division', 'geometry', 'multiplication'];
+const knowledgeIds: readonly string[] = allKnowledgeIds;
 const rank = (help: string) => help === 'explanation' ? 3 : help === 'hint' ? 2 : help === 'unknown' ? 1 : 0;
 function ids(value: unknown, empty = true): string[] { check(Array.isArray(value) && value.every(isId) && (empty || value.length > 0) && new Set(value).size === value.length, '请选择不重复的有效记录'); return value.slice().sort(); }
 export function ensureHistoryDeletion(state: WorkspaceState): HistoryDeletionState {

@@ -1,0 +1,945 @@
+[
+  {
+    "id": "bank-english-1-listen-c01",
+    "familyId": "english-1-listen__fam-31",
+    "version": 1,
+    "text": "Read Mum's note on the door: 'Take out the trash first. Then clean the table and wash the dishes.' What should you do first?（　　）。A．Clean the table　B．Take out the trash　C．Wash the dishes　D．Make the bed",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "这是读句子排顺序题：先把 note 里出现的家务动作找齐，再按 'first' 找到排在最前面的那一个。",
+      "note 里的动作有三个：take out the trash、clean the table、wash the dishes；'first' 后面紧跟的是 take out the trash，clean the table 和 wash the dishes 都排在它后面，而 make the bed 根本没有提到。",
+      "答：B。"
+    ],
+    "hint": "先圈出 note 里出现的动作，再找 'first' 后面紧挨着的那一个。",
+    "alternative": "也可以画三个小框，按 note 出现的顺序把动作写进去，第一个框里的动作就是先要做的事。",
+    "prerequisites": [
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-listen__chore-order-list"
+  },
+  {
+    "id": "bank-english-1-listen-c02",
+    "familyId": "english-1-listen__fam-32",
+    "version": 1,
+    "text": "Read Dad's sentence: 'I ____ the flowers every evening because they are dry.' Which word is right?（　　）。A．wash　B．clean　C．sweep　D．water",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-1-listen",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "这道题考的是动词和东西的固定搭配：洗衣服用 wash，擦桌子用 clean，扫地用 sweep，给花浇水用 water。",
+      "句子后半句说 'because they are dry'（因为它们干了），干了的植物要浇水，所以只能填 water；其它三个动词都不搭配 flowers。",
+      "答：D。"
+    ],
+    "hint": "读一读后半句 'because they are dry'，想想花干了应该做什么。",
+    "alternative": "也可以把四个动词分别和 flowers 搭配读一遍，只有 water the flowers 说得通。",
+    "prerequisites": [
+      "english-1-listen",
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-listen__chore-and-object"
+  },
+  {
+    "id": "bank-english-1-talk-c01",
+    "familyId": "english-1-talk__fam-31",
+    "version": 1,
+    "text": "Read about Lily's family: 'Mum cooks and washes the dishes. Dad cleans the floor and takes out the trash. Lily can make her bed and water the flowers.' Which job can Lily do at home?（　　）。A．Cook dinner　B．Wash the dishes　C．Make her bed　D．Take out the trash",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把三个人各自负责的事对号入座：cook 和 wash the dishes 是 Mum 的，clean the floor 和 take out the trash 是 Dad 的。",
+      "剩下的 make her bed 和 water the flowers 都是 Lily 的，所以 make her bed 是 Lily 在家能做的事；cook dinner、wash the dishes、take out the trash 分别属于 Mum 和 Dad。",
+      "答：C。"
+    ],
+    "hint": "逐句在三个人和四个活儿之间连线，最后剩下的那个活儿就是 Lily 的。",
+    "alternative": "也可以只找句子里带 'Lily can' 的部分，照着念出后面的动词。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-1-listen"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-talk__family-chore-chart"
+  },
+  {
+    "id": "bank-english-1-talk-c02",
+    "familyId": "english-1-talk__fam-32",
+    "version": 1,
+    "text": "Your uncle asks: 'Could you help me take out the trash?' You are going to your piano lesson now. Which reply is the best?（　　）。A．Sorry, I can't. I have a piano lesson now.　B．Sure, I can. I will take it out.　C．Here you are.　D．I am ten years old.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-1-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目要求婉拒，答句要同时做到两件事：先表示抱歉，再说明不能去的理由。",
+      "A 用 'Sorry, I can't' 礼貌地拒绝，又给出 piano lesson 这个理由；B 是答应下来，与题设矛盾；C 是递东西时用的；D 是回答年龄的。",
+      "答：A。"
+    ],
+    "hint": "先想清楚是要答应还是拒绝，再挑出既礼貌又给出理由的那一句。",
+    "alternative": "也可以把四个答句分别读一遍，读到和 'piano lesson' 无关的句子就先排除。",
+    "prerequisites": [
+      "english-1-talk",
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-talk__refuse-politely"
+  },
+  {
+    "id": "bank-english-1-read-c01",
+    "familyId": "english-1-read__fam-31",
+    "version": 1,
+    "text": "Read: 'On Saturday the family cleans the living room together. Dad sweeps the floor, Mum cleans the windows and Lily puts the books away.' What does Lily do?（　　）。A．She sweeps the floor.　B．She cleans the windows.　C．She puts the books away.　D．She washes the dishes.",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "读短文时把人物和动作一一对应起来：sweeps the floor 是 Dad 的，cleans the windows 是 Mum 的。",
+      "短文里 Lily 的动作是 puts the books away；wash the dishes 虽是家里的常见活儿，但短文里没有写 Lily 做这件事。",
+      "答：C。"
+    ],
+    "hint": "在短文里找到 Lily 出现的那个分句，看它后面跟的动词是什么。",
+    "alternative": "也可以画三个小人分别写上名字，谁的名字后面跟着的动作，就是这个人做的事。",
+    "prerequisites": [
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-1-read__passage-who-does-what"
+  },
+  {
+    "id": "bank-english-1-read-c02",
+    "familyId": "english-1-read__fam-32",
+    "version": 1,
+    "text": "You want to write something nice in your friend's birthday card. Which sentence is the best one to write?（　　）。A．Happy birthday! I hope you have a nice day.　B．I am fine. I go to school at seven.　C．The library is next to the school.　D．Please take out the trash.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-1-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想清楚写这张卡片是做什么用的：生日卡片上要写祝福语。",
+      "A 是祝福的话；B 是说自己和上学时间；C 是说图书馆的位置；D 是让别人去倒垃圾，四句里只有 A 属于祝福。",
+      "答：A。"
+    ],
+    "hint": "先判断这句话是写给谁、想说什么场合的话，再排除说其它事情的句子。",
+    "alternative": "也可以想象把这句念给对方听，听起来像不像生日祝福。",
+    "prerequisites": [
+      "english-1-read",
+      "english-review-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-1-read__card-writing-choice"
+  },
+  {
+    "id": "bank-english-2-describe-c01",
+    "familyId": "english-2-describe__fam-31",
+    "version": 1,
+    "text": "Read about Tom: 'Tom's favourite subject is music. He plays the piano after school every day.' What is Tom's favourite subject?（　　）。A．Science　B．Music　C．Sport　D．Painting",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问的是 'favourite subject'（最喜欢的科目），短文里 'favourite' 后面紧跟的那个词就是答案。",
+      "短文第一句就写着 Tom's favourite subject is music，后一句 plays the piano 也和音乐有关；science、sport、painting 都没有提到。",
+      "答：B。"
+    ],
+    "hint": "在句子里找出 'favourite' 这个词，它后面跟着的科目名就是答案。",
+    "alternative": "也可以读第二句 'He plays the piano'，能推出他喜欢的科目和音乐有关。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-describe__favourite-subject"
+  },
+  {
+    "id": "bank-english-2-describe-c02",
+    "familyId": "english-2-describe__fam-32",
+    "version": 1,
+    "text": "Read about Wang Bin: 'Wang Bin is my classmate. He is taller than me. He likes playing football after school.' Choose the best way to introduce him.（　　）。A．This is my friend Wang Bin. He is tall and he likes sports.　B．This is my friend Wang Bin. She is tall and she likes sports.　C．This is my friend Wang Bin. His is tall and he likes sports.　D．This is my friend Wang Bin. He tall and he likes sports.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-2-describe",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "介绍同学要用对代词：短文里说的是 He，所以后面两个句子都要用 he。",
+      "B 把 he 写成 she，人称代词错了；C 把主格 he 写成物主代词 his；D 少了 be 动词；只有 A 的人称和句子结构都对。",
+      "答：A。"
+    ],
+    "hint": "先圈出短文里表示人的词（He），再数一数后面每句话的主语该用什么代词。",
+    "alternative": "也可以把四个选项里的 he、she、his、him 逐个划出来，和短文里的人对照。",
+    "prerequisites": [
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-describe__intro-pronoun-choose"
+  },
+  {
+    "id": "bank-english-2-dialogue-c01",
+    "familyId": "english-2-dialogue__fam-31",
+    "version": 1,
+    "text": "Your new friend Amy says: 'Hello! I'm Amy. What's your name?' Choose the best answer.（　　）。A．I'm Wu Bin. Nice to meet you.　B．I'm ten years old.　C．I like music very much.　D．I go to school at seven.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看对方在问什么：'What's your name?' 问的是名字，所以答句里要出现自己的名字。",
+      "A 先说自己叫 Wu Bin，再回一句 'Nice to meet you'，正好接上这句问候；B 答的是年龄，C 答的是喜欢的科目，D 答的是上学时间，都答错了问题。",
+      "答：A。"
+    ],
+    "hint": "先在问句里圈出问的那个词（name），再找答句里对应的内容。",
+    "alternative": "也可以反过来做：把每个答句和它能回答的问题配对，配不上的就排除。",
+    "prerequisites": [
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-2-dialogue__greet-and-reply"
+  },
+  {
+    "id": "bank-english-2-dialogue-c02",
+    "familyId": "english-2-dialogue__fam-32",
+    "version": 1,
+    "text": "You want to know what your new friend can do. Which question is right?（　　）。A．Where is your home?　B．How old are you?　C．What's your name?　D．What can you do?",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-2-dialogue",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问题要和想得到的信息对上：想知道对方会做什么，就要用 can 提问。",
+      "D 用 'What can you do?' 问能力；A 问地点，B 问年龄，C 问名字，都不是问'会做什么'的。",
+      "答：D。"
+    ],
+    "hint": "先写下你想知道的句子（I want to know ...），再找和它意思一样的那个问句。",
+    "alternative": "也可以先用中文想一遍'你会做什么？'，再把这句话变成英语问句。",
+    "prerequisites": [
+      "english-2-dialogue",
+      "english-1-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-2-dialogue__choose-the-question"
+  },
+  {
+    "id": "bank-english-3-place-c01",
+    "familyId": "english-3-place__fam-31",
+    "version": 1,
+    "text": "Read: 'In this building there is a big pool. Children learn to swim here on Monday and Thursday.' Which place is it?（　　）。A．Gym　B．Theatre　C．Swimming pool　D．Playground",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "地点词要和场景里的线索对上：短文里有 a big pool，还说 children learn to swim here。",
+      "C 是 swimming pool；gym 是健身房，theatre 是剧场，playground 是操场，这三个地方都不学游泳。",
+      "答：C。"
+    ],
+    "hint": "先圈出场景里最有特点的那个词（pool），再找出和它有关的地点名。",
+    "alternative": "也可以把四个地点各想象成一句话，看哪一句能和 'learn to swim' 接上。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-place__swimming-place"
+  },
+  {
+    "id": "bank-english-3-place-c02",
+    "familyId": "english-3-place__fam-32",
+    "version": 1,
+    "text": "Read: 'The shop is next to the bank. The cinema is between the shop and the hospital. The park is in front of the hospital.' Where is the cinema?（　　）。A．Between the shop and the hospital　B．Next to the bank　C．In front of the hospital　D．Behind the bank",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-3-place",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问的是 cinema 的位置，要在短文里找到说 cinema 的那一句。",
+      "第二句写着 'The cinema is between the shop and the hospital'，所以它在商店和医院的中间；next to the bank 说的是商店，in front of the hospital 说的是公园，behind the bank 短文里根本没出现。",
+      "答：A。"
+    ],
+    "hint": "先在短文里找到被问的那个地点名，再看它后面的方位词。",
+    "alternative": "也可以把短文里的地点和方位画成几个框，谁和谁挨着、谁在中间，一看就清楚。",
+    "prerequisites": [
+      "english-3-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-place__where-between"
+  },
+  {
+    "id": "bank-english-3-question-c01",
+    "familyId": "english-3-question__fam-31",
+    "version": 1,
+    "text": "Your father is not in the study. You want to know where he is. Choose the best question.（　　）。A．What is your father like?　B．How old is your father?　C．Where is my father?　D．What does your father do?",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "想知道地点就要用 where 提问，同时要把要找的人说清楚：my father。",
+      "C 是 'Where is my father?'；A 问性格，B 问年龄，D 问职业，三个都不是问地点的。",
+      "答：C。"
+    ],
+    "hint": "问地点、问年龄、问性格、问职业，各自的疑问词不一样，先想清楚要问哪一类。",
+    "alternative": "也可以先写出答案的样子（He's in the kitchen.），再问自己要用哪个疑问词才能得到它。",
+    "prerequisites": [
+      "english-3-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-3-question__choose-question-word"
+  },
+  {
+    "id": "bank-english-3-question-c02",
+    "familyId": "english-3-question__fam-32",
+    "version": 1,
+    "text": "You want to know if your friend is in the classroom now. Choose the right yes/no question.（　　）。A．Are you in the classroom now?　B．What is in the classroom?　C．Where is the classroom?　D．How many classrooms are there?",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-3-question",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要问'是不是'，就要用 be 动词的一般疑问句：把 be 动词提到句首，答 Yes 或 No。",
+      "A 是 'Are you in the classroom now?'，能用 Yes 或 No 回答；B 问里面有什么，C 问教室在哪，D 问教室有多少，都不是一般疑问句。",
+      "答：A。"
+    ],
+    "hint": "判断一句是不是一般疑问句，看 be 动词有没有提到句首。",
+    "alternative": "也可以自己先答一句 'Yes, I am.'，能这样答的问题就是要选的那一个。",
+    "prerequisites": [
+      "english-3-question"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-3-question__yes-or-no-ask"
+  },
+  {
+    "id": "bank-english-4-actions-c01",
+    "familyId": "english-4-actions__fam-31",
+    "version": 1,
+    "text": "Read: 'Amy is a volunteer. Every Sunday she helps old people in our community. Today she reads stories to them in the nursing home.' What does Amy do on Sunday?（　　）。A．She cleans the park.　B．She works in the school library.　C．She plants young trees on the street.　D．She reads stories to old people.",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-4-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找到'时间 + 动作'的对应：Every Sunday 后面紧跟的是 helps old people。",
+      "后半句进一步说明她做的事是 reads stories to them in the nursing home；clean the park、work in the school library、plant young trees 都是社区里别的帮忙活动，这一段里没有提到。",
+      "答：D。"
+    ],
+    "hint": "先圈出表示时间的词（Every Sunday），再看它后面的动作是什么。",
+    "alternative": "也可以找出短文里最能代表她这个周末的动作，读到 'reads stories' 就知道答案了。",
+    "prerequisites": [
+      "english-4-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-4-actions__volunteer-sunday"
+  },
+  {
+    "id": "bank-english-4-actions-c02",
+    "familyId": "english-4-actions__fam-32",
+    "version": 1,
+    "text": "Read: 'Ben sees an old woman carrying two heavy bags up the stairs. He takes the bags and carries them to her door on the third floor.' What kind of help did Ben give?（　　）。A．He helped her with her shopping.　B．He cleaned her house.　C．He showed her how to use the lift.　D．He called the hospital for her.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-4-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看短文里 Ben 做了什么：他把两个重包接过来，拎到三楼她的家门口。",
+      "重包通常是买回来的东西，所以这是帮忙提东西、也就是帮忙买东西（shopping）；clean her house、use the lift、call the hospital 在短文里都没有出现。",
+      "答：A。"
+    ],
+    "hint": "想一想这两个重包是谁拿来的、拿到哪里去，就知道 Ben 帮的是哪一类忙。",
+    "alternative": "也可以用中文把短文说一遍：Ben 帮老太太把买回来的东西拎上了楼，再从中文反推英语的说法。",
+    "prerequisites": [
+      "english-4-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-4-actions__carry-bags-help"
+  },
+  {
+    "id": "bank-english-4-talk-c01",
+    "familyId": "english-4-talk__fam-31",
+    "version": 1,
+    "text": "Your homework is too hard for you. Which sentence asks your teacher for help politely?（　　）。A．'This is too hard. You do it for me.'　B．'Teacher, help me now!'　C．'Could you help me with my homework?'　D．'I don't like this homework.'",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-4-talk",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "请人帮忙要有礼貌：用 Could you ... / Can you ... 这样的句式提出请求。",
+      "C 用 'Could you help me with my homework?' 礼貌地提出请求；A 像在命令，B 一点也不客气，D 是说自己不喜欢作业，都不能算请老师帮忙。",
+      "答：C。"
+    ],
+    "hint": "英语里请人帮忙最好用 Could you ... 开头的句子，先把带 Could 的那句挑出来。",
+    "alternative": "也可以把自己要说的中文换成客气的英语（请您帮我……），再和四个选项对照。",
+    "prerequisites": [
+      "english-4-talk"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-4-talk__ask-help-polite"
+  },
+  {
+    "id": "bank-english-4-talk-c02",
+    "familyId": "english-4-talk__fam-32",
+    "version": 1,
+    "text": "A classmate says: 'Would you like to come to the school garden club on Saturday?' You are not free on Saturday. Which reply is the best?（　　）。A．Sorry, I can't. I'm busy on Saturday.　B．Yes, I would love to.　C．I don't like the garden club.　D．Thank you for asking me.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-4-talk",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "不能去的时候要先表示歉意，再说明原因，这样才礼貌。",
+      "A 用 'Sorry, I can't' 再加上理由说明去不了；B 是答应去，C 是说社团不好，D 是谢谢对方邀请，都不是婉拒的说法。",
+      "答：A。"
+    ],
+    "hint": "婉拒邀请有固定的说法：Sorry, I can't. 后面再补一句原因。",
+    "alternative": "也可以反过来想：先写一句最客气的拒绝，再把四个选项逐一比较谁最接近。",
+    "prerequisites": [
+      "english-4-talk",
+      "english-2-dialogue"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-4-talk__decline-invitation"
+  },
+  {
+    "id": "bank-english-5-weather-c01",
+    "familyId": "english-5-weather__fam-31",
+    "version": 1,
+    "text": "You look at the sky before school. It is grey and the sun is hidden behind the clouds all day. Which weather word fits best?（　　）。A．sunny　B．snowy　C．cloudy　D．rainy",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找描述天空的线索：It is grey，the sun is hidden behind the clouds，说明云把太阳挡住了。",
+      "这种天气的词是 cloudy；sunny 和太阳被挡住正好相反，snowy 要有雪，rainy 要下雨，短文里都没说。",
+      "答：C。"
+    ],
+    "hint": "读一读'太阳被云挡住'这句，想想这类天气的英语单词是哪一个。",
+    "alternative": "也可以把四个词分别和 grey 搭配读一遍，读着最顺的那个就是答案。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__grey-sky-word"
+  },
+  {
+    "id": "bank-english-5-weather-c02",
+    "familyId": "english-5-weather__fam-32",
+    "version": 1,
+    "text": "Read: 'This morning the sky was full of grey clouds. This afternoon the sun is shining.' How has the weather changed?（　　）。A．It is windier now.　B．It is sunnier now.　C．It is colder now.　D．It is snowier now.",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问的是变化，比较早上和下午两句话就行了。",
+      "早上满天灰云（full of grey clouds），下午阳光灿烂（the sun is shining），所以是变得更晴朗了；windier、colder、snowier 在短文里都没有依据。",
+      "答：B。"
+    ],
+    "hint": "把早上和下午各用一个天气词写下来，再看是往哪个方向变的。",
+    "alternative": "也可以只抓太阳：早上太阳被挡住，下午 sun is shining，由此判断变化。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__morning-afternoon-change"
+  },
+  {
+    "id": "bank-english-5-plan-c01",
+    "familyId": "english-5-plan__fam-31",
+    "version": 1,
+    "text": "Read: 'It is sunny and warm today. The children are in the park.' Which activity is the best one for this weather?（　　）。A．Make a snowman outside.　B．Skate on the ice.　C．Go out in a heavy rain.　D．Fly a kite in the park.",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看天气：sunny and warm，是暖和的晴天。",
+      "暖和的晴天适合在户外放风筝；make a snowman 和 skate on the ice 要下雪结冰，go out in a heavy rain 遇上大雨都不合适。",
+      "答：D。"
+    ],
+    "hint": "先把要做的活动和季节对上：下雪天才能堆雪人，结冰了才能滑冰。",
+    "alternative": "也可以把四个活动各配一个季节，看哪个季节和 sunny and warm 一致。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__sunny-park-activity"
+  },
+  {
+    "id": "bank-english-5-plan-c02",
+    "familyId": "english-5-plan__fam-32",
+    "version": 1,
+    "text": "Read: 'It is sunny and there is a light wind. Ben takes his kite to the park.' Why does Ben take his kite to the park?（　　）。A．Because the wind is just right for the kite to fly.　B．Because it is raining hard.　C．Because it is very cold.　D．Because the park is closed today.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "题目问 why，要到短文里去找原因：sunny and there is a light wind。",
+      "有太阳、又有一点风，正是放风筝的好条件，所以 A 说的就是原因；raining、very cold、the park is closed 在短文里都没有出现。",
+      "答：A。"
+    ],
+    "hint": "放风筝需要什么条件？把'有太阳'和'有风'这两个条件连起来就是原因。",
+    "alternative": "也可以先想一想放风筝需要什么，再回到短文里找对应的两个条件。",
+    "prerequisites": [
+      "english-5-plan",
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__kite-wind-reason"
+  },
+  {
+    "id": "bank-english-6-seasons-c01",
+    "familyId": "english-6-seasons__fam-31",
+    "version": 1,
+    "text": "Read: 'The old plum tree has no leaves now. In a few weeks it will have green leaves and pink flowers.' Which season is coming?（　　）。A．winter　B．summer　C．spring　D．fall",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看现在的状态：no leaves（还没有叶子），说明现在正处在叶子落完的季节。",
+      "接下来会长出 green leaves and pink flowers，这是春天发芽开花的景象，所以春天就要到了；summer 是枝叶茂盛，fall 是落叶，winter 是下雪结冰。",
+      "答：C。"
+    ],
+    "hint": "想一想哪个季节是'先光秃秃，后来长绿叶开花'的。",
+    "alternative": "也可以抓住 pink flowers 这一条，能在春天开花的树说的就是春天。",
+    "prerequisites": [
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-seasons__coming-season"
+  },
+  {
+    "id": "bank-english-6-seasons-c02",
+    "familyId": "english-6-seasons__fam-32",
+    "version": 1,
+    "text": "Read: 'In July the days are long and the sun is hot. In January the days are short and it is cold.' Which month is better for a picnic in the park?（　　）。A．January　B．Neither month　C．March　D．July",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-6-seasons",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先比较两个月份：July 白天长、太阳热，January 白天短、天气冷。",
+      "在公园野餐要挑天气好的时候，July 更合适；January 又冷又天短，March 短文里根本没提到。",
+      "答：D。"
+    ],
+    "hint": "先把两个月份各写一个天气特点，再挑适合野餐的那个。",
+    "alternative": "也可以想一想自己夏天和冬天去公园野餐，哪一次更舒服，答案就出来了。",
+    "prerequisites": [
+      "english-6-seasons",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-seasons__picnic-month"
+  },
+  {
+    "id": "bank-english-6-actions-c01",
+    "familyId": "english-6-actions__fam-31",
+    "version": 1,
+    "text": "Read: 'It is cold and windy outside today.' Which one will you wear?（　　）。A．A pair of shorts　B．A thick coat　C．A T-shirt　D．A sun hat",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住两个线索：cold and windy，天冷又有风。",
+      "天冷要穿保暖的衣服，a thick coat 合适；shorts、T-shirt、sun hat 都是天热时穿的。",
+      "答：B。"
+    ],
+    "hint": "把四件衣服各配一个季节，冷天对应的那件就是答案。",
+    "alternative": "也可以从反面想：哪一件穿出去一定会觉得冷？剩下那件就是答案。",
+    "prerequisites": [
+      "english-6-actions"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-6-actions__cold-day-clothes"
+  },
+  {
+    "id": "bank-english-6-actions-c02",
+    "familyId": "english-6-actions__fam-32",
+    "version": 1,
+    "text": "Read: 'In fall the trees are full of red apples. Ben and his sister go to the farm with a big basket.' What do they do there?（　　）。A．They swim in the lake.　B．They skate on the ice.　C．They plant beans in the garden.　D．They pick the apples.",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-6-actions",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找场景里的关键线索：trees are full of red apples，还要带一个 big basket（篮子是用来装东西的）。",
+      "带着篮子到结满苹果的树下，就是去摘苹果；swim in the lake、skate on the ice、plant beans 都不是这个季节这个场景里做的事。",
+      "答：D。"
+    ],
+    "hint": "先找出表示季节的词（fall）和表示东西的词（apples、basket），答案就藏在这两个线索里。",
+    "alternative": "也可以想想秋天有哪些事要做：摘果子、收庄稼，这样就能把三个错的都排除掉。",
+    "prerequisites": [
+      "english-6-actions",
+      "english-6-seasons"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-6-actions__pick-apples"
+  },
+  {
+    "id": "bank-english-review-read-c01",
+    "familyId": "english-review-read__fam-31",
+    "version": 1,
+    "text": "Read the show script: 'Amy: This is my friend Wu Bin. He is tall and he can play basketball. Ben: He looks strong!' Which line is Wu Bin's line?（　　）。A．'He looks strong!'　B．'This is my friend Wu Bin.'　C．'He is tall and he can play basketball.'　D．'The show is over. Thank you!'",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "剧本里每句前面都写着说话人的名字，先找 Wu Bin 名字后面的那一句。",
+      "Wu Bin 说的是 'He is tall and he can play basketball.'；'He looks strong!' 是 Ben 说的，'This is my friend Wu Bin.' 是 Amy 说的。",
+      "答：C。"
+    ],
+    "hint": "剧本上说话人的名字就是线索，找到名字后面的引号里的话。",
+    "alternative": "也可以用内容判断：介绍 Wu Bin 的那句是 Amy 说的，评价'他看起来很强'的才是 Wu Bin 自己说的话。",
+    "prerequisites": [
+      "english-review-read",
+      "english-2-describe"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-read__who-says-the-line"
+  },
+  {
+    "id": "bank-english-review-read-c02",
+    "familyId": "english-review-read__fam-32",
+    "version": 1,
+    "text": "Read the play: 'A girl drops her schoolbag in the street and all her books fall out. A boy comes and helps her.' Which ending fits the story?（　　）。A．The girl goes home and does her homework.　B．The boy picks up the books and they walk to school together.　C．The girl buys new books in the shop.　D．The boy runs away and the girl cries.",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-review-read",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住故事里的两个要点：书掉了一地，来了一个男孩帮忙。",
+      "所以结尾应该是男孩把书捡起来，两个人一起走去学校；A、C 跟掉书没关系，D 里男孩跑掉了，跟'来帮忙'正好相反。",
+      "答：B。"
+    ],
+    "hint": "选结尾时看它能不能接住前面发生的事，前面提到'帮忙'，结尾就不能是跑开。",
+    "alternative": "也可以把四个结尾各接在原文后面读一遍，读起来最顺的那个就是对的。",
+    "prerequisites": [
+      "english-review-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-read__play-ending"
+  },
+  {
+    "id": "bank-english-review-plan-c01",
+    "familyId": "english-review-plan__fam-31",
+    "version": 1,
+    "text": "Read: 'The weather report says it will be snowy and cold on Saturday.' Which plan is the best one?（　　）。A．Fly a kite by the river.　B．Swim in the outdoor pool.　C．Make a snowman in the yard.　D．Water the flowers in the garden.",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先读清楚天气：snowy and cold，又下雪又冷。",
+      "下雪天最合适的是在院子里堆雪人；放风筝要不太冷的天，游泳要暖和的天气，浇花是春天做的事，都不合适。",
+      "答：C。"
+    ],
+    "hint": "把四个计划各配一个季节或天气，挑和 snowy and cold 配套的那一个。",
+    "alternative": "也可以反过来：先说出'下雪天我最想做什么'，再和四个选项对一对。",
+    "prerequisites": [
+      "english-review-plan",
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-plan__snowy-day-plan"
+  },
+  {
+    "id": "bank-english-review-plan-c02",
+    "familyId": "english-review-plan__fam-32",
+    "version": 1,
+    "text": "Read the plan: 'We will meet at the school gate at eight o'clock. First we will pick up the litter in the park. Then we will put it in the bins. Finally we will wash our hands and go home.' What will they do before picking up the litter?（　　）。A．Meet at the school gate.　B．Put the litter in the bins.　C．Wash their hands.　D．Go home.",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "english-review-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "计划里的步骤有先后，题目问的是'在捡垃圾之前'要做什么。",
+      "最先的一句是 'We will meet at the school gate at eight o'clock'，也就是先到校门口集合；put it in the bins 和 wash our hands 都在捡垃圾之后，go home 更排在最后。",
+      "答：A。"
+    ],
+    "hint": "把计划里的动作按顺序排一排，第一个就是最先做的。",
+    "alternative": "也可以抓住计划里的 First、Then、Finally 三个词来读顺序。",
+    "prerequisites": [
+      "english-review-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-plan__plan-step-order"
+  },
+  {
+    "id": "bank-english-review-write-c01",
+    "familyId": "english-review-write__fam-31",
+    "version": 1,
+    "text": "Read and choose the sentence with the right word order.（　　）。A．'my friend likes music very much.'　B．'My friend likes music very much.'　C．'likes music my friend very much.'　D．'Very much my friend likes music.'",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "英语句子的基本顺序是：谁（主语）+ 做什么（谓语）+ 什么（宾语），句子的第一个字母还要大写。",
+      "B 是 My friend（主语）+ likes（谓语）+ music（宾语）+ very much，而且句首大写；A 句首没有大写，C 把 likes 放到了最前面，D 把 very much 提到了句首。",
+      "答：B。"
+    ],
+    "hint": "先找句子里表示'谁'的词，它应该在最前面，而且第一个字母要大写。",
+    "alternative": "也可以把每个选项里的词重新排一遍，只有 B 排出来是一句通顺的英语。",
+    "prerequisites": [
+      "english-review-write",
+      "english-1-read"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-review-write__word-order-choose"
+  },
+  {
+    "id": "bank-english-review-write-c02",
+    "familyId": "english-review-write__fam-32",
+    "version": 1,
+    "text": "You want to write about the weather in a letter to your friend. Choose the best sentence.（　　）。A．'It is weather nice today.'　B．'Today it is very much hot.'　C．'The weather is like sunny.'　D．'It is sunny and warm today.'",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "english-review-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "英语里说天气用 It is + 天气形容词，不把 weather 放在句子中间，也不用 like 来问天气。",
+      "D 用了 It is ... 的句式；A 把 weather 放到了句子里间，B 在 hot 前面加了 very much（英语不说 very much hot），C 用 like 来表示天气。",
+      "答：D。"
+    ],
+    "hint": "先记住说天气的句型是 It's sunny / It's cold，再把四个句子套进去读一读。",
+    "alternative": "也可以把 D 读顺以后当模板，把 sunny and warm 换成 cold and windy，再自己写一句。",
+    "prerequisites": [
+      "english-review-write",
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-review-write__weather-sentence"
+  }
+]

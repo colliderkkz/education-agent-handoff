@@ -1,6 +1,7 @@
-import { useRef, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { router, useLocalSearchParams, usePreventRemove } from 'expo-router';
-import { Alert, Keyboard, Text, TextInput, View } from 'react-native';
+import { Alert, Keyboard, Pressable, Text, TextInput, View } from 'react-native';
+import { splitQuestionText } from '../local/shared/choice';
 import { Screen } from '../components/Screen';
 import { companionQuestionLink } from '../components/learning/companionLink';
 import { Badge, Button, Card } from '../components/ui';
@@ -90,6 +91,8 @@ function PracticeForm({ paper, attempt }: { paper: Paper; attempt: Attempt }) {
     ]);
   });
   const question = paper.questions[index];
+  // 选择题的选项写在题干里，拆出来渲染成单选，答案是选项字母。
+  const { stem: questionStem, choices: questionChoices } = useMemo(() => splitQuestionText(question?.text ?? ''), [question?.text]);
   const answer = draft.answers.find(a => a.questionId === question.id)!;
   const help = attempt.answers.find(a => a.questionId === question.id)?.help || 'independent';
   const filled = draft.answers.filter(a => a.value.trim()).length;
@@ -128,7 +131,7 @@ function PracticeForm({ paper, attempt }: { paper: Paper; attempt: Attempt }) {
     {!!(error || draft.saveError) && <View style={ls.section}><Notice text={error || draft.saveError} error /><Button label={draft.recovering ? '正在重读…' : '重读本机记录，保留当前输入'} secondary disabled={operation !== null || draft.recovering} onPress={() => { void recover(); }} /></View>}
     {!!recoveryNotice && <Notice text={recoveryNotice} />}
     {draft.conflicts.map(conflict => <Card key={`${conflict.questionId}-${conflict.field}`} style={ls.section}><Text style={ls.label}>第 {paper.questionIds.indexOf(conflict.questionId) + 1} 题 · {conflict.field === 'value' ? '答案' : '思路'}出现不同版本</Text><Text style={styles.caption}>当前页面输入</Text><Text selectable style={styles.body}>{conflict.local || '（空白）'}</Text><Text style={styles.caption}>本机已保存内容</Text><Text selectable style={styles.body}>{conflict.remote || '（空白）'}</Text><Button label="保留当前页面输入" disabled={operation !== null} onPress={() => draft.resolveConflict(conflict.questionId, conflict.field, 'local')} /><Button label="采用本机已保存内容" secondary disabled={operation !== null} onPress={() => draft.resolveConflict(conflict.questionId, conflict.field, 'remote')} /></Card>)}
-    <Card style={{ gap: 17 }}><Badge>{`${knowledgeNames[question.knowledgeId]} · ${question.difficulty}`}</Badge><Text style={ls.question}>{question.text}</Text><Text style={styles.caption}>当前记录：{helpNames[help]}</Text><View style={{ gap: 7 }}><Text style={ls.label}>我的答案{question.unit ? `（${question.unit}）` : ''}</Text><TextInput accessibilityLabel={`第 ${index + 1} 题答案`} value={answer.value} onChangeText={value => draft.update(question.id, 'value', value)} editable={!inputLocked} maxLength={300} placeholder="写下你的答案" placeholderTextColor="#87937D" autoCorrect={false} autoComplete="off" style={ls.input} /></View><View style={{ gap: 7 }}><Text style={ls.label}>我的思考过程</Text><TextInput accessibilityLabel={`第 ${index + 1} 题思考过程`} value={answer.working} onChangeText={value => draft.update(question.id, 'working', value)} editable={!inputLocked} maxLength={3000} multiline placeholder="列式、检验，或者你自己的想法…" placeholderTextColor="#87937D" style={[ls.input, ls.textArea]} /></View>
+    <Card style={{ gap: 17 }}><Badge>{`${knowledgeNames[question.knowledgeId]} · ${question.difficulty}`}</Badge><Text style={ls.question}>{questionStem}</Text><Text style={styles.caption}>当前记录：{helpNames[help]}</Text>{questionChoices.length > 0 ? <View style={{ gap: 9 }}><Text style={ls.label}>选择一个答案</Text>{questionChoices.map(choice => { const selected = answer.value === choice.key; return <Pressable key={choice.key} accessibilityRole="radio" accessibilityState={{ selected }} accessibilityLabel={`选项 ${choice.key}`} disabled={inputLocked} onPress={() => { if (!inputLocked) draft.update(question.id, 'value', choice.key); }} style={({ pressed }) => [ls.input, { flexDirection: 'row', gap: 10, alignItems: 'flex-start' }, selected ? { borderColor: '#23865F', backgroundColor: '#F1F8F3' } : null, pressed && !inputLocked ? { opacity: 0.75 } : null]}><Text style={[ls.label, selected ? { color: '#23865F', fontWeight: '700' } : null]}>{choice.key}</Text><Text style={{ flex: 1, color: '#2F4636', lineHeight: 1.6 }}>{choice.text}</Text></Pressable>; })}</View> : <View style={{ gap: 7 }}><Text style={ls.label}>我的答案{question.unit ? `（${question.unit}）` : ''}</Text><TextInput accessibilityLabel={`第 ${index + 1} 题答案`} value={answer.value} onChangeText={value => draft.update(question.id, 'value', value)} editable={!inputLocked} maxLength={300} placeholder="写下你的答案" placeholderTextColor="#87937D" autoCorrect={false} autoComplete="off" style={ls.input} /></View>}<View style={{ gap: 7 }}><Text style={ls.label}>我的思考过程</Text><TextInput accessibilityLabel={`第 ${index + 1} 题思考过程`} value={answer.working} onChangeText={value => draft.update(question.id, 'working', value)} editable={!inputLocked} maxLength={3000} multiline placeholder="列式、检验，或者你自己的想法…" placeholderTextColor="#87937D" style={[ls.input, ls.textArea]} /></View>
       <Button label="保存草稿，带这道题问小禾" secondary disabled={inputLocked || draft.saving} onPress={() => {
         if (operationRef.current) return;
         operationRef.current = true; setOperation('leave'); setError(''); Keyboard.dismiss();

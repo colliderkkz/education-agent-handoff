@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "bank-math-j-3-angle-c01",
+    "familyId": "math-j-3-angle__fam-016",
+    "version": 1,
+    "text": "两条直线相交于点 O，其中一个角的度数是 70°。下列说法正确的是（　　）。A．与这个角是对顶角的角的度数是 70°　B．与这个角是邻补角的角的度数是 70°　C．与这个角是邻补角的角的度数是 140°　D．与这个角是邻补角的角的度数是 145°",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "对顶角相等，所以与 70° 的角是对顶角的角，度数也是 70°。",
+      "邻补角的两个角互补，和是 180°，所以与 70° 互为邻补角的角应是 180° − 70° = 110°，不是 70°、140° 或 145°。",
+      "答：A。"
+    ],
+    "hint": "先分清「对顶角」与「邻补角」：对顶角相等，邻补角互补。",
+    "alternative": "也可以在纸上画出这两条相交的直线，标出 70° 的角、对顶角的位置和邻补角的位置，再逐条核对四个说法。",
+    "prerequisites": [
+      "math-j-3-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-angle__choice-vertical-versus-adjacent"
+  },
+  {
+    "id": "bank-math-j-3-angle-c02",
+    "familyId": "math-j-3-angle__fam-017",
+    "version": 1,
+    "text": "在 △ABC 中，∠A = 50°，∠B = 65°，点 D 在 BC 的延长线上，∠ACD 与 ∠ACB 互为邻补角。下列说法正确的是（　　）。A．∠ACD 的度数是 50°　B．∠ACD 的度数是 115°　C．∠ACD 的度数是 130°　D．∠ACD 的度数是 65°",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-angle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "在 △ABC 中由内角和定理得 ∠ACB = 180° − 50° − 65° = 65°。",
+      "∠ACD 与 ∠ACB 互为邻补角，所以 ∠ACD = 180° − 65° = 115°；这与外角定理算出的 ∠A + ∠B = 115° 一致。",
+      "答：B。"
+    ],
+    "hint": "外角等于与它不相邻的两个内角之和，用邻补角去求也能算到同一个结果，两条路可以互相验算。",
+    "alternative": "也可以直接用外角定理：∠ACD = ∠A + ∠B = 50° + 65° = 115°，不必先求 ∠ACB。",
+    "prerequisites": [
+      "math-j-3-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-angle__choice-exterior-angle-sum"
+  },
+  {
+    "id": "bank-math-j-3-angle-c03",
+    "familyId": "math-j-3-angle__fam-018",
+    "version": 1,
+    "text": "钟面上 3 点 40 分时，时针与分针所成的较小夹角是（　　）。A．120°　B．135°　C．130°　D．150°",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "钟面上每大格 30°，分针每分钟走 6°，时针每分钟走 0.5°。",
+      "分针在 40 分处转过 40 × 6° = 240°，时针在 3 点 40 分处转过 3 × 30° + 40 × 0.5° = 110°。",
+      "两针所成的较小夹角是 240° − 110° = 130°。答：C。"
+    ],
+    "hint": "时针不是整点位置，要用「整点角度 + 走过分钟数 × 0.5°」来算它的位置。",
+    "alternative": "也可以从 3 点整起算：3 点整时两针的夹角是 90°，此后 40 分钟里分针比时针多转 40 × (6° − 0.5°) = 220°，分针从落后时针 90° 变成超前时针 130°，所以夹角是 130°。",
+    "prerequisites": [
+      "math-j-3-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-angle__choice-clock-hands-340"
+  },
+  {
+    "id": "bank-math-j-3-angle-c04",
+    "familyId": "math-j-3-angle__fam-019",
+    "version": 1,
+    "text": "一个三角形的三个内角分别是 2x°、3x°、4x°。下列说法正确的是（　　）。A．三个内角分别是 36°、54°、72°　B．三个内角分别是 30°、60°、90°　C．三个内角分别是 80°、120°、160°　D．三个内角分别是 40°、60°、80°",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-angle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三角形的内角和是 180°，所以 2x + 3x + 4x = 180°，即 9x = 180°，x = 20°。",
+      "把 x = 20° 代回，三个内角分别是 2 × 20° = 40°、3 × 20° = 60°、4 × 20° = 80°。",
+      "答：D。"
+    ],
+    "hint": "先把系数之和算准，再求出 x，最后把 x 代回去，别把系数弄错。",
+    "alternative": "也可以观察三个角之比是 2 : 3 : 4，9 份对应 180°，一份是 20°，于是三个角是 40°、60°、80°。",
+    "prerequisites": [
+      "math-j-3-angle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-angle__choice-triangle-angle-integer"
+  },
+  {
+    "id": "bank-math-j-3-angle-c05",
+    "familyId": "math-j-3-angle__fam-020",
+    "version": 1,
+    "text": "把一张等腰三角形纸片 ABC 沿 DE 折叠（D 在 AB 上，E 在 AC 上），折痕 DE 经过顶点 A，点 A 落在点 A′ 处。已知 ∠B = ∠C = 70°，则 ∠DAE 的度数是（　　）。A．40°　B．20°　C．70°　D．110°",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-angle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "在 △ABC 中由内角和定理得 ∠BAC = 180° − 70° − 70° = 40°。",
+      "折叠是轴对称变换，折痕两侧的角相等，所以 DE 平分 ∠BAC，∠DAE = 40° ÷ 2 = 20°。",
+      "答：B。"
+    ],
+    "hint": "折痕是折叠前后重合的那条线，它把顶角平分成两个相等的角。",
+    "alternative": "也可以由折叠后 △ADE 与 △A′DE 全等、对应角相等入手，再把这个角与 ∠BAC = 40° 对应起来，同样算出 ∠DAE = 20°。",
+    "prerequisites": [
+      "math-j-3-angle",
+      "math-j-3-transformation"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-angle__choice-folded-isosceles-bisector"
+  },
+  {
+    "id": "bank-math-j-3-parallel-c01",
+    "familyId": "math-j-3-parallel__fam-016",
+    "version": 1,
+    "text": "直线 AB 与直线 CD 被直线 EF 所截，∠1 与 ∠2 是内错角，且 ∠1 = ∠2 = 55°。下列结论正确的是（　　）。A．AB ∥ CD　B．AB ⊥ CD　C．AB 与 CD 相交　D．AB 与 CD 重合",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-parallel",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "∠1 与 ∠2 是直线 EF 截直线 AB、CD 所成的内错角，且 ∠1 = ∠2。",
+      "由「内错角相等，两直线平行」可得 AB ∥ CD。",
+      "答：A。"
+    ],
+    "hint": "先确认这两个角是同位角、内错角还是同旁内角，再套对应的判定定理。",
+    "alternative": "也可以用同旁内角来推：∠1 的邻补角与 ∠2 构成同旁内角且互补，由此同样得到 AB ∥ CD。",
+    "prerequisites": [
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-parallel__choice-equal-interior-parallel"
+  },
+  {
+    "id": "bank-math-j-3-parallel-c02",
+    "familyId": "math-j-3-parallel__fam-017",
+    "version": 1,
+    "text": "直线 a ∥ b，直线 c 与 a、b 都相交，∠1 与 ∠2 是同旁内角。若 ∠1 = 76°，则 ∠2 的度数是（　　）。A．14°　B．76°　C．104°　D．152°",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-parallel",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 a ∥ b，由「两直线平行，同旁内角互补」得 ∠1 + ∠2 = 180°。",
+      "所以 ∠2 = 180° − 76° = 104°。",
+      "答：C。"
+    ],
+    "hint": "同旁内角互补，同位角相等、内错角相等，别把这三组关系搞混。",
+    "alternative": "也可以在 ∠1 的邻补角上作辅助角：它与 ∠2 是同位角所以相等，再由邻补角关系求出 ∠2。",
+    "prerequisites": [
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-parallel__choice-same-side-interior"
+  },
+  {
+    "id": "bank-math-j-3-parallel-c03",
+    "familyId": "math-j-3-parallel__fam-018",
+    "version": 1,
+    "text": "在 △ABC 中，点 D 是 AB 的中点，过点 D 作 DE ∥ BC 交 AC 于点 E。若 AB = 12 厘米，AC = 9 厘米，则 AE 的长度是（　　）。A．6 厘米　B．4.5 厘米　C．9 厘米　D．3 厘米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-parallel",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 DE ∥ BC，所以 △ADE ∽ △ABC，相似比等于 AD ÷ AB。",
+      "D 是 AB 的中点，AD = 12 ÷ 2 = 6 厘米，所以相似比是 6 ÷ 12 = 1 ÷ 2。",
+      "由相似得 AE = AC ÷ 2 = 9 ÷ 2 = 4.5 厘米。答：B。"
+    ],
+    "hint": "先由中点求出 AD，再用「平行线分线段成比例」求 AE，别把 AD 当成 AE。",
+    "alternative": "也可以直接用中位线定理：过 AB 中点作 DE ∥ BC，则 E 是 AC 的中点，于是 AE = AC ÷ 2 = 4.5 厘米。",
+    "prerequisites": [
+      "math-j-3-parallel",
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-parallel__choice-midpoint-parallel-ratio"
+  },
+  {
+    "id": "bank-math-j-3-parallel-c04",
+    "familyId": "math-j-3-parallel__fam-019",
+    "version": 1,
+    "text": "直线 a ∥ b，直线 c 与 a、b 分别交于点 M、N。在点 M 处，直线 c 与 a 所成的内错角是 38°。则点 N 处直线 c 与 b 所成的同旁内角的度数是（　　）。A．38°　B．52°　C．90°　D．142°",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-parallel",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 a ∥ b，所以直线 c 与 a、b 所成的内错角相等，点 N 处的内错角也是 38°。",
+      "在点 N 处，内错角与同旁内角互为邻补角，所以同旁内角 = 180° − 38° = 142°。",
+      "答：D。"
+    ],
+    "hint": "同一个交点处，内错角（以及它的对顶角）与同旁内角互为邻补角。",
+    "alternative": "也可以先由「两直线平行，同旁内角互补」求出点 M 处的同旁内角 180° − 38° = 142°，再由同位角相等得点 N 处的同旁内角也是 142°。",
+    "prerequisites": [
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-parallel__choice-interior-versus-same-side"
+  },
+  {
+    "id": "bank-math-j-3-parallel-c05",
+    "familyId": "math-j-3-parallel__fam-020",
+    "version": 1,
+    "text": "在 △ABC 中，D 是 AB 上一点，E 是 AC 上一点，DE ∥ BC，且 DE = 6 厘米，BC = 9 厘米，△ABC 的周长是 36 厘米。则 △ADE 的周长是（　　）。A．12 厘米　B．24 厘米　C．27 厘米　D．30 厘米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-parallel",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 DE ∥ BC，所以 △ADE ∽ △ABC，相似比等于 DE ÷ BC = 6 ÷ 9 = 2 ÷ 3。",
+      "相似三角形的周长比等于相似比，所以 △ADE 的周长 = 36 × 2 ÷ 3 = 24 厘米。",
+      "答：B。"
+    ],
+    "hint": "周长比等于相似比，不要把面积比的平方用上去。",
+    "alternative": "也可以分别求出三边：AE = AC × 2 ÷ 3，AD = AB × 2 ÷ 3，DE = 6 厘米，把三边加起来，周长缩小为原来的 2 ÷ 3，得 24 厘米。",
+    "prerequisites": [
+      "math-j-3-parallel",
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-parallel__choice-similar-perimeter"
+  },
+  {
+    "id": "bank-math-j-3-triangle-c01",
+    "familyId": "math-j-3-triangle__fam-016",
+    "version": 1,
+    "text": "下列长度的三条线段能组成三角形的是（　　）。A．2 厘米、3 厘米、4 厘米　B．1 厘米、2 厘米、3 厘米　C．4 厘米、5 厘米、9 厘米　D．5 厘米、5 厘米、11 厘米",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-triangle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三条线段能组成三角形，只要其中任意两条边的和大于第三条边。",
+      "A 中 2 + 3 = 5 > 4 成立；B 中 1 + 2 = 3，等于第三条边，不成立；C 中 4 + 5 = 9，也不成立；D 中 5 + 5 = 10 < 11，不成立。",
+      "答：A。"
+    ],
+    "hint": "逐一检查「两短边之和是否大于最长边」，等号时三角形会退化，不能算。",
+    "alternative": "也可以先看最长边那一组是否满足「两短边之和大于最长边」，只有这一组满足时才可能构成三角形。",
+    "prerequisites": [
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-triangle__choice-three-side-inequality",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-triangle-c02",
+    "familyId": "math-j-3-triangle__fam-017",
+    "version": 1,
+    "text": "一个等腰三角形的一个角是 100°。则它的底角是（　　）。A．100°　B．80°　C．40°　D．50°",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-triangle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "等腰三角形的两个底角相等，若 100° 是底角，则两个底角之和是 200°，大于 180°，不可能。",
+      "所以 100° 只能是顶角，两个底角相等，每个底角 = (180° − 100°) ÷ 2 = 40°。",
+      "答：C。"
+    ],
+    "hint": "看到等腰三角形只给了一个角，要先判断这个角是顶角还是底角。",
+    "alternative": "也可以设底角为 x 分类讨论：若 100° 是顶角，则 2x = 80°，得 x = 40°；若 100° 是底角，则 100° + 100° 已超过 180°，舍去。",
+    "prerequisites": [
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-triangle__choice-isosceles-base-angle",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-triangle-c03",
+    "familyId": "math-j-3-triangle__fam-018",
+    "version": 1,
+    "text": "在 △ABC 中，AB = 6 厘米，AC = 10 厘米，BC 是整厘米数。要使 △ABC 能够存在，BC 的长度可以是（　　）。A．3 厘米　B．5 厘米　C．16 厘米　D．17 厘米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-triangle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三角形任意两边之和大于第三边，所以 |10 − 6| < BC < 10 + 6，即 4 < BC < 16。",
+      "逐个检验：A 中 3 < 4，不成立；B 中 4 < 5 < 16，成立；C 中 16 = 16，等号时三边共线，不能构成三角形；D 中 17 > 16，不成立。",
+      "答：B。"
+    ],
+    "hint": "先算出 BC 的取值范围，再看哪个长度落在范围里，注意等号不能取。",
+    "alternative": "也可以直接验证 B：6 + 5 = 11 > 10，6 + 10 = 16 > 5，5 + 10 = 15 > 6，三条都满足，故能构成三角形。",
+    "prerequisites": [
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-triangle__choice-side-value-range",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-triangle-c04",
+    "familyId": "math-j-3-triangle__fam-019",
+    "version": 1,
+    "text": "在 △ABC 中，AD 是 BC 边上的中线，BC = 14 厘米，△ABC 的周长是 46 厘米。则 AB + AC 的长度是（　　）。A．16 厘米　B．23 厘米　C．30 厘米　D．32 厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-triangle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "△ABC 的周长是 AB + AC + BC = 46 厘米。",
+      "所以 AB + AC = 46 − 14 = 32 厘米。",
+      "答：D。"
+    ],
+    "hint": "周长减去底边就是另外两边之和，中点这个条件在这里用不上，别把中线段也算进去。",
+    "alternative": "也可以把周长写成 AB + AC + BD + DC，其中 BD + DC = BC = 14 厘米，于是 AB + AC = 46 − 14 = 32 厘米。",
+    "prerequisites": [
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-triangle__choice-median-perimeter",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-triangle-c05",
+    "familyId": "math-j-3-triangle__fam-020",
+    "version": 1,
+    "text": "在 △ABC 中，AB = AC，BC = 16 厘米，AB = 10 厘米，AD 是 BC 边上的高。则 △ABD 的面积是（　　）。A．24 平方厘米　B．48 平方厘米　C．40 平方厘米　D．30 平方厘米",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-triangle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 AB = AC 且 AD ⊥ BC，所以 AD 也是 BC 边上的中线，BD = 16 ÷ 2 = 8 厘米。",
+      "在 Rt△ABD 中由勾股定理得 AD = √(10² − 8²) = √36 = 6 厘米。",
+      "所以 △ABD 的面积 = 8 × 6 ÷ 2 = 24 平方厘米。答：A。"
+    ],
+    "hint": "等腰三角形的高同时是中线，先求出直角边，再用勾股定理求高。",
+    "alternative": "也可以先求 △ABC 的面积：底 16 厘米、高 6 厘米，得 48 平方厘米，再由 △ABD 与 △ABC 的面积之比等于 BD ÷ BC = 1 ÷ 2，得 △ABD 的面积是 24 平方厘米。",
+    "prerequisites": [
+      "math-j-3-triangle",
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-triangle__choice-isosceles-height-area",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-quadrilateral-c01",
+    "familyId": "math-j-3-quadrilateral__fam-016",
+    "version": 1,
+    "text": "下列说法正确的是（　　）。A．对角线相等的平行四边形是菱形　B．有一个角是直角的平行四边形是菱形　C．平行四边形的对角线互相平分　D．对角线互相垂直的平行四边形是矩形",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-quadrilateral",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "平行四边形的对角线互相平分，这是平行四边形的基本性质，所以 C 正确。",
+      "A 中对角线相等的平行四边形是矩形；B 中有一个角是直角的平行四边形是矩形；D 中对角线互相垂直的平行四边形是菱形。",
+      "答：C。"
+    ],
+    "hint": "把「平行四边形、矩形、菱形、正方形」各自的判定条件列成一张表，再逐条对照。",
+    "alternative": "也可以从对角线入手：对角线互相平分是平行四边形，互相相等是矩形，互相垂直是菱形，既相等又垂直是正方形。",
+    "prerequisites": [
+      "math-j-3-quadrilateral"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-quadrilateral__choice-parallelogram-criteria",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-quadrilateral-c02",
+    "familyId": "math-j-3-quadrilateral__fam-017",
+    "version": 1,
+    "text": "一个平行四边形的两条对角线长分别是 12 厘米和 16 厘米。下列说法正确的是（　　）。A．这个平行四边形是矩形　B．这个平行四边形是菱形　C．这个平行四边形的周长是 56 厘米　D．这个平行四边形的面积是 96 平方厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-quadrilateral",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两条对角线的长度不相等，所以它不是矩形；仅凭对角线不相等也不能断定它是菱形，因此 A、B 都不能选。",
+      "平行四边形的面积等于两条对角线乘积的一半：12 × 16 ÷ 2 = 96 平方厘米，所以 D 正确；周长要由边长决定，题中没有足够的信息，C 不能选。",
+      "答：D。"
+    ],
+    "hint": "对角线乘积的一半就是平行四边形的面积；周长需要边长，光靠对角线算不出来。",
+    "alternative": "也可以把平行四边形补成矩形来算面积：两条对角线分成的四个三角形恰好拼成一个长、宽分别是对角线一半的矩形，面积仍是 12 × 16 ÷ 2 = 96 平方厘米。",
+    "prerequisites": [
+      "math-j-3-quadrilateral"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-quadrilateral__choice-diagonals-area",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-quadrilateral-c03",
+    "familyId": "math-j-3-quadrilateral__fam-018",
+    "version": 1,
+    "text": "一个长方形的菜地长 24 米、宽 16 米。要在菜地中间沿长边方向划出两条宽 1 米的垄沟，把菜地分成三块。则剩下可种植的面积是（　　）。A．360 平方米　B．336 平方米　C．352 平方米　D．304 平方米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-quadrilateral",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "菜地的总面积为 24 × 16 = 384 平方米。",
+      "两条垄沟都与长边平行，每条的面积是 24 × 1 = 24 平方米，一共 24 × 2 = 48 平方米。",
+      "所以可种植的面积是 384 − 48 = 336 平方米。答：B。"
+    ],
+    "hint": "垄沟与长边平行，所以垄沟的长就是菜地的长，别把长和宽搞反。",
+    "alternative": "也可以先算出可种植部分的总宽度 16 − 1 − 1 = 14 米，再乘上长 24 米，得 336 平方米。",
+    "prerequisites": [
+      "math-j-3-quadrilateral"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-quadrilateral__choice-field-furrows",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-quadrilateral-c04",
+    "familyId": "math-j-3-quadrilateral__fam-019",
+    "version": 1,
+    "text": "一个菱形的两条对角线长分别是 12 厘米和 16 厘米。则这个菱形的边长是（　　）。A．10 厘米　B．14 厘米　C．16 厘米　D．28 厘米",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-quadrilateral",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "菱形的对角线互相垂直且互相平分，所以两条对角线的一半分别是 6 厘米和 8 厘米。",
+      "对角线的一半与一条边构成直角三角形，由勾股定理得边长 = √(6² + 8²) = √100 = 10 厘米。",
+      "答：A。"
+    ],
+    "hint": "菱形的对角线互相垂直且互相平分，先取对角线的一半，再用勾股定理。",
+    "alternative": "也可以设半条对角线为 6 厘米和 8 厘米，由勾股定理「两直角边的平方和等于斜边的平方」直接求边长，得 10 厘米。",
+    "prerequisites": [
+      "math-j-3-quadrilateral",
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-quadrilateral__choice-rhombus-side",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-quadrilateral-c05",
+    "familyId": "math-j-3-quadrilateral__fam-020",
+    "version": 1,
+    "text": "在梯形 ABCD 中，AD ∥ BC，AD = 10 厘米，BC = 4 厘米，上底 AD 与下底 BC 之间的距离是 6 厘米。过 AD 的中点 E 作 EF ∥ BC 交 BC 于点 F。则 △DEF 的面积是（　　）。A．30 平方厘米　B．24 平方厘米　C．15 平方厘米　D．12 平方厘米",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-quadrilateral",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 EF ∥ BC 且 E 是 AD 的中点，所以 EF 是梯形的中位线，EF = (10 + 4) ÷ 2 = 7 厘米；DE = AD ÷ 2 = 5 厘米。",
+      "点 F 在 BC 上，BC 与 AD 的距离是 6 厘米，所以 △DEF 以 DE 为底时的高是 6 厘米。",
+      "△DEF 的面积 = 5 × 6 ÷ 2 = 15 平方厘米。答：C。"
+    ],
+    "hint": "△DEF 的底取 DE（它在上底 AD 上），高就是上下底之间的距离 6 厘米。",
+    "alternative": "也可以过点 F 作 FH ⊥ AD 于点 H，则 FH = 6 厘米，△DEF 的面积 = DE × FH ÷ 2 = 5 × 6 ÷ 2 = 15 平方厘米。",
+    "prerequisites": [
+      "math-j-3-quadrilateral"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-quadrilateral__choice-trapezoid-midline",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-circle-c01",
+    "familyId": "math-j-3-circle__fam-016",
+    "version": 1,
+    "text": "下列说法正确的是（　　）。A．半径是连接圆上任意两点的线段　B．直径是圆上任意两点间的最长弦　C．连接圆心与圆上一点的线段叫弦　D．过圆上一点的直线一定是圆的切线",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-circle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "直径是经过圆心的弦，长度是半径的两倍，所以圆上任意两点间最长的线段就是直径，B 正确。",
+      "A 中连接圆上任意两点的线段是弦或直径，不是半径；C 中连接圆心与圆上一点的线段是半径；D 中直线与圆有两个交点时并不是切线。",
+      "答：B。"
+    ],
+    "hint": "把圆的定义性说法一条条对照：弦、直径、半径、切线各有各的准确表述。",
+    "alternative": "也可以从长度关系想：半径是圆心到圆上任一点的距离，弦的两个端点都在圆上，直径是经过圆心的弦，所以它最长。",
+    "prerequisites": [
+      "math-j-3-circle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-circle__choice-circle-terms",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-circle-c02",
+    "familyId": "math-j-3-circle__fam-017",
+    "version": 1,
+    "text": "⊙O 的半径是 13 厘米，弦 AB = 10 厘米，AB 的中点为 M。则 OM 的长度是（　　）。A．13 厘米　B．12 厘米　C．8 厘米　D．5 厘米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-circle",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "圆心到弦的垂线平分这条弦，所以 OM ⊥ AB，且 AM = 10 ÷ 2 = 5 厘米。",
+      "在 Rt△OMA 中由勾股定理得 OM = √(13² − 5²) = √144 = 12 厘米。",
+      "答：B。"
+    ],
+    "hint": "用「垂径定理」：垂线平分弦；再用勾股定理，注意直角边取的是半弦。",
+    "alternative": "也可以在 Rt△OMA 中直接列勾股式：OM² + AM² = OA²，即 OM² = 169 − 25 = 144，解得 OM = 12 厘米。",
+    "prerequisites": [
+      "math-j-3-circle",
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-circle__choice-chord-distance",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-circle-c03",
+    "familyId": "math-j-3-circle__fam-018",
+    "version": 1,
+    "text": "⊙O 的半径是 6 厘米，AB 是 ⊙O 的切线，切点为 A，点 B 在圆外且 OB = 10 厘米。则切线长 AB 的长度是（　　）。A．10 厘米　B．16 厘米　C．4 厘米　D．8 厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-circle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "切线垂直于经过切点的半径，所以 OA ⊥ AB，△OAB 是直角三角形，OA = 6 厘米，OB = 10 厘米。",
+      "由勾股定理得 AB = √(10² − 6²) = √64 = 8 厘米。",
+      "答：D。"
+    ],
+    "hint": "切线与半径垂直，切线长要放在「半径、外心距、切线长」构成的直角三角形里求。",
+    "alternative": "也可以设 AB = x，由直角三角形两直角边的平方和等于斜边的平方：x² + 6² = 10²，解得 x = 8 厘米。",
+    "prerequisites": [
+      "math-j-3-circle",
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-circle__choice-tangent-length",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-circle-c04",
+    "familyId": "math-j-3-circle__fam-019",
+    "version": 1,
+    "text": "一个圆形花坛的直径是 8 米，π 取 3.14。在花坛边缘围一圈围栏，围栏的长度是（　　）。A．25.12 米　B．12.56 米　C．6.28 米　D．50.24 米",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-circle",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "围栏的长度就是花坛的周长，由 C = πd 得 3.14 × 8 = 25.12 米。",
+      "所以围栏的长度是 25.12 米。",
+      "答：A。"
+    ],
+    "hint": "求周长时半径和直径别搞混：C = πr = 2πr = πd。",
+    "alternative": "也可以先由直径求半径 8 ÷ 2 = 4 米，再用 C = 2πr = 2 × 3.14 × 4 = 25.12 米。",
+    "prerequisites": [
+      "math-j-3-circle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-circle__choice-fence-circumference",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-circle-c05",
+    "familyId": "math-j-3-circle__fam-020",
+    "version": 1,
+    "text": "在 △ABC 中，⊙O 是 △ABC 的外接圆，圆心 O 到边 AB 的距离是 6 厘米，AB = 16 厘米。则这个外接圆的半径是（　　）。A．14 厘米　B．8 厘米　C．10 厘米　D．16 厘米",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-circle",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "连接 OA、OB，过 O 作 ON ⊥ AB 于点 N，由垂径定理得 AN = BN = 16 ÷ 2 = 8 厘米。",
+      "在 Rt△ONA 中，ON = 6 厘米，OA 就是圆的半径，由勾股定理得 OA = √(6² + 8²) = √100 = 10 厘米。",
+      "答：C。"
+    ],
+    "hint": "外接圆的圆心到弦的距离与半弦、半径构成直角三角形，与求切线长是同一个模型。",
+    "alternative": "也可以设半径为 r，由圆心到弦的距离 r² − (AB ÷ 2)² = 6²，即 r² = 64 + 36 = 100，解得 r = 10 厘米。",
+    "prerequisites": [
+      "math-j-3-circle",
+      "math-j-3-triangle",
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-circle__choice-circumcircle-radius",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-acute-right-c01",
+    "familyId": "math-j-3-acute-right__fam-016",
+    "version": 1,
+    "text": "在 Rt△ABC 中，∠C = 90°。下列说法正确的是（　　）。A．sin∠A = BC ÷ AB　B．sin∠A = AC ÷ AB　C．cos∠A = BC ÷ AB　D．tan∠A = AB ÷ BC",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-acute-right",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "正弦是对边与斜边的比，∠A 的对边是 BC，斜边是 AB，所以 sin∠A = BC ÷ AB，A 正确。",
+      "B 中 AC ÷ AB 是 cos∠A 的值；C 中 BC ÷ AB 恰恰就是 sin∠A 的值；D 中 AB ÷ BC 是 ∠A 的余切，而 tan∠A = BC ÷ AC。",
+      "答：A。"
+    ],
+    "hint": "先把「对边、邻边、斜边」对着直角三角形标一遍，再写 sin、cos、tan。",
+    "alternative": "也可以用具体数值验证：若 BC = 3、AC = 4、AB = 5，则 sin∠A = 3 ÷ 5，cos∠A = 4 ÷ 5，tan∠A = 3 ÷ 4，对照即可。",
+    "prerequisites": [
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-acute-right__choice-trig-ratio-meaning",
+    "examRef": {
+      "topicKey": "trig-model",
+      "label": "2025 年上海中考数学的人脸识别自动门（情境级，无题号）（官方点评未点名题号）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/08000/20250615/19522.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2025 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-acute-right-c02",
+    "familyId": "math-j-3-acute-right__fam-017",
+    "version": 1,
+    "text": "在 Rt△ABC 中，∠C = 90°，AB = 13 厘米，AC = 12 厘米，BC = 5 厘米。则 sin∠A 的值是（　　）。A．12 ÷ 13　B．5 ÷ 12　C．5 ÷ 13　D．12 ÷ 5",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-acute-right",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "∠A 的对边是 BC，斜边是 AB，所以 sin∠A = BC ÷ AB。",
+      "代入数值得 5 ÷ 13。",
+      "答：C。"
+    ],
+    "hint": "sin∠A 的分母永远是斜边，分子是对边，别把邻边写上去。",
+    "alternative": "也可以先把另外两个比值算出来：cos∠A = 12 ÷ 13，tan∠A = 5 ÷ 12，其中只有 5 ÷ 13 是正弦。",
+    "prerequisites": [
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-acute-right__choice-sine-value",
+    "examRef": {
+      "topicKey": "trig-model",
+      "label": "2025 年上海中考数学的人脸识别自动门（情境级，无题号）（官方点评未点名题号）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/08000/20250615/19522.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2025 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-acute-right-c03",
+    "familyId": "math-j-3-acute-right__fam-018",
+    "version": 1,
+    "text": "一架 5 米长的梯子斜靠在竖直的墙面上，梯子底端离墙 3 米。则梯子顶端离地面的高度是（　　）。A．5 米　B．4 米　C．3 米　D．6 米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-acute-right",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "梯子、墙面与地面构成直角三角形，梯子是斜边长 5 米，底端离墙 3 米是其中一条直角边。",
+      "由勾股定理得梯子顶端离地面的高度 = √(5² − 3²) = √16 = 4 米。",
+      "答：B。"
+    ],
+    "hint": "梯子顶端到地面的水平距离就等于它离墙的距离，先把直角边找出来再用勾股定理。",
+    "alternative": "也可以先设高为 h，由勾股定理列方程 h² + 3² = 5²，解得 h = 4 米。",
+    "prerequisites": [
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-acute-right__choice-ladder-height",
+    "examRef": {
+      "topicKey": "trig-model",
+      "label": "2025 年上海中考数学的人脸识别自动门（情境级，无题号）（官方点评未点名题号）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/08000/20250615/19522.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2025 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-acute-right-c04",
+    "familyId": "math-j-3-acute-right__fam-019",
+    "version": 1,
+    "text": "在地面一点 P 处测得一座塔顶的仰角为 60°，P 点到塔底的距离是 4 米。则塔高是（　　）。A．4 ÷ √3 米　B．2√3 米　C．4 米　D．4√3 米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-acute-right",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "塔高、地面上的水平距离与视线构成直角三角形，∠P = 60°，水平距离 4 米是邻边，塔高是对边。",
+      "由 tan60° = 塔高 ÷ 4 得塔高 = 4 × √3 米。",
+      "答：D。"
+    ],
+    "hint": "求对边用正切，对边与邻边之比才是正切，别误用正弦或余弦。",
+    "alternative": "也可以用正弦与余弦相除：sin60° = 塔高 ÷ 斜边，cos60° = 4 ÷ 斜边，两式相除同样得到塔高 = 4 × tan60° = 4√3 米。",
+    "prerequisites": [
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-acute-right__choice-tower-tangent",
+    "examRef": {
+      "topicKey": "trig-model",
+      "label": "2025 年上海中考数学的人脸识别自动门（情境级，无题号）（官方点评未点名题号）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/08000/20250615/19522.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2025 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-acute-right-c05",
+    "familyId": "math-j-3-acute-right__fam-020",
+    "version": 1,
+    "text": "在地面点 P 处测得塔顶 T 的仰角为 45°，沿水平方向向塔子走近 10 米到点 Q 再测，仰角变为 60°。则塔高是（　　）。A．5(√3 − 1) 米　B．5(√3 + 1) 米　C．10(√3 + 1) 米　D．5(3 + √3) 米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-acute-right",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设 Q 点到塔底的水平距离为 x 米，则 P 点到塔底的水平距离是 x + 10 米。",
+      "在点 Q 处由 tan60° = 塔高 ÷ x 得塔高 = √3 x；在点 P 处由 tan45° = 塔高 ÷ (x + 10) 得塔高 = x + 10。",
+      "联立得 √3 x = x + 10，即 x(√3 − 1) = 10，所以 x = 5(√3 + 1)，塔高 = √3 x = 5(3 + √3) 米。答：D。"
+    ],
+    "hint": "两处观测要分别列两个直角三角形，把「同一段塔高」当作公共量联立起来。",
+    "alternative": "也可以从点 Q 出发设塔高为 h：Q 到塔底的水平距离是 h ÷ tan60° = h ÷ √3，P 到塔底的距离是 h，两地相距 10 米，即 h − h ÷ √3 = 10，解得 h = 5(3 + √3) 米。",
+    "prerequisites": [
+      "math-j-3-acute-right"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-acute-right__choice-two-observation-tower",
+    "examRef": {
+      "topicKey": "trig-model",
+      "label": "2025 年上海中考数学的人脸识别自动门（情境级，无题号）（官方点评未点名题号）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/08000/20250615/19522.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2025 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-similar-c01",
+    "familyId": "math-j-3-similar__fam-016",
+    "version": 1,
+    "text": "在 △ABC 与 △DEF 中，AB = 3 厘米，DE = 5 厘米，BC = 6 厘米，EF = 10 厘米，AC = 9 厘米，DF = 15 厘米。下列说法正确的是（　　）。A．△ABC ∽ △DEF，相似比是 3 : 5　B．△ABC ∽ △DEF，相似比是 5 : 3　C．△ABC ≌ △DEF　D．这两个三角形不相似",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-similar",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三组对应边的比分别是 AB : DE = 3 : 5，BC : EF = 6 : 10 = 3 : 5，AC : DF = 9 : 15 = 3 : 5。",
+      "三边对应成比例，由「三边成比例的两个三角形相似」得 △ABC ∽ △DEF，相似比是 3 : 5。",
+      "答：A。"
+    ],
+    "hint": "相似比要按「前者比后者」的顺序写，同时先检查三组对应边的比是否都相等。",
+    "alternative": "也可以先算出三组边比的公共值 3 : 5，再用「两边成比例且夹角相等」的判定同样说明两个三角形相似。",
+    "prerequisites": [
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-similar__choice-three-side-proportion",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-similar-c02",
+    "familyId": "math-j-3-similar__fam-017",
+    "version": 1,
+    "text": "△ABC ∽ △DEF，相似比是 2 : 3，AB = 8 厘米，DE = 12 厘米，BC = 10 厘米。则 EF 的长度是（　　）。A．12 厘米　B．15 厘米　C．10 厘米　D．18 厘米",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-similar",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "相似比 2 : 3 指的是 △ABC 与 △DEF 的对应边之比，所以 EF ÷ BC = 3 ÷ 2。",
+      "EF = 10 × 3 ÷ 2 = 15 厘米。",
+      "答：B。"
+    ],
+    "hint": "用相似比时注意哪条边对应哪条边，AB 对 DE、BC 对 EF。",
+    "alternative": "也可以先用 AB 与 DE 求出比例：8 : 12 = 2 : 3，再把这个比例用到 BC 与 EF 上，得 EF = 15 厘米。",
+    "prerequisites": [
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-similar__choice-corresponding-side",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-similar-c03",
+    "familyId": "math-j-3-similar__fam-018",
+    "version": 1,
+    "text": "一个三角形零件按 2 : 1 的比例放大后，与原零件相似。若原零件的面积是 6 平方厘米，则放大后的零件面积是（　　）。A．12 平方厘米　B．3 平方厘米　C．36 平方厘米　D．24 平方厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-similar",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "相似三角形的面积比等于相似比的平方，即 (2 : 1)² = 4 : 1。",
+      "所以放大后的面积是 6 × 4 = 24 平方厘米。",
+      "答：D。"
+    ],
+    "hint": "相似比是长度比，面积比要把它平方，这是最容易错的一步。",
+    "alternative": "也可以先想周长：放大后周长是原来的 2 倍，周长比是 2 : 1，而面积与周长的平方成正比，所以面积是 4 倍，得 24 平方厘米。",
+    "prerequisites": [
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-similar__choice-scale-up-area",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-similar-c04",
+    "familyId": "math-j-3-similar__fam-019",
+    "version": 1,
+    "text": "一个零件按 1 : 4 的比例画在图纸上，图纸上零件的长是 3.5 厘米。零件实际的长度是（　　）。A．1.4 厘米　B．0.875 厘米　C．14 厘米　D．7 厘米",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-similar",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比例尺 1 : 4 表示图上 1 厘米对应实际 4 厘米。",
+      "所以实际长度 = 3.5 × 4 = 14 厘米。",
+      "答：C。"
+    ],
+    "hint": "图纸上的长度乘以比例尺的分母才是实际长度，别把比用反了。",
+    "alternative": "也可以先求实际长度与图纸长度的比：实际是图纸的 4 倍，所以实际长 3.5 × 4 = 14 厘米。",
+    "prerequisites": [
+      "math-j-3-similar",
+      "math-j-3-proportion"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-similar__choice-scale-drawing",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-similar-c05",
+    "familyId": "math-j-3-similar__fam-020",
+    "version": 1,
+    "text": "在梯形 ABCD 中，AD ∥ BC，AD = 6 厘米，BC = 10 厘米，对角线 AC 与 BD 相交于点 O。则 △AOD 与 △COB 的面积比是（　　）。A．3 : 5　B．9 : 25　C．5 : 3　D．6 : 10",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-similar",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 AD ∥ BC，∠ADO = ∠CBO，∠DAO = ∠BCO，所以 △AOD ∽ △COB，相似比等于 AD : BC = 6 : 10 = 3 : 5。",
+      "相似三角形的面积比等于相似比的平方，所以面积比是 (3 : 5)² = 9 : 25。",
+      "答：B。"
+    ],
+    "hint": "梯形中对角线交出来的两个三角形是相似的，先求相似比，再平方得到面积比。",
+    "alternative": "也可以用底与高分别算：两个三角形以 AD、BC 为底时，底之比是 3 : 5，而它们的高之比也是 3 : 5，所以面积比是 3 × 3 : 5 × 5 = 9 : 25。",
+    "prerequisites": [
+      "math-j-3-similar",
+      "math-j-3-quadrilateral",
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-similar__choice-trapezoid-area-ratio",
+    "examRef": {
+      "topicKey": "circle-comprehensive",
+      "label": "2020 年上海中考数学第 25 题的考点：圆综合（圆与相似、勾股结合）",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-proportion-c01",
+    "familyId": "math-j-3-proportion__fam-016",
+    "version": 1,
+    "text": "若 2x : 3 = 4 : 6，则 x 的值是（　　）。A．1　B．2　C．6　D．4",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-proportion",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由比例的基本性质（交叉相乘）得 2x × 6 = 3 × 4。",
+      "解得 12x = 12，x = 1。",
+      "答：A。"
+    ],
+    "hint": "比例的基本性质是「两内项之积等于两外项之积」，交叉相乘后别忘了除。",
+    "alternative": "也可以先算出比例的值：4 : 6 = 2 : 3，所以 2x : 3 = 2 : 3，得 2x = 2，x = 1。",
+    "prerequisites": [
+      "math-j-3-proportion"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-proportion__choice-solve-proportion"
+  },
+  {
+    "id": "bank-math-j-3-proportion-c02",
+    "familyId": "math-j-3-proportion__fam-017",
+    "version": 1,
+    "text": "线段 AB = 12 厘米，点 C 在线段 AB 上，且 AC : CB = 2 : 3。则 AC 的长度是（　　）。A．4 厘米　B．5 厘米　C．4.8 厘米　D．7.2 厘米",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-proportion",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 AC : CB = 2 : 3 化成占全长的比：AC 占 2 ÷ (2 + 3) = 2 ÷ 5，CB 占 3 ÷ 5。",
+      "所以 AC = 12 × 2 ÷ 5 = 4.8 厘米。",
+      "答：C。"
+    ],
+    "hint": "分点问题先求出各段占全长的几分之几，再乘全长。",
+    "alternative": "也可以设 AC = 2k、CB = 3k，则 5k = 12，k = 2.4，于是 AC = 2 × 2.4 = 4.8 厘米。",
+    "prerequisites": [
+      "math-j-3-proportion"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-proportion__choice-segment-split"
+  },
+  {
+    "id": "bank-math-j-3-proportion-c03",
+    "familyId": "math-j-3-proportion__fam-018",
+    "version": 1,
+    "text": "配制一种药水，药粉与水的质量比是 1 : 40。要配制这种药水 820 克，需要水（　　）。A．20 克　B．800 克　C．41 克　D．40 克",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-proportion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "药粉与水的质量比是 1 : 40，总共是 41 份，820 ÷ 41 = 20 克，这是一份的重量。",
+      "水占 40 份，所以水的质量是 20 × 40 = 800 克。",
+      "答：B。"
+    ],
+    "hint": "先求出「一份」是多少克，再按份数去乘，别把 820 直接乘以 40。",
+    "alternative": "也可以用比例式求解：设需要水 x 克，则 1 : 40 = (820 − x) : x，解得 x = 800 克。",
+    "prerequisites": [
+      "math-j-3-proportion"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-proportion__choice-medicine-mixture"
+  },
+  {
+    "id": "bank-math-j-3-proportion-c04",
+    "familyId": "math-j-3-proportion__fam-019",
+    "version": 1,
+    "text": "在 △ABC 中，AD 平分 ∠BAC 交 BC 于点 D，且 AB : AC = 3 : 4。若 BC = 21 厘米，则 BD 的长度是（　　）。A．6 厘米　B．12 厘米　C．7 厘米　D．9 厘米",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-proportion",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由「角平分线分线段成比例」得 BD : DC = AB : AC = 3 : 4。",
+      "BC = 21 厘米共 7 份，BD 占 3 份，所以 BD = 21 × 3 ÷ 7 = 9 厘米。",
+      "答：D。"
+    ],
+    "hint": "角平分线分线段成比例，分到的比例与两条边的比一致，先算出一份是多少厘米。",
+    "alternative": "也可以设 BD = 3k、DC = 4k，则 7k = 21，k = 3，于是 BD = 3 × 3 = 9 厘米。",
+    "prerequisites": [
+      "math-j-3-proportion",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-proportion__choice-angle-bisector-split"
+  },
+  {
+    "id": "bank-math-j-3-proportion-c05",
+    "familyId": "math-j-3-proportion__fam-020",
+    "version": 1,
+    "text": "在 △ABC 中，D 是 BC 上一点，DE ∥ AB 交 AC 于点 E。已知 BD = 3 厘米，DC = 6 厘米，△ABC 的面积是 90 平方厘米。则 △ADE 的面积是（　　）。A．40 平方厘米　B．30 平方厘米　C．20 平方厘米　D．60 平方厘米",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-proportion",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 DE ∥ AB，所以 △CDE ∽ △CBA，相似比等于 CD ÷ CB = 6 ÷ 9 = 2 ÷ 3。",
+      "△CDE 与 △CBA 的面积比是 4 : 9，所以 △CDE 的面积 = 90 × 4 ÷ 9 = 40 平方厘米。",
+      "△ACD 与 △ABC 同高，底之比是 CD : CB = 2 : 3，所以 △ACD 的面积 = 90 × 2 ÷ 3 = 60 平方厘米。于是 △ADE 的面积 = 60 − 40 = 20 平方厘米。答：C。"
+    ],
+    "hint": "DE ∥ AB 把 △ACD 分成两个小三角形，先分别求出它们的面积再相减。",
+    "alternative": "也可以由 CE : CA = 2 : 3 得 AE : EC = 1 : 2，△ADE 与 △CDE 的高相同、底之比是 1 : 2，所以 △ADE 的面积是 40 ÷ 2 = 20 平方厘米。",
+    "prerequisites": [
+      "math-j-3-proportion",
+      "math-j-3-similar",
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-proportion__choice-parallel-area-split"
+  },
+  {
+    "id": "bank-math-j-3-coordinates-c01",
+    "familyId": "math-j-3-coordinates__fam-016",
+    "version": 1,
+    "text": "在平面直角坐标系中，点 P 的坐标是 (−4, 3)。下列说法正确的是（　　）。A．点 P 在第二象限　B．点 P 在第三象限　C．点 P 到 x 轴的距离是 −4　D．点 P 到 y 轴的距离是 3",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-coordinates",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "点 P 的横坐标 −4 < 0、纵坐标 3 > 0，所以点 P 在第二象限，A 正确。",
+      "B 中第三象限要求横、纵坐标都为负；C 中点到 x 轴的距离等于纵坐标的绝对值，是 3；D 中点到 y 轴的距离等于横坐标的绝对值，是 4。",
+      "答：A。"
+    ],
+    "hint": "象限由横、纵坐标的正负决定；点到坐标轴的距离要取绝对值。",
+    "alternative": "也可以回忆四象限的符号规律：第二象限是「横负纵正」，第三象限是「横负纵负」，一看就能分开。",
+    "prerequisites": [
+      "math-j-3-coordinates"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-coordinates__choice-quadrant-distance",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-coordinates-c02",
+    "familyId": "math-j-3-coordinates__fam-017",
+    "version": 1,
+    "text": "在平面直角坐标系中，点 M 的坐标是 (3, −6)。点 M 关于 x 轴对称的点的坐标是（　　）。A．(−3, −6)　B．(3, 6)　C．(−3, 6)　D．(6, −3)",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-coordinates",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "关于 x 轴对称时横坐标不变、纵坐标变相反数，所以对应点是 (3, 6)。",
+      "A 是关于 y 轴对称的结果（横坐标变号），C 是关于原点对称的结果，D 是把横纵坐标互换（关于直线 y = x 对称）的结果。",
+      "答：B。"
+    ],
+    "hint": "关于 x 轴对称只改纵坐标的符号，关于 y 轴对称只改横坐标的符号，别混起来。",
+    "alternative": "也可以画个草图：x 轴以上的点翻到 x 轴以下，横向位置不动，纵向坐标由 −6 变成 6。",
+    "prerequisites": [
+      "math-j-3-coordinates"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-coordinates__choice-axis-symmetry",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-coordinates-c03",
+    "familyId": "math-j-3-coordinates__fam-018",
+    "version": 1,
+    "text": "在平面直角坐标系中，把点 A(−1, 3) 先向右平移 4 个单位长度，再向下平移 5 个单位长度得到点 A′。则点 A′ 的坐标是（　　）。A．(−5, 8)　B．(3, 8)　C．(−3, −2)　D．(3, −2)",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-coordinates",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "向右平移 4 个单位长度，横坐标加 4，得 −1 + 4 = 3；向下平移 5 个单位长度，纵坐标减 5，得 3 − 5 = −2。",
+      "所以点 A′ 的坐标是 (3, −2)。",
+      "答：D。"
+    ],
+    "hint": "平移时「上加下减、右加左减」，两个方向要分别处理，不要混在一起记。",
+    "alternative": "也可以分两步走：先向右平移得 (−1 + 4, 3) = (3, 3)，再向下平移得 (3, 3 − 5) = (3, −2)。",
+    "prerequisites": [
+      "math-j-3-coordinates"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-coordinates__choice-translation",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-coordinates-c04",
+    "familyId": "math-j-3-coordinates__fam-019",
+    "version": 1,
+    "text": "在平面直角坐标系中，点 A(−2, 1)、B(4, 1)、C(4, −3)。则 △ABC 的面积是（　　）。A．18 平方个单位长度　B．9 平方个单位长度　C．12 平方个单位长度　D．6 平方个单位长度",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-coordinates",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "点 A、B 的纵坐标都是 1，所以 AB 平行于 x 轴，AB = 4 − (−2) = 6 个单位长度。",
+      "点 C 的纵坐标是 −3，而 AB 所在直线是 y = 1，所以点 C 到 AB 的距离是 1 − (−3) = 4 个单位长度。",
+      "△ABC 的面积 = 6 × 4 ÷ 2 = 12 平方个单位长度。答：C。"
+    ],
+    "hint": "先找一条平行于坐标轴的边作底，高就是另一个坐标的差。",
+    "alternative": "也可以用外接矩形法：由 x = −2、x = 4、y = −3、y = 1 围成的矩形面积是 6 × 4 = 24，去掉直角三角形（两条直角边分别是 4 和 6）面积 12，剩下 12 平方个单位长度。",
+    "prerequisites": [
+      "math-j-3-coordinates"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-coordinates__choice-triangle-area",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-coordinates-c05",
+    "familyId": "math-j-3-coordinates__fam-020",
+    "version": 1,
+    "text": "在平面直角坐标系中，正方形 ABCD 的顶点是 A(0, 0)、B(6, 0)、C(6, 6)、D(0, 6)。动点 P 从点 A 出发，沿正方形的边按 A→B→C→D 的方向匀速移动。当点 P 第一次与点 C 的距离等于 6 个单位长度时，点 P 的坐标是（　　）。A．(6, 0)　B．(0, 6)　C．(6, 6)　D．(3, 3)",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-coordinates",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "点 C 到直线 AB 的距离是 6 个单位长度，点 C 到直线 AD 的距离也是 6 个单位长度。",
+      "点 P 从 A 向 B 移动时，它到点 C 的距离从 √(6² + 6²) 一直减小，第一次等于 6 时点 P 正好到达点 B。",
+      "点 B 的坐标是 (6, 0)。答：A。"
+    ],
+    "hint": "正方形边长 6，从 A 走到 B 的过程中到 C 的距离单调减小，走到 B 时刚好等于 6。",
+    "alternative": "也可以设点 P 在 AB 上且坐标为 (t, 0)，由 PC = 6 得 (6 − t)² + 36 = 36，解得 t = 6，即 P 与 B 重合，坐标是 (6, 0)。",
+    "prerequisites": [
+      "math-j-3-coordinates",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-coordinates__choice-moving-point-square",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-transformation-c01",
+    "familyId": "math-j-3-transformation__fam-016",
+    "version": 1,
+    "text": "下列说法中正确的是（　　）。A．轴对称变换只改变图形的位置，图形的大小和形状都不变　B．轴对称变换后，对应点到对称轴的距离不相等　C．平移变换会改变图形的形状和大小　D．把图形绕一点旋转 180° 后，图形的大小会改变",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-transformation",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "轴对称变换是一种全等变换，只改变图形的位置和方向，图形的大小和形状保持不变，所以 A 正确。",
+      "B 中对应点到对称轴的距离相等且连线与对称轴垂直；C 中平移不改变图形的形状和大小；D 中旋转也不改变图形的大小。",
+      "答：A。"
+    ],
+    "hint": "平移、旋转、轴对称都是全等变换，只改变位置和方向，不改变形状和大小。",
+    "alternative": "也可以从「对应线段长度不变」来判断：无论平移、旋转还是轴对称，对应线段的长度都相等，图形的大小自然不变。",
+    "prerequisites": [
+      "math-j-3-transformation"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-transformation__choice-transformation-nature",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-transformation-c02",
+    "familyId": "math-j-3-transformation__fam-017",
+    "version": 1,
+    "text": "在 △ABC 和 △DEF 中，AB = DE，∠A = ∠D，∠B = ∠E。下列说法正确的是（　　）。A．△ABC ≌ △DEF，用的是「边边边」　B．△ABC ≌ △DEF，用的是「边边角」　C．△ABC ≌ △DEF，用的是「角角边」　D．△ABC 与 △DEF 不一定全等",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-j-3-transformation",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "已知的 AB = DE 是 ∠A、∠B 的夹边，再加上 ∠A = ∠D、∠B = ∠E，符合「角角边」的判定。",
+      "所以 △ABC ≌ △DEF，C 正确；A 中「边边边」需要三组边相等，B 中「边边角」需要两组边相等，都不符合题设；D 也不成立，因为判定条件已经满足。",
+      "答：C。"
+    ],
+    "hint": "判定全等先看条件：SSS 要三组边，SAS 要两组边和夹角，ASA 或 AAS 要两角和一边。",
+    "alternative": "也可以先用「两角对应相等」证明 △ABC ∽ △DEF，再由 AB = DE 得相似比为 1，从而两个三角形全等。",
+    "prerequisites": [
+      "math-j-3-transformation",
+      "math-j-3-similar"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-3-transformation__choice-aas-congruent",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-transformation-c03",
+    "familyId": "math-j-3-transformation__fam-018",
+    "version": 1,
+    "text": "把长方形纸片 ABCD 沿直线 EF 折叠，使点 C 落在点 C′ 处，E 在 AB 上，F 在 CD 上。已知 ∠CEF = 55°，则 ∠C′EF 的度数是（　　）。A．35°　B．125°　C．110°　D．55°",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-j-3-transformation",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "折叠是轴对称变换，折痕 EF 就是对称轴，所以折痕两侧的角 ∠CEF 与 ∠C′EF 相等。",
+      "所以 ∠C′EF = 55°。",
+      "答：D。"
+    ],
+    "hint": "折叠前后图形关于折痕对称，折痕就是对应点连线的垂直平分线。",
+    "alternative": "也可以由折叠前后 △CEF 与 △C′EF 全等、对应角相等，直接得到 ∠C′EF = ∠CEF = 55°。",
+    "prerequisites": [
+      "math-j-3-transformation"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-transformation__choice-fold-axis-angle",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-transformation-c04",
+    "familyId": "math-j-3-transformation__fam-019",
+    "version": 1,
+    "text": "在 △ABC 中，AB = AC。下列说法中正确的是（　　）。A．BC 是 △ABC 的对称轴　B．过点 A 且平分 ∠BAC 的直线是 △ABC 的对称轴　C．△ABC 的边 AB 上任意一点到顶点 A 和顶点 C 的距离相等　D．△ABC 是轴对称图形，有三条对称轴",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-j-3-transformation",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "等腰三角形 AB = AC 中，底边 BC 的垂直平分线经过顶点 A，它同时也是 ∠BAC 的平分线，是 △ABC 唯一的对称轴。",
+      "A 中 BC 本身不是对称轴；C 中到顶点 A 和顶点 C 等距的点应在 AC 的垂直平分线上，不在 AB 上；D 中等腰三角形只有一条对称轴。",
+      "答：B。"
+    ],
+    "hint": "等腰三角形的对称轴是「顶角平分线、底边中线、底边高」所在的那条直线，三者重合。",
+    "alternative": "也可以把 △ABC 沿这条直线对折，折痕把顶点 A 固定、把 B 与 C 互换，折叠后两部分完全叠上，所以它就是对称轴。",
+    "prerequisites": [
+      "math-j-3-transformation",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-3-transformation__choice-isosceles-axis",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-3-transformation-c05",
+    "familyId": "math-j-3-transformation__fam-020",
+    "version": 1,
+    "text": "已知线段 AB 的中点为 M，点 M 到直线 l 的距离是 3 厘米，点 A 和点 B 在直线 l 的同一侧，点 A 到直线 l 的距离是 5 厘米。则点 B 到直线 l 的距离是（　　）。A．1 厘米　B．8 厘米　C．2 厘米　D．4 厘米",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-j-3-transformation",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "点 M 是 AB 的中点，A、B、M 在直线 l 的同一侧，所以点到 l 的距离沿线段按中点取平均，即 (5 + d) ÷ 2 = 3，其中 d 是点 B 到 l 的距离。",
+      "解得 5 + d = 6，d = 1 厘米。",
+      "答：A。"
+    ],
+    "hint": "同一侧时，点到直线的距离沿着线段是按比例变化的，中点处的距离是两端距离的平均数。",
+    "alternative": "也可以过 A、M、B 分别作 l 的平行线，这三条平行线被 AB 分成的三段对应相等，所以过 B 的那条平行线到 l 的距离是 6 − 5 = 1 厘米。",
+    "prerequisites": [
+      "math-j-3-transformation",
+      "math-j-3-parallel"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-3-transformation__choice-midpoint-distance",
+    "examRef": {
+      "topicKey": "fold-geometry",
+      "label": "2021 年上海中考数学第 14、16、17、21 题的考点：翻折与图形运动",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20210620/15383.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2021 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  }
+]

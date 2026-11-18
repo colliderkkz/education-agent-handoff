@@ -1,0 +1,166 @@
+{
+  "math/math-s-4-conic/ellipse-01": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "points": [[3, 2.4, "P"]]
+  },
+  "math/math-s-4-conic/ellipse-02": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "points": [[5, 0, "P"]]
+  },
+  "math/math-s-4-conic/ellipse-03": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "points": [[0, 3, "A"]]
+  },
+  "math/math-s-4-conic/ellipse-04": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "segments": [[-7, -4.5], [7, 2.5]]
+  },
+  "math/math-s-4-conic/ellipse-05": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "dashed": [[6.25, -4], [6.25, 4]],
+    "points": [[6.25, 0, "M"]]
+  },
+  "math/math-s-4-conic/ellipse-06": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "points": [[3, 2.4, "P"], [0, 3.75, "Q"]],
+    "segments": [[0, 3.75], [8.33, 0]]
+  },
+  "math/math-s-4-conic/hyperbola-01": {
+    "kind": "conic",
+    "shape": "hyperbola",
+    "a": 4,
+    "b": 3,
+    "c": 5,
+    "unit": 24,
+    "points": [[6, 3.35, "P"]]
+  },
+  "math/math-s-4-parameter/ellipse-01": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "segments": [[-6, 3], [6, 9]]
+  },
+  "math/math-s-4-parameter/ellipse-02": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 3,
+    "b": 2,
+    "unit": 26,
+    "segments": [[-1, -3], [2, 3]]
+  },
+  "math/math-s-4-parameter/ellipse-03": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 3,
+    "b": 2,
+    "unit": 26,
+    "segments": [[-3, 1.2], [3, 1.2]]
+  },
+  "math/math-s-4-parameter/hyperbola-01": {
+    "kind": "conic",
+    "shape": "hyperbola",
+    "a": 4,
+    "b": 3,
+    "c": 5,
+    "unit": 24,
+    "segments": [[5, -4.5], [5, 4.5]]
+  },
+  "math/math-s-4-parameter/ellipse-04": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 4,
+    "b": 3,
+    "unit": 24,
+    "points": [[5, 0, "P"]],
+    "segments": [[5, 0], [3.2, 2.4]],
+    "dashed": [[5, 0], [3.2, -2.4]]
+  },
+  "math/math-s-4-parameter/ellipse-05": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 5,
+    "b": 3,
+    "c": 4,
+    "unit": 24,
+    "points": [[3, 2.4, "P"]],
+    "segments": [[0, 3.75], [8.33, 0]]
+  },
+  "math/math-s-4-parameter/ellipse-06": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 2,
+    "b": 1.73,
+    "unit": 30,
+    "segments": [[-4, -3], [4, 1]]
+  },
+  "math/math-s-4-parameter/ellipse-07": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 4,
+    "b": 3,
+    "c": 5,
+    "unit": 24,
+    "points": [[3, 0, "F"]],
+    "segments": [[-4, 0], [4, 0]]
+  },
+  "math/math-s-4-parameter/ellipse-08": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 3,
+    "b": 2,
+    "c": 2.24,
+    "unit": 26,
+    "points": [[2.24, 0, "F"]],
+    "segments": [[-3, 0], [3, 0]]
+  },
+  "math/math-s-4-parameter/ellipse-09": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 4,
+    "b": 2.65,
+    "c": 3,
+    "unit": 24,
+    "points": [[0, 2.65, "P"], [0, -2.65, "Q"]]
+  },
+  "math/math-s-4-parameter/ellipse-10": {
+    "kind": "conic",
+    "shape": "ellipse",
+    "a": 3,
+    "b": 2,
+    "unit": 26,
+    "segments": [[-3, -2], [3, 2]]
+  }
+}
