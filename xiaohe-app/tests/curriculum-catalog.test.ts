@@ -5,7 +5,7 @@ import { curriculumCatalog } from '../lib/curriculum-catalog.ts';
 import { shanghaiCatalog } from '../lib/curriculum-catalog-shanghai.ts';
 import { shanghaiExplanations } from '../lib/curriculum-explanations-shanghai.ts';
 import { allKnowledgeIds, stageOfKnowledge, subjectOfKnowledge } from '../lib/types.ts';
-import { curriculumExercises, groupExercisesByPoint } from '../lib/curriculum-practice.ts';
+import { curriculumExercises, originalExercises, groupExercisesByPoint } from '../lib/curriculum-practice.ts';
 import { curriculumExplanations } from '../lib/curriculum-explanations.ts';
 import { createSeedWorkspace } from '../lib/seed.ts';
 import { catalogKnowledgeIds } from '../lib/types.ts';
@@ -81,4 +81,13 @@ test('textbook source snapshots are official and linked to catalog subjects', ()
     assert.equal(item.url, curriculumCatalog.find(subject => subject.id === item.subject)?.sourceUrl);
     assert.match(item.pageSha256, /^[a-f0-9]{64}$/);
   }
+});
+
+test('each primary knowledge point has exactly one original practice exercise', () => {
+  const points = curriculumCatalog.flatMap(subject => subject.units.flatMap(unit => unit.points.map(point => point.id)));
+  assert.equal(originalExercises.length, 57);
+  assert.deepEqual(originalExercises.map(item => item.pointId).sort(), points.sort());
+  assert.equal(new Set(originalExercises.map(item => item.pointId)).size, 57);
+  for (const item of originalExercises) assert.ok(item.id === item.pointId && item.question && item.reference && !item.source);
+  assert.equal(curriculumExercises.filter(item => item.source).length, 4);
 });

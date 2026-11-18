@@ -48,6 +48,8 @@ export default function HomePage() {
   const [stageId, setStageId] = useState<StageId>("primary");
   const [loading, setLoading] = useState(true);
   const [signedOut, setSignedOut] = useState(false);
+  const [authMode, setAuthMode] = useState<"demo" | "trusted-proxy" | "disabled">("disabled");
+  useEffect(() => { void fetch("/api/auth-mode").then(r => r.json() as Promise<{ mode?: string }>).then(data => { if (data.mode === "demo" || data.mode === "trusted-proxy") setAuthMode(data.mode); }).catch(() => {}); }, []);
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
   const [pending, setPending] = useState(0);
@@ -122,7 +124,7 @@ export default function HomePage() {
     finally { setPending(n => n - 1); }
   }, [mergeState, refresh]);
   if (loading) return <main className="welcome"><div className="brand-mark"><Sprout size={30}/></div><h1>小禾学伴</h1><p className="muted">正在打开你的学习空间…</p><span className="spinner"/></main>;
-  if (!state) return <main className="welcome"><div className="welcome-panel"><div className="brand"><span className="brand-mark"><Sprout/></span><strong>小禾学伴</strong></div><img className="welcome-art" src="/illustrations/xiaohe-companion.png" alt="小禾与学伴一起学习"/><span className="eyebrow">每一次小进步，都值得被看见</span><h1>把今天要学的，<br/>变成刚好适合的练习。</h1><p className="muted">从一道题开始，找到方法，慢慢成长。</p>{signedOut ? <><form action="/demo" method="post"><button className="btn btn-primary" type="submit">免登录进入演示<ArrowRight size={18}/></button></form><p className="muted">演示数据绑定此浏览器，12 小时后会话过期，请勿输入真实个人信息。</p></> : <><p role="alert" className="error-text">{error}</p><button className="btn btn-primary" onClick={() => { setLoading(true); setError(""); void load(); }}>重新连接</button>{currentWorkspaceId() && <a className="btn btn-secondary" href={workspaceUrl("/#view=access", null)}>返回我的空间，查看邀请</a>}</>}<p className="welcome-note">小学四年级 · 上海中考 · 上海高考 · 语文、数学、英语学习空间</p></div></main>;
+  if (!state) return <main className="welcome"><div className="welcome-panel"><div className="brand"><span className="brand-mark"><Sprout/></span><strong>小禾学伴</strong></div><img className="welcome-art" src="/illustrations/xiaohe-companion.png" alt="小禾与学伴一起学习"/><span className="eyebrow">每一次小进步，都值得被看见</span><h1>把今天要学的，<br/>变成刚好适合的练习。</h1><p className="muted">从一道题开始，找到方法，慢慢成长。</p>{signedOut ? <>{authMode === "trusted-proxy" && <a className="btn btn-primary" href={`/signin-with-chatgpt?return_to=${encodeURIComponent(workspaceUrl("/"))}`}>登录，打开学习空间<ArrowRight size={18}/></a>}{authMode === "demo" && <><form action="/demo" method="post"><button className="btn btn-primary" type="submit">免登录进入演示<ArrowRight size={18}/></button></form><p className="muted">演示数据绑定此浏览器，12 小时后会话过期，请勿输入真实个人信息。</p></>}{authMode === "disabled" && <p role="alert">登录服务未配置。</p>}</> : <><p role="alert" className="error-text">{error}</p><button className="btn btn-primary" onClick={() => { setLoading(true); setError(""); void load(); }}>重新连接</button>{currentWorkspaceId() && <a className="btn btn-secondary" href={workspaceUrl("/#view=access", null)}>返回我的空间，查看邀请</a>}</>}<p className="welcome-note">小学四年级 · 上海中考 · 上海高考 · 语文、数学、英语学习空间</p></div></main>;
   const props: AppProps = { state, mutate, navigate, selectedId, evidenceRevision, chatContext, chatEntryError, reload: refresh, busy: pending > 0, curriculumSubjectId, onCurriculumSubjectChange: setCurriculumSubjectId, stageId, onStageChange: changeStage };
   const role = state.access?.role ?? state.actor.role;
   const learningRole = role === "owner" || role === "student";
