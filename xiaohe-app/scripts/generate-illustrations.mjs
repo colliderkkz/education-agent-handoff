@@ -295,7 +295,8 @@ function axes(spec) {
   parts.push(label(width - 20, originY + 18, "x", { fill: INK, size: 13 }));
   parts.push(label(originX + 10, 18, "y", { fill: INK, size: 13 }));
   parts.push(label(originX - 13, originY + 17, "O", { fill: INK, weight: 600, size: 13 }));
-  for (const outline of spec.outline ?? []) {
+  const outlines = spec.outline?.length === 2 && spec.outline.every(point => Array.isArray(point) && point.length === 2) ? [spec.outline.flat()] : spec.outline ?? [];
+  for (const outline of outlines) {
     const [x1, y1, x2, y2] = outline;
     parts.push(`<rect x="${Math.min(originX + x1 * unit, originX + x2 * unit).toFixed(1)}" y="${Math.min(originY - y1 * unit, originY - y2 * unit).toFixed(1)}" width="${(Math.abs(x2 - x1) * unit).toFixed(1)}" height="${(Math.abs(y2 - y1) * unit).toFixed(1)}" fill="none" stroke="${ACCENT}" stroke-width="2.5"/>`);
   }
@@ -639,10 +640,12 @@ function conic(spec) {
     if (point[2]) parts.push(label(px + 10, py - 8, point[2], { fill: INK, weight: 600, size: 12, anchor: "start" }));
   }
   // 直线（割线 / 切线）：坐标用曲线所在的单位制。
-  for (const segment of spec.segments ?? []) {
+  const segments = spec.segments?.length === 2 && spec.segments.every(point => Array.isArray(point) && point.length === 2) ? [spec.segments.flat()] : spec.segments ?? [];
+  for (const segment of segments) {
     parts.push(line(originX + segment[0] * unit, originY - segment[1] * unit, originX + segment[2] * unit, originY - segment[3] * unit, { stroke: ACCENT, width: 2 }));
   }
-  for (const segment of spec.dashed ?? []) {
+  const dashedSegments = spec.dashed?.length === 2 && spec.dashed.every(point => Array.isArray(point) && point.length === 2) ? [spec.dashed.flat()] : spec.dashed ?? [];
+  for (const segment of dashedSegments) {
     parts.push(line(originX + segment[0] * unit, originY - segment[1] * unit, originX + segment[2] * unit, originY - segment[3] * unit, { stroke: MUTED, width: 1.6, dash: "5 4" }));
   }
   return svg(width, height, parts.join(""));
@@ -703,6 +706,7 @@ for (const [key, figure] of Object.entries(spec)) {
   const render = renderers[figure.kind];
   if (!render) throw new Error(`未知的插图类型：${figure.kind}（${key}）`);
   const markup = render(figure);
+  if (/\b(?:NaN|Infinity)\b/.test(markup)) throw new Error(`插图 ${key} 含无效坐标`);
   // 图形内只允许 ASCII 数字与几何符号（° × ÷ − 这类符号字体都有）。
   // 真正的风险是「字母类」字符——中文或其他文字在缺字体的机器上会渲染成方块。
   const stripped = markup.replace(/<\/?svg[^>]*>|<\/?text[^>]*>|font-family="[^"]*"|fill="#[0-9a-fA-F]{6}"|stroke="#[0-9a-fA-F]{6}"/g, "");

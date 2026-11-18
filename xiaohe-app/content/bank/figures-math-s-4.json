@@ -71,7 +71,7 @@
     "b": 3,
     "c": 4,
     "unit": 24,
-    "segments": [[-6, 3], [6, 9]]
+    "segments": [[-6, -0.235383], [-0.2, 5.792154]]
   },
   "math/math-s-4-parameter/ellipse-02": {
     "kind": "conic",
