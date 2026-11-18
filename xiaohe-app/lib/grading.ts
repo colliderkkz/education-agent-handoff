@@ -103,6 +103,32 @@ function alternativeSetMatch(candidate: string, expected: string): boolean {
 function normalize(value: string): string {
   return normalizeTerms(unifyMath(value.normalize("NFKC"))).toLowerCase().replace(/\s+/g, "").replace(/^答[:：]?/, "").replace(/[。.]$/, "").replace(/，/g, ",");
 }
+// Compare a single real interval with equivalent inequalities without guessing
+// algebraic equivalence or discarding open/closed endpoints.
+type Interval = { lower: number; upper: number; lowerClosed: boolean; upperClosed: boolean };
+const intervalNumber = "[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)";
+function parseInterval(text: string): Interval | null {
+  const endpoint = `(?:${intervalNumber}|[+-]?∞)`;
+  const notation = new RegExp(`^([\\(\\[])(${endpoint}),(${endpoint})([\\)\\]])$`).exec(text);
+  const number = (value: string) => value === "∞" || value === "+∞" ? Infinity : value === "-∞" ? -Infinity : Number(value);
+  let result: Interval | null = null;
+  if (notation) result = { lower: number(notation[2]), upper: number(notation[3]), lowerClosed: notation[1] === "[", upperClosed: notation[4] === "]" };
+  if (!result) {
+    const chain = new RegExp(`^(${intervalNumber})(<=|<|>=|>)x(<=|<|>=|>)(${intervalNumber})$`).exec(text);
+    if (chain && chain[2].startsWith("<") && chain[3].startsWith("<")) result = { lower: number(chain[1]), upper: number(chain[4]), lowerClosed: chain[2] === "<=", upperClosed: chain[3] === "<=" };
+    else if (chain && chain[2].startsWith(">") && chain[3].startsWith(">")) result = { lower: number(chain[4]), upper: number(chain[1]), lowerClosed: chain[3] === ">=", upperClosed: chain[2] === ">=" };
+  }
+  if (!result) {
+    const right = new RegExp(`^x(<=|<|>=|>)(${intervalNumber})$`).exec(text);
+    const left = new RegExp(`^(${intervalNumber})(<=|<|>=|>)x$`).exec(text);
+    const op = right?.[1] ?? (left ? ({"<": ">", "<=": ">=", ">": "<", ">=": "<="} as Record<string, string>)[left[2]] : undefined);
+    const bound = right?.[2] ?? left?.[1];
+    if (op && bound) result = op.startsWith(">") ? { lower: number(bound), upper: Infinity, lowerClosed: op === ">=", upperClosed: false } : { lower: -Infinity, upper: number(bound), lowerClosed: false, upperClosed: op === "<=" };
+  }
+  if (!result || result.lower >= result.upper || result.lower === Infinity || result.upper === -Infinity || (result.lower === -Infinity && result.lowerClosed) || (result.upper === Infinity && result.upperClosed)) return null;
+  return result;
+}
+
 const unitAliases: Record<string, string[]> = {
   厘米: ["厘米", "cm"], 米: ["米", "m"], 分米: ["分米", "dm"], 千米: ["千米", "公里", "km"],
   平方厘米: ["平方厘米", "cm2", "cm^2"], 平方米: ["平方米", "m2", "m^2"], 平方分米: ["平方分米", "dm2", "dm^2"],
@@ -256,6 +282,12 @@ export function gradeAnswer(value: string, question: Pick<Question, "answer" | "
   const expectedNumber = toNumber(question.answer) ?? toNumber(expected);
   if (candidateNumber !== null && expectedNumber !== null) return candidateNumber === expectedNumber;
   if (candidate === expected) return true;
+  // Parenthesized pairs can also be coordinates, so require range context.
+  const expectedInterval = /定义域|值域|取值范围|解集|不等式/.test(question.text ?? "") ? parseInterval(expected) : null;
+  if (expectedInterval) {
+    const actual = parseInterval(candidate);
+    return !!actual && actual.lower === expectedInterval.lower && actual.upper === expectedInterval.upper && actual.lowerClosed === expectedInterval.lowerClosed && actual.upperClosed === expectedInterval.upperClosed;
+  }
   // 短文本答案的等价写法：「互相平行」=「平行」，「或」列举换个顺序也算对。
   if (shortAnswerMatch(candidate, expected)) return true;
   if (alternativeSetMatch(candidate, expected)) return true;

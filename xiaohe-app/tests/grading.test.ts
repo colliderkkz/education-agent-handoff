@@ -127,3 +127,19 @@ test("开放题：参考��案有多个要点时，学生要覆盖到足够�
   assert.equal(gradeAnswer("样本不具有代表性", q), false);
   assert.equal(gradeAnswer("样本具有代表性", q), false);
 });
+
+test("single interval and inequality forms agree only with matching bounds and inclusivity", () => {
+  const cases: Array<[string, string[], string[]]> = [
+    ["(3,+∞)", ["x>3", "3<x", "(3,∞)"], ["x>=3", "x<3", "(3,4)", "x>30"]],
+    ["(-3,5]", ["-3<x≤5", "5>=x>-3", "(-3,5]"], ["-3<=x<=5", "-3<x<5", "-5<x<=3", "x<=5"]],
+    ["(-∞,2]", ["x<=2", "2>=x"], ["x<2", "x>=2", "[-∞,2]"]],
+  ];
+  for (const [answer, accepted, rejected] of cases) {
+    for (const value of accepted) assert.equal(gradeAnswer(value, { answer, unit: "", text: "求定义域" }), true, `${value} vs ${answer}`);
+    for (const value of rejected) assert.equal(gradeAnswer(value, { answer, unit: "", text: "求定义域" }), false, `${value} vs ${answer}`);
+  }
+});
+
+test("coordinate pairs are not treated as intervals without range context", () => {
+  assert.equal(gradeAnswer("1<x<3", { answer: "(1,3)", unit: "", text: "顶点坐标是什么？" }), false);
+});
