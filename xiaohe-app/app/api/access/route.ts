@@ -16,6 +16,7 @@ export async function POST(request: Request): Promise<Response> {
   try {
     const user = await getChatGPTUser();
     if (!user) return json({ error: "请先使用 ChatGPT 登录" }, 401);
+    if (user.userId.startsWith("demo_")) return json({ error: "免登录演示不支持邀请或修改成员。" }, 403);
     assertSameOrigin(request);
     const input = JSON.parse(new TextDecoder().decode(await readLimitedBody(request, 10_000)));
     if (!input || typeof input !== "object" || Array.isArray(input)) throw new DomainError("成员请求格式不正确");

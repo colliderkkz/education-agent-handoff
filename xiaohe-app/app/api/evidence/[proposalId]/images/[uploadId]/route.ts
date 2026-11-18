@@ -1,4 +1,4 @@
-import { env } from "cloudflare:workers";
+import { imageStorage, storageConfigured } from "../../../../../../lib/server/image-storage";
 import { eq } from "drizzle-orm";
 import { getChatGPTUser } from "../../../../../chatgpt-auth";
 import { getDb } from "../../../../../../db";
@@ -19,12 +19,12 @@ export async function GET(request: Request, context: { params: Promise<{ proposa
     const missing = () => json({ error: "原稿不存在或无权查看" }, 404);
     if (![proposalId, uploadId].every(id => typeof id === "string" && id.length > 0 && id.length <= 200 && !/[\s/\\\x00-\x1f]/.test(id))) return missing();
     const file = await getDb().select().from(uploadedFiles).where(eq(uploadedFiles.id, uploadId)).get();
-    if (!file || !env.BUCKET || (selectedWorkspace && selectedWorkspace !== file.userId)) return missing();
+    if (!file || !storageConfigured() || (selectedWorkspace && selectedWorkspace !== file.userId)) return missing();
     const access = await resolveAccess(user, file.userId).catch(() => null);
     if (!access || !["owner", "student", "teacher"].includes(access.role)) return missing();
     const state = await readWorkspace(user, access);
     if (!availableReviewImage(state, proposalId, uploadId, user.userId, access.role)) return missing();
-    const object = await env.BUCKET.get(file.objectKey);
+    const object = await imageStorage.get(file.objectKey);
     if (!object) return missing();
     // Recheck after storage I/O: revoked or changed membership cannot use a
     // previously authorized fetch to receive the original image.

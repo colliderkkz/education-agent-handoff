@@ -1,3 +1,4 @@
+import { storageConfigured } from "./image-storage";
 import { and, eq, sql } from "drizzle-orm";
 import { env } from "cloudflare:workers";
 import { getDb } from "../../db";
@@ -39,7 +40,7 @@ export async function readWorkspace(user: ChatGPTUser, requested?: AccessContext
   const accessible = await listAccessibleWorkspaces(user);
   if (!accessible.some(workspace => workspace.id === access.workspaceId && workspace.role === access.role)) throw new DomainError("学习空间授权已发生变化，请刷新后重试", 403);
   state.access = { ...access, workspaces: accessible };
-  state.capabilities = { ocr: false, ai: false, speech: false, storage: Boolean(env.BUCKET) };
+  state.capabilities = { ocr: false, ai: false, speech: false, storage: storageConfigured() };
   return state;
 }
 

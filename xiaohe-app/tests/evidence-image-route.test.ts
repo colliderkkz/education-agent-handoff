@@ -46,7 +46,7 @@ function fixture() {
     BUCKET: { async get(key) { reads++; assert.equal(key, "private/owner-a/image-a"); beforeObject?.(); return objectAvailable ? { body: new Uint8Array([137, 80, 78, 71]) } : null; } },
   };
   const route = loadModule("../app/api/evidence/[proposalId]/images/[uploadId]/route.ts", {
-    "cloudflare:workers": { env },
+    "../../../../../../lib/server/image-storage": { storageConfigured: () => Boolean(env.BUCKET), imageStorage: { get: (key: string) => env.BUCKET!.get(key) } },
     "drizzle-orm": { eq: (_column: unknown, id: string) => { requestedId = id; return id; } },
     "../../../../../chatgpt-auth": { getChatGPTUser: async () => user },
     "../../../../../../db": { getDb: () => ({ select: () => ({ from: () => ({ where: () => ({ get: async () => requestedId === "image-a" ? {

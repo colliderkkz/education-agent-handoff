@@ -1,43 +1,17 @@
-import { headers } from "next/headers";
+import { env } from "cloudflare:workers";
+import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
+import { demoIdentity } from "../lib/demo-identity";
 
-export type ChatGPTUser = {
-  userId: string;
-  displayName: string;
-  email: string;
-  fullName: string | null;
-};
+export type ChatGPTUser = { userId: string; displayName: string; email: string; fullName: string | null };
 
-const USER_ID_HEADER = "oai-authenticated-user-id";
-const USER_EMAIL_HEADER = "oai-authenticated-user-email";
-const USER_FULL_NAME_HEADER = "oai-authenticated-user-full-name";
-const USER_FULL_NAME_ENCODING_HEADER =
-  "oai-authenticated-user-full-name-encoding";
-const PERCENT_ENCODED_UTF8 = "percent-encoded-utf-8";
-const SIGN_IN_PATH = "/signin-with-chatgpt";
-const SIGN_OUT_PATH = "/signout-with-chatgpt";
-const CALLBACK_PATH = "/callback";
-
+// This isolated demo trusts only its own opaque cookie, never visitor headers.
 export async function getChatGPTUser(): Promise<ChatGPTUser | null> {
-  const requestHeaders = await headers();
-  const userId = requestHeaders.get(USER_ID_HEADER);
-  const email = requestHeaders.get(USER_EMAIL_HEADER);
-  if (!userId || !email) return null;
-
-  const encodedFullName = requestHeaders.get(USER_FULL_NAME_HEADER);
-  const fullName =
-    encodedFullName &&
-    requestHeaders.get(USER_FULL_NAME_ENCODING_HEADER) === PERCENT_ENCODED_UTF8
-      ? safeDecodeURIComponent(encodedFullName)
-      : null;
-
-  return {
-    userId,
-    displayName: fullName ?? email,
-    email,
-    fullName,
-  };
+  return demoIdentity((await cookies()).get("__Host-xiaohe_demo")?.value, (env as unknown as { DEMO_SESSION_SECRET: string }).DEMO_SESSION_SECRET);
 }
+const SIGN_IN_PATH = "/";
+const SIGN_OUT_PATH = "/demo";
+const CALLBACK_PATH = "/callback";
 
 export async function requireChatGPTUser(
   returnTo: string,

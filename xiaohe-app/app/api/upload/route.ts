@@ -1,4 +1,4 @@
-import { env } from "cloudflare:workers";
+import { imageStorage, storageConfigured } from "../../../lib/server/image-storage";
 import { and, eq } from "drizzle-orm";
 import { getChatGPTUser } from "../../chatgpt-auth";
 import { getDb } from "../../../db";
@@ -24,7 +24,7 @@ export async function POST(request: Request): Promise<Response> {
     assertSameOrigin(request);
     const access = await resolveAccess(user, requestWorkspaceId(request));
     if (access.role !== "owner" && access.role !== "student") throw new DomainError("当前角色不能上传或查看学习原图", 403);
-    if (!env.BUCKET) throw new DomainError("文件存储暂未配置", 503);
+    if (!storageConfigured()) throw new DomainError("文件存储暂未配置", 503);
     const body = await readLimitedBody(request, 11 * 1024 * 1024);
     let data: FormData;
     try { data = await new Response(body, { headers: { "Content-Type": request.headers.get("content-type") || "" } }).formData(); }
@@ -42,7 +42,7 @@ export async function POST(request: Request): Promise<Response> {
     const objectKey = `private/${encodeURIComponent(access.ownerId)}/${id}`;
     const filename = file.name.replace(/[\u0000-\u001f/\\]/g, "_").slice(0, 150) || "作业图片";
     const now = new Date().toISOString();
-    await env.BUCKET.put(objectKey, bytes, { httpMetadata: { contentType: mediaType }, customMetadata: { owner: access.ownerId, uploadId: id, historyEpoch: String(startedDeletionEpoch) } });
+    await imageStorage.put(objectKey, bytes, mediaType, { owner: access.ownerId, uploadId: id, historyEpoch: String(startedDeletionEpoch) });
     try {
       // Keep this AFTER the awaited PUT. A GC-visible index is proof that this
       // request has finished writing the unique key, preventing late-PUT resurrection.
@@ -64,7 +64,7 @@ export async function POST(request: Request): Promise<Response> {
       if (recovered?.uploads.some(upload => upload.id === id)) return json({ state: projectWorkspace(recovered, access.role), result: { id, message: "图片已保存并核实，请继续逐题核对" } }, 201);
       if (recovered) {
         try {
-          await env.BUCKET.delete(objectKey);
+          await imageStorage.delete(objectKey);
           await getDb().delete(uploadedFiles).where(and(eq(uploadedFiles.id, id), eq(uploadedFiles.userId, access.ownerId)));
         } catch { /* Keep the server key indexed if object cleanup fails; a later history GC can retry it. */ }
       }

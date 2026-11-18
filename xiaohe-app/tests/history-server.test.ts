@@ -34,7 +34,7 @@ function deleted(current = seed()) {
   return domain.applyAction(current, { action: "history.delete.confirm", ...selection, sourceRevision: preview.sourceRevision, digest: preview.digest, requestId: `delete-test-${++serial}` }, context).state;
 }
 const gcModule = load("../lib/server/history-file-gc.ts", {
-  "cloudflare:workers": { env: {} }, "drizzle-orm": {}, "../../db": {}, "../../db/schema": {},
+  "./image-storage": {}, "drizzle-orm": {}, "../../db": {}, "../../db/schema": {},
   "./domain-error": { DomainError: domain.DomainError }, "./store": {}, "./history": history,
 });
 const gc = gcModule.collectHistoryFiles as (ownerId: string, dependencies: HistoryFileGcDependencies) => Promise<WorkspaceState>;
@@ -97,7 +97,7 @@ test("deleted upload aliases remain inaccessible even if a stale registration is
 function imageFixture() {
   let state = seed(), role = "owner", revoked = false, beforeGet: (() => void) | undefined, gets = 0;
   const route = load("../app/api/files/[id]/route.ts", {
-    "cloudflare:workers": { env: { BUCKET: { async get() { gets++; beforeGet?.(); return { body: new Uint8Array([1, 2, 3]) }; } } } },
+    "../../../../lib/server/image-storage": { storageConfigured: () => true, imageStorage: { async get() { gets++; beforeGet?.(); return { body: new Uint8Array([1, 2, 3]) }; } } },
     "drizzle-orm": { eq: () => null }, "../../../chatgpt-auth": { getChatGPTUser: async () => user },
     "../../../../db": { getDb: () => ({ select: () => ({ from: () => ({ where: () => ({ get: async () => ({ id: "photo-one", userId: user.userId, objectKey: "private-key", filename: "图.png", mediaType: "image/png", size: 3 }) }) }) }) }) },
     "../../../../db/schema": { uploadedFiles: {} }, "../../../../lib/server/http": http,
@@ -126,7 +126,7 @@ function uploadFixture() {
   const files = new Map<string, Record<string, unknown>>(), objects = new Set<string>(), metadata = new Map<string, Record<string, string>>();
   const db = { insert: () => ({ values: async (record: Record<string, unknown>) => { if (failInsert) throw new Error("index insert failed"); files.set(String(record.id), record); } }), delete: () => ({ where: async (conditions: { value: string }[]) => { files.delete(conditions[0].value); } }) };
   const route = load("../app/api/upload/route.ts", {
-    "cloudflare:workers": { env: { BUCKET: { async put(key: string, _bytes: unknown, options: { customMetadata: Record<string, string> }) { await beforePut?.(); objects.add(key); metadata.set(key, options.customMetadata); }, async delete(key: string) { if (failDelete) throw new Error("R2 cleanup failed"); objects.delete(key); } } } },
+    "../../../lib/server/image-storage": { storageConfigured: () => true, imageStorage: { async put(key: string, _bytes: unknown, _type: string, customMetadata: Record<string, string>) { await beforePut?.(); objects.add(key); metadata.set(key, customMetadata); }, async delete(key: string) { if (failDelete) throw new Error("storage cleanup failed"); objects.delete(key); } } },
     "drizzle-orm": { eq: (_: unknown, value: string) => ({ value }), and: (...values: unknown[]) => values },
     "../../chatgpt-auth": { getChatGPTUser: async () => user }, "../../../db": { getDb: () => db }, "../../../db/schema": { uploadedFiles: {} },
     "../../../lib/server/store": { readWorkspace: async () => structuredClone(state), changeWorkspace: async (_: unknown, change: (value: WorkspaceState) => ApiResult) => { const result = change(structuredClone(state)); state = result.state; if (unknown) throw new Error("save reply lost"); return result; } },
