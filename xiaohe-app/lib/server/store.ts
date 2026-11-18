@@ -1,6 +1,5 @@
 import { storageConfigured } from "./image-storage";
 import { and, eq, sql } from "drizzle-orm";
-import { env } from "cloudflare:workers";
 import { getDb } from "../../db";
 import { workspaces } from "../../db/schema";
 import { createSeedWorkspace } from "../seed";

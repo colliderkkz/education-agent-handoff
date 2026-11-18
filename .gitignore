@@ -17,3 +17,16 @@ __pycache__/
 .sites-runtime/
 .expo/
 .next/
+
+# Local secrets and acceptance artifacts
+.dev.vars*
+/xiaohe-mobile/.codex-export/
+/acceptance-*-tests.txt
+/current-*.txt
+/final-build.txt
+/closing-lint.txt
+/illustrations-result.txt
+/lint-errors.txt
+/local-explorer-openapi.json
+/web-*-results.txt
+/closing-*-tests.txt

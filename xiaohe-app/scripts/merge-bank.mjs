@@ -46,7 +46,7 @@ for (const { file } of bankFiles) {
 // 库的版本摘要：覆盖题目的全部正文（题面、答案、步骤、提示、配图等），
 // 任何一题改动 —— 哪怕只改了解题步骤 —— 都会改变它。
 const digest = createHash("sha256").update(JSON.stringify(
-  all.map(question => { const { status, ...body } = question; return body; }).sort((a, b) => String(a.id).localeCompare(String(b.id))),
+  all.map(question => Object.fromEntries(Object.entries(question).filter(([key]) => key !== "status"))).sort((a, b) => String(a.id).localeCompare(String(b.id))),
 )).digest("hex");
 
 const manifest = { version: `2026.11.${files.length}`, digest, counts: { ...counts, total: all.length } };
