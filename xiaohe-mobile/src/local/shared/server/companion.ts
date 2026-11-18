@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/companion.ts; SHA-256: dbd32ab818d444cc47b90d7c6a7e569b3da4ebd9ed93afda736dd360c4ea81ac
+// Generated from xiaohe-app/lib/server/companion.ts; SHA-256: a97ecfeb90b55730193538745541f03ab649953af31c29df6180b997a0e91270
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, ChatIntent, ChatMessage, CompanionContext, CompanionDeletePreview, CompanionRequest, CompanionState, CompanionThread, HelpRequest, LearningPreference, Question, Role, UsedLearningPreference, WorkspaceState } from '../types.ts';

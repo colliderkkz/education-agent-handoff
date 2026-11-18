@@ -2,6 +2,17 @@ import type { RecognitionEntry, RecognitionLine, RecognitionCandidate } from '..
 
 export type RecognitionEditor = Pick<RecognitionEntry, 'id' | 'runId' | 'sourceLineIds' | 'originalNumber' | 'stem' | 'answer' | 'working' | 'candidate' | 'checked'>;
 export const uncheckedRecognition = () => ({ stem: false, answer: false, match: false, unit: false });
+/** Suggestions only: preserve OCR order and IDs, and never infer answers. */
+export function suggestRecognitionGroups(lines: readonly RecognitionLine[]): { number: string; lineIds: string[] }[] {
+  const groups: { number: string; lineIds: string[] }[] = [];
+  for (const line of lines) {
+    // Parenthesized numbers often denote subquestions; decimal numbers are not headings.
+    const match = line.text.match(/^\s*(\d{1,3})\s*(?:[、．]|\.(?!\d))\s*(?=\S)/u);
+    if (match) groups.push({ number: match[1], lineIds: [] });
+    if (groups.length) groups[groups.length - 1].lineIds.push(line.id);
+  }
+  return groups;
+}
 export function recognitionEditor(entry: RecognitionEntry): RecognitionEditor {
   return { id: entry.id, runId: entry.runId, sourceLineIds: [...entry.sourceLineIds], originalNumber: entry.originalNumber, stem: entry.stem, answer: entry.answer, working: entry.working, candidate: entry.candidate ? { ...entry.candidate } : null, checked: { ...entry.checked } };
 }

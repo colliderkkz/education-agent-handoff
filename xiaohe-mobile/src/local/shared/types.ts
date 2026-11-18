@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/types.ts; SHA-256: 8901785936f54a7c575c963212e3d32b30f673c7f5e97c051fa60b1fafbf64f6
+// Generated from xiaohe-app/lib/types.ts; SHA-256: a5929cbb5c5ee921d57a453b52bb8e4bf003cc5de40ae220996ebb35eba5d614
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 export type Role = "owner" | "editor" | "reviewer" | "student" | "parent" | "teacher";
 export type HelpLevel = "independent" | "hint" | "explanation" | "unknown";

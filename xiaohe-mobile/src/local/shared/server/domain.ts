@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/domain.ts; SHA-256: f61b43159eaca60dfc479cd9a7f976ee6975a4886fcee047536c0b03612350f3
+// Generated from xiaohe-app/lib/server/domain.ts; SHA-256: 0733c1f00f5ac442482dfb3f4792f3f1dde620e87b9e1c073b499a3477f8a1b3
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, Attempt, Evidence, HelpLevel, KnowledgeId, Paper, PaperReturn, PaperReturnEntry, Question, Role, WorkspaceState } from "../types";
@@ -6,7 +6,7 @@ import type { ApiResult, Attempt, Evidence, HelpLevel, KnowledgeId, Paper, Paper
 import { DomainError } from "./domain-error.ts";
 import { assertActionAllowed } from "./access-policy.ts";
 import { ensureMastery, finishMasterySubmission, masteryAction, startReview } from "./mastery.ts";
-import { ensureContent, exportContentPackage, recordQuestionVersion, rollbackContentBatch } from "./content.ts";
+import { ensureContent, exportContentPackage, recordQuestionVersion, rollbackContentBatch, sha256 } from "./content.ts";
 import { companionAction, createCompanionHelpRequest } from "./companion.ts";
 import { assertHistoryWriteAllowed, historyAction } from "./history.ts";
 import { evidenceAction } from "./evidence.ts";
@@ -463,6 +463,27 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       if (!gradeAnswer(answer, mistake.question)) throw new DomainError("这次订正还不正确，可以先看看提示再试一次。");
       mistake.correctedAnswer = answer; mistake.correctedAt = now;
       result.id = mistake.id; result.message = "订正已保存，原始作答和星级保持不变"; label = "完成错题订正"; break;
+    }
+    case "question.import": {
+      const requestId = string(input.requestId, "导入编号", 150);
+      const source = string(input.source, "图片来源", 300);
+      if (!Array.isArray(input.questions) || !input.questions.length || input.questions.length > 20) throw new DomainError("每次可导入 1 至 20 道题");
+      const texts = input.questions.map(value => string(value, "识别题干", 2000));
+      const prefix = `ocr-${sha256(`${context.userId}:${requestId}`)}-`;
+      const ids = texts.map((_, index) => `${prefix}${index}`);
+      const existing = state.questions.filter(q => q.id.startsWith(prefix));
+      if (existing.length) {
+        const initial = state.content!.versions.filter(v => ids.includes(v.questionId) && v.version === 1);
+        if (existing.length !== texts.length || initial.length !== texts.length || ids.some((qid, index) => !initial.some(v => v.questionId === qid && v.question.text === texts[index] && v.question.source === source))) throw new DomainError("导入编号已用于不同内容，请重新识别。", 409);
+        return { state: current, result: { questionIds: ids, message: `这批 ${ids.length} 道题已导入，请继续校对。` } };
+      }
+      texts.forEach((text, index) => {
+        // These two empty fields are allowed only for OCR drafts; submission
+        // validates them just like every other question, so nothing is guessed.
+        const question: Question = { id: ids[index], familyId: newId(), version: 1, text, answer: "", unit: "", knowledgeId: "" as KnowledgeId, difficulty: "" as Question["difficulty"], source, sourceScope: "", steps: [], hint: "", alternative: "", prerequisites: [], authorId: context.userId, createdAt: now, status: "draft" };
+        state.questions.unshift(question); recordQuestionVersion(state, question);
+      });
+      result.questionIds = ids; result.message = `已导入 ${ids.length} 道待校对草稿，请补齐题目和教学信息。`; label = "导入图片题目草稿"; break;
     }
     case "question.create": {
       const fields = questionFields(input.question);

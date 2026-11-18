@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFileSync } from 'node:fs';
 import { curriculumCatalog } from '../lib/curriculum-catalog.ts';
-import { curriculumExercises } from '../lib/curriculum-practice.ts';
+import { curriculumExercises, groupExercisesByPoint } from '../lib/curriculum-practice.ts';
 import { curriculumExplanations } from '../lib/curriculum-explanations.ts';
 import { createSeedWorkspace } from '../lib/seed.ts';
 
@@ -32,12 +32,18 @@ test('catalog has unique IDs and maps only compatible demo practices into the re
   assert.ok(!curriculumCatalog[1].units.some(unit => /公顷和平方千米|除数是两位数的除法|数学广角——优化/.test(unit.name)));
 });
 
-test('each catalog point has one corresponding original practice question', () => {
+test('practice questions have unique IDs and reference catalog points', () => {
   const points = curriculumCatalog.flatMap(subject => subject.units.flatMap(unit => unit.points.map(point => point.id)));
-  assert.equal(new Set(curriculumExercises.map(item => item.pointId)).size, curriculumExercises.length);
-  assert.deepEqual(curriculumExercises.map(item => item.pointId).sort(), points.sort());
-  for (const exercise of curriculumExercises) assert.ok(exercise.question && exercise.reference);
-  assert.deepEqual(Object.keys(curriculumExplanations).sort(), points);
+  assert.equal(new Set(curriculumExercises.map(item => item.id)).size, curriculumExercises.length);
+  assert.ok(curriculumExercises.every(item => points.includes(item.pointId)));
+  for (const exercise of curriculumExercises) {
+    assert.ok(exercise.id && exercise.question && exercise.reference);
+    if (exercise.image) assert.ok(exercise.image.src && exercise.image.alt);
+  }
+  const first = curriculumExercises[0];
+  const grouped = groupExercisesByPoint([first, { ...first, id: 'second', image: { src: '/example.svg', alt: '示例图' } }]);
+  assert.deepEqual(grouped.get(first.pointId)?.map(item => item.id), [first.id, 'second']);
+  assert.deepEqual(Object.keys(curriculumExplanations).sort(), [...points].sort());
   for (const explanation of Object.values(curriculumExplanations)) assert.ok(explanation.length >= 20);
 });
 

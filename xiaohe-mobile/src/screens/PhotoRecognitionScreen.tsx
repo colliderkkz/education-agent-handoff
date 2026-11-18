@@ -7,7 +7,7 @@ import { errorMessage, LoadingPanel, Notice } from '../components/learning/Learn
 import { useLearning } from '../context/LearningContext';
 import { localPhotoUri } from '../features/local-photo';
 import { getOcrAvailability } from '../features/native-ocr';
-import { candidatePin, newRecognitionEditor, recognitionBody, recognitionEditor, recognitionReady, uncheckedRecognition, type RecognitionEditor } from '../features/recognition-review';
+import { candidatePin, newRecognitionEditor, recognitionBody, recognitionEditor, recognitionReady, suggestRecognitionGroups, uncheckedRecognition, type RecognitionEditor } from '../features/recognition-review';
 import type { RecognitionEntry, RecognitionMatch, RecognitionRun, WorkspaceState } from '../local/types';
 import { colors, styles } from '../theme';
 
@@ -34,6 +34,7 @@ function RecognitionReview({ initialState, uploadId }: { initialState: Workspace
   const entries = state.recognition?.entries.filter(item => item.captureId === capture?.id) || [];
   const [runId, setRunId] = useState('');
   const run = runs.find(item => item.id === runId) || runs[0];
+  const suggestedGroups = run ? suggestRecognitionGroups(run.lines) : [];
   const [lineIds, setLineIds] = useState<string[]>([]);
   const [editor, setEditor] = useState<RecognitionEditor | null>(null);
   const [editorRevision, setEditorRevision] = useState(0);
@@ -153,6 +154,7 @@ function RecognitionReview({ initialState, uploadId }: { initialState: Workspace
       <Card style={s.section}><Text style={styles.sectionTitle}>1 · 选出同一道题的文字行</Text><Text style={styles.caption}>{run.engine === 'mlkit-chinese' ? '设备中文识别' : '系统文字识别'} · {run.lines.length} 行 · 结果尚未核对</Text>
         {runs.length > 1 && runs.map((item, index) => <Button key={item.id} label={`${item.id === run.id ? '正在查看' : '查看'}识别记录 ${runs.length - index}`} secondary disabled={locked || dirty} onPress={() => { setRunId(item.id); setLineIds([]); }} />)}
         {!run.lines.length && <Notice text="没有识别到文字。可以补拍清晰图片，也可以手工建立核对草稿；这不会产生错题或成绩。" />}
+        {suggestedGroups.length > 0 && <View style={s.entry}><Text style={styles.sectionTitle}>按题号建议选行</Text><Text style={styles.caption}>仅根据行首编号分组，可能漏题或包含多余文字。选择后请对照原图增减文字行，再新建草稿。</Text>{suggestedGroups.map((group, index) => <Button key={`${group.number}-${index}`} label={`选择第 ${group.number} 题的 ${group.lineIds.length} 行`} secondary disabled={locked || dirty} onPress={() => setLineIds(group.lineIds)} />)}</View>}
         {run.lines.map((line, index) => <View key={line.id} style={{ gap: 4 }}><Check label={`${index + 1}. ${line.text}`} checked={lineIds.includes(line.id)} disabled={locked || dirty} onPress={() => setLineIds(current => current.includes(line.id) ? current.filter(id => id !== line.id) : [...current, line.id])} /><Text style={styles.caption}>{line.confidence === null ? '该引擎未提供可靠置信度，请对照原图。' : line.confidence < .7 ? '识别把握较低，重点核对数字和单位。' : '识别结果仍需核对。'}</Text></View>)}
         <Button label={lineIds.length ? `用选中的 ${lineIds.length} 行新建一题` : '手工新建一题核对草稿'} disabled={locked || dirty} onPress={() => { void task('draft', async () => { setEditor(newRecognitionEditor(identifier(), run.id, run.lines, lineIds)); editorBase.current = null; setEditorRevision(capture!.revision); setMatches(null); }); }} />
       </Card>

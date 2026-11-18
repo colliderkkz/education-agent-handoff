@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/seed.ts; SHA-256: 8b81a4327f360ab87494c55cdab09e82cb4868a1e8dcb856bfe431a5e2d89d49
+// Generated from xiaohe-app/lib/seed.ts; SHA-256: aa172ff64b27c6ff8c632e5caa0713ee886a1f2baa473d00916f3048765127d9
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import type { Question, KnowledgeId, WorkspaceState, Evidence, Paper, Attempt } from "./types";
 

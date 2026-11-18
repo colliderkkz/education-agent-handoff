@@ -11,7 +11,7 @@ import { EvidenceComparison, evidenceAuthorityNames } from "./evidence-review-wo
 import { firstUnansweredIndex, practiceSection } from "@/lib/student-navigation";
 import type { Answer, EffectiveEvidence, HelpLevel, KnowledgeId, Paper, Profile } from "@/lib/types";
 import { curriculumCatalog } from "@/lib/curriculum-catalog";
-import { exerciseByPoint } from "@/lib/curriculum-practice";
+import { exercisesByPoint } from "@/lib/curriculum-practice";
 import { curriculumExplanations } from "@/lib/curriculum-explanations";
 import "./student-learning.css";
 
@@ -92,21 +92,24 @@ function CurriculumPractice({ selectedId, preferredSubjectId, onSubjectChange, w
   const unit = subject.units.find(item => item.id === unitId) ?? subject.units[0];
   const [pointId, setPointId] = useState(initial?.point.id ?? unit.points[0].id);
   const point = unit.points.find(item => item.id === pointId) ?? unit.points[0];
-  const exercise = exerciseByPoint.get(point.id);
+  const exercises = exercisesByPoint.get(point.id) ?? [];
+  const [selectedExercises, setSelectedExercises] = useState<Record<string, string>>({});
+  const exercise = exercises.find(item => item.id === selectedExercises[point.id]) ?? exercises[0];
   const [revealedPoint, setRevealedPoint] = useState<string | null>(null);
   const [memoryAnswers, setMemoryAnswers] = useState<Record<string, string>>({});
-  const draftKey = `xiaohe:curriculum:${workspaceId ?? "local"}:${actorId}:${point.id}`;
+  const draftKey = `xiaohe:curriculum:${workspaceId ?? "local"}:${actorId}:${point.id}${exercise && exercise.id !== point.id ? `:${encodeURIComponent(exercise.id)}` : ""}`;
   const persistedAnswer = useSyncExternalStore(subscribeCurriculumDraft, () => { try { return window.localStorage.getItem(draftKey) ?? ""; } catch { return ""; } }, () => "");
-  const answer = memoryAnswers[point.id] ?? persistedAnswer;
-  const saveAnswer = (value: string) => { setMemoryAnswers(previous => ({ ...previous, [point.id]: value })); try { window.localStorage.setItem(draftKey, value); window.dispatchEvent(new Event(curriculumDraftEvent)); setStorageFailed(false); } catch { setStorageFailed(true); } };
-  const revealed = revealedPoint === point.id;
+  const answer = memoryAnswers[draftKey] ?? persistedAnswer;
+  const saveAnswer = (value: string) => { setMemoryAnswers(previous => ({ ...previous, [draftKey]: value })); try { window.localStorage.setItem(draftKey, value); window.dispatchEvent(new Event(curriculumDraftEvent)); setStorageFailed(false); } catch { setStorageFailed(true); } };
+  const revealed = revealedPoint === exercise?.id;
   const orderedPoints = subject.units.flatMap(item => item.points.map(p => ({ unitId: item.id, point: p })));
   const next = orderedPoints[orderedPoints.findIndex(item => item.point.id === point.id) + 1];
   const [storageFailed, setStorageFailed] = useState(false);
   return <section className="card learn-curriculum-practice" aria-label="按教材知识点练习">
-    <div className="learn-section-heading"><div><span className="eyebrow">教材知识点练习</span><h2>选一个知识点，做一道对应练习</h2></div><span className="badge">原创自练题</span></div>
+    <div className="learn-section-heading"><div><span className="eyebrow">教材知识点练习</span><h2>选一个知识点，开始对应练习</h2></div><span className="badge">来源题目</span></div>
     <div className="learn-curriculum-picker"><label className="field">科目<select className="select" value={subject.id} onChange={event => { const next = curriculumCatalog.find(item => item.id === event.target.value)!; setSubjectId(next.id); onSubjectChange?.(next.id); setUnitId(next.units[0].id); setPointId(next.units[0].points[0].id); }}>{curriculumCatalog.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">单元<select className="select" value={unit.id} onChange={event => { const next = subject.units.find(item => item.id === event.target.value)!; setUnitId(next.id); setPointId(next.points[0].id); }}>{subject.units.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label><label className="field">知识点<select className="select" value={point.id} onChange={event => setPointId(event.target.value)}>{unit.points.map(item => <option value={item.id} key={item.id}>{item.name}</option>)}</select></label></div>
-    {exercise && <div className="learn-curriculum-question"><span className="eyebrow">{point.name}</span><h3>{exercise.question}</h3><label className="field">我的答案<textarea className="textarea" rows={3} maxLength={1000} value={answer} onChange={event => saveAnswer(event.target.value)} placeholder="先独立想一想，再写下答案" /></label><button className="btn btn-secondary" type="button" onClick={() => setRevealedPoint(revealed ? null : point.id)}>{revealed ? "收起参考解答" : "查看参考解答"}<ChevronDown size={16} /></button>{revealed && <div className="learn-curriculum-reference"><strong>参考解答</strong><p>{exercise.reference}</p></div>}<div className="practice-next"><button className="text-link" onClick={() => navigate("knowledge", point.id)}><BookOpen size={16}/>回看知识点讲解</button>{next ? <button className="btn btn-secondary" onClick={() => { setUnitId(next.unitId); setPointId(next.point.id); setRevealedPoint(null); }}>下一知识点<ArrowRight size={16}/></button> : <span className="muted">已到本科目最后一个知识点</span>}</div><p className="learn-small-note" role="status">{storageFailed ? "浏览器无法保存，当前答案仅保留到离开页面前。" : "答案草稿保存在当前浏览器。"}自练题不计入正式学习报告。</p></div>}
+    {!exercise && <p className="notice" role="status">这个知识点暂时没有可用的来源题目，请选择其他知识点。</p>}
+    {exercise && <div className="learn-curriculum-question">{exercises.length > 1 && <div className="learn-exercise-picker" role="group" aria-label="选择练习题">{exercises.map((item, index) => <button key={item.id} type="button" className={`btn ${exercise.id === item.id ? "btn-primary" : "btn-secondary"}`} aria-pressed={exercise.id === item.id} onClick={() => setSelectedExercises(previous => ({ ...previous, [point.id]: item.id }))}>第 {index + 1} 题</button>)}</div>}<span className="eyebrow">{point.name}</span><h3>{exercise.question}</h3>{exercise.image && <figure className="learn-exercise-image"><img src={exercise.image.src} alt={exercise.image.alt} />{exercise.image.credit && <figcaption>{exercise.image.sourceUrl ? <a href={exercise.image.sourceUrl} target="_blank" rel="noopener noreferrer">{exercise.image.credit}</a> : exercise.image.credit}</figcaption>}</figure>}<label className="field">我的答案<textarea className="textarea" rows={3} maxLength={1000} value={answer} onChange={event => saveAnswer(event.target.value)} placeholder="先独立想一想，再写下答案" /></label><button className="btn btn-secondary" type="button" onClick={() => setRevealedPoint(revealed ? null : exercise.id)}>{revealed ? "收起参考解答" : "查看参考解答"}<ChevronDown size={16} /></button>{revealed && <div className="learn-curriculum-reference"><strong>参考解答</strong><p>{exercise.reference}</p></div>}<div className="practice-next"><button className="text-link" onClick={() => navigate("knowledge", point.id)}><BookOpen size={16}/>回看知识点讲解</button>{next ? <button className="btn btn-secondary" onClick={() => { setUnitId(next.unitId); setPointId(next.point.id); setRevealedPoint(null); }}>下一知识点<ArrowRight size={16}/></button> : <span className="muted">已到本科目最后一个知识点</span>}</div>{exercise.source && <p className="learn-small-note">题目来源：<a href={exercise.source.url} target="_blank" rel="noopener noreferrer">{exercise.source.title}</a> · {exercise.source.license}{exercise.source.adaptation ? ` · ${exercise.source.adaptation}` : ""}</p>}<p className="learn-small-note" role="status">{storageFailed ? "浏览器无法保存，当前答案仅保留到离开页面前。" : "答案草稿保存在当前浏览器。"}自练题不计入正式学习报告。</p></div>}
   </section>;
 }
 function PaperList(props: AppProps) {

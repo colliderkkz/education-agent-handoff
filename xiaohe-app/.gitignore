@@ -1,5 +1,6 @@
 # Dependencies
 /node_modules/
+/public/ocr/
 /.pnp
 .pnp.*
 # Keep authored Yarn tooling if the project adopts Yarn.
@@ -38,20 +39,7 @@ yarn-error.log*
 # Workspace scaffolding and publication archives
 /.agents/
 /.codex/
-# Preserve the explicitly archived historical publication and QA evidence.
-/outputs/*
-!/outputs/xiaohe-release.tar.gz
-!/outputs/xiaohe-access-release.tar.gz
-!/outputs/deployment.json
-!/outputs/access-deployment.json
-!/outputs/qa/
-/outputs/qa/*
-!/outputs/qa/*.log
-!/outputs/qa/*.json
-!/outputs/qa/mobile.png
-!/outputs/qa/content-web/
-/outputs/qa/content-web/*
-!/outputs/qa/content-web/browser-export.json
+/outputs/
 /work/
 
 # OS metadata

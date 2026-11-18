@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/recognition.ts; SHA-256: f0487657d301ebddf608121d247159bf27dca3260ccb058ee8f656f83c5aae0d
+// Generated from xiaohe-app/lib/server/recognition.ts; SHA-256: c7304219bbc49b0fb580951d6ab96f2f043e4c212f958338981d79bcf4f078a7
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, Paper, Question, RecognitionCandidate, RecognitionCapture, RecognitionEntry, RecognitionLine, RecognitionMatch, RecognitionState, Role, WorkspaceState } from '../types.ts';

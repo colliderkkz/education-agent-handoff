@@ -468,3 +468,8 @@
   .learn-unit-nav button { flex: 0 0 auto; width: auto; max-width: 210px; scroll-snap-align: start; }
   .learn-unit-nav button svg { display: none; }
 }
+
+.learn-exercise-picker { display: flex; flex-wrap: wrap; gap: 8px; }
+.learn-exercise-image { margin: 0; }
+.learn-exercise-image img { display: block; max-width: 100%; max-height: 420px; width: auto; height: auto; object-fit: contain; }
+.learn-exercise-image figcaption { margin-top: 6px; font-size: 0.8rem; }

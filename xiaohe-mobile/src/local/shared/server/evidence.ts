@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/evidence.ts; SHA-256: 0fa6628464a431a60d0164210459c1bb7f52c59a79a75c846d52cafd1934bd18
+// Generated from xiaohe-app/lib/server/evidence.ts; SHA-256: 972bdccd65c80d0c63222f2c4f383a23b71b307a2a52ba79af191985f1fffa38
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, Evidence, EvidenceDecision, EvidencePatch, EvidencePreview, EvidenceProposal, EvidenceReviewState, KnowledgeId, Role, WorkspaceState } from "../types.ts";

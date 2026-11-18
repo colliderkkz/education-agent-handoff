@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/access-types.ts; SHA-256: 37f7e5b4fb9b449f4a25bae6ec61ae224fed98883c992f1707d6793297b9b0d2
+// Generated from xiaohe-app/lib/access-types.ts; SHA-256: 9119af4dd45428dc5debb562040daf1bcc492db674be1c1a754fb22cb9c91f34
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import type { Role } from "./types";
 

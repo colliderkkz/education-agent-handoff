@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/history.ts; SHA-256: 2f26b210b395419f6850069a39e5f38a475c37863d446cc9ea9e5c1401bdbe46
+// Generated from xiaohe-app/lib/server/history.ts; SHA-256: 3f04dd57a25012e35972d6839bf76878f9b76980a7e392c54ca864b680188ae2
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, HistoryDeletionOperation, HistoryDeletionPreview, HistoryDeletionSelection, HistoryDeletionState, KnowledgeId, Role, WorkspaceState } from '../types.ts';
