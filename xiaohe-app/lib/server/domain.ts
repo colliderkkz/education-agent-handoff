@@ -469,6 +469,7 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
       const prefix = `ocr-${sha256(`${context.userId}:${requestId}`)}-`;
       const ids = texts.map((_, index) => `${prefix}${index}`);
       const existing = state.questions.filter(q => q.id.startsWith(prefix));
+      if (!existing.length && state.content!.versions.some(v => v.questionId.startsWith(prefix))) throw new DomainError("这批导入记录已有题目被删除，请修改后重新导入。", 409);
       if (existing.length) {
         const initial = state.content!.versions.filter(v => ids.includes(v.questionId) && v.version === 1);
         if (existing.length !== texts.length || initial.length !== texts.length || ids.some((qid, index) => !initial.some(v => v.questionId === qid && v.question.text === texts[index] && v.question.source === source))) throw new DomainError("导入编号已用于不同内容，请重新识别。", 409);
@@ -481,6 +482,13 @@ export function applyAction(current: WorkspaceState, raw: unknown, context: Cont
         state.questions.unshift(question); recordQuestionVersion(state, question);
       });
       result.questionIds = ids; result.message = `已导入 ${ids.length} 道待校对草稿，请补齐题目和教学信息。`; label = "导入图片题目草稿"; break;
+    }
+    case "question.delete": {
+      const q = findQuestion(state, input.id);
+      if (q.status !== "draft") throw new DomainError("只能删除草稿题目", 409);
+      if (state.papers.some(p => p.questions.some(item => item.id === q.id)) || state.content!.batches.some(b => b.changes.some(c => c.questionId === q.id))) throw new DomainError("题目已被试卷或内容批次引用，不能删除", 409);
+      state.questions = state.questions.filter(item => item.id !== q.id);
+      result.id = q.id; result.message = "草稿已删除，历史版本保留"; label = "删除题目草稿"; break;
     }
     case "question.create": {
       const fields = questionFields(input.question);

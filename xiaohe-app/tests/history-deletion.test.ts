@@ -158,3 +158,11 @@ test('deleted review provenance remains exactly bound across multiple deletions 
   assert.equal(state.mastery!.reviewPlans.find(p=>p.id===original.id)!.sourceRevision,original.sourceRevision);
   const badSnapshot=structuredClone(state), op=badSnapshot.historyDeletion!.operations[0]; op.reviewPlanSources[0].sourceRevision=op.appliedRevision; assert.throws(()=>validateHistoryDeletion(badSnapshot),/不能晚于/);
 });
+test('photo-only deletion schedules cleanup without deleting learning records',()=>{
+  const state=submit(); state.uploads.push({id:'photo-only',name:'测试.png',url:'/api/files/photo-only',purpose:'single',status:'pending',createdAt:NOW});
+  const result=remove(state,[],['photo-only']);
+  assert.equal(result.state.uploads.some(x=>x.id==='photo-only'),false);
+  assert.deepEqual(result.state.evidence,state.evidence);
+  assert.equal(result.state.historyDeletion!.fileTasks[0].uploadId,'photo-only');
+  validateHistoryDeletion(JSON.parse(JSON.stringify(result.state)));
+});

@@ -5,9 +5,9 @@ import type { Worker as OcrWorker } from "tesseract.js";
 import { splitOcrQuestions } from "@/lib/ocr-questions";
 import "./image-ocr.css";
 
-type Props = { image: () => Promise<Blob>; onUse?: (text: string) => void; onRecognized?: (text: string, image: Blob) => Promise<string> };
+type Props = { autoStart?: boolean; image: () => Promise<Blob>; onUse?: (text: string) => void; onRecognized?: (text: string, image: Blob) => Promise<string>; onSearch?: (text: string) => void };
 
-export function ImageOcr({ image, onUse, onRecognized }: Props) {
+export function ImageOcr({ image, onUse, onRecognized, onSearch, autoStart = false }: Props) {
   const [running, setRunning] = useState(false);
   const [progress, setProgress] = useState("");
   const [error, setError] = useState("");
@@ -32,8 +32,14 @@ export function ImageOcr({ image, onUse, onRecognized }: Props) {
       if (!blob.size || blob.size > 10 * 1024 * 1024 || !["image/jpeg", "image/png", "image/webp"].includes(blob.type)) throw new Error("请选择 10 MB 以内的 JPG、PNG 或 WebP 图片。");
       const bitmap = await createImageBitmap(blob);
       const pixels = bitmap.width * bitmap.height;
-      bitmap.close();
-      if (pixels > 24000000) throw new Error("图片尺寸过大，请裁切后重新选择。");
+      if (pixels > 24000000) { bitmap.close(); throw new Error("图片尺寸过大，请裁切后重新选择。"); }
+      const scale = Math.min(2, 2400 / Math.max(bitmap.width, bitmap.height));
+      const canvas = document.createElement("canvas");
+      canvas.width = Math.max(1, Math.round(bitmap.width * scale)); canvas.height = Math.max(1, Math.round(bitmap.height * scale));
+      const context = canvas.getContext("2d");
+      if (!context) { bitmap.close(); throw new Error("图片处理失败，请重试。"); }
+      context.fillStyle = "white"; context.fillRect(0, 0, canvas.width, canvas.height);
+      context.filter = "grayscale(1) contrast(1.25)"; context.drawImage(bitmap, 0, 0, canvas.width, canvas.height); bitmap.close();
       const { createWorker } = await import("tesseract.js");
       instance = await createWorker("chi_sim+eng", 1, {
         workerPath: "/ocr/worker.min.js", corePath: "/ocr", langPath: "/ocr", cacheMethod: "none",
@@ -41,17 +47,12 @@ export function ImageOcr({ image, onUse, onRecognized }: Props) {
       });
       worker.current = instance;
       if (!active.current) return;
-      const result = await instance.recognize(blob);
+      const result = await instance.recognize(canvas);
       if (!active.current) return;
       if (result.data.text.length > 30000) throw new Error("识别文字过多，请裁切图片后重试。");
       setText(result.data.text.trim()); setFinished(true);
-      if (onRecognized && result.data.text.trim()) {
-        lastResult.current = { text: result.data.text.trim(), blob };
-        setPendingImport(true);
-        setProgress("识别完成，正在写入题库草稿…");
-        const message = await onRecognized(lastResult.current.text, blob);
-        if (active.current) { setImportStatus(message); lastResult.current = null; setPendingImport(false); }
-      }
+      lastResult.current = { text: result.data.text.trim(), blob };
+      setPendingImport(false);
     } catch (cause) {
       if (active.current) setError(cause instanceof Error ? cause.message : "识别未完成，请重试或手工输入。");
     } finally {
@@ -62,15 +63,20 @@ export function ImageOcr({ image, onUse, onRecognized }: Props) {
     }
   }
 
+  useEffect(() => { if (autoStart) void recognize();
+    // The component is keyed by the selected file; start once for that file.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const groups = splitOcrQuestions(text);
   async function retryImport() {
     if (!onRecognized || !lastResult.current || busy.current) return;
     busy.current = true; setRunning(true); setProgress("正在重试写入题库草稿…"); setError("");
-    try { const message = await onRecognized(lastResult.current.text, lastResult.current.blob); if (active.current) { setImportStatus(message); lastResult.current = null; setPendingImport(false); } }
+    try { const message = await onRecognized(text.trim(), lastResult.current.blob); if (active.current) { setImportStatus(message); setPendingImport(false); } }
     catch (cause) { if (active.current) setError(cause instanceof Error ? cause.message : "写入未完成，请重试。"); }
     finally { busy.current = false; if (active.current) { setRunning(false); setProgress(""); } }
   }
-  return <div className="ocr-review"><button type="button" className="btn btn-secondary" disabled={running} onClick={() => void recognize()}>{running ? progress : finished ? "重新识别图片" : "识别图片文字"}</button><p className="muted">文字在当前浏览器识别。首次使用需加载识别模型；识别结果可能漏字或看错数字，请对照原图核对。{onRecognized ? "识别后自动保存为待校对题库草稿。" : "识别文字只在本页临时保留，请及时使用或另行保存。"}</p>{importStatus && <p role="status">{importStatus}</p>}{error && <p className="error-text" role="alert">{error}</p>}{onRecognized && pendingImport && !running && <button type="button" className="btn btn-secondary" onClick={() => void retryImport()}>重试保存识别结果</button>}{finished && <><label className="field">识别文字（可修改）<textarea className="textarea" rows={7} value={text} onChange={event => setText(event.target.value)} /></label>{!text.trim() && <p className="muted">没有识别到文字，请换一张清晰图片或手工输入。</p>}{onUse && groups.length > 0 && <><p className="muted">按题号提供以下文字供选择，分组可能不准确，使用后请核对完整题干、公式和单位。</p>{groups.map((group, index) => <div className="ocr-suggestion" key={index}><p>{group}</p><button type="button" className="btn btn-secondary" onClick={() => onUse(group)}>使用这段文字</button></div>)}</>}</>}</div>;
+  return <div className="ocr-review"><button type="button" className="btn btn-secondary" disabled={running} onClick={() => void recognize()}>{running ? progress : finished ? "重新识别图片" : "识别图片文字"}</button><p className="muted">文字在当前浏览器识别。首次使用需加载识别模型；识别结果可能漏字或看错数字，请对照原图核对。{onRecognized ? "校对文字后，可导入题库草稿或查找已有题目。" : "识别文字只在本页临时保留，请及时使用或另行保存。"}</p>{importStatus && <p role="status">{importStatus}</p>}{error && <p className="error-text" role="alert">{error}</p>}{finished && <><label className="field">识别文字（可修改）<textarea className="textarea" rows={7} value={text} onChange={event => { setText(event.target.value); setImportStatus(""); setPendingImport(false); }} /></label>{onRecognized && <div className="ocr-actions"><button type="button" className="btn btn-primary" disabled={running || !text.trim()} onClick={() => { setPendingImport(true); void retryImport(); }}>{pendingImport && error ? "重试导入题目" : "导入题目草稿"}</button>{onSearch && <button type="button" className="btn btn-secondary" disabled={running || !text.trim()} onClick={() => onSearch(text)}>查找题目</button>}</div>}{!text.trim() && <p className="muted">没有识别到文字，请换一张清晰图片或手工输入。</p>}{(onUse || onSearch) && groups.length > 0 && <><p className="muted">按题号提供以下文字供选择，分组可能不准确，使用后请核对完整题干、公式和单位。</p>{groups.map((group, index) => <div className="ocr-suggestion" key={index}><p>{group}</p>{onUse && <button type="button" className="btn btn-secondary" onClick={() => onUse(group)}>使用这段文字</button>}{onSearch && <button type="button" className="btn btn-secondary" onClick={() => onSearch(group)}>查找这道题</button>}</div>)}</>}</>}</div>;
 }
 
 export function OcrImagePreview({ file }: { file: File }) {

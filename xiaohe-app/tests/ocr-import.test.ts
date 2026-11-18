@@ -35,3 +35,13 @@ test('automatic import skips unnumbered page heading and preserves unnumbered si
   assert.deepEqual(ocrImportQuestions('一、计算\n1. 甲\n2. 乙'), ['1. 甲', '2. 乙']);
   assert.deepEqual(ocrImportQuestions('一道没有编号的题'), ['一道没有编号的题']);
 });
+test('draft deletion retains archive and prevents replaying a deleted import', () => {
+  const initial = createSeedWorkspace('owner', '空间', context.now);
+  const imported = applyAction(initial, {...command, questions:['1. 删除测试']}, context);
+  const id = (imported.result?.questionIds as string[])[0];
+  const deleted = applyAction(imported.state, { action:'question.delete', id }, context);
+  assert.equal(deleted.state.questions.some(q => q.id === id), false);
+  validateContentState(deleted.state);
+  assert.throws(() => applyAction(deleted.state, {...command, questions:['1. 删除测试']}, context));
+  assert.throws(() => applyAction(initial, {action:'question.delete', id:initial.questions[0].id}, context));
+});
