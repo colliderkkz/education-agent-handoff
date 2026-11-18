@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/access-policy.ts; SHA-256: e0a83cf7afa2027d7f91cfad347045ea18e486662d86b6b360c8d7f0ababffbd
+// Generated from xiaohe-app/lib/server/access-policy.ts; SHA-256: 88cf396858d6834e69a3ec4fa5ba5a8a3ef77229489491a8a932454e5b955990
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { Answer, AuditEvent, HelpLevel, Question, Role, WorkspaceState } from "../types";
@@ -18,7 +18,7 @@ const studentActions = new Set([
   "recognition.open", "recognition.run.save", "recognition.entry.save", "recognition.match", "recognition.submit",
 ]);
 const roleActions: Partial<Record<Role, Set<string>>> = {
-  editor: new Set(["question.create", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
+  editor: new Set(["question.create", "question.import", "question.update", "question.submit", "rule.create", "rule.update", "rule.preview", "rule.submit", "content.export"]),
   reviewer: new Set(["question.review", "question.publish", "question.disable", "rule.preview", "rule.review", "content.export"]),
   teacher: new Set(["help.receive", "help.reply", "evidence.preview", "evidence.review"]),
 };

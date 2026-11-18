@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/grading.ts; SHA-256: 8122a1c1f7a376f617c190e8fd3771bf134a067fee58a79425e1641314065379
+// Generated from xiaohe-app/lib/grading.ts; SHA-256: a7a2ecc167b562fb6c7ad3daa4777c1411b69cf716b4a984456d3519107c6dff
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import type { Question } from "./types.ts";
 

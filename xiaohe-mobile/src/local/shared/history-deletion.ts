@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/history-deletion.ts; SHA-256: 6c4b350b122dc8918ba342e01c37ea77be88282834d9dd4d01b69923d68a7796
+// Generated from xiaohe-app/lib/history-deletion.ts; SHA-256: b6c025a28a0dbbbcf3036d63846a17ccc6c952d88d2e95c46d0bf53eeef244bd
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import type { DeletedEvidenceDescriptor, HelpLevel, KnowledgeId, WorkspaceState } from './types.ts';
 

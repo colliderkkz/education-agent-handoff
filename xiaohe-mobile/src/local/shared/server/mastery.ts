@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/mastery.ts; SHA-256: f76a4ff182a3fdfea9100ee2c068188bb072c52f82c5cd6433ef485fb6e2e4f5
+// Generated from xiaohe-app/lib/server/mastery.ts; SHA-256: aa619a830d68836ca334a6d1872f81c7e86d028a899dd23f600970bfaafbaba2
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, EffectiveEvidence, Evidence, KnowledgeId, MasteryAssessment, MasteryRule, MasteryState, Paper, ReviewPlan, Role, RuleParameters, WorkspaceState } from "../types.ts";

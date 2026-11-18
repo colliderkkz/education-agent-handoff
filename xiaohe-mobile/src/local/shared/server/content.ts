@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/server/content.ts; SHA-256: 3e46b645cade7eeed849382aa5cf3459fa7761ece11a3ae55e45350e838bda0b
+// Generated from xiaohe-app/lib/server/content.ts; SHA-256: b9251d889f72c2944b9aeb8b57a1ccab1e51063292333234477c98da61dcdba8
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
 import type { ApiResult, ContentBatch, ContentCatalogEntry, ContentPackage, ContentPointer, ContentPreview, ContentState, ContentVersion, Question, QuestionStatus, WorkspaceState } from '../types.ts';
@@ -112,9 +112,10 @@ function validateQuestion(value: unknown, published = false): asserts value is Q
   const q = object(value, '题目'), label = `题目 ${String(q.id ?? '(缺少ID)')}`;
   exactKeys(q, questionKeys, label);
   check(identifier(q.id) && identifier(q.familyId) && positive(q.version), `${label} 的 ID、题族或版本无效`);
-  for (const [key, max, empty] of [['text',2000,false],['answer',300,false],['unit',30,true],['source',300,false],['sourceScope',300,!published],['hint',1000,false],['alternative',2000,true],['authorId',150,false]] as const) check(bounded(q[key], max, empty), `${label} 的 ${key} 缺失或超限`);
-  check(['division','geometry','multiplication'].includes(String(q.knowledgeId)) && ['基础','巩固','挑战'].includes(String(q.difficulty)) && statuses.includes(q.status as QuestionStatus) && date(q.createdAt), `${label} 的课程、难度、状态或时间无效`);
-  for (const key of ['steps','prerequisites']) check(Array.isArray(q[key]) && (q[key] as unknown[]).length <= 20 && (q[key] as unknown[]).every(v => bounded(v,1500)) && (key !== 'steps' || (q[key] as unknown[]).length > 0), `${label} 的 ${key} 无效`);
+  const incomplete = q.status === 'draft' && typeof q.id === 'string' && q.id.startsWith('ocr-');
+  for (const [key, max, empty] of [['text',2000,false],['answer',300,incomplete],['unit',30,true],['source',300,false],['sourceScope',300,!published],['hint',1000,incomplete],['alternative',2000,true],['authorId',150,false]] as const) check(bounded(q[key], max, empty), `${label} 的 ${key} 缺失或超限`);
+  check((['division','geometry','multiplication'].includes(String(q.knowledgeId)) || incomplete && q.knowledgeId === '') && (['基础','巩固','挑战'].includes(String(q.difficulty)) || incomplete && q.difficulty === '') && statuses.includes(q.status as QuestionStatus) && date(q.createdAt), `${label} 的课程、难度、状态或时间无效`);
+  for (const key of ['steps','prerequisites']) check(Array.isArray(q[key]) && (q[key] as unknown[]).length <= 20 && (q[key] as unknown[]).every(v => bounded(v,1500)) && (key !== 'steps' || incomplete || (q[key] as unknown[]).length > 0), `${label} 的 ${key} 无效`);
   check(q.reviewerId === undefined || bounded(q.reviewerId,150), `${label} 的审核标识无效`);
   check(q.reviewNote === undefined || bounded(q.reviewNote,2000,true), `${label} 的审核说明无效`);
   check(q.taskType === undefined && q.contextId === undefined || ['basic','application','transfer'].includes(String(q.taskType)) && bounded(q.contextId,100), `${label} 的任务类型与情境须同时有效`);
