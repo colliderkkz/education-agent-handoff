@@ -21,6 +21,8 @@ export async function GET(request: Request): Promise<Response> {
     if (!["owner", "editor", "reviewer"].includes(access.role)) return json({ error: "当前身份没有查看题库的权限" }, 403);
 
     const url = new URL(request.url);
+    const stage = url.searchParams.get("stage") ?? "";
+    if (stage && !["primary", "junior", "senior"].includes(stage)) return json({ error: "无效的学段" }, 400);
     const subject = url.searchParams.get("subject") ?? "";
     const point = url.searchParams.get("point") ?? "";
     const keyword = url.searchParams.get("q") ?? "";
@@ -28,6 +30,7 @@ export async function GET(request: Request): Promise<Response> {
 
     const bank = loadContentBank();
     let questions = bank.questions;
+    if (stage) questions = questions.filter(q => stageOfKnowledge(q.knowledgeId) === stage);
     if (subject) questions = questions.filter(q => subjectOfKnowledge(q.knowledgeId) === subject);
     if (point) questions = questions.filter(q => q.knowledgeId === point);
     if (keyword.trim()) {

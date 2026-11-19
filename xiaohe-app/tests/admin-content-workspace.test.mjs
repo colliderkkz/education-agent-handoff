@@ -35,7 +35,7 @@ function tsxModule(file) {
   compiled.set(file, url);
   return url;
 }
-const { buildAdminContentPackage, ContentPackagePanel, ContentArchivePanel, ContentVersionDetail, ContentBatchHistory } = await import(tsxModule(path.join(root, "components/admin-workspace.tsx")));
+const { AdminWorkspace, buildAdminContentPackage, ContentPackagePanel, ContentArchivePanel, ContentVersionDetail, ContentBatchHistory } = await import(tsxModule(path.join(root, "components/admin-workspace.tsx")));
 const render = (Component, props) => renderToStaticMarkup(React.createElement(Component, props));
 const metadata = { packageId: "admin-test-package", publisherId: "xiaohe-local-trial", createdAt: "2026-10-26T14:00:00.000Z", withdrawals: [] };
 function fixture() {
@@ -46,6 +46,14 @@ function fixture() {
   state.messages.push({ id: "private-chat", role: "user", text: "PRIVATE_CHAT", createdAt: metadata.createdAt });
   return state;
 }
+
+test("the admin landing page opens the new question bank and shows loading instead of a false zero", () => {
+  const html = render(AdminWorkspace, { state: fixture(), busy: false, mutate: async () => undefined, navigate() {} });
+  assert.match(html, /新增题库/);
+  assert.match(html, /加载中/);
+  assert.match(html, /筛选学段/);
+  assert.doesNotMatch(html, /工作区已发布/);
+});
 function archiveFixture() {
   const state = fixture();
   state.revision = 2;

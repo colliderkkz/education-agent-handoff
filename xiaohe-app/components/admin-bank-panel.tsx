@@ -43,6 +43,7 @@ export function AdminBankPanel() {
   useEffect(() => {
     let active = true;
     const params = new URLSearchParams();
+    if (stage) params.set("stage", stage);
     if (subject) params.set("subject", subject);
     if (point) params.set("point", point);
     if (keyword.trim()) params.set("q", keyword.trim());
@@ -58,7 +59,7 @@ export function AdminBankPanel() {
         setView({ data: null, error: failure instanceof Error ? failure.message : "题库暂时无法读取", loading: false });
       });
     return () => { active = false; };
-  }, [subject, point, keyword, page]);
+  }, [stage, subject, point, keyword, page]);
 
   const { data, error, loading } = view;
 
@@ -84,10 +85,10 @@ export function AdminBankPanel() {
   return (
     <>
       <div className="admin-metrics">
-        <Metric label="静态库题目" value={data?.total ?? 0} detail="仓库内只读题库" icon={Database} accent />
-        <Metric label="小学" value={countSum(data?.counts.primary)} detail="四年级上册" icon={Layers3} />
-        <Metric label="初中" value={countSum(data?.counts.junior)} detail="上海中考考纲" icon={Layers3} />
-        <Metric label="高中" value={countSum(data?.counts.senior)} detail="上海高考考纲" icon={Layers3} />
+        <Metric label={stage || subject || point || keyword.trim() ? "筛选结果" : "新增题库"} value={data ? data.total : loading ? "加载中" : "—"} detail="只读题库，可用于组卷" icon={Database} accent />
+        <Metric label="小学" value={data ? countSum(data.counts.primary) : "—"} detail="四年级上册" icon={Layers3} />
+        <Metric label="初中" value={data ? countSum(data.counts.junior) : "—"} detail="上海中考考纲" icon={Layers3} />
+        <Metric label="高中" value={data ? countSum(data.counts.senior) : "—"} detail="上海高考考纲" icon={Layers3} />
       </div>
 
       <div className="admin-notice admin-notice-warning">

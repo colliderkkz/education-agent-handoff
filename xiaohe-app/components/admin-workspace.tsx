@@ -20,7 +20,7 @@ type AdminSection = "library" | "bank" | "extraction" | "solutions" | "review" |
 type FormDraft = { text: string; answer: string; unit: string; knowledgeId: KnowledgeId | ""; difficulty: Question["difficulty"] | ""; source: string; sourceScope: string; steps: string; hint: string; alternative: string; prerequisites: string; taskType: NonNullable<Question["taskType"]> | ""; contextId: string; image: string };
 const sectionItems = [
   { id: "library", label: "试卷知识库", icon: BookOpen, title: "让每一道题，都有可靠的来源", description: "管理题目、来源与使用范围，让经过审核的好内容进入学习。" },
-  { id: "bank", label: "静态内容库", icon: Database, title: "按教材目录编写的原创题库", description: "浏览仓库内按单元编写的静态题库，查看每个知识点的题目、情境与解题思路。" },
+  { id: "bank", label: "新增题库", icon: Database, title: "按教材目录编写的原创题库", description: "浏览小学、上海初中和高中题目，查看题干、配图、答案与讲解。" },
   { id: "extraction", label: "图片识别与校对", icon: FileCheck2, title: "从原始材料，到结构化题目", description: "核对题干、答案和来源，再交给教研审核。" },
   { id: "solutions", label: "教学解法", icon: FilePenLine, title: "把思考的方法，讲给孩子听", description: "入手角度、分层提示与适龄解法，和题目一起保留版本。" },
   { id: "review", label: "审核与版本", icon: ShieldCheck, title: "认真复核，安心发布", description: "标注与审核由不同人员完成，题目修订号与已生成试卷快照可追溯。" },
@@ -44,7 +44,7 @@ function Empty({ title, description }: { title: string; description: string }) {
 function Metric({ label, value, detail, icon: Icon, accent = false }: { label: string; value: number | string; detail: string; icon: typeof BookOpen; accent?: boolean }) { return <div className={`admin-metric ${accent ? "admin-metric-accent" : ""}`}><div><span>{label}</span><strong>{value}</strong><small>{detail}</small></div><div className="admin-metric-icon"><Icon size={21} strokeWidth={1.6} /></div></div>; }
 
 export function AdminWorkspace({ state, mutate, busy, navigate }: AppProps) {
-  const [section, setSection] = useState<AdminSection>("library");
+  const [section, setSection] = useState<AdminSection>("bank");
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState("all");
   const [knowledge, setKnowledge] = useState("all");
@@ -117,8 +117,8 @@ export function AdminWorkspace({ state, mutate, busy, navigate }: AppProps) {
       {feedback && <div className="admin-feedback" role="status"><Check size={17} /><span>{feedback}</span><button aria-label="关闭提示" onClick={() => setFeedback("")}><X size={16} /></button></div>}
 
       {section === "library" && <>
-        <div className="admin-actions"><button className="btn btn-secondary" onClick={() => moveTo("extraction")}><Upload size={16} />图片识别并导入题目</button></div><div className="admin-metrics"><Metric label="已发布题目" value={counts.published} detail="可用于学生组卷" icon={BookOpen} accent /><Metric label="等待独立审核" value={counts.review} detail="复核后方可发布" icon={ShieldCheck} /><Metric label="编辑中的草稿" value={counts.draft} detail="内容随时保存" icon={FilePenLine} /><Metric label="已通过待发布" value={counts.approved} detail="保留完整审核记录" icon={CheckCheck} /></div>
-        <section className="admin-panel"><div className="admin-panel-heading"><div><h2>题目内容库 <span>{state.questions.length}</span></h2><p>课程、题目、解法，让教学内容井然有序。</p></div><span className="admin-subtle-label"><Database size={14} />工作区 r{state.revision}</span></div>{filters}{questionTable(filtered)}<footer className="admin-table-footer"><span>共 {filtered.length} 条当前题库内容</span><span><ShieldCheck size={13} />仅已发布题目进入学生练习</span></footer></section>
+        <div className="admin-actions"><button className="btn btn-secondary" onClick={() => moveTo("extraction")}><Upload size={16} />图片识别并导入题目</button><button className="btn btn-secondary" onClick={() => moveTo("bank")}><Database size={16} />查看新增题库</button></div><div className="admin-metrics"><Metric label="工作区已发布" value={counts.published} detail="不含新增题库" icon={BookOpen} accent /><Metric label="等待独立审核" value={counts.review} detail="复核后方可发布" icon={ShieldCheck} /><Metric label="编辑中的草稿" value={counts.draft} detail="内容随时保存" icon={FilePenLine} /><Metric label="已通过待发布" value={counts.approved} detail="保留完整审核记录" icon={CheckCheck} /></div>
+        <section className="admin-panel"><div className="admin-panel-heading"><div><h2>工作区题目 <span>{state.questions.length}</span></h2><p>这里管理工作区的录入题和 OCR 草稿；新增题库请点击上方按钮查看。</p></div><span className="admin-subtle-label"><Database size={14} />工作区 r{state.revision}</span></div>{filters}{questionTable(filtered)}<footer className="admin-table-footer"><span>共 {filtered.length} 条工作区题目</span><span><ShieldCheck size={13} />仅已发布的工作区题目进入学生练习</span></footer></section>
         <div className="admin-bottom-note"><Leaf size={17} /><span>好内容，先有好来源。录入时请填写使用范围，演示课程不能替代学校教材授权。</span><button onClick={() => moveTo("extraction")}>了解入库流程<ArrowRight size={14} /></button></div>
       </>}
 
