@@ -57,6 +57,15 @@ function fixture(role = "student", accepted = false) {
   return { state, proposal, q };
 }
 const props = state => ({ state, mutate: async () => undefined, navigate() {}, busy: false });
+
+test("each stage offers a direct question-bank practice entry", () => {
+  const { state } = fixture();
+  for (const [stageId, selectedId] of [["primary", "math-1-place"], ["junior", "math-j-1-real"], ["senior", "math-s-1-function"]]) {
+    const html = render(StudentLearning, { ...props(state), view: "papers", stageId, selectedId });
+    assert.match(html, /从题库练习这个知识点（3 题）/);
+    if (stageId !== "primary") assert.match(html, /当前没有符合筛选条件的单题自练/);
+  }
+});
 function previewFor(state, proposal, outcome = "accept") {
   const before = effectiveEvidence(state)[0];
   return { proposalId: proposal.id, evidenceId: proposal.evidenceId, sourceRevision: state.revision, digest: "bound-preview-digest", outcome, authority: "teacher-verified", before, after: before, report: { attemptId: before.attemptId, beforeCorrect: 0, afterCorrect: 1, beforeIndependent: 0, afterIndependent: 1, invalidatedCount: 0 }, mistake: { beforeActive: true, afterActive: false }, knowledge: [{ knowledgeId: "geometry", beforeStars: null, afterStars: null, reason: "独立新题资格不会因修改帮助标记恢复" }], reviewPlans: [], warnings: ["原帮助曝光保留"] };
