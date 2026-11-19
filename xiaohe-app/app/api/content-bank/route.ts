@@ -24,7 +24,7 @@ export async function GET(request: Request): Promise<Response> {
     const stage = url.searchParams.get("stage") ?? "";
     if (stage && !["primary", "junior", "senior"].includes(stage)) return json({ error: "无效的学段" }, 400);
     const subject = url.searchParams.get("subject") ?? "";
-    const point = url.searchParams.get("point") ?? "";
+    const points = new Set(url.searchParams.getAll("point").filter(Boolean));
     const keyword = url.searchParams.get("q") ?? "";
     const page = Math.max(1, Number(url.searchParams.get("page") ?? 1) || 1);
 
@@ -32,7 +32,7 @@ export async function GET(request: Request): Promise<Response> {
     let questions = bank.questions;
     if (stage) questions = questions.filter(q => stageOfKnowledge(q.knowledgeId) === stage);
     if (subject) questions = questions.filter(q => subjectOfKnowledge(q.knowledgeId) === subject);
-    if (point) questions = questions.filter(q => q.knowledgeId === point);
+    if (points.size) questions = questions.filter(q => points.has(q.knowledgeId));
     if (keyword.trim()) {
       const needle = keyword.trim();
       questions = questions.filter(q => q.text.includes(needle) || q.id.includes(needle) || q.source.includes(needle));

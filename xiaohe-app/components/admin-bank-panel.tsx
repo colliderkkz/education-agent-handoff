@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { AlertTriangle, Database, Layers3, Search } from "lucide-react";
+import { AlertTriangle, ChevronDown, Database, Layers3, Search } from "lucide-react";
 import { curriculumCatalog, type CatalogSubject } from "@/lib/curriculum-catalog";
 import { shanghaiCatalog } from "@/lib/curriculum-catalog-shanghai";
 import { stageNames, type StageId } from "@/lib/types";
@@ -46,7 +46,7 @@ const taskTypeNames: Record<string, string> = { basic: "基础任务", applicati
 export function AdminBankPanel() {
   const [stage, setStage] = useState("");
   const [subject, setSubject] = useState("");
-  const [point, setPoint] = useState("");
+  const [selectedPoints, setSelectedPoints] = useState<string[]>([]);
   const [keyword, setKeyword] = useState("");
   const [page, setPage] = useState(1);
   const [view, setView] = useState<{ data: BankResponse | null; error: string; loading: boolean }>({ data: null, error: "", loading: true });
@@ -56,7 +56,7 @@ export function AdminBankPanel() {
     const params = new URLSearchParams();
     if (stage) params.set("stage", stage);
     if (subject) params.set("subject", subject);
-    if (point) params.set("point", point);
+    for (const point of selectedPoints) params.append("point", point);
     if (keyword.trim()) params.set("q", keyword.trim());
     params.set("page", String(page));
     fetch(`/api/content-bank?${params.toString()}`)
@@ -70,7 +70,7 @@ export function AdminBankPanel() {
         setView({ data: null, error: failure instanceof Error ? failure.message : "题库暂时无法读取", loading: false });
       });
     return () => { active = false; };
-  }, [stage, subject, point, keyword, page]);
+  }, [stage, subject, selectedPoints, keyword, page]);
 
   const { data, error, loading } = view;
 
@@ -97,7 +97,7 @@ export function AdminBankPanel() {
   return (
     <>
       <div className="admin-metrics">
-        <Metric label={stage || subject || point || keyword.trim() ? "筛选结果" : "新增题库"} value={data ? data.total : loading ? "加载中" : "—"} detail="只读题库，可用于组卷" icon={Database} accent />
+        <Metric label={stage || subject || selectedPoints.length || keyword.trim() ? "筛选结果" : "新增题库"} value={data ? data.total : loading ? "加载中" : "—"} detail="只读题库，可用于组卷" icon={Database} accent />
         <Metric label="小学" value={data ? countSum(data.counts.primary) : "—"} detail="四年级上册" icon={Layers3} />
         <Metric label="初中" value={data ? countSum(data.counts.junior) : "—"} detail="上海中考考纲" icon={Layers3} />
         <Metric label="高中" value={data ? countSum(data.counts.senior) : "—"} detail="上海高考考纲" icon={Layers3} />
@@ -109,18 +109,26 @@ export function AdminBankPanel() {
       </div>
 
       <div className="admin-filters">
-        <select className="input" value={stage} onChange={(event) => { const nextStage = event.target.value; setStage(nextStage); setSubject(defaultSubjectForStage(allSubjects, nextStage)); setPoint(""); setPage(1); }} aria-label="筛选学段">
+        <select className="input" value={stage} onChange={(event) => { const nextStage = event.target.value; setStage(nextStage); setSubject(defaultSubjectForStage(allSubjects, nextStage)); setSelectedPoints([]); setPage(1); }} aria-label="筛选学段">
           <option value="">全部学段</option>
           {stageOptions.map(item => <option key={item} value={item}>{stageNames[item as StageId]}</option>)}
         </select>
-        <select className="input" value={subject} onChange={(event) => { setSubject(event.target.value); setPoint(""); setPage(1); }} aria-label="筛选学科">
+        <select className="input" value={subject} onChange={(event) => { setSubject(event.target.value); setSelectedPoints([]); setPage(1); }} aria-label="筛选学科">
           <option value="">全部学科</option>
           {subjectOptions.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}
         </select>
-        <select className="input" value={point} onChange={(event) => { setPoint(event.target.value); setPage(1); }} aria-label="筛选知识点">
-          <option value="">全部知识点</option>
-          {points.map(item => <option key={item.point.id} value={item.point.id}>{item.point.name}</option>)}
-        </select>
+        <details className="admin-point-filter">
+          <summary className="input" aria-label={`筛选知识点，${selectedPoints.length ? `已选 ${selectedPoints.length} 个` : "全部"}`}>
+            <span>{selectedPoints.length ? `已选 ${selectedPoints.length} 个知识点` : "全部知识点"}</span><ChevronDown size={15} aria-hidden="true" />
+          </summary>
+          <div className="admin-point-popover" role="group" aria-label="选择知识点，可多选">
+            <div className="admin-point-filter-heading"><span>选择知识点，可多选</span><button type="button" disabled={!selectedPoints.length} onClick={() => { setSelectedPoints([]); setPage(1); setView({ data: null, error: "", loading: true }); }}>清除</button></div>
+            <div className="admin-point-options">
+              {points.map(item => <label key={item.point.id}><input type="checkbox" checked={selectedPoints.includes(item.point.id)} onChange={(event) => { const checked = event.target.checked; setSelectedPoints(previous => checked ? [...previous, item.point.id] : previous.filter(id => id !== item.point.id)); setPage(1); setView({ data: null, error: "", loading: true }); }} /><span>{item.point.name}</span></label>)}
+              {!points.length && <p>当前没有可选的知识点。</p>}
+            </div>
+          </div>
+        </details>
         <span className="admin-search"><Search size={15} /><input className="input" value={keyword} onChange={(event) => { setKeyword(event.target.value); setPage(1); }} placeholder="搜索题干、题号或来源" aria-label="搜索题库" /></span>
         {data && <span className="admin-footnote">库版本 {data.version} · 摘要 {data.digest.slice(0, 12) || "（空库）"}</span>}
       </div>

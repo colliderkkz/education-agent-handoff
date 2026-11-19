@@ -53,6 +53,8 @@ test("the admin landing page opens the new question bank and shows loading inste
   assert.match(html, /新增题库/);
   assert.match(html, /加载中/);
   assert.match(html, /筛选学段/);
+  assert.match(html, /选择知识点，可多选/);
+  assert.match(html, /type="checkbox"/);
   assert.equal((html.match(/<option value="math">数学<\/option>/g) ?? []).length, 1);
   assert.doesNotMatch(html, /数学（(?:小学|初中|高中)）/);
   assert.doesNotMatch(html, /工作区已发布/);
