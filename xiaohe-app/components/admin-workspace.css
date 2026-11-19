@@ -38,3 +38,7 @@
 .admin-point-options label:hover{background:#f2f8ef}
 .admin-point-options input{width:16px;height:16px;flex-shrink:0;accent-color:#26764e}
 .admin-point-options p{padding:6px;color:#7b8c84;font-size:12px}
+.admin-library-tabs{display:flex;flex-wrap:wrap;gap:0 22px;border-bottom:1px solid #e2ebe2;margin:0 0 22px}
+.admin-library-tabs button{border:0;border-bottom:2px solid transparent;background:none;color:#718675;padding:10px 2px;cursor:pointer;font-size:14px}
+.admin-library-tabs button[aria-pressed="true"]{border-bottom-color:#26764e;color:#26764e;font-weight:600}
+.admin-library-tabs button:focus-visible{outline:2px solid #8aaf72;outline-offset:3px}
