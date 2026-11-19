@@ -20,6 +20,17 @@ type BankResponse = {
 
 /** 学科目录所属学段。小学目录没有 stage 字段。 */
 const stageOfSubject = (subject: CatalogSubject): StageId => subject.stage ?? "primary";
+export function subjectOptionsForStage(subjects: CatalogSubject[], stage: string): Array<{ id: string; name: string }> {
+  const options = new Map<string, { id: string; name: string }>();
+  for (const item of subjects) {
+    if ((!stage || stageOfSubject(item) === stage) && !options.has(item.id)) options.set(item.id, { id: item.id, name: item.name });
+  }
+  return [...options.values()];
+}
+export function defaultSubjectForStage(subjects: CatalogSubject[], stage: string): string {
+  const options = subjectOptionsForStage(subjects, stage);
+  return stage && options.length === 1 ? options[0].id : "";
+}
 const countSum = (counts: Record<string, number> | undefined) =>
   counts ? Object.values(counts).reduce((sum, value) => sum + value, 0) : 0;
 
@@ -73,6 +84,7 @@ export function AdminBankPanel() {
     }
     return [...seen];
   }, [allSubjects]);
+  const subjectOptions = useMemo(() => subjectOptionsForStage(allSubjects, stage), [allSubjects, stage]);
   const visibleSubjects = useMemo(
     () => allSubjects.filter(item => (!stage || stageOfSubject(item) === stage) && (!subject || item.id === subject)),
     [allSubjects, stage, subject],
@@ -97,13 +109,13 @@ export function AdminBankPanel() {
       </div>
 
       <div className="admin-filters">
-        <select className="input" value={stage} onChange={(event) => { setStage(event.target.value); setSubject(""); setPoint(""); setPage(1); }} aria-label="筛选学段">
+        <select className="input" value={stage} onChange={(event) => { const nextStage = event.target.value; setStage(nextStage); setSubject(defaultSubjectForStage(allSubjects, nextStage)); setPoint(""); setPage(1); }} aria-label="筛选学段">
           <option value="">全部学段</option>
           {stageOptions.map(item => <option key={item} value={item}>{stageNames[item as StageId]}</option>)}
         </select>
         <select className="input" value={subject} onChange={(event) => { setSubject(event.target.value); setPoint(""); setPage(1); }} aria-label="筛选学科">
           <option value="">全部学科</option>
-          {visibleSubjects.map(item => <option key={`${stageOfSubject(item)}-${item.id}`} value={item.id}>{item.name}（{stageNames[stageOfSubject(item)]}）</option>)}
+          {subjectOptions.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}
         </select>
         <select className="input" value={point} onChange={(event) => { setPoint(event.target.value); setPage(1); }} aria-label="筛选知识点">
           <option value="">全部知识点</option>

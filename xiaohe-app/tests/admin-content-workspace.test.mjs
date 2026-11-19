@@ -36,6 +36,7 @@ function tsxModule(file) {
   return url;
 }
 const { AdminWorkspace, buildAdminContentPackage, ContentPackagePanel, ContentArchivePanel, ContentVersionDetail, ContentBatchHistory } = await import(tsxModule(path.join(root, "components/admin-workspace.tsx")));
+const { subjectOptionsForStage, defaultSubjectForStage } = await import(tsxModule(path.join(root, "components/admin-bank-panel.tsx")));
 const render = (Component, props) => renderToStaticMarkup(React.createElement(Component, props));
 const metadata = { packageId: "admin-test-package", publisherId: "xiaohe-local-trial", createdAt: "2026-10-26T14:00:00.000Z", withdrawals: [] };
 function fixture() {
@@ -52,7 +53,24 @@ test("the admin landing page opens the new question bank and shows loading inste
   assert.match(html, /新增题库/);
   assert.match(html, /加载中/);
   assert.match(html, /筛选学段/);
+  assert.equal((html.match(/<option value="math">数学<\/option>/g) ?? []).length, 1);
+  assert.doesNotMatch(html, /数学（(?:小学|初中|高中)）/);
   assert.doesNotMatch(html, /工作区已发布/);
+});
+
+test("subject filters match the stage and choose the only subject automatically", () => {
+  const subjects = [
+    { id: "chinese", name: "语文", units: [] }, { id: "math", name: "数学", units: [] }, { id: "english", name: "英语", units: [] },
+    { id: "math", name: "数学", stage: "junior", units: [] }, { id: "math", name: "数学", stage: "senior", units: [] },
+  ];
+  assert.deepEqual(subjectOptionsForStage(subjects, "").map(item => item.name), ["语文", "数学", "英语"]);
+  assert.deepEqual(subjectOptionsForStage(subjects, "primary").map(item => item.name), ["语文", "数学", "英语"]);
+  assert.deepEqual(subjectOptionsForStage(subjects, "junior").map(item => item.name), ["数学"]);
+  assert.deepEqual(subjectOptionsForStage(subjects, "senior").map(item => item.name), ["数学"]);
+  assert.equal(defaultSubjectForStage(subjects, "primary"), "");
+  assert.equal(defaultSubjectForStage(subjects, "junior"), "math");
+  assert.equal(defaultSubjectForStage(subjects, "senior"), "math");
+  assert.equal(defaultSubjectForStage(subjects, ""), "");
 });
 function archiveFixture() {
   const state = fixture();
