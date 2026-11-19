@@ -45,6 +45,3 @@ export const imageStorage = {
     if (entries.length === 1000) throw new DomainError("图片回收范围过大，请联系管理员", 503); return { objects: entries.filter(item => item.id).map(item => ({ key: prefix + item.name, customMetadata: item.user_metadata })), truncated: false };
   },
 };
-
-
-

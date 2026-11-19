@@ -1,0 +1,909 @@
+[
+  {
+    "id": "bank-math-s-4-conic-001",
+    "familyId": "math-s-4-conic__fam-001",
+    "version": 1,
+    "text": "椭圆方程 4x² + 9y² = 36 化为标准方程后，它的半长轴长的平方 a² 是多少？",
+    "answer": "9",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 ÷ 4 = 9。",
+      "方程两边同除以 36，得 x²/9 + y²/4 = 1，可见分母 9 就是半长轴长的平方 a²。",
+      "答：a² = 9。"
+    ],
+    "hint": "化标准方程时想一想每个分母是怎么来的：分母等于右端常数除以对应的二次项系数。",
+    "alternative": "也可以由 a² + b² = 36 与 4 : 9 = 1/a² : 1/b² 列方程组，解出 a² = 9、b² = 4。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__conic-standard-form"
+  },
+  {
+    "id": "bank-math-s-4-conic-002",
+    "familyId": "math-s-4-conic__fam-002",
+    "version": 1,
+    "text": "双曲线方程 9x² - 16y² = 144 化为标准方程后，它的虚轴长 2b 是多少？",
+    "answer": "6",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 3 = 6。",
+      "方程两边同除以 144，得 x²/16 - y²/9 = 1，故 b² = 9、b = 3，虚轴长 2b = 6。",
+      "答：虚轴长为 6。"
+    ],
+    "hint": "双曲线标准方程里分母小的那一项对应 b²，注意实轴仍然在 x 轴方向上。",
+    "alternative": "也可以先由 c² = a² + b² = 16 + 9 = 25 求出 a = 4，再用 b² = c² - a² = 9 求出虚轴长。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__conic-standard-form"
+  },
+  {
+    "id": "bank-math-s-4-conic-003",
+    "familyId": "math-s-4-conic__fam-003",
+    "version": 1,
+    "text": "已知椭圆的方程为 x²/p² + y²/q² = 1，其中 p = 5，q = 3，且长轴在 y 轴上，求它的半焦距 c 的平方 c²。",
+    "answer": "16",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 5 - 3 × 3 = 16。",
+      "长轴在 y 轴上说明 a = 5、b = 3，由 c² = a² - b² 得 c² = 25 - 9。",
+      "答：c² = 16。"
+    ],
+    "hint": "焦点落在哪条轴上，就看哪个分母更大；半焦距满足 c² = a² - b²。",
+    "alternative": "也可以直接用焦点坐标公式：c = √(a² - b²) = √(5² - 3²)，平方后得 16。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__conic-standard-form"
+  },
+  {
+    "id": "bank-math-s-4-conic-004",
+    "familyId": "math-s-4-conic__fam-004",
+    "version": 1,
+    "text": "椭圆 x²/25 + y²/9 = 1 的两个焦点之间的距离是 8，求它的离心率。",
+    "answer": "0.8",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 ÷ 10 = 0.8。",
+      "离心率等于焦距与长轴长之比：焦距 2c = 8，长轴长 2a = 10，故 e = 8 ÷ 10。",
+      "答：离心率为 0.8。"
+    ],
+    "hint": "e = c/a，也等于 2c/2a，即焦距与长轴长之比。",
+    "alternative": "也可以先由 c² = a² - b² = 25 - 9 = 16 求出 c = 4，再算 e = c/a = 4/5 = 0.8。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__conic-focus-eccentricity"
+  },
+  {
+    "id": "bank-math-s-4-conic-005",
+    "familyId": "math-s-4-conic__fam-005",
+    "version": 1,
+    "text": "双曲线 x²/16 - y²/9 = 1 的两个焦点坐标是 (±5, 0)，求它的离心率。",
+    "answer": "1.25",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 ÷ 4 = 1.25。",
+      "焦点在 x 轴上，故 c = 5；实轴长 2a = 8，即 a = 4，离心率 e = c/a = 5 ÷ 4。",
+      "答：离心率为 1.25。"
+    ],
+    "hint": "双曲线的离心率一定大于 1，可以先用它检验结果是否合理。",
+    "alternative": "也可以只用标准方程：a² = 16、b² = 9，c² = a² + b² = 25，再求 e = c/a = 5/4。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__conic-focus-eccentricity"
+  },
+  {
+    "id": "bank-math-s-4-conic-006",
+    "familyId": "math-s-4-conic__fam-006",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 上任意一点 P 到左右两个焦点 F₁、F₂ 的距离之和是一个定值，求这个定值。",
+    "answer": "10",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 2 = 10。",
+      "由椭圆的定义，|PF₁| + |PF₂| = 2a，而 2a = 5 × 2 = 10。",
+      "答：这个定值为 10。"
+    ],
+    "hint": "椭圆的定义本身就是一条定值性质：到两个焦点的距离之和恒等于 2a。",
+    "alternative": "也可以用焦半径公式 |PF₁| = a + ex₀、|PF₂| = a - ex₀，相加后 x₀ 被消掉，恒为 2a。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__conic-ellipse-focus-property",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-01.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-007",
+    "familyId": "math-s-4-conic__fam-007",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 上一点 P 到左焦点 F₁ 的距离最大是多少？",
+    "answer": "9",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 + 4 = 9。",
+      "由 |PF₁| = a + ex₀ 且 x₀ ∈ [-a, a]，取 x₀ = a（长轴右端点）时该距离最大，最大值为 a + c = 5 + 4。",
+      "答：最大值为 9。"
+    ],
+    "hint": "到某一个焦点的距离最远时，点一定在长轴的另一端。",
+    "alternative": "也可以直接取长轴右端点 A(5, 0)，则 |AF₁| = |5 - (-4)| = 9，由椭圆关于 y 轴的对称性可知这就是最大值。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__conic-ellipse-focus-property",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-02.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-008",
+    "familyId": "math-s-4-conic__fam-008",
+    "version": 1,
+    "text": "双曲线 x²/16 - y²/9 = 1 的一条渐近线经过点 (4, 3)，求这条渐近线的斜率。",
+    "answer": "0.75",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 ÷ 4 = 0.75。",
+      "双曲线 x²/16 - y²/9 = 1 的渐近线为 y = ±(b/a)x = ±(3/4)x，斜率绝对值是 b/a = 3/4。",
+      "答：这条渐近线的斜率为 0.75。"
+    ],
+    "hint": "渐近线斜率的绝对值等于 b/a，其中 a 是实半轴长、b 是虚半轴长。",
+    "alternative": "也可以设这条渐近线为 y = kx，它过原点与点 (4, 3)，代入得 3 = 4k，直接解出 k = 3/4。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__conic-hyperbola-asymptote"
+  },
+  {
+    "id": "bank-math-s-4-conic-009",
+    "familyId": "math-s-4-conic__fam-009",
+    "version": 1,
+    "text": "双曲线 x²/16 - y²/9 = 1 的实轴长 2a 是多少？",
+    "answer": "8",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 4 = 8。",
+      "标准方程中 x² 项的分母 16 就是 a²，故 a = 4，实轴长 2a = 8。",
+      "答：实轴长为 8。"
+    ],
+    "hint": "实轴与焦点所在的轴一致，这里焦点在 x 轴上，所以要看 x² 项对应的分母。",
+    "alternative": "也可以由 c² = a² + b² = 16 + 9 = 25 求出 a = 4，再乘 2 得到实轴长。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__conic-hyperbola-asymptote"
+  },
+  {
+    "id": "bank-math-s-4-conic-010",
+    "familyId": "math-s-4-conic__fam-010",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 的两个焦点 F₁、F₂ 之间的距离是 8，求上顶点与 F₁、F₂ 组成的三角形的面积。",
+    "answer": "12",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 3 ÷ 2 = 12。",
+      "由 b² = 9 得 b = 3，故上顶点的纵坐标为 3；以 F₁F₂ 为底、高为 3 作三角形，面积为 ½ × 8 × 3。",
+      "答：三角形的面积为 12。"
+    ],
+    "hint": "上顶点在 y 轴上、纵坐标为 b；两个焦点在 x 轴上，所以 F₁F₂ 就是三角形的底，高是上顶点到 x 轴的距离。",
+    "alternative": "也可以先求出三个顶点的坐标 (0, 3)、(-4, 0)、(4, 0)，再用坐标公式求面积。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__conic-axis-and-vertex",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-03.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-011",
+    "familyId": "math-s-4-conic__fam-011",
+    "version": 1,
+    "text": "如图，椭圆 x²/9 + y²/4 = 1 与直线 y = 0.5x - 1 交于 A(x₁, y₁)、B(x₂, y₂) 两点，求 x₁ + x₂ 的值。",
+    "answer": "1.44",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 ÷ 6.25 = 1.44。",
+      "把 y = 0.5x - 1 代入 4x² + 9y² = 36，整理得 6.25x² - 9x - 27 = 0，由韦达定理得 x₁ + x₂ = 9 ÷ 6.25。",
+      "答：x₁ + x₂ = 1.44。"
+    ],
+    "hint": "联立之后一定要先整理成关于 x 的一元二次方程，再用韦达定理求 x₁ + x₂ 或 x₁x₂，把 y 全部消去。",
+    "alternative": "也可以不展开计算，直接写 x₁ + x₂ = -B/A（其中 A 是二次项系数、B 是一次项系数），得 9/6.25。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__conic-ellipse-chord-vieta",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-04.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-012",
+    "familyId": "math-s-4-conic__fam-012",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 的右准线与 x 轴交于点 M，求 M 的横坐标。",
+    "answer": "6.25",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 ÷ 4 = 6.25。",
+      "右准线方程为 x = a²/c = 25/4，它与 x 轴的交点横坐标就是 25/4。",
+      "答：M 的横坐标为 6.25。"
+    ],
+    "hint": "准线由 a²/c 给出，先用 c² = a² - b² 把 c 求出来。",
+    "alternative": "也可以用离心率与准线的关系 x = a/e = a²/c，直接得 25/4。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__conic-directrix-focus",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-05.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-013",
+    "familyId": "math-s-4-conic__fam-013",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 在点 P(3, 2.4) 处的切线与 y 轴交于点 Q，求 |OQ|。",
+    "answer": "3.75",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 ÷ 2.4 = 3.75。",
+      "椭圆在点 (x₀, y₀) 处的切线为 xx₀/25 + yy₀/9 = 1，令 x = 0 得 y = 9/2.4，即切线在 y 轴上的截距。",
+      "答：|OQ| = 3.75。"
+    ],
+    "hint": "椭圆的切线方程 xx₀/a² + yy₀/b² = 1 求截距非常方便：令另一个坐标为 0 即可。",
+    "alternative": "也可以先求切线斜率 -9x₀/(25y₀)，写出切线方程后再令 x = 0 求纵截距。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__conic-ellipse-tangent-line",
+    "image": "/illustrations/math/math-s-4-conic/ellipse-06.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-014",
+    "familyId": "math-s-4-conic__fam-014",
+    "version": 1,
+    "text": "如图，双曲线 x²/16 - y²/9 = 1 上横坐标为 6 的一点 P 到左焦点 F₁(-5, 0) 的距离是多少？",
+    "answer": "11.5",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 6 ÷ 4 + 4 = 11.5。",
+      "双曲线右支上的焦半径为 |PF₁| = e·x₀ + a，其中 e = c/a = 5/4、a = 4，代入 x₀ = 6 得 (5/4)·6 + 4。",
+      "答：距离为 11.5。"
+    ],
+    "hint": "双曲线的焦半径公式与椭圆类似，区别是双曲线的离心率大于 1，而且要分清左右支。",
+    "alternative": "也可以先由方程求出 y₀² = 9(36/16 - 1) = 11.25，再用两点间距离公式代入 F₁(-5, 0) 验证。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__conic-hyperbola-focal-radius",
+    "image": "/illustrations/math/math-s-4-conic/hyperbola-01.svg"
+  },
+  {
+    "id": "bank-math-s-4-conic-015",
+    "familyId": "math-s-4-conic__fam-015",
+    "version": 1,
+    "text": "椭圆 x²/25 + y²/9 = 1 上一点 P 的横坐标为 x₀，若它到左、右焦点 F₁、F₂ 的距离之差 |PF₁| - |PF₂| = 3，求 x₀ 的值。",
+    "answer": "1.875",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 ÷ 1.6 = 1.875。",
+      "由焦半径公式 |PF₁| = a + ex₀、|PF₂| = a - ex₀，两式相减得距离之差为 2ex₀ = 1.6x₀，故 x₀ = 3 ÷ 1.6。",
+      "答：x₀ = 1.875。"
+    ],
+    "hint": "焦点距离之差与点的横坐标成正比，比例系数是 2e。",
+    "alternative": "也可以用 |PF₁| + |PF₂| = 2a 与平方差公式 4cx₀ = |PF₁|² - |PF₂|² 联立求解。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__conic-ellipse-focus-difference"
+  },
+  {
+    "id": "bank-math-s-4-parameter-001",
+    "familyId": "math-s-4-parameter__fam-001",
+    "version": 1,
+    "text": "椭圆 4x² + 9y² = 36 与直线 y = x + 2 联立后得到关于 x 的一元二次方程，其判别式 Δ 的值是多少？",
+    "answer": "1296",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 × 36 = 1296。",
+      "把 y = x + 2 代入 4x² + 9y² = 36，得 13x² + 36x = 0，判别式 Δ = 36² - 4 × 13 × 0。",
+      "答：Δ = 1296。"
+    ],
+    "hint": "代入后先把方程整理成标准形式，再套判别式公式；一次项系数 36 来自 9 × (x+2)² 的展开。",
+    "alternative": "也可以用相切判别式反推：先算原点到直线的距离与 a、b 的关系，再解出 Δ 的值。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__param-line-conic-relation"
+  },
+  {
+    "id": "bank-math-s-4-parameter-002",
+    "familyId": "math-s-4-parameter__fam-002",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 与直线 y = kx + 6 有且只有一个公共点（相切），求 k² 的值。",
+    "answer": "1.08",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 y = kx + 6 代入椭圆方程 x²/25 + y²/9 = 1，整理得 (9 + 25k²)x² + 300kx + 675 = 0。",
+      "有且只有一个公共点即判别式为零：90000k² - 4 × (9 + 25k²) × 675 = 0，化简得 22500k² - 24300 = 0。",
+      "24300 ÷ 22500 = 1.08。",
+      "答：k² = 1.08。"
+    ],
+    "hint": "相切就是代入后得到的一元二次方程判别式为零，先把方程整理成 (9 + 25k²)x² + 300kx + 675 = 0，再套判别式公式。",
+    "alternative": "也可以用切线的条件：直线 kx - y + 6 = 0 与椭圆 x²/25 + y²/9 = 1 相切时 6² = 25k² + 9，得 k² = 27/25 = 1.08。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__param-line-conic-relation",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-01.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-003",
+    "familyId": "math-s-4-parameter__fam-003",
+    "version": 1,
+    "text": "双曲线 9x² - 16y² = 144 与直线 y = 0.5x 联立后，所得关于 x 的一元二次方程的判别式 Δ 是多少？",
+    "answer": "2880",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 5 × 144 = 2880。",
+      "代入得 9x² - 4x² - 144 = 0，即 5x² - 144 = 0，Δ = 0² + 4 × 5 × 144。",
+      "答：Δ = 2880。"
+    ],
+    "hint": "二次项系数与常数项都要先化简，再套用判别式公式，别漏掉 c 是负数时符号的变化。",
+    "alternative": "也可以从几何意义入手：这条直线与双曲线的两支各有一个交点，说明二次方程有两个异号实根，从而确定判别式为正并算出它的值。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__param-line-conic-relation"
+  },
+  {
+    "id": "bank-math-s-4-parameter-004",
+    "familyId": "math-s-4-parameter__fam-004",
+    "version": 1,
+    "text": "如图，椭圆 x²/9 + y²/4 = 1 与直线 y = 1.2 交于 A、B 两点，求弦长 |AB|。",
+    "answer": "4.8",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 2.4 = 4.8。",
+      "把 y = 1.2 代入 4x² + 9y² = 36，得 4x² = 36 - 12.96 = 23.04，故 x = ±2.4，弦长为 2 × 2.4。",
+      "答：|AB| = 4.8。"
+    ],
+    "hint": "与坐标轴平行的弦最好处理：先固定一个坐标，再解出另一个坐标，注意两端关于 y 轴对称。",
+    "alternative": "也可以用弦长公式 |AB| = 2a·√(1 - (y₀/b)²)，代入 y₀ = 1.2、a = 3、b = 2 直接算。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__param-chord-length",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-03.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-005",
+    "familyId": "math-s-4-parameter__fam-005",
+    "version": 1,
+    "text": "如图，双曲线 x²/16 - y²/9 = 1 与直线 x = 5 交于 A、B 两点，求弦长 |AB|。",
+    "answer": "4.5",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 ÷ 2 = 4.5。",
+      "令 x = 5 代入得 25/16 - y²/9 = 1，即 y² = 81/16，y = ±9/4，故弦长为 2 × 9/4 = 9/2。",
+      "答：|AB| = 4.5。"
+    ],
+    "hint": "双曲线上与竖直直线相交的弦，两个端点的纵坐标互为相反数，弦长就是两倍纵坐标。",
+    "alternative": "也可以用双曲线的竖直弦长公式 2b√(x₀²/a² - 1)，代入 x₀ = 5、a = 4、b = 3 直接算。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__param-chord-length",
+    "image": "/illustrations/math/math-s-4-parameter/hyperbola-01.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-006",
+    "familyId": "math-s-4-parameter__fam-006",
+    "version": 1,
+    "text": "如图，椭圆 x²/4 + y²/3 = 1 与直线 y = 0.5x - 1 交于 A(x₁, y₁)、B(x₂, y₂)，求三角形 OAB 的面积。",
+    "answer": "1.5",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 0.5 = 1.5。",
+      "代入 3x² + 4y² = 12 得 4x² - 4x - 8 = 0，Δ = 144，故 |x₁ - x₂| = 12/4 = 3；又由 y = 0.5x - 1 知 x₁y₂ - x₂y₁ = x₂ - x₁，代入面积公式 |S| = ½|x₁y₂ - x₂y₁| = ½ × 3。",
+      "答：三角形 OAB 的面积为 1.5。"
+    ],
+    "hint": "三角形面积可写成 ½|x₁y₂ - x₂y₁|，再用直线关系把 y 换成 x，就只剩韦达定理能给的量。",
+    "alternative": "也可以先求出两个交点的坐标，再用 ½|x₁y₂ - x₂y₁| 逐项代入计算。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__param-vieta-chord",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-06.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-007",
+    "familyId": "math-s-4-parameter__fam-007",
+    "version": 1,
+    "text": "如图，椭圆 x²/9 + y²/4 = 1 与直线 y = 2x - 1 交于 A、B 两点，设它们的横坐标分别为 x₁、x₂，求 x₁ + x₂ 的值。",
+    "answer": "0.9",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 ÷ 10 = 0.9。",
+      "代入 4x² + 9y² = 36 得 40x² - 36x - 27 = 0，由韦达定理得 x₁ + x₂ = 36/40 = 9/10。",
+      "答：x₁ + x₂ = 0.9。"
+    ],
+    "hint": "韦达定理给出的是系数之比，先把二次项与一次项系数化到最简整数，再作商。",
+    "alternative": "也可以直接写 x₁ + x₂ = -B/A，其中 A 是二次项系数、B 是一次项系数，得 36/40。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__param-vieta-chord",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-02.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-008",
+    "familyId": "math-s-4-parameter__fam-008",
+    "version": 1,
+    "text": "如图，椭圆 x²/16 + y²/9 = 1 的右焦点为 F，过 F 的直线与椭圆交于 A、B 两点，求弦长 |AB| 的最小值。",
+    "answer": "4.5",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 × 0.5 = 4.5。",
+      "焦点弦随倾角变化，其中最短的一条是垂直于长轴的通径，长度为 2b²/a = 2 × 9/4。",
+      "答：|AB| 的最小值为 4.5。"
+    ],
+    "hint": "焦点弦里最短的一条是通径（垂直于长轴的那条），长度是 2b²/a。",
+    "alternative": "也可以设过焦点的直线斜率为 k，用韦达定理写出 x₁ - x₂ 后对斜率求最小值。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__param-fixed-point",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-07.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-009",
+    "familyId": "math-s-4-parameter__fam-009",
+    "version": 1,
+    "text": "双曲线 x²/16 - y²/9 = 1 与过点 P(0, 3) 的直线交于 A、B 两点，A、B 的纵坐标分别为 y₁、y₂，求 y₁y₂ 的值。",
+    "answer": "9",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 3 = 9。",
+      "设过 P 的直线为 y = kx + 3，代入 9x² - 16y² = 144 得 (9 - 16k²)x² - 96kx - 288 = 0，由韦达定理得 x₁ + x₂ = 96k/(9 - 16k²)、x₁x₂ = -288/(9 - 16k²)；于是 y₁y₂ = k²x₁x₂ + 3k(x₁ + x₂) + 9 = 9，与 k 无关。",
+      "答：y₁y₂ = 9。"
+    ],
+    "hint": "过 y 轴上定点 P(0, p) 的直线，用韦达定理算出的纵坐标乘积会与斜率无关，这正是定值的来源。",
+    "alternative": "也可以设直线为 x = t(y - 3)，联立后用韦达定理得 y₁y₂ = (81t² - 144)/(9t² - 16) = 9。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__param-fixed-point"
+  },
+  {
+    "id": "bank-math-s-4-parameter-010",
+    "familyId": "math-s-4-parameter__fam-010",
+    "version": 1,
+    "text": "椭圆 x²/9 + y²/4 = 1 上一点 P 到直线 y = 2 的距离的最大值是多少？",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 - (-2) = 4。",
+      "椭圆上点 P 的纵坐标 y₀ ∈ [-2, 2]，距离 |y₀ - 2| = 2 - y₀ 在 y₀ = -2 处取最大值 2 - (-2) = 4。",
+      "答：最大值为 4。"
+    ],
+    "hint": "点到水平直线的距离只与纵坐标有关，先把 y₀ 的取值范围写出来再判断单调性。",
+    "alternative": "也可以用切线的观点：作与 y = 2 平行的下方切线 y = -2，两平行线之间的距离就是所求的最大值。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__param-extreme-value"
+  },
+  {
+    "id": "bank-math-s-4-parameter-011",
+    "familyId": "math-s-4-parameter__fam-011",
+    "version": 1,
+    "text": "如图，已知椭圆 x²/9 + y²/4 = 1 与直线 l: y = kx + m（k ≠ 0）交于 A(x₁, y₁)、B(x₂, y₂) 两点，且 |OA| = |OB|（O 为坐标原点）。证明：直线 l 恒过定点，并求出该定点坐标与 m 的值。",
+    "answer": "由 OA = OB 得 x₁² + y₁² = x₂² + y₂²｜把 y = kx + m 代入并提出公因式 (x₁ - x₂)，得 (1 + k²)(x₁ + x₂) + 2km = 0｜由韦达定理得 x₁ + x₂ = −18km/(4 + 9k²)｜代入上式化简得 −10km = 0，又 k ≠ 0，故 m = 0｜所以直线 l 的方程是 y = kx，恒过定点 (0, 0)",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 OA = OB 得 OA² = OB²，即 x₁² + y₁² = x₂² + y₂²。",
+      "代入 y = kx + m 整理并提出公因式：(x₁ - x₂)[(1 + k²)(x₁ + x₂) + 2km] = 0。",
+      "由 A、B 是两个不同交点知 x₁ ≠ x₂，故 (1 + k²)(x₁ + x₂) + 2km = 0；又由韦达定理 x₁ + x₂ = −18km/(4 + 9k²)，代入化简得 −10km = 0。",
+      "答：因 k ≠ 0，得 m = 0，直线 l 为 y = kx，它恒过定点 (0, 0)。"
+    ],
+    "hint": "把 |OA| = |OB| 平方后相减，再用韦达定理把 x₁ + x₂ 换成 k、m 的表达式，最后分离 k 与 m。",
+    "alternative": "也可以用中心对称性：由 OA = OB 与椭圆方程联立可得 x₁² = x₂²、y₁² = y₂²，因 A、B 不同故 B = -A，于是直线 AB 必过原点。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__param-proof-fixed-point",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-10.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-012",
+    "familyId": "math-s-4-parameter__fam-012",
+    "version": 1,
+    "text": "如图，椭圆 x²/25 + y²/9 = 1 在第一象限内一点 P 处的切线与 x 轴、y 轴分别交于 M、N，求三角形 OMN 面积的最小值。",
+    "answer": "15",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "切线方程为 xx₀/25 + yy₀/9 = 1，它在两坐标轴上的截距分别是 25/x₀ 与 9/y₀，故 S = ½ × 25/x₀ × 9/y₀ = 112.5/(x₀y₀)。",
+      "由 x₀²/25 + y₀²/9 = 1 及基本不等式得 x₀y₀ ≤ 7.5。",
+      "112.5 ÷ 7.5 = 15。",
+      "答：面积的最小值为 15。"
+    ],
+    "hint": "切线与两坐标轴围成的三角形，其面积与切点坐标的乘积成反比，所以先求 x₀y₀ 的最大值。",
+    "alternative": "也可以用基本不等式或拉格朗日乘数法先求 x₀y₀ 的最大值 7.5，再代回面积表达式。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__param-tangent-area",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-05.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-013",
+    "familyId": "math-s-4-parameter__fam-013",
+    "version": 1,
+    "text": "如图，椭圆 x²/16 + y²/9 = 1 的长半轴长为 4、短半轴长为 3。已知点 P(5, 0) 在椭圆外，过 P 的两条直线都与椭圆相切，求这两条切线的斜率的绝对值。",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设过 P 的切线为 y = k(x - 5)，即 kx - y - 5k = 0；直线 y = kx + m 与椭圆 x²/a² + y²/b² = 1 相切的判据是 m² = a²k² + b²。",
+      "这里 m = -5k、a² = 16、b² = 9，代入得 (5k)² = 16k² + 9，即 25k² = 16k² + 9，化简得 9k² = 9。",
+      "9 ÷ 9 = 1。",
+      "所以 k² = 1，两条切线的斜率分别是 1 与 -1，答：这两条切线的斜率绝对值为 1。"
+    ],
+    "hint": "过 P 的切线写成 y = k(x - 5)，代入椭圆后令判别式为零；注意椭圆切线到中心的距离一般不等于短半轴长，只有两条水平切线才满足。",
+    "alternative": "也可以直接代入求判别式：y = k(x - 5) 代入椭圆得 (9 + 16k²)x² - 160k²x + 400k² - 144 = 0，令判别式为零，展开化简得 5184 - 5184k² = 0，同样得到 k² = 1。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__param-tangent-slope",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-04.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-014",
+    "familyId": "math-s-4-parameter__fam-014",
+    "version": 1,
+    "text": "如图，已知 F₁(-3, 0)、F₂(3, 0) 是平面内两个定点，动点 P 到 F₁、F₂ 的距离之和为 8，求点 P 的轨迹方程。",
+    "answer": "x²/16 + y²/7 = 1",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由椭圆定义，2a = 8 得 a = 4；由 c = 3 得 b² = a² - c² = 16 - 9 = 7。",
+      "两定点关于原点对称，且距离之和 8 大于两定点间距离 6，所以轨迹是长轴在 x 轴上的椭圆，方程为 x²/16 + y²/7 = 1。",
+      "答：点 P 的轨迹方程为 x²/16 + y²/7 = 1。"
+    ],
+    "hint": "先判断轨迹是不是椭圆：到两个定点的距离之和是常数 8，并且 8 大于两定点之间的距离 6。",
+    "alternative": "也可以直接由 |PF₁| + |PF₂| = 8 出发平方化简，整理得到 x²/16 + y²/7 = 1。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__param-locus-equation",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-09.svg"
+  },
+  {
+    "id": "bank-math-s-4-parameter-015",
+    "familyId": "math-s-4-parameter__fam-015",
+    "version": 1,
+    "text": "如图，椭圆 x²/9 + y²/4 = 1 的长半轴长为 3、短半轴长为 2，右焦点为 F，过 F 的直线与椭圆交于 A、B 两点，求 1/|FA| + 1/|FB| 的值。",
+    "answer": "1.5",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 3 ÷ 4 = 1.5。",
+      "设过 F 的直线与长轴夹角为 θ，由焦点弦公式可得 1/|FA| + 1/|FB| = 2a/b² = 2 × 3/4 = 3/2，与 θ 无关，所以是一个定值。",
+      "答：所求定值为 1.5。"
+    ],
+    "hint": "焦点弦有一个定值性质：两端焦半径的倒数之和恒等于 2a/b²。",
+    "alternative": "也可以设过焦点的直线斜率为 k，联立后用韦达定理算出 |FA|·|FB| 与 |FA| + |FB|，再求倒数和。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__param-constant-value",
+    "image": "/illustrations/math/math-s-4-parameter/ellipse-08.svg"
+  }
+]

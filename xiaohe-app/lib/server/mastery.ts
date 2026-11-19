@@ -1,4 +1,4 @@
-import type { ApiResult, EffectiveEvidence, Evidence, KnowledgeId, MasteryAssessment, MasteryRule, MasteryState, Paper, ReviewPlan, Role, RuleParameters, WorkspaceState } from "../types.ts";
+import { mergedQuestions, type ApiResult, type ContentBank, type EffectiveEvidence, type Evidence, type KnowledgeId, type MasteryAssessment, type MasteryRule, type MasteryState, type Paper, type ReviewPlan, type Role, type RuleParameters, type WorkspaceState } from "../types.ts";
 import { DomainError } from "./domain-error.ts";
 import { historyDeletionEpoch } from "../history-deletion.ts";
 import { effectiveEvidence, effectiveReviewSource, evidenceEpoch, originalEvidenceProblem } from "../effective-evidence.ts";
@@ -10,11 +10,20 @@ export const DEFAULT_RULE_PARAMETERS: RuleParameters = {
   stableAccuracy: .8, star5TransferCorrect: 2, reviewDelayDays: 3,
   downgradeAfterAttempts: 3, stabilityWindowAttempts: 5,
 };
-export type MasteryContext = { now: string; newId: () => string; userId: string; role: Role };
+export type MasteryContext = { now: string; newId: () => string; userId: string; role: Role; bank?: ContentBank };
 const trialNote = "参数为未经过教学验证的本地试用配置，并非原文规定的数值阈值。";
 const ruleLabel = (rule: MasteryRule) => rule.mode === "legacy-pilot" ? "pilot-v2-max3" : `${rule.id}/v${rule.version}`;
 
 /** Mutates only the new optional container; migration never rewrites old scores or evidence. */
+/**
+ * 当前生效的星级规则标识。
+ * 知识点的依据说明、题库导入时新建的知识点条目都用它 —— 规则变了，依据说明要跟着变。
+ */
+export function activeRuleLabel(state: WorkspaceState): string {
+  const active = state.mastery?.rules.find(rule => rule.id === state.mastery?.activeRuleId);
+  return active ? (active.mode === "legacy-pilot" ? "pilot-v2-max3" : `${active.id}/v${active.version}`) : "pilot-v2-max3";
+}
+
 export function ensureMastery(state: WorkspaceState, options: { now: string; newId: () => string; fresh?: boolean }): MasteryState {
   if (state.mastery) return state.mastery;
   const { now, newId, fresh = false } = options;
@@ -235,7 +244,7 @@ export function startReview(state: WorkspaceState, planId: unknown, countValue: 
   const count = countValue === undefined ? 2 : countValue;
   if (typeof count !== "number" || !Number.isInteger(count) || count < 1 || count > 20) throw new DomainError("复查题量须为 1—20 题");
   const seen = allSeenFamilies(state), families = new Set<string>();
-  const questions = state.questions.filter(q => q.knowledgeId === plan.knowledgeId && q.status === "published" && q.reviewerId && q.reviewerId !== q.authorId && q.taskType === "transfer" && q.contextId && !seen.has(q.familyId)).filter(q => { if (families.has(q.familyId)) return false; families.add(q.familyId); return true; });
+  const questions = mergedQuestions(state, context.bank).filter(q => q.knowledgeId === plan.knowledgeId && q.status === "published" && q.reviewerId && q.reviewerId !== q.authorId && q.taskType === "transfer" && q.contextId && !seen.has(q.familyId)).filter(q => { if (families.has(q.familyId)) return false; families.add(q.familyId); return true; });
   if (questions.length < count) throw new DomainError(`迁移新题不足：排除全部历史已见、已做和曝光题族后，只有 ${questions.length} 道，当前需要 ${count} 道。请减少题量或扩充已审核迁移题库。`, 409);
   const selected = structuredClone(questions.slice(0, count));
   const paper: Paper = { id: context.newId(), title: "间隔迁移新题复查", version: 1, createdAt: context.now, questionIds: selected.map(q => q.id), questions: selected, status: "ready", kind: "review", reviewPlanId: plan.id, reason: `源自 ${plan.sourcePaperId}，按原计划与当前规则，最早可于 ${availableAt} 开始；仅选全历史未见的已标注迁移新题。`, estimatedMinutes: count * 3 };

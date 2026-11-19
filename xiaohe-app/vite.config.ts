@@ -51,6 +51,10 @@ export default defineConfig(async ({ command }) => {
       cloudflare({
         viteEnvironment: { name: "rsc", childEnvironments: ["ssr"] },
         inspectorPort: false,
+        // Opt into a separate local state directory without touching existing data.
+        ...(command === "serve" && process.env.XIAOHE_LOCAL_STATE_DIR
+          ? { persistState: { path: process.env.XIAOHE_LOCAL_STATE_DIR } }
+          : {}),
         config: {
           ...localBindingConfig,
           ...(command === "serve"

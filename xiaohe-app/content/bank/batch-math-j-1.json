@@ -1,0 +1,4292 @@
+[
+  {
+    "id": "bank-math-j-1-real-001",
+    "familyId": "math-j-1-real__fam-001",
+    "version": 1,
+    "text": "在 -3、0、√5、π、1/4 这五个数中，无理数是____（用顿号把所有无理数隔开写出）。",
+    "answer": "√5、π",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "√5 与 π 的小数部分都是无限且不循环的，所以它们是无理数；而 -3、0、1/4 都能写成整数或分数，属于有理数。",
+      "答：√5、π。"
+    ],
+    "hint": "先分清有理数与无理数：有限小数、无限循环小数和分数都是有理数。",
+    "alternative": "也可以逐个判断：整数、分数、有限小数都是有理数，根号内不是完全平方数时开出的平方根以及 π、e 这类数才是无理数。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-real__real-meaning",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-002",
+    "familyId": "math-j-1-real__fam-002",
+    "version": 1,
+    "text": "一个正数的平方等于 49，它的算术平方根是____。",
+    "answer": "7",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "49 ÷ 7 = 7。",
+      "49 的平方根有两个：±7；算术平方根只取非负的那一个，所以是 7。",
+      "答：7。"
+    ],
+    "hint": "算术平方根是平方根中的非负数。",
+    "alternative": "也可以由 7 × 7 = 49 得到 7 是 49 的一个平方根，再由 7 > 0 判断它就是算术平方根。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-real__real-meaning",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-003",
+    "familyId": "math-j-1-real__fam-003",
+    "version": 1,
+    "text": "比较 3.2 与 1.7 的大小，它们的差是____。",
+    "answer": "1.5",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3.2 - 1.7 = 1.5。",
+      "两个正数比较大小可以先算它们的差，差为正说明 3.2 更大。",
+      "答：1.5。"
+    ],
+    "hint": "先求差，再看差的正负。",
+    "alternative": "也可以把两个数同时放大 10 倍变成 32 与 17 再相减，结果相同。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-real__real-meaning",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-004",
+    "familyId": "math-j-1-real__fam-004",
+    "version": 1,
+    "text": "一个数与它的相反数的和为 0，已知这个数是 -12，则这个数的相反数是____。",
+    "answer": "12",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "相反数只改变符号、不改变绝对值，两个互为相反数的数相加得 0。",
+      "-(-12) = 12。",
+      "答：这个数的相反数是 12。"
+    ],
+    "hint": "相反数与自身符号相反、绝对值相等。",
+    "alternative": "也可以由 -12 + 12 = 0 想到这个数的相反数正好是 12。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-real__opposite-absolute",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-005",
+    "familyId": "math-j-1-real__fam-005",
+    "version": 1,
+    "text": "若 |x - 5| = 4 且 x < 5，则 x = ____。",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 - 4 = 1。",
+      "绝对值方程 |x - 5| = 4 表示 x 到 5 的距离是 4；由 x < 5 知 x 在 5 的左边，所以 x = 5 - 4 = 1。",
+      "答：1。"
+    ],
+    "hint": "先在数轴上找出到 5 距离为 4 的两个点，再用 x < 5 排除其中一个。",
+    "alternative": "也可以直接由 |x - 5| = -(x - 5) = 5 - x = 4 解出 x = 1。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-real__opposite-absolute",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-006",
+    "familyId": "math-j-1-real__fam-006",
+    "version": 1,
+    "text": "在数轴上，点 A 表示 -5，点 B 表示 3，则 A、B 两点之间的距离是____。",
+    "answer": "8",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 + 3 = 8。",
+      "数轴上两点的距离等于对应两数之差的绝对值，即 |3 - (-5)| = 8。",
+      "答：8。"
+    ],
+    "hint": "数轴上两点的距离就是右端点的数减去左端点的数。",
+    "alternative": "也可以先量出 A 到原点的距离 5、原点到 B 的距离 3，两段合起来就是 8。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-real__abs-distance",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-007",
+    "familyId": "math-j-1-real__fam-007",
+    "version": 1,
+    "text": "已知 |a - 4| + |b + 2| = 0，则 a + b = ____。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 - 2 = 2。",
+      "两个非负数的和为 0，说明它们都为 0，于是 a = 4，b = -2，所以 a + b = 2。",
+      "答：2。"
+    ],
+    "hint": "绝对值都是非负数，可以把每个绝对值分别考虑。",
+    "alternative": "也可以由 |a - 4| = 0 得 a = 4，由 |b + 2| = 0 得 b = -2，再把两数相加。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-real__abs-distance",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-008",
+    "familyId": "math-j-1-real__fam-008",
+    "version": 1,
+    "text": "设 a = √2 - 1，b = √3 - 2，则 a、b 中较大的一个是____。",
+    "answer": "a",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 1.4 < √2 < 1.5，所以 0.4 < √2 - 1 < 0.5。",
+      "因为 1.7 < √3 < 1.8，所以 √3 - 2 < 0。",
+      "因此 a > b。",
+      "答：a。"
+    ],
+    "hint": "先估计每个根式的范围，再比较两个差值。",
+    "alternative": "也可以把两个式子移项：a - b = √2 - √3 + 1，由 √3 - √2 = 1/(√3 + √2) < 1 得 a - b > 0。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-real__real-compare",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-009",
+    "familyId": "math-j-1-real__fam-009",
+    "version": 1,
+    "text": "解方程 |3 - x| = 5，x 的值是____。",
+    "answer": "8 或 -2",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "绝对值方程 |3 - x| = 5 表示 x 到 3 的距离是 5，所以 x = 3 + 5 或 x = 3 - 5。",
+      "3 + 5 = 8，3 - 5 = -2。",
+      "答：8 或 -2。"
+    ],
+    "hint": "在数轴上找出到 3 距离为 5 的两个点。",
+    "alternative": "也可以分两种情况：3 - x = 5 得 x = -2；3 - x = -5 得 x = 8。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-real__real-compare",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-010",
+    "familyId": "math-j-1-real__fam-010",
+    "version": 1,
+    "text": "钟表的分针转 3 圈，分针转过的角度是____度。",
+    "answer": "1080",
+    "unit": "度",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 360 = 1080。",
+      "分针转一圈是 360°，转 3 圈就是 3 个 360°。",
+      "答：1080 度。"
+    ],
+    "hint": "先弄清一圈是多少度，再乘圈数。",
+    "alternative": "也可以把 3 圈看成 3 个 360° 相加，用加法原理 360° + 360° + 360°。",
+    "prerequisites": [
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-real__practical-real",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-011",
+    "familyId": "math-j-1-real__fam-011",
+    "version": 1,
+    "text": "已知一个直角三角形的两条直角边长为 3 和 4，斜边长为 |x|，则 x = ____。",
+    "answer": "±5",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由勾股定理，斜边长 = √(3² + 4²) = √(9 + 16) = √25 = 5。",
+      "即 |x| = 5，所以 x = 5 或 x = -5。",
+      "答：±5。"
+    ],
+    "hint": "先用勾股定理求出斜边长，再由绝对值还原 x。",
+    "alternative": "也可以设斜边为 c，列方程 c² - 3² = 4² 得 c = 5，再由 |x| = 5 求 x。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-real__abs-triangle",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-012",
+    "familyId": "math-j-1-real__fam-012",
+    "version": 1,
+    "text": "若 x = √5 - 2，则 x² + 4x 的值是____。",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 - 4 = 1。",
+      "因为 x + 2 = √5，所以 x² + 4x = (x + 2)² - 4 = 5 - 4 = 1。",
+      "答：1。"
+    ],
+    "hint": "把 x² + 4x 配成 (x + 2)² - 4 的形式。",
+    "alternative": "也可以直接展开：x² = (√5 - 2)² = 9 - 4√5，4x = 4√5 - 8，两式相加得 9 - 8 = 1。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-1-radical",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-real__radical-square",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-013",
+    "familyId": "math-j-1-real__fam-013",
+    "version": 1,
+    "text": "|√3 - 1| + |√3 + 1| 的值是____。",
+    "answer": "2√3",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 √3 > 1，所以 |√3 - 1| = √3 - 1，|√3 + 1| = √3 + 1。",
+      "两式相加得 (√3 - 1) + (√3 + 1) = 2√3。",
+      "答：2√3。"
+    ],
+    "hint": "先判断每个绝对值内各项的符号，再去掉绝对值。",
+    "alternative": "也可以把 √3 - 1 与 √3 + 1 看成 a - b 与 a + b，利用 (a - b) + (a + b) = 2a 直接得到 2√3。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-real__radical-abs",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-014",
+    "familyId": "math-j-1-real__fam-014",
+    "version": 1,
+    "text": "已知 a = 2 + √3，b = 3 + √2，比较 a、b 的大小。",
+    "answer": "a < b",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 √3 - √2 = (3 - 2)/(√3 + √2) = 1/(√3 + √2) < 1。",
+      "所以 b - a = (3 + √2) - (2 + √3) = 1 - (√3 - √2) > 0。",
+      "故 a < b。",
+      "答：a < b。"
+    ],
+    "hint": "把两数相减，化成容易判断正负的形式。",
+    "alternative": "也可以用近似值估计：a ≈ 3.73，b ≈ 4.41，所以 a < b。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-real__compare-estimate",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-real-015",
+    "familyId": "math-j-1-real__fam-015",
+    "version": 1,
+    "text": "求 |3 - √5| + √5 - 2 的值。",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-j-1-real",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 - 2 = 1。",
+      "因为 2 < √5 < 3，所以 |3 - √5| = 3 - √5。",
+      "原式 = (3 - √5) + √5 - 2 = 1。",
+      "答：1。"
+    ],
+    "hint": "先估计 √5 的大小，判断绝对值里两项的符号。",
+    "alternative": "也可以设 t = √5，则原式 = |3 - t| + t - 2，先判断 3 - t > 0 再去掉绝对值。",
+    "prerequisites": [
+      "math-j-1-real",
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-real__abs-radical-calc",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-radical-001",
+    "familyId": "math-j-1-radical__fam-001",
+    "version": 1,
+    "text": "下列各式中，是最简二次根式的是____。（选项：√8、√12、√5、√18）",
+    "answer": "√5",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "最简二次根式要求被开方数不含平方因数。",
+      "√8 = 2√2，√12 = 2√3，√18 = 3√2，都还能化简，只有 √5 符合。",
+      "答：√5。"
+    ],
+    "hint": "看根号里的数是否含有平方因数。",
+    "alternative": "也可以逐个化简，化简后不再变化的只有 √5。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-radical__radical-meaning"
+  },
+  {
+    "id": "bank-math-j-1-radical-002",
+    "familyId": "math-j-1-radical__fam-002",
+    "version": 1,
+    "text": "在数 √3、-√3、0、-1 中，最小的数是____。",
+    "answer": "-√3",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 √3 > 1 > 0，所以 -√3 < -1 < 0 < √3。",
+      "最小的数是 -√3。",
+      "答：-√3。"
+    ],
+    "hint": "负根式与对应的正根式比较大小，结论正好相反。",
+    "alternative": "也可以在数轴上标出这些点，位置最靠左的那个就是 -√3。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-radical__radical-meaning"
+  },
+  {
+    "id": "bank-math-j-1-radical-003",
+    "familyId": "math-j-1-radical__fam-003",
+    "version": 1,
+    "text": "化简：√18 = ____。",
+    "answer": "3√2",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "√18 = √(9 × 2) = √9 × √2 = 3√2。",
+      "答：3√2。"
+    ],
+    "hint": "先把被开方数分解出最大的平方因数。",
+    "alternative": "也可以写成 √18 = √(3² × 2)，再由 √(a²) = a（a > 0）得到 3√2。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-radical__radical-simplify"
+  },
+  {
+    "id": "bank-math-j-1-radical-004",
+    "familyId": "math-j-1-radical__fam-004",
+    "version": 1,
+    "text": "化简：√(3/4) = ____。",
+    "answer": "√3/2",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "√(3/4) = √3/√4 = √3/2。",
+      "答：√3/2。"
+    ],
+    "hint": "分母是完全平方数时，可以直接开方。",
+    "alternative": "也可以先通分成 √(9/12) = 3√3/(2√3) = √3/2。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-radical__radical-simplify"
+  },
+  {
+    "id": "bank-math-j-1-radical-005",
+    "familyId": "math-j-1-radical__fam-005",
+    "version": 1,
+    "text": "计算：√12 + √27 - √3 = ____。",
+    "answer": "4√3",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "√12 = 2√3，√27 = 3√3。",
+      "所以原式 = 2√3 + 3√3 - √3 = 4√3。",
+      "答：4√3。"
+    ],
+    "hint": "先把每个根式化成最简二次根式，再合并同类二次根式。",
+    "alternative": "也可以提取公因式 √3：√3(2 + 3 - 1) = 4√3。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-radical__radical-simplify"
+  },
+  {
+    "id": "bank-math-j-1-radical-006",
+    "familyId": "math-j-1-radical__fam-006",
+    "version": 1,
+    "text": "一个正方形的面积是 20 平方米，它的边长是____米。",
+    "answer": "2√5",
+    "unit": "米",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设边长为 a，则 a² = 20。",
+      "因为 20 = 4 × 5，所以 a = √20 = 2√5。",
+      "答：2√5 米。"
+    ],
+    "hint": "正方形边长等于面积的算术平方根，再化成最简二次根式。",
+    "alternative": "也可以直接写 a = √20 = √(4 × 5) = 2√5，结果相同。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-radical__radical-arithmetic"
+  },
+  {
+    "id": "bank-math-j-1-radical-007",
+    "familyId": "math-j-1-radical__fam-007",
+    "version": 1,
+    "text": "计算 (√5 + 1)(√5 - 1) 的值是____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 - 1 = 4。",
+      "原式 = (√5)² - 1² = 5 - 1 = 4。",
+      "答：4。"
+    ],
+    "hint": "两个共轭式相乘可以用平方差公式。",
+    "alternative": "也可以直接展开：√5·√5 - √5 + √5 - 1 = 5 - 1 = 4。",
+    "prerequisites": [
+      "math-j-1-radical",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-radical__radical-arithmetic"
+  },
+  {
+    "id": "bank-math-j-1-radical-008",
+    "familyId": "math-j-1-radical__fam-008",
+    "version": 1,
+    "text": "比较 √50 与 7 的大小，较大的数是____。",
+    "answer": "√50",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 49 < 50，所以 √49 < √50。",
+      "而 √49 = 7，故 √50 > 7。",
+      "答：√50。"
+    ],
+    "hint": "两个正数比较大小，可以先比较它们的平方。",
+    "alternative": "也可以估算 √50 ≈ 7.07 > 7。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-radical__radical-compare"
+  },
+  {
+    "id": "bank-math-j-1-radical-009",
+    "familyId": "math-j-1-radical__fam-009",
+    "version": 1,
+    "text": "要使 √(a - 5) + √(7 - a) 有意义，a 的取值范围是____。",
+    "answer": "5 ≤ a ≤ 7",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "二次根式有意义要求被开方数非负，所以 a - 5 ≥ 0 且 7 - a ≥ 0。",
+      "解得 a ≥ 5 且 a ≤ 7。",
+      "答：5 ≤ a ≤ 7。"
+    ],
+    "hint": "每一个根号里的式子都要不小于 0，两个条件要同时成立。",
+    "alternative": "也可以把两个条件写成 a - 5 ≥ 0 与 a - 7 ≤ 0，取它们的公共部分。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-radical__radical-compare"
+  },
+  {
+    "id": "bank-math-j-1-radical-010",
+    "familyId": "math-j-1-radical__fam-010",
+    "version": 1,
+    "text": "一个直角三角形的两条直角边长分别是 2 和 3，它的斜边长是____。",
+    "answer": "√13",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由勾股定理，斜边长 = √(2² + 3²) = √(4 + 9) = √13。",
+      "答：√13。"
+    ],
+    "hint": "斜边长等于两直角边平方和的算术平方根。",
+    "alternative": "也可以设斜边为 c，列方程 c² - 4 = 9，解得 c² = 13，c = √13。",
+    "prerequisites": [
+      "math-j-1-radical",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-radical__radical-geometry"
+  },
+  {
+    "id": "bank-math-j-1-radical-011",
+    "familyId": "math-j-1-radical__fam-011",
+    "version": 1,
+    "text": "若 √x = 3，求 x + 4 的值是____。",
+    "answer": "13",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 3 + 4 = 13。",
+      "由 √x = 3 得 x = 9，所以 x + 4 = 13。",
+      "答：13。"
+    ],
+    "hint": "先把根号还原成被开方数，再代入求值。",
+    "alternative": "也可以先移项再平方：x = (√x)² = 3² = 9，然后加 4。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-radical__radical-equation"
+  },
+  {
+    "id": "bank-math-j-1-radical-012",
+    "familyId": "math-j-1-radical__fam-012",
+    "version": 1,
+    "text": "计算：√(1/2) - √(1/8) 的值是____。",
+    "answer": "√2/4",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "√(1/2) = √2/2，√(1/8) = √2/4。",
+      "原式 = √2/2 - √2/4 = √2/4。",
+      "答：√2/4。"
+    ],
+    "hint": "先化成最简二次根式，再通分相减。",
+    "alternative": "也可以把 √(1/2) 写成 2√2/4，再相减得 √2/4。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-radical__radical-mixed"
+  },
+  {
+    "id": "bank-math-j-1-radical-013",
+    "familyId": "math-j-1-radical__fam-013",
+    "version": 1,
+    "text": "已知 m < 0，比较 √(m²) 与 m 的大小，较大的数是____。",
+    "answer": "-m",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "因为 m < 0，所以 √(m²) = |m| = -m。",
+      "而 -m > 0 > m，所以较大的数是 -m。",
+      "答：-m。"
+    ],
+    "hint": "√(m²) = |m|，注意绝对值不能直接去掉。",
+    "alternative": "也可以取一个具体的 m = -2 试验：√4 = 2 而 m = -2，结论一致。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-radical__radical-param"
+  },
+  {
+    "id": "bank-math-j-1-radical-014",
+    "familyId": "math-j-1-radical__fam-014",
+    "version": 1,
+    "text": "解方程 √(x + 1) - √(x - 2) = 1，求 x 的值是____。",
+    "answer": "3",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 + 2 = 3。",
+      "移项得 √(x + 1) = 1 + √(x - 2)，两边平方得 x + 1 = 1 + 2√(x - 2) + x - 2，解得 √(x - 2) = 1，所以 x - 2 = 1，x = 3。",
+      "检验：√4 - √1 = 2 - 1 = 1，成立。",
+      "答：3。"
+    ],
+    "hint": "先移项再两边平方，把两个根式化简成一个。",
+    "alternative": "也可以在等式两边同时乘以 √(x + 1) + √(x - 2)，用平方差把根式消掉。",
+    "prerequisites": [
+      "math-j-1-radical"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-radical__radical-equation-square"
+  },
+  {
+    "id": "bank-math-j-1-radical-015",
+    "familyId": "math-j-1-radical__fam-015",
+    "version": 1,
+    "text": "一个直角三角形的两条直角边相差 1，斜边长为 5，求较长的直角边的长是____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-radical",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 - 1 = 4。",
+      "设较长直角边为 a、较短的一条为 a - 1，由勾股定理 a² + (a - 1)² = 25，整理得 a² - a - 12 = 0，解得 a = 4（负值舍去）。",
+      "两条直角边为 4 和 3，验证 3² + 4² = 25 成立。",
+      "答：4。"
+    ],
+    "hint": "设未知的直角边为 x，把较短的一条写成 x - 1，再列勾股方程。",
+    "alternative": "也可以先由 (a - b)² = 1 与 a² + b² = 25 求出 ab = 12，再由 a + b = 7 求出 a = 4、b = 3。",
+    "prerequisites": [
+      "math-j-1-radical",
+      "math-j-1-quadratic-eq",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-radical__radical-application"
+  },
+  {
+    "id": "bank-math-j-1-poly-001",
+    "familyId": "math-j-1-poly__fam-001",
+    "version": 1,
+    "text": "计算 2³ × 2² 的值是____。",
+    "answer": "32",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 2 × 2 × 2 × 2 = 32。",
+      "同底数幂相乘，底数不变、指数相加：2³ × 2² = 2⁵ = 32。",
+      "答：32。"
+    ],
+    "hint": "同底数幂相乘，指数相加。",
+    "alternative": "也可以把 2³ = 8、2² = 4 先分别算出来，再相乘得 32。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-poly__power-rules",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-002",
+    "familyId": "math-j-1-poly__fam-002",
+    "version": 1,
+    "text": "计算 (-3)² + 3² 的值是____。",
+    "answer": "18",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 3 + 3 × 3 = 18。",
+      "负数的偶次幂结果为正，所以 (-3)² = 9，而 3² = 9。",
+      "答：18。"
+    ],
+    "hint": "负数的偶次幂结果为正。",
+    "alternative": "也可以先算出两个平方再相加：9 + 9 = 18。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-poly__power-rules",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-003",
+    "familyId": "math-j-1-poly__fam-003",
+    "version": 1,
+    "text": "多项式 3x² - 2x + 5 与 x² + 4x - 1 的和是____。",
+    "answer": "4x² + 2x + 4",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "合并同类项：3x² + x² = 4x²，-2x + 4x = 2x，5 - 1 = 4。",
+      "答：4x² + 2x + 4。"
+    ],
+    "hint": "多项式相加就是各项分别相加，再合并同类项。",
+    "alternative": "也可以按 x² 项、x 项、常数项分成三组竖式相加。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-poly__polynomial-add-sub",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-004",
+    "familyId": "math-j-1-poly__fam-004",
+    "version": 1,
+    "text": "多项式 5x³ - 2x² + 7x - 3 减去 2x³ + 3x² - x 的结果是____。",
+    "answer": "3x³ - 5x² + 8x - 3",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "减法先写成加法：(5x³ - 2x² + 7x - 3) + (-2x³ - 3x² + x)。",
+      "合并同类项得 3x³ - 5x² + 8x - 3。",
+      "答：3x³ - 5x² + 8x - 3。"
+    ],
+    "hint": "减法先写成加法，去括号时每一项都要变号。",
+    "alternative": "也可以从被减式的每一项里分别减去减式的对应项。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-poly__polynomial-add-sub",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-005",
+    "familyId": "math-j-1-poly__fam-005",
+    "version": 1,
+    "text": "把多项式 -3 + 2x - x² 按降幂排列的结果是____。",
+    "answer": "-x² + 2x - 3",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "降幂排列就是按 x 的次数从高到低依次写出：-x² + 2x - 3。",
+      "答：-x² + 2x - 3。"
+    ],
+    "hint": "降幂是指次数高的项写在前面。",
+    "alternative": "也可以先标出各项次数：二次项 -x²、一次项 2x、常数项 -3，再依次排列。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-poly__polynomial-add-sub",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-006",
+    "familyId": "math-j-1-poly__fam-006",
+    "version": 1,
+    "text": "三角形三边长分别为 a、a + 2、a + 3，这个三角形的周长是____。",
+    "answer": "3a + 5",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "周长 = a + (a + 2) + (a + 3)。",
+      "合并同类项得 3a + 5。",
+      "答：3a + 5。"
+    ],
+    "hint": "先写出周长的和式，再合并同类项。",
+    "alternative": "也可以写成 3a + (2 + 3) = 3a + 5，注意合并的是常数项。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-poly__poly-geometry",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-007",
+    "familyId": "math-j-1-poly__fam-007",
+    "version": 1,
+    "text": "一个长方形的宽是 x 米，长比宽的 2 倍多 3 米，它的面积是____平方米。",
+    "answer": "2x² + 3x",
+    "unit": "平方米",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "长 = 2x + 3，宽 = x。",
+      "面积 = x(2x + 3) = 2x² + 3x。",
+      "答：2x² + 3x 平方米。"
+    ],
+    "hint": "用多项式乘单项式时，每一项都要乘。",
+    "alternative": "也可以先把长写成 (x + x + 3) 再与 x 相乘，最后合并同类项。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-poly__poly-geometry",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-008",
+    "familyId": "math-j-1-poly__fam-008",
+    "version": 1,
+    "text": "当 x = 1 时，多项式 2x² + 3x + 1 的值是____。",
+    "answer": "6",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 + 3 + 1 = 6。",
+      "把 x = 1 代入：2 × 1² + 3 × 1 + 1 = 2 + 3 + 1 = 6。",
+      "答：6。"
+    ],
+    "hint": "代入后先算乘方，再算乘法。",
+    "alternative": "也可以先把多项式看成 (2x + 1)(x + 1)，代入 x = 1 得 3 × 2 = 6。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-poly__poly-pattern",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-009",
+    "familyId": "math-j-1-poly__fam-009",
+    "version": 1,
+    "text": "某种商品原价 100 元，连续两次涨价 10% 后的价格是____元。",
+    "answer": "121",
+    "unit": "元",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100 × 1.1 × 1.1 = 121。",
+      "涨价 10% 就是原价乘 1.1，连续两次涨价就乘两个 1.1。",
+      "答：121 元。"
+    ],
+    "hint": "涨价 10% 后的价格 = 原价 × (1 + 10%)。",
+    "alternative": "也可以先算 (1 + 0.1)² = 1.21，再直接用 100 × 1.21 = 121。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-poly__poly-pattern",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-010",
+    "familyId": "math-j-1-poly__fam-010",
+    "version": 1,
+    "text": "一个数的 3 倍与它的平方的积是____。",
+    "answer": "3x³",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设这个数为 x，则 3 倍是 3x，平方是 x²。",
+      "积 = 3x · x² = 3x³。",
+      "答：3x³。"
+    ],
+    "hint": "单项式相乘时系数相乘、同底数幂相乘。",
+    "alternative": "也可以先写成 (3x) · (x · x)，再逐步合并同类项。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-poly__poly-multiply",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-011",
+    "familyId": "math-j-1-poly__fam-011",
+    "version": 1,
+    "text": "已知 a + b = 5，ab = 3，则 a² + b² 的值是____。",
+    "answer": "19",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 5 - 2 × 3 = 19。",
+      "a² + b² = (a + b)² - 2ab = 25 - 6 = 19。",
+      "答：19。"
+    ],
+    "hint": "把 a² + b² 写成 (a + b)² - 2ab 的形式。",
+    "alternative": "也可以先求 (a - b)² = (a + b)² - 4ab = 25 - 12 = 13，再由 a² + b² = ((a + b)² + (a - b)²)/2 求出 19。",
+    "prerequisites": [
+      "math-j-1-poly",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-poly__square-sum",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-012",
+    "familyId": "math-j-1-poly__fam-012",
+    "version": 1,
+    "text": "已知 x + 1/x = 3，求 x² + 1/x² 的值是____。",
+    "answer": "7",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 3 - 2 = 7。",
+      "x² + 1/x² = (x + 1/x)² - 2 = 9 - 2 = 7。",
+      "答：7。"
+    ],
+    "hint": "把 x² + 1/x² 写成 (x + 1/x)² - 2 的形式。",
+    "alternative": "也可以设 t = x + 1/x = 3，则所求 = t² - 2 = 7。",
+    "prerequisites": [
+      "math-j-1-poly",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-poly__square-reciprocal",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-013",
+    "familyId": "math-j-1-poly__fam-013",
+    "version": 1,
+    "text": "若多项式 (m + 1)x² - 2x + 3 是二次多项式，则 m 的取值范围是____。",
+    "answer": "m ≠ -1",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "二次多项式要求二次项的系数不为 0，即 m + 1 ≠ 0。",
+      "所以 m ≠ -1。",
+      "答：m ≠ -1。"
+    ],
+    "hint": "只要二次项系数不为 0，多项式的次数就是 2。",
+    "alternative": "也可以假设 m = -1 试试：这时二次项消失，整个式子变成一次多项式。",
+    "prerequisites": [
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-poly__poly-param",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-014",
+    "familyId": "math-j-1-poly__fam-014",
+    "version": 1,
+    "text": "已知 x = 2，y = 3，求 (x + y)² - (x - y)² 的值是____。",
+    "answer": "24",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 2 × 3 × 2 = 24。",
+      "(x + y)² - (x - y)² = [(x + y) + (x - y)][(x + y) - (x - y)] = (2x)(2y) = 4xy = 4 × 2 × 3 = 24。",
+      "答：24。"
+    ],
+    "hint": "用平方差公式 a² - b² = (a + b)(a - b)。",
+    "alternative": "也可以直接代入数值：5² - (-1)² = 25 - 1 = 24。",
+    "prerequisites": [
+      "math-j-1-poly",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-poly__square-eval",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-poly-015",
+    "familyId": "math-j-1-poly__fam-015",
+    "version": 1,
+    "text": "阅读材料：利用 (x - y)² = (x + y)² - 4xy 求值。若 x + y = 4，xy = 3，求 (x - y)² 的值是____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-poly",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 4 - 4 × 3 = 4。",
+      "由 (x - y)² = (x + y)² - 4xy = 16 - 12 = 4。",
+      "答：4。"
+    ],
+    "hint": "先把 (x - y)² 化成含 x + y 与 xy 的式子。",
+    "alternative": "也可以设 x - y = t，联立 x + y = 4 解出 x、y 后直接相减求平方。",
+    "prerequisites": [
+      "math-j-1-poly",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-poly__square-reading",
+    "examRef": {
+      "topicKey": "num-shape-idea",
+      "label": "2019 年上海中考数学第 25 题等采用的数形结合思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-001",
+    "familyId": "math-j-1-factor__fam-001",
+    "version": 1,
+    "text": "把 6x²y - 9xy² 分解因式，结果是____。",
+    "answer": "3xy(2x - 3y)",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出各项的最大公因式 3xy。",
+      "6x²y - 9xy² = 3xy(2x - 3y)，括号内已不能继续分解。",
+      "答：3xy(2x - 3y)。"
+    ],
+    "hint": "先找各项的最大公因式，再提出来。",
+    "alternative": "也可以分两步提：先提 3 得 3(2x²y - 3xy²)，再提 xy 得 3xy(2x - 3y)。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-factor__common-factor",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-002",
+    "familyId": "math-j-1-factor__fam-002",
+    "version": 1,
+    "text": "把 8a³b² + 12a²b³ 分解因式，结果是____。",
+    "answer": "4a²b²(2a + 3b)",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "各项的最大公因式是 4a²b²。",
+      "8a³b² + 12a²b³ = 4a²b²(2a + 3b)。",
+      "答：4a²b²(2a + 3b)。"
+    ],
+    "hint": "提公因式后要检查括号内是否还能分解。",
+    "alternative": "也可以先提 a²b² 得 a²b²(8a + 12b)，再提 4 得 4a²b²(2a + 3b)。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-factor__common-factor",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-003",
+    "familyId": "math-j-1-factor__fam-003",
+    "version": 1,
+    "text": "把 x² - 6x + 9 分解因式，结果是____。",
+    "answer": "(x - 3)²",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "x² - 6x + 9 = x² - 2 × 3 × x + 3² = (x - 3)²。",
+      "答：(x - 3)²。"
+    ],
+    "hint": "对照完全平方公式 a² ± 2ab + b²。",
+    "alternative": "也可以先写成 x² + 9 - 6x，再用 (a - b)² = a² - 2ab + b² 配成平方。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-factor__formula-factor",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-004",
+    "familyId": "math-j-1-factor__fam-004",
+    "version": 1,
+    "text": "把 4x² - 12xy + 9y² 分解因式，结果是____。",
+    "answer": "(2x - 3y)²",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4x² - 12xy + 9y² = (2x)² - 2 × 2x × 3y + (3y)² = (2x - 3y)²。",
+      "答：(2x - 3y)²。"
+    ],
+    "hint": "先找出首项与末项的平方根，再核对中间项。",
+    "alternative": "也可以用平方差公式：4x² - 12xy + 9y² = (2x)² - (3y)² = (2x + 3y)(2x - 3y)。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-factor__formula-factor",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-005",
+    "familyId": "math-j-1-factor__fam-005",
+    "version": 1,
+    "text": "把 x² - 16 分解因式，结果是____。",
+    "answer": "(x + 4)(x - 4)",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "x² - 16 = x² - 4² = (x + 4)(x - 4)。",
+      "答：(x + 4)(x - 4)。"
+    ],
+    "hint": "平方差公式 a² - b² = (a + b)(a - b)。",
+    "alternative": "也可以设 a = x、b = 4，直接写成 (x - 4)(x + 4)。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-factor__formula-factor",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-006",
+    "familyId": "math-j-1-factor__fam-006",
+    "version": 1,
+    "text": "化简 (x + 1)² - (x - 1)² 的结果是____。",
+    "answer": "4x",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(x + 1)² - (x - 1)² = [(x + 1) + (x - 1)][(x + 1) - (x - 1)] = 2x · 2 = 4x。",
+      "答：4x。"
+    ],
+    "hint": "把两个平方看成 a² - b²，用平方差公式。",
+    "alternative": "也可以分别展开： (x² + 2x + 1) - (x² - 2x + 1) = 4x。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-factor__factor-formula-calc",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-007",
+    "familyId": "math-j-1-factor__fam-007",
+    "version": 1,
+    "text": "计算 99 × 101 的结果是____。",
+    "answer": "9999",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "99 × 101 = 9999。",
+      "把 101 看成 100 + 1：99 × 101 = 99 × 100 + 99 = 9900 + 99 = 9999。",
+      "答：9999。"
+    ],
+    "hint": "把接近整百的数拆成整百数加减几。",
+    "alternative": "也可以用 (100 - 1)(100 + 1) = 100² - 1² = 10000 - 1 = 9999。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-factor__factor-formula-calc",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-008",
+    "familyId": "math-j-1-factor__fam-008",
+    "version": 1,
+    "text": "已知方程 x² - 5x + 6 = 0 的两个根是 x₁、x₂，则 x₁ + x₂ = ____。",
+    "answer": "5",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 x² - 5x + 6 = (x - 2)(x - 3)，得两个根分别是 2 与 3。",
+      "2 + 3 = 5。",
+      "答：x₁ + x₂ = 5。"
+    ],
+    "hint": "先分解因式求出两个根，再把它们相加。",
+    "alternative": "也可以直接用韦达定理：两根之和等于一次项系数的相反数，所以 x₁ + x₂ = 5。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-factor__factor-equation",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-009",
+    "familyId": "math-j-1-factor__fam-009",
+    "version": 1,
+    "text": "方程 (x - 1)(x + 3) = 0 的所有解是____。",
+    "answer": "1 或 -3",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 0 的乘法因数法则，x - 1 = 0 或 x + 3 = 0。",
+      "所以 x = 1 或 x = -3。",
+      "答：1 或 -3。"
+    ],
+    "hint": "两个因式的乘积为 0，则至少有一个因式为 0。",
+    "alternative": "也可以把左边展开成 x² + 2x - 3 = 0，再用求根公式求解。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-factor__factor-equation",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-010",
+    "familyId": "math-j-1-factor__fam-010",
+    "version": 1,
+    "text": "一个长方形的面积是 x² + 5x + 4，长与宽相差 3，求长方形的周长是____。",
+    "answer": "4x + 10",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 x² + 5x + 4 = (x + 1)(x + 4)，长与宽分别是 x + 4 与 x + 1，它们的差正好是 3。",
+      "周长 = 2[(x + 4) + (x + 1)] = 2(2x + 5) = 4x + 10。",
+      "答：4x + 10。"
+    ],
+    "hint": "先把面积分解因式，找出长与宽，再求周长。",
+    "alternative": "也可以用周长公式：长与宽之和为 (x + 1) + (x + 4) = 2x + 5，周长是它的 2 倍。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-factor__factor-area",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-011",
+    "familyId": "math-j-1-factor__fam-011",
+    "version": 1,
+    "text": "化简 (x² - 9)/(x + 3) 的结果是____。",
+    "answer": "x - 3",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "x² - 9 = (x + 3)(x - 3)。",
+      "约去公因式 x + 3（需 x ≠ -3），得 x - 3。",
+      "答：x - 3。"
+    ],
+    "hint": "先分解因式，再约去公因式。",
+    "alternative": "也可以直接用平方差公式写成 (x + 3)(x - 3)/(x + 3)。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-factor__factor-cancel",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-012",
+    "familyId": "math-j-1-factor__fam-012",
+    "version": 1,
+    "text": "已知 x² + y² = 25 且 xy = 12，则 (x + y)² 的值是____。",
+    "answer": "49",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 + 2 × 12 = 49。",
+      "(x + y)² = x² + 2xy + y² = 25 + 24 = 49。",
+      "答：49。"
+    ],
+    "hint": "把 (x + y)² 展开成 x² + 2xy + y²。",
+    "alternative": "也可以对比记忆：(x - y)² = 25 - 24 = 1。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-factor__factor-number",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-013",
+    "familyId": "math-j-1-factor__fam-013",
+    "version": 1,
+    "text": "若关于 x 的方程 x² + 2x + m = 0 有两个不相等的实数根，则 m 的取值范围是____。",
+    "answer": "m < 1",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "判别式 Δ = 2² - 4 × 1 × m = 4 - 4m。",
+      "有两个不相等的实数根需要 Δ > 0，即 4 - 4m > 0，解得 m < 1。",
+      "答：m < 1。"
+    ],
+    "hint": "两个不相等的实数根对应判别式大于 0。",
+    "alternative": "也可以用配方：x² + 2x + m = (x + 1)² + m - 1，方程有两个不同实根等价于 m - 1 < 0。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-factor__factor-param",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-014",
+    "familyId": "math-j-1-factor__fam-014",
+    "version": 1,
+    "text": "定义新运算 a◇b = a² - b²，求 5◇3 的值是____。",
+    "answer": "16",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 5 - 3 × 3 = 16。",
+      "5◇3 = 5² - 3² = 25 - 9 = 16。",
+      "答：16。"
+    ],
+    "hint": "按定义先算出两个数的平方再相减。",
+    "alternative": "也可以用平方差公式：5² - 3² = (5 + 3)(5 - 3) = 8 × 2 = 16。",
+    "prerequisites": [
+      "math-j-1-factor",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-factor__factor-newdefinition",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-factor-015",
+    "familyId": "math-j-1-factor__fam-015",
+    "version": 1,
+    "text": "阅读材料：若 (x - 1)² + (y + 2)² = 0，则 x = 1，y = -2。求 (x - 1)² + (y + 2)² = 0 时 x - y 的值是____。",
+    "answer": "3",
+    "unit": "",
+    "knowledgeId": "math-j-1-factor",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 + 2 = 3。",
+      "平方是非负数，两项平方和为 0 说明每一项都是 0，所以 x = 1，y = -2。",
+      "于是 x - y = 1 - (-2) = 3。",
+      "答：3。"
+    ],
+    "hint": "平方非负，两项平方和为 0 意味着每一项都是 0。",
+    "alternative": "也可以把两个平方分别移到等式两边：每个非负数等于 0，所以 x - 1 = 0 且 y + 2 = 0。",
+    "prerequisites": [
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-factor__factor-reading",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-001",
+    "familyId": "math-j-1-fraction__fam-001",
+    "version": 1,
+    "text": "当 x 取何值时，分式 (x - 3)/(x + 2) 有意义？",
+    "answer": "x ≠ -2",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分式有意义要求分母不为 0，即 x + 2 ≠ 0。",
+      "所以 x ≠ -2。",
+      "答：x ≠ -2。"
+    ],
+    "hint": "分母不能等于 0。",
+    "alternative": "也可以说：x 不能取 -2，其余任何实数取值都有意义。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-fraction__fraction-meaning",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-002",
+    "familyId": "math-j-1-fraction__fam-002",
+    "version": 1,
+    "text": "当 x 取何值时，分式 (4 - x²)/(x + 2) 的值为 0？",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 - 2 = 2。",
+      "分式的值为 0 需要分子为 0 且分母不为 0：4 - x² = 0 得 x = ±2，但 x = -2 时分母为 0 必须舍去，所以 x = 2。",
+      "答：2。"
+    ],
+    "hint": "分式值为 0 时，分子为 0 且分母不为 0。",
+    "alternative": "也可以先约分：(4 - x²)/(x + 2) = 2 - x（x ≠ -2），令 2 - x = 0 得 x = 2。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-fraction__fraction-meaning",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-003",
+    "familyId": "math-j-1-fraction__fam-003",
+    "version": 1,
+    "text": "化简 (x² - 6x + 9)/(x - 3) 的结果是____。",
+    "answer": "x - 3",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分子 x² - 6x + 9 = (x - 3)²。",
+      "约去公因式 x - 3（需 x ≠ 3），得 x - 3。",
+      "答：x - 3。"
+    ],
+    "hint": "先分解因式，再约分。",
+    "alternative": "也可以用多项式除法直接得到商 x - 3。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-fraction__fraction-simplify",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-004",
+    "familyId": "math-j-1-fraction__fam-004",
+    "version": 1,
+    "text": "计算 1/(x + 1) + 1/(x - 1) 的结果是____。",
+    "answer": "2x/(x² - 1)",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "通分：分母 (x + 1)(x - 1) = x² - 1，分子 (x - 1) + (x + 1) = 2x。",
+      "所以结果是 2x/(x² - 1)。",
+      "答：2x/(x² - 1)。"
+    ],
+    "hint": "分母相乘作公分母，分子相加。",
+    "alternative": "也可以先写成 2x/((x + 1)(x - 1))，再把分母化为 x² - 1。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-fraction__fraction-simplify",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-005",
+    "familyId": "math-j-1-fraction__fam-005",
+    "version": 1,
+    "text": "化简 a/(a + b) ÷ b/(a - b) 的结果是____。",
+    "answer": "a(a - b)/(b(a + b))",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "除以一个分式等于乘它的倒数：a/(a + b) ÷ b/(a - b) = a/(a + b) × (a - b)/b。",
+      "所以结果是 a(a - b)/(b(a + b))。",
+      "答：a(a - b)/(b(a + b))。"
+    ],
+    "hint": "除以分式变成乘它的倒数。",
+    "alternative": "也可以先写成 [a(a - b)]/[(a + b)b]，再把分子分母分别因式分解后判断能否约分。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-fraction__fraction-simplify",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-006",
+    "familyId": "math-j-1-fraction__fam-006",
+    "version": 1,
+    "text": "解分式方程 4/(x + 4) = 2/(x + 1)，x 的值是____。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 ÷ 2 = 2。",
+      "分母中每个因式都不能为 0，所以 x ≠ -4 且 x ≠ -1；两边同乘 (x + 4)(x + 1) 得 4(x + 1) = 2(x + 4)，即 4x + 4 = 2x + 8，解得 x = 2。",
+      "检验：4/6 = 2/3，原方程成立。",
+      "答：2。"
+    ],
+    "hint": "先写清分母中每个因式都不能为 0，再去分母。",
+    "alternative": "也可以两边同时除以 2 后交叉相乘：2/(x + 4) = 1/(x + 1)，得 2x + 2 = x + 4，解得 x = 2。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-fraction__fraction-equation",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-007",
+    "familyId": "math-j-1-fraction__fam-007",
+    "version": 1,
+    "text": "解分式方程 (x + 2)/(x - 1) = 3/(x - 1) + 3，并说明它有没有解。",
+    "answer": "无解",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分母 x - 1 不能为 0，所以 x ≠ 1。",
+      "两边同乘 (x - 1)：x + 2 = 3 + 3(x - 1) = 3x，解得 x = 1。",
+      "x = 1 使分母 x - 1 = 0，是增根必须舍去，所以原方程无解。",
+      "答：无解。"
+    ],
+    "hint": "去分母后一定要把使分母为 0 的根检验出来。",
+    "alternative": "也可以先移项化简：(x + 2 - 3)/(x - 1) = 3，即 1 = 3，直接看出矛盾，所以无解。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-fraction__fraction-extra-root",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-008",
+    "familyId": "math-j-1-fraction__fam-008",
+    "version": 1,
+    "text": "小明解分式方程 (x + 1)/(x - 3) = 4/(x - 3) + 2 时，两边同乘 (x - 3) 化简得 x + 1 = 2x - 2，解得 x = 3，就认为原方程的解是 x = 3。他的解答正确吗？请说明理由。",
+    "answer": "不正确，x = 3 是增根，原方程无解",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分式方程的分母 x - 3 不能为 0，所以 x ≠ 3。",
+      "小明的化简过程没有错误，但他没有检验：x = 3 使分母 x - 3 = 0，是增根。",
+      "所以原方程无解，小明的解答不正确。",
+      "答：不正确，x = 3 是增根，原方程无解。"
+    ],
+    "hint": "去分母得到的解一定要代回原方程检验分母。",
+    "alternative": "也可以把原方程移项：(x + 1 - 4)/(x - 3) = 2，即 (x - 3)/(x - 3) = 2，当 x ≠ 3 时左边恒为 1，与右边矛盾，所以无解。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-fraction__fraction-extra-root",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-009",
+    "familyId": "math-j-1-fraction__fam-009",
+    "version": 1,
+    "text": "若分式方程 (x + 1)/(x - 2) = 3/(x - 2) + 1 有解，则 x 的取值范围是____。",
+    "answer": "x ≠ 2",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "原方程等价于 (x + 1 - 3)/(x - 2) = 1，即 (x - 2)/(x - 2) = 1。",
+      "当 x ≠ 2 时左边恒等于 1，等式恒成立；当 x = 2 时原方程无意义。",
+      "所以只要 x ≠ 2，原方程就有解。",
+      "答：x ≠ 2。"
+    ],
+    "hint": "先化简，再看等式是否恒成立。",
+    "alternative": "也可以去分母：x + 1 = 3 + (x - 2)，即 x + 1 = x + 1，恒等式对任意 x 成立，再结合 x ≠ 2 判断。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-fraction__fraction-extra-root",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-010",
+    "familyId": "math-j-1-fraction__fam-010",
+    "version": 1,
+    "text": "一项工程，甲单独做 10 天完成，乙单独做 15 天完成。两人合作需要多少天完成？",
+    "answer": "6",
+    "unit": "天",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 × 15 ÷ 25 = 6。",
+      "把工作总量看作单位 1，甲的工效是 1/10，乙的工效是 1/15，合起来每天完成 1/10 + 1/15 = 1/6。",
+      "所以两人合作需要 6 天。",
+      "答：6 天。"
+    ],
+    "hint": "把工作总量看作单位 1，先求各自的工效再相加。",
+    "alternative": "也可以列方程：设合作需要 x 天，则 x(1/10 + 1/15) = 1，解得 x = 6。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-fraction__fraction-work",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-011",
+    "familyId": "math-j-1-fraction__fam-011",
+    "version": 1,
+    "text": "已知分式 (x - 1)/(x + 2) > 0 的解集是 x < -2 或 x > 1，在 -5 ≤ x ≤ 5 的范围内满足条件的整数 x 有____个。",
+    "answer": "7",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 + 4 = 7。",
+      "由解集知满足条件的是 x < -2 或 x > 1。",
+      "在 -5 ≤ x ≤ 5 内，满足 x < -2 的整数有 -5、-4、-3 共 3 个，满足 x > 1 的整数有 2、3、4、5 共 4 个。",
+      "所以共有 3 + 4 = 7 个。",
+      "答：7。"
+    ],
+    "hint": "先把解集分成两段，再分别数整数。",
+    "alternative": "也可以在数轴上标出 -5 到 5 之间满足条件的整数点直接计数。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-fraction__fraction-inequality",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-012",
+    "familyId": "math-j-1-fraction__fam-012",
+    "version": 1,
+    "text": "若分式方程 (m + 1)/(x - 2) + 3/(x - 2) = 2 有增根，求 m + 4 的值是____。",
+    "answer": "0",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "增根一定是使分母 x - 2 为 0 的值，即 x = 2。",
+      "去分母得 m + 1 + 3 = 2(x - 2)，即 m + 4 = 2(x - 2)。",
+      "把 x = 2 代入右边的 2(x - 2)。",
+      "2 × 2 - 4 = 0。",
+      "所以 m + 4 = 0。",
+      "答：0。"
+    ],
+    "hint": "增根必是使分母为 0 的值，把它代回去定参数。",
+    "alternative": "也可以把方程整理成 (m + 4)/(x - 2) = 2，代入 x = 2 时左边分母为 0 无意义，说明 x = 2 是增根。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-fraction__fraction-param",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-013",
+    "familyId": "math-j-1-fraction__fam-013",
+    "version": 1,
+    "text": "把 (x² - 9)/(x + 3) 与 x - 3 的和表示成最简分式（用最简整式表示）。",
+    "answer": "2x - 6",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(x² - 9)/(x + 3) = (x + 3)(x - 3)/(x + 3) = x - 3（需 x ≠ -3）。",
+      "所以 (x - 3) + (x - 3) = 2x - 6。",
+      "答：2x - 6。"
+    ],
+    "hint": "先约分，再合并同类项。",
+    "alternative": "也可以通分：(x² - 9 + (x - 3)(x + 3))/(x + 3) = (2x² - 18)/(x + 3)，约分后得 2x - 6。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-fraction__fraction-cancel",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-014",
+    "familyId": "math-j-1-fraction__fam-014",
+    "version": 1,
+    "text": "若分式 (x + 2)/(x - m) 在 x = 7 时的值为 3，则 m 的值是____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 - 3 = 4。",
+      "代入得 (7 + 2)/(7 - m) = 3，即 9 = 3(7 - m)，所以 3 = 7 - m，m = 4。",
+      "答：4。"
+    ],
+    "hint": "把 x 的值代入分式，再解关于 m 的方程。",
+    "alternative": "也可以由分子 9 等于分母的 3 倍，得 7 - m = 3，直接得 m = 4。",
+    "prerequisites": [
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-fraction__fraction-param-value",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-fraction-015",
+    "familyId": "math-j-1-fraction__fam-015",
+    "version": 1,
+    "text": "一项工程甲单独做 12 天完成，乙单独做 6 天完成。两人合作 3 天后，剩下的工作量由甲单独做还需要几天？",
+    "answer": "3",
+    "unit": "天",
+    "knowledgeId": "math-j-1-fraction",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 - 9 = 3。",
+      "合作一天的工效是 1/12 + 1/6 = 1/4，3 天完成 3/4，相当于甲单独做 9 天。",
+      "剩余工作量为 1/4，甲单独做需要 12 × 1/4 = 3 天。",
+      "答：3 天。"
+    ],
+    "hint": "先把合作完成的量折算成一个人（甲）的天数。",
+    "alternative": "也可以列方程：设甲还需 x 天，则 3(1/12 + 1/6) + x/12 = 1，解得 x = 3。",
+    "prerequisites": [
+      "math-j-1-fraction",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-fraction__fraction-work-advanced",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-001",
+    "familyId": "math-j-1-linear-eq__fam-001",
+    "version": 1,
+    "text": "解方程 3x - 7 = 14，x = ____。",
+    "answer": "7",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "移项得 3x = 14 + 7 = 21。",
+      "两边同除以 3。",
+      "21 ÷ 3 = 7。",
+      "答：7。"
+    ],
+    "hint": "先把含 x 的项与常数项分别移到两边。",
+    "alternative": "也可以用检验法：把 x = 7 代回原方程，3 × 7 - 7 = 14，等式成立，所以 x = 7。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-linear-eq__linear-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-002",
+    "familyId": "math-j-1-linear-eq__fam-002",
+    "version": 1,
+    "text": "解方程 4x - 5 = 3x + 8，x = ____。",
+    "answer": "13",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 + 5 = 13。",
+      "移项得 4x - 3x = 8 + 5，即 x = 13。",
+      "答：13。"
+    ],
+    "hint": "把含 x 的项移到左边，常数项移到右边。",
+    "alternative": "也可以两边同时减去 3x，再同时加上 5。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-linear-eq__linear-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-003",
+    "familyId": "math-j-1-linear-eq__fam-003",
+    "version": 1,
+    "text": "解方程 2(x - 3) = x + 6，x = ____。",
+    "answer": "12",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 + 6 = 12。",
+      "去括号得 2x - 6 = x + 6，移项得 x = 12。",
+      "答：12。"
+    ],
+    "hint": "去括号时括号里的每一项都要乘 2。",
+    "alternative": "也可以两边同时加 6 得 2x = x + 12，再两边同时减 x。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-linear-eq__linear-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-004",
+    "familyId": "math-j-1-linear-eq__fam-004",
+    "version": 1,
+    "text": "解二元一次方程组 x + y = 7，x - y = 1，x = ____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 - 3 = 4。",
+      "两式相加得 2x = 8，所以 x = 4，代回得 y = 3。",
+      "答：4。"
+    ],
+    "hint": "两式相加或相减可以消去 y。",
+    "alternative": "也可以用代入法：由 x + y = 7 得 y = 7 - x，代入第二式得 x - (7 - x) = 1，解得 x = 4。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-linear-eq__linear-system",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-005",
+    "familyId": "math-j-1-linear-eq__fam-005",
+    "version": 1,
+    "text": "若 x + 2y = 7，x - y = 1，则 3x + 2y 的值是____。",
+    "answer": "13",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 + 2 × 3 = 13。",
+      "两式相减得 3y = 6，y = 2，代回得 x = 3。",
+      "所以 3x + 2y = 3 × 3 + 2 × 2 = 9 + 4 = 13。",
+      "答：13。"
+    ],
+    "hint": "先解出 x、y 再代入求值，也可以直接变形目标式。",
+    "alternative": "也可以注意 3x + 2y = (x + 2y) + 2x，只需求出 x 即可。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-linear-eq__linear-system",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-006",
+    "familyId": "math-j-1-linear-eq__fam-006",
+    "version": 1,
+    "text": "一个数的 3 倍与它的 5 倍的差是 14，求这个数是____。",
+    "answer": "7",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "14 ÷ 2 = 7。",
+      "设这个数为 x，则 5x - 3x = 14，即 2x = 14，x = 7。",
+      "答：7。"
+    ],
+    "hint": "先想清楚 5 倍与 3 倍相差的是几倍。",
+    "alternative": "也可以设这个数为 x，直接列方程 5x - 3x = 14 求 x。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-linear-eq__linear-app-number",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-007",
+    "familyId": "math-j-1-linear-eq__fam-007",
+    "version": 1,
+    "text": "买 3 支笔和 2 本笔记本共 26 元，已知 1 本笔记本 7 元，1 支笔的价格是____元。",
+    "answer": "4",
+    "unit": "元",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(26 - 2 × 7) ÷ 3 = 4。",
+      "设 1 支笔的价格为 x 元，则 3x + 2 × 7 = 26，解得 x = 4。",
+      "答：4 元。"
+    ],
+    "hint": "先算出笔记本占去的钱，再看剩下的钱能买几支笔。",
+    "alternative": "也可以列二元一次方程组 3x + 2y = 26、y = 7，代入求解。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-linear-eq__linear-app-shopping",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-008",
+    "familyId": "math-j-1-linear-eq__fam-008",
+    "version": 1,
+    "text": "甲、乙两人同时从 A 地出发去 B 地，甲每小时行 5 千米，乙每小时行 9 千米，乙比甲早到 2 小时，A、B 两地相距多少千米？",
+    "answer": "22.5",
+    "unit": "千米",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 9 ÷ 2 = 22.5。",
+      "设 A、B 两地相距 d 千米，则 d/5 - d/9 = 2，即 d × 4/45 = 2，解得 d = 45/2 = 22.5。",
+      "答：22.5 千米。"
+    ],
+    "hint": "行程问题里时间 = 路程 ÷ 速度，先把时间差写成方程。",
+    "alternative": "也可以用比例：甲乙速度比 5:9，甲乙所用时间比 9:5，时间差 2 份对应 9-5 = 4 份。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-linear-eq__linear-app-work-travel",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-009",
+    "familyId": "math-j-1-linear-eq__fam-009",
+    "version": 1,
+    "text": "一项工作甲单独做 20 天完成，乙单独做 30 天完成，两人合作需要多少天完成？",
+    "answer": "12",
+    "unit": "天",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20 × 30 ÷ 50 = 12。",
+      "把工作总量看作单位 1，甲的工效是 1/20，乙的工效是 1/30，合起来每天完成 1/20 + 1/30 = 1/12。",
+      "所以两人合作需要 12 天。",
+      "答：12 天。"
+    ],
+    "hint": "先求各自的工效再相加。",
+    "alternative": "也可以列方程：设合作需要 x 天，则 x(1/20 + 1/30) = 1，解得 x = 12。",
+    "prerequisites": [
+      "math-j-1-linear-eq",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-linear-eq__linear-app-work-travel",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-010",
+    "familyId": "math-j-1-linear-eq__fam-010",
+    "version": 1,
+    "text": "某班共有 46 名学生，男生比女生多 4 人，男生有____人。",
+    "answer": "25",
+    "unit": "人",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(46 + 4) ÷ 2 = 25。",
+      "设女生有 x 人，则男生有 x + 4 人，x + (x + 4) = 46，解得 x = 21，男生 25 人。",
+      "答：25 人。"
+    ],
+    "hint": "把女生人数设为 x，男生比女生多 4 人。",
+    "alternative": "也可以先求男生与女生相差的 4 人在总人数中对应的份额。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-linear-eq__linear-app-shopping",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-011",
+    "familyId": "math-j-1-linear-eq__fam-011",
+    "version": 1,
+    "text": "已知关于 x 的方程 (a - 2)x + 5 = 1 的解是 x = 2，求 a 的值是____。",
+    "answer": "0",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 x = 2 代入：(a - 2) × 2 + 5 = 1，即 2a - 4 + 5 = 1。",
+      "移项得 2a = 1 - 5 + 4。",
+      "1 - 5 + 4 = 0。",
+      "所以 a = 0。",
+      "答：0。"
+    ],
+    "hint": "方程的解已知时，把解代回方程再求参数。",
+    "alternative": "也可以整理成 (a - 2) × 2 = 1 - 5 = -4，由 2a - 4 = -4 得 a = 0。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-linear-eq__linear-param",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-012",
+    "familyId": "math-j-1-linear-eq__fam-012",
+    "version": 1,
+    "text": "若关于 x 的方程 ax + 3 = x + 1 无解，则 a + 1 的值是____。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "1 + 1 = 2。",
+      "整理得 (a - 1)x = -2；要使方程无解，必须一次项系数为 0 且常数项不为 0，即 a - 1 = 0，所以 a = 1。",
+      "因此 a + 1 = 2。",
+      "答：2。"
+    ],
+    "hint": "方程 (a - 1)x = -2 无解的条件是一次项系数为 0 而常数项不为 0。",
+    "alternative": "也可以直接检验：a = 1 时方程变成 3 = 1，确实无解。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-linear-eq__linear-no-solution",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-013",
+    "familyId": "math-j-1-linear-eq__fam-013",
+    "version": 1,
+    "text": "定义新运算 a★b = 2a + 3b，求 1★2 + 2★1 的值是____。",
+    "answer": "15",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 1 + 3 × 2 + 2 × 2 + 3 × 1 = 15。",
+      "1★2 = 2 × 1 + 3 × 2 = 8，2★1 = 2 × 2 + 3 × 1 = 7。",
+      "所以 1★2 + 2★1 = 8 + 7 = 15。",
+      "答：15。"
+    ],
+    "hint": "按定义先分别算出两个★的值再相加。",
+    "alternative": "也可以把两个式子合并成 2(1 + 2) + 3(2 + 1) = 6 + 9 = 15。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-linear-eq__linear-newdefinition",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-014",
+    "familyId": "math-j-1-linear-eq__fam-014",
+    "version": 1,
+    "text": "解方程 |x - 3| + 2 = 6，x 的值是____。",
+    "answer": "7 或 -1",
+    "unit": "",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "移项得 |x - 3| = 4，表示 x 到 3 的距离是 4，所以 x = 3 + 4 或 x = 3 - 4。",
+      "3 + 4 = 7，3 - 4 = -1。",
+      "答：7 或 -1。"
+    ],
+    "hint": "先求出绝对值里的值，再按绝对值的意义分类讨论。",
+    "alternative": "也可以分两种情况：x - 3 = 4 得 x = 7；x - 3 = -4 得 x = -1。",
+    "prerequisites": [
+      "math-j-1-linear-eq",
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-linear-eq__linear-absolute",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-linear-eq-015",
+    "familyId": "math-j-1-linear-eq__fam-015",
+    "version": 1,
+    "text": "某工程队安排两个班组修路，甲班每天修 12 米，乙班每天修 8 米，两班同时修 10 天后还剩 60 米没修，这条路长多少米？",
+    "answer": "260",
+    "unit": "米",
+    "knowledgeId": "math-j-1-linear-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(12 + 8) × 10 + 60 = 260。",
+      "两班 10 天共修 (12 + 8) × 10 = 200 米，加上剩下的 60 米，这条路长 260 米。",
+      "答：260 米。"
+    ],
+    "hint": "先算两个班共同完成的路程，再加上剩余部分。",
+    "alternative": "也可以设这条路长 x 米，列方程 x = 12 × 10 + 8 × 10 + 60 求得 x = 260。",
+    "prerequisites": [
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-linear-eq__linear-system-app",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-001",
+    "familyId": "math-j-1-inequality__fam-001",
+    "version": 1,
+    "text": "解不等式 3x - 5 > 7，x 的取值范围是____。",
+    "answer": "x > 4",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "移项得 3x > 7 + 5 = 12。",
+      "两边同除以正数 3，不等号方向不变，得 x > 4。",
+      "答：x > 4。"
+    ],
+    "hint": "两边同除以正数时，不等号方向不变。",
+    "alternative": "也可以在数轴上表示解集，它是数轴上 4 右侧的部分。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-inequality__inequality-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-002",
+    "familyId": "math-j-1-inequality__fam-002",
+    "version": 1,
+    "text": "解不等式 2(x - 1) ≤ 6，x 的取值范围是____。",
+    "answer": "x ≤ 4",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "去括号得 2x - 2 ≤ 6，移项得 2x ≤ 8。",
+      "两边同除以正数 2，得 x ≤ 4。",
+      "答：x ≤ 4。"
+    ],
+    "hint": "去括号与移项时都不要漏乘。",
+    "alternative": "也可以两边同除以 2 得 x - 1 ≤ 3，再两边同加 1。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-inequality__inequality-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-003",
+    "familyId": "math-j-1-inequality__fam-003",
+    "version": 1,
+    "text": "解不等式 (x - 1)/2 ≥ 3，x 的取值范围是____。",
+    "answer": "x ≥ 7",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两边同乘 2（2 是正数，方向不变）：x - 1 ≥ 6。",
+      "两边同加 1：x ≥ 7。",
+      "答：x ≥ 7。"
+    ],
+    "hint": "分母是正数时可以直接同乘。",
+    "alternative": "也可以先两边同乘 2 再移项，或直接写成 x ≥ 2 × 3 + 1。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-inequality__inequality-solve",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-004",
+    "familyId": "math-j-1-inequality__fam-004",
+    "version": 1,
+    "text": "解不等式组 2x - 1 > 3，x ≤ 4，其解集是____。",
+    "answer": "2 < x ≤ 4",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 2x - 1 > 3 得 2x > 4，即 x > 2。",
+      "再与 x ≤ 4 取公共部分，得 2 < x ≤ 4。",
+      "答：2 < x ≤ 4。"
+    ],
+    "hint": "不等式组的解集是各个不等式解集的公共部分。",
+    "alternative": "也可以把两个解集画在同一数轴上，重叠的部分就是解集。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-inequality__inequality-group",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-005",
+    "familyId": "math-j-1-inequality__fam-005",
+    "version": 1,
+    "text": "若不等式组 x > 2，x < 2 的解集是____。",
+    "answer": "空集",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "x > 2 要求 x 在 2 的右边，x < 2 要求 x 在 2 的左边。",
+      "两个条件不可能同时成立，所以解集是空集。",
+      "答：空集。"
+    ],
+    "hint": "把两个解集画在同一数轴上，看有没有重叠部分。",
+    "alternative": "也可以取一个数去检验，比如取 x = 2，两个不等式都不满足。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-inequality__inequality-group",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-006",
+    "familyId": "math-j-1-inequality__fam-006",
+    "version": 1,
+    "text": "小华带 50 元买笔记本，每本 8 元，最多能买多少本？",
+    "answer": "6",
+    "unit": "本",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(50 - 2) ÷ 8 = 6。",
+      "设买 x 本，则 8x ≤ 50，得 x ≤ 6.25。",
+      "x 必须是整数，所以最多买 6 本，还剩 2 元。",
+      "答：6 本。"
+    ],
+    "hint": "先列出不等式，再注意本数必须是整数。",
+    "alternative": "也可以直接估算：50 ÷ 8 = 6 余 2，所以买 6 本还能剩 2 元。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-inequality__inequality-app-budget",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-007",
+    "familyId": "math-j-1-inequality__fam-007",
+    "version": 1,
+    "text": "某班用 500 元购买两种笔记本，甲种每本 20 元、乙种每本 25 元，两种都买且甲种至少买 5 本，最多可以买多少本？",
+    "answer": "24",
+    "unit": "本",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设甲种买 a 本、乙种买 b 本，则 20a + 25b ≤ 500，a ≥ 5，b ≥ 1。",
+      "乙种每本 25 元比甲种的 20 元贵，要让本数最多，乙种买 1 本就够，其余全买甲种。",
+      "先买 5 本甲种和 1 本乙种，用去 5 × 20 + 25 = 125 元，还剩 375 元。",
+      "剩下的 375 元全买甲种，可买 375 ÷ 20 = 18.75 本，即 18 本。",
+      "5 + 1 + 18 = 24。",
+      "若买 25 本，最省也要 24 × 20 + 1 × 25 = 505 元，超过 500 元，所以最多买 24 本。",
+      "答：24 本。"
+    ],
+    "hint": "先把必须买的那部分去掉，剩下的钱优先买便宜的。",
+    "alternative": "也可以列不等式求解：设甲种买 a 本、乙种买 1 本，则 20a + 25 ≤ 500，得 a ≤ 23.75，即甲种最多买 23 本，加上乙种 1 本共 24 本。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-inequality__inequality-app-budget",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-008",
+    "familyId": "math-j-1-inequality__fam-008",
+    "version": 1,
+    "text": "某校组织体检，方案甲每次收费 5 元，方案乙每次收费 3 元但需先办一张 20 元的卡。小明一年体检 12 次，用方案乙比用方案甲省多少元？",
+    "answer": "4",
+    "unit": "元",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 5 - 20 - 12 × 3 = 4。",
+      "方案甲共需 12 × 5 = 60 元，方案乙共需 20 + 12 × 3 = 56 元。",
+      "所以方案乙比方案甲省 60 - 56 = 4 元。",
+      "答：4 元。"
+    ],
+    "hint": "把两种方案的总费用都算出来再比较。",
+    "alternative": "也可以先算每次的差价 2 元，12 次共 24 元，再减去办卡的 20 元。",
+    "prerequisites": [
+      "math-j-1-inequality",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-inequality__inequality-app-compare",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-009",
+    "familyId": "math-j-1-inequality__fam-009",
+    "version": 1,
+    "text": "一次数学测验满分为 100 分，小林前 4 次的平均分为 85 分。若要使 5 次测验的平均分不低于 88 分，第 5 次至少要考____分。",
+    "answer": "100",
+    "unit": "分",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 88 - 4 × 85 = 100。",
+      "5 次总 分至少要 5 × 88 = 440 分，前 4 次共 4 × 85 = 340 分。",
+      "所以第 5 次至少要 440 - 340 = 100 分。",
+      "答：100 分。"
+    ],
+    "hint": "先算出总分的下限，再减去已经得到的分数。",
+    "alternative": "也可以设第 5 次考 x 分，列不等式 (4 × 85 + x)/5 ≥ 88 解得 x ≥ 100。",
+    "prerequisites": [
+      "math-j-1-inequality",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-inequality__inequality-app-compare",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-010",
+    "familyId": "math-j-1-inequality__fam-010",
+    "version": 1,
+    "text": "甲、乙两班共 100 人，若甲班人数不少于 30 人且不超过 45 人，则乙班人数的取值范围是____。",
+    "answer": "55 ≤ 乙 ≤ 70",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设甲班人数为 a，则 30 ≤ a ≤ 45。",
+      "乙班人数 = 100 - a，当 a 取最大值 45 时乙最少为 55；当 a 取最小值 30 时乙最多为 70。",
+      "答：55 ≤ 乙 ≤ 70。"
+    ],
+    "hint": "和是定值时，一部分变大另一部分就变小，注意端点对应关系。",
+    "alternative": "也可以画一条线段表示 100 人，按 30 与 45 两个界点切分。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-inequality__inequality-group-app",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-011",
+    "familyId": "math-j-1-inequality__fam-011",
+    "version": 1,
+    "text": "若关于 x 的不等式 2x + a > 4 的解集包含 x = 3，求 a 的取值范围是____。",
+    "answer": "a > -2",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "解集包含 x = 3，说明 x = 3 满足这个不等式。",
+      "把 x = 3 代入得 2 × 3 + a > 4，即 a > -2。",
+      "答：a > -2。"
+    ],
+    "hint": "把要包含的那个数代入不等式再解参数。",
+    "alternative": "也可以先解不等式：2x > 4 - a，得 x > (4 - a)/2；要使 x = 3 被包含，需要 3 > (4 - a)/2，解得 a > -2。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-inequality__inequality-param",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-012",
+    "familyId": "math-j-1-inequality__fam-012",
+    "version": 1,
+    "text": "不等式组 x < -1 或 x > 2，x > -3 的解集是____。",
+    "answer": "-3 < x < -1 或 x > 2",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第一组是两个区间的并集：x < -1 或 x > 2。",
+      "再与 x > -3 取公共部分：x < -1 的部分变成 -3 < x < -1，x > 2 的部分保持不变。",
+      "答：-3 < x < -1 或 x > 2。"
+    ],
+    "hint": "不等式组的解集是每个不等式解集的公共部分，注意并集情况。",
+    "alternative": "也可以在数轴上分别画出两个解集，再取重叠部分。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-inequality__inequality-group-cases",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-013",
+    "familyId": "math-j-1-inequality__fam-013",
+    "version": 1,
+    "text": "不等式组 x + 1 > x，x - 1 < x + 5 的解集是____。",
+    "answer": "所有实数",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第一个不等式 x + 1 > x 等价于 1 > 0，恒成立。",
+      "第二个不等式 x - 1 < x + 5 等价于 -1 < 5，也恒成立。",
+      "两个条件对任意实数 x 都满足，所以解集是所有实数。",
+      "答：所有实数。"
+    ],
+    "hint": "把每个不等式化简成恒成立的式子，就能看出解集覆盖整个数轴。",
+    "alternative": "也可以取任意一个实数去检验，都能同时满足这两个不等式。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-inequality__inequality-all-real",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-014",
+    "familyId": "math-j-1-inequality__fam-014",
+    "version": 1,
+    "text": "解不等式 |x - 1| < 3，x 的取值范围是____。",
+    "answer": "-2 < x < 4",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "|x - 1| < 3 表示 x 到 1 的距离小于 3，所以 1 - 3 < x < 1 + 3。",
+      "答：-2 < x < 4。"
+    ],
+    "hint": "绝对值小于一个数，表示到某点的距离在这个数以内。",
+    "alternative": "也可以分两种情况讨论：x - 1 < 3 且 x - 1 > -3，合并即得结果。",
+    "prerequisites": [
+      "math-j-1-inequality",
+      "math-j-1-real"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-inequality__inequality-absolute",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-inequality-015",
+    "familyId": "math-j-1-inequality__fam-015",
+    "version": 1,
+    "text": "已知 x 同时满足 2 ≤ x ≤ 5 与 3 ≤ x ≤ 8，则 x 的最大值与最小值之差是____。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-inequality",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 - 3 = 2。",
+      "两个条件取公共部分得 3 ≤ x ≤ 5，所以 x 的最大值为 5，最小值为 3。",
+      "它们的差是 5 - 3 = 2。",
+      "答：2。"
+    ],
+    "hint": "先求公共区间，再看端点。",
+    "alternative": "也可以直接观察两个区间的重叠部分，最小值取较大的下界、最大值取较小的上界。",
+    "prerequisites": [
+      "math-j-1-inequality"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-inequality__inequality-maxmin",
+    "examRef": {
+      "topicKey": "case-discussion",
+      "label": "2019 年上海中考数学第 25 题等采用的分类讨论思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20190616/12952.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2019 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-001",
+    "familyId": "math-j-1-quadratic-eq__fam-001",
+    "version": 1,
+    "text": "解方程 x² - 5x + 6 = 0，较大的根是____。",
+    "answer": "3",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 ÷ 2 = 3。",
+      "x² - 5x + 6 = (x - 2)(x - 3)，两根是 2 和 3，较大的根是 3。",
+      "答：3。"
+    ],
+    "hint": "先看看能不能分解因式，能分解就比求根公式简便。",
+    "alternative": "也可以用求根公式：x = (5 ± √(25 - 24))/2 = (5 ± 1)/2，得 x = 3 或 x = 2。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-factor"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-quadratic-eq__quad-solve",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-002",
+    "familyId": "math-j-1-quadratic-eq__fam-002",
+    "version": 1,
+    "text": "解方程 x² - 2x - 3 = 0，x 的值是____。",
+    "answer": "3 或 -1",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由求根公式 x = (2 ± √(2² + 4 × 3))/2 = (2 ± 4)/2。",
+      "所以 x = 3 或 x = -1。",
+      "答：3 或 -1。"
+    ],
+    "hint": "求根公式是 x = (-b ± √(b² - 4ac))/(2a)。",
+    "alternative": "也可以分解因式：x² - 2x - 3 = (x - 3)(x + 1) = 0。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-quadratic-eq__quad-solve",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-003",
+    "familyId": "math-j-1-quadratic-eq__fam-003",
+    "version": 1,
+    "text": "若 x₁、x₂ 是方程 x² - 5x + 6 = 0 的两个根，则 1/x₁ + 1/x₂ = ____。",
+    "answer": "5/6",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由韦达定理 x₁ + x₂ = 5，x₁x₂ = 6。",
+      "所以 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁x₂) = 5/6。",
+      "答：5/6。"
+    ],
+    "hint": "先由韦达定理写出两根之和与两根之积，再把倒数和通分。",
+    "alternative": "也可以先分解因式求出两根 2 与 3，再直接算 1/2 + 1/3。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-quadratic-eq__quad-viete",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-004",
+    "familyId": "math-j-1-quadratic-eq__fam-004",
+    "version": 1,
+    "text": "已知方程 x² - a x + 2 = 0 的两根之和为 3，则 a 的值是____。",
+    "answer": "3",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "方程 x² - a x + 2 = 0 的两根之和等于一次项系数的相反数，也就是 a。",
+      "已知两根之和为 3，所以 a = 3。",
+      "检验：此时方程为 x² - 3x + 2 = 0，两个根是 2 与 1。",
+      "2 + 1 = 3。",
+      "答：a = 3。"
+    ],
+    "hint": "两根之和为 3 时，一次项系数是 -3。",
+    "alternative": "也可以直接设两根为 x₁、x₂，由 x₁ + x₂ = 3 与韦达定理 -a = 3 对照。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-quadratic-eq__quad-viete",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-005",
+    "familyId": "math-j-1-quadratic-eq__fam-005",
+    "version": 1,
+    "text": "已知 x₁ + x₂ = 7，x₁x₂ = 12，则 x₁² + x₂² 的值是____。",
+    "answer": "25",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 × 7 - 2 × 12 = 25。",
+      "x₁² + x₂² = (x₁ + x₂)² - 2x₁x₂ = 49 - 24 = 25。",
+      "答：25。"
+    ],
+    "hint": "用 (x₁ + x₂)² = x₁² + 2x₁x₂ + x₂² 变形。",
+    "alternative": "也可以先求 (x₁ - x₂)² = 49 - 48 = 1，再由 x₁² + x₂² = [(x₁ + x₂)² + (x₁ - x₂)²]/2 求出 25。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-j-1-quadratic-eq__quad-viete",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-006",
+    "familyId": "math-j-1-quadratic-eq__fam-006",
+    "version": 1,
+    "text": "一个长方形的面积是 24 平方米，长与宽相差 2 米，求长方形的周长是____米。",
+    "answer": "20",
+    "unit": "米",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 10 = 20。",
+      "设长为 a、宽为 b，则 ab = 24，a - b = 2。",
+      "由 (a + b)² = (a - b)² + 4ab = 4 + 96 = 100 得 a + b = 10，所以周长 = 2(a + b) = 20 米。",
+      "答：20 米。"
+    ],
+    "hint": "用 (a + b)² = (a - b)² + 4ab 先求出长与宽的和。",
+    "alternative": "也可以设宽为 x，列方程 x(x + 2) = 24，解得 x = 4、长为 6，周长为 20 米。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-quadratic-eq__quad-app-area",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-007",
+    "familyId": "math-j-1-quadratic-eq__fam-007",
+    "version": 1,
+    "text": "一个等腰三角形的腰长为 4，高为 2√3，求它的底边长是____。",
+    "answer": "4",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 + 2 = 4。",
+      "过底边中点作垂线，把三角形分成两个直角三角形，斜边是 4，直角边是 2√3。",
+      "由勾股定理，半底边 = √(4² - (2√3)²) = √(16 - 12) = 2，所以底边 = 2 × 2 = 4。",
+      "答：4。"
+    ],
+    "hint": "等腰三角形的高平分底边，先求出半底边。",
+    "alternative": "也可以设底边为 b，由等腰三角形面积公式联立方程求解。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-radical",
+      "math-j-3-triangle"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-quadratic-eq__quad-app-area",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-008",
+    "familyId": "math-j-1-quadratic-eq__fam-008",
+    "version": 1,
+    "text": "某商品每件进价 20 元，售价 30 元时每天可售 20 件，售价每降低 1 元每天多售 2 件。若每天要盈利 192 元，售价应定为多少元？",
+    "answer": "28",
+    "unit": "元",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 - 2 = 28。",
+      "设降价 x 元，则售价 30 - x 元，每天售出 20 + 2x 件，每件盈利 10 - x 元。",
+      "列方程 (10 - x)(20 + 2x) = 192，展开得 200 - 2x² = 192，即 x² = 4，解得 x = 2 或 x = -2；因为 x 表示降价的元数，x ≥ 0，所以 x = 2，售价为 30 - 2 = 28 元。",
+      "检验：售价 28 元时每天售 24 件，每件盈利 8 元，共 192 元。",
+      "答：28 元。"
+    ],
+    "hint": "设降价多少元为未知数，写出售价、销量、每件盈利三个量。",
+    "alternative": "也可以设售价为 y 元，则每天销量为 80 - 2y，每件盈利 y - 20，列方程 (80 - 2y)(y - 20) = 192。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-quadratic-eq__quad-app-profit",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-009",
+    "familyId": "math-j-1-quadratic-eq__fam-009",
+    "version": 1,
+    "text": "一个长方形的长与宽的和是 10 厘米，长与宽的差是 4 厘米，求它的面积是____平方厘米。",
+    "answer": "21",
+    "unit": "平方厘米",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(10 + 4) ÷ 2 × (10 - 4) ÷ 2 = 21。",
+      "长 = (10 + 4) ÷ 2 = 7 厘米，宽 = (10 - 4) ÷ 2 = 3 厘米。",
+      "面积 = 7 × 3 = 21 平方厘米。",
+      "答：21 平方厘米。"
+    ],
+    "hint": "先由周长求出长与宽的和，再由差求出长和宽。",
+    "alternative": "也可以设宽为 x，列方程 2x + 4 = 10 解得 x = 3，面积 = 3 × 7 = 21。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-quadratic-eq__quad-app-area",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-010",
+    "familyId": "math-j-1-quadratic-eq__fam-010",
+    "version": 1,
+    "text": "甲、乙两人分别从 A、B 两地同时出发相向而行，甲每小时行 6 千米，乙每小时行 8 千米，2 小时后两人相遇，A、B 两地相距____千米。",
+    "answer": "28",
+    "unit": "千米",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(6 + 8) × 2 = 28。",
+      "两人 1 小时共行 6 + 8 = 14 千米，2 小时共行 28 千米。",
+      "答：28 千米。"
+    ],
+    "hint": "相遇问题中路程和 = 速度和 × 相遇时间。",
+    "alternative": "也可以设两地相距 x 千米，列方程 x = (6 + 8) × 2。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-linear-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-j-1-quadratic-eq__quad-app-travel",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-011",
+    "familyId": "math-j-1-quadratic-eq__fam-011",
+    "version": 1,
+    "text": "若关于 x 的方程 (m - 1)x² + 3x + 2 = 0 是一元二次方程且有实数根，求 m 的取值范围是____。",
+    "answer": "m ≤ 17/8 且 m ≠ 1",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "方程是一元二次方程要求 m - 1 ≠ 0，即 m ≠ 1。",
+      "有实数根要求判别式 Δ = 3² - 4 × (m - 1) × 2 = 17 - 8m ≥ 0，解得 m ≤ 17/8。",
+      "答：m ≤ 17/8 且 m ≠ 1。"
+    ],
+    "hint": "既要注意二次项系数不为 0，又要用判别式不小于 0。",
+    "alternative": "也可以先把方程看成 (m - 1)x² + 3x + 2 = 0，用求根公式存在实根的条件同样得到 Δ ≥ 0。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-quadratic-eq__quad-discriminant",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-012",
+    "familyId": "math-j-1-quadratic-eq__fam-012",
+    "version": 1,
+    "text": "已知关于 x 的方程 x² - 3x + m = 0 的两根之差的平方为 5，求 m 的值是____。",
+    "answer": "1",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由韦达定理 x₁ + x₂ = 3，x₁x₂ = m。",
+      "两根之差的平方 = (x₁ + x₂)² - 4x₁x₂ = 9 - 4m = 5。",
+      "移项得 4m = 4，所以 m = 1。",
+      "4 ÷ 4 = 1。",
+      "答：1。"
+    ],
+    "hint": "两根之差的平方可以用 (x₁ + x₂)² - 4x₁x₂ 表示。",
+    "alternative": "也可以先分解因式设两根为 x₁、x₂，直接用 (x₁ - x₂)² 与韦达定理联立。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-quadratic-eq__quad-viete-param",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-013",
+    "familyId": "math-j-1-quadratic-eq__fam-013",
+    "version": 1,
+    "text": "阅读材料：若 m、n 是方程 x² - 6x + 5 = 0 的两根，利用恒等式 (m - n)² = (m + n)² - 4mn 求 (m - n)² 的值是____。",
+    "answer": "16",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 6 - 4 × 5 = 16。",
+      "由韦达定理 m + n = 6，mn = 5。",
+      "所以 (m - n)² = (m + n)² - 4mn = 36 - 20 = 16。",
+      "答：16。"
+    ],
+    "hint": "先把两根之和与两根之积写出来，再套用恒等式。",
+    "alternative": "也可以直接分解因式：x² - 6x + 5 = (x - 1)(x - 5)，两根为 1 与 5，(m - n)² = 16。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-poly"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-quadratic-eq__quad-reading",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-014",
+    "familyId": "math-j-1-quadratic-eq__fam-014",
+    "version": 1,
+    "text": "若关于 x 的分式方程 (x² - a x)/(x - 2) = 4 有增根，求 a 的值是____。",
+    "answer": "2",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 ÷ 2 = 2。",
+      "增根一定是使分母 x - 2 为 0 的值，即 x = 2。",
+      "去分母得 x² - a x = 4(x - 2)，把 x = 2 代入：4 - 2a = 0，解得 a = 2。",
+      "答：2。"
+    ],
+    "hint": "增根必是使分母为 0 的值，把它代回整式方程定参数。",
+    "alternative": "也可以先验算：当 a = 2 时整式方程为 x² - 6x + 8 = 0，根是 2 与 4，其中 x = 2 正是增根。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq",
+      "math-j-1-fraction"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-quadratic-eq__quad-extra-root",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  },
+  {
+    "id": "bank-math-j-1-quadratic-eq-015",
+    "familyId": "math-j-1-quadratic-eq__fam-015",
+    "version": 1,
+    "text": "用配方法解方程 x² + 6x = 7，x 的值是____。",
+    "answer": "1 或 -7",
+    "unit": "",
+    "knowledgeId": "math-j-1-quadratic-eq",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海中考考纲编写 · 非真题",
+    "sourceScope": "上海市初中数学中考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "方程两边同加 9：x² + 6x + 9 = 7 + 9，即 (x + 3)² = 16。",
+      "所以 x + 3 = 4 或 x + 3 = -4，得 x = 1 或 x = -7。",
+      "答：1 或 -7。"
+    ],
+    "hint": "配方法是先加上一次项系数一半的平方，使左边成为完全平方。",
+    "alternative": "也可以用求根公式：x = (-6 ± √(36 + 28))/2 = (-6 ± 8)/2，得 x = 1 或 x = -7。",
+    "prerequisites": [
+      "math-j-1-quadratic-eq"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-j-math",
+    "reviewerId": "bank-check-sh-j-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-j-1-quadratic-eq__quad-complete-square",
+    "examRef": {
+      "topicKey": "equation-idea",
+      "label": "2020 年上海中考数学第 22、25 题等采用的方程思想",
+      "sourceUrl": "https://www.shmeea.edu.cn/page/03500/20200628/14192.html",
+      "sourceTier": "official-commentary",
+      "sourceTitle": "2020 年上海中考数学「专家点评」（上海市教育考试院）"
+    }
+  }
+]

@@ -1,7 +1,9 @@
 /** 四年级上册教材目录对照；知识点说明为教研整理，不是课文或课后题原文。 */
+import type { StageId } from "./types.ts";
+
 export interface CatalogPoint { id: string; name: string; description: string; practiceId?: "division" | "geometry" | "multiplication" }
 export interface CatalogUnit { id: string; name: string; points: CatalogPoint[] }
-export interface CatalogSubject { id: string; name: string; edition: string; sourceUrl: string; units: CatalogUnit[] }
+export interface CatalogSubject { id: string; name: string; edition: string; sourceUrl: string; stage?: StageId; units: CatalogUnit[] }
 const p = (id: string, name: string, description: string, practiceId?: CatalogPoint["practiceId"]): CatalogPoint => ({ id, name, description, ...(practiceId ? { practiceId } : {}) });
 const u = (id: string, name: string, points: CatalogPoint[]): CatalogUnit => ({ id, name, points });
 

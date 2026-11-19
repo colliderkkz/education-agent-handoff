@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "bank-english-5-weather-001",
+    "familyId": "english-5-weather__fam-001",
+    "version": 1,
+    "text": "Look out of the window. The sun is shining and there are no clouds at all. What is the weather like?",
+    "answer": "It is sunny.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "描述天气的句子用 It is 开头，后面接表示天气或气温的词。材料里 sun is shining、no clouds 说明是晴天。",
+      "晴天的天气词是 sunny。",
+      "答：It is sunny."
+    ],
+    "hint": "先在材料里圈出 sun、clouds、rain、snow、wind 这类线索词，再决定用哪个天气词。",
+    "alternative": "也可以说 It's sunny today. 用缩写 It's 并加上 today。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__weather-clues"
+  },
+  {
+    "id": "bank-english-5-weather-002",
+    "familyId": "english-5-weather__fam-002",
+    "version": 1,
+    "text": "The ground is wet and small drops fall from the black clouds. What is the weather like?",
+    "answer": "It is rainy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "地面 wet、空中有 drops 落下，说明正在下雨，要用 rainy 来形容。",
+      "rainy 表示多雨的。",
+      "答：It is rainy."
+    ],
+    "hint": "想一想地面上有没有水，天空中有没有水滴落下来。",
+    "alternative": "也可以说 It is raining. 用正在发生的动作表示下雨。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__weather-clues"
+  },
+  {
+    "id": "bank-english-5-weather-003",
+    "familyId": "english-5-weather__fam-003",
+    "version": 1,
+    "text": "In winter the air is cold and white snow covers the road. Which weather word describes this day?",
+    "answer": "Snowy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "常见的天气词有 sunny、rainy、windy、cloudy、snowy。材料里出现 white snow cover the road，要选 snowy。",
+      "snowy 表示下雪的。",
+      "答：Snowy."
+    ],
+    "hint": "从 winter、cold、snow 这些线索词想一想。",
+    "alternative": "也可以答 It is snowy today. 把单词放进完整句子里。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__weather-clues"
+  },
+  {
+    "id": "bank-english-5-weather-004",
+    "familyId": "english-5-weather__fam-004",
+    "version": 1,
+    "text": "The trees are shaking and my hat is blown off my head. What is the weather like?",
+    "answer": "It is windy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "树在摇、帽子被吹走，说明风很大，用 windy 描述。",
+      "windy 表示有风的。",
+      "答：It is windy."
+    ],
+    "hint": "想一想什么东西被风带走了。",
+    "alternative": "也可以说 The wind is strong. 用另一种说法形容风大。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__weather-clues"
+  },
+  {
+    "id": "bank-english-5-weather-005",
+    "familyId": "english-5-weather__fam-005",
+    "version": 1,
+    "text": "Mum asks you: 'What's the weather like today?' It is sunny and warm. Answer her.",
+    "answer": "It is sunny and warm today.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答 What's the weather like 时，用 It is 加天气词，把问句里的天气信息说出来。",
+      "材料给的是 sunny and warm，两个词用 and 连起来。",
+      "答：It is sunny and warm today."
+    ],
+    "hint": "回答天气问题先说 It is，再把看到的天气词一个一个说出来。",
+    "alternative": "也可以答 It's sunny and warm today. 用缩写形式回答。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__ask-about-today"
+  },
+  {
+    "id": "bank-english-5-weather-006",
+    "familyId": "english-5-weather__fam-006",
+    "version": 1,
+    "text": "The weather report says: 'It will be cloudy in the afternoon.' What will the weather be like in the afternoon?",
+    "answer": "It will be cloudy in the afternoon.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "报告里的 will 表示将来，回答时也要用 will be 加天气词。",
+      "cloudy 表示多云的，in the afternoon 保留时间信息。",
+      "答：It will be cloudy in the afternoon."
+    ],
+    "hint": "注意句子里有 will be，这是说下午的天气。",
+    "alternative": "也可以答 It will be cloudy this afternoon. 用 this afternoon 表示同一个时间。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__ask-about-today"
+  },
+  {
+    "id": "bank-english-5-weather-007",
+    "familyId": "english-5-weather__fam-007",
+    "version": 1,
+    "text": "Anna says: 'It's cold today, isn't it?' You look out of the window and it is indeed cold. Answer Anna.",
+    "answer": "Yes, it is.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "问句末尾是 isn't it，要用 Yes 或 No 开头作简短回答。",
+      "问的是天气而不是人，回答用 it。",
+      "答：Yes, it is."
+    ],
+    "hint": "听清问句末尾的 isn't it，就知道要用 Yes 或 No 来答。",
+    "alternative": "也可以答 Yes, it is cold today. 用完整句子再说明一次。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__ask-about-today"
+  },
+  {
+    "id": "bank-english-5-weather-008",
+    "familyId": "english-5-weather__fam-008",
+    "version": 1,
+    "text": "Choose the better word to fill in the blank: In summer our city is very ___ (cold / hot).",
+    "answer": "hot",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "cold 和 hot 是一对意思相反的天气词，夏天天气热，应选 hot。",
+      "把 hot 填进句子读一读，句子很通顺。",
+      "答：hot."
+    ],
+    "hint": "想一想夏天穿什么衣服，再决定用哪个温度词。",
+    "alternative": "也可以答 very hot. 用 very 把「很热」的语气加强。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__temperature-words"
+  },
+  {
+    "id": "bank-english-5-weather-009",
+    "familyId": "english-5-weather__fam-009",
+    "version": 1,
+    "text": "Choose the better word: It is winter, so the water in the cup is very ___ (warm / cold).",
+    "answer": "cold",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "warm 表示温的，cold 表示冷的；冬天的水是冷的。",
+      "应选 cold。",
+      "答：cold."
+    ],
+    "hint": "冬天把手贴在杯子上会是什么感觉？",
+    "alternative": "也可以答 It is cold. 把这个词放进完整句子回答。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__temperature-words"
+  },
+  {
+    "id": "bank-english-5-weather-010",
+    "familyId": "english-5-weather__fam-010",
+    "version": 1,
+    "text": "Choose the better word: A cup of hot tea keeps me ___ (cool / warm) in the cold morning.",
+    "answer": "warm",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "冷的早晨喝热茶，身体会变暖和，warm 表示暖和。",
+      "应选 warm。",
+      "答：warm."
+    ],
+    "hint": "热茶喝下去，身体是变暖还是变凉？",
+    "alternative": "也可以答 The tea keeps me warm. 换一种主语来表达。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-weather__temperature-words"
+  },
+  {
+    "id": "bank-english-5-weather-011",
+    "familyId": "english-5-weather__fam-011",
+    "version": 1,
+    "text": "You come to school. The sky is grey and small raindrops fall on your way. Describe the weather to your friend.",
+    "answer": "It is cloudy and rainy today.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "sky is grey 说明多云，用 cloudy；raindrops fall 说明下雨，用 rainy。",
+      "两个天气词用 and 连接，再补上 today。",
+      "答：It is cloudy and rainy today."
+    ],
+    "hint": "把看到的两种天气各找一个词，再用 and 连起来。",
+    "alternative": "也可以说 Today it is cloudy, and it is also rainy.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__morning-at-school"
+  },
+  {
+    "id": "bank-english-5-weather-012",
+    "familyId": "english-5-weather__fam-012",
+    "version": 1,
+    "text": "Your friend asks: 'How is the weather on your way to school?' You open your umbrella. Answer in one sentence.",
+    "answer": "It is rainy today.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要打开雨伞说明在下雨，回答天气用 It is 加天气词。",
+      "补上 today 句子就完整了。",
+      "答：It is rainy today."
+    ],
+    "hint": "雨伞是下雨的信号，从这个线索去想天气词。",
+    "alternative": "也可以答 It is raining on my way to school. 说明路上正在下雨。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__morning-at-school"
+  },
+  {
+    "id": "bank-english-5-weather-013",
+    "familyId": "english-5-weather__fam-013",
+    "version": 1,
+    "text": "Listen to the weather report on the radio: 'Tomorrow will be sunny and hot. Bring your cap and water.' What weather is coming?",
+    "answer": "Sunny and hot.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "报告中 will be 后面接的两个天气词 sunny 和 hot 就是即将到来的天气。",
+      "把两个词连起来回答。",
+      "答：Sunny and hot."
+    ],
+    "hint": "抓住 will be 后面紧跟的两个形容词。",
+    "alternative": "也可以答 It will be sunny and hot tomorrow.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__radio-forecast"
+  },
+  {
+    "id": "bank-english-5-weather-014",
+    "familyId": "english-5-weather__fam-014",
+    "version": 1,
+    "text": "Read the forecast: 'This weekend it will be windy and cool. Please close the windows.' What is the weekend weather like?",
+    "answer": "It will be windy and cool.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "windy 表示有风，cool 表示凉爽，两个词用 and 连起来。",
+      "周末的天气用 will be 引出。",
+      "答：It will be windy and cool."
+    ],
+    "hint": "读 forecast 时先找到说时间的那一句。",
+    "alternative": "也可以答 The weekend will be windy and cool.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__radio-forecast"
+  },
+  {
+    "id": "bank-english-5-weather-015",
+    "familyId": "english-5-weather__fam-015",
+    "version": 1,
+    "text": "It is July. Children in the playground are in shorts and T-shirts. What is the weather like?",
+    "answer": "It is hot.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "七月是夏天，孩子穿短裤短袖，说明天气很热，用 hot。",
+      "天气热用 It is hot 来表达。",
+      "答：It is hot."
+    ],
+    "hint": "从孩子们的穿着想一想夏天的感觉。",
+    "alternative": "也可以答 It is very hot today.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__four-seasons-temperature"
+  },
+  {
+    "id": "bank-english-5-weather-016",
+    "familyId": "english-5-weather__fam-016",
+    "version": 1,
+    "text": "In February the lake near our school is frozen and the wind is cold. Describe the weather.",
+    "answer": "It is cold and windy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "湖面结冰、天气寒冷，用 cold；有风且风很冷，用 windy。",
+      "两个天气词用 and 连接。",
+      "答：It is cold and windy."
+    ],
+    "hint": "找出材料里两个说天气感觉的词。",
+    "alternative": "也可以答 It is cold, and the wind is strong.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__four-seasons-temperature"
+  },
+  {
+    "id": "bank-english-5-weather-017",
+    "familyId": "english-5-weather__fam-017",
+    "version": 1,
+    "text": "Class Four is going to play football after school. The teacher says: 'The sun is shining and there is no wind.' What is the weather like for the game?",
+    "answer": "It is sunny and there is no wind.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "sun is shining 对应 sunny，no wind 说明没有风，两件事都要说出来。",
+      "用 and 把两个信息连起来。",
+      "答：It is sunny and there is no wind."
+    ],
+    "hint": "把「有太阳」和「没有风」两件事都说到。",
+    "alternative": "也可以答 It is sunny and the wind is weak.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__outdoor-playground"
+  },
+  {
+    "id": "bank-english-5-weather-018",
+    "familyId": "english-5-weather__fam-018",
+    "version": 1,
+    "text": "The children are flying kites in the park. The trees are moving fast. Peter asks: 'Is it windy today?' Answer him.",
+    "answer": "Yes, it is windy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "trees are moving fast 说明有风，对一般疑问句用 Yes, it is. 作答。",
+      "补上 windy 能说得更清楚。",
+      "答：Yes, it is windy."
+    ],
+    "hint": "树在快速摇动，就是有风的信号。",
+    "alternative": "也可以答 Yes, the wind is strong.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__outdoor-playground"
+  },
+  {
+    "id": "bank-english-5-weather-019",
+    "familyId": "english-5-weather__fam-019",
+    "version": 1,
+    "text": "In the morning the sky was clear and sunny. In the afternoon black clouds came and it started to rain. Describe the change in the weather.",
+    "answer": "It was sunny in the morning, but it is rainy in the afternoon.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "讲过去用 was，讲现在用 is，两句之间用 but 连接。",
+      "早上是 sunny，下午是 rainy。",
+      "答：It was sunny in the morning, but it is rainy in the afternoon."
+    ],
+    "hint": "先分清哪一句说的是早上，哪一句说的是下午。",
+    "alternative": "也可以答 The weather changed from sunny to rainy.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__weather-changes"
+  },
+  {
+    "id": "bank-english-5-weather-020",
+    "familyId": "english-5-weather__fam-020",
+    "version": 1,
+    "text": "Read the two sentences: 'It was cold this morning. It is warm now.' How did the temperature change?",
+    "answer": "It got warmer.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两句里的温度词：cold 变成 warm，说明天气变暖了。",
+      "变暖用 got warmer 来表达。",
+      "答：It got warmer."
+    ],
+    "hint": "注意前后两句里表示冷热的词有什么不同。",
+    "alternative": "也可以答 The weather is warmer now.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-weather__weather-changes"
+  },
+  {
+    "id": "bank-english-5-weather-021",
+    "familyId": "english-5-weather__fam-021",
+    "version": 1,
+    "text": "Read the line from a story: 'Snow fell all night and covered the road in white.' Describe the weather in one sentence.",
+    "answer": "It is snowy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "雪下了一夜并覆盖了马路，这是下雪的天气，用 snowy。",
+      "用完整句子 It is snowy 回答。",
+      "答：It is snowy."
+    ],
+    "hint": "在故事句子里找表示降雪的词。",
+    "alternative": "也可以答 It has snowed all night. 用另一种说法讲同一件事。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__story-line-weather"
+  },
+  {
+    "id": "bank-english-5-weather-022",
+    "familyId": "english-5-weather__fam-022",
+    "version": 1,
+    "text": "On the board the teacher writes: Monday, sunny; Tuesday, cloudy; Wednesday, rainy; Thursday, windy; Friday, snowy. What is the weather on Wednesday?",
+    "answer": "It is rainy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先在列表里找到 Wednesday，再看它后面的天气词。",
+      "Wednesday 后面写的是 rainy。",
+      "答：It is rainy."
+    ],
+    "hint": "先找星期的名字，再读它后面的那个词。",
+    "alternative": "也可以答 On Wednesday it is rainy.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__classroom-weather-chart"
+  },
+  {
+    "id": "bank-english-5-weather-023",
+    "familyId": "english-5-weather__fam-023",
+    "version": 1,
+    "text": "On the farm, the sky is full of grey clouds in the early morning and the wind is quiet. Describe the weather.",
+    "answer": "It is cloudy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "天空布满灰色云朵是 cloudy，wind is quiet 说明风不大，不用 windy。",
+      "用 It is cloudy 来回答。",
+      "答：It is cloudy."
+    ],
+    "hint": "先看天空的颜色，再看风的情况。",
+    "alternative": "也可以答 The sky is cloudy, but it is not windy.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__farm-morning"
+  },
+  {
+    "id": "bank-english-5-weather-024",
+    "familyId": "english-5-weather__fam-024",
+    "version": 1,
+    "text": "A plane cannot leave the airport today because the wind is very strong. Describe the weather.",
+    "answer": "It is windy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "风大到飞机不能起飞，说明今天风很大，用 windy。",
+      "回答用 It is windy。",
+      "答：It is windy."
+    ],
+    "hint": "想一想什么天气会让飞机停飞。",
+    "alternative": "也可以答 The wind is very strong today.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__airport-delay"
+  },
+  {
+    "id": "bank-english-5-weather-025",
+    "familyId": "english-5-weather__fam-025",
+    "version": 1,
+    "text": "Mum waits for the bus at the stop. Snow is falling and the road is white. Describe the weather.",
+    "answer": "It is snowy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "雪花在落、路面是白的，这是下雪的天气，用 snowy。",
+      "回答用 It is snowy。",
+      "答：It is snowy."
+    ],
+    "hint": "路面白白的、东西在往下落，是什么天气？",
+    "alternative": "也可以答 It is snowing now. 用正在发生的动作来表达。",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__winter-bus-stop"
+  },
+  {
+    "id": "bank-english-5-weather-026",
+    "familyId": "english-5-weather__fam-026",
+    "version": 1,
+    "text": "The swimming pool opens today. The sun is shining and it is very hot. Describe the weather.",
+    "answer": "It is hot and sunny.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "很热用 hot，太阳在照用 sunny，两个词用 and 连接。",
+      "先说气温，再说天气。",
+      "答：It is hot and sunny."
+    ],
+    "hint": "这里有两个天气信息，都要找到。",
+    "alternative": "也可以答 It is sunny, and it is very hot.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__swimming-pool-opening"
+  },
+  {
+    "id": "bank-english-5-weather-027",
+    "familyId": "english-5-weather__fam-027",
+    "version": 1,
+    "text": "Tom and his dad walk up a hill. There are many grey clouds and the air feels cool. Describe the weather.",
+    "answer": "It is cloudy and cool.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "灰云多对应 cloudy，感觉凉快对应 cool。",
+      "两个词用 and 连接。",
+      "答：It is cloudy and cool."
+    ],
+    "hint": "云的颜色告诉你天气，空气的感觉告诉你温度。",
+    "alternative": "也可以答 It is cool, and there are many clouds in the sky.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__hill-walk"
+  },
+  {
+    "id": "bank-english-5-weather-028",
+    "familyId": "english-5-weather__fam-028",
+    "version": 1,
+    "text": "Outside the greenhouse it is cold and the sky is grey, but inside it is warm and bright. Describe the weather outside.",
+    "answer": "It is cold and cloudy.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "只说外面的天气：冷用 cold，天空灰暗用 cloudy。",
+      "用 and 连接两个词。",
+      "答：It is cold and cloudy."
+    ],
+    "hint": "题目问的是外面，室内的信息不要写进去。",
+    "alternative": "也可以答 It is cold outside, and the sky is grey.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__greenhouse-morning"
+  },
+  {
+    "id": "bank-english-5-weather-029",
+    "familyId": "english-5-weather__fam-029",
+    "version": 1,
+    "text": "The teacher says: 'Our sports day will be on Friday. The weather report says it will be sunny and warm on that day. Please wear a hat.' What will the weather be like on Friday?",
+    "answer": "It will be sunny and warm on Friday.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "will be 说明是以后的天气，回答时也用 will be。",
+      "sunny and warm 是报告里说的两个天气词。",
+      "答：It will be sunny and warm on Friday."
+    ],
+    "hint": "找出句子里表示将来和表示星期的词。",
+    "alternative": "也可以答 Friday will be sunny and warm.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__sports-day-notice"
+  },
+  {
+    "id": "bank-english-5-weather-030",
+    "familyId": "english-5-weather__fam-030",
+    "version": 1,
+    "text": "Ben invites you: 'Come to the park this afternoon. The sun is shining and it is warm there.' How is the weather there?",
+    "answer": "It is sunny and warm.",
+    "unit": "",
+    "knowledgeId": "english-5-weather",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "sun is shining 对应 sunny，it is warm 对应 warm。",
+      "两个词用 and 连接。",
+      "答：It is sunny and warm."
+    ],
+    "hint": "把邀请的话里关于天气的两处找出来。",
+    "alternative": "也可以答 The weather there is sunny and warm.",
+    "prerequisites": [
+      "english-5-weather"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-weather__park-picnic-invitation"
+  },
+  {
+    "id": "bank-english-5-plan-001",
+    "familyId": "english-5-plan__fam-001",
+    "version": 1,
+    "text": "It is sunny today. Choose the better activity: make a snowman / fly a kite.",
+    "answer": "Fly a kite.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看天气再选活动：sunny 是晴天，晴天适合在户外放风筝。",
+      "放风筝用 fly a kite，make a snowman 是雪天的活动。",
+      "答：Fly a kite."
+    ],
+    "hint": "把活动放到天气里试一试，看哪个说得通。",
+    "alternative": "也可以答 We can fly a kite today. 用 we 表示你和同伴。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__sunny-day-outdoors"
+  },
+  {
+    "id": "bank-english-5-plan-002",
+    "familyId": "english-5-plan__fam-002",
+    "version": 1,
+    "text": "It is sunny and warm. Choose the better activity: play in the snow / have a picnic in the park.",
+    "answer": "Have a picnic in the park.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "晴朗温暖的日子适合去公园野餐，play in the snow 要在下雪时才合适。",
+      "所以选 have a picnic in the park。",
+      "答：Have a picnic in the park."
+    ],
+    "hint": "想想哪个活动需要雪、哪个活动需要太阳。",
+    "alternative": "也可以答 Let's have a picnic in the park. 用 let's 提出建议。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__sunny-day-outdoors"
+  },
+  {
+    "id": "bank-english-5-plan-003",
+    "familyId": "english-5-plan__fam-003",
+    "version": 1,
+    "text": "It is a fine sunny morning. What can you do outside? Say one activity with 'can'.",
+    "answer": "I can fly a kite.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 can 说自己能做的事，句型是 I can 加动词原形。",
+      "晴天在户外做的事可以是 fly a kite。",
+      "答：I can fly a kite."
+    ],
+    "hint": "先把 I can 写在前面，再想一个动词原形的活动。",
+    "alternative": "也可以答 I can ride my bike in the park. 换一个活动来说。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__sunny-day-outdoors"
+  },
+  {
+    "id": "bank-english-5-plan-004",
+    "familyId": "english-5-plan__fam-004",
+    "version": 1,
+    "text": "It is sunny and hot. You want to help at home. What can you do outside? Use 'can' to answer.",
+    "answer": "I can help wash the car.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "天气热、太阳大，适合做一件在户外帮家人做的事，比如洗车。",
+      "用 I can 加动词原形来回答。",
+      "答：I can help wash the car."
+    ],
+    "hint": "想想在太阳下能帮家里做的家务。",
+    "alternative": "也可以答 I can water the flowers in the garden.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__sunny-day-outdoors"
+  },
+  {
+    "id": "bank-english-5-plan-005",
+    "familyId": "english-5-plan__fam-005",
+    "version": 1,
+    "text": "It is raining. Choose the better activity: fly a kite / read a book at home.",
+    "answer": "Read a book at home.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下雨天不能放风筝，适合在家读书。",
+      "所以选 read a book at home。",
+      "答：Read a book at home."
+    ],
+    "hint": "下雨天哪些活动做不了？",
+    "alternative": "也可以答 We can read a book at home. 用 we 来说。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__rainy-day-indoors"
+  },
+  {
+    "id": "bank-english-5-plan-006",
+    "familyId": "english-5-plan__fam-006",
+    "version": 1,
+    "text": "It is raining hard and there is no wind. What can you do? Give one indoor activity.",
+    "answer": "I can draw a picture.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "雨很大又没有风，适合做不用出门的事，比如画画。",
+      "用 can 加动词原形回答。",
+      "答：I can draw a picture."
+    ],
+    "hint": "想一个下雨天在屋里可以做的活动。",
+    "alternative": "也可以答 I can play with my Lego toys. 换一个活动。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__rainy-day-indoors"
+  },
+  {
+    "id": "bank-english-5-plan-007",
+    "familyId": "english-5-plan__fam-007",
+    "version": 1,
+    "text": "It is rainy. You cannot go out. Say one thing you will do at home today.",
+    "answer": "I will read a story book.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说以后要做的事用 will 加动词原形，句型是 I will ...。",
+      "下雨天在家可以读故事书。",
+      "答：I will read a story book."
+    ],
+    "hint": "先写 I will，再想一个动词原形的活动。",
+    "alternative": "也可以答 I will watch a film at home. 换一种活动。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__rainy-day-indoors"
+  },
+  {
+    "id": "bank-english-5-plan-008",
+    "familyId": "english-5-plan__fam-008",
+    "version": 1,
+    "text": "It is snowy. Choose the better activity: make a snowman / go swimming in the pool.",
+    "answer": "Make a snowman.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下雪天可以堆雪人，游泳要到温暖的天气才合适。",
+      "所以选 make a snowman。",
+      "答：Make a snowman."
+    ],
+    "hint": "先判断哪个活动需要雪。",
+    "alternative": "也可以答 Let's make a snowman. 用 let's 发出邀请。",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__snowy-day-activities"
+  },
+  {
+    "id": "bank-english-5-plan-009",
+    "familyId": "english-5-plan__fam-009",
+    "version": 1,
+    "text": "It is snowy. Choose the better plan for Saturday: go swimming / play in the snow.",
+    "answer": "Play in the snow.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下雪的星期六可以在雪地里玩，游泳要在不下雪的时候去。",
+      "所以选 play in the snow。",
+      "答：Play in the snow."
+    ],
+    "hint": "把两个计划和天气对一对，看哪个更合适。",
+    "alternative": "也可以答 We can play in the snow on Saturday.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__snowy-day-activities"
+  },
+  {
+    "id": "bank-english-5-plan-010",
+    "familyId": "english-5-plan__fam-010",
+    "version": 1,
+    "text": "It is snowy. Your friend says: 'We can't ride our bikes today. What can we do instead?' Say one activity.",
+    "answer": "We can make snow angels.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "骑不了车的时候，可以用 can 说出另一个雪天能做的活动。",
+      "雪地活动如 make snow angels 就很合适。",
+      "答：We can make snow angels."
+    ],
+    "hint": "先说 We can，再想一个雪天能玩的活动。",
+    "alternative": "也可以答 We can build a snowman together.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "english-5-plan__snowy-day-activities"
+  },
+  {
+    "id": "bank-english-5-plan-011",
+    "familyId": "english-5-plan__fam-011",
+    "version": 1,
+    "text": "It will be sunny on Saturday. You and your friends want to have a picnic in the park. Say the plan and the reason.",
+    "answer": "We will have a picnic in the park because it will be sunny.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "说计划用 will，说明理由用 because 加上天气。",
+      "天气是 sunny，所以计划是在公园野餐。",
+      "答：We will have a picnic in the park because it will be sunny."
+    ],
+    "hint": "先说计划，再用 because 说明为什么。",
+    "alternative": "也可以答 We are going to have a picnic in the park, because it will be sunny.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__weekend-picnic-plan"
+  },
+  {
+    "id": "bank-english-5-plan-012",
+    "familyId": "english-5-plan__fam-012",
+    "version": 1,
+    "text": "It will rain on Saturday, so the picnic is put off. Say what you will do on Saturday instead.",
+    "answer": "We will stay at home and play board games.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下大雨时野餐要改到室内，做一些在家能玩的活动。",
+      "用 will 说明周六要做什么。",
+      "答：We will stay at home and play board games."
+    ],
+    "hint": "先想下雨天在家里可以做什么活动。",
+    "alternative": "也可以答 We will stay at home and read books together.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__weekend-picnic-plan"
+  },
+  {
+    "id": "bank-english-5-plan-013",
+    "familyId": "english-5-plan__fam-013",
+    "version": 1,
+    "text": "The weather report says it will be sunny tomorrow. The class will visit the science museum. Say the plan with a reason.",
+    "answer": "We will go to the science museum because the weather will be fine.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先用 will 说计划，再用 because 说和天气有关的理由。",
+      "天气晴朗，去博物馆参观很合适。",
+      "答：We will go to the science museum because the weather will be fine."
+    ],
+    "hint": "理由要和天气有关系，不要只说喜欢。",
+    "alternative": "也可以答 We are going to the museum, because it will be sunny tomorrow.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__school-field-trip"
+  },
+  {
+    "id": "bank-english-5-plan-014",
+    "familyId": "english-5-plan__fam-014",
+    "version": 1,
+    "text": "It will rain tomorrow, so the class will not go to the park. What will the class do instead? Say it with a reason.",
+    "answer": "We will visit the museum because it will rain.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "下雨要去室内的地方，用 will 说明新计划，用 because 说明原因。",
+      "改去博物馆，并说明因为会下雨。",
+      "答：We will visit the museum because it will rain."
+    ],
+    "hint": "先找一个下雨天也能做的室内活动。",
+    "alternative": "也可以答 We will read books in the classroom, because it will rain.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__school-field-trip"
+  },
+  {
+    "id": "bank-english-5-plan-015",
+    "familyId": "english-5-plan__fam-015",
+    "version": 1,
+    "text": "Ann's birthday party is on Saturday. If it is sunny, they will have the party in the park. Say the plan and the reason.",
+    "answer": "They will have the party in the park because it will be sunny.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "条件句 If it is sunny 说明条件，结果用 will 说明安排，用 because 说明理由。",
+      "晴天时他们在公园办聚会。",
+      "答：They will have the party in the park because it will be sunny."
+    ],
+    "hint": "先找出 if 引导的条件，再说出结果。",
+    "alternative": "也可以答 They are going to have the party in the park, because it will be sunny.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__birthday-party"
+  },
+  {
+    "id": "bank-english-5-plan-016",
+    "familyId": "english-5-plan__fam-016",
+    "version": 1,
+    "text": "Ann's birthday party is on Saturday. If it rains, they will move it into the classroom. What will happen if the weather is bad? Say it with a reason.",
+    "answer": "They will have the party in the classroom because it will rain.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "如果下雨，聚会改到教室里，用 will 说明，并用 because 说明理由。",
+      "地点是 the classroom。",
+      "答：They will have the party in the classroom because it will rain."
+    ],
+    "hint": "先找出 if 引导的不利条件，再说出调整后的安排。",
+    "alternative": "也可以答 They will move the party into the classroom, because it will rain.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__birthday-party"
+  },
+  {
+    "id": "bank-english-5-plan-017",
+    "familyId": "english-5-plan__fam-017",
+    "version": 1,
+    "text": "It is windy today. Can the children play football on the playground? Answer with a reason.",
+    "answer": "No, they cannot play football because it is too windy.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 can 提问的一般疑问句，回答用 No, they cannot ...，再用 because 说明理由。",
+      "风太大，踢足球不合适。",
+      "答：No, they cannot play football because it is too windy."
+    ],
+    "hint": "先判断能不能做，再用 because 说明为什么。",
+    "alternative": "也可以答 No, they can't. It is too windy to play football.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__sports-practice"
+  },
+  {
+    "id": "bank-english-5-plan-018",
+    "familyId": "english-5-plan__fam-018",
+    "version": 1,
+    "text": "It is cool and sunny. The football team wants to practise today. Can they practise on the playground? Answer with a reason.",
+    "answer": "Yes, they can practise on the playground because the weather is fine.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "天气凉爽晴朗，适合运动，用 Yes, they can ... 回答并说明理由。",
+      "理由是天气好，the weather is fine。",
+      "答：Yes, they can practise on the playground because the weather is fine."
+    ],
+    "hint": "先判断天气是否适合运动，再想一句理由。",
+    "alternative": "也可以答 Yes, they can. The weather is cool and sunny.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__sports-practice"
+  },
+  {
+    "id": "bank-english-5-plan-019",
+    "familyId": "english-5-plan__fam-019",
+    "version": 1,
+    "text": "You are going to Hainan by train. The forecast says it will be hot and sunny there. What can you do there? Say one activity.",
+    "answer": "I can swim in the sea.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "热而晴朗的海边适合下海，用 can 加动词原形说一个活动。",
+      "swim in the sea 符合 hot and sunny 的天气。",
+      "答：I can swim in the sea."
+    ],
+    "hint": "把目的地和天气连起来，想一个适合那里的活动。",
+    "alternative": "也可以答 I can go to the beach with my family.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__travel-plan"
+  },
+  {
+    "id": "bank-english-5-plan-020",
+    "familyId": "english-5-plan__fam-020",
+    "version": 1,
+    "text": "You are going to Harbin in winter. The forecast says it will be cold and snowy there. What can you do there? Say one activity.",
+    "answer": "I can make a snowman.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "寒冷下雪的北方适合堆雪人，用 can 加动词原形说活动。",
+      "make a snowman 与 cold and snowy 相配。",
+      "答：I can make a snowman."
+    ],
+    "hint": "想一想雪天里北方孩子常做什么。",
+    "alternative": "也可以答 I can watch the snow fall from the window.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "english-5-plan__travel-plan"
+  },
+  {
+    "id": "bank-english-5-plan-021",
+    "familyId": "english-5-plan__fam-021",
+    "version": 1,
+    "text": "It is raining hard. Your class wants to watch a film in the park, but they change the plan. Where do they go and why?",
+    "answer": "They go to the cinema because it is raining.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "雨太大时户外活动要改到室内，看电影的地方是 the cinema，用 because 说明理由。",
+      "所以他们去电影院。",
+      "答：They go to the cinema because it is raining."
+    ],
+    "hint": "把「去哪里」和「为什么」两问分别回答。",
+    "alternative": "也可以答 They watch the film in the cinema, because it is raining hard.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__cinema-rainy-day"
+  },
+  {
+    "id": "bank-english-5-plan-022",
+    "familyId": "english-5-plan__fam-022",
+    "version": 1,
+    "text": "It is sunny and there is a light wind in the park. You want to fly a kite. Can you do it? Say one sentence.",
+    "answer": "Yes, I can fly a kite because it is windy.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回答能不能用 Yes, I can ...，再用 because 说明有风这个条件。",
+      "阳光好又有风，适合放风筝。",
+      "答：Yes, I can fly a kite because it is windy."
+    ],
+    "hint": "先说能不能，再说为什么能。",
+    "alternative": "也可以答 Yes, I can. The wind is just right for a kite.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__kite-in-the-park"
+  },
+  {
+    "id": "bank-english-5-plan-023",
+    "familyId": "english-5-plan__fam-023",
+    "version": 1,
+    "text": "It snowed a lot last night. The children want to play outside. What can they make? Say it and give a reason.",
+    "answer": "They can make a snowman because there is a lot of snow.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 can 说明能做的事，并用 because 说明有雪这个原因。",
+      "堆雪人需要很多雪，所以理由是 there is a lot of snow。",
+      "答：They can make a snowman because there is a lot of snow."
+    ],
+    "hint": "先想到雪天能做的事，再找出做这件事需要的条件。",
+    "alternative": "也可以答 They can build a snowman, because it snowed a lot last night.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__snowman-in-the-yard"
+  },
+  {
+    "id": "bank-english-5-plan-024",
+    "familyId": "english-5-plan__fam-024",
+    "version": 1,
+    "text": "You are at the beach in summer. It is hot and sunny. What can you do there? Give one activity and a reason.",
+    "answer": "I can swim because it is hot and sunny.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用 can 说一个活动，再用 because 说明天气和活动相配。",
+      "在炎热的夏日海边，swim 是合适的活动。",
+      "答：I can swim because it is hot and sunny."
+    ],
+    "hint": "先想夏日在子里能做的事，再说和天气的关系。",
+    "alternative": "也可以答 I can play on the sand because it is sunny.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__beach-summer-holiday"
+  },
+  {
+    "id": "bank-english-5-plan-025",
+    "familyId": "english-5-plan__fam-025",
+    "version": 1,
+    "text": "It has rained for three days. The children cannot play outside. What can they do inside? Say one activity.",
+    "answer": "They can read books in the library.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "连续下雨不能出门，用 can 说出室内能做的活动。",
+      "读书是下雨天常见的室内活动。",
+      "答：They can read books in the library."
+    ],
+    "hint": "想一个在室内、不需要好天气的活动。",
+    "alternative": "也可以答 They can draw pictures at home.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__rainy-reading-day"
+  },
+  {
+    "id": "bank-english-5-plan-026",
+    "familyId": "english-5-plan__fam-026",
+    "version": 1,
+    "text": "Your family will visit your grandparents' farm in spring. The weather report says it will be warm and sunny. Say what your family can do there.",
+    "answer": "We can plant flowers in the garden.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "温暖晴朗的春天到农场，可以做户外的事，用 we 表示全家人。",
+      "在花园里种花是合适的安排。",
+      "答：We can plant flowers in the garden."
+    ],
+    "hint": "把季节、天气和农场三个线索连起来想活动。",
+    "alternative": "也可以答 We can pick up the apples on the farm.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__farm-visit-in-spring"
+  },
+  {
+    "id": "bank-english-5-plan-027",
+    "familyId": "english-5-plan__fam-027",
+    "version": 1,
+    "text": "It is going to rain this afternoon. The school sports meet is in the morning. Is that a good plan? Give a reason.",
+    "answer": "Yes, it is a good plan because the rain will come in the afternoon.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先判断这个安排好不好，再用 because 把时间和天气对应起来。",
+      "运动会安排在上午，而下午才下雨，所以安排合理。",
+      "答：Yes, it is a good plan because the rain will come in the afternoon."
+    ],
+    "hint": "把活动的时间和下雨的时间分别找出来。",
+    "alternative": "也可以答 Yes, it is a good plan, because the sports meet is in the morning.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__rainy-sports-meet"
+  },
+  {
+    "id": "bank-english-5-plan-028",
+    "familyId": "english-5-plan__fam-028",
+    "version": 1,
+    "text": "It is cold and snowy. You want to walk in the park for half an hour. What should you take? Say one thing.",
+    "answer": "A warm coat and a scarf.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "又冷又雪天出门要保暖，要说出该带的东西。",
+      "warm coat 和 scarf 都是保暖用品。",
+      "答：A warm coat and a scarf."
+    ],
+    "hint": "想一想冷天出门要穿什么、戴什么。",
+    "alternative": "也可以答 I should wear a warm coat and a hat.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__winter-park-walk"
+  },
+  {
+    "id": "bank-english-5-plan-029",
+    "familyId": "english-5-plan__fam-029",
+    "version": 1,
+    "text": "After school, Class Two wants to clean the small garden near the playground. It is sunny and warm. Say why this is a good day to do it.",
+    "answer": "It is a good day because it is sunny and warm.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "要说出「这是个好日子」的理由，理由要用 because 引出天气。",
+      "晴天暖和，适合在户外劳动。",
+      "答：It is a good day because it is sunny and warm."
+    ],
+    "hint": "理由要和天气有关，说清楚为什么这个天气适合干活。",
+    "alternative": "也可以答 It is a good day, because the sun is shining and it is warm.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__after-school-cleanup"
+  },
+  {
+    "id": "bank-english-5-plan-030",
+    "familyId": "english-5-plan__fam-030",
+    "version": 1,
+    "text": "It is very hot today. Choose the better place for the PE class: the playground / the swimming pool. Give a reason.",
+    "answer": "The swimming pool, because it is very hot today.",
+    "unit": "",
+    "knowledgeId": "english-5-plan",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先在两个地点中选一个，再用 because 说明和天气有关的理由。",
+      "天气很热，去游泳池比在操场上跑步合适。",
+      "答：The swimming pool, because it is very hot today."
+    ],
+    "hint": "想一想很热的天气里，哪个地方更凉快。",
+    "alternative": "也可以答 We can have our PE class in the swimming pool, because it is very hot.",
+    "prerequisites": [
+      "english-5-weather",
+      "english-5-plan"
+    ],
+    "status": "published",
+    "authorId": "bank-author-english",
+    "reviewerId": "bank-check-english",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "english-5-plan__hot-day-swimming-lesson"
+  }
+]

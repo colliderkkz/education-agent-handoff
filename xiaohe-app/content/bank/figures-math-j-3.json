@@ -1,0 +1,1807 @@
+{
+  "math/math-j-3-angle/angle-01": {
+    "kind": "angle",
+    "degrees": 65,
+    "arm": 190,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/angle-02": {
+    "kind": "angle",
+    "degrees": 65,
+    "arm": 190,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/angle-03": {
+    "kind": "angle",
+    "degrees": 48,
+    "arm": 190,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/angle-04": {
+    "kind": "angle",
+    "degrees": 35,
+    "arm": 190,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/angle-05": {
+    "kind": "angle",
+    "degrees": 128,
+    "arm": 170,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/angle-06": {
+    "kind": "angle",
+    "degrees": 60,
+    "arm": 190,
+    "width": 340,
+    "height": 200
+  },
+  "math/math-j-3-angle/triangle-01": {
+    "kind": "triangle",
+    "base": "68",
+    "height2": "52",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-angle/triangle-02": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "right": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-angle/triangle-03": {
+    "kind": "triangle",
+    "base": "60",
+    "height2": "80",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-parallel/lines-01": {
+    "kind": "lines",
+    "width": 380,
+    "height": 250,
+    "segments": [
+      [
+        60,
+        60,
+        340,
+        60
+      ],
+      [
+        60,
+        60,
+        60,
+        200
+      ],
+      [
+        340,
+        60,
+        340,
+        200
+      ],
+      [
+        60,
+        200,
+        340,
+        200
+      ],
+      [
+        309,
+        60,
+        200,
+        200
+      ],
+      [
+        200,
+        200,
+        166,
+        64
+      ]
+    ],
+    "dashed": [
+      [
+        340,
+        200,
+        166,
+        64
+      ]
+    ],
+    "dots": [
+      [
+        60,
+        60
+      ],
+      [
+        340,
+        60
+      ],
+      [
+        340,
+        200
+      ],
+      [
+        60,
+        200
+      ],
+      [
+        309,
+        60
+      ],
+      [
+        200,
+        200
+      ],
+      [
+        166,
+        64
+      ]
+    ],
+    "texts": [
+      [
+        48,
+        54,
+        "A",
+        "ink"
+      ],
+      [
+        348,
+        54,
+        "B",
+        "ink"
+      ],
+      [
+        348,
+        216,
+        "C",
+        "ink"
+      ],
+      [
+        48,
+        216,
+        "D",
+        "ink"
+      ],
+      [
+        300,
+        54,
+        "E",
+        "ink"
+      ],
+      [
+        188,
+        216,
+        "F",
+        "ink"
+      ],
+      [
+        152,
+        60,
+        "C",
+        "ink"
+      ],
+      [
+        228,
+        192,
+        "52",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-parallel/parallel-01": {
+    "kind": "parallel",
+    "angles": [
+      {
+        "deg": 65,
+        "at": 0,
+        "side": "left"
+      }
+    ],
+    "width": 360,
+    "height": 220
+  },
+  "math/math-j-3-parallel/parallel-02": {
+    "kind": "parallel",
+    "angles": [
+      {
+        "deg": 35,
+        "at": 1,
+        "side": "left"
+      }
+    ],
+    "width": 360,
+    "height": 220
+  },
+  "math/math-j-3-parallel/trapezoid-01": {
+    "kind": "lines",
+    "width": 360,
+    "height": 240,
+    "segments": [
+      [
+        130,
+        50,
+        230,
+        50
+      ],
+      [
+        70,
+        190,
+        290,
+        190
+      ],
+      [
+        130,
+        50,
+        70,
+        190
+      ],
+      [
+        230,
+        50,
+        290,
+        190
+      ],
+      [
+        130,
+        50,
+        290,
+        190
+      ],
+      [
+        70,
+        190,
+        230,
+        50
+      ]
+    ],
+    "dots": [
+      [
+        130,
+        50
+      ],
+      [
+        230,
+        50
+      ],
+      [
+        70,
+        190
+      ],
+      [
+        290,
+        190
+      ],
+      [
+        178,
+        95
+      ]
+    ],
+    "texts": [
+      [
+        118,
+        44,
+        "A",
+        "ink"
+      ],
+      [
+        236,
+        44,
+        "D",
+        "ink"
+      ],
+      [
+        56,
+        206,
+        "B",
+        "ink"
+      ],
+      [
+        296,
+        206,
+        "C",
+        "ink"
+      ],
+      [
+        186,
+        110,
+        "O",
+        "ink"
+      ]
+    ]
+  },
+  "math/math-j-3-parallel/rectangle-01": {
+    "kind": "rectangle",
+    "width2": "24",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-01": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "x",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-02": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-03": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-04": {
+    "kind": "triangle",
+    "base": "18",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-05": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-06": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "50",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-07": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "40",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-08": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-09": {
+    "kind": "triangle",
+    "base": "24",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-10": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-11": {
+    "kind": "triangle",
+    "base": "30",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-12": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-13": {
+    "kind": "triangle",
+    "base": "26",
+    "height2": "13",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-14": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-triangle/triangle-15": {
+    "kind": "triangle",
+    "base": "16",
+    "height2": "12",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-01": {
+    "kind": "parallelogram",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-02": {
+    "kind": "parallelogram",
+    "base": "10",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-03": {
+    "kind": "parallelogram",
+    "base": "30",
+    "height2": "20",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-04": {
+    "kind": "parallelogram",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-05": {
+    "kind": "parallelogram",
+    "base": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/parallelogram-06": {
+    "kind": "parallelogram",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/rectangle-01": {
+    "kind": "rectangle",
+    "width2": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/rectangle-02": {
+    "kind": "rectangle",
+    "width2": "15",
+    "height2": "7",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/rectangle-03": {
+    "kind": "rectangle",
+    "width2": "12",
+    "height2": "5",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/rectangle-04": {
+    "kind": "rectangle",
+    "width2": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/rhombus-01": {
+    "kind": "rhombus",
+    "side": "",
+    "width": 340,
+    "height": 240
+  },
+  "math/math-j-3-quadrilateral/rhombus-02": {
+    "kind": "rhombus",
+    "side": "",
+    "width": 340,
+    "height": 240
+  },
+  "math/math-j-3-quadrilateral/square-01": {
+    "kind": "lines",
+    "width": 340,
+    "height": 220,
+    "segments": [
+      [
+        120,
+        40,
+        220,
+        40
+      ],
+      [
+        220,
+        40,
+        220,
+        140
+      ],
+      [
+        220,
+        140,
+        120,
+        140
+      ],
+      [
+        120,
+        140,
+        120,
+        40
+      ],
+      [
+        120,
+        40,
+        220,
+        140
+      ]
+    ],
+    "texts": [
+      [
+        172,
+        80,
+        "10",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-quadrilateral/trapezoid-01": {
+    "kind": "trapezoid",
+    "top": "6",
+    "bottom": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-quadrilateral/triangle-01": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-circle/circle-01": {
+    "kind": "circle",
+    "r": 84,
+    "showRadius": true,
+    "showChord": true,
+    "radius": "10",
+    "width": 340,
+    "height": 280
+  },
+  "math/math-j-3-circle/circle-02": {
+    "kind": "circle",
+    "r": 84,
+    "showRadius": true,
+    "showChord": true,
+    "pointCAngle": 62,
+    "pointCLabel": "C",
+    "width": 340,
+    "height": 280
+  },
+  "math/math-j-3-circle/circle-03": {
+    "kind": "circle",
+    "r": 84,
+    "showRadius": true,
+    "showTangent": true,
+    "tangentLabel": "l",
+    "width": 340,
+    "height": 280
+  },
+  "math/math-j-3-circle/circle-04": {
+    "kind": "circle",
+    "r": 84,
+    "showRadius": true,
+    "showChord": true,
+    "showTangent": true,
+    "tangentLabel": "l",
+    "width": 340,
+    "height": 280
+  },
+  "math/math-j-3-circle/circle-05": {
+    "kind": "circle",
+    "r": 84,
+    "showRadius": true,
+    "showChord": true,
+    "showTangent": true,
+    "tangentLabel": "l",
+    "pointCLabel": "C",
+    "width": 340,
+    "height": 280
+  },
+  "math/math-j-3-acute-right/triangle-01": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "6",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-02": {
+    "kind": "triangle",
+    "base": "8",
+    "height2": "4",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-03": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "3",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-04": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-05": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-06": {
+    "kind": "triangle",
+    "base": "12",
+    "height2": "1",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-07": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-08": {
+    "kind": "triangle",
+    "base": "100",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-09": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "3",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-10": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "8",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-11": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/triangle-12": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "4",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-acute-right/trapezoid-01": {
+    "kind": "lines",
+    "width": 300,
+    "height": 250,
+    "segments": [
+      [
+        46.8,
+        200,
+        220,
+        200
+      ],
+      [
+        220,
+        200,
+        220,
+        150
+      ],
+      [
+        220,
+        150,
+        133.4,
+        150
+      ],
+      [
+        133.4,
+        150,
+        46.8,
+        200
+      ]
+    ],
+    "dots": [
+      [
+        46.8,
+        200
+      ],
+      [
+        220,
+        200
+      ],
+      [
+        220,
+        150
+      ],
+      [
+        133.4,
+        150
+      ]
+    ],
+    "texts": [
+      [
+        36,
+        216,
+        "A",
+        "ink"
+      ],
+      [
+        226,
+        216,
+        "B",
+        "ink"
+      ],
+      [
+        226,
+        144,
+        "C",
+        "ink"
+      ],
+      [
+        124,
+        144,
+        "D",
+        "ink"
+      ],
+      [
+        166,
+        178,
+        "10",
+        "accent"
+      ],
+      [
+        148,
+        162,
+        "30",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-similar/triangle-01": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-02": {
+    "kind": "triangle",
+    "base": "4",
+    "height2": "3",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-03": {
+    "kind": "triangle",
+    "base": "9",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-04": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "1",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-05": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "9",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-06": {
+    "kind": "triangle",
+    "base": "15",
+    "height2": "20",
+    "right": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-07": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-08": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "4",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-09": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "8",
+    "right": "90",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/triangle-10": {
+    "kind": "triangle",
+    "base": "5",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-similar/lines-01": {
+    "kind": "lines",
+    "width": 340,
+    "height": 250,
+    "segments": [
+      [
+        40,
+        200,
+        300,
+        200
+      ],
+      [
+        110,
+        200,
+        110,
+        140
+      ],
+      [
+        190,
+        200,
+        190,
+        100
+      ],
+      [
+        270,
+        200,
+        270,
+        60
+      ],
+      [
+        110,
+        140,
+        270,
+        60
+      ]
+    ],
+    "dots": [
+      [
+        110,
+        200
+      ],
+      [
+        190,
+        200
+      ],
+      [
+        110,
+        140
+      ],
+      [
+        190,
+        100
+      ],
+      [
+        270,
+        60
+      ]
+    ],
+    "texts": [
+      [
+        98,
+        216,
+        "A",
+        "ink"
+      ],
+      [
+        178,
+        216,
+        "B",
+        "ink"
+      ],
+      [
+        98,
+        136,
+        "P",
+        "ink"
+      ],
+      [
+        178,
+        96,
+        "Q",
+        "ink"
+      ],
+      [
+        258,
+        54,
+        "T",
+        "ink"
+      ],
+      [
+        116,
+        176,
+        "3",
+        "accent"
+      ],
+      [
+        196,
+        156,
+        "5",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-similar/lines-02": {
+    "kind": "lines",
+    "width": 320,
+    "height": 260,
+    "segments": [
+      [
+        130,
+        190,
+        130,
+        140
+      ],
+      [
+        105,
+        140,
+        130,
+        140
+      ],
+      [
+        130,
+        140,
+        130,
+        190
+      ],
+      [
+        270,
+        190,
+        195,
+        40
+      ],
+      [
+        195,
+        40,
+        270,
+        40
+      ],
+      [
+        270,
+        40,
+        270,
+        190
+      ],
+      [
+        60,
+        190,
+        270,
+        190
+      ],
+      [
+        60,
+        190,
+        195,
+        40
+      ],
+      [
+        60,
+        190,
+        270,
+        40
+      ]
+    ],
+    "dashed": [
+      [
+        60,
+        190,
+        270,
+        190
+      ],
+      [
+        60,
+        190,
+        195,
+        40
+      ],
+      [
+        60,
+        190,
+        270,
+        40
+      ]
+    ],
+    "dots": [
+      [
+        60,
+        190
+      ],
+      [
+        130,
+        190
+      ],
+      [
+        105,
+        140
+      ],
+      [
+        130,
+        140
+      ],
+      [
+        270,
+        190
+      ],
+      [
+        195,
+        40
+      ],
+      [
+        270,
+        40
+      ]
+    ],
+    "texts": [
+      [
+        48,
+        206,
+        "O",
+        "ink"
+      ],
+      [
+        128,
+        208,
+        "A",
+        "ink"
+      ],
+      [
+        92,
+        134,
+        "B",
+        "ink"
+      ],
+      [
+        134,
+        134,
+        "C",
+        "ink"
+      ],
+      [
+        274,
+        208,
+        "A",
+        "ink"
+      ],
+      [
+        178,
+        34,
+        "B",
+        "ink"
+      ],
+      [
+        274,
+        34,
+        "C",
+        "ink"
+      ],
+      [
+        162,
+        178,
+        "5",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-proportion/triangle-01": {
+    "kind": "triangle",
+    "base": "15",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-02": {
+    "kind": "triangle",
+    "base": "12",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-03": {
+    "kind": "triangle",
+    "base": "20",
+    "height2": "12",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-04": {
+    "kind": "triangle",
+    "base": "18",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-05": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-06": {
+    "kind": "triangle",
+    "base": "15",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-07": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-08": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-proportion/triangle-09": {
+    "kind": "triangle",
+    "base": "14",
+    "height2": "7",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-coordinates/axes-01": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": -3,
+        "y": 4,
+        "label": "P"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-02": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": -3,
+        "y": 4,
+        "label": "P"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-03": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 2,
+        "y": 7,
+        "label": "A"
+      },
+      {
+        "x": -3,
+        "y": 7,
+        "label": "B"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-04": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 5,
+        "y": -2,
+        "label": "M"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-05": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": -2,
+        "y": 6,
+        "label": "A"
+      },
+      {
+        "x": 4,
+        "y": 6,
+        "label": "B"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-06": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 3,
+        "y": 1,
+        "label": "A"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "label": "A"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-07": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 1,
+        "y": 2,
+        "label": "A"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "label": "B"
+      },
+      {
+        "x": 3,
+        "y": 6,
+        "label": "C"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-08": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "label": "A"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "label": "B"
+      },
+      {
+        "x": 0,
+        "y": 8,
+        "label": "C"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-09": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 1,
+        "y": 1,
+        "label": "A"
+      },
+      {
+        "x": 7,
+        "y": 1,
+        "label": "B"
+      },
+      {
+        "x": 7,
+        "y": 4,
+        "label": "C"
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "label": "D"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-10": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "label": "A"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "label": "B"
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "label": "C"
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "label": "B"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-11": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "label": "A"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "label": "B"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "label": "C"
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "label": "D"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-12": {
+    "kind": "axes",
+    "unit": 30,
+    "originX": 70,
+    "originY": 170,
+    "width": 340,
+    "height": 250,
+    "outline": [
+      [
+        0,
+        0
+      ],
+      [
+        8,
+        4
+      ]
+    ],
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "label": "A"
+      },
+      {
+        "x": 8,
+        "y": 0,
+        "label": "B"
+      },
+      {
+        "x": 8,
+        "y": 4,
+        "label": "C"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "label": "D"
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "label": "M"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-13": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 1,
+        "y": 2,
+        "label": "A"
+      },
+      {
+        "x": 9,
+        "y": 2,
+        "label": "B"
+      },
+      {
+        "x": 9,
+        "y": 6,
+        "label": "C"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-14": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 0,
+        "y": 0,
+        "label": "A"
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "label": "B"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "label": "C"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "label": "D"
+      }
+    ]
+  },
+  "math/math-j-3-coordinates/axes-15": {
+    "kind": "axes",
+    "unit": 34,
+    "points": [
+      {
+        "x": 2,
+        "y": 5,
+        "label": "A"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "label": "A"
+      }
+    ]
+  },
+  "math/math-j-3-transformation/triangle-01": {
+    "kind": "triangle",
+    "base": "6",
+    "height2": "8",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-02": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "5",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-03": {
+    "kind": "triangle",
+    "base": "5",
+    "height2": "7",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-04": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-05": {
+    "kind": "triangle",
+    "base": "12",
+    "height2": "10",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-06": {
+    "kind": "triangle",
+    "base": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-07": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "8",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/rectangle-01": {
+    "kind": "rectangle",
+    "width2": "",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/square-01": {
+    "kind": "square",
+    "side": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/trapezoid-01": {
+    "kind": "lines",
+    "width": 340,
+    "height": 250,
+    "segments": [
+      [
+        180,
+        40,
+        180,
+        215
+      ],
+      [
+        120,
+        120,
+        240,
+        120
+      ],
+      [
+        180,
+        40,
+        240,
+        120
+      ],
+      [
+        180,
+        40,
+        120,
+        120
+      ],
+      [
+        180,
+        200,
+        240,
+        120
+      ],
+      [
+        180,
+        200,
+        120,
+        120
+      ]
+    ],
+    "dots": [
+      [
+        180,
+        40
+      ],
+      [
+        180,
+        215
+      ],
+      [
+        180,
+        120
+      ],
+      [
+        180,
+        200
+      ],
+      [
+        240,
+        120
+      ],
+      [
+        120,
+        120
+      ]
+    ],
+    "texts": [
+      [
+        166,
+        34,
+        "A",
+        "ink"
+      ],
+      [
+        196,
+        220,
+        "B",
+        "ink"
+      ],
+      [
+        196,
+        124,
+        "M",
+        "ink"
+      ],
+      [
+        196,
+        204,
+        "E",
+        "ink"
+      ],
+      [
+        252,
+        124,
+        "C",
+        "ink"
+      ],
+      [
+        104,
+        124,
+        "D",
+        "ink"
+      ],
+      [
+        164,
+        78,
+        "6",
+        "accent"
+      ],
+      [
+        164,
+        166,
+        "8",
+        "accent"
+      ],
+      [
+        180,
+        142,
+        "12",
+        "accent"
+      ],
+      [
+        216,
+        172,
+        "10",
+        "accent"
+      ]
+    ]
+  },
+  "math/math-j-3-transformation/triangle-08": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/triangle-09": {
+    "kind": "triangle",
+    "base": "10",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/rectangle-02": {
+    "kind": "rectangle",
+    "width2": "",
+    "height2": "6",
+    "width": 340,
+    "height": 220
+  },
+  "math/math-j-3-transformation/lines-01": {
+    "kind": "lines",
+    "width": 360,
+    "height": 260,
+    "segments": [
+      [
+        100,
+        190,
+        260,
+        110
+      ],
+      [
+        140,
+        70,
+        220,
+        230
+      ]
+    ],
+    "dots": [
+      [
+        100,
+        190
+      ],
+      [
+        260,
+        110
+      ],
+      [
+        140,
+        70
+      ],
+      [
+        220,
+        230
+      ],
+      [
+        180,
+        150
+      ]
+    ],
+    "texts": [
+      [
+        86,
+        206,
+        "A",
+        "ink"
+      ],
+      [
+        262,
+        104,
+        "A",
+        "ink"
+      ],
+      [
+        126,
+        62,
+        "B",
+        "ink"
+      ],
+      [
+        222,
+        246,
+        "B",
+        "ink"
+      ],
+      [
+        172,
+        146,
+        "O",
+        "ink"
+      ],
+      [
+        122,
+        158,
+        "6",
+        "accent"
+      ],
+      [
+        172,
+        100,
+        "4",
+        "accent"
+      ]
+    ]
+  }
+}

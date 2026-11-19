@@ -1,4 +1,4 @@
-// Generated from xiaohe-app/lib/effective-evidence.ts; SHA-256: a3ea5816610615e814129224bd4bcdb69aa12763dac7f8ca2bd2115548b53d62
+// Generated from xiaohe-app/lib/effective-evidence.ts; SHA-256: 5f8d813c4905cd7c79cd5605c286dd055f25a95e1b00d72f69ec5970306ce93a
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import type { EffectiveAttempt, EffectiveEvidence, EffectiveMistake, EffectiveReviewSource, Evidence, EvidenceDecision, EvidencePatch, KnowledgeId, ReviewPlan, WorkspaceState } from "./types.ts";
 import { deletedEvidenceForAttempt, historyDeletionEpoch } from "./history-deletion.ts";

@@ -1,0 +1,882 @@
+[
+  {
+    "id": "bank-math-s-4-conic-c01",
+    "familyId": "math-s-4-conic__fam-016",
+    "version": 1,
+    "text": "下列方程表示双曲线，且它的两个焦点在 y 轴上的是（　　）。A．x²/4 − y²/9 = 1　B．x²/4 + y²/9 = 1　C．y²/4 − x²/9 = 1　D．x²/9 + y²/4 = 1",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看二次项符号：正号对应椭圆，负号对应双曲线，所以只有 A、C 两项表示双曲线。",
+      "双曲线的实轴与焦点在同一条轴上：A 项写成 x²/a² − y²/b² 的形式，实轴与焦点都在 x 轴上；C 项写成 y²/a² − x²/b² 的形式，实轴与焦点都在 y 轴上。",
+      "答：C。"
+    ],
+    "hint": "记住双曲线的两种标准形式：x²/a² − y²/b² = 1 的焦点在 x 轴上，y²/a² − x²/b² = 1 的焦点在 y 轴上。",
+    "alternative": "也可以直接算焦点：A 项中 c² = 4 + 9 = 13，焦点为 (±√13, 0)；C 项中 c² = 4 + 9 = 13，焦点为 (0, ±√13)，只有 C 的焦点落在 y 轴上。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__choice-equation-recognition"
+  },
+  {
+    "id": "bank-math-s-4-conic-c02",
+    "familyId": "math-s-4-conic__fam-017",
+    "version": 1,
+    "text": "椭圆 x²/16 + y²/25 = 1 的两个焦点的坐标是（　　）。A．(±4, 0)　B．(0, ±3)　C．(±3, 0)　D．(0, ±4)",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较两个分母：25 > 16，所以长轴在 y 轴上，a² = 25、b² = 16。",
+      "由 c² = a² − b² 得 c² = 25 − 16 = 9，即 c = 3。",
+      "焦点在长轴所在直线上，即 y 轴上，故焦点坐标是 (0, ±3)，答：B。"
+    ],
+    "hint": "先判断哪条轴是长轴：分母大的那一条；焦点一定在长轴上，c 由 c² = a² − b² 求。",
+    "alternative": "也可以用椭圆在 y 轴上的顶点 (0, 5)：焦点 (0, c) 满足 c² + 16 = 25，直接解出 c = 3。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-conic__choice-focus-coordinates"
+  },
+  {
+    "id": "bank-math-s-4-conic-c03",
+    "familyId": "math-s-4-conic__fam-018",
+    "version": 1,
+    "text": "已知椭圆的焦点到短轴端点的距离为 5，短半轴长为 3，则它的离心率是（　　）。A．4/5　B．3/5　C．5/4　D．4/3",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设焦点为 (−c, 0)、短轴端点为 (0, b)，由两点间距离公式得焦点到短轴端点的距离为 √(c² + b²)。",
+      "由 c² = a² − b² 得 √(c² + b²) = a，所以 a = 5；再由 c² = 25 − 9 = 16 得 c = 4。",
+      "离心率 e = c/a = 4/5，答：A。"
+    ],
+    "hint": "椭圆有一个常用性质：焦点到短轴端点的距离恰好等于长半轴长 a，题目给的 5 其实就是 a。",
+    "alternative": "也可以直接列方程：设焦点 (−c, 0)、端点 (0, 3)，则 c² + 9 = 25 解出 c = 4，再由 a² = c² + b² 得 a = 5。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__choice-eccentricity-from-focus"
+  },
+  {
+    "id": "bank-math-s-4-conic-c04",
+    "familyId": "math-s-4-conic__fam-019",
+    "version": 1,
+    "text": "双曲线 x²/16 − y²/9 = 1 的右支上一点 P 到右焦点 F₂ 的距离等于 9，则 P 到左焦点 F₁ 的距离是（　　）。A．1　B．8　C．13　D．17",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "双曲线右支上一点到两焦点的距离之差等于 2a，这里 x²/16 − y²/9 = 1 中 a = 4，故差为 8。",
+      "右支上离左焦点更远，所以 |PF₁| − |PF₂| = 8，代入 |PF₂| = 9 得 |PF₁| = 9 + 8 = 17。",
+      "答：D。"
+    ],
+    "hint": "双曲线的定值性质是「距离之差为 2a」，椭圆是「距离之和为 2a」；还要分清左右支上哪一段更长。",
+    "alternative": "也可以用焦半径公式：右支上 |PF₂| = ex₀ − a、|PF₁| = ex₀ + a，两式相减得 2a = 8，由 |PF₂| = 9 同样得到 |PF₁| = 17。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-conic__choice-hyperbola-focal-radius"
+  },
+  {
+    "id": "bank-math-s-4-conic-c05",
+    "familyId": "math-s-4-conic__fam-020",
+    "version": 1,
+    "text": "椭圆 x²/25 + y²/9 = 1 上一点 P 的坐标为 (3, 2.4)，F₁ 与 F₂ 是它的两个焦点，则三角形 PF₁F₂ 的面积是（　　）。A．9.6　B．12　C．7.2　D．19.2",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-4-conic",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由 c² = a² − b² = 25 − 9 = 16 得 c = 4，两个焦点是 (−4, 0) 与 (4, 0)，故 F₁F₂ = 8。",
+      "两点焦点都在 x 轴上，所以 F₁F₂ 就是三角形的底，P 到 x 轴的距离 2.4 就是高。",
+      "三角形面积 = ½ × 8 × 2.4 = 9.6，答：A。"
+    ],
+    "hint": "两个焦点都在 x 轴上：底边长是 2c，高就是点 P 的纵坐标，不要把半轴长当底边。",
+    "alternative": "也可以用坐标面积公式：|S| = ½|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)|，代入三个顶点坐标 (−4, 0)、(4, 0)、(3, 2.4) 计算。",
+    "prerequisites": [
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-conic__choice-focus-triangle-area"
+  },
+  {
+    "id": "bank-math-s-4-parameter-c01",
+    "familyId": "math-s-4-parameter__fam-016",
+    "version": 1,
+    "text": "点 P(0, 1) 在椭圆 x²/25 + y²/9 = 1 的内部，则过点 P 的任意一条直线与该椭圆的位置关系是（　　）。A．相切　B．相交于两点　C．相离　D．与直线的斜率有关",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 P(0, 1) 代入椭圆方程：0/25 + 1/9 = 1/9 < 1，所以 P 确实在椭圆内部。",
+      "过椭圆内部一点的直线必然穿过椭圆、与边界有两个公共点，斜率再特殊也不例外（切线不可能穿过椭圆内部）。",
+      "答：B。"
+    ],
+    "hint": "想象一条直线从椭圆内部穿过：它一定要从边界进出，被边界截在两处，所以与椭圆相交于两点。",
+    "alternative": "也可以代数验证：设直线 y = kx + 1，代入得 (9 + 25k²)x² + 50kx − 200 = 0，其判别式为 22500k² + 7200 恒大于零，所以对任意 k 都有两个交点。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__choice-line-conic-position"
+  },
+  {
+    "id": "bank-math-s-4-parameter-c02",
+    "familyId": "math-s-4-parameter__fam-017",
+    "version": 1,
+    "text": "椭圆 x²/9 + y²/4 = 1 与直线 y = 2x − 2 交于两点，它们的横坐标分别为 x₁、x₂，则 x₁ + x₂ 的值是（　　）。A．0　B．−1.8　C．3.6　D．1.8",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "椭圆化为 4x² + 9y² = 36，把 y = 2x − 2 代入得 4x² + 9(2x − 2)² = 36。",
+      "整理成 40x² − 72x = 0，由韦达定理得 x₁ + x₂ = 72 ÷ 40 = 1.8。",
+      "答：D。"
+    ],
+    "hint": "代入后先整理成关于 x 的一元二次方程，把系数化到最简整数，再作商；别把两个根只算一个。",
+    "alternative": "也可以不解方程：直线经过椭圆的下顶点 (0, −2)，故一个交点的横坐标是 0，另一个由 40x² − 72x = 0 解得 x = 1.8，两者相加仍是 1.8。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-4-parameter__choice-vieta-sum"
+  },
+  {
+    "id": "bank-math-s-4-parameter-c03",
+    "familyId": "math-s-4-parameter__fam-018",
+    "version": 1,
+    "text": "椭圆 x²/9 + y²/4 = 1 与直线 y = kx + m 有且只有一个公共点，则 m 满足的条件是（　　）。A．|m| ≥ 2　B．|m| > 2　C．|m| ≤ 2　D．m ≠ 0",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 y = kx + m 代入 4x² + 9y² = 36，得 (4 + 9k²)x² + 18kmx + 9m² − 36 = 0。",
+      "有且只有一个公共点即判别式为零：(18km)² − 4(4 + 9k²)(9m² − 36) = 0，展开化简得 m² = 9k² + 4。",
+      "因 9k² + 4 ≥ 4，故 |m| ≥ 2（k = 0 时取等号，切线为 y = ±2），答：A。"
+    ],
+    "hint": "用判别式为零建立 m 与 k 的关系 m² = 9k² + 4，再看 k 取任意实数时 m 能取到什么范围，别忘了 k = 0 的水平切线。",
+    "alternative": "也可以用椭圆切线的标准条件：直线 y = kx + m 与椭圆 x²/a² + y²/b² = 1 相切时 m² = a²k² + b²，这里 a² = 9、b² = 4，直接得 m² = 9k² + 4。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__choice-tangent-condition"
+  },
+  {
+    "id": "bank-math-s-4-parameter-c04",
+    "familyId": "math-s-4-parameter__fam-019",
+    "version": 1,
+    "text": "椭圆 x²/16 + y²/9 = 1 与直线 y = (3/4)x − 3 交于两点，则这两点之间的距离（弦长）是（　　）。A．4　B．√7　C．5　D．8",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "椭圆化为 9x² + 16y² = 144，把 y = (3/4)x − 3 代入，整理得 18x² − 72x = 0。",
+      "解得 x₁ = 0、x₂ = 4，回代直线得两个交点分别是 (0, −3) 与 (4, 0)。",
+      "用两点间距离公式 |AB| = √(4² + 3²) = 5，答：C。"
+    ],
+    "hint": "先用韦达定理拿到两个交点的横坐标，再回代直线式求纵坐标，最后才用距离公式；直接套弦长公式也可以。",
+    "alternative": "也可以用弦长公式 |AB| = √(1 + k²)·|x₁ − x₂| = √(1 + 9/16) × 4 = (5/4) × 4 = 5。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-4-parameter__choice-chord-length-vieta"
+  },
+  {
+    "id": "bank-math-s-4-parameter-c05",
+    "familyId": "math-s-4-parameter__fam-020",
+    "version": 1,
+    "text": "已知椭圆 x²/25 + y²/9 = 1 的一条弦的中点为 M(1, 2)，则这条弦所在直线的斜率是（　　）。A．−9/25　B．−9/50　C．9/50　D．−50/9",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-4-parameter",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "设弦的两端为 P(x₁, y₁)、Q(x₂, y₂)，两点都在椭圆上，把两个方程相减得 (x₁ + x₂)(x₁ − x₂)/25 + (y₁ + y₂)(y₁ − y₂)/9 = 0。",
+      "代入中点条件 x₁ + x₂ = 2、y₁ + y₂ = 4，得 2(x₁ − x₂)/25 + 4(y₁ − y₂)/9 = 0，所以弦的斜率 k = (y₁ − y₂)/(x₁ − x₂) = −9/50。",
+      "答：B。"
+    ],
+    "hint": "这是点差法的结论：中点弦的斜率 k = −(b²x₀)/(a²y₀)，其中 (x₀, y₀) 是弦的中点，代入 M(1, 2) 即可。",
+    "alternative": "也可以把弦写成 y = k(x − 1) + 2 代入椭圆方程，要求所得二次方程两根的平均值为 1，比较系数同样得到 k = −9/50。",
+    "prerequisites": [
+      "math-s-4-parameter",
+      "math-s-4-conic"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-4-parameter__choice-midpoint-chord-slope"
+  },
+  {
+    "id": "bank-math-s-5-probability-c01",
+    "familyId": "math-s-5-probability__fam-16",
+    "version": 1,
+    "text": "关于随机事件的独立性，下列说法中正确的是（　　）。A．互斥的两个事件一定相互独立　B．相互独立的两个事件一定互斥　C．若 P(EF) = P(E)P(F)，则事件 E 与 F 相互独立　D．互为对立事件的两个事件一定相互独立",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-5-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两个事件相互独立的定义是：P(EF) = P(E)P(F)，所以 C 正确。",
+      "互斥只说明两个事件不能同时发生，此时 P(EF) = 0，而 P(E)P(F) 一般不为 0，所以互斥并不意味着独立，A 错；对立事件满足的是并集概率为 1，而 P(EF) = 0 ≠ P(E)P(F)（除非有一个事件的概率为 0），D 也错。",
+      "B 错在独立的事件完全可以同时发生，比如掷两次硬币的「第一次正面」与「第二次正面」；答：C。"
+    ],
+    "hint": "先把独立的定义式 P(EF) = P(E)P(F) 写出来，再逐项代入检验，最容易混的是「互斥」与「独立」这两个条件。",
+    "alternative": "也可以举反例：取 E 与 F 互斥且 P(E) = P(F) = 0.5，则 P(EF) = 0 ≠ 0.25，A 错，而此时 E 与 F 并不独立，B、D 也随之被否定；独立但不互斥的例子是掷两次硬币的「第一次正面」与「第二次正面」。",
+    "prerequisites": [
+      "math-s-5-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-5-probability__choice-independent-vs-mutual"
+  },
+  {
+    "id": "bank-math-s-5-probability-c02",
+    "familyId": "math-s-5-probability__fam-17",
+    "version": 1,
+    "text": "袋中有 3 个红球和 2 个白球，形状、大小完全相同，从中随机摸出 2 个球（不放回），则摸出的两个球颜色不同的概率是（　　）。A．3/10　B．9/10　C．1/2　D．3/5",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-5-probability",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "摸出 2 个球的全部结果数为 C(5, 2) = 10。",
+      "两个球颜色不同即一红一白，红球有 3 个、白球有 2 个，故有 3 × 2 = 6 种。",
+      "所求概率为 6 ÷ 10 = 3/5，答：D。"
+    ],
+    "hint": "用组合数算古典概型时，「一红一白」要乘 2（红球与白球各是哪一个）；若按有序计数，则总结果数也要用 5 × 4，两边同时乘 2 才能约掉。",
+    "alternative": "也可以用补事件：两球同色的有 C(3, 2) + C(2, 2) = 3 + 1 = 4 种，故颜色不同的概率为 1 − 4/10 = 3/5。",
+    "prerequisites": [
+      "math-s-5-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-5-probability__choice-classical-two-colors"
+  },
+  {
+    "id": "bank-math-s-5-probability-c03",
+    "familyId": "math-s-5-probability__fam-18",
+    "version": 1,
+    "text": "设 E 与 F 是两个随机事件，已知 P(E) = 0.6，P(F) = 0.5，P(EF) = 0.2，则在已知事件 E 发生的条件下，事件 F 发生的概率是（　　）。A．0.4　B．1/3　C．0.2　D．0.5",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-5-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "条件概率公式：在 E 发生的条件下 F 发生的概率等于 P(EF) ÷ P(E)。",
+      "代入得 0.2 ÷ 0.6 = 1/3。",
+      "答：B。"
+    ],
+    "hint": "写公式时先分清谁是条件：分母是条件事件 E 的概率，分子是 E 与 F 同时发生的概率；分子分母写反就得到 0.4。",
+    "alternative": "也可以画韦恩图：E 的面积为 0.6，F 的面积为 0.5，两块的重叠部分面积为 0.2，那么 E 中落在 F 里的部分占 E 的 0.2/0.6 = 1/3。",
+    "prerequisites": [
+      "math-s-5-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-5-probability__choice-conditional-formula"
+  },
+  {
+    "id": "bank-math-s-5-probability-c04",
+    "familyId": "math-s-5-probability__fam-19",
+    "version": 1,
+    "text": "在边长为 6 的正方形区域内随机取一点，则该点落在以正方形的一条边为直径的半圆区域内的概率是（　　）。A．π/8　B．π/4　C．1/8　D．π/16",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-5-probability",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "几何概型中概率等于满足条件的区域面积与全部区域面积之比。",
+      "半圆的直径为 6，所以半径是 3，面积为 ½ × π × 3² = 4.5π；正方形面积为 6 × 6 = 36。",
+      "所求概率为 4.5π ÷ 36 = π/8，答：A。"
+    ],
+    "hint": "先看清直径是哪条边：半圆的半径是 3 而不是 6；再确认所求区域是不是整个圆（只占一半）。",
+    "alternative": "也可以用边长为 2r 的正方形来记：半圆面积与正方形面积之比为 (1/2)πr² : (2r)² = (1/2)π : 4 = π : 8。",
+    "prerequisites": [
+      "math-s-5-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-5-probability__choice-geometric-semircle"
+  },
+  {
+    "id": "bank-math-s-5-probability-c05",
+    "familyId": "math-s-5-probability__fam-20",
+    "version": 1,
+    "text": "下列关于随机事件的说法中，一定正确的是（　　）。A．若事件 E 与 F 互斥，则 P(E∪F) = P(E) + P(F) = 1　B．若事件 E 与 F 相互独立，则 P(E∪F) = P(E) + P(F)　C．若事件 E 与 F 互斥，则 P(E∪F) = P(E) + P(F)　D．若事件 E 与 F 互斥，则事件 E 与 F 相互独立",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-5-probability",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "互斥的含义是 E 与 F 不能同时发生，此时 P(E∪F) = P(E) + P(F)，所以 C 正确。",
+      "A 错在多写了「= 1」：互斥只保证两个概率相加，两个事件未必把样本空间占满；D 错在互斥恰恰排除了「同时发生」，与独立的要求 P(EF) = P(E)P(F) 不符。",
+      "B 错在独立时并集概率应为 P(E) + P(F) − P(E)P(F)；答：C。"
+    ],
+    "hint": "把四个选项逐条对照概率的加法公式检验，注意「互斥」与「独立」给的是两套完全不同的公式。",
+    "alternative": "也可以举反例：取 E 与 F 互斥且 P(E) = P(F) = 0.3，则 P(E∪F) = 0.6 ≠ 1，A 错且 D 错（此时 P(EF) = 0 ≠ 0.09）；再取掷两次硬币的「第一次正面」与「第二次正面」，二者独立，P(E∪F) = 0.75 ≠ P(E) + P(F) = 1，B 错。",
+    "prerequisites": [
+      "math-s-5-probability"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-5-probability__choice-event-relations"
+  },
+  {
+    "id": "bank-math-s-5-statistics-c01",
+    "familyId": "math-s-5-statistics__fam-16",
+    "version": 1,
+    "text": "下列关于线性回归的说法中，正确的是（　　）。A．样本相关系数 r 越接近 0，用回归直线预测的效果就越好　B．只要 r ≠ 0，就可以认为 x 与 y 之间存在因果关系　C．回归直线一定经过样本数据的中心点 (x̄, ȳ)　D．用最小二乘法拟合时，直线斜率 b 可以任意取定",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-5-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "最小二乘法给出的回归直线斜率 b = Σ(xᵢ − x̄)(yᵢ − ȳ) ÷ Σ(xᵢ − x̄)²，截距 a = ȳ − bx̄，所以直线必过样本中心点 (x̄, ȳ)。",
+      "A 错：|r| 越小只说明线性相关性越弱，预测并不更可靠；B 错：相关不等于因果；D 错：b 由样本数据唯一确定，不能任取。",
+      "答：C。"
+    ],
+    "hint": "用最小二乘法的两个系数公式想一遍：a = ȳ − bx̄ 直接说明直线过 (x̄, ȳ)；斜率 b 是由数据算出来的，不是任取的。",
+    "alternative": "也可以把 (x̄, ȳ) 代入 ŷ = bx + a 检验：bx̄ + ȳ − bx̄ = ȳ，说明中心点确实在直线上。",
+    "prerequisites": [
+      "math-s-5-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-5-statistics__choice-regression-center"
+  },
+  {
+    "id": "bank-math-s-5-statistics-c02",
+    "familyId": "math-s-5-statistics__fam-17",
+    "version": 1,
+    "text": "某市有高一学生 2000 人、高二学生 2500 人、高三学生 3000 人，现用分层抽样方法从高三学生中抽取 90 人，则全市应抽取的学生人数是（　　）。A．90　B．150　C．270　D．225",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-5-statistics",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "分层抽样中每一层的抽样比相同，抽样比为 90 ÷ 3000 = 0.03。",
+      "全市学生总数为 2000 + 2500 + 3000 = 7500 人。",
+      "全市应抽取 7500 × 0.03 = 225 人，答：D。"
+    ],
+    "hint": "分层抽样的关键是「各层抽样比相同」：先由一个已知层求出抽样比，再乘以总人数；不要只把 90 乘以层数。",
+    "alternative": "也可以先求各年级应抽的人数：高一年级 2000 × 0.03 = 60 人，高二年级 2500 × 0.03 = 75 人，高三年级 90 人，相加得 225 人。",
+    "prerequisites": [
+      "math-s-5-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-5-statistics__choice-stratified-sample-size"
+  },
+  {
+    "id": "bank-math-s-5-statistics-c03",
+    "familyId": "math-s-5-statistics__fam-18",
+    "version": 1,
+    "text": "为研究吸烟与患肺部疾病的关系，某医生调查了 100 人，得到列联表：吸烟者 60 人中患病 30 人、未患病 30 人；不吸烟者 40 人中患病 10 人、未患病 30 人。由卡方计算得 χ² = 6.25，已知 χ² 的临界值为 3.841（对应犯错误的概率不超过 0.05）与 6.635（对应犯错误的概率不超过 0.01），则由独立性检验得到的结论是（　　）。A．在犯错误的概率不超过 0.05 的前提下认为吸烟与患肺部疾病有关　B．在犯错误的概率不超过 0.01 的前提下认为吸烟与患肺部疾病有关　C．认为吸烟与患肺部疾病无关　D．认为吸烟一定会导致患肺部疾病",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-5-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把 χ² = 6.25 与两个临界值比较：3.841 < 6.25 < 6.635。",
+      "所以可以作出「有关」的结论，但把握程度只能到 95% 这一级，还没有达到 99%。",
+      "答：A。"
+    ],
+    "hint": "临界值越大对应的把握程度越高：χ² 超过哪个临界值，结论就只能作到哪一级；比两个临界值都小才谈得上「在 0.01 的前提下有关」。",
+    "alternative": "也可以查表：χ² = 6.25 落在 3.841 与 6.635 之间，对应的 P 值介于 0.01 与 0.05 之间，故可在犯错误概率不超过 0.05 的前提下认为二者有关。",
+    "prerequisites": [
+      "math-s-5-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-5-statistics__choice-chi-square-conclusion"
+  },
+  {
+    "id": "bank-math-s-5-statistics-c04",
+    "familyId": "math-s-5-statistics__fam-19",
+    "version": 1,
+    "text": "已知一组样本数据中 x 的平均数为 4，y 的平均数为 10，Σ(xᵢ − x̄)(yᵢ − ȳ) = 60，Σ(xᵢ − x̄)² = 20，则 y 关于 x 的回归直线方程是（　　）。A．ŷ = 3x + 2　B．ŷ = 3x − 2　C．ŷ = 2x + 2　D．ŷ = 3x − 10",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-5-statistics",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "回归系数 b = Σ(xᵢ − x̄)(yᵢ − ȳ) ÷ Σ(xᵢ − x̄)² = 60 ÷ 20 = 3。",
+      "截距 a = ȳ − bx̄ = 10 − 3 × 4 = −2。",
+      "故回归直线方程为 ŷ = 3x − 2，答：B。"
+    ],
+    "hint": "b 由两个离差平方和的商给出，a 要用 a = ȳ − bx̄ 求；写成 ŷ − ȳ = b(x − x̄) 就不会把符号弄反。",
+    "alternative": "也可以把回归直线写成过中心点的形式 ŷ − ȳ = b(x − x̄)，代入 ŷ − 10 = 3(x − 4)，展开化简同样得到 ŷ = 3x − 2。",
+    "prerequisites": [
+      "math-s-5-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-5-statistics__choice-least-squares-summary"
+  },
+  {
+    "id": "bank-math-s-5-statistics-c05",
+    "familyId": "math-s-5-statistics__fam-20",
+    "version": 1,
+    "text": "为研究每天睡眠时间 x（小时）与记忆测试得分 y（分）的关系，抽查 5 名学生，得到数据 (6, 78)、(7, 84)、(8, 88)、(9, 90)、(10, 95)。若用线性回归模型预测，睡眠 8.5 小时的学生得分约为（　　）。A．87　B．89　C．91　D．4.5",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-5-statistics",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "x̄ = 8，ȳ = 87，由 b = Σ(xᵢ − x̄)(yᵢ − ȳ) ÷ Σ(xᵢ − x̄)² = 40 ÷ 10 = 4。",
+      "再由 a = ȳ − bx̄ = 87 − 4 × 8 = 55，得回归直线 ŷ = 4x + 55。",
+      "代入 x = 8.5，ŷ = 4 × 8.5 + 55 = 89，答：B。"
+    ],
+    "hint": "题目没有直接给出回归方程，要先由数据算出 b 与 a，再用回归方程预测；注意预测时 x 的单位是小时。",
+    "alternative": "也可以用 (nΣxy − ΣxΣy) ÷ (nΣx² − (Σx)²) 计算斜率：n = 5、Σx = 40、Σy = 435、Σx² = 330、Σxy = 3520，得 b = (5 × 3520 − 40 × 435) ÷ (5 × 330 − 40²) = 200 ÷ 50 = 4，预测值同样是 89。",
+    "prerequisites": [
+      "math-s-5-statistics"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-5-statistics__choice-regression-prediction"
+  },
+  {
+    "id": "bank-math-s-6-complex-c01",
+    "familyId": "math-s-6-complex__fam-16",
+    "version": 1,
+    "text": "已知复数 z = 5 + 12i，则 |z| 与 z 的实部之和是（　　）。A．18　B．13　C．25　D．12",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-6-complex",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "复数 z = a + bi 的模为 |z| = √(a² + b²)，这里 |z| = √(25 + 144) = √169 = 13。",
+      "z 的实部是 5，虚部是 12。",
+      "所以 |z| 与实部之和为 13 + 5 = 18，答：A。"
+    ],
+    "hint": "把实部、虚部、模三者分清：模是 √(a² + b²)，不是实部与虚部之和，也不是它们的平方和。",
+    "alternative": "也可以用 z 与其共轭复数相乘：|z|² = (5 + 12i)(5 − 12i) = 169，先算出模的平方再开方。",
+    "prerequisites": [
+      "math-s-6-complex"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-6-complex__choice-modulus-and-real-part"
+  },
+  {
+    "id": "bank-math-s-6-complex-c02",
+    "familyId": "math-s-6-complex__fam-17",
+    "version": 1,
+    "text": "设 n 是正整数，且 iⁿ = −1，则 n 除以 4 的余数是（　　）。A．0　B．1　C．2　D．3",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-6-complex",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "i 的幂以 4 为周期循环：i¹ = i，i² = −1，i³ = −i，i⁴ = 1。",
+      "由 i² = −1 及周期为 4 可知 iⁿ = −1 当且仅当 n = 4k + 2（k 为非负整数）。",
+      "所以 n 除以 4 的余数是 2，答：C。"
+    ],
+    "hint": "把 i、i²、i³、i⁴ = 1 依次列出来，看 −1 落在哪一格；余数为 0 对应的是 iⁿ = 1，别记混。",
+    "alternative": "也可以用辐角比较：iⁿ = e^{i·nπ/2}，而 −1 = e^{iπ}，令 nπ/2 = π + 2kπ 得 n = 2 + 4k，同样说明余数是 2。",
+    "prerequisites": [
+      "math-s-6-complex"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-6-complex__choice-i-power-cycle"
+  },
+  {
+    "id": "bank-math-s-6-complex-c03",
+    "familyId": "math-s-6-complex__fam-18",
+    "version": 1,
+    "text": "已知复数 z 满足 (z + 2i)/(1 + i) = 1 − i，则 z 等于（　　）。A．2 + 2i　B．−2 + 2i　C．2　D．2 − 2i",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-6-complex",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两边同乘 1 + i，得 z + 2i = (1 − i)(1 + i)。",
+      "用平方差公式 (1 − i)(1 + i) = 1 − i² = 2，所以 z + 2i = 2。",
+      "把 2i 移到右边得 z = 2 − 2i，答：D。"
+    ],
+    "hint": "先把分式去分母：(1 − i)(1 + i) 用平方差公式最省事；移项时 2i 的符号别丢。",
+    "alternative": "也可以设 z = a + bi 代入原式，通分后比较实部与虚部：(z + 2i) = 2 直接给出 a = 2、b = −2。",
+    "prerequisites": [
+      "math-s-6-complex"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-6-complex__choice-complex-equation"
+  },
+  {
+    "id": "bank-math-s-6-complex-c04",
+    "familyId": "math-s-6-complex__fam-19",
+    "version": 1,
+    "text": "已知复数 z = 1 + 2i，则 z² 等于（　　）。A．1 + 4i　B．−3 + 4i　C．−3 − 4i　D．5 + 4i",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-6-complex",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "平方要三项齐全：z² = (1 + 2i)² = 1 + 2 × 1 × 2i + (2i)²。",
+      "由 (2i)² = 4i² = −4，得 z² = 1 + 4i − 4 = −3 + 4i。",
+      "答：B。"
+    ],
+    "hint": "关键在最后一项 (bi)² = −b²，漏掉它就会选成 1 + 4i；把 i² 看成 1 会选成 5 + 4i。",
+    "alternative": "也可以用极形式：z = √5(cos θ + i sin θ)，其中 tan θ = 2，则 z² = 5(cos 2θ + i sin 2θ)，而 cos 2θ = (1 − tan²θ)/(1 + tan²θ) = −3/5、sin 2θ = 2tan θ/(1 + tan²θ) = 4/5，故 z² = −3 + 4i。",
+    "prerequisites": [
+      "math-s-6-complex"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-6-complex__choice-square-of-complex"
+  },
+  {
+    "id": "bank-math-s-6-complex-c05",
+    "familyId": "math-s-6-complex__fam-20",
+    "version": 1,
+    "text": "设复数 z = 1 + i，则 z⁵ 等于（　　）。A．4 + 4i　B．−4 + 4i　C．−4 − 4i　D．4 − 4i",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-6-complex",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先算 z² = (1 + i)² = 2i，再算 z⁴ = (2i)² = −4。",
+      "最后乘一次 z：z⁵ = z⁴·z = −4(1 + i) = −4 − 4i。",
+      "答：C。"
+    ],
+    "hint": "多次幂不要一次次硬乘：先凑出 z²、z⁴，最后只乘一次 z；每一步都注意 i² = −1。",
+    "alternative": "也可以用极形式：z = √2(cos π/4 + i sin π/4)，故 z⁵ = (√2)⁵(cos 5π/4 + i sin 5π/4) = 4√2 × (−√2/2 − √2/2 i) = −4 − 4i。",
+    "prerequisites": [
+      "math-s-6-complex"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-6-complex__choice-complex-power"
+  },
+  {
+    "id": "bank-math-s-6-trig-apply-c01",
+    "familyId": "math-s-6-trig-apply__fam-16",
+    "version": 1,
+    "text": "已知 cos 2α = 3/5，则 sin²α 的值是（　　）。A．1/5　B．2/5　C．−1/5　D．4/5",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-6-trig-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "由二倍角余弦公式 cos 2α = 1 − 2sin²α，把已知条件反过来解出 sin²α。",
+      "sin²α = (1 − cos 2α) ÷ 2 = (1 − 3/5) ÷ 2 = 1/5。",
+      "答：A。"
+    ],
+    "hint": "用 cos 2α = 1 − 2sin²α 直接求 sin²α，不要绕道去求 sin α 或 α 的具体值。",
+    "alternative": "也可以用 cos 2α = 2cos²α − 1 先求出 cos²α = (1 + 3/5)/2 = 4/5，再由 sin²α + cos²α = 1 得 sin²α = 1/5。",
+    "prerequisites": [
+      "math-s-6-trig-apply",
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-6-trig-apply__choice-half-angle-from-double"
+  },
+  {
+    "id": "bank-math-s-6-trig-apply-c02",
+    "familyId": "math-s-6-trig-apply__fam-17",
+    "version": 1,
+    "text": "化简求值：cos(π + x) − sin(π/2 + x) 的值是（　　）。A．2 cos x　B．−2 cos x　C．0　D．−2 sin x",
+    "answer": "B",
+    "unit": "",
+    "knowledgeId": "math-s-6-trig-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用诱导公式把两个角都化到 x 上：cos(π + x) = −cos x，sin(π/2 + x) = cos x。",
+      "原式 = −cos x − cos x = −2 cos x。",
+      "答：B。"
+    ],
+    "hint": "诱导公式的口诀是「奇变偶不变、符号看象限」：π + x 是奇数加 x 要变号，π/2 + x 是偶数加 x 不变号。",
+    "alternative": "也可以用和角公式展开：cos(π + x) = −cos x，而 sin(π/2 + x) = sin(π/2)cos x + cos(π/2)sin x = cos x，结果相同。",
+    "prerequisites": [
+      "math-s-6-trig-apply",
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-s-6-trig-apply__choice-induced-formula"
+  },
+  {
+    "id": "bank-math-s-6-trig-apply-c03",
+    "familyId": "math-s-6-trig-apply__fam-18",
+    "version": 1,
+    "text": "sin 15° + cos 15° 的值是（　　）。A．√2/2　B．1　C．√6/2　D．√3/2",
+    "answer": "C",
+    "unit": "",
+    "knowledgeId": "math-s-6-trig-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用辅助角公式把两项合并：sin 15° + cos 15° = √2 · sin(15° + 45°) = √2 · sin 60°。",
+      "sin 60° = √3/2。",
+      "所以原式 = √2 × √3/2 = √6/2，答：C。"
+    ],
+    "hint": "对 a sin x + b cos x 用辅助角公式化成 √(a² + b²)·sin(x + φ)，这里 a = b = 1，故 √(a² + b²) = √2，φ = 45°。",
+    "alternative": "也可以先平方：sin 15° + cos 15° = √[(sin 15° + cos 15°)²] = √[1 + 2sin 15°cos 15°] = √[1 + sin 30°] = √(3/2) = √6/2。",
+    "prerequisites": [
+      "math-s-6-trig-apply",
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-6-trig-apply__choice-auxiliary-angle-value"
+  },
+  {
+    "id": "bank-math-s-6-trig-apply-c04",
+    "familyId": "math-s-6-trig-apply__fam-19",
+    "version": 1,
+    "text": "已知 α 与 β 都是锐角，且 sin α = 3/5，cos β = 4/5，则 sin(α + β) 的值是（　　）。A．12/25　B．1　C．7/25　D．24/25",
+    "answer": "D",
+    "unit": "",
+    "knowledgeId": "math-s-6-trig-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "α、β 都是锐角，所以由 sin α = 3/5 得 cos α = 4/5，由 cos β = 4/5 得 sin β = 3/5。",
+      "用和角公式：sin(α + β) = sin α · cos β + cos α · sin β = (3/5)(4/5) + (4/5)(3/5)。",
+      "所以原式 = 24/25，答：D。"
+    ],
+    "hint": "锐角条件下由 sin α 求 cos α、由 cos β 求 sin β 时都取正值；和角公式里的第二项 cos α · sin β 千万别漏掉。",
+    "alternative": "也可以顺便求 cos(α + β) = (4/5)(4/5) − (3/5)(3/5) = 7/25，再用 sin²(α + β) + cos²(α + β) = 1 检验 24/25 与 7/25 正好凑成勾股数 24² + 7² = 25²。",
+    "prerequisites": [
+      "math-s-6-trig-apply",
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-s-6-trig-apply__choice-angle-sum-value"
+  },
+  {
+    "id": "bank-math-s-6-trig-apply-c05",
+    "familyId": "math-s-6-trig-apply__fam-20",
+    "version": 1,
+    "text": "若不等式 a(sin x + cos x) ≤ 2 对一切 x ∈ R 恒成立，则 a 的取值范围是（　　）。A．−√2 ≤ a ≤ √2　B．a ≤ √2　C．−√2 ≤ a ≤ 0　D．−2 ≤ a ≤ 2",
+    "answer": "A",
+    "unit": "",
+    "knowledgeId": "math-s-6-trig-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创 · 按上海高考考纲编写 · 非真题",
+    "sourceScope": "上海市高中数学高考考点 · 原创编写，非真题原文 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "sin x + cos x = √2 · sin(x + π/4)，所以它能取遍 [−√2, √2] 中的每一个值。",
+      "令 t = sin x + cos x，则问题变成「一次函数 at 在 t ∈ [−√2, √2] 上的最大值不超过 2」，其最大值为 |a| · √2。",
+      "由 |a| · √2 ≤ 2 得 −√2 ≤ a ≤ √2，答：A。"
+    ],
+    "hint": "把 sin x + cos x 看成在 [−√2, √2] 上取遍的变量 t，问题是「线性函数在闭区间上的最大值不超过 2」，必须分 a ≥ 0 与 a < 0 两种情况讨论。",
+    "alternative": "也可以分类讨论：a ≥ 0 时最大值在 t = √2 处取到，a√2 ≤ 2 得 a ≤ √2；a < 0 时最大值在 t = −√2 处取到，−a√2 ≤ 2 得 a ≥ −√2；两种情况合并即得 −√2 ≤ a ≤ √2。",
+    "prerequisites": [
+      "math-s-6-trig-apply",
+      "math-s-1-trig"
+    ],
+    "status": "published",
+    "authorId": "bank-author-sh-s-math",
+    "reviewerId": "bank-check-sh-s-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-s-6-trig-apply__choice-universal-inequality"
+  }
+]

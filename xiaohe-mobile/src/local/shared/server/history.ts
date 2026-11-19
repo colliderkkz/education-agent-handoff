@@ -1,7 +1,7 @@
-// Generated from xiaohe-app/lib/server/history.ts; SHA-256: 3f04dd57a25012e35972d6839bf76878f9b76980a7e392c54ca864b680188ae2
+// Generated from xiaohe-app/lib/server/history.ts; SHA-256: 651690cfd26388f48ea54babc569d83ca175cc0bf6468079b83d1411431ce1d3
 // Run node scripts/sync-local-domain.mjs; do not edit the generated body.
 import { cloneData as structuredClone } from '../../clone.ts';
-import type { ApiResult, HistoryDeletionOperation, HistoryDeletionPreview, HistoryDeletionSelection, HistoryDeletionState, KnowledgeId, Role, WorkspaceState } from '../types.ts';
+import { allKnowledgeIds, type ApiResult, type HistoryDeletionOperation, type HistoryDeletionPreview, type HistoryDeletionSelection, type HistoryDeletionState, type KnowledgeId, type Role, type WorkspaceState } from '../types.ts';
 import { historyFileIdentity } from '../history-deletion.ts';
 import { effectiveAttempt, effectiveEvidence, effectiveReviewSource } from '../effective-evidence.ts';
 import { canonicalStringify, sha256 } from './content.ts';
@@ -19,13 +19,13 @@ const isId = (v: unknown): v is string => typeof v === 'string' && /^[A-Za-z0-9_
 const isDate = (v: unknown): v is string => typeof v === 'string' && /^\d{4}-\d\d-\d\dT/.test(v) && Number.isFinite(Date.parse(v));
 const isDigest = (v: unknown): v is string => typeof v === 'string' && /^[a-f0-9]{64}$/.test(v);
 const isRevision = (v: unknown): v is number => Number.isSafeInteger(v) && Number(v) >= 0;
-const knowledgeIds: KnowledgeId[] = ['division', 'geometry', 'multiplication'];
+const knowledgeIds: readonly string[] = allKnowledgeIds;
 const rank = (help: string) => help === 'explanation' ? 3 : help === 'hint' ? 2 : help === 'unknown' ? 1 : 0;
 function ids(value: unknown, empty = true): string[] { check(Array.isArray(value) && value.every(isId) && (empty || value.length > 0) && new Set(value).size === value.length, '请选择不重复的有效记录'); return value.slice().sort(); }
 export function ensureHistoryDeletion(state: WorkspaceState): HistoryDeletionState {
   return state.historyDeletion ?? (state.historyDeletion = { schemaVersion: 1, operations: [], evidence: [], qualificationFacts: [], requests: [], assessments: [], fileTasks: [] });
 }
-function selection(input: Input): HistoryDeletionSelection { return { evidenceIds: ids(input.evidenceIds, false), uploadIds: ids(input.uploadIds ?? []) }; }
+function selection(input: Input): HistoryDeletionSelection { const result = { evidenceIds: ids(input.evidenceIds), uploadIds: ids(input.uploadIds ?? []) }; check(result.evidenceIds.length || result.uploadIds.length, '请选择作答或照片'); return result; }
 function pair(paperId: string, questionId: string) { return JSON.stringify([paperId, questionId]); }
 function closure(state: WorkspaceState, selected: HistoryDeletionSelection, actorId: string) {
   const wanted = new Set(selected.evidenceIds);
@@ -54,6 +54,9 @@ function closure(state: WorkspaceState, selected: HistoryDeletionSelection, acto
     const aliases = state.uploads.filter(u => historyFileIdentity(u.url) === identity);
     const aliasIds = new Set(aliases.map(u => u.id));
     let retainedReferenceCount = aliases.filter(u => !selected.uploadIds.includes(u.id)).length;
+    // A confirmed legacy upload can be referenced only by a paper's free-text metadata.
+    // Require the history flow for it rather than deleting it as a standalone photo.
+    if (!selected.evidenceIds.length && aliases.some(u => u.status === 'confirmed')) retainedReferenceCount++;
     retainedReferenceCount += (state.evidenceReviews?.proposals ?? []).filter(p => !wanted.has(p.evidenceId) && p.uploadIds.some(id => aliasIds.has(id))).length;
     retainedReferenceCount += (state.paperReturns ?? []).filter(r => r.uploadIds.some(id => aliasIds.has(id)) && r.entries.some(e => !pairs.has(pair(r.paperId, e.questionId)))).length;
     retainedReferenceCount += recognitionPhotoReferences(state, aliasIds, selected.evidenceIds);
@@ -79,6 +82,7 @@ function mutate(current: WorkspaceState, selected: HistoryDeletionSelection, ctx
     removedProposalIds: c.proposals.map(p => p.id), removedDecisionIds: c.decisions.map(d => d.id), deletedUploadIds: [...deletedUploads],
     redactedAssessmentIds: c.assessments.map(a => a.id), affectedReviewPlanIds: c.plans.map(p => p.id),
     reviewPlanSources: c.plans.map(p => ({ planId: p.id, ...(p.sourceRevision !== undefined ? { sourceRevision: p.sourceRevision } : {}), createdAt: p.createdAt })) };
+  check(selected.evidenceIds.length > 0 || deletedUploads.size > 0, '照片仍被其他记录引用，无法单独删除', 409);
   history.operations.push(operation);
   redactRecognitionHistory(state, selected.evidenceIds, deletedUploads, id, ctx.now);
   const effectiveById = new Map(effectiveEvidence(current).map(e => [e.id, e]));
@@ -119,11 +123,11 @@ function mutate(current: WorkspaceState, selected: HistoryDeletionSelection, ctx
   const removedAssessments = new Set(c.assessments.map(a => a.id));
   for (const a of c.assessments) history.assessments.push({ id: a.id, knowledgeId: a.knowledgeId, createdAt: a.createdAt, operationId: id });
   state.mastery!.assessments = state.mastery!.assessments.filter(a => !removedAssessments.has(a.id));
-  state.mastery!.previews = []; // Rule previews contain old derived grade summaries; no longer reproducible.
+  if (selected.evidenceIds.length) state.mastery!.previews = []; // Old derived grade summaries are no longer reproducible.
   for (const plan of state.mastery!.reviewPlans) if (operation.affectedReviewPlanIds.includes(plan.id)) plan.sourceHistoryDeletionId = id;
   // Old free-form audit details cannot prove their own absence of deleted work. Keep
   // only public editorial actions and structured exposure facts; never copy them to a receipt.
-  state.events = state.events.flatMap(e => {
+  if (selected.evidenceIds.length) state.events = state.events.flatMap(e => {
     if (e.action === 'learning.exposure') {
       try { const d = JSON.parse(e.detail); if (!d || !Array.isArray(d.familyIds) || !d.familyIds.every(isId) || !['hint','explanation'].includes(d.level) || typeof d.ruleVersion !== 'string') return [];
         return [{ ...e, detail: JSON.stringify({ familyIds: [...new Set(d.familyIds)], level: d.level, ruleVersion: d.ruleVersion }) }];
@@ -201,7 +205,7 @@ export function validateHistoryDeletion(state: WorkspaceState): void {
     keys(value, ['id','actorId','requestId','digest','createdAt','appliedRevision','evidenceIds','knowledgeIds','deletedThreadIds','deletedHelpRequestIds','removedProposalIds','removedDecisionIds','deletedUploadIds','redactedAssessmentIds','affectedReviewPlanIds','reviewPlanSources']);
     check(isId(value.id) && isId(value.actorId) && isId(value.requestId) && isDigest(value.digest) && isDate(value.createdAt) && isRevision(value.appliedRevision) && value.appliedRevision > 0 && value.appliedRevision <= state.revision && !operations.has(value.id) && !revisions.has(value.appliedRevision), '删除操作身份或版本无效');
     const key = JSON.stringify([value.actorId, value.requestId]); check(!requests.has(key), '删除请求 ID 重复'); requests.add(key); revisions.add(value.appliedRevision);
-    ids(value.evidenceIds, false); const ks = ids(value.knowledgeIds, false); check(ks.every(k => knowledgeIds.includes(k as KnowledgeId)), '删除知识点无效');
+    ids(value.evidenceIds); const ks = ids(value.knowledgeIds); check(ks.every(k => knowledgeIds.includes(k as KnowledgeId)), '删除知识点无效');
     for (const key of ['deletedThreadIds','deletedHelpRequestIds','removedProposalIds','removedDecisionIds','deletedUploadIds','redactedAssessmentIds','affectedReviewPlanIds']) ids(value[key]);
     const planSources = rows(value.reviewPlanSources), planSourceIds = new Set<string>();
     for (const snapshot of planSources) {

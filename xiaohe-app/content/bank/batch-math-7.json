@@ -1,0 +1,2719 @@
+[
+  {
+    "id": "bank-math-7-organize-001",
+    "familyId": "math-7-organize__fam-001",
+    "version": 1,
+    "text": "复习口算时，小明一口气算出三道题：25 × 4、360 ÷ 6、125 × 8。其中积最大的一道题的积是多少？",
+    "answer": "1000",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "125 × 8 = 1000",
+      "先把三个算式的结果都算出来：25 × 4 得 100，360 ÷ 6 得 60，125 × 8 得 1000，三个结果里 1000 最大。",
+      "答：积最大的一道题的积是 1000。"
+    ],
+    "hint": "把三个式子的结果分别写出来，再比一比哪个最大。",
+    "alternative": "也可以先看结果的位数：25 × 4 和 360 ÷ 6 的结果都不到三位数，只有 125 × 8 的积是四位数，所以它最大。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-number-review"
+  },
+  {
+    "id": "bank-math-7-organize-002",
+    "familyId": "math-7-organize__fam-002",
+    "version": 1,
+    "text": "在一道除法算式中，除数是 12，商是 36。如果把除数扩大到原来的 2 倍，被除数不变，那么新的商是多少？",
+    "answer": "18",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 ÷ 2 = 18",
+      "除数扩大到原来的 2 倍，商就缩小到原来的一半，所以用原来的商 36 除以 2。",
+      "答：新的商是 18。"
+    ],
+    "hint": "想一想：除数变大的时候，商会变大还是变小？",
+    "alternative": "也可以用被除数不变来检验：新的除数是 12 × 2 = 24，被除数不变时商正好是原来的一半。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-pattern"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-number-review"
+  },
+  {
+    "id": "bank-math-7-organize-003",
+    "familyId": "math-7-organize__fam-003",
+    "version": 1,
+    "text": "计算 120 - 45 × 2 时，要先算乘法。45 × 2 的积是多少？",
+    "answer": "90",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 × 2 = 90",
+      "一个算式里既有乘法又有减法时，要先算乘法，再算减法。",
+      "答：45 × 2 的积是 90。"
+    ],
+    "hint": "混合运算中谁先算？",
+    "alternative": "也可以先算 2 × 45，交换两个乘数的位置积不变，结果同样是 90。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-number-review"
+  },
+  {
+    "id": "bank-math-7-organize-004",
+    "familyId": "math-7-organize__fam-004",
+    "version": 1,
+    "text": "把 25 块糖平均分给 6 个小朋友，每人最多能分到多少块？",
+    "answer": "4",
+    "unit": "块",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(25 - 1) ÷ 6 = 4",
+      "25 块糖平均分给 6 人，每人分 4 块时共用 6 × 4 = 24 块，还剩 1 块不够再分给一个人，所以每人最多分 (25 - 1) ÷ 6 = 4 块。",
+      "答：每人最多能分到 4 块。"
+    ],
+    "hint": "先估一估每人分几块，再看够不够分。",
+    "alternative": "也可以从 5 块往下试：每人 5 块要 30 块，糖不够，所以只能每人分 4 块。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-number-review"
+  },
+  {
+    "id": "bank-math-7-organize-005",
+    "familyId": "math-7-organize__fam-005",
+    "version": 1,
+    "text": "一块长方形菜地长 12 米、宽 5 米，它的面积是多少平方米？",
+    "answer": "60",
+    "unit": "平方米",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 5 = 60",
+      "长方形的面积等于长乘宽。",
+      "答：菜地的面积是 60 平方米。"
+    ],
+    "hint": "面积用哪个乘法算？注意单位是平方米。",
+    "alternative": "也可以一行一行数：每行摆 12 个 1 平方米的小方格，一共摆 5 行，就是 60 个小方格。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-geometry-review"
+  },
+  {
+    "id": "bank-math-7-organize-006",
+    "familyId": "math-7-organize__fam-006",
+    "version": 1,
+    "text": "平角是 180 度，一个平角被分成两个角，其中一个角是 65 度，另一个角是多少度？",
+    "answer": "115",
+    "unit": "度",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 - 65 = 115",
+      "平角是 180 度，分成两个角后两角度数的和正好是 180 度。",
+      "答：另一个角是 115 度。"
+    ],
+    "hint": "两个角合起来是一个平角，度数和是多少？",
+    "alternative": "也可以用加法检验：65 + 115 = 180，正好是一个平角。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-2-angle",
+      "math-2-measure"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-geometry-review"
+  },
+  {
+    "id": "bank-math-7-organize-007",
+    "familyId": "math-7-organize__fam-007",
+    "version": 1,
+    "text": "一个平行四边形的底是 14 厘米，这条底边上的高是 5 厘米，它的面积是多少平方厘米？",
+    "answer": "70",
+    "unit": "平方厘米",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "14 × 5 = 70",
+      "平行四边形的面积等于底乘高。",
+      "答：平行四边形的面积是 70 平方厘米。"
+    ],
+    "hint": "平行四边形的面积和长方形一样用乘法算，用的是哪两条数据？",
+    "alternative": "也可以把它剪拼成长方形：拼成的长方形的长是 14 厘米、宽是 5 厘米，面积还是 14 × 5 = 70 平方厘米。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-5-quads",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-geometry-review"
+  },
+  {
+    "id": "bank-math-7-organize-008",
+    "familyId": "math-7-organize__fam-008",
+    "version": 1,
+    "text": "四（1）班参加跳绳的有 18 人，参加踢毽的有 12 人，参加这两项活动的一共有多少人？",
+    "answer": "30",
+    "unit": "人",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 + 12 = 30",
+      "把统计图上两项活动的人数合起来，用加法计算。",
+      "答：参加这两项活动的一共有 30 人。"
+    ],
+    "hint": "统计图上两个数合起来用什么方法？",
+    "alternative": "也可以先算跳绳比踢毽多多少人：18 - 12 = 6，再加上 12 人就是 30 人。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-6-single",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-statistics-review"
+  },
+  {
+    "id": "bank-math-7-organize-009",
+    "familyId": "math-7-organize__fam-009",
+    "version": 1,
+    "text": "小禾连续 4 天一共读了 100 页课外书，平均每天读多少页？",
+    "answer": "25",
+    "unit": "页",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100 ÷ 4 = 25",
+      "求平均数就是把总数平均分成 4 份，用总数除以天数。",
+      "答：平均每天读 25 页。"
+    ],
+    "hint": "总数和份数都有了，用什么方法？",
+    "alternative": "也可以想：4 天每天读 25 页正好是 100 页，与总数一样多，所以平均每天读 25 页。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-6-single",
+      "math-6-project"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-statistics-review"
+  },
+  {
+    "id": "bank-math-7-organize-010",
+    "familyId": "math-7-organize__fam-010",
+    "version": 1,
+    "text": "复习条形统计图时，小禾发现甲班植树 24 棵，乙班植树 18 棵，甲班比乙班多植树多少棵？",
+    "answer": "6",
+    "unit": "棵",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 - 18 = 6",
+      "比较两个班植树棵数的多少，用大数减小数。",
+      "答：甲班比乙班多植树 6 棵。"
+    ],
+    "hint": "从统计图上读到两个数以后，比较多少用什么方法？",
+    "alternative": "也可以把乙班的 18 棵先看成和甲班同样多，再看多出来的部分是 24 - 18 = 6 棵。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-6-double"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-organize__organize-statistics-review"
+  },
+  {
+    "id": "bank-math-7-organize-011",
+    "familyId": "math-7-organize__fam-011",
+    "version": 1,
+    "text": "复习单位换算：1 千克 = 1000 克，5 千克白糖一共等于多少克？",
+    "answer": "5000",
+    "unit": "克",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "5 × 1000 = 5000",
+      "千克化成克，要用千克数乘 1000。",
+      "答：5 千克白糖等于 5000 克。"
+    ],
+    "hint": "1 千克等于 1000 克，5 千克就是几个 1000 克？",
+    "alternative": "也可以一段一段地换算：先换 4 千克得 4000 克，再加 1 千克的 1000 克，一共 5000 克。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-unit-conversion"
+  },
+  {
+    "id": "bank-math-7-organize-012",
+    "familyId": "math-7-organize__fam-012",
+    "version": 1,
+    "text": "复习单位换算：1 升 = 1000 毫升，一瓶果汁 8000 毫升，合多少升？",
+    "answer": "8",
+    "unit": "升",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8000 ÷ 1000 = 8",
+      "毫升化成升，要用毫升数除以 1000。",
+      "答：8000 毫升果汁合 8 升。"
+    ],
+    "hint": "从大单位化成小单位用什么方法？",
+    "alternative": "也可以先换算一部分：先把 8000 毫升看作 8 个 1000 毫升，每个 1000 毫升是 1 升，所以是 8 升。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-unit-conversion"
+  },
+  {
+    "id": "bank-math-7-organize-013",
+    "familyId": "math-7-organize__fam-013",
+    "version": 1,
+    "text": "每本练习本 6 元，7 本练习本一共 42 元。小明付了 50 元，应找回多少元？",
+    "answer": "8",
+    "unit": "元",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "50 - 42 = 8",
+      "找回的钱等于付出的钱减去已经花掉的钱。",
+      "答：应找回 8 元。"
+    ],
+    "hint": "付出的钱和花掉的钱都知道了，找回多少该怎样算？",
+    "alternative": "也可以倒过来想：找回 8 元后正好剩下 42 元，50 - 8 = 42，说明找回了 8 元。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-estimate-check"
+  },
+  {
+    "id": "bank-math-7-organize-014",
+    "familyId": "math-7-organize__fam-014",
+    "version": 1,
+    "text": "小禾估算 298 × 3 大约是 900，298 × 3 的准确积是多少？",
+    "answer": "894",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "298 × 3 = 894",
+      "先按 300 × 3 = 900 估算，再把多算的 2 × 3 = 6 减掉。",
+      "答：298 × 3 的准确积是 894。"
+    ],
+    "hint": "把 298 看成 300 算完以后，多算了多少？",
+    "alternative": "也可以直接算：298 × 3 = 300 × 3 - 2 × 3 = 900 - 6 = 894。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-written"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-estimate-check"
+  },
+  {
+    "id": "bank-math-7-organize-015",
+    "familyId": "math-7-organize__fam-015",
+    "version": 1,
+    "text": "一根绳子长 800 厘米，剪下 25 厘米后还剩多少厘米？",
+    "answer": "775",
+    "unit": "厘米",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "800 - 25 = 775",
+      "从总长度里减去剪掉的一段，用减法。",
+      "答：绳子还剩 775 厘米。"
+    ],
+    "hint": "原来的长度减去剪掉的长度。",
+    "alternative": "也可以在绳子上从 0 厘米数到 25 厘米画上记号，再看剩下的部分有多长。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-cross-topic"
+  },
+  {
+    "id": "bank-math-7-organize-016",
+    "familyId": "math-7-organize__fam-016",
+    "version": 1,
+    "text": "一块长方形菜地长 20 米、宽 15 米，每平方米种 3 棵白菜，这块地一共能种多少棵白菜？",
+    "answer": "900",
+    "unit": "棵",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(20 × 15) × 3 = 900",
+      "先算出菜地的面积，再看每平方米种几棵，用乘法连起来算。",
+      "答：这块地一共能种 900 棵白菜。"
+    ],
+    "hint": "先把长和宽合起来算出每平方米的个数，再乘每平方米的数量。",
+    "alternative": "也可以先算每 5 米种一排：每排 5 米 × 3 棵 = 15 棵，20 米分成 4 排，一共 60 棵……这样会少算宽的 15 米，所以还是先求面积更简便。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-multiply",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-cross-topic"
+  },
+  {
+    "id": "bank-math-7-organize-017",
+    "familyId": "math-7-organize__fam-017",
+    "version": 1,
+    "text": "小禾用乘法分配律简算 25 × 17 + 25 × 3，把两个乘法算式合并后的算式是 25 × 20，这个算式的积是多少？",
+    "answer": "500",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 20 = 500",
+      "两个乘法算式有相同的因数 25，可以先把它提取出来。",
+      "答：合并后算式的积是 500。"
+    ],
+    "hint": "两个算式里哪个因数是相同的？",
+    "alternative": "也可以先算 17 + 3 = 20，再乘 25，结果同样是 500。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-laws"
+  },
+  {
+    "id": "bank-math-7-organize-018",
+    "familyId": "math-7-organize__fam-018",
+    "version": 1,
+    "text": "小禾用减法的性质简算 236 - 45 - 55，先把 45 和 55 凑成 100 再用减法，结果是多少？",
+    "answer": "136",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "236 - 100 = 136",
+      "连续减去两个数，可以先把这两个数加起来再减。",
+      "答：简算的结果是 136。"
+    ],
+    "hint": "45 和 55 加起来正好是整百数，这样算更方便吗？",
+    "alternative": "也可以从 236 里先减去 55 得 181，再减去 45，同样得 136。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-mental",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-laws"
+  },
+  {
+    "id": "bank-math-7-organize-019",
+    "familyId": "math-7-organize__fam-019",
+    "version": 1,
+    "text": "修一条小路，原计划每天修 15 米，实际每天比原计划多修 3 米，实际每天修多少米？",
+    "answer": "18",
+    "unit": "米",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 + 3 = 18",
+      "实际比原计划多，就用原计划的数量加上多的部分。",
+      "答：实际每天修 18 米。"
+    ],
+    "hint": "“比原计划多 3 米”应该用加法还是减法？",
+    "alternative": "也可以先想原计划一天修 15 米，再多修 3 米，两段合起来就是 18 米。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-models"
+  },
+  {
+    "id": "bank-math-7-organize-020",
+    "familyId": "math-7-organize__fam-020",
+    "version": 1,
+    "text": "四年级 4 个班共 120 人去参观展览，每张门票 25 元，一共需要多少元？",
+    "answer": "3000",
+    "unit": "元",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 × 25 = 3000",
+      "总人数乘每张门票的单价，就是需要的钱数。",
+      "答：一共需要 3000 元。"
+    ],
+    "hint": "先想清楚：谁是每份数，谁是份数？",
+    "alternative": "也可以先算 25 × 4 = 100 元，即每班要 100 元，4 个班就是 100 × 4 = 4000 元，比较一下可知按人数算更简便。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-multiply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-organize__organize-models"
+  },
+  {
+    "id": "bank-math-7-organize-021",
+    "familyId": "math-7-organize__fam-021",
+    "version": 1,
+    "text": "小禾安排数学复习计划，每天复习 15 分钟，一周复习 6 天，一周一共复习多少分钟？",
+    "answer": "90",
+    "unit": "分钟",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 6 = 90",
+      "每天复习的分钟数乘复习的天数，就是一周的总时间。",
+      "答：一周一共复习 90 分钟。"
+    ],
+    "hint": "每天的分钟数和天数分别是每份数和份数。",
+    "alternative": "也可以先算 5 天的量：15 × 5 = 75 分钟，再加上 1 天的 15 分钟，同样是 90 分钟。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-review-plan"
+  },
+  {
+    "id": "bank-math-7-organize-022",
+    "familyId": "math-7-organize__fam-022",
+    "version": 1,
+    "text": "整理错题本时，小禾发现一共有 18 道错题，平均每道题用 3 分钟整理完，一共需要多少分钟？",
+    "answer": "54",
+    "unit": "分钟",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 × 3 = 54",
+      "错题道数乘每道题用的时间，就是整理一共花的时间。",
+      "答：一共需要 54 分钟。"
+    ],
+    "hint": "把每道题用的时间看成一份，18 道题就是 18 份。",
+    "alternative": "也可以先算 10 道题要 30 分钟，再算 8 道题要 24 分钟，合起来 54 分钟。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-mistake-book"
+  },
+  {
+    "id": "bank-math-7-organize-023",
+    "familyId": "math-7-organize__fam-023",
+    "version": 1,
+    "text": "小禾把本册的知识点画成思维导图，其中“数与运算”整理了 6 张卡片，“图形与几何”整理了 7 张卡片，“图形与几何”比“数与运算”多几张卡片？",
+    "answer": "1",
+    "unit": "张",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "7 - 6 = 1",
+      "比较两个部分相差多少，用大数减小数。",
+      "答：“图形与几何”比“数与运算”多 1 张卡片。"
+    ],
+    "hint": "把两部分整理的数量读出来，再比一比。",
+    "alternative": "也可以想：“数与运算”再补 1 张就赶上“图形与几何”了，所以相差 1 张。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-knowledge-map"
+  },
+  {
+    "id": "bank-math-7-organize-024",
+    "familyId": "math-7-organize__fam-024",
+    "version": 1,
+    "text": "小禾用计算器算出 36 × 12 = 432，请你用简便方法验算这个积是多少。",
+    "answer": "432",
+    "unit": "",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "36 × 12 = 432",
+      "把 12 拆成 10 和 2：36 × 10 = 360，36 × 2 = 72，360 + 72 = 432。",
+      "答：积是 432。"
+    ],
+    "hint": "把 12 拆成整十数和一位数，分别乘再相加。",
+    "alternative": "也可以把 36 拆成 30 和 6：30 × 12 = 360，6 × 12 = 72，360 + 72 = 432。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-3-written",
+      "math-3-mental"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-calculator-check"
+  },
+  {
+    "id": "bank-math-7-organize-025",
+    "familyId": "math-7-organize__fam-025",
+    "version": 1,
+    "text": "复习单位换算：1 时 = 60 分，2 时是多少分？",
+    "answer": "120",
+    "unit": "分",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "2 × 60 = 120",
+      "时化成分，要用时数乘 60。",
+      "答：2 时是 120 分。"
+    ],
+    "hint": "1 时是 60 分，2 时就是几个 60 分？",
+    "alternative": "也可以先换算成 1 时 30 分是 90 分，再加上剩下的 30 分，一共 120 分。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-1-place"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-time-conversion"
+  },
+  {
+    "id": "bank-math-7-organize-026",
+    "familyId": "math-7-organize__fam-026",
+    "version": 1,
+    "text": "钟面上每个大格是 30 度，时针走到 3 时整、分针指向 12，这时时针和分针的夹角是多少度？",
+    "answer": "90",
+    "unit": "度",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "3 × 30 = 90",
+      "从 12 到 3 一共是 3 个大格，每个大格 30 度。",
+      "答：时针和分针的夹角是 90 度。"
+    ],
+    "hint": "数一数时针和分针之间有几个大格。",
+    "alternative": "也可以先想 3 时整时针和分针夹角是直角，而直角正好是 90 度。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-2-measure"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-clock-angle"
+  },
+  {
+    "id": "bank-math-7-organize-027",
+    "familyId": "math-7-organize__fam-027",
+    "version": 1,
+    "text": "整理统计图时小禾发现：全班最喜欢跳绳的有 18 人，最喜欢跑步的有 9 人，人数最多的比人数最少的多几人？",
+    "answer": "9",
+    "unit": "人",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 - 9 = 9",
+      "从统计图上读出最多的和最少的人数，再相减。",
+      "答：人数最多的比人数最少的多 9 人。"
+    ],
+    "hint": "先找出统计图上人数最多和最少的两项。",
+    "alternative": "也可以这样看：跑步的 9 人再补上 9 人就和跳绳的 18 人一样多，所以相差 9 人。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-6-single",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-statistics-compare"
+  },
+  {
+    "id": "bank-math-7-organize-028",
+    "familyId": "math-7-organize__fam-028",
+    "version": 1,
+    "text": "小禾把本册 6 个单元的例题整理成表格，第 1 个单元整理了 8 道，第 2 个单元整理了 12 道，第 2 个单元比第 1 个单元多整理了几道？",
+    "answer": "4",
+    "unit": "道",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 - 8 = 4",
+      "整理表格后比较两个单元的多少，用减法。",
+      "答：第 2 个单元比第 1 个单元多整理了 4 道。"
+    ],
+    "hint": "把两个单元的例题数都填进表格，再比一比。",
+    "alternative": "也可以从 8 道往上数：9、10、11、12，正好数了 4 个就到 12 道。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-add",
+      "math-6-project"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-review-table"
+  },
+  {
+    "id": "bank-math-7-organize-029",
+    "familyId": "math-7-organize__fam-029",
+    "version": 1,
+    "text": "小禾做复习卷用了 15 分钟，整理错题又用了 9 分钟，这两件事一共用了多少分钟？",
+    "answer": "24",
+    "unit": "分钟",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 + 9 = 24",
+      "两部分时间合起来，用加法计算。",
+      "答：一共用了 24 分钟。"
+    ],
+    "hint": "两段时间合在一起，该用什么方法？",
+    "alternative": "也可以从 15 分钟往后数 9 分钟：16、17……24，正好是 24 分钟。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-review-time"
+  },
+  {
+    "id": "bank-math-7-organize-030",
+    "familyId": "math-7-organize__fam-030",
+    "version": 1,
+    "text": "小禾有 100 元，笔记本每本 18 元，他最多能买多少本笔记本？",
+    "answer": "5",
+    "unit": "本",
+    "knowledgeId": "math-7-organize",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(100 - 10) ÷ 18 = 5",
+      "买 5 本要 18 × 5 = 90 元，还剩 10 元；剩下的钱不够再买 1 本（还要 18 元），所以最多买 (100 - 10) ÷ 18 = 5 本。",
+      "答：他最多能买 5 本笔记本。"
+    ],
+    "hint": "先估计每本 18 元，100 元大概能买几本，再验证一下。",
+    "alternative": "也可以从 5 本往上试：买 5 本还剩 10 元，买 6 本钱就不够了。",
+    "prerequisites": [
+      "math-7-organize",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-organize__transfer-buying-power"
+  },
+  {
+    "id": "bank-math-7-apply-001",
+    "familyId": "math-7-apply__fam-001",
+    "version": 1,
+    "text": "每盒彩笔有 24 支，小禾买了 5 盒，一共有多少支彩笔？",
+    "answer": "120",
+    "unit": "支",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 × 5 = 120",
+      "每盒的支数乘盒数，就是彩笔的总支数。",
+      "答：一共有 120 支彩笔。"
+    ],
+    "hint": "谁是每份数，谁是份数？",
+    "alternative": "也可以先算 5 盒彩笔摆成几排：24 × 5 = 120，和上面的算法一样。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-model"
+  },
+  {
+    "id": "bank-math-7-apply-002",
+    "familyId": "math-7-apply__fam-002",
+    "version": 1,
+    "text": "把 120 支彩笔平均装进 5 个盒子，每个盒子装多少支？",
+    "answer": "24",
+    "unit": "支",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 ÷ 5 = 24",
+      "平均分用除法，彩笔总数除以盒数。",
+      "答：每个盒子装 24 支。"
+    ],
+    "hint": "总数和份数都有了，用什么方法？",
+    "alternative": "也可以倒过来检验：5 个盒子各装 24 支，24 × 5 = 120，正好是彩笔总数。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-model"
+  },
+  {
+    "id": "bank-math-7-apply-003",
+    "familyId": "math-7-apply__fam-003",
+    "version": 1,
+    "text": "小禾上午做了 15 道口算题，下午做的题数是上午的 2 倍，下午做了多少道？",
+    "answer": "30",
+    "unit": "道",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 2 = 30",
+      "求几倍是多少，用乘法。",
+      "答：下午做了 30 道。"
+    ],
+    "hint": "上午的题数是 1 份，下午是几份？",
+    "alternative": "也可以先想 15 道的 2 倍是 30 道，再把 15 + 15 合起来验证一下。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply",
+      "math-3-pattern"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-model"
+  },
+  {
+    "id": "bank-math-7-apply-004",
+    "familyId": "math-7-apply__fam-004",
+    "version": 1,
+    "text": "小禾上午做了 18 道口算题，一共做了 51 道，下午做了多少道？",
+    "answer": "33",
+    "unit": "道",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "51 - 18 = 33",
+      "总数减去一部分，剩下的是另一部分。",
+      "答：下午做了 33 道。"
+    ],
+    "hint": "总数减去上午的题数，得到的是什么？",
+    "alternative": "也可以倒过来算：18 + 33 = 51，正好是总数，说明下午做了 33 道。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-model"
+  },
+  {
+    "id": "bank-math-7-apply-005",
+    "familyId": "math-7-apply__fam-005",
+    "version": 1,
+    "text": "一支钢笔 25 元，买 4 支需要多少元？",
+    "answer": "100",
+    "unit": "元",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 4 = 100",
+      "单支的价钱乘支数，就是一共要付的钱。",
+      "答：买 4 支需要 100 元。"
+    ],
+    "hint": "每支多少钱是每份数，4 支是几份？",
+    "alternative": "也可以一笔一笔地加：25 + 25 + 25 + 25 = 100 元。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-money"
+  },
+  {
+    "id": "bank-math-7-apply-006",
+    "familyId": "math-7-apply__fam-006",
+    "version": 1,
+    "text": "买 4 支钢笔需要 100 元，小禾带了 120 元，应找回多少元？",
+    "answer": "20",
+    "unit": "元",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 - 100 = 20",
+      "找回的钱等于付出的钱减去花掉的钱。",
+      "答：应找回 20 元。"
+    ],
+    "hint": "带的钱和花掉的钱都知道了，该怎样算？",
+    "alternative": "也可以倒过来想：找回 20 元后正好剩下 100 元，120 - 20 = 100，说明找回了 20 元。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-money"
+  },
+  {
+    "id": "bank-math-7-apply-007",
+    "familyId": "math-7-apply__fam-007",
+    "version": 1,
+    "text": "一支钢笔 25 元，小禾带了 60 元，最多能买多少支？",
+    "answer": "2",
+    "unit": "支",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(60 - 10) ÷ 25 = 2",
+      "买 2 支要 25 × 2 = 50 元，还剩 10 元；剩下的钱不够再买 1 支（还要 25 元），所以最多买 (60 - 10) ÷ 25 = 2 支。",
+      "答：最多能买 2 支。"
+    ],
+    "hint": "先估计 60 元能买几支，再看看买 3 支够不够钱。",
+    "alternative": "也可以从 2 支往上试：买 2 支还剩 10 元，买 3 支就不够了。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-money"
+  },
+  {
+    "id": "bank-math-7-apply-008",
+    "familyId": "math-7-apply__fam-008",
+    "version": 1,
+    "text": "小禾计划 6 天读完一本书，每天读 15 页，这本书共有多少页？",
+    "answer": "90",
+    "unit": "页",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "15 × 6 = 90",
+      "每天读的页数乘天数，就是这本书的总页数。",
+      "答：这本书共有 90 页。"
+    ],
+    "hint": "每天读的页数是每份数，6 天是几份？",
+    "alternative": "也可以先算 3 天：15 × 3 = 45 页，6 天就是两个 45 页，一共 90 页。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-plan"
+  },
+  {
+    "id": "bank-math-7-apply-009",
+    "familyId": "math-7-apply__fam-009",
+    "version": 1,
+    "text": "一本书有 90 页，小禾每天读 15 页，几天能读完？",
+    "answer": "6",
+    "unit": "天",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "90 ÷ 15 = 6",
+      "总页数除以每天读的页数，得到天数。",
+      "答：6 天能读完。"
+    ],
+    "hint": "求需要几个 15 页，用哪个数除以哪个数？",
+    "alternative": "也可以倒过来检验：6 天每天读 15 页，15 × 6 = 90 页，正好读完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-plan"
+  },
+  {
+    "id": "bank-math-7-apply-010",
+    "familyId": "math-7-apply__fam-010",
+    "version": 1,
+    "text": "小禾有 24 本练习本，平均分给 6 个小组，每组分到几本？",
+    "answer": "4",
+    "unit": "本",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "24 ÷ 6 = 4",
+      "总数平均分成几份，用总数除以份数。",
+      "答：每组分到 4 本。"
+    ],
+    "hint": "总数和份数都有了，用什么方法？",
+    "alternative": "也可以想：每组 4 本，6 个小组就是 4 × 6 = 24 本，正好分完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-apply__apply-basic-plan"
+  },
+  {
+    "id": "bank-math-7-apply-011",
+    "familyId": "math-7-apply__fam-011",
+    "version": 1,
+    "text": "四年级 4 个班共 120 人去科技馆参观，每人一张门票，每张门票 25 元，一共需要多少元？",
+    "answer": "3000",
+    "unit": "元",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 × 25 = 3000",
+      "参观总人数乘每张门票的单价，就是门票的总价。",
+      "答：一共需要 3000 元。"
+    ],
+    "hint": "先找出每张票多少钱和一共多少人。",
+    "alternative": "也可以先算 25 × 4 = 100 元，即每班 100 元，4 个班就是 100 × 4 = 4000 元，再比较哪种算法简便。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-ticket-budget"
+  },
+  {
+    "id": "bank-math-7-apply-012",
+    "familyId": "math-7-apply__fam-012",
+    "version": 1,
+    "text": "科技馆门票每张 25 元，参观小组 30 人一共带了 700 元，最多能买多少张门票？",
+    "answer": "28",
+    "unit": "张",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "700 ÷ 25 = 28",
+      "带的钱除以每张票的价钱，能买到的张数就是最多的张数。",
+      "答：最多能买 28 张门票。"
+    ],
+    "hint": "每张票 25 元，700 元能买几张？买完后还剩多少钱？",
+    "alternative": "也可以从 28 张往上试：28 张要 25 × 28 = 700 元，正好够；29 张就要 725 元，钱不够了。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-ticket-budget"
+  },
+  {
+    "id": "bank-math-7-apply-013",
+    "familyId": "math-7-apply__fam-013",
+    "version": 1,
+    "text": "一辆大巴每小时行 60 千米，从学校到省博物馆行驶 4 小时，全程行多少千米？",
+    "answer": "240",
+    "unit": "千米",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "60 × 4 = 240",
+      "每小时行的千米数乘行驶的小时数，就是全程的路程。",
+      "答：全程行 240 千米。"
+    ],
+    "hint": "速度和什么相乘得到路程？",
+    "alternative": "也可以分两段算：先算 2 小时行 60 × 2 = 120 千米，再加 2 小时行的 120 千米，一共 240 千米。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-travel-distance"
+  },
+  {
+    "id": "bank-math-7-apply-014",
+    "familyId": "math-7-apply__fam-014",
+    "version": 1,
+    "text": "学校到省博物馆全程 240 千米，大巴每小时行 60 千米，途中不休息，需要几小时到达？",
+    "answer": "4",
+    "unit": "小时",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "240 ÷ 60 = 4",
+      "路程除以速度，得到需要的小时数。",
+      "答：需要 4 小时到达。"
+    ],
+    "hint": "求时间要用哪个数除以哪个数？",
+    "alternative": "也可以倒过来检验：每小时 60 千米行 4 小时，60 × 4 = 240 千米，正好是全程。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-travel-distance"
+  },
+  {
+    "id": "bank-math-7-apply-015",
+    "familyId": "math-7-apply__fam-015",
+    "version": 1,
+    "text": "4 个小组一共收集了 360 个废电池，平均每个小组收集多少个？",
+    "answer": "90",
+    "unit": "个",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "360 ÷ 4 = 90",
+      "求平均数，用总数除以份数。",
+      "答：平均每个小组收集 90 个。"
+    ],
+    "hint": "总数和组数都有了，用什么方法？",
+    "alternative": "也可以想：每个小组 90 个，4 个小组就是 90 × 4 = 360 个，与总数相符。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-average-share"
+  },
+  {
+    "id": "bank-math-7-apply-016",
+    "familyId": "math-7-apply__fam-016",
+    "version": 1,
+    "text": "小禾 4 次数学测验的平均分是 90 分，其中一次考了 84 分，其余 3 次一共考了多少分？",
+    "answer": "276",
+    "unit": "分",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(90 × 4) - 84 = 276",
+      "平均分乘次数就是总分，用总分减去那一次的分数，得到其余 3 次的总分。",
+      "答：其余 3 次一共考了 276 分。"
+    ],
+    "hint": "先由平均分求出 4 次的总分，再减去其中一次。",
+    "alternative": "也可以先想 3 次的平均分大约是 90 分多一点的 92 分，再乘 3 得 276 分。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-6-project",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-average-share"
+  },
+  {
+    "id": "bank-math-7-apply-017",
+    "familyId": "math-7-apply__fam-017",
+    "version": 1,
+    "text": "果园里有桃树 120 棵，桃树的棵数正好是梨树的 3 倍，梨树有多少棵？",
+    "answer": "40",
+    "unit": "棵",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 ÷ 3 = 40",
+      "已知几倍是多少，求 1 倍是多少，用除法。",
+      "答：梨树有 40 棵。"
+    ],
+    "hint": "把梨树看成 1 份，桃树是几份？",
+    "alternative": "也可以倒过来检验：梨树 40 棵，桃树是它的 3 倍，40 × 3 = 120 棵，正好符合。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-3-pattern",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-multiple-and-unit"
+  },
+  {
+    "id": "bank-math-7-apply-018",
+    "familyId": "math-7-apply__fam-018",
+    "version": 1,
+    "text": "1 台织布机 3 小时能织布 45 米，照这样计算，1 台织布机 1 小时能织布多少米？",
+    "answer": "15",
+    "unit": "米",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "45 ÷ 3 = 15",
+      "同样多的织布机，织布的米数和时间同样多，所以用米数除以小时数。",
+      "答：1 台织布机 1 小时能织布 15 米。"
+    ],
+    "hint": "3 小时和 1 小时相比，织布的米数该怎么变？",
+    "alternative": "也可以倒过来检验：每小时 15 米，3 小时就织 15 × 3 = 45 米，正好符合题意。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-multiple-and-unit"
+  },
+  {
+    "id": "bank-math-7-apply-019",
+    "familyId": "math-7-apply__fam-019",
+    "version": 1,
+    "text": "修一条 180 米的小路，每天修 15 米，几天能修完？",
+    "answer": "12",
+    "unit": "天",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "180 ÷ 15 = 12",
+      "总长度除以每天修的长度，得到需要的天数。",
+      "答：12 天能修完。"
+    ],
+    "hint": "求天数要用哪个数除以哪个数？",
+    "alternative": "也可以倒过来检验：每天 15 米修 12 天，15 × 12 = 180 米，正好修完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-work-plan"
+  },
+  {
+    "id": "bank-math-7-apply-020",
+    "familyId": "math-7-apply__fam-020",
+    "version": 1,
+    "text": "学校植树计划 12 天完成，每天植树 15 棵，一共要植树多少棵？",
+    "answer": "180",
+    "unit": "棵",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 15 = 180",
+      "天数乘每天的棵数，就是一共要植的树数。",
+      "答：一共要植树 180 棵。"
+    ],
+    "hint": "每天种几棵是每份数，12 天是几份？",
+    "alternative": "也可以先算 10 天：15 × 10 = 150 棵，再加上 2 天的 15 × 2 = 30 棵，一共 180 棵。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-apply__apply-work-plan"
+  },
+  {
+    "id": "bank-math-7-apply-021",
+    "familyId": "math-7-apply__fam-021",
+    "version": 1,
+    "text": "学校买来 25 套桌椅，每套 128 元，一共要花多少元？",
+    "answer": "3200",
+    "unit": "元",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "25 × 128 = 3200",
+      "套数乘每套的价钱，就是一共要花的钱数。",
+      "答：一共要花 3200 元。"
+    ],
+    "hint": "两位数乘两位数，先用 25 乘 128 的个位，再用 25 乘 128 的十位。",
+    "alternative": "也可以拆开算：128 × 25 = 128 × 100 ÷ 4 = 12800 ÷ 4 = 3200 元。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-3-written",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-classroom-supplies"
+  },
+  {
+    "id": "bank-math-7-apply-022",
+    "familyId": "math-7-apply__fam-022",
+    "version": 1,
+    "text": "小禾连续 15 天，每天上午读 12 页、下午读 12 页，一共阅读了多少页？",
+    "answer": "360",
+    "unit": "页",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(12 + 12) × 15 = 360",
+      "先算出每天读的页数，再乘天数。",
+      "答：一共阅读了 360 页。"
+    ],
+    "hint": "一天读几页可以先合起来，再算 15 天。",
+    "alternative": "也可以先算 15 天的上午：12 × 15 = 180 页，下午同样是 180 页，合起来 360 页。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-reading-record"
+  },
+  {
+    "id": "bank-math-7-apply-023",
+    "familyId": "math-7-apply__fam-023",
+    "version": 1,
+    "text": "考察队准备了 144 支铅笔，平均分给 24 名队员，每人分得几支？",
+    "answer": "6",
+    "unit": "支",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "144 ÷ 24 = 6",
+      "铅笔总数除以队员人数，就是每人分得的支数。",
+      "答：每人分得 6 支。"
+    ],
+    "hint": "总数和份数都有了，用什么方法？",
+    "alternative": "也可以倒过来检验：每人 6 支，24 人就是 6 × 24 = 144 支，正好分完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-study-supplies"
+  },
+  {
+    "id": "bank-math-7-apply-024",
+    "familyId": "math-7-apply__fam-024",
+    "version": 1,
+    "text": "一个水箱能装 120 升水，每天用去 15 升，几天能用完？",
+    "answer": "8",
+    "unit": "天",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 ÷ 15 = 8",
+      "一箱水的总量除以每天用的升数，得到天数。",
+      "答：8 天能用水。"
+    ],
+    "hint": "求天数要用哪个数除以哪个数？",
+    "alternative": "也可以倒过来检验：每天 15 升用 8 天，15 × 8 = 120 升，正好用完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-water-supply"
+  },
+  {
+    "id": "bank-math-7-apply-025",
+    "familyId": "math-7-apply__fam-025",
+    "version": 1,
+    "text": "做 8 个笔套一共用了 120 厘米布，平均每个笔套用多少厘米布？",
+    "answer": "15",
+    "unit": "厘米",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "120 ÷ 8 = 15",
+      "用布的总数除以笔套的个数，得到每个笔套用多少布。",
+      "答：平均每个笔套用 15 厘米布。"
+    ],
+    "hint": "求每个多少要用总数除以个数。",
+    "alternative": "也可以倒过来检验：每个笔套 15 厘米，8 个就是 15 × 8 = 120 厘米，与总数相符。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-handmade-craft"
+  },
+  {
+    "id": "bank-math-7-apply-026",
+    "familyId": "math-7-apply__fam-026",
+    "version": 1,
+    "text": "植树统计里，一班植树 32 棵，二班比一班少 7 棵，二班植树多少棵？",
+    "answer": "25",
+    "unit": "棵",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "32 - 7 = 25",
+      "二班比一班少，用一班的棵数减去少的部分。",
+      "答：二班植树 25 棵。"
+    ],
+    "hint": "“比一班少 7 棵”应该用加法还是减法？",
+    "alternative": "也可以倒过来检验：二班 25 棵比一班 32 棵少 32 - 25 = 7 棵，正好多 7 棵。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-6-double",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-planting-chart"
+  },
+  {
+    "id": "bank-math-7-apply-027",
+    "familyId": "math-7-apply__fam-027",
+    "version": 1,
+    "text": "小禾用 100 元买了 5 本同样的笔记本，平均每本多少元？",
+    "answer": "20",
+    "unit": "元",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "100 ÷ 5 = 20",
+      "总钱数除以本数，得到每本的单价。",
+      "答：平均每本 20 元。"
+    ],
+    "hint": "已知一共花了多少钱和买了多少本，求每本多少元用什么方法？",
+    "alternative": "也可以倒过来检验：每本 20 元，5 本就是 20 × 5 = 100 元，正好花完。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-stationery-budget"
+  },
+  {
+    "id": "bank-math-7-apply-028",
+    "familyId": "math-7-apply__fam-028",
+    "version": 1,
+    "text": "两个边长 5 厘米的正方形拼成一个长方形，这个长方形的长是 10 厘米、宽是 5 厘米，它的面积是多少平方厘米？",
+    "answer": "50",
+    "unit": "平方厘米",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "10 × 5 = 50",
+      "长方形的面积等于长乘宽。",
+      "答：拼成的长方形面积是 50 平方厘米。"
+    ],
+    "hint": "面积用哪个乘法算？单位是平方厘米还是厘米？",
+    "alternative": "也可以分开算再合起来：每个正方形 5 × 5 = 25 平方厘米，两个是 25 + 25 = 50 平方厘米。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-5-review"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-shape-composite"
+  },
+  {
+    "id": "bank-math-7-apply-029",
+    "familyId": "math-7-apply__fam-029",
+    "version": 1,
+    "text": "商店运来 5 箱苹果，每箱 12 千克，卖出 20 千克后还剩多少千克？",
+    "answer": "40",
+    "unit": "千克",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(12 × 5) - 20 = 40",
+      "先算出一共有多少千克，再减去卖掉的千克数。",
+      "答：还剩 40 千克。"
+    ],
+    "hint": "先算出运来的总千克数，再减去卖掉的。",
+    "alternative": "也可以先卖 4 箱：12 × 4 = 48 千克，48 - 20 = 28 千克，再加第 5 箱的 12 千克，得 40 千克。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-fruit-delivery"
+  },
+  {
+    "id": "bank-math-7-apply-030",
+    "familyId": "math-7-apply__fam-030",
+    "version": 1,
+    "text": "一根绳子长 3 米，剪下 40 厘米后还剩多少厘米？",
+    "answer": "260",
+    "unit": "厘米",
+    "knowledgeId": "math-7-apply",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(3 × 100) - 40 = 260",
+      "先把米换成厘米，再减去剪掉的一段。",
+      "答：还剩 260 厘米。"
+    ],
+    "hint": "题目里的长度单位一样吗？先统一成厘米再算。",
+    "alternative": "也可以倒过来想：剩下的长度加上剪掉的 40 厘米，正好是 3 米，即 260 + 40 = 300 厘米 = 3 米。",
+    "prerequisites": [
+      "math-7-apply",
+      "math-1-place",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-apply__transfer-rope-measure"
+  },
+  {
+    "id": "bank-math-7-rabbits-001",
+    "familyId": "math-7-rabbits__fam-001",
+    "version": 1,
+    "text": "笼子里关着鸡和兔共 10 只，一共有 28 条腿。兔有多少只？",
+    "answer": "4",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(28 - 10 × 2) ÷ 2 = 4",
+      "假设 10 只全是鸡，就有 10 × 2 = 20 条腿，比实际少 28 - 20 = 8 条；每把 1 只鸡换成兔就多 2 条腿，所以兔有 8 ÷ 2 = 4 只。",
+      "答：兔有 4 只。"
+    ],
+    "hint": "先假设笼子里全是鸡，算一算腿数会少多少。",
+    "alternative": "也可以假设全是兔：10 × 4 = 40 条腿，比实际多 40 - 28 = 12 条，每换 1 只兔成鸡少 2 条腿，鸡有 12 ÷ 2 = 6 只，兔就是 10 - 6 = 4 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-cages"
+  },
+  {
+    "id": "bank-math-7-rabbits-002",
+    "familyId": "math-7-rabbits__fam-002",
+    "version": 1,
+    "text": "另一个笼子里有鸡和兔共 12 只，一共 34 条腿。鸡有多少只？",
+    "answer": "7",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 - (34 - 12 × 2) ÷ 2 = 7",
+      "假设 12 只全是鸡，共有 12 × 2 = 24 条腿，实际多了 34 - 24 = 10 条，每换 1 只鸡为兔多 2 条腿，所以兔有 10 ÷ 2 = 5 只，鸡有 12 - 5 = 7 只。",
+      "答：鸡有 7 只。"
+    ],
+    "hint": "先假设全是鸡，找出多出来的腿数。",
+    "alternative": "也可以假设全是兔：12 × 4 = 48 条腿，比实际多 48 - 34 = 14 条，鸡有 14 ÷ 2 = 7 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-cages"
+  },
+  {
+    "id": "bank-math-7-rabbits-003",
+    "familyId": "math-7-rabbits__fam-003",
+    "version": 1,
+    "text": "第三个笼子里鸡和兔共 15 只，兔比鸡多 3 只。鸡有多少只？",
+    "answer": "6",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(15 - 3) ÷ 2 = 6",
+      "把鸡看作 1 份，多出的 3 只就是多出来的 1 份，所以 1 份是 15 - 3 = 12 只，鸡有 12 ÷ 2 = 6 只。",
+      "答：鸡有 6 只。"
+    ],
+    "hint": "鸡 1 份、兔 2 份，总数里去掉多出来的那 1 份，剩下的正好是 2 份。",
+    "alternative": "也可以先算兔的只数：兔比鸡多 3 只，鸡 1 份兔 2 份，1 份是 (15 - 3) ÷ 2 = 6 只，兔就是 6 + 3 = 9 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-cages"
+  },
+  {
+    "id": "bank-math-7-rabbits-004",
+    "familyId": "math-7-rabbits__fam-004",
+    "version": 1,
+    "text": "第四个笼子里鸡和兔一共有 40 条腿，其中鸡有 8 只，兔有多少只？",
+    "answer": "6",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(40 - 8 × 2) ÷ 4 = 6",
+      "8 只鸡有 8 × 2 = 16 条腿，剩下的 40 - 16 = 24 条腿都是兔的，每只兔有 4 条腿，所以兔有 24 ÷ 4 = 6 只。",
+      "答：兔有 6 只。"
+    ],
+    "hint": "鸡的腿数先算出来，剩下的腿都是兔的，再除以每只兔的腿数。",
+    "alternative": "也可以用检验的方法：兔 6 只有 6 × 4 = 24 条腿，鸡 8 只有 8 × 2 = 16 条腿，24 + 16 = 40 条，与题目给出的腿数正好相符。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-cages"
+  },
+  {
+    "id": "bank-math-7-rabbits-005",
+    "familyId": "math-7-rabbits__fam-005",
+    "version": 1,
+    "text": "农场小院里鸡和兔共 20 只，兔的只数是鸡的 4 倍，兔有多少只？",
+    "answer": "16",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20 ÷ (4 + 1) × 4 = 16",
+      "把鸡看作 1 份，兔就是 4 份，一共 5 份；20 ÷ 5 = 4 只是鸡，兔有 4 × 4 = 16 只。",
+      "答：兔有 16 只。"
+    ],
+    "hint": "鸡 1 份、兔 4 份，一共是几份？",
+    "alternative": "也可以检验一下：鸡 4 只兔 16 只，一共 4 + 16 = 20 只，16 是 4 的 4 倍，符合题目说的倍数关系。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-3-pattern"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-farm"
+  },
+  {
+    "id": "bank-math-7-rabbits-006",
+    "familyId": "math-7-rabbits__fam-006",
+    "version": 1,
+    "text": "农场把笼里的 6 只鸡换成了兔，笼子里的腿数增加了几条？",
+    "answer": "12",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "6 × 2 = 12",
+      "每把 1 只鸡换成兔，腿数就多 4 - 2 = 2 条，6 只就多 6 × 2 = 12 条。",
+      "答：腿数增加了 12 条。"
+    ],
+    "hint": "一只鸡换成一只兔，腿数会多几条？",
+    "alternative": "也可以分两步算：换成兔后笼里有 6 只兔，多出 6 × 4 = 24 条兔腿，同时少了 6 × 2 = 12 条鸡腿，24 - 12 = 12 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-farm"
+  },
+  {
+    "id": "bank-math-7-rabbits-007",
+    "familyId": "math-7-rabbits__fam-007",
+    "version": 1,
+    "text": "农场笼子里有 15 只鸡和兔，一共 44 条腿。如果假设这 15 只全是鸡，腿数会少几条？",
+    "answer": "14",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "44 - 15 × 2 = 14",
+      "15 只全是鸡时有 15 × 2 = 30 条腿，实际有 44 条，所以少 44 - 30 = 14 条。",
+      "答：腿数会少 14 条。"
+    ],
+    "hint": "先按全是鸡算一算腿数，再和实际的腿数比一比。",
+    "alternative": "也可以先算全是兔的腿数：15 × 4 = 60 条，比实际多 60 - 44 = 16 条，两个差相差 16 - 14 = 2 条，正好是一只鸡和一只兔的腿数差。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-farm"
+  },
+  {
+    "id": "bank-math-7-rabbits-008",
+    "familyId": "math-7-rabbits__fam-008",
+    "version": 1,
+    "text": "动物园的笼子里鸡和兔共 8 只，兔比鸡多 2 只，兔有多少只？",
+    "answer": "5",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(8 + 2) ÷ 2 = 5",
+      "鸡比兔少 2 只，把总只数 8 加上这 2 只，正好是兔的 2 倍：(8 + 2) ÷ 2 = 5 只，所以兔有 5 只，鸡有 8 - 5 = 3 只。",
+      "答：兔有 5 只。"
+    ],
+    "hint": "鸡比兔少的那部分，加上总只数以后正好是兔的 2 倍。",
+    "alternative": "也可以先求鸡：鸡和兔相差 2 只，总数去掉相差的 2 只后正好分成同样多的两份，鸡是 (8 - 2) ÷ 2 = 3 只，兔是 8 - 3 = 5 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-zoo"
+  },
+  {
+    "id": "bank-math-7-rabbits-009",
+    "familyId": "math-7-rabbits__fam-009",
+    "version": 1,
+    "text": "动物园另一个笼子里鸡和兔共 12 只，兔比鸡多 4 只，这些动物一共有多少条腿？",
+    "answer": "40",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 2 + (12 + 4) ÷ 2 × 2 = 40",
+      "先按全是鸡算：12 × 2 = 24 条腿；兔 1 份鸡 2 份，1 份是 (12 + 4) ÷ 2 = 8 只，每只兔比鸡多 2 条腿，多出 8 × 2 = 16 条，24 + 16 = 40 条。",
+      "答：一共有 40 条腿。"
+    ],
+    "hint": "先假设全是鸡，再把每只兔多出的 2 条腿补上去。",
+    "alternative": "也可以先分别求出只数：鸡 (12 - 4) ÷ 2 = 4 只，兔 4 + 4 = 8 只，腿数是 4 × 2 + 8 × 4 = 40 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-zoo"
+  },
+  {
+    "id": "bank-math-7-rabbits-010",
+    "familyId": "math-7-rabbits__fam-010",
+    "version": 1,
+    "text": "动物园再往笼子里放进 4 只兔，笼子里的腿一共增加多少条？",
+    "answer": "16",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "4 × 4 = 16",
+      "每只兔有 4 条腿，放进 4 只兔就增加 4 × 4 = 16 条腿。",
+      "答：腿一共增加 16 条。"
+    ],
+    "hint": "先想每只兔有几条腿，再乘只数。",
+    "alternative": "也可以一只一只数：4 + 4 + 4 + 4 = 16 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "math-7-rabbits__rabbit-zoo"
+  },
+  {
+    "id": "bank-math-7-rabbits-011",
+    "familyId": "math-7-rabbits__fam-011",
+    "version": 1,
+    "text": "集市上鸡和兔共 25 只，一共 82 条腿，兔有多少只？",
+    "answer": "16",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(82 - 25 × 2) ÷ 2 = 16",
+      "假设 25 只全是鸡，有 25 × 2 = 50 条腿，实际多 82 - 50 = 32 条，每换 1 只鸡为兔多 2 条腿，所以兔有 32 ÷ 2 = 16 只。",
+      "答：兔有 16 只。"
+    ],
+    "hint": "先假设全是鸡，看看腿数少了几条。",
+    "alternative": "也可以假设全是兔：25 × 4 = 100 条腿，比实际多 100 - 82 = 18 条，鸡有 18 ÷ 2 = 9 只，兔是 25 - 9 = 16 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-market"
+  },
+  {
+    "id": "bank-math-7-rabbits-012",
+    "familyId": "math-7-rabbits__fam-012",
+    "version": 1,
+    "text": "集市上鸡每只卖 8 元，兔每只卖 15 元，卖出 9 只鸡和 16 只兔，一共收入多少元？",
+    "answer": "312",
+    "unit": "元",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "9 × 8 + 16 × 15 = 312",
+      "先算鸡的收入 9 × 8 = 72 元，再算兔的收入 16 × 15 = 240 元，合起来 72 + 240 = 312 元。",
+      "答：一共收入 312 元。"
+    ],
+    "hint": "把鸡和兔的收入分别算出来再相加。",
+    "alternative": "也可以先算 25 只动物卖鸡的钱 9 × 8 = 72 元，再把其中 16 只每只多卖 15 - 8 = 7 元，多出 16 × 7 = 112 元，72 + 112 = 312 元。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-market"
+  },
+  {
+    "id": "bank-math-7-rabbits-013",
+    "familyId": "math-7-rabbits__fam-013",
+    "version": 1,
+    "text": "食堂买来鸡和兔共 30 只准备做菜，一共 84 条腿，鸡有多少只？",
+    "answer": "18",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "30 - (84 - 30 × 2) ÷ 2 = 18",
+      "假设 30 只全是鸡，有 30 × 2 = 60 条腿，实际多 84 - 60 = 24 条，兔有 24 ÷ 2 = 12 只，鸡有 30 - 12 = 18 只。",
+      "答：鸡有 18 只。"
+    ],
+    "hint": "先假设全是鸡，找出多出来的腿数对应的兔。",
+    "alternative": "也可以假设全是兔：30 × 4 = 120 条腿，比实际多 120 - 84 = 36 条，鸡有 36 ÷ 2 = 18 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-canteen"
+  },
+  {
+    "id": "bank-math-7-rabbits-014",
+    "familyId": "math-7-rabbits__fam-014",
+    "version": 1,
+    "text": "食堂盘子里鸡和兔共 20 只，其中鸡有 12 只，兔的腿比鸡的腿一共多多少条？",
+    "answer": "8",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(20 - 12) × 4 - 12 × 2 = 8",
+      "兔有 20 - 12 = 8 只，兔腿 8 × 4 = 32 条，鸡腿 12 × 2 = 24 条，32 - 24 = 8 条。",
+      "答：兔的腿比鸡的腿一共多 8 条。"
+    ],
+    "hint": "分别算出兔和鸡各有几条腿，再比较。",
+    "alternative": "也可以一只一只比：8 只兔各比 1 只鸡多 2 条腿，多 8 × 2 = 16 条，但鸡还多 12 - 8 = 4 只，鸡少的腿是 4 × 2 = 8 条，所以实际多 16 - 8 = 8 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-canteen"
+  },
+  {
+    "id": "bank-math-7-rabbits-015",
+    "familyId": "math-7-rabbits__fam-015",
+    "version": 1,
+    "text": "校园里鸡和兔的腿一共 36 条，其中兔有 8 只，鸡有多少只？",
+    "answer": "2",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(36 - 8 × 4) ÷ 2 = 2",
+      "8 只兔有 8 × 4 = 32 条腿，剩下的 36 - 32 = 4 条腿全是鸡的，每只鸡 2 条腿，鸡有 4 ÷ 2 = 2 只。",
+      "答：鸡有 2 只。"
+    ],
+    "hint": "先算兔子的腿，剩下的腿数就是鸡的。",
+    "alternative": "也可以用检验法：鸡 2 只有 2 × 2 = 4 条腿，兔 8 只有 8 × 4 = 32 条腿，4 + 32 = 36 条，与题目给出的腿数正好相符。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-school-yard"
+  },
+  {
+    "id": "bank-math-7-rabbits-016",
+    "familyId": "math-7-rabbits__fam-016",
+    "version": 1,
+    "text": "校园里鸡和兔共 14 只，其中兔有 8 只，这些动物一共有多少条腿？",
+    "answer": "44",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 4 + (14 - 8) × 2 = 44",
+      "兔有 8 条腿：8 × 4 = 32 条；鸡有 14 - 8 = 6 只，6 × 2 = 12 条；32 + 12 = 44 条。",
+      "答：一共有 44 条腿。"
+    ],
+    "hint": "知道兔的只数，就能算出鸡的只数，再分别求腿数。",
+    "alternative": "也可以先按全是鸡算：14 × 2 = 28 条，每只兔比鸡多 2 条腿，8 只兔多 8 × 2 = 16 条，28 + 16 = 44 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-school-yard"
+  },
+  {
+    "id": "bank-math-7-rabbits-017",
+    "familyId": "math-7-rabbits__fam-017",
+    "version": 1,
+    "text": "运动场上鸡和兔共 18 只、52 条腿，鸡比兔多多少只？",
+    "answer": "2",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "18 - 2 × (52 - 18 × 2) ÷ 2 = 2",
+      "假设 18 只全是鸡，有 18 × 2 = 36 条腿，实际多 52 - 36 = 16 条，所以兔有 16 ÷ 2 = 8 只，鸡有 18 - 8 = 10 只，鸡比兔多 10 - 8 = 2 只。",
+      "答：鸡比兔多 2 只。"
+    ],
+    "hint": "先求出鸡和兔各有多少只，再比一比相差多少。",
+    "alternative": "也可以用另一种想法：鸡比兔多 2 只，总数 18 加上这 2 只正好是鸡的 2 倍，鸡是 (18 + 2) ÷ 2 = 10 只，兔是 10 - 2 = 8 只，鸡比兔多 10 - 8 = 2 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-sports-ground"
+  },
+  {
+    "id": "bank-math-7-rabbits-018",
+    "familyId": "math-7-rabbits__fam-018",
+    "version": 1,
+    "text": "运动场上鸡和兔共 18 只、52 条腿，把其中 3 只鸡换成兔，腿数一共变成多少条？",
+    "answer": "58",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "52 + 3 × 2 = 58",
+      "每把 1 只鸡换成兔，腿数多 4 - 2 = 2 条，3 只就多 3 × 2 = 6 条，52 + 6 = 58 条。",
+      "答：腿数一共变成 58 条。"
+    ],
+    "hint": "先算一算换 1 只以后腿数多几条，再算 3 只。",
+    "alternative": "也可以先算换完以后的只数：兔 11 只、鸡 7 只，11 × 4 + 7 × 2 = 44 + 14 = 58 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-sports-ground"
+  },
+  {
+    "id": "bank-math-7-rabbits-019",
+    "familyId": "math-7-rabbits__fam-019",
+    "version": 1,
+    "text": "养殖场里鸡和兔共 35 只、94 条腿，已知兔有 12 只，鸡有多少只？",
+    "answer": "23",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "35 - 12 = 23",
+      "总只数减去兔的只数，得到的就是鸡的只数；检验：兔 12 只兔腿 48 条，鸡 23 只鸡腿 46 条，48 + 46 = 94 条，符合题意。",
+      "答：鸡有 23 只。"
+    ],
+    "hint": "已知的两种动物只数加起来是总只数，剩下的一种直接减出来。",
+    "alternative": "也可以先算腿数：兔 12 只有 12 × 4 = 48 条腿，鸡的腿是 94 - 48 = 46 条，鸡有 46 ÷ 2 = 23 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-livestock-store"
+  },
+  {
+    "id": "bank-math-7-rabbits-020",
+    "familyId": "math-7-rabbits__fam-020",
+    "version": 1,
+    "text": "农场里鸡和兔共 35 只、94 条腿，如果把鸡全部换成兔，腿数会多多少条？",
+    "answer": "46",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "35 × 4 - 94 = 46",
+      "35 只全是兔时，腿数是 35 × 4 = 140 条，比实际的 94 条多 140 - 94 = 46 条。",
+      "答：腿数会多 46 条。"
+    ],
+    "hint": "把 35 只都当成兔来算腿数，再和实际比较。",
+    "alternative": "也可以先求鸡的只数：鸡 (94 - 35 × 2) ÷ 2 = 23 只，每只鸡换成兔多 2 条腿，23 × 2 = 46 条，和上面算出的结果一样。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "math-7-rabbits__rabbit-livestock-store"
+  },
+  {
+    "id": "bank-math-7-rabbits-021",
+    "familyId": "math-7-rabbits__fam-021",
+    "version": 1,
+    "text": "停车场里有自行车和三轮车共 12 辆，一共有 30 个轮子，三轮车有多少辆？",
+    "answer": "6",
+    "unit": "辆",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(30 - 12 × 2) ÷ (3 - 2) = 6",
+      "假设 12 辆全是自行车，有 12 × 2 = 24 个轮子，实际多 30 - 24 = 6 个，每把 1 辆自行车换成三轮车多 1 个轮子，所以三轮车有 6 ÷ 1 = 6 辆。",
+      "答：三轮车有 6 辆。"
+    ],
+    "hint": "轮子和鸡兔的腿一样，先假设全是自行车再比一比。",
+    "alternative": "也可以假设全是三轮车：12 × 3 = 36 个轮子，比实际多 36 - 30 = 6 个，自行车有 6 辆，三轮车就是 12 - 6 = 6 辆。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-wheels"
+  },
+  {
+    "id": "bank-math-7-rabbits-022",
+    "familyId": "math-7-rabbits__fam-022",
+    "version": 1,
+    "text": "游乐园的门票，儿童票 6 元、成人票 12 元，30 人一共付了 300 元，成人有多少人？",
+    "answer": "20",
+    "unit": "人",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(300 - 30 × 6) ÷ (12 - 6) = 20",
+      "假设 30 人全是儿童，要 30 × 6 = 180 元，实际多 300 - 180 = 120 元，每把 1 个儿童换成成人多 12 - 6 = 6 元，所以成人有 120 ÷ 6 = 20 人。",
+      "答：成人有 20 人。"
+    ],
+    "hint": "先假设全是儿童票，再看多出来的钱相当于几个差价。",
+    "alternative": "也可以假设全是成人票：30 × 12 = 360 元，比实际多 360 - 300 = 60 元，儿童有 60 ÷ 6 = 10 人，成人就是 30 - 10 = 20 人。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-ticket-price"
+  },
+  {
+    "id": "bank-math-7-rabbits-023",
+    "familyId": "math-7-rabbits__fam-023",
+    "version": 1,
+    "text": "湖面上有 8 条船，坐满时每条船坐 4 人，现在船上共坐了 30 人，还空出几个座位？",
+    "answer": "2",
+    "unit": "个",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "8 × 4 - 30 = 2",
+      "坐满时的座位数是 8 × 4 = 32 个，空位就是 32 - 30 = 2 个。",
+      "答：还空出 2 个座位。"
+    ],
+    "hint": "先算坐满时一共有多少个座位。",
+    "alternative": "也可以一条一条算：8 条船共 32 个座位，30 人坐完后空出 32 - 30 = 2 个。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-empty-seats"
+  },
+  {
+    "id": "bank-math-7-rabbits-024",
+    "familyId": "math-7-rabbits__fam-024",
+    "version": 1,
+    "text": "体育器材室有红球 12 个、白球 8 个，红球比白球多多少个？",
+    "answer": "4",
+    "unit": "个",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 - 8 = 4",
+      "红球和白球都比一比，用大数减小数。",
+      "答：红球比白球多 4 个。"
+    ],
+    "hint": "两种球的个数都在图上（题中已给出），相减即可。",
+    "alternative": "也可以从 8 个开始往上数：9、10、11、12，数了 4 个就正好到 12 个。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-add"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-balls"
+  },
+  {
+    "id": "bank-math-7-rabbits-025",
+    "familyId": "math-7-rabbits__fam-025",
+    "version": 1,
+    "text": "食堂有大碗、小碗共 20 个，大碗每个装 4 个馒头、小碗每个装 2 个，一共装了 56 个馒头，大碗有多少个？",
+    "answer": "8",
+    "unit": "个",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(56 - 20 × 2) ÷ (4 - 2) = 8",
+      "假设 20 个全是小碗，装 20 × 2 = 40 个馒头，实际多 56 - 40 = 16 个，每换 1 个大碗多装 4 - 2 = 2 个，所以大碗有 16 ÷ 2 = 8 个。",
+      "答：大碗有 8 个。"
+    ],
+    "hint": "先假设全是小碗，比较装馒头的个数。",
+    "alternative": "也可以假设全是大碗：20 × 4 = 80 个，比实际多 80 - 56 = 24 个，小碗有 24 ÷ 2 = 12 个，大碗就是 20 - 12 = 8 个。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-bowls"
+  },
+  {
+    "id": "bank-math-7-rabbits-026",
+    "familyId": "math-7-rabbits__fam-026",
+    "version": 1,
+    "text": "农场里鸡和兔共 20 只、56 条腿，如果把鸡和兔的只数对调，腿数一共会变成多少条？",
+    "answer": "64",
+    "unit": "条",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "20 × 2 + 2 × (20 - (56 - 20 × 2) ÷ 2) = 64",
+      "假设 20 只全是鸡，腿数是 20 × 2 = 40 条，实际多 56 - 40 = 16 条，兔有 16 ÷ 2 = 8 只，鸡有 20 - 8 = 12 只；对调后鸡 8 只兔 12 只，腿数是 8 × 2 + 12 × 4 = 16 + 48 = 64 条。",
+      "答：腿数一共会变成 64 条。"
+    ],
+    "hint": "先求出鸡和兔各有多少只，再把只数对调后重新数腿。",
+    "alternative": "也可以用增加的腿数算：鸡 12 只换成兔后每只多 2 条腿，12 × 2 = 24 条；兔 8 只换成鸡后每只少 2 条腿，8 × 2 = 16 条；56 + 24 - 16 = 64 条。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-swap-pens"
+  },
+  {
+    "id": "bank-math-7-rabbits-027",
+    "familyId": "math-7-rabbits__fam-027",
+    "version": 1,
+    "text": "养殖场给 12 只鸡和 8 只兔买饲料，鸡每只 5 元、兔每只 8 元，一共要花多少元？",
+    "answer": "124",
+    "unit": "元",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 × 5 + 8 × 8 = 124",
+      "鸡的饲料费是 12 × 5 = 60 元，兔的饲料费是 8 × 8 = 64 元，合起来 60 + 64 = 124 元。",
+      "答：一共要花 124 元。"
+    ],
+    "hint": "把鸡和兔的费用分别算出来再相加。",
+    "alternative": "也可以先按每只 5 元算：20 × 5 = 100 元，兔每只多 3 元，8 只多 8 × 3 = 24 元，100 + 24 = 124 元。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-feed-cost"
+  },
+  {
+    "id": "bank-math-7-rabbits-028",
+    "familyId": "math-7-rabbits__fam-028",
+    "version": 1,
+    "text": "农场里鸡和兔共 20 只、56 条腿，小禾算出兔有 9 只，请算出兔正确的只数。",
+    "answer": "8",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(56 - 20 × 2) ÷ 2 = 8",
+      "假设 20 只全是鸡，有 20 × 2 = 40 条腿，实际多 56 - 40 = 16 条，每换 1 只鸡为兔多 2 条腿，兔有 16 ÷ 2 = 8 只，所以小禾算错了。",
+      "答：兔正确的只数是 8 只。"
+    ],
+    "hint": "先假设全是鸡，再看腿数差对应多少只兔。",
+    "alternative": "也可以用检验的方法：假设兔 9 只，则鸡 11 只，腿数是 11 × 2 + 9 × 4 = 22 + 36 = 58 条，不等于 56 条，所以兔不是 9 只。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-apply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-check-answer"
+  },
+  {
+    "id": "bank-math-7-rabbits-029",
+    "familyId": "math-7-rabbits__fam-029",
+    "version": 1,
+    "text": "养殖场有 8 只鸡和 12 只兔，每笼最多养 4 只，至少需要几个笼位？",
+    "answer": "5",
+    "unit": "个",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "(8 + 12) ÷ 4 = 5",
+      "鸡和兔一共 8 + 12 = 20 只，每笼最多养 4 只，20 ÷ 4 = 5 笼正好装满，所以至少需要 5 个笼位。",
+      "答：至少需要 5 个笼位。"
+    ],
+    "hint": "先把两种动物合起来数，再按每笼的数量算。",
+    "alternative": "也可以分两次装：鸡 8 ÷ 4 = 2 笼，兔 12 ÷ 4 = 3 笼，一共 2 + 3 = 5 个笼位。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-pens-count"
+  },
+  {
+    "id": "bank-math-7-rabbits-030",
+    "familyId": "math-7-rabbits__fam-030",
+    "version": 1,
+    "text": "养殖场把 12 只鸡平均分到 2 个笼子里，每个笼子里的鸡一样多，每个笼子有几只鸡？",
+    "answer": "6",
+    "unit": "只",
+    "knowledgeId": "math-7-rabbits",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "12 ÷ 2 = 6",
+      "总数平均分成 2 份，用总数除以份数。",
+      "答：每个笼子有 6 只鸡。"
+    ],
+    "hint": "总数和份数都有了，用什么方法？",
+    "alternative": "也可以倒过来检验：每笼 6 只，2 个笼子就是 6 × 2 = 12 只，正好分完。",
+    "prerequisites": [
+      "math-7-rabbits",
+      "math-4-multiply"
+    ],
+    "status": "published",
+    "authorId": "bank-author-math",
+    "reviewerId": "bank-check-math",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "math-7-rabbits__transfer-divide-cages"
+  }
+]

@@ -1,0 +1,2633 @@
+[
+  {
+    "id": "bank-chinese-1-imagery-001",
+    "familyId": "chinese-1-imagery__fam-01",
+    "version": 1,
+    "text": "读句子：溪水从青苔覆盖的石缝里淙淙地流出来。你在脑中看到了怎样的画面？",
+    "answer": "看到清亮的溪水在长满青苔的石缝间流动，发出淙淙的水声。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "抓住青苔、石缝、淙淙这三个词，它们分别点出颜色、形状和声音。",
+      "把这些词连起来，脑中就出现清亮的溪水贴着长满青苔的石头流过的样子。",
+      "答：看到清亮的溪水在长满青苔的石缝间流动，发出淙淙的水声。"
+    ],
+    "hint": "先找出句子里写颜色、写样子和写声音的词，再把它们连成一句你看到的话。",
+    "alternative": "也可以从声音入手：先听见淙淙的水声，再顺着声音找到石缝里的清亮溪水，画面就从耳朵延伸到眼睛。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__sensory-words"
+  },
+  {
+    "id": "bank-chinese-1-imagery-002",
+    "familyId": "chinese-1-imagery__fam-02",
+    "version": 1,
+    "text": "句中的松涛这个词让你听见了什么？把它换成树林，你眼前的声音会发生什么变化？",
+    "answer": "松涛让人听见风吹松林的呼啸；换成树林后只剩外形，声音感变弱了。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "词语能不能带出画面，要看它写的是看得见的样子还是听得见的声音。",
+      "松涛把风穿过松林的声音写了出来，树林只写外形，声音就消失了。",
+      "答：松涛让人听见风吹松林的呼啸；换成树林后声音变弱，画面只剩安静的样子。"
+    ],
+    "hint": "把两个词各读一遍，闭上眼听：哪个词让你的耳朵里有动静？",
+    "alternative": "也可以想成看片：带声音的句子像有声电影，只写外形的句子像一张安静的照片。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__sensory-words"
+  },
+  {
+    "id": "bank-chinese-1-imagery-003",
+    "familyId": "chinese-1-imagery__fam-03",
+    "version": 1,
+    "text": "晚霞把半边天空染成了橘红色。这句话里的染字好在哪里？",
+    "answer": "染把天空写成正在被涂上颜色的一块布，画面有了颜色铺开的过程。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "染是表示颜色变化的动作词，不只是写颜色本身。",
+      "有了这个动作，读者看见的是橘红一点点铺到天上，而不只是最后的结果。",
+      "答：染字让颜色像颜料一样在天空上铺开，画面就有了变化的过程。"
+    ],
+    "hint": "比较天空是橘红色的和晚霞把天空染成橘红色，多出来的那个词做了什么？",
+    "alternative": "也可以从比喻入手：把染看成拿颜料给天空上色，画面就有了手工描写的亲切感。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__sensory-words"
+  },
+  {
+    "id": "bank-chinese-1-imagery-004",
+    "familyId": "chinese-1-imagery__fam-04",
+    "version": 1,
+    "text": "把小溪的水很清改成小溪的水清得能看见水底的每一颗石子，画面会有什么变化？",
+    "answer": "改后画面由笼统变得具体，读者能清楚看见水底的每一颗石子。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "很清只给出一个笼统的感觉，读者还得自己去补细节。",
+      "改后用能看见水底的每一颗石子把清变成看得见的证据。",
+      "答：改后画面从笼统变具体，读者能清楚看见水底的每一颗石子。"
+    ],
+    "hint": "想一想：读到很清，你眼前是模糊的，还是清晰的？",
+    "alternative": "也可以从观察的距离想：短句像远远一瞥，长句像俯身凑近水面细看，看得更近了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__sensory-words"
+  },
+  {
+    "id": "bank-chinese-1-imagery-005",
+    "familyId": "chinese-1-imagery__fam-05",
+    "version": 1,
+    "text": "两个短语：金色的稻田和金色的稻田在风里起伏。哪一个更容易让你在脑中画出画面？说出理由。",
+    "answer": "后一个更容易，因为它写出了稻田随风起伏的动态，画面会自己动起来。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "想象画面需要的不只是颜色，还要有形状或者动作。",
+      "金色的稻田只有颜色，在风里起伏补上了运动，画面就活了。",
+      "答：后一个更容易，它写出了稻田随风起伏的动态。"
+    ],
+    "hint": "把两个短语分别读一遍，看哪个让你眼前有东西在动。",
+    "alternative": "也可以把两者比作照片和录像：有动作的短语像录像，画面会自己播放起来。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__color-and-shape"
+  },
+  {
+    "id": "bank-chinese-1-imagery-006",
+    "familyId": "chinese-1-imagery__fam-06",
+    "version": 1,
+    "text": "山间的小路被落叶铺成了一条金色的带子。这句话里的颜色、形状和事物分别是什么？",
+    "answer": "颜色是金色，形状是带子，事物是山间小路上的落叶。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出画面里的主要事物，再看它被写成什么颜色、什么样子。",
+      "句中事物是落叶，颜色是金色，形状是带子。",
+      "答：颜色是金色，形状是带子，事物是山间小路上的落叶。"
+    ],
+    "hint": "先圈出表示颜色的字，再圈出表示样子的字，剩下的就是画面里的东西。",
+    "alternative": "也可以当作填空：什么东西？什么颜色？像什么？三个空填完，画面就清楚了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__color-and-shape"
+  },
+  {
+    "id": "bank-chinese-1-imagery-007",
+    "familyId": "chinese-1-imagery__fam-07",
+    "version": 1,
+    "text": "竹林里静悄悄的，连一根竹子都没有动。和风吹过竹林，竹叶沙沙作响。这两句给你的画面有什么不同？",
+    "answer": "前一句是静止无声的竹林，后一句有风动叶响的声音，画面更热闹也更有动感。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两句都在写竹林，一句写静，一句写动和声音。",
+      "没有动静悄悄让读者眼前静止无声，沙沙作响则让读者听见风。",
+      "答：前一句是静止无声的画面，后一句有风声和叶响，画面更热闹。"
+    ],
+    "hint": "把两句各读一遍，注意读的时候耳朵里有没有声音。",
+    "alternative": "也可以把两句当作同一处景物的两张照片：一张是没有表情的静照，一张是动了的抓拍。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__color-and-shape"
+  },
+  {
+    "id": "bank-chinese-1-imagery-008",
+    "familyId": "chinese-1-imagery__fam-08",
+    "version": 1,
+    "text": "读句子：月光洒在池塘里，水面亮起一片碎银。你的想象里，池塘水面是什么样子的？依据是哪几个词？",
+    "answer": "水面闪着细碎发亮的光，像撒落的碎银；依据是月光洒和碎银。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住能直接看见的词，再想它们合起来是什么样子。",
+      "碎银把亮闪闪的一片水面比作碎银子，月光洒说明光从上面落下来。",
+      "答：水面闪着细碎发亮的光，像撒落的碎银，依据是月光洒和碎银。"
+    ],
+    "hint": "在句子里找出写光的词和作比喻的词，它们就是画面的线索。",
+    "alternative": "也可以从动作入手：洒说明光是一颗颗落进水里，读者会想到光点沉到水中的样子。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__evidence-in-text"
+  },
+  {
+    "id": "bank-chinese-1-imagery-009",
+    "familyId": "chinese-1-imagery__fam-09",
+    "version": 1,
+    "text": "原文写：大雪落了一夜，满山都静悄悄的。同学说读到这句时，仿佛看见满山盖上了厚厚的白棉被。这个想象有原文依据吗？依据是什么？",
+    "answer": "有依据，大雪落了一夜对应覆盖，满山对应范围，白棉被对应雪的厚和白。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "想象要站得住脚，就要在句子里找到支持它的词。",
+      "大雪落了一夜写出雪覆盖了山，满山写出范围，白棉被对应雪的颜色和厚度。",
+      "答：有依据，大雪落了一夜和满山支持盖上白棉被的想象。"
+    ],
+    "hint": "先把句子里写雪和写山的词找出来，再问它们能不能支持白棉被这个说法。",
+    "alternative": "也可以反问自己：假如原句里没有雪，我还想不到棉被吗？能想出来，说明想象有依据。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__evidence-in-text"
+  },
+  {
+    "id": "bank-chinese-1-imagery-010",
+    "familyId": "chinese-1-imagery__fam-10",
+    "version": 1,
+    "text": "湖很安静。湖水平静得像一面镜子。湖上有几只白鹭飞过。这三句中哪一句最形象？说出理由。",
+    "answer": "第二句最形象，它用比喻写出了湖面平而亮的样子；第一句只有感受，第三句只有动态。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "比较三句分别提供了什么：感受、样子，还是动静。",
+      "很安静只写感受，白鹭飞过只写动态，像一面镜子既写静又给出具体形状。",
+      "答：第二句最形象，它用比喻写出了湖面平而亮的样子。"
+    ],
+    "hint": "哪一句让你看见了东西的样子，而不只是感觉到或看见了动作？",
+    "alternative": "也可以按画面的清楚程度排一排：越能指认出一幅具体样子的句子越形象。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-imagery__evidence-in-text"
+  },
+  {
+    "id": "bank-chinese-1-imagery-011",
+    "familyId": "chinese-1-imagery__fam-11",
+    "version": 1,
+    "text": "清晨的河边有这些画面：草尖上挂着露珠，河水还在慢慢地流，太阳刚刚露出半个头。把这三句话在脑中连成一幅画，说说画里是什么样的。",
+    "answer": "画里是清晨的河边：草尖挂着露珠，河水缓缓流动，太阳刚刚露出半个头。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把这些短句当作同一个地方的不同部分来读。",
+      "草尖、河水、太阳三处合起来，就是一个宁静的清晨河边。",
+      "答：画里是清晨的河边，草尖挂着露珠，河水缓缓流动，太阳刚露出半个头。"
+    ],
+    "hint": "把这三句话想象成同一张照片里的三处，先别管哪句先说。",
+    "alternative": "也可以把它当作一段音乐：露珠是细点，流水是长音，太阳是慢慢升起的开场。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__riverside-morning"
+  },
+  {
+    "id": "bank-chinese-1-imagery-012",
+    "familyId": "chinese-1-imagery__fam-12",
+    "version": 1,
+    "text": "读这段话：河面上飘着一层薄雾，几只白船慢慢滑过去，橹声在水上散得很远。除了看到的画面，这段话还写出了什么？用耳朵再说一遍这个画面。",
+    "answer": "还写出了橹声在水上传得很远的听觉画面，雾中只听得见橹声。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把句子分成看见的和听见的两类。",
+      "看见的是薄雾和白船，听见的是橹声，而且声音越传越远。",
+      "答：还写出了橹声在水上传得很远的听觉画面，雾中只听得见橹声。"
+    ],
+    "hint": "在句子里画两处：一处是眼睛看到的，一处是耳朵听到的。",
+    "alternative": "也可以想象成闭着眼听：只凭橹声的方向和远近，你能不能猜出船在往哪边走？",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__riverside-morning"
+  },
+  {
+    "id": "bank-chinese-1-imagery-013",
+    "familyId": "chinese-1-imagery__fam-13",
+    "version": 1,
+    "text": "读句子：地上铺着厚厚的落叶，阳光从枝叶的缝隙里漏下来。从这两句话里，你能想出这片树林的什么特点？",
+    "answer": "树高而枝叶茂密，地上还积着厚厚的落叶。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "注意句子里的空间关系：光从高处穿过树叶落到地上。",
+      "光要穿过枝叶才漏下来，说明树高、枝叶密；厚厚的落叶说明地上积了一层。",
+      "答：树高而枝叶茂密，地上积着厚厚的落叶。"
+    ],
+    "hint": "想一想：阳光要经过几层东西，才能落到地上？",
+    "alternative": "也可以从时间想：落叶厚到没人扫，说明这层叶子已经积了很久。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__autumn-forest"
+  },
+  {
+    "id": "bank-chinese-1-imagery-014",
+    "familyId": "chinese-1-imagery__fam-14",
+    "version": 1,
+    "text": "溪水漫过石头，激起一片白色的泡沫。如果把这句拍成一张照片，照片里最显眼的是什么？",
+    "answer": "最显眼的是石头旁被激起的白色泡沫，它又白又亮，还不停翻动。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "照片会定格一个瞬间，找出画面里颜色最亮、动势最强的一处。",
+      "白色的泡沫又白又显眼，激起说明它还在翻动。",
+      "答：最显眼的是石头旁被激起的白色泡沫，它又白又亮还不停翻动。"
+    ],
+    "hint": "在句子里找出颜色最鲜明、又带动作的那个词。",
+    "alternative": "也可以问：这张照片是静止的，还是像按了快门的一瞬间？抓住这个瞬间最突出的一点。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__autumn-forest"
+  },
+  {
+    "id": "bank-chinese-1-imagery-015",
+    "familyId": "chinese-1-imagery__fam-15",
+    "version": 1,
+    "text": "句子里只写了声音：山寺的钟声一声一声传来，越飘越远。你眼前会出现什么画面？",
+    "answer": "会出现山中寺庙的轮廓和缭绕的雾气，钟声从那里慢慢散开。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先由山寺确定画面的大致位置，再由钟声想它的远近变化。",
+      "钟声从寺庙传出来，越飘越远说明声音在山谷中一点点散开。",
+      "答：眼前会出现山中寺庙的轮廓和缭绕的雾气，钟声从那里慢慢散开。"
+    ],
+    "hint": "闭上眼睛只听声音：声音从哪来？往哪去？",
+    "alternative": "也可以把钟声画成一条线，从寺庙拉向远处，线越长，画面里的距离越深。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__misty-mountain"
+  },
+  {
+    "id": "bank-chinese-1-imagery-016",
+    "familyId": "chinese-1-imagery__fam-16",
+    "version": 1,
+    "text": "雾从山谷里升起来，一层裹住一层。给这个画面再加一句声音描写，你会写什么？",
+    "answer": "示例：林间一片寂静，只有水滴落在石上的嗒嗒声；或远处传来一两声鸟鸣。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定下雾天的特点：湿、静、看不远。",
+      "再挑一个符合这种环境的声音，如滴水声、鸟鸣、脚步声。",
+      "答：可以写林间寂静中水滴落在石上的嗒嗒声，或远处一两声鸟鸣。"
+    ],
+    "hint": "想一想大雾天的山谷里，你真正能听见的通常是什么。",
+    "alternative": "也可以不写声音，而写气味和温度，让画面从雾扩展到更厚的立体感。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__misty-mountain"
+  },
+  {
+    "id": "bank-chinese-1-imagery-017",
+    "familyId": "chinese-1-imagery__fam-17",
+    "version": 1,
+    "text": "满天的星星像撒了一把碎银子。如果再加上银河两个字，画面会怎么变？",
+    "answer": "加上银河后，画面从满天散布变成一条横贯夜空的明亮光带，更加辽阔。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看原句给出的空间：星星铺满整个天空。",
+      "银河是一条连成一片的光带，给天空加上方向和大小的结构。",
+      "答：加上银河后，画面变成一条横贯夜空的明亮光带，更加辽阔。"
+    ],
+    "hint": "在脑子里画一张夜空图，先撒一把碎银子，再试着连成一条带子。",
+    "alternative": "也可以从方向感想：只写星星，读者抬头四顾；写出银河，读者知道该朝哪边看。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__night-sky"
+  },
+  {
+    "id": "bank-chinese-1-imagery-018",
+    "familyId": "chinese-1-imagery__fam-18",
+    "version": 1,
+    "text": "月亮升起来了，把云照得雪白。这句话里哪些东西有光？画面里有什么在发光？",
+    "answer": "月亮在发光，被照亮的云也泛着白光，画面里月亮亮、云也白。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把句子里的东西逐个看一遍，问谁把光给了谁。",
+      "月亮发光，云被照成雪白，月亮本身是亮的，云是反射过来的白。",
+      "答：月亮在发光，被照亮的云也泛着白光，画面里月亮亮、云也白。"
+    ],
+    "hint": "找出照这个字，它会告诉你光是从哪里来的。",
+    "alternative": "也可以把画面分成光源和被照亮的物体两半来写，读起来层次就清楚了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__night-sky"
+  },
+  {
+    "id": "bank-chinese-1-imagery-019",
+    "familyId": "chinese-1-imagery__fam-19",
+    "version": 1,
+    "text": "浪一个接一个扑上沙滩，又退回去。在脑中给这个画面加上声音和颜色。",
+    "answer": "声音是海浪拍岸的哗哗声和退去时的沙沙声，颜色是白花花的浪沫和被打湿的深色沙。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确定海边最有代表性的声音和最有代表性的颜色。",
+      "浪拍上来是白色泡沫，退回去时留下深色湿沙，声音是哗哗和沙沙。",
+      "答：声音是浪拍岸的哗哗声和退去时的沙沙声，颜色是白浪沫和被打湿的深色沙。"
+    ],
+    "hint": "你在海边最常听到什么声音？踩着海水时，沙滩是什么颜色？",
+    "alternative": "也可以从身体感觉入手：加上海风扑在脸上的凉，画面一下就立体了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__seaside"
+  },
+  {
+    "id": "bank-chinese-1-imagery-020",
+    "familyId": "chinese-1-imagery__fam-20",
+    "version": 1,
+    "text": "海边有两种写法：海水很蓝，和海水蓝得和天空连成一片，分不清哪里是海哪里是天。第二种写法好在哪里？",
+    "answer": "第二种写出海天相接的具体样子，让画面清晰可见，比很蓝更形象。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "很蓝只给了颜色，没有给位置和范围。",
+      "第二种用分不清哪里是海哪里是天写出海天相接的样子，画面一眼可见。",
+      "答：第二种写出海天相接的具体样子，让画面清晰可见，比很蓝更形象。"
+    ],
+    "hint": "比较两句：哪一句能让你一下子说出海和天连在一起？",
+    "alternative": "也可以从纵深去想：写出了天际线，读者仿佛站在海边看不到远处的尽头。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-imagery__seaside"
+  },
+  {
+    "id": "bank-chinese-1-imagery-021",
+    "familyId": "chinese-1-imagery__fam-21",
+    "version": 1,
+    "text": "只给你一个声音：沙沙沙，像很多人同时在小声说话。请你想象这是什么地方、什么时刻，并说出理由。",
+    "answer": "示例：像是清晨的树林，风吹过树叶；理由是声音轻而密，像许多叶子一起摩擦。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先听声音的三个特点：轻、密、连成一片。",
+      "轻而密的声音加上像许多人小声说话的比喻，容易让人想到被风吹动的树叶或草丛。",
+      "答：示例：像是清晨的树林，风吹过树叶；理由是声音轻而密，像许多叶子一起摩擦。"
+    ],
+    "hint": "先给声音找出几条线索：轻还是响？密还是稀？像什么东西在动？",
+    "alternative": "也可以从别的答案出发：细雨落在芭蕉叶上、有人在翻一大叠报纸，都能说出自己的理由。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__sound-only"
+  },
+  {
+    "id": "bank-chinese-1-imagery-022",
+    "familyId": "chinese-1-imagery__fam-22",
+    "version": 1,
+    "text": "有人给一张照片写说明：清晨的湖面，水汽在桥墩边慢慢升。只凭这句说明，你能想象出照片里的样子吗？说说你还会补进画面的东西。",
+    "answer": "能想象出湖面、桥墩和慢慢升起的水汽；还可以补上清晨清冷的色调和桥的轮廓。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先把说明里的要素拆出来：地点是湖面和桥墩，状态是水汽慢慢升。",
+      "说明没有写到的色调、桥的样子等，读者会自己补，补上就说明已经产生了画面。",
+      "答：能想象出湖面、桥墩和慢慢升起的水汽，还可以补上清晨清冷的色调和桥的轮廓。"
+    ],
+    "hint": "先写出说明里直接提到的，再写你脑子里自动多出来的部分。",
+    "alternative": "也可以从相反的方向想：如果说明里少写一个要素，你补的时候有多难，就知道那个要素有多重要。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__photo-description"
+  },
+  {
+    "id": "bank-chinese-1-imagery-023",
+    "familyId": "chinese-1-imagery__fam-23",
+    "version": 1,
+    "text": "看画时有人这样介绍：画面下半部是墨色的江水，上半部留白，只在留白处点了一叶小舟。你眼前出现了一幅怎样的画面？",
+    "answer": "下半是墨色江水，上半是大片空白的天水，一叶小舟孤零零地点在江上，画面空旷而幽远。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按介绍把画面分成上下两块来读。",
+      "下半是墨色江水，上半留白表示天和水连成一片，只有一叶小舟在其中。",
+      "答：下半是墨色江水，上半是大片空白的天水，一叶小舟孤零零地点在江上，画面空旷而幽远。"
+    ],
+    "hint": "留白不是没有东西，它常常是天空或水面，想一想留白处是什么。",
+    "alternative": "也可以从大小对比想：一叶小舟在大片空白里，越显得孤单，画面的安静感越强。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__painting"
+  },
+  {
+    "id": "bank-chinese-1-imagery-024",
+    "familyId": "chinese-1-imagery__fam-24",
+    "version": 1,
+    "text": "句子：雨后的泥土味从窗缝里钻进来。除了气味，这句话还让你看到或感到什么？",
+    "answer": "还让人看到雨后湿润的窗和泥土，感到清新的空气；钻进来让人觉得气味一下子扑到跟前。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出这句里的感官：写的是气味，还有闻到的动作。",
+      "泥土味说明刚下过雨，窗缝说明屋子还关着，钻进来让气味扑面而来。",
+      "答：还让人看到雨后湿润的窗和泥土，感到清新的空气，气味一下子扑到跟前。"
+    ],
+    "hint": "想一想：能闻到泥土味，说明外面刚发生了什么？",
+    "alternative": "也可以从身体的反应入手：闻到这种气味，你会不会想起深呼吸，或者想起下雨前的某个下午。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__scent"
+  },
+  {
+    "id": "bank-chinese-1-imagery-025",
+    "familyId": "chinese-1-imagery__fam-25",
+    "version": 1,
+    "text": "河水撞上石头，又软软地散开，绕到石头背后去了。这段话里哪几个字让水动起来？它们各让水怎样动？",
+    "answer": "撞让水用力碰上石头，散让水裂开成一片，绕让水拐弯流到石头背后。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "在句子里圈出表示动作的词，它们是水动起来的开关。",
+      "撞、散、绕三个动作前后相接，读者看见水撞上石头、裂开、再拐弯走。",
+      "答：撞让水用力碰上石头，散让水裂开成一片，绕让水拐弯流到石头背后。"
+    ],
+    "hint": "先把句子里的动词找出来，一个一个试着在脑子里演一遍。",
+    "alternative": "也可以先做一做：把水流冲向石头又分开的样子用手比出来，动作就更好懂了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__moving-water"
+  },
+  {
+    "id": "bank-chinese-1-imagery-026",
+    "familyId": "chinese-1-imagery__fam-26",
+    "version": 1,
+    "text": "一句写景：一片小小的叶子落在又大又宽的石阶上。为什么非要写叶子的不小和石阶的大？",
+    "answer": "用大小对比突出叶子的单薄和石阶的宽阔，让小小的叶子在画面上格外醒目。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "小和大放在一起写，是为了形成对比。",
+      "石阶越大越显出叶子的单薄，读者的眼睛会先落在那片小小的叶子上。",
+      "答：用大小对比突出叶子的单薄和石阶的宽阔，让小小的叶子在画面上格外醒目。"
+    ],
+    "hint": "如果石阶也写成小小的，画面还会有什么效果？",
+    "alternative": "也可以从静的角度想：一片叶子停在宽阔的石阶上，周围越空，这片叶子越孤单。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__size-contrast"
+  },
+  {
+    "id": "bank-chinese-1-imagery-027",
+    "familyId": "chinese-1-imagery__fam-27",
+    "version": 1,
+    "text": "爷爷说：我们小时候，这条河上架过一座木桥，桥上有卖糖画的摊子。你在他说话的时候，脑中出现了什么画面？",
+    "answer": "出现了童年河上的木桥和桥上卖糖画的摊子，热闹而亲切的画面。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住话里的实物：河、木桥、糖画摊。",
+      "把三样东西放回河上，画面就自然出现了，还能添上围观孩子的热闹。",
+      "答：出现了童年河上的木桥和桥上卖糖画的摊子，热闹而亲切的画面。"
+    ],
+    "hint": "先列出爷爷提到的两样东西，再想它们各自是什么样子的。",
+    "alternative": "也可以顺着语气想：说到小时候，语气是温和的，你脑中的画面也会带上暖色。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__memory-scene"
+  },
+  {
+    "id": "bank-chinese-1-imagery-028",
+    "familyId": "chinese-1-imagery__fam-28",
+    "version": 1,
+    "text": "前后两句：先是阳光把湖面照得发亮。忽然一阵黑云压过来，湖面暗了下去。你的画面里发生了什么变化？",
+    "answer": "画面由明亮发亮变得昏暗，湖面上的光一下子被云挡住，变化来得突然。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把两句放在一起看湖面的亮度：先是发亮，后来暗了。",
+      "黑云压过来挡住了阳光，湖面失去光泽，前后形成强烈的明暗对比。",
+      "答：画面由明亮发亮变得昏暗，湖面上的光一下子被云挡住，变化来得突然。"
+    ],
+    "hint": "找出两句里写光的词，比较它们给你的亮度感觉。",
+    "alternative": "也可以从身体感觉入手：忽然暗下来，读者会跟着想到起风了或者要下雨了。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__weather-shift"
+  },
+  {
+    "id": "bank-chinese-1-imagery-029",
+    "familyId": "chinese-1-imagery__fam-29",
+    "version": 1,
+    "text": "一位同学眼睛看不见，请你用一句话让他知道操场边那棵梧桐树有多大、多高。",
+    "answer": "示例：树干要三个人合抱才围得住，树冠像一把撑开的巨伞，遮住了半个操场。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想用什么 familiar 的东西来比树干和树冠的大小。",
+      "把比出来的样子写进句子，读者没看见也能在脑中量出这棵树。",
+      "答：示例：树干要三个人合抱才围得住，树冠像一把撑开的巨伞，遮住了半个操场。"
+    ],
+    "hint": "用你熟悉的东西打比方：几个人能合抱过来？树冠像什么伞？",
+    "alternative": "也可以写它在操场里的样子：树荫铺满半个操场，跑步的人都从树下过。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__write-for-listener"
+  },
+  {
+    "id": "bank-chinese-1-imagery-030",
+    "familyId": "chinese-1-imagery__fam-30",
+    "version": 1,
+    "text": "读诗句：儿童急走追黄蝶，飞入菜花无处寻。你眼前出现的是什么画面？",
+    "answer": "孩子追着黄蝴蝶跑进金黄的菜花里，蝴蝶与菜花颜色相同，一下子找不到了。",
+    "unit": "",
+    "knowledgeId": "chinese-1-imagery",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先抓住急走、追两个动作，看出孩子的样子。",
+      "再想黄蝶为什么无处寻：黄蝶和菜花都是黄的，混在一起就找不到了。",
+      "答：孩子追着黄蝴蝶跑进金黄的菜花里，蝴蝶与菜花颜色相同，一下子找不到了。"
+    ],
+    "hint": "想一想：什么颜色最容易被另一种同色东西藏起来？",
+    "alternative": "也可以从声音入手：孩子跑过菜花的沙沙声和笑声，画面一下就有了动静。",
+    "prerequisites": [
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-imagery__season-poem"
+  },
+  {
+    "id": "bank-chinese-1-order-001",
+    "familyId": "chinese-1-order__fam-01",
+    "version": 1,
+    "text": "句子：远处，连绵的山峦在云雾中只露出淡淡的轮廓。脚下，一条小路伸向树林深处。这两句是按什么顺序写的？",
+    "answer": "按由远及近的顺序：先写远处的山，再写脚下的路。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找出句中表示位置的词：远处和脚下。",
+      "距离由远到近，写作的先后也是先远后近。",
+      "答：按由远及近的顺序，先写远处的山，再写脚下的路。"
+    ],
+    "hint": "圈出句子里表示位置的词，它们常常就是顺序的线索。",
+    "alternative": "也可以从视线移动去想：目光先落在远方，再收回脚边，也是一条先远后近的线。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__far-to-near"
+  },
+  {
+    "id": "bank-chinese-1-order-002",
+    "familyId": "chinese-1-order__fam-02",
+    "version": 1,
+    "text": "把我先看见远处山脚的小白塔，才看见路口那棵老槐树换成我先看见路口那棵老槐树，才看见远处山脚的小白塔，画面有什么变化？",
+    "answer": "原顺序由远及近，视野开阔；换后先看到身边的树，画面变近也变具体。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两种顺序都把两样景物写全了，区别在先写哪一样。",
+      "先远后近让人先看到整个山景，先近后远则把注意力放在身边的树。",
+      "答：原顺序由远及近视野开阔，换后先看到身边的树，画面变近更具体。"
+    ],
+    "hint": "读两遍，注意你的眼睛先停在哪里。",
+    "alternative": "也可以从心情角度想：先看远景容易让人惊叹，先看近景容易让人觉得亲切。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__far-to-near"
+  },
+  {
+    "id": "bank-chinese-1-order-003",
+    "familyId": "chinese-1-order__fam-03",
+    "version": 1,
+    "text": "下面三个词，哪个最能提示由远到近的顺序？随后、渐渐、远处。",
+    "answer": "远处，它提示了距离的远近，是表示位置的词。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "顺序的提示词分两类：表示位置的词和表示时间的词。",
+      "远处说明远近，随后和渐渐只说明先后和变化，不指明空间上的远近。",
+      "答：远处，它提示了距离远近，是表示位置的词。"
+    ],
+    "hint": "先分清哪些词说的是时间，哪些词说的是位置。",
+    "alternative": "也可以试一试：随后和渐渐能用在时间的顺序上，远处却不能出现在时间顺序的句子里。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__far-to-near"
+  },
+  {
+    "id": "bank-chinese-1-order-004",
+    "familyId": "chinese-1-order__fam-04",
+    "version": 1,
+    "text": "照样子写一句话：用先、接着、最后写一处你熟悉的景物，让别人看得出你是在按什么顺序观察。",
+    "answer": "示例：先看到校门前的花坛，接着是花坛后的小路，最后是路尽头的那棵大樟树。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先用表示位置的词把三样景物串起来。",
+      "排列时按你真实看的路线，由近到远或由远到近都可以，但要让人看得懂顺序。",
+      "答：示例：先看到校门前的花坛，接着是花坛后的小路，最后是路尽头的那棵大樟树。"
+    ],
+    "hint": "回想你上学路上依次看见的三样东西，按顺序说出来。",
+    "alternative": "也可以只写两样加一处转移：先看见什么，走着走着又看见了什么。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__far-to-near"
+  },
+  {
+    "id": "bank-chinese-1-order-005",
+    "familyId": "chinese-1-order__fam-05",
+    "version": 1,
+    "text": "头顶是一大片星空，脚下的草在夜风里轻轻晃。这两句先写上面还是先写下面？",
+    "answer": "先写上面（头顶的星空），再写下面（脚下的草），属于由上到下。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "头顶和脚下是上下位置的提示词。",
+      "第一句对应头顶，第二句对应脚下，所以是自上而下。",
+      "答：先写上面，再写下面，属于由上到下的顺序。"
+    ],
+    "hint": "把两个表示位置的词圈出来，比一比谁在上、谁在下。",
+    "alternative": "也可以这样想：抬头看天，低下头看草，眼睛走的正是从上到下的一条路。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__top-to-bottom"
+  },
+  {
+    "id": "bank-chinese-1-order-006",
+    "familyId": "chinese-1-order__fam-06",
+    "version": 1,
+    "text": "句子：树冠上落满了雪。在这句后面接一句，让整段话变成从上到下的顺序。",
+    "answer": "示例：树冠上落满了雪。树干上挂着几条冰凌，脚下是被踩实的雪道。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看上一句写的是哪个高度：树冠在上。",
+      "接上去的那一句要落在比树冠更低的位置，写树干、树身或地面的雪。",
+      "答：示例：树冠上落满了雪，树干上挂着几条冰凌，脚下是被踩实的雪道。"
+    ],
+    "hint": "接上去的那一句要落在比树冠更低的位置上。",
+    "alternative": "也可以从承接关系想：先说上，再说中，最后说下，一段话就有了层次。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__top-to-bottom"
+  },
+  {
+    "id": "bank-chinese-1-order-007",
+    "familyId": "chinese-1-order__fam-07",
+    "version": 1,
+    "text": "写一处地方时，有人先写整间屋子的样子，再写屋里的桌子；有人先写桌子，再写整间屋子。这两种顺序各有什么好处？",
+    "answer": "先写整体再写局部，读者先有全貌再看清细节；先写局部再写整体，读者由小见大，更有发现感。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "一种是先总后分，一种是先分后总。",
+      "先总后分让人心里先有一张地图；先分后总让读者跟着细节走，最后豁然开朗。",
+      "答：先写整体再写局部，读者先有全貌；先写局部再写整体，读者由小见大更有发现感。"
+    ],
+    "hint": "想一想读者读第一句时，脑子里是有了一张整体地图，还是只有一个局部特写。",
+    "alternative": "也可以拿镜头打比：先拍全景再推近，或先推近再拉远，都是摄影的两种方法。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__top-to-bottom"
+  },
+  {
+    "id": "bank-chinese-1-order-008",
+    "familyId": "chinese-1-order__fam-08",
+    "version": 1,
+    "text": "天刚蒙蒙亮，露水就打湿了草地。日头升到头顶，蝉鸣忽然响成一片。傍晚，炊烟从村口升起来。这段话按什么顺序写？",
+    "answer": "按时间顺序写：从清晨到正午，再到傍晚。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找出表示时间的词：天刚蒙蒙亮、升到头顶、傍晚。",
+      "这些词一路推进，从早到晚连成一条线。",
+      "答：按时间顺序写，从清晨到正午，再到傍晚。"
+    ],
+    "hint": "在句子里圈出时间词，它们连起来就是一条时间线。",
+    "alternative": "也可以把它当成一天的三格镜头：每一格拍一个时刻，合起来就是一天的推移。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__time-sequence"
+  },
+  {
+    "id": "bank-chinese-1-order-009",
+    "familyId": "chinese-1-order__fam-09",
+    "version": 1,
+    "text": "把太阳升起来。太阳到了头顶。太阳落下去。改成一句更有顺序感的话，说说你的改法。",
+    "answer": "示例：清晨，太阳慢慢升起来；正午，它挂在头顶；傍晚，太阳落到山后去了。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "原句缺少时间词，读起来像三件互不相干的事。",
+      "加上清晨、正午、傍晚这样的时刻，再补上表示变化的动词，读者就能看出先后。",
+      "答：示例：清晨太阳慢慢升起来，正午挂在头顶，傍晚落到山后。"
+    ],
+    "hint": "先给每一句安上一个时刻，再补一个表示变化的动词。",
+    "alternative": "也可以保留三个短句，只在句首加上早饭时、午饭时、太阳落山时等时间标志。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__time-sequence"
+  },
+  {
+    "id": "bank-chinese-1-order-010",
+    "familyId": "chinese-1-order__fam-10",
+    "version": 1,
+    "text": "四句写池塘一年的变化：水面结了薄冰，冰下的水开始流动，岸边的柳树抽出了新芽，荷叶重新冒出来。请按顺序排一排，并说出你的依据。",
+    "answer": "水面结了薄冰，冰下的水开始流动，岸边的柳树抽出了新芽，荷叶重新冒出来。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先给每句猜一个季节：冬天、初春、春天、初夏。",
+      "结冰和水开始流动是冬末春初，柳树发芽、荷叶长出依次往后。",
+      "答：水面结了薄冰，冰下的水开始流动，柳树抽出新芽，荷叶重新冒出来。"
+    ],
+    "hint": "先给每句猜一个季节，再按春夏秋冬排。",
+    "alternative": "也可以用从冷到暖这条线排：结冰最冷，往后越来越暖，荷叶冒出来时已是暖季。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-order__time-sequence"
+  },
+  {
+    "id": "bank-chinese-1-order-011",
+    "familyId": "chinese-1-order__fam-11",
+    "version": 1,
+    "text": "登山时看到这些：脚下是碎石小路，半山腰有一座小亭子，山顶上飘着几朵白云。按你上山的顺序说说这三样东西是怎样先后出现的。",
+    "answer": "先看到脚下的碎石小路，再看到半山腰的小亭子，最后看到山顶的白云，是自下而上沿路向上。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把三样景物按海拔高低排一排。",
+      "小路最低，亭子居中，白云在山顶之上。",
+      "答：先看到碎石小路，再看到山腰小亭子，最后看到山顶的白云。"
+    ],
+    "hint": "想象你自己正沿着山路往上走，每走一段会遇到什么。",
+    "alternative": "也可以从视线抬高的角度写：先低头看脚下，再平视山腰，最后抬头望天。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__hiking-walk"
+  },
+  {
+    "id": "bank-chinese-1-order-012",
+    "familyId": "chinese-1-order__fam-12",
+    "version": 1,
+    "text": "有人这样写登山：山顶的雪先映入眼帘，随后我低头才发现脚下的野花。这样写合适吗？说出理由。",
+    "answer": "合适，这符合看景的自然顺序：先被远处的雪吸引，再低头注意近处的野花，是视线由远到近的移动。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看两句的先后是否符合人真实的视线移动。",
+      "先被山顶的白光吸引，再低头发现脚边的花，正是注意力从远到近的转移。",
+      "答：合适，这符合看景的自然顺序，是视线由远到近的移动。"
+    ],
+    "hint": "想一想你自己走在山上时，眼睛先被什么吸引，然后才低头看到什么。",
+    "alternative": "也可以说它用的是先整体后局部的写法：先记住最显眼的印象，再补充细节。",
+    "prerequisites": [
+      "chinese-1-order",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__hiking-walk"
+  },
+  {
+    "id": "bank-chinese-1-order-013",
+    "familyId": "chinese-1-order__fam-13",
+    "version": 1,
+    "text": "写花园小径时，有人把小径两旁开满了月季写在走到尽头有一座小亭子前面。这样安排合适吗？",
+    "answer": "合适，先写沿途的花再写尽头的亭子，是沿着小路向前推进、由近及远的自然顺序。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看两句是不是走在同一条路上、沿路出现的景物。",
+      "月季在小径两旁，是走着就能看到的；小亭子在尽头，要走到才出现。",
+      "答：合适，先写沿途的花再写尽头的亭子，是沿路推进、由近及远的顺序。"
+    ],
+    "hint": "想一想你走在小径上，是先看到脚边的花，还是先看到远处的亭子。",
+    "alternative": "也可以把顺序倒过来，先设一个小亭子吊起兴趣，再回头补路上的花，这叫先总后分。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__garden-walk"
+  },
+  {
+    "id": "bank-chinese-1-order-014",
+    "familyId": "chinese-1-order__fam-14",
+    "version": 1,
+    "text": "你打算写一条从家门口到学校的小路。请按顺序说出你会先看到什么、再看到什么、最后看到什么，每样只说一句。",
+    "answer": "示例：先看到门口的老槐树，再看到早餐店的招牌，最后看到学校门口的红灯。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想出门到进校之间真正经过的三个地点。",
+      "把它们按走路的先后排好，说的时候加上表示位置的词。",
+      "答：示例：先看到门口的老槐树，再看到早餐店招牌，最后看到学校门口的红灯。"
+    ],
+    "hint": "想一想你每天上学路上最先见到的和最晚见到的分别是什么。",
+    "alternative": "也可以从感官变化排：先看到树，再闻到早点香，最后听到上课铃。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__garden-walk"
+  },
+  {
+    "id": "bank-chinese-1-order-015",
+    "familyId": "chinese-1-order__fam-15",
+    "version": 1,
+    "text": "从窗口向外看：最近的楼顶在眼前，远处是连着天的高架桥。这两样景物哪个在近处？",
+    "answer": "楼顶在近处，高架桥在远处。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "眼前提示距离很近，远处直接点明了高架桥远。",
+      "两句一近一远，写景时常常就从近的写起。",
+      "答：楼顶在近处，高架桥在远处。"
+    ],
+    "hint": "句子里有表示远近的词，直接找出来比较。",
+    "alternative": "也可以想成从窗户望出去，视线先撞到楼顶，越过楼顶才看到高架桥。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__window-view"
+  },
+  {
+    "id": "bank-chinese-1-order-016",
+    "familyId": "chinese-1-order__fam-16",
+    "version": 1,
+    "text": "写窗外景色时，有人先写远处的高楼，再写窗前的树枝，最后写桌上的台灯。这是按什么顺序写的？",
+    "answer": "由远及近：先远处的高楼，再窗前的树枝，最后桌上的台灯。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按三样东西离观察者的距离排一排。",
+      "高楼最远，树枝在窗外，台灯伸手就能碰到，依次变近。",
+      "答：由远及近，先写高楼，再写树枝，最后写台灯。"
+    ],
+    "hint": "想象你的目光从窗外一路收到桌面上，走了哪几步。",
+    "alternative": "也可以说这是一种收束：写景的圈子越收越小，最后落在身边最实在的东西上。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__window-view"
+  },
+  {
+    "id": "bank-chinese-1-order-017",
+    "familyId": "chinese-1-order__fam-17",
+    "version": 1,
+    "text": "写一棵老树的一年：春天，它刚冒出新芽；夏天，枝子长得遮住了半边路；秋天，叶子黄了落下来；冬天，光光的枝丫指着天空。这四句按什么顺序写？",
+    "answer": "按时间顺序写，从春到冬，也体现了老树由生长到凋落的变化。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "四句各标一个季节：春、夏、秋、冬。",
+      "季节依次推移，树的样貌也由茂盛走向凋零，顺序和变化一致。",
+      "答：按时间顺序写，从春到冬，也体现了老树由生长到凋落的变化。"
+    ],
+    "hint": "给每句标上季节，再排一排，看看树的样貌怎么变。",
+    "alternative": "也可以从变化本身理解：叶子从少到多再到落光，本身就是一条顺序线。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__four-seasons-same-place"
+  },
+  {
+    "id": "bank-chinese-1-order-018",
+    "familyId": "chinese-1-order__fam-18",
+    "version": 1,
+    "text": "写同一个院子在一天里的变化：清晨，院里静得只听见鸟叫；午后，知了在树上叫个不停；夜里，蛐蛐在墙根唱起歌来。这段话先写哪个时刻？依据是什么？",
+    "answer": "先写清晨，依据是时间词清晨、午后、夜里依次推进。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把三个时刻按一天的时间排开。",
+      "清晨在一天的最前面，其次是午后，最后是夜里。",
+      "答：先写清晨，依据是时间词清晨、午后、夜里依次推进。"
+    ],
+    "hint": "在句子里圈出表示时刻的词，把它们按一天排一排。",
+    "alternative": "也可以从声音的变化想：鸟鸣、蝉鸣、蛐蛐声，声音换了主人，顺序也跟着清楚了。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__four-seasons-same-place"
+  },
+  {
+    "id": "bank-chinese-1-order-019",
+    "familyId": "chinese-1-order__fam-19",
+    "version": 1,
+    "text": "有四张照片：一张是院子里的雪，一张是雪化的水沟，一张是墙头的迎春花，一张是新叶。请你排出它们拍摄的先后顺序。",
+    "answer": "先拍院子里的雪，再拍雪化的水沟，然后是墙头的迎春花，最后是新叶。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先给每张照片猜一个季节。",
+      "雪在冬天，迎春花早春，新叶在春末；雪化又一定在雪之后。",
+      "答：先拍院子里的雪，再拍雪化的水沟，然后是迎春花，最后是新叶。"
+    ],
+    "hint": "先给每张照片猜一个季节，再按季节先后排。",
+    "alternative": "也可以按冷到暖排：越往后画面里的颜色越鲜、越有生机。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__photo-sequence"
+  },
+  {
+    "id": "bank-chinese-1-order-020",
+    "familyId": "chinese-1-order__fam-20",
+    "version": 1,
+    "text": "小摄影比赛要求按远、中、近排三张照片。你有一张全景、一张树的照片、一张树皮的特写，该怎么排？",
+    "answer": "全景排第一，树的照片排第二，树皮的特写排第三。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先分清每张照片拍摄的范围大小。",
+      "全景范围最大，树其次，树皮特写最小，依次收窄。",
+      "答：全景在前，树在中，树皮特写在后。"
+    ],
+    "hint": "想象三张照片连在一起，看画面从宽到窄的变化。",
+    "alternative": "也可以用镜头语言解释：全景是广角，树是中景，特写是长焦。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-order__photo-sequence"
+  },
+  {
+    "id": "bank-chinese-1-order-021",
+    "familyId": "chinese-1-order__fam-21",
+    "version": 1,
+    "text": "你按路线图走：从学校往东到第一个路口，再向北过河到图书馆。一路上你会先后经过哪些地方？请写出三样。",
+    "answer": "示例：先经过路口的便利店，再走上河边的柳堤，最后到达图书馆门口。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先按箭头方向把路线分成三段。",
+      "每一段挑一个最显眼的东西填进去，顺序跟着路线走。",
+      "答：示例：先经过路口的便利店，再走上河边柳堤，最后到达图书馆门口。"
+    ],
+    "hint": "在路线图上用笔把路分成三段，一段写一样东西。",
+    "alternative": "也可以按时间顺序说：出门时看到的、走到河边时的、到图书馆时看到的。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__map-route"
+  },
+  {
+    "id": "bank-chinese-1-order-022",
+    "familyId": "chinese-1-order__fam-22",
+    "version": 1,
+    "text": "写一条河：河水从山脚出发，绕过村子，最后流进大湖。如果先写大湖再写山脚，读者会觉得怎么样？",
+    "answer": "读者会觉得顺序倒了，因为水总是从山流向湖，不会倒着流。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "顺着水流的实际方向看：山脚、村子、大湖。",
+      "倒过来写就违背了水往低处流的事实，读者的想象会别扭。",
+      "答：读者会觉得顺序倒了，因为水总是从山流向湖，不会倒着流。"
+    ],
+    "hint": "想一想水往高处流还是往低处流。",
+    "alternative": "也可以从读者跟不跟得上的角度想：按实际流向写，读者的想象才顺畅。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__river-flow"
+  },
+  {
+    "id": "bank-chinese-1-order-023",
+    "familyId": "chinese-1-order__fam-23",
+    "version": 1,
+    "text": "登上钟楼往下看：整座城铺在脚下，屋顶像一片片鱼鳞，街道细得像线。从整体到局部，景物的范围发生了什么变化？",
+    "answer": "范围由整座城缩小到屋顶，再缩小到街道，画面越来越细。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "找出三样景物的范围：城、屋顶、街道。",
+      "一个比一个小，视线越来越收窄，这叫由整体到局部。",
+      "答：范围由整座城缩小到屋顶再缩小到街道，画面越来越细。"
+    ],
+    "hint": "想象镜头先拍大全景，再一点一点推近。",
+    "alternative": "也可以说成从宏观到微观：先看整体格局，再看局部纹理。",
+    "prerequisites": [
+      "chinese-1-order",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__tower-view"
+  },
+  {
+    "id": "bank-chinese-1-order-024",
+    "familyId": "chinese-1-order__fam-24",
+    "version": 1,
+    "text": "站在大树下抬头看：先是密密层层的叶子，再是树枝间漏下的天空。这个顺序是从哪里到哪里？",
+    "answer": "从近处的叶子到远处的天空，是由近及远。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "抬头时视线先碰到挡在眼前的叶子。",
+      "穿过叶子的缝隙才看到更远的天空，所以先近后远。",
+      "答：从近处的叶子到远处的天空，是由近及远的顺序。"
+    ],
+    "hint": "想想你的视线在抬头时先落在哪里。",
+    "alternative": "也可以从遮挡关系理解：近处的东西挡住了远处的东西，写出来自然先近后远。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__under-the-tree"
+  },
+  {
+    "id": "bank-chinese-1-order-025",
+    "familyId": "chinese-1-order__fam-25",
+    "version": 1,
+    "text": "坐在船上看湖：岸边的柳树从身边往后退去，水面上的芦苇摇过来，远处是几座青山。这段话的顺序是？",
+    "answer": "由近及远：先写身边退去的柳树，再写较近的芦苇，最后写远处的青山。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按离船的远近排三样景物。",
+      "柳树在身边最近，芦苇稍远一些，青山最远。",
+      "答：由近及远，先柳树，再芦苇，最后青山。"
+    ],
+    "hint": "想象船在往前走，看哪样东西最先从眼前掠过。",
+    "alternative": "也可以从移动的镜头想：船向前行，画面里的东西依次从近到远掠过。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__lake-boat"
+  },
+  {
+    "id": "bank-chinese-1-order-026",
+    "familyId": "chinese-1-order__fam-26",
+    "version": 1,
+    "text": "走进一片稻田：脚踩下去，水立刻溅起来；稻叶比人还高，把远处的房子都挡住了；远处只看得见一线天。这三句的空间范围怎么变？",
+    "answer": "由脚下到身前再到远方，范围越来越大，最后只剩一线天。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先看每句写的是离自己多近的地方。",
+      "脚下最近，稻叶在身前，更远处才见到天。",
+      "答：范围由脚下到身前再到远方越来越大，最后只剩一线天。"
+    ],
+    "hint": "按离你眼睛的距离给三句排队。",
+    "alternative": "也可以从视野被挡住的程度想：越往前走能看见的越少，视线反而越来越窄。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__field-path"
+  },
+  {
+    "id": "bank-chinese-1-order-027",
+    "familyId": "chinese-1-order__fam-27",
+    "version": 1,
+    "text": "下雨天上学：出门时雨点还稀，走到校门口，雨已经连成了一片。这两句之间是什么时候的关系？",
+    "answer": "是时间上的先后关系，写出了雨越下越大的变化过程。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "两句都写雨，但雨的状态不一样。",
+      "从还稀到连成一片，是雨在这段时间里的变化，前后就是先后的关系。",
+      "答：是时间上的先后关系，写出了雨越下越大的变化过程。"
+    ],
+    "hint": "把两句连起来读，看看雨是变大了还是变小了。",
+    "alternative": "也可以从过程的角度理解：这一段路走了多久，雨在这段时间里发生了什么。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__rainy-school-route"
+  },
+  {
+    "id": "bank-chinese-1-order-028",
+    "familyId": "chinese-1-order__fam-28",
+    "version": 1,
+    "text": "夜晚回家的小路：远远看见一盏灯，走近了，是邻居家的门灯，再往前，灯多了起来。写的时候你要先写哪一句？",
+    "answer": "先写远远看见一盏灯，再写走近认出是门灯，最后写前面灯多起来，是由远到近。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三句离人物的距离在变化：远、近、更近。",
+      "先看到远处的灯，再认出近处的灯，最后看到更多灯，顺序要跟着距离走。",
+      "答：先写远远看见一盏灯，再写走近认出是门灯，最后写前面灯多起来。"
+    ],
+    "hint": "先给三句标出远、近、更近。",
+    "alternative": "也可以从光线的多少来想：先一点灯光，再看清灯是什么，最后一片灯火。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__night-path-lantern"
+  },
+  {
+    "id": "bank-chinese-1-order-029",
+    "familyId": "chinese-1-order__fam-29",
+    "version": 1,
+    "text": "一幅山水画有远山、中景的树林、近处的几块石头。画家一般先画哪一层？你的理由是什么？",
+    "answer": "一般先画远山，再画中景的树林，最后画近处的石头，因为由远及近，也因为远山淡、近处浓。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "看三层景物离观者的距离。",
+      "远的先画、近的后画，层次才不会乱，远山也常用淡墨。",
+      "答：一般先画远山，再画中景树林，最后画近处的石头，因为由远及近。"
+    ],
+    "hint": "画画和写作一样，先铺大背景，再添细节。",
+    "alternative": "也可以从笔触浓淡想：远处淡、近处浓，先淡后浓才显得前后分明。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__painting-layers"
+  },
+  {
+    "id": "bank-chinese-1-order-030",
+    "familyId": "chinese-1-order__fam-30",
+    "version": 1,
+    "text": "下面四句被弄乱了：山顶上的风把旗子吹得直响；我们沿着石阶一步一步往上爬；半山腰的石碑上刻着字；回头看，山下的村子小得像积木。请按合理的顺序排好，并说出你的依据。",
+    "answer": "先写沿着石阶往上爬，再写半山腰的石碑，然后是山顶的旗子，最后写回头看山下的村子。",
+    "unit": "",
+    "knowledgeId": "chinese-1-order",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先排出上山的过程：出发、半山腰、山顶、下山回头看。",
+      "每一步对应一句，按行程排，读者才能跟着走。",
+      "答：先写爬石阶，再写半山腰石碑，然后是山顶旗子，最后写回头俯瞰村子。"
+    ],
+    "hint": "先想清楚人在哪一步，就把那一句放在那个位置。",
+    "alternative": "也可以按抬头看、低头看、回头看的视线顺序来排，同样通顺。",
+    "prerequisites": [
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-order__reorder-paragraph"
+  },
+  {
+    "id": "bank-chinese-1-write-001",
+    "familyId": "chinese-1-write__fam-01",
+    "version": 1,
+    "text": "用两三句话写校园里的一棵树，写清先看到什么、再看到什么。",
+    "answer": "示例：先看到的是操场边那棵大樟树，枝子伸得比楼还高；再看到树下堆着的落叶；最后闻到一阵淡淡的樟脑味。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想好站在哪里看这棵树，确定看它的先后次序。",
+      "按树干、枝叶、树下，或先整体再局部的顺序写，句子之间要有承接。",
+      "答：示例：先看到的是操场边那棵大樟树，枝子伸得比楼还高；再看到树下堆着的落叶；最后闻到一阵淡淡的樟脑味。"
+    ],
+    "hint": "先在脑子里走一遍：从哪看起，先看到树干还是先看到树冠。",
+    "alternative": "也可以用抬头看树冠、低头看树根、再闻味道来写，把视觉和嗅觉串起来。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__campus-tree"
+  },
+  {
+    "id": "bank-chinese-1-write-002",
+    "familyId": "chinese-1-write__fam-02",
+    "version": 1,
+    "text": "写一处景物时，你打算站在哪里看？站在不同的地方，你看到的样子有什么不一样？",
+    "answer": "示例：站在小路入口看，是整棵树的样子；走到树下抬头看，只能看到密密的枝叶和天空。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确定站的位置，再想象那个位置能看到什么、看不到什么。",
+      "位置换了，景物的范围和角度也跟着变，写作的起点因此不同。",
+      "答：示例：站在小路入口看是整棵树，走到树下抬头看只见密密的枝叶和天空。"
+    ],
+    "hint": "选一处你真去过的地方，先在脑子里站定，再想左右前后各有什么。",
+    "alternative": "也可以从时间角度选位置：早上站在东边看和傍晚站在西边看，光线不同，画面也不同。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__campus-tree"
+  },
+  {
+    "id": "bank-chinese-1-write-003",
+    "familyId": "chinese-1-write__fam-03",
+    "version": 1,
+    "text": "写一处你熟悉的景物，找出它最突出的一个特点，用一句话把这个特点写出来。",
+    "answer": "示例：我家楼下那棵桂花树最有特点的是香气，每年八月，风一吹，满巷子都是甜香。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把景物最有特点的地方圈出来，是形状、颜色、声音还是气味。",
+      "用一句话把这个特点具体写出来，不要停在很美、很特别。",
+      "答：示例：我家楼下那棵桂花树最突出的是香气，八月风一吹，满巷子都是甜香。"
+    ],
+    "hint": "别写很好看，写什么颜色、什么形状、什么声音这样能看见能听见的细节。",
+    "alternative": "也可以从对比入手：拿它和附近另一棵树比，把差别写出来，特点自然突出。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__campus-tree"
+  },
+  {
+    "id": "bank-chinese-1-write-004",
+    "familyId": "chinese-1-write__fam-04",
+    "version": 1,
+    "text": "写校园里的花坛：用颜色和形状两种办法把花坛写清楚，至少各写一句。",
+    "answer": "示例：花坛里是一丛丛红色的矮牵牛，花瓣圆得像小碗；紫边的叶子排成整齐的一圈。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确定花坛里主要的花是什么颜色。",
+      "再找一样有形状的东西来比，把样子写具体。",
+      "答：示例：花坛里一丛丛红色的矮牵牛，花瓣圆得像小碗；紫边的叶子排成整齐的一圈。"
+    ],
+    "hint": "颜色要说出是什么颜色，形状要找一个东西来比。",
+    "alternative": "也可以从数量和布局写：一排排、中间高两边低，同样能让花坛的形状清楚起来。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__campus-tree"
+  },
+  {
+    "id": "bank-chinese-1-write-005",
+    "familyId": "chinese-1-write__fam-05",
+    "version": 1,
+    "text": "从你家的窗口望出去，写两三句你每天都能看到的景物。",
+    "answer": "示例：先看到楼下那条种着香樟的小路；再看到路尽头的水果店；每天早上那里飘着烤面包的香味。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先确定从窗口看出去，最先落在哪一样东西上。",
+      "按由近及远或由远及近写两到三句，每天看到的是固定的那几样。",
+      "答：示例：先看到楼下种着香樟的小路，再看到路尽头的水果店，每天早上飘着烤面包的香味。"
+    ],
+    "hint": "每天看到的那几样东西固定不变，写的时候要挑最熟悉的。",
+    "alternative": "也可以按一天的时间写：早上看到什么，中午有什么变化，晚上又是哪一盏灯亮起。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__home-window"
+  },
+  {
+    "id": "bank-chinese-1-write-006",
+    "familyId": "chinese-1-write__fam-06",
+    "version": 1,
+    "text": "写窗外的一棵树时，你打算从哪一项写起：树的样子、树上的声音，还是树带来的感觉？说说你的理由。",
+    "answer": "示例：先从树的样子写起，因为它最容易被看见，再写声音，最后写自己的感觉。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "把样子、声音、感觉三项排一排。",
+      "先写最容易让人看见的，再写听得见的，最后写心里感受到的，层层深入。",
+      "答：示例：先从树的样子写起，因为最容易看见，再写声音，最后写自己的感觉。"
+    ],
+    "hint": "想一想读者第一次读到这段文字时，最想看到什么。",
+    "alternative": "也可以反过来，先写感觉制造悬念，再回到具体的样子揭晓。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__home-window"
+  },
+  {
+    "id": "bank-chinese-1-write-007",
+    "familyId": "chinese-1-write__fam-07",
+    "version": 1,
+    "text": "写一处自然景观，除了看到的，还要写出你听到的一种声音。",
+    "answer": "示例：公园的湖边很静，只听见柳枝在风里摩擦的沙沙声，还有水拍岸的轻响。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想这个地方安静时最常出现的声音是什么。",
+      "把声音写成句子放进去，注意它要和眼前的景物相配。",
+      "答：示例：公园的湖边很静，只听见柳枝在风里摩擦的沙沙声，还有水拍岸的轻响。"
+    ],
+    "hint": "先想安静下来的时候，这个地方最先能听见的声音。",
+    "alternative": "也可以写声音的远近：远处的钟声一声一声传过来，近处是草叶被踩的簌簌声。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__home-window"
+  },
+  {
+    "id": "bank-chinese-1-write-008",
+    "familyId": "chinese-1-write__fam-08",
+    "version": 1,
+    "text": "写村口的那条小溪，先写它是什么样子，再写它发出的声音。",
+    "answer": "示例：溪水从石头上淌过去，清得能看见水底的沙子；水声细细的，像有人在小声说话。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定下小溪最明显的特点，比如清、浅、急。",
+      "样子用眼睛写，声音用耳朵写，两句合起来画面才完整。",
+      "答：示例：溪水从石头上淌过去，清得能看见水底的沙子；水声细细的，像有人在小声说话。"
+    ],
+    "hint": "第一句想画面，第二句想声音，两句不要写成同一个意思。",
+    "alternative": "也可以在第二句里写溪边的东西：水声里有鸟叫，有洗衣人的说话声。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__village-stream"
+  },
+  {
+    "id": "bank-chinese-1-write-009",
+    "familyId": "chinese-1-write__fam-09",
+    "version": 1,
+    "text": "写一处你去过的地方，在结尾写一句自己的感受，让读者也跟着你的心情走。",
+    "answer": "示例：走出公园的时候，我舍不得回头，那片金色的树林一直留在了我的眼睛里。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "前面写景，最后把心情写出来，读者才知道你的感受。",
+      "感受要由眼前的景引起，不能突然冒出来。",
+      "答：示例：走出公园的时候，我舍不得回头，那片金色树林一直留在我的眼睛里。"
+    ],
+    "hint": "先问自己：站在这处景物前，心里最想说的是什么？",
+    "alternative": "也可以把感受藏在景物里：写一片舍不得落下的叶子，比直接说我很难过更有味道。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__village-stream"
+  },
+  {
+    "id": "bank-chinese-1-write-010",
+    "familyId": "chinese-1-write__fam-10",
+    "version": 1,
+    "text": "给村口的小溪这个题目，写一段话，至少用一个比喻，让读者能想象出小溪的样子。",
+    "answer": "示例：村口的小溪像一条透明的带子，从村前的石桥下慢慢穿过，水声一路跟着你走。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "基础",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先想小溪像什么，才能写出贴切的比喻。",
+      "比喻要抓住相像的地方，比如它细长、清亮。",
+      "答：示例：村口的小溪像一条透明的带子，从村前石桥下慢慢穿过，水声一路跟着走。"
+    ],
+    "hint": "想一想小溪的形状和颜色，找一个东西来比它。",
+    "alternative": "也可以把声音比作别的：水声像谁在轻轻翻书，画面一样鲜活。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "basic",
+    "contextId": "chinese-1-write__village-stream"
+  },
+  {
+    "id": "bank-chinese-1-write-011",
+    "familyId": "chinese-1-write__fam-11",
+    "version": 1,
+    "text": "写公园的湖：先写看到的湖面，再写湖边的景物，把顺序安排好。",
+    "answer": "示例：先写湖面，水绿得发亮，风一过就皱起细纹；再写湖边，柳树的枝条垂到水里，石头缝里开着小白花。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定湖面在远处、湖边在近处，先远后近是常见的选择。",
+      "每一部分挑一个最清楚的细节来写，不要只写很美。",
+      "答：示例：先写湖面水绿发亮起细纹，再写湖边垂柳和石头缝里的小白花。"
+    ],
+    "hint": "在纸上画一个简单的湖，标出你要先写的和后写的。",
+    "alternative": "也可以先写湖边垂柳，再从柳枝间看湖面，由近及远同样成立。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__park-lake"
+  },
+  {
+    "id": "bank-chinese-1-write-012",
+    "familyId": "chinese-1-write__fam-12",
+    "version": 1,
+    "text": "写湖面的颜色变化：早上湖面是灰蓝色的，中午变成墨绿，傍晚又泛起金色。你会把哪个时刻写在最前面？为什么？",
+    "answer": "示例：把傍晚写在前面，因为金色最明亮、最能引起注意；也可以按时间从早到晚写，重点同样清楚。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "三个时刻都可以当开头，看你想突出什么。",
+      "要突出最亮的画面就先写傍晚，要讲一天的经过就按时间先后。",
+      "答：示例：把傍晚写在前面，因为金色最明亮最吸引人；也可以从早到晚按时间推进。"
+    ],
+    "hint": "先想这次是想突出一个时刻，还是想讲出一天的变化。",
+    "alternative": "也可以把变化最快的那一刻放开头，比如先写湖面忽然亮了，再补上时间。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__park-lake"
+  },
+  {
+    "id": "bank-chinese-1-write-013",
+    "familyId": "chinese-1-write__fam-13",
+    "version": 1,
+    "text": "写海边的黄昏，至少写出光和颜色两种要素。",
+    "answer": "示例：太阳挨着海面，海水被染成橙红色；天边一大片金黄的云，亮得睁不开眼。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "黄昏最突出的是光，把亮、染、晃眼这类词用上。",
+      "颜色要具体：橙红、金黄，不必笼统写五颜六色。",
+      "答：示例：太阳挨着海面，海水被染成橙红色；天边一片金黄的云，亮得睁不开眼。"
+    ],
+    "hint": "先问自己：黄昏的光照在哪儿？海？云？沙？",
+    "alternative": "也可以写光带来的动作：海面上铺开一条金色的路，把光写成可以走的路。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__seaside-sunset"
+  },
+  {
+    "id": "bank-chinese-1-write-014",
+    "familyId": "chinese-1-write__fam-14",
+    "version": 1,
+    "text": "写海边的黄昏，除了颜色，你还能写出什么？写一句有声音或动作的话。",
+    "answer": "示例：海浪一遍遍涌上沙滩，哗地散开，又被拉回去；风把沙粒吹得贴在脚背上。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "黄昏的画面不止颜色，还有海浪和风的动静。",
+      "用动词把动作写出来，画面就动起来了。",
+      "答：示例：海浪一遍遍涌上沙滩，哗地散开又被拉回去，风把沙粒吹在脚背上。"
+    ],
+    "hint": "把耳朵和手脚都用上：听到什么，感觉到什么。",
+    "alternative": "也可以写声音的远近：远处浪声闷闷的，近处哗啦一声就在脚边。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__seaside-sunset"
+  },
+  {
+    "id": "bank-chinese-1-write-015",
+    "familyId": "chinese-1-write__fam-15",
+    "version": 1,
+    "text": "写一条秋天山上的小路，按你走的顺序写，并让每一步看到的都不一样。",
+    "answer": "示例：山脚下是满地金黄的落叶；走到半坡，枫树红得像着了火；快到山顶时，风里带着松脂的味道。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定下路线：山脚、半坡、山顶，位置变化带动景物变化。",
+      "每走一段挑一个不同方面的细节：颜色、形状、味道都行。",
+      "答：示例：山脚是满地金黄的落叶，半坡枫树红得像着火，顶峰带着松脂味。"
+    ],
+    "hint": "把路线分成三段，每段问自己：这一段最有特点的是什么？",
+    "alternative": "也可以按看见、听见、闻到来分三段，让感官不重复。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__autumn-mountain-path"
+  },
+  {
+    "id": "bank-chinese-1-write-016",
+    "familyId": "chinese-1-write__fam-16",
+    "version": 1,
+    "text": "写山路时，除了眼前看到的，还可以写些什么来让人相信你真的走过？",
+    "answer": "示例：可以写脚下的石头硌脚、汗珠顺着脖子往下淌、裤脚沾了露水等真实细节。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "真实感来自身体的感觉：累、热、脚下的触感。",
+      "挑一两处真有的细节写出来，不要编得太夸张。",
+      "答：示例：可以写脚下的石头硌脚、汗珠顺着脖子往下淌、裤脚沾了露水。"
+    ],
+    "hint": "回想走山路时身上最明显的一种感觉是什么。",
+    "alternative": "也可以写路上遇到的人和事，比如歇脚时遇到的一位老人。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__autumn-mountain-path"
+  },
+  {
+    "id": "bank-chinese-1-write-017",
+    "familyId": "chinese-1-write__fam-17",
+    "version": 1,
+    "text": "写一场雨中的景象，至少写出两种感官看到或听到的内容。",
+    "answer": "示例：雨点打在伞面上噼噼啪啪；空气里是湿泥土的味道；路面亮得像镜子，映着路灯。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定下雨时最突出的声音和味道。",
+      "再补一个能看见的画面，比如反光的水面。",
+      "答：示例：伞面噼噼啪啪，湿泥土味扑鼻，路面亮得像镜子映着路灯。"
+    ],
+    "hint": "闭上眼睛站在雨里，听见的、闻到的、摸到的先各写一条。",
+    "alternative": "也可以写雨落的地方：屋檐、树叶、水洼，落在不同东西上声音不一样。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__rainy-scene"
+  },
+  {
+    "id": "bank-chinese-1-write-018",
+    "familyId": "chinese-1-write__fam-18",
+    "version": 1,
+    "text": "写雨停了，用两三句写出和下雨时不一样的地方。",
+    "answer": "示例：雨停了，屋檐还在滴水，一滴一滴敲着水桶；空气清新得发甜，树叶上挂满水珠，阳光照下来一闪一闪。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "雨停之后最明显的差别是声音变小，但水还在滴。",
+      "再写空气、颜色或光泽的变化，让画面和雨中形成对照。",
+      "答：示例：屋檐还在滴水敲着水桶，空气清新发甜，叶上水珠被阳光照得一闪一闪。"
+    ],
+    "hint": "雨停后先安静下来，仔细听还有什么声音在。",
+    "alternative": "也可以写人的动作：撑伞的人收起伞，街上的人跑起来，路面被踩得四溅。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__rainy-scene"
+  },
+  {
+    "id": "bank-chinese-1-write-019",
+    "familyId": "chinese-1-write__fam-19",
+    "version": 1,
+    "text": "写春天的花园，让读者看出花的颜色是慢慢多起来的。",
+    "answer": "示例：先是墙角那株迎春开出一点黄；再是一树桃花粉粉地挤满了枝头；最后整片油菜花铺开，金亮得晃眼。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "按花开放的先后挑三样：迎春、桃、油菜。",
+      "在句子里用先、再、最后把时间关系写出来，颜色随之上色。",
+      "答：示例：先有迎春的黄，再是满枝桃花粉，最后油菜花铺开一片金黄。"
+    ],
+    "hint": "想一想哪种种先开、哪种后开，再挑出三种颜色。",
+    "alternative": "也可以不按开放顺序，改按颜色由浅到深来写，效果同样清楚。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__spring-garden"
+  },
+  {
+    "id": "bank-chinese-1-write-020",
+    "familyId": "chinese-1-write__fam-20",
+    "version": 1,
+    "text": "写花园时，除了花的颜色，还能写什么让画面活起来？",
+    "answer": "示例：蜜蜂在花心钻来钻去，翅膀嗡嗡响；风一吹，花瓣落了一地，铺在小路上。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "巩固",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "花园里有会动的小生命：蜜蜂、蝴蝶、鸟。",
+      "加上动作和声音，画面就活了。",
+      "答：示例：蜜蜂在花心钻来钻去，翅膀嗡嗡响，风吹落一地花瓣。"
+    ],
+    "hint": "想一想花园里除了花，还有谁在忙。",
+    "alternative": "也可以写气味和温度：甜丝丝的香气，早上的凉意还没散。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "application",
+    "contextId": "chinese-1-write__spring-garden"
+  },
+  {
+    "id": "bank-chinese-1-write-021",
+    "familyId": "chinese-1-write__fam-21",
+    "version": 1,
+    "text": "你刚搬到新家，站在阳台上第一次往外看。写两三句你看到的样子。",
+    "answer": "示例：阳台外面是一片陌生的小区花园，绿树还没我高；楼下的路还很新；远处的楼群在雾里只露出几块影子。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "第一次看，要把陌生和还在变化写出来。",
+      "挑选两三样陌生的景物，先近后远写，画面才有新鲜感。",
+      "答：示例：阳台外是陌生的小区花园，楼下新路，远处楼群在雾里只有几块影子。"
+    ],
+    "hint": "想一想刚到一个新地方时，什么最让你觉得不一样。",
+    "alternative": "也可以写第二天再看，和第一天对比，变化会自己显出来。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__new-home-balcony"
+  },
+  {
+    "id": "bank-chinese-1-write-022",
+    "familyId": "chinese-1-write__fam-22",
+    "version": 1,
+    "text": "写老家院子里的景色，写出它和城里不一样的地方。",
+    "answer": "示例：院子里有棵比房梁还高的枣树，树下拴着一条黄狗；墙角堆着农具，篱笆上爬满了丝瓜。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找出院子和城里最大的不同点，比如植物、农具、动物。",
+      "用两样具体的旧东西把这份不同写出来。",
+      "答：示例：院里有比房梁还高的枣树和拴着的黄狗，墙角堆着农具，篱笆爬满丝瓜。"
+    ],
+    "hint": "先想一件城里见不到的东西，再把它写具体。",
+    "alternative": "也可以从声音入手：公鸡打鸣、蜜蜂嗡嗡，比城里安静得能听见彼此。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__grandparents-yard"
+  },
+  {
+    "id": "bank-chinese-1-write-023",
+    "familyId": "chinese-1-write__fam-23",
+    "version": 1,
+    "text": "写校园的操场，按从大到小或从上到下的顺序写，让读者找得到位置。",
+    "answer": "示例：操场四周是一圈红色跑道，中间是绿油油的草坪；草坪那头立着两个篮球架；看台上空着几排长椅。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先画一个简单的操场平面图，标出各部分的位置。",
+      "按你画的顺序写，每样东西用中间、那头、四周交代位置。",
+      "答：示例：跑道围一圈，草坪在中间，那头两个篮球架，看台空着几排长椅。"
+    ],
+    "hint": "先在草稿纸上画个圈和几条线，位置清楚了就好写。",
+    "alternative": "也可以从时间写：早上空荡，上课铃一响，人从四面八方涌进来。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__school-field"
+  },
+  {
+    "id": "bank-chinese-1-write-024",
+    "familyId": "chinese-1-write__fam-24",
+    "version": 1,
+    "text": "写地铁车窗外的城市，快的时候和慢的时候看到的样子有什么不同？",
+    "answer": "示例：快的时候，楼房和广告牌拉成一条条线；到站前减速时，路牌、行人和站牌才慢慢清楚起来。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "快慢决定了景物是糊成一条线，还是能看清细节。",
+      "两种状态各写一句，放在一起对照，差别就出来了。",
+      "答：示例：快时楼房拉成线，减速时路牌和行人慢慢清楚。"
+    ],
+    "hint": "想一想火车快过时窗外的样子，和你停下看它的样子有什么不同。",
+    "alternative": "也可以用声音配合：快时只有轰隆声，慢下来能听见报站和开门的声音。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__subway-window"
+  },
+  {
+    "id": "bank-chinese-1-write-025",
+    "familyId": "chinese-1-write__fam-25",
+    "version": 1,
+    "text": "写夜晚小桥下的流水，用一明一暗写出画面的层次。",
+    "answer": "示例：桥上的路灯在水面拉出一道亮亮的光带；光带以外的水又黑又静，只有水声在响。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先找画面里最亮的部分：桥灯和它落在水里的光。",
+      "再写亮处以外的部分，用黑和静来衬托，层次就出来了。",
+      "答：示例：桥灯在水上拉出一道光带，光带外的水又黑又静，只有水声在响。"
+    ],
+    "hint": "想一想夜晚有灯的地方和没有灯的地方分别是什么样。",
+    "alternative": "也可以让水面上的亮点动起来：光带被水纹扯成一段一段。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__night-bridge-stream"
+  },
+  {
+    "id": "bank-chinese-1-write-026",
+    "familyId": "chinese-1-write__fam-26",
+    "version": 1,
+    "text": "写沙漠里的星空，让读者觉得星星又多又远。",
+    "answer": "示例：抬头一看，星星密得像撒了一把沙子，一颗挨着一颗；银河斜斜地挂过去，好像一直流到天的另一边。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用多来写密度，用比喻把星星比成看得见的东西。",
+      "再用一条线，也就是银河，把画面拉出距离。",
+      "答：示例：星星密得像撒了一把沙子，银河斜挂过去，好像流到天边。"
+    ],
+    "hint": "数量多就往密、挨着上想，距离远就找一条横穿天空的大线。",
+    "alternative": "也可以用声音写静：除了风，沙漠里安静得能听见自己的心跳。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__desert-stars"
+  },
+  {
+    "id": "bank-chinese-1-write-027",
+    "familyId": "chinese-1-write__fam-27",
+    "version": 1,
+    "text": "写雪后的村子，抓住白和亮这两个特点写。",
+    "answer": "示例：屋顶、墙头、篱笆全是白的；雪被太阳一照，亮得睁不开眼，只有几扇小窗透着黄黄的灯光。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "用全是这样的词把白写到极致。",
+      "再写光：雪反光很强，亮到刺眼，两点合起来才是雪后村子的样子。",
+      "答：示例：屋顶墙头篱笆全白，雪被太阳照得睁不开眼，只有小窗透出黄灯光。"
+    ],
+    "hint": "先找一样东西把白写满，再想这白色在光下会怎样。",
+    "alternative": "也可以用对比：满眼的白里只点出几处暖色，比如屋里的灯或一串红辣椒。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__snow-village"
+  },
+  {
+    "id": "bank-chinese-1-write-028",
+    "familyId": "chinese-1-write__fam-28",
+    "version": 1,
+    "text": "写湖上的月亮，把静和动放在一起写。",
+    "answer": "示例：月亮静静地挂在湖心，风一停，水面平得像镜子；一阵风吹过，月影被揉碎了，一片一片晃。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先写静的一面：月亮和水面都不动。",
+      "再用一阵风把静打破，写出动的变化，一静一动就都有了。",
+      "答：示例：月亮静挂湖心，水面平如镜；风吹来月影被揉碎，一片片晃动。"
+    ],
+    "hint": "先想风和月的关系：风停时怎样，风起时又怎样。",
+    "alternative": "也可以让声音来打破安静，比如桨声一响，月影就跟着荡开。",
+    "prerequisites": [
+      "chinese-1-write"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__lake-moon"
+  },
+  {
+    "id": "bank-chinese-1-write-029",
+    "familyId": "chinese-1-write__fam-29",
+    "version": 1,
+    "text": "你连续观察了几天鸟窝，写两三句记录它的变化，说明你观察得细不细。",
+    "answer": "示例：第一天只有一个蛋，第三天变成三个，第五天蛋壳已经空了，雏鸟张着嘴要食。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "写清楚第几天和看到什么两件事，让变化能对比。",
+      "越细的记录越能证明观察得认真，也才看得出变化。",
+      "答：示例：第一天一个蛋，第三天三个，第五天蛋壳空了，雏鸟张嘴要食。"
+    ],
+    "hint": "按日期一条一条记，不要凭印象合并。",
+    "alternative": "也可以加一句天气，让每次观察都有背景：第二天下雨，我看见亲鸟用翅膀挡着巢口。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-order"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__bird-nest"
+  },
+  {
+    "id": "bank-chinese-1-write-030",
+    "familyId": "chinese-1-write__fam-30",
+    "version": 1,
+    "text": "你要给一位没来过的外地同学介绍一处自然景观。选一处最打动你的，并说清楚你打算让他看到什么。",
+    "answer": "示例：选学校后山的银杏道，告诉他秋天整条路金黄，风一吹扇子满天飞，踩上去很响。",
+    "unit": "",
+    "knowledgeId": "chinese-1-write",
+    "difficulty": "挑战",
+    "source": "小禾教研原创静态题库 · 样例编写",
+    "sourceScope": "小学四年级上册静态内容库 · 未人工逐题复核 · 教学有效性待教研验证",
+    "steps": [
+      "先定一处自己最想分享的地方和它最有特点的一面。",
+      "想象对方第一次站在那里的样子，把最想让他看到的细节写出来。",
+      "答：示例：选后山银杏道，告诉他秋天满路金黄，风吹扇子满天飞，踩上去很响。"
+    ],
+    "hint": "想一想：你最想让没见过的人知道的那个惊叹，是什么样子的？",
+    "alternative": "也可以写不同季节的样子，先写最好看的一季，再交代季节差别。",
+    "prerequisites": [
+      "chinese-1-write",
+      "chinese-1-imagery"
+    ],
+    "status": "published",
+    "authorId": "bank-author-chinese",
+    "reviewerId": "bank-check-chinese",
+    "reviewNote": "题库由教研模板批量编写并通过自动校验脚本；未经逐题人工复核，不代表教学有效性已验证。",
+    "createdAt": "2026-11-01T00:00:00.000Z",
+    "taskType": "transfer",
+    "contextId": "chinese-1-write__guide-for-visitor"
+  }
+]
