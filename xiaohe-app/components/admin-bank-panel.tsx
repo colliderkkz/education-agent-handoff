@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import { AlertTriangle, ChevronDown, Database, Layers3, Search } from "lucide-react";
+import { AlertTriangle, Database, Layers3, Search } from "lucide-react";
 import { curriculumCatalog, type CatalogSubject } from "@/lib/curriculum-catalog";
 import { shanghaiCatalog } from "@/lib/curriculum-catalog-shanghai";
-import { stageNames, stageOfKnowledge, subjectOfKnowledge, type StageId, type WorkspaceState } from "@/lib/types";
+import { stageNames, type StageId } from "@/lib/types";
 import QuestionFigure from "./question-figure";
 import "./admin-workspace.css";
 
@@ -11,7 +11,7 @@ type BankItem = {
   id: string; familyId: string; version: number; knowledgeId: string;
   taskType?: string; contextId?: string; difficulty: string;
   text: string; answer: string; unit: string; source: string; sourceScope: string;
-  steps: string[]; hint: string; alternative: string; prerequisites: string[]; image?: string | null; fromWorkspace: boolean;
+  steps: string[]; hint: string; alternative: string; prerequisites: string[]; image?: string | null;
 };
 type BankResponse = {
   version: string; digest: string; counts: Record<string, Record<string, number>>;
@@ -43,10 +43,10 @@ const taskTypeNames: Record<string, string> = { basic: "基础任务", applicati
  * （接口层也会再校验一次）。这里明确标出「未经逐题人工复核」，
  * 不让教研把机器校验误读成人工审核。
  */
-export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { workspaceId?: string; workspaceKnowledge?: WorkspaceState["knowledge"] }) {
+export function AdminBankPanel() {
   const [stage, setStage] = useState("");
   const [subject, setSubject] = useState("");
-  const [selectedPoints, setSelectedPoints] = useState<string[]>([]);
+  const [point, setPoint] = useState("");
   const [keyword, setKeyword] = useState("");
   const [page, setPage] = useState(1);
   const [view, setView] = useState<{ data: BankResponse | null; error: string; loading: boolean }>({ data: null, error: "", loading: true });
@@ -54,10 +54,9 @@ export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { works
   useEffect(() => {
     let active = true;
     const params = new URLSearchParams();
-    if (workspaceId) params.set("workspaceId", workspaceId);
     if (stage) params.set("stage", stage);
     if (subject) params.set("subject", subject);
-    for (const point of selectedPoints) params.append("point", point);
+    if (point) params.set("point", point);
     if (keyword.trim()) params.set("q", keyword.trim());
     params.set("page", String(page));
     fetch(`/api/content-bank?${params.toString()}`)
@@ -71,7 +70,7 @@ export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { works
         setView({ data: null, error: failure instanceof Error ? failure.message : "题库暂时无法读取", loading: false });
       });
     return () => { active = false; };
-  }, [workspaceId, stage, subject, selectedPoints, keyword, page]);
+  }, [stage, subject, point, keyword, page]);
 
   const { data, error, loading } = view;
 
@@ -90,29 +89,15 @@ export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { works
     () => allSubjects.filter(item => (!stage || stageOfSubject(item) === stage) && (!subject || item.id === subject)),
     [allSubjects, stage, subject],
   );
-  const points = useMemo(() => {
-    const items = visibleSubjects.flatMap(item => item.units.flatMap(unit => unit.points.map(point => ({ subject: item.id, point }))));
-    const seen = new Set(items.map(item => item.point.id));
-    for (const point of workspaceKnowledge) {
-      const pointStage = stageOfKnowledge(point.id);
-      const pointSubject = subjectOfKnowledge(point.id);
-      if (!seen.has(point.id) && pointSubject && (!stage || stage === pointStage) && (!subject || subject === pointSubject)) {
-        items.push({ subject: pointSubject, point: { id: point.id, name: point.name, description: point.description } });
-        seen.add(point.id);
-      }
-    }
-    return items;
-  }, [visibleSubjects, workspaceKnowledge, stage, subject]);
-  const changePoint = (id: string, checked: boolean) => {
-    setSelectedPoints(previous => checked ? [...new Set([...previous, id])] : previous.filter(item => item !== id));
-    setPage(1);
-    setView({ data: null, error: "", loading: true });
-  };
+  const points = useMemo(
+    () => visibleSubjects.flatMap(item => item.units.flatMap(unit => unit.points.map(point => ({ subject: item.id, point })))),
+    [visibleSubjects],
+  );
 
   return (
     <>
       <div className="admin-metrics">
-        <Metric label={stage || subject || selectedPoints.length || keyword.trim() ? "筛选结果" : "试卷题目"} value={data ? data.total : loading ? "加载中" : "—"} detail="已发布题目及题库" icon={Database} accent />
+        <Metric label={stage || subject || point || keyword.trim() ? "筛选结果" : "新增题库"} value={data ? data.total : loading ? "加载中" : "—"} detail="只读题库，可用于组卷" icon={Database} accent />
         <Metric label="小学" value={data ? countSum(data.counts.primary) : "—"} detail="四年级上册" icon={Layers3} />
         <Metric label="初中" value={data ? countSum(data.counts.junior) : "—"} detail="上海中考考纲" icon={Layers3} />
         <Metric label="高中" value={data ? countSum(data.counts.senior) : "—"} detail="上海高考考纲" icon={Layers3} />
@@ -120,30 +105,22 @@ export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { works
 
       <div className="admin-notice admin-notice-warning">
         <AlertTriangle size={16} />
-        <span>新增题库中的批量题目经过自动校验，<strong>尚未逐题人工复核</strong>。正式投放前请由教研逐题核对。</span>
+        <span>静态库题目由教研模板批量编写并通过自动校验脚本，<strong>未经逐题人工复核</strong>，不代表教学有效性已验证。正式投放前请由教研逐题核对。</span>
       </div>
 
       <div className="admin-filters">
-        <select className="input" value={stage} onChange={(event) => { const nextStage = event.target.value; setStage(nextStage); setSubject(defaultSubjectForStage(allSubjects, nextStage)); setSelectedPoints([]); setPage(1); }} aria-label="筛选学段">
+        <select className="input" value={stage} onChange={(event) => { const nextStage = event.target.value; setStage(nextStage); setSubject(defaultSubjectForStage(allSubjects, nextStage)); setPoint(""); setPage(1); }} aria-label="筛选学段">
           <option value="">全部学段</option>
           {stageOptions.map(item => <option key={item} value={item}>{stageNames[item as StageId]}</option>)}
         </select>
-        <select className="input" value={subject} onChange={(event) => { setSubject(event.target.value); setSelectedPoints([]); setPage(1); }} aria-label="筛选学科">
+        <select className="input" value={subject} onChange={(event) => { setSubject(event.target.value); setPoint(""); setPage(1); }} aria-label="筛选学科">
           <option value="">全部学科</option>
           {subjectOptions.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}
         </select>
-        <details className="admin-point-filter">
-          <summary className="input" aria-label={`筛选知识点，${selectedPoints.length ? `已选 ${selectedPoints.length} 个` : "全部"}`}>
-            <span>{selectedPoints.length ? `已选 ${selectedPoints.length} 个知识点` : "全部知识点"}</span><ChevronDown size={15} aria-hidden="true" />
-          </summary>
-          <div className="admin-point-popover" role="group" aria-label="选择知识点，可多选">
-            <div className="admin-point-filter-heading"><span>选择知识点，可多选</span><button type="button" disabled={!selectedPoints.length} onClick={() => { setSelectedPoints([]); setPage(1); setView({ data: null, error: "", loading: true }); }}>清除</button></div>
-            <div className="admin-point-options">
-              {points.map(item => <label key={item.point.id}><input type="checkbox" checked={selectedPoints.includes(item.point.id)} onChange={event => changePoint(item.point.id, event.target.checked)} /><span>{item.point.name}</span></label>)}
-              {!points.length && <p>当前没有可选的知识点。</p>}
-            </div>
-          </div>
-        </details>
+        <select className="input" value={point} onChange={(event) => { setPoint(event.target.value); setPage(1); }} aria-label="筛选知识点">
+          <option value="">全部知识点</option>
+          {points.map(item => <option key={item.point.id} value={item.point.id}>{item.point.name}</option>)}
+        </select>
         <span className="admin-search"><Search size={15} /><input className="input" value={keyword} onChange={(event) => { setKeyword(event.target.value); setPage(1); }} placeholder="搜索题干、题号或来源" aria-label="搜索题库" /></span>
         {data && <span className="admin-footnote">库版本 {data.version} · 摘要 {data.digest.slice(0, 12) || "（空库）"}</span>}
       </div>
@@ -161,7 +138,7 @@ export function AdminBankPanel({ workspaceId, workspaceKnowledge = [] }: { works
                     <td>
                       <QuestionFigure image={item.image} version={item.version} />
                       <strong>{item.text}</strong>
-                      <small className="admin-table-sub">{item.fromWorkspace ? "工作区题目" : "新增题库"} · {item.id} · v{item.version}</small>
+                      <small className="admin-table-sub">{item.id} · v{item.version} · {item.familyId}</small>
                     </td>
                     <td>{item.knowledgeId}</td>
                     <td>{item.taskType ? taskTypeNames[item.taskType] ?? item.taskType : "—"}{item.contextId ? <><small className="admin-table-sub">{item.contextId}</small></> : null}</td>

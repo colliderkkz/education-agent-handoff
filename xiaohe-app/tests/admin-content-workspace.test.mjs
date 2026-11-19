@@ -35,7 +35,7 @@ function tsxModule(file) {
   compiled.set(file, url);
   return url;
 }
-const { AdminWorkspace, NewBankTabs, buildAdminContentPackage, ContentPackagePanel, ContentArchivePanel, ContentVersionDetail, ContentBatchHistory } = await import(tsxModule(path.join(root, "components/admin-workspace.tsx")));
+const { AdminWorkspace, buildAdminContentPackage, ContentPackagePanel, ContentArchivePanel, ContentVersionDetail, ContentBatchHistory } = await import(tsxModule(path.join(root, "components/admin-workspace.tsx")));
 const { subjectOptionsForStage, defaultSubjectForStage } = await import(tsxModule(path.join(root, "components/admin-bank-panel.tsx")));
 const render = (Component, props) => renderToStaticMarkup(React.createElement(Component, props));
 const metadata = { packageId: "admin-test-package", publisherId: "xiaohe-local-trial", createdAt: "2026-10-26T14:00:00.000Z", withdrawals: [] };
@@ -48,26 +48,14 @@ function fixture() {
   return state;
 }
 
-test("question library is read-only while authoring tools are grouped in the new question bank", () => {
+test("the admin landing page opens the new question bank and shows loading instead of a false zero", () => {
   const html = render(AdminWorkspace, { state: fixture(), busy: false, mutate: async () => undefined, navigate() {} });
   assert.match(html, /新增题库/);
-  assert.match(html, /试卷知识库/);
   assert.match(html, /加载中/);
   assert.match(html, /筛选学段/);
-  assert.match(html, /选择知识点，可多选/);
-  assert.match(html, /除数是两位数的除法/);
-  assert.match(html, /type="checkbox"/);
   assert.equal((html.match(/<option value="math">数学<\/option>/g) ?? []).length, 1);
   assert.doesNotMatch(html, /数学（(?:小学|初中|高中)）/);
   assert.doesNotMatch(html, /工作区已发布/);
-  assert.doesNotMatch(html, /新建题目|新增题库功能/);
-  const navigation = html.match(/<nav aria-label="教研模块">([\s\S]*?)<\/nav>/)?.[1] ?? "";
-  assert.match(navigation, /试卷知识库/);
-  assert.match(navigation, /新增题库/);
-  assert.doesNotMatch(navigation, /图片识别与校对|审核与版本|课程知识点/);
-  const tabs = render(NewBankTabs, { section: "library", reviewCount: 2, onSelect() {} });
-  for (const label of ["题目管理", "图片识别", "审核与版本", "教学解法", "知识导图"]) assert.match(tabs, new RegExp(label));
-  assert.match(tabs, /aria-pressed="true">题目管理/);
 });
 
 test("subject filters match the stage and choose the only subject automatically", () => {

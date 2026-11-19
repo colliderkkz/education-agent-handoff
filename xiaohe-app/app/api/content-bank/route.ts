@@ -1,9 +1,8 @@
 import { getChatGPTUser } from "../../chatgpt-auth";
 import { loadContentBank } from "../../../lib/content-bank";
 import { resolveAccess } from "../../../lib/server/memberships";
-import { readWorkspace } from "../../../lib/server/store";
-import { errorResponse, json, requestWorkspaceId } from "../../../lib/server/http";
-import { mergedQuestions, subjectOfKnowledge, stageOfKnowledge, type Question } from "@/lib/types";
+import { errorResponse, json } from "../../../lib/server/http";
+import { subjectOfKnowledge, stageOfKnowledge, type Question } from "@/lib/types";
 
 const PAGE_SIZE = 50;
 
@@ -18,32 +17,29 @@ export async function GET(request: Request): Promise<Response> {
   try {
     const user = await getChatGPTUser();
     if (!user) return json({ error: "请先使用 ChatGPT 登录" }, 401);
-    const access = await resolveAccess(user, requestWorkspaceId(request));
+    const access = await resolveAccess(user);
     if (!["owner", "editor", "reviewer"].includes(access.role)) return json({ error: "当前身份没有查看题库的权限" }, 403);
 
     const url = new URL(request.url);
     const stage = url.searchParams.get("stage") ?? "";
     if (stage && !["primary", "junior", "senior"].includes(stage)) return json({ error: "无效的学段" }, 400);
     const subject = url.searchParams.get("subject") ?? "";
-    const points = new Set(url.searchParams.getAll("point").filter(Boolean));
+    const point = url.searchParams.get("point") ?? "";
     const keyword = url.searchParams.get("q") ?? "";
     const page = Math.max(1, Number(url.searchParams.get("page") ?? 1) || 1);
 
     const bank = loadContentBank();
-    const workspace = await readWorkspace(user, access);
-    const published = mergedQuestions(workspace, bank).filter(q => q.status === "published");
-    const workspaceIds = new Set(workspace.questions.map(q => q.id));
-    let questions = published;
+    let questions = bank.questions;
     if (stage) questions = questions.filter(q => stageOfKnowledge(q.knowledgeId) === stage);
     if (subject) questions = questions.filter(q => subjectOfKnowledge(q.knowledgeId) === subject);
-    if (points.size) questions = questions.filter(q => points.has(q.knowledgeId));
+    if (point) questions = questions.filter(q => q.knowledgeId === point);
     if (keyword.trim()) {
       const needle = keyword.trim();
       questions = questions.filter(q => q.text.includes(needle) || q.id.includes(needle) || q.source.includes(needle));
     }
 
     const counts: Record<string, Record<string, number>> = {};
-    for (const question of published) {
+    for (const question of bank.questions) {
       const subjectId = subjectOfKnowledge(question.knowledgeId);
       if (!subjectId) continue;
       const stage = stageOfKnowledge(question.knowledgeId);
@@ -51,7 +47,7 @@ export async function GET(request: Request): Promise<Response> {
       counts[stage][subjectId] = (counts[stage][subjectId] ?? 0) + 1;
     }
     const start = (page - 1) * PAGE_SIZE;
-    const items = questions.slice(start, start + PAGE_SIZE).map(q => bankItem(q, workspaceIds.has(q.id)));
+    const items = questions.slice(start, start + PAGE_SIZE).map(bankItem);
     return json({
       version: bank.version,
       digest: bank.digest,
@@ -65,12 +61,12 @@ export async function GET(request: Request): Promise<Response> {
   } catch (error) { return errorResponse(error); }
 }
 
-function bankItem(q: Question, fromWorkspace: boolean) {
+function bankItem(q: Question) {
   return {
     id: q.id, familyId: q.familyId, version: q.version, knowledgeId: q.knowledgeId,
     taskType: q.taskType, contextId: q.contextId, difficulty: q.difficulty,
     text: q.text, answer: q.answer, unit: q.unit, source: q.source, sourceScope: q.sourceScope,
     steps: q.steps, hint: q.hint, alternative: q.alternative, prerequisites: q.prerequisites,
-    image: q.image ?? null, fromWorkspace,
+    image: q.image ?? null,
   };
 }
